@@ -1,0 +1,14 @@
+<ac_box_lod01.model>
+	<nodelessVisual>	sets/urban/props/ac_box/model/ac_box_lod01	</nodelessVisual>
+	<extent>	100.000000	</extent>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-0.949483 -0.016768 -0.648407	</min>
+		<max>	0.949404 1.214455 0.618974	</max>
+	</visibilityBox>
+	<metaData>
+		<copyright>	Copyright BigWorld Pty Ltd.  Use freely in any BigWorld licensed game.	</copyright>
+		<modified_by>	AdamM	</modified_by>
+		<modified_on>	1281674319	</modified_on>
+	</metaData>
+</ac_box_lod01.model>

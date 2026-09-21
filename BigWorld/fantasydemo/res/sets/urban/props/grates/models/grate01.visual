@@ -1,0 +1,47 @@
+<grate01.visual>
+	<node>
+		<identifier>	Scene Root	</identifier>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+	</node>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	Scene Root	</node>
+		<geometry>
+			<vertices>	vertices	</vertices>
+			<primitive>	indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	gen_shadow	</identifier>
+					<fx>	shaders/std_effects/normalmap_specmap.fx	</fx>
+					<collisionFlags>	255	</collisionFlags>
+					<materialKind>	5	</materialKind>
+					<property>	specularMap
+						<Texture>	sets/urban/props/grates/maps/grate01_diff.tga	</Texture>
+					</property>
+					<property>	alphaReference
+						<Int>	205	</Int>
+					</property>
+					<property>	alphaTestEnable
+						<Bool>	true	</Bool>
+					</property>
+					<property>	normalMap
+						<Texture>	sets/urban/props/grates/maps/grate01_norms.bmp	</Texture>
+					</property>
+					<property>	diffuseMap
+						<Texture>	sets/urban/props/grates/maps/grate01_diff.tga	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<boundingBox>
+		<min>	-0.418308 0.010000 -0.418308	</min>
+		<max>	0.418308 0.020000 0.418308	</max>
+	</boundingBox>
+	<materialKind>	5	</materialKind>
+</grate01.visual>

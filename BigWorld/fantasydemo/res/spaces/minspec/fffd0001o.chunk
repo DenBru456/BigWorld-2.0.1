@@ -1,0 +1,1663 @@
+<fffd0001o.chunk>
+	<model>
+		<resource>	sets/minspec/props/barrel/models/barrel.model	</resource>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	70.548950 201.000000 25.002426	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<lighting>	lighting/barrel-1	</lighting>
+	</model>
+	<model>
+		<resource>	sets/minspec/props/barrel/models/barrel_cabbage.model	</resource>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	71.395615 201.000000 25.851883	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<lighting>	lighting/barrel_cabbage-1	</lighting>
+	</model>
+	<model>
+		<resource>	sets/minspec/props/barrel/models/barrel_cabbage.model	</resource>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	71.702606 201.000000 24.240532	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<lighting>	lighting/barrel_cabbage-2	</lighting>
+	</model>
+	<model>
+		<resource>	sets/minspec/props/barrel/models/barrel_apples.model	</resource>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	72.155151 201.000000 23.495926	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<lighting>	lighting/barrel_apples-1	</lighting>
+	</model>
+	<model>
+		<resource>	sets/minspec/props/barrel/models/barrel.model	</resource>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	63.090652 201.000000 28.971497	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<lighting>	lighting/barrel-2	</lighting>
+	</model>
+	<model>
+		<resource>	sets/minspec/props/barrel/models/barrel.model	</resource>
+		<transform>
+			<row0>	0.955958 0.000000 0.293502	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	-0.293502 0.000000 0.955958	</row2>
+			<row3>	71.024261 201.000000 24.252266	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<lighting>	lighting/barrel-3	</lighting>
+	</model>
+	<model>
+		<resource>	sets/minspec/props/barrel/models/barrel.model	</resource>
+		<transform>
+			<row0>	-0.045321 0.000000 0.998972	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	-0.998972 0.000000 -0.045321	</row2>
+			<row3>	73.414398 201.000000 22.829514	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<lighting>	lighting/barrel-4	</lighting>
+	</model>
+	<model>
+		<resource>	sets/minspec/props/barrel/models/barrel.model	</resource>
+		<transform>
+			<row0>	-0.519851 0.000000 0.854257	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	-0.854257 0.000000 -0.519851	</row2>
+			<row3>	71.015137 201.000000 26.623619	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<lighting>	lighting/barrel-5	</lighting>
+	</model>
+	<model>
+		<resource>	sets/minspec/props/barrel/models/barrel.model	</resource>
+		<transform>
+			<row0>	-0.495034 0.000000 0.868874	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	-0.868874 0.000000 -0.495034	</row2>
+			<row3>	62.281418 201.000000 29.399002	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<lighting>	lighting/barrel-6	</lighting>
+	</model>
+	<model>
+		<resource>	sets/minspec/props/barrel/models/barrel.model	</resource>
+		<transform>
+			<row0>	0.403874 0.495031 0.769305	</row0>
+			<row1>	0.886345 -0.003586 -0.463011	</row1>
+			<row2>	-0.226446 0.868868 -0.440217	</row2>
+			<row3>	62.742691 201.180984 30.225845	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<lighting>	lighting/barrel-7	</lighting>
+	</model>
+	<model>
+		<resource>	sets/temperate/props/tree_trunk_01.model	</resource>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	53.032745 201.000000 30.791245	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<lighting>	lighting/tree_trunk_01-0	</lighting>
+	</model>
+	<model>
+		<resource>	sets/minspec/props/tree/model/tree.model	</resource>
+		<transform>
+			<row0>	-0.031937 0.000001 1.188474	</row0>
+			<row1>	0.000001 1.188903 -0.000001	</row1>
+			<row2>	-1.188474 0.000001 -0.031937	</row2>
+			<row3>	35.694122 197.512695 37.710724	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<lighting>	lighting/tree-0	</lighting>
+	</model>
+	<model>
+		<resource>	sets/minspec/props/tree/model/tree_mid.model	</resource>
+		<transform>
+			<row0>	1.268273 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.268273 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.268273	</row2>
+			<row3>	40.286896 197.989258 82.075394	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<lighting>	lighting/tree_mid-0	</lighting>
+	</model>
+	<model>
+		<resource>	sets/minspec/props/tree/model/tree_bare.model	</resource>
+		<transform>
+			<row0>	1.603637 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.603637 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.603637	</row2>
+			<row3>	45.390686 199.649109 7.767746	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<lighting>	lighting/tree_bare-0	</lighting>
+	</model>
+	<model>
+		<resource>	sets/minspec/props/tree/model/tree.model	</resource>
+		<transform>
+			<row0>	1.804764 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.804764 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.804764	</row2>
+			<row3>	44.009918 200.410736 23.500931	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<lighting>	lighting/tree-1	</lighting>
+	</model>
+	<model>
+		<resource>	sets/minspec/props/stool/models/stool.model	</resource>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	93.704300 203.578125 73.625046	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<lighting>	lighting/stool-0	</lighting>
+	</model>
+	<model>
+		<resource>	sets/minspec/props/tree/model/tree.model	</resource>
+		<transform>
+			<row0>	1.116869 0.000001 0.407545	</row0>
+			<row1>	0.000000 1.188903 -0.000001	</row1>
+			<row2>	-0.407545 0.000001 1.116869	</row2>
+			<row3>	67.371460 201.000000 5.465858	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<lighting>	lighting/tree-2	</lighting>
+	</model>
+	<model>
+		<resource>	sets/minspec/props/barrel/models/barrel_cabbage.model	</resource>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	51.922180 197.016602 55.569595	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<lighting>	lighting/barrel_cabbage-3	</lighting>
+	</model>
+	<model>
+		<resource>	sets/minspec/props/barrel/models/barrel_cabbage.model	</resource>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	52.229172 197.043945 53.958252	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<lighting>	lighting/barrel_cabbage-4	</lighting>
+	</model>
+	<model>
+		<resource>	sets/minspec/props/tree_stump/model/tree_stump.model	</resource>
+		<transform>
+			<row0>	0.795308 0.000000 0.523888	</row0>
+			<row1>	0.000000 0.952352 0.000000	</row1>
+			<row2>	-0.523888 0.000000 0.795308	</row2>
+			<row3>	40.231201 197.045898 47.872284	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<lighting>	lighting/tree_stump-0	</lighting>
+	</model>
+	<model>
+		<resource>	sets/minspec/props/tree_stump/model/tree_stump.model	</resource>
+		<transform>
+			<row0>	-0.244577 0.000000 1.147403	</row0>
+			<row1>	0.000000 1.173181 0.000000	</row1>
+			<row2>	-1.147403 0.000000 -0.244577	</row2>
+			<row3>	47.032532 198.319336 42.839020	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<lighting>	lighting/tree_stump-1	</lighting>
+	</model>
+	<model>
+		<resource>	sets/minspec/props/tree_stump/model/tree_stump.model	</resource>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	82.185150 200.822266 17.145477	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<lighting>	lighting/tree_stump-2	</lighting>
+	</model>
+	<model>
+		<resource>	sets/minspec/props/tree_stump/model/tree_stump.model	</resource>
+		<transform>
+			<row0>	0.332071 0.000000 -0.635751	</row0>
+			<row1>	0.000000 0.717252 0.000000	</row1>
+			<row2>	0.635751 0.000000 0.332071	</row2>
+			<row3>	85.856247 200.142578 18.674446	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<lighting>	lighting/tree_stump-3	</lighting>
+	</model>
+	<model>
+		<resource>	sets/minspec/props/tree/model/tree.model	</resource>
+		<transform>
+			<row0>	0.410069 -0.000001 1.214586	</row0>
+			<row1>	-0.000001 1.281942 0.000002	</row1>
+			<row2>	-1.214586 -0.000001 0.410069	</row2>
+			<row3>	12.220093 194.231369 97.448578	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<lighting>	lighting/tree-3	</lighting>
+	</model>
+	<model>
+		<resource>	sets/minspec/props/tree/model/tree_mid.model	</resource>
+		<transform>
+			<row0>	1.537486 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.537486 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.537486	</row2>
+			<row3>	81.099884 204.212112 97.092224	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<lighting>	lighting/tree_mid-1	</lighting>
+	</model>
+	<model>
+		<resource>	sets/minspec/props/tree/model/tree_bare.model	</resource>
+		<transform>
+			<row0>	1.319003 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.319003 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.319003	</row2>
+			<row3>	48.540802 196.993805 99.454269	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<lighting>	lighting/tree_bare-1	</lighting>
+	</model>
+	<model>
+		<resource>	sets/minspec/props/tree/model/tree.model	</resource>
+		<transform>
+			<row0>	1.655334 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.655334 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.655334	</row2>
+			<row3>	60.010193 197.610825 90.842300	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<lighting>	lighting/tree-4	</lighting>
+	</model>
+	<model>
+		<resource>	sets/minspec/props/tree/model/tree_mid.model	</resource>
+		<transform>
+			<row0>	-0.172995 0.000001 1.219923	</row0>
+			<row1>	-0.000002 1.232129 -0.000001	</row1>
+			<row2>	-1.219923 -0.000002 -0.172995	</row2>
+			<row3>	18.925201 196.087936 73.738464	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<lighting>	lighting/tree_mid-2	</lighting>
+	</model>
+	<model>
+		<resource>	sets/minspec/props/tree/model/tree.model	</resource>
+		<transform>
+			<row0>	1.332024 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.332024 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.332024	</row2>
+			<row3>	15.171906 196.967209 85.082657	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<lighting>	lighting/tree-5	</lighting>
+	</model>
+	<model>
+		<resource>	sets/minspec/props/tree/model/tree_mid.model	</resource>
+		<transform>
+			<row0>	1.268273 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.268273 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.268273	</row2>
+			<row3>	70.574951 203.113266 92.720673	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<lighting>	lighting/tree_mid-3	</lighting>
+	</model>
+	<model>
+		<resource>	sets/minspec/props/tree_stump/model/tree_stump.model	</resource>
+		<transform>
+			<row0>	0.795308 0.000000 0.523888	</row0>
+			<row1>	0.000000 0.952352 0.000000	</row1>
+			<row2>	-0.523888 0.000000 0.795308	</row2>
+			<row3>	78.413834 202.760025 72.918076	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<lighting>	lighting/tree_stump-4	</lighting>
+	</model>
+	<model>
+		<resource>	sets/minspec/props/tree/model/tree.model	</resource>
+		<transform>
+			<row0>	0.327066 0.000001 1.024437	</row0>
+			<row1>	0.000000 1.075381 -0.000001	</row1>
+			<row2>	-1.024437 0.000000 0.327066	</row2>
+			<row3>	9.390594 192.542480 65.895370	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<lighting>	lighting/tree-6	</lighting>
+	</model>
+	<model>
+		<resource>	sets/minspec/props/tree/model/tree_mid.model	</resource>
+		<transform>
+			<row0>	0.780282 0.000002 1.213484	</row0>
+			<row1>	-0.000002 1.442700 -0.000001	</row1>
+			<row2>	-1.213484 -0.000001 0.780282	</row2>
+			<row3>	11.182892 195.952240 38.912811	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<lighting>	lighting/tree_mid-4	</lighting>
+	</model>
+	<model>
+		<resource>	sets/minspec/props/tree/model/tree_mid.model	</resource>
+		<transform>
+			<row0>	0.777064 0.000002 1.208480	</row0>
+			<row1>	-0.000002 1.436751 -0.000001	</row1>
+			<row2>	-1.208480 -0.000001 0.777064	</row2>
+			<row3>	23.689575 196.791916 27.807541	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<lighting>	lighting/tree_mid-5	</lighting>
+	</model>
+	<model>
+		<resource>	sets/minspec/props/tree/model/tree_mid.model	</resource>
+		<transform>
+			<row0>	1.713879 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.713879 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.713879	</row2>
+			<row3>	23.836548 196.409088 41.205734	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<lighting>	lighting/tree_mid-6	</lighting>
+	</model>
+	<model>
+		<resource>	sets/minspec/props/tree/model/tree.model	</resource>
+		<transform>
+			<row0>	1.655374 0.000000 -0.049113	</row0>
+			<row1>	0.000000 1.656102 0.000000	</row1>
+			<row2>	0.049113 0.000000 1.655374	</row2>
+			<row3>	16.197021 198.528702 3.371086	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<lighting>	lighting/tree-7	</lighting>
+	</model>
+	<model>
+		<resource>	sets/minspec/props/tree/model/tree.model	</resource>
+		<transform>
+			<row0>	1.551602 0.000000 0.578969	</row0>
+			<row1>	0.000000 1.656102 0.000000	</row1>
+			<row2>	-0.578969 0.000000 1.551602	</row2>
+			<row3>	31.160553 197.169159 20.892845	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<lighting>	lighting/tree-8	</lighting>
+	</model>
+	<model>
+		<resource>	sets/minspec/props/tree/model/tree.model	</resource>
+		<transform>
+			<row0>	1.551602 0.000000 0.578969	</row0>
+			<row1>	0.000000 1.656102 0.000000	</row1>
+			<row2>	-0.578969 0.000000 1.551602	</row2>
+			<row3>	14.130463 197.352631 17.861900	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<lighting>	lighting/tree-9	</lighting>
+	</model>
+	<model>
+		<resource>	sets/minspec/props/tree/model/tree.model	</resource>
+		<transform>
+			<row0>	1.272562 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.272562 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.272562	</row2>
+			<row3>	29.598267 195.966537 65.518097	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<lighting>	lighting/tree-10	</lighting>
+	</model>
+	<model>
+		<resource>	sets/minspec/props/tree/model/tree.model	</resource>
+		<transform>
+			<row0>	1.551602 0.000000 0.578969	</row0>
+			<row1>	0.000000 1.656102 0.000000	</row1>
+			<row2>	-0.578969 0.000000 1.551602	</row2>
+			<row3>	29.110138 194.811401 80.051376	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<lighting>	lighting/tree-11	</lighting>
+	</model>
+	<model>
+		<resource>	sets/minspec/props/tree/model/tree.model	</resource>
+		<transform>
+			<row0>	-0.760765 0.000000 1.420949	</row0>
+			<row1>	0.000000 1.611788 0.000000	</row1>
+			<row2>	-1.420949 0.000000 -0.760765	</row2>
+			<row3>	81.447800 200.614288 10.321732	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<lighting>	lighting/tree-12	</lighting>
+	</model>
+	<model>
+		<resource>	sets/minspec/props/tree/model/tree_bare.model	</resource>
+		<transform>
+			<row0>	1.023869 0.000000 0.724472	</row0>
+			<row1>	0.000000 1.254259 0.000000	</row1>
+			<row2>	-0.724472 0.000000 1.023869	</row2>
+			<row3>	75.535553 201.692978 77.549210	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<lighting>	lighting/tree_bare-2	</lighting>
+	</model>
+	<model>
+		<resource>	sets/minspec/props/tree_stump/model/tree_stump.model	</resource>
+		<transform>
+			<row0>	0.568172 0.000000 -0.437756	</row0>
+			<row1>	0.000000 0.717252 0.000000	</row1>
+			<row2>	0.437756 0.000000 0.568172	</row2>
+			<row3>	46.562439 199.544739 37.604156	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<lighting>	lighting/tree_stump-5	</lighting>
+	</model>
+	<model>
+		<resource>	sets/minspec/props/tree_stump/model/tree_stump.model	</resource>
+		<transform>
+			<row0>	0.633854 0.000000 1.152625	</row0>
+			<row1>	0.000000 1.315415 0.000000	</row1>
+			<row2>	-1.152625 0.000000 0.633854	</row2>
+			<row3>	88.749985 199.709976 13.639999	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<lighting>	lighting/tree_stump-6	</lighting>
+	</model>
+	<particles>
+		<resource>	sets/minspec/particles/m_spec_chimney_smoke.xml	</resource>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	40.369995 213.049973 57.289986	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</particles>
+	<worldNavmesh>
+		<resource>	fffd0001o.cdata/worldNavmesh	</resource>
+	</worldNavmesh>
+	<model>
+		<resource>	sets/minspec/props/barrel/models/barrel.model	</resource>
+		<transform>
+			<row0>	0.120061 0.992766 0.000000	</row0>
+			<row1>	-0.992766 0.120061 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	71.853195 201.261948 24.986755	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<lighting>	lighting/barrel-8	</lighting>
+	</model>
+	<model>
+		<resource>	sets/minspec/props/tree/model/tree.model	</resource>
+		<transform>
+			<row0>	1.096043 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.096043 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.096043	</row2>
+			<row3>	0.997833 192.208389 91.794518	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<lighting>	lighting/tree-13	</lighting>
+	</model>
+	<model>
+		<resource>	sets/minspec/props/tree/model/tree.model	</resource>
+		<transform>
+			<row0>	1.358506 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.358506 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.358506	</row2>
+			<row3>	29.627899 198.748856 94.522697	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<lighting>	lighting/tree-14	</lighting>
+	</model>
+	<model>
+		<resource>	sets/minspec/props/barrel/models/barrel.model	</resource>
+		<transform>
+			<row0>	0.120061 0.992766 0.000000	</row0>
+			<row1>	-0.992766 0.120061 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	52.292740 197.303680 54.694878	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<lighting>	lighting/barrel-10	</lighting>
+	</model>
+	<model>
+		<resource>	sets/minspec/props/barrel/models/barrel.model	</resource>
+		<transform>
+			<row0>	0.144818 -0.361975 0.920870	</row0>
+			<row1>	0.989434 0.059415 -0.132246	</row1>
+			<row2>	-0.006844 0.930292 0.366755	</row2>
+			<row3>	51.938477 197.206360 64.072716	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<lighting>	lighting/barrel-11	</lighting>
+	</model>
+	<model>
+		<resource>	sets/minspec/props/barrel/models/barrel.model	</resource>
+		<transform>
+			<row0>	-0.055513 0.997915 0.032932	</row0>
+			<row1>	0.989435 0.059405 -0.132247	</row1>
+			<row2>	-0.133928 0.025243 -0.990670	</row2>
+			<row3>	52.035187 197.188217 64.839867	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<lighting>	lighting/barrel-12	</lighting>
+	</model>
+	<model>
+		<resource>	sets/minspec/props/barrel/models/barrel.model	</resource>
+		<transform>
+			<row0>	-0.055512 0.997915 0.032932	</row0>
+			<row1>	0.989435 0.059405 -0.132247	</row1>
+			<row2>	-0.133928 0.025243 -0.990670	</row2>
+			<row3>	52.275238 197.205383 66.357841	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<lighting>	lighting/barrel-13	</lighting>
+	</model>
+	<model>
+		<resource>	sets/minspec/props/barrel/models/barrel.model	</resource>
+		<transform>
+			<row0>	-0.122555 -0.144369 -0.981905	</row0>
+			<row1>	0.989438 0.059393 -0.132228	</row1>
+			<row2>	0.077408 -0.987740 0.135565	</row2>
+			<row3>	52.049622 197.203278 65.581841	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<lighting>	lighting/barrel-14	</lighting>
+	</model>
+	<model>
+		<resource>	sets/minspec/props/barrel/models/barrel.model	</resource>
+		<transform>
+			<row0>	0.131325 0.019390 0.991150	</row0>
+			<row1>	0.989433 0.059413 -0.132261	</row1>
+			<row2>	-0.061452 0.998045 -0.011382	</row2>
+			<row3>	52.113953 197.798111 66.117912	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<lighting>	lighting/barrel-15	</lighting>
+	</model>
+	<model>
+		<resource>	sets/minspec/props/barrel/models/barrel.model	</resource>
+		<transform>
+			<row0>	0.131325 0.019390 0.991150	</row0>
+			<row1>	0.989433 0.059413 -0.132261	</row1>
+			<row2>	-0.061452 0.998045 -0.011382	</row2>
+			<row3>	51.934250 197.822144 65.324760	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<lighting>	lighting/barrel-16	</lighting>
+	</model>
+	<model>
+		<resource>	sets/minspec/props/barrel/models/barrel.model	</resource>
+		<transform>
+			<row0>	-0.001674 0.916817 0.399302	</row0>
+			<row1>	0.989433 0.059410 -0.132263	</row1>
+			<row2>	-0.144984 0.394861 -0.907228	</row2>
+			<row3>	51.956894 197.849380 64.507439	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<lighting>	lighting/barrel-17	</lighting>
+	</model>
+	<model>
+		<resource>	sets/minspec/props/barrel/models/barrel.model	</resource>
+		<transform>
+			<row0>	0.142971 -0.552113 0.821419	</row0>
+			<row1>	0.989430 0.059400 -0.132288	</row1>
+			<row2>	0.024245 0.831649 0.554770	</row2>
+			<row3>	51.959167 198.450531 65.772911	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<lighting>	lighting/barrel-18	</lighting>
+	</model>
+	<model>
+		<resource>	sets/minspec/props/barrel/models/barrel.model	</resource>
+		<transform>
+			<row0>	-0.113028 -0.255399 -0.960205	</row0>
+			<row1>	0.989432 0.059411 -0.132270	</row1>
+			<row2>	0.090827 -0.965008 0.245984	</row2>
+			<row3>	51.808746 198.521942 64.926659	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<lighting>	lighting/barrel-19	</lighting>
+	</model>
+	<model>
+		<resource>	sets/minspec/props/tree_stump/model/tree_stump.model	</resource>
+		<transform>
+			<row0>	-0.312209 0.000000 1.464689	</row0>
+			<row1>	0.000000 1.497595 0.000000	</row1>
+			<row2>	-1.464689 0.000000 -0.312209	</row2>
+			<row3>	70.677124 201.161621 75.118858	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<lighting>	lighting/tree_stump-7	</lighting>
+	</model>
+	<model>
+		<resource>	sets/minspec/props/tree_fallen/model/tree_fallen.model	</resource>
+		<transform>
+			<row0>	0.838569 0.302513 -1.031238	</row0>
+			<row1>	-0.232851 1.328096 0.200246	</row1>
+			<row2>	1.049163 0.052969 0.868684	</row2>
+			<row3>	75.800064 201.000000 17.505951	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<lighting>	lighting/tree_fallen-0	</lighting>
+	</model>
+	<model>
+		<resource>	sets/minspec/props/table/models/table.model	</resource>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	47.986145 200.711914 32.558212	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<lighting>	lighting/table-0	</lighting>
+	</model>
+	<model>
+		<resource>	sets/minspec/props/table/models/table.model	</resource>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	60.741547 200.882813 38.894073	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<lighting>	lighting/table-1	</lighting>
+	</model>
+	<model>
+		<resource>	sets/minspec/props/table/models/table.model	</resource>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	63.987442 201.000000 35.259613	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<lighting>	lighting/table-2	</lighting>
+	</model>
+	<model>
+		<resource>	sets/minspec/props/table/models/table.model	</resource>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	80.516769 200.989258 26.679443	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<lighting>	lighting/table-3	</lighting>
+	</model>
+	<model>
+		<resource>	sets/minspec/props/table/models/table.model	</resource>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	94.419693 204.049774 74.556633	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<lighting>	lighting/table-5	</lighting>
+	</model>
+	<model>
+		<resource>	sets/minspec/props/cart/models/cart.model	</resource>
+		<transform>
+			<row0>	-0.654242 -0.174987 -0.735762	</row0>
+			<row1>	-0.115107 0.984569 -0.131807	</row1>
+			<row2>	0.747474 -0.001543 -0.664288	</row2>
+			<row3>	81.131271 203.685516 72.780441	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<lighting>	lighting/cart-0	</lighting>
+	</model>
+	<model>
+		<resource>	sets/minspec/props/tree_fallen/model/tree_fallen.model	</resource>
+		<transform>
+			<row0>	-0.701709 0.061657 1.180814	</row0>
+			<row1>	-0.063138 1.369178 -0.109013	</row1>
+			<row2>	-1.180736 -0.109857 -0.695925	</row2>
+			<row3>	44.642090 196.200409 46.565483	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<lighting>	lighting/tree_fallen-1	</lighting>
+	</model>
+	<particles>
+		<resource>	particles/fireflies.xml	</resource>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	32.339874 199.129578 86.367409	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</particles>
+	<overlapper>	00am0009i	</overlapper>
+	<overlapper>	00am0003i	</overlapper>
+	<overlapper>	00am0001i	</overlapper>
+	<overlapper>	00am0012i	</overlapper>
+	<overlapper>	00am0005i	</overlapper>
+	<overlapper>	00am0004i	</overlapper>
+	<overlapper>	00am0006i	</overlapper>
+	<overlapper>	00am0007i	</overlapper>
+	<model>
+		<resource>	sets/minspec/props/rock_large/models/rock_large.model	</resource>
+		<transform>
+			<row0>	0.482016 0.000000 -0.149280	</row0>
+			<row1>	0.000000 0.504603 0.000000	</row1>
+			<row2>	0.149280 0.000000 0.482016	</row2>
+			<row3>	88.119354 202.453125 2.142685	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<lighting>	lighting/rock_large-0	</lighting>
+	</model>
+	<model>
+		<resource>	sets/minspec/props/rock_large/models/rock_large.model	</resource>
+		<transform>
+			<row0>	-1.022770 0.000001 -0.351418	</row0>
+			<row1>	0.000000 1.081459 -0.000002	</row1>
+			<row2>	0.468018 -0.000002 -1.362123	</row2>
+			<row3>	21.986877 196.101563 52.655380	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<lighting>	lighting/rock_large-1	</lighting>
+	</model>
+	<model>
+		<resource>	sets/minspec/props/rock_large/models/rock_large.model	</resource>
+		<transform>
+			<row0>	-0.218638 0.000003 0.950322	</row0>
+			<row1>	0.000000 0.975148 -0.000002	</row1>
+			<row2>	-1.265637 0.000000 -0.291182	</row2>
+			<row3>	88.453049 199.241272 3.971008	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<lighting>	lighting/rock_large-2	</lighting>
+	</model>
+	<model>
+		<resource>	sets/minspec/props/rock_medium/model/rock_medium.model	</resource>
+		<transform>
+			<row0>	-0.722602 0.000000 -0.691265	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.691265 0.000000 -0.722602	</row2>
+			<row3>	30.099426 196.548050 46.244827	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<lighting>	lighting/rock_medium-0	</lighting>
+	</model>
+	<model>
+		<resource>	sets/minspec/props/wheel_barrow/models/wheel_barrow.model	</resource>
+		<transform>
+			<row0>	-0.500000 0.000000 -0.866025	</row0>
+			<row1>	0.000000 0.999999 -0.000000	</row1>
+			<row2>	0.866025 -0.000000 -0.500000	</row2>
+			<row3>	62.569855 200.999878 31.969841	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<lighting>	lighting/wheel_barrow-1	</lighting>
+	</model>
+	<model>
+		<resource>	sets/minspec/props/wheel_barrow/models/wheel_barrow_fruit.model	</resource>
+		<transform>
+			<row0>	0.434824 0.000000 0.900515	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	-0.900515 0.000000 0.434824	</row2>
+			<row3>	59.659988 200.999985 31.539986	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<lighting>	lighting/wheel_barrow_fruit-1	</lighting>
+	</model>
+	<model>
+		<resource>	sets/minspec/props/wheel_barrow/models/wheel_barrow_fruit.model	</resource>
+		<transform>
+			<row0>	0.916309 -0.002107 0.400466	</row0>
+			<row1>	0.001164 0.999996 0.002598	</row1>
+			<row2>	-0.400470 -0.001915 0.916307	</row2>
+			<row3>	54.399979 197.009979 66.859993	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<lighting>	lighting/wheel_barrow_fruit-2	</lighting>
+	</model>
+	<model>
+		<resource>	sets/minspec/props/wheel_barrow/models/wheel_barrow_fruit.model	</resource>
+		<transform>
+			<row0>	-0.997250 0.008085 -0.073657	</row0>
+			<row1>	0.008106 0.999967 0.000002	</row1>
+			<row2>	0.073654 -0.000595 -0.997283	</row2>
+			<row3>	74.629990 200.999969 22.839996	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<lighting>	lighting/wheel_barrow_fruit-3	</lighting>
+	</model>
+	<model>
+		<resource>	sets/minspec/props/market_stall/models/market_stall.model	</resource>
+		<transform>
+			<row0>	0.965924 0.000000 0.258819	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	-0.258819 0.000000 0.965924	</row2>
+			<row3>	77.429977 200.929977 22.430000	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<lighting>	lighting/market_stall-0	</lighting>
+	</model>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<outsideOnly>	true	</outsideOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<resource>	sets/minspec/props/house/models/house.model	</resource>
+		<transform>
+			<row0>	0.172332 0.000000 0.985039	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	-0.985039 0.000000 0.172332	</row2>
+			<row3>	45.296509 196.896393 60.561607	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<resource>	sets/minspec/props/house/models/door.model	</resource>
+		<animation>
+			<name>	door_open	</name>
+			<frameRateMultiplier>	1.000000	</frameRateMultiplier>
+		</animation>
+		<transform>
+			<row0>	0.172324 0.000000 0.985040	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	-0.985040 0.000000 0.172324	</row2>
+			<row3>	45.296921 196.895950 60.561974	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<metaData>
+			<modified_by>	adamm	</modified_by>
+			<modified_on>	1248657858	</modified_on>
+		</metaData>
+	</model>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<outsideOnly>	true	</outsideOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<resource>	sets/minspec/props/house/models/house.model	</resource>
+		<transform>
+			<row0>	-0.839396 -0.000001 0.543517	</row0>
+			<row1>	-0.000002 0.999998 -0.000000	</row1>
+			<row2>	-0.543517 -0.000001 -0.839396	</row2>
+			<row3>	63.578278 200.837906 21.462151	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<particles>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<resource>	sets/minspec/particles/m_spec_chimney_smoke.xml	</resource>
+		<transform>
+			<row0>	0.390731 0.000001 0.920503	</row0>
+			<row1>	-0.000002 0.999998 -0.000000	</row1>
+			<row2>	-0.920503 -0.000002 0.390731	</row2>
+			<row3>	64.664886 216.991470 15.648903	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</particles>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<resource>	sets/minspec/props/house/models/door.model	</resource>
+		<animation>
+			<name>	door_closed	</name>
+			<frameRateMultiplier>	1.000000	</frameRateMultiplier>
+		</animation>
+		<transform>
+			<row0>	-0.839400 -0.000001 0.543510	</row0>
+			<row1>	-0.000002 0.999998 -0.000000	</row1>
+			<row2>	-0.543510 -0.000001 -0.839400	</row2>
+			<row3>	63.578156 200.837463 21.462646	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<metaData>
+			<modified_by>	adamm	</modified_by>
+			<modified_on>	1248657806	</modified_on>
+		</metaData>
+	</model>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<resource>	sets/minspec/props/barrel/models/barrel.model	</resource>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	67.685120 202.600220 23.331108	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<outsideOnly>	true	</outsideOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<resource>	sets/minspec/props/house/models/house.model	</resource>
+		<transform>
+			<row0>	0.999668 0.000003 0.025768	</row0>
+			<row1>	-0.000003 1.000000 0.000001	</row1>
+			<row2>	-0.025768 -0.000001 0.999668	</row2>
+			<row3>	87.580811 203.855164 82.697136	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<particles>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<resource>	sets/minspec/particles/m_spec_chimney_smoke.xml	</resource>
+		<transform>
+			<row0>	0.197657 0.000002 -0.980271	</row0>
+			<row1>	-0.000003 1.000000 0.000001	</row1>
+			<row2>	0.980271 0.000003 0.197657	</row2>
+			<row3>	83.399902 220.008743 86.879845	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</particles>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<resource>	sets/minspec/props/house/models/door.model	</resource>
+		<animation>
+			<name>	door_closed	</name>
+			<frameRateMultiplier>	1.000000	</frameRateMultiplier>
+		</animation>
+		<transform>
+			<row0>	0.999667 0.000003 0.025776	</row0>
+			<row1>	-0.000003 1.000000 0.000001	</row1>
+			<row2>	-0.025776 -0.000001 0.999667	</row2>
+			<row3>	87.581238 203.854721 82.696800	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<metaData>
+			<modified_by>	adamm	</modified_by>
+			<modified_on>	1248657851	</modified_on>
+		</metaData>
+	</model>
+	<vlo>
+		<uid>	ed050d0c.4e047eff.772d4987.72100cf0	</uid>
+		<type>	water	</type>
+	</vlo>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<metaData>
+			<created_by>	AdamM	</created_by>
+			<created_on>	1280190921	</created_on>
+			<modified_by>	AdamM	</modified_by>
+			<modified_on>	1280190929	</modified_on>
+		</metaData>
+		<resource>	sets/minspec/props/tree_fallen/model/tree_fallen.model	</resource>
+		<transform>
+			<row0>	-0.948841 0.072033 1.749629	</row0>
+			<row1>	-0.068755 1.986904 -0.119088	</row1>
+			<row2>	-1.749760 -0.117134 -0.944091	</row2>
+			<row3>	45.331421 196.689911 75.330162	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<terrain>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>	</metaData>
+		<resource>	fffd0001o.cdata/terrain	</resource>
+	</terrain>
+	<entity>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>	</metaData>
+		<guid>	EFB64EC2.42A2AF29.F42A6299.43364364	</guid>
+		<type>	Landmark	</type>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	82.439987 199.899979 49.589989	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<radius>	49.040901	</radius>
+			<description>	Town	</description>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+		<backLinks>	</backLinks>
+	</entity>
+	<entity>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>	</metaData>
+		<guid>	48C75FB8.466AC9DF.AE83329D.A3A91DF4	</guid>
+		<type>	MovingPlatform	</type>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	95.859985 198.788055 32.849998	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<platformName>	Platform3	</platformName>
+			<startNode>
+				<guid>	4D37D0C8.43807E37.42AF34A4.8528F90C	</guid>
+				<chunkId>	fffd0001o	</chunkId>
+			</startNode>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+		<backLinks>	</backLinks>
+	</entity>
+	<entity>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>	</metaData>
+		<guid>	593B7F31.4FE1AC75.1190F3A5.EFCDD3CC	</guid>
+		<type>	Info	</type>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	90.868637 199.471649 35.067619	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<text>	Wait here for the floating platform (online only)	</text>
+			<showWhenNear>	1	</showWhenNear>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+		<backLinks>	</backLinks>
+	</entity>
+	<entity>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>	</metaData>
+		<guid>	6E0CEDE7.4A7DB3E1.83E96CB5.19FAD88D	</guid>
+		<type>	Info	</type>
+		<transform>
+			<row0>	-0.707106 0.000000 0.707106	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	-0.707106 0.000000 -0.707106	</row2>
+			<row3>	92.886932 199.811493 49.229546	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<text>	Orc spawner (online only)	</text>
+			<showWhenNear>	1	</showWhenNear>
+			<modelType>	2	</modelType>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+		<backLinks>	</backLinks>
+	</entity>
+	<entity>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>	</metaData>
+		<guid>	F09A102B.442A9300.83CC41B1.D20D3EAA	</guid>
+		<type>	Seat	</type>
+		<transform>
+			<row0>	-0.965928 0.001591 0.258800	</row0>
+			<row1>	-0.004716 0.999705 -0.023750	</row1>
+			<row2>	-0.258762 -0.024161 -0.965636	</row2>
+			<row3>	77.850342 200.996063 27.379288	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<seatType>	3	</seatType>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+		<backLinks>	</backLinks>
+	</entity>
+	<UserDataObject>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>	</metaData>
+		<type>	PatrolNode	</type>
+		<Domain>	2	</Domain>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	90.814987 199.570282 40.249107	</row3>
+		</transform>
+		<guid>	192E8E4A.4E2B3C55.0FF27995.0CE2973C	</guid>
+		<properties>
+			<patrolLinks>
+				<item>
+					<guid>	31E8A1E2.4195D10D.5B2FD19E.9F28B780	</guid>
+					<chunkId>	fffe0000o	</chunkId>
+				</item>
+			</patrolLinks>
+			<radius>	12.248992	</radius>
+		</properties>
+		<backLinks>
+			<link>
+				<guid>	31E8A1E2.4195D10D.5B2FD19E.9F28B780	</guid>
+				<chunkId>	fffe0000o	</chunkId>
+			</link>
+		</backLinks>
+	</UserDataObject>
+	<UserDataObject>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>	</metaData>
+		<type>	CameraNode	</type>
+		<Domain>	4	</Domain>
+		<transform>
+			<row0>	0.707106 -0.000000 0.707106	</row0>
+			<row1>	-0.201631 0.958481 0.201631	</row1>
+			<row2>	-0.677749 -0.285150 0.677749	</row2>
+			<row3>	88.899811 216.179810 47.739990	</row3>
+		</transform>
+		<guid>	BA0FA192.411AC81D.43A52BA3.CC7B39A3	</guid>
+		<properties>
+			<next>
+				<guid>	A4632126.4A4EE0AF.1E420CAD.EE1EE084	</guid>
+				<chunkId>	fffd0002o	</chunkId>
+			</next>
+		</properties>
+		<backLinks>
+			<link>
+				<guid>	148640BB.464BA985.66FF78A4.517510D9	</guid>
+				<chunkId>	fffe0001o	</chunkId>
+			</link>
+		</backLinks>
+	</UserDataObject>
+	<UserDataObject>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>	</metaData>
+		<type>	CameraNode	</type>
+		<Domain>	4	</Domain>
+		<transform>
+			<row0>	-0.866025 0.000000 -0.500000	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	0.500000 0.000000 -0.866025	</row2>
+			<row3>	78.492569 215.248398 46.222374	</row3>
+		</transform>
+		<guid>	D637984B.4BC6914B.0C16C0AD.5FD0ED32	</guid>
+		<properties>
+			<next>
+				<guid>	8490C7C4.4B594C8C.FC6021B9.497C5B1A	</guid>
+				<chunkId>	fffe0000o	</chunkId>
+			</next>
+			<name>	camera node0	</name>
+		</properties>
+		<backLinks>
+			<link>
+				<guid>	21F8A4DE.45AC4253.195B9096.20D45623	</guid>
+				<chunkId>	fffd0002o	</chunkId>
+			</link>
+		</backLinks>
+	</UserDataObject>
+	<UserDataObject>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>	</metaData>
+		<type>	PlatformNode	</type>
+		<Domain>	2	</Domain>
+		<transform>
+			<row0>	0.999999 0.000000 0.000000	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	0.000000 0.000000 0.999999	</row2>
+			<row3>	95.859985 198.794891 32.859993	</row3>
+		</transform>
+		<guid>	4D37D0C8.43807E37.42AF34A4.8528F90C	</guid>
+		<properties>
+			<links>
+				<item>
+					<guid>	1DBEAB81.4B079473.EA8383B4.72F90358	</guid>
+					<chunkId>	fffe0002o	</chunkId>
+				</item>
+			</links>
+			<approachAcceleration>	4.000000	</approachAcceleration>
+			<waitTime>	5.000000	</waitTime>
+		</properties>
+		<backLinks>
+			<link>
+				<guid>	48C75FB8.466AC9DF.AE83329D.A3A91DF4	</guid>
+				<chunkId>	fffd0001o	</chunkId>
+			</link>
+			<link>
+				<guid>	718BAA73.4255B1A0.15FC2A90.E417D5D4	</guid>
+				<chunkId>	fffe0000o	</chunkId>
+			</link>
+		</backLinks>
+	</UserDataObject>
+</fffd0001o.chunk>

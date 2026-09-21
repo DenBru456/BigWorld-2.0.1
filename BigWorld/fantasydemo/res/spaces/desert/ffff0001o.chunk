@@ -1,0 +1,66 @@
+<ffff0001o.chunk>
+	<model>
+		<resource>	sets/temperate/props/brush.model	</resource>
+		<transform>
+			<row0>	0.793196 0.000000 2.960246	</row0>
+			<row1>	0.000000 3.064671 0.000000	</row1>
+			<row2>	-2.960245 0.000001 0.793196	</row2>
+			<row3>	41.500000 28.600000 77.000000	</row3>
+		</transform>
+	</model>
+	<model>
+		<resource>	sets/temperate/props/brush.model	</resource>
+		<transform>
+			<row0>	0.793196 0.000000 2.960246	</row0>
+			<row1>	0.000000 3.064671 0.000000	</row1>
+			<row2>	-2.960245 0.000001 0.793196	</row2>
+			<row3>	44.700001 17.300001 70.000000	</row3>
+		</transform>
+	</model>
+	<waypointGenerationTime>
+		<hi>	29728293	</hi>
+		<lo>	-1462279274	</lo>
+	</waypointGenerationTime>
+	<speedtree>
+		<seed>	1	</seed>
+		<transform>
+			<row0>	-0.768986 0.000000 -0.443975	</row0>
+			<row1>	0.000000 0.887950 0.000000	</row1>
+			<row2>	0.443975 0.000000 -0.768986	</row2>
+			<row3>	40.299999 16.800001 64.899994	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<spt>	speedtree/Palms_Cacti_Cycads/suguaro_cactus/SaguaroCactus_RT.spt	</spt>
+	</speedtree>
+	<terrain>
+		<resource>	ffff0001o.cdata/terrain	</resource>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>	</metaData>
+	</terrain>
+	<worldNavmesh>
+		<resource>	ffff0001o.cdata/worldNavmesh	</resource>
+	</worldNavmesh>
+	<entity>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>	</metaData>
+		<guid>	94832611.4DEC49E7.ACADFD95.D7461F20	</guid>
+		<type>	DustDevil	</type>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	7.491386 19.560547 21.541016	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+		<backLinks>	</backLinks>
+	</entity>
+</ffff0001o.chunk>

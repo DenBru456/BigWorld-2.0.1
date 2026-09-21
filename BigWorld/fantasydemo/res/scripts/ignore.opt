@@ -1,0 +1,5 @@
+<root>
+	<ignore> db.xml </ignore>
+	<copy> true </copy>
+</root>
+

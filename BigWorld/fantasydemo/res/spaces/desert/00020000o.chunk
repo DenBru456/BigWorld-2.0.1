@@ -1,0 +1,26 @@
+<root>
+	<waypointGenerationTime>
+		<hi>	29728295	</hi>
+		<lo>	-1644870116	</lo>
+	</waypointGenerationTime>
+	<model>
+		<resource>	sets/temperate/props/brush.model	</resource>
+		<transform>
+			<row0>	2.135840 0.133574 4.193401	</row0>
+			<row1>	0.206281 4.681384 -0.254184	</row1>
+			<row2>	-3.798189 0.271933 1.925884	</row2>
+			<row3>	59.125854 -0.563377 13.662050	</row3>
+		</transform>
+	</model>
+	<terrain>
+		<resource>	00020000o.cdata/terrain	</resource>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>	</metaData>
+	</terrain>
+	<worldNavmesh>
+		<resource>	00020000o.cdata/worldNavmesh	</resource>
+	</worldNavmesh>
+</root>

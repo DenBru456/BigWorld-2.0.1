@@ -1,0 +1,13 @@
+<facility_lobby.model>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-7.999999 0.000000 31.999996	</min>
+		<max>	11.999999 11.999999 59.999992	</max>
+	</visibilityBox>
+	<nodelessVisual>	sets/urban/shells/facility_lobby	</nodelessVisual>
+	<metaData>
+		<copyright>	Copyright BigWorld Pty Ltd.  Use freely in any BigWorld licensed game.	</copyright>
+		<modified_by>	AdamM	</modified_by>
+		<modified_on>	1281673415	</modified_on>
+	</metaData>
+</facility_lobby.model>

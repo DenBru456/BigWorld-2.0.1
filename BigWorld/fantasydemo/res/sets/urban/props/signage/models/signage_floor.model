@@ -1,0 +1,72 @@
+<signage_floor.model>
+	<materialNames>	</materialNames>
+	<dye>
+		<matter>	signage	</matter>
+		<replaces>	signage	</replaces>
+		<tint>
+			<name>	first	</name>
+			<material>
+				<identifier>	signage	</identifier>
+				<fx>	shaders/std_effects/lightonly_glow.fx	</fx>
+				<collisionFlags>	0	</collisionFlags>
+				<materialKind>	0	</materialKind>
+				<property>	glowFactor
+					<Float>	1.000000	</Float>
+				</property>
+				<property>	glowMap
+					<Texture>	sets/urban/props/buildings/b_facility/maps/signage_first_g.bmp	</Texture>
+				</property>
+				<property>	diffuseMap
+					<Texture>	sets/urban/props/buildings/b_facility/maps/signage_first.bmp	</Texture>
+				</property>
+			</material>
+		</tint>
+		<tint>
+			<name>	second	</name>
+			<material>
+				<identifier>	signage	</identifier>
+				<fx>	shaders/std_effects/lightonly_glow.fx	</fx>
+				<collisionFlags>	0	</collisionFlags>
+				<materialKind>	0	</materialKind>
+				<property>	glowFactor
+					<Float>	1.000000	</Float>
+				</property>
+				<property>	glowMap
+					<Texture>	sets/urban/props/buildings/b_facility/maps/signage_second_g.bmp	</Texture>
+				</property>
+				<property>	diffuseMap
+					<Texture>	sets/urban/props/buildings/b_facility/maps/signage_second.bmp	</Texture>
+				</property>
+			</material>
+		</tint>
+		<tint>
+			<name>	third	</name>
+			<material>
+				<identifier>	signage	</identifier>
+				<fx>	shaders/std_effects/lightonly_glow.fx	</fx>
+				<collisionFlags>	0	</collisionFlags>
+				<materialKind>	0	</materialKind>
+				<property>	glowFactor
+					<Float>	1.000000	</Float>
+				</property>
+				<property>	glowMap
+					<Texture>	sets/urban/props/buildings/b_facility/maps/signage_third_g.bmp	</Texture>
+				</property>
+				<property>	diffuseMap
+					<Texture>	sets/urban/props/buildings/b_facility/maps/signage_third.bmp	</Texture>
+				</property>
+			</material>
+		</tint>
+	</dye>
+	<visibilityBox>
+		<min>	-5.513531 0.000000 0.000000	</min>
+		<max>	0.000000 3.000000 0.140000	</max>
+	</visibilityBox>
+	<nodelessVisual>	sets/urban/props/signage/models/signage_floor	</nodelessVisual>
+	<extent>	50.000000	</extent>
+	<metaData>
+		<copyright>	Copyright BigWorld Pty Ltd.  Use freely in any BigWorld licensed game.	</copyright>
+		<modified_by>	adamm	</modified_by>
+		<modified_on>	1254379968	</modified_on>
+	</metaData>
+</signage_floor.model>

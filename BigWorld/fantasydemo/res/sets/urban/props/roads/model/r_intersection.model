@@ -1,0 +1,15 @@
+<r_intersection.model>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-15.020262 0.100000 -15.020262	</min>
+		<max>	15.000006 0.300000 15.006338	</max>
+	</visibilityBox>
+	<extent>	600.000000	</extent>
+	<nodelessVisual>	sets/urban/props/roads/model/r_intersection	</nodelessVisual>
+	<dpvsOccluder>	true	</dpvsOccluder>
+	<metaData>
+		<copyright>	Copyright BigWorld Pty Ltd.  Use freely in any BigWorld licensed game.	</copyright>
+		<modified_by>	adamm	</modified_by>
+		<modified_on>	1254379818	</modified_on>
+	</metaData>
+</r_intersection.model>

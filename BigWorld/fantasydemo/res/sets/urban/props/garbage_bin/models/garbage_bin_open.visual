@@ -1,0 +1,54 @@
+<garbage_bin_open.visual>
+	<node>
+		<identifier>	Scene Root	</identifier>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+	</node>
+	<materialKind>	5	</materialKind>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	Scene Root	</node>
+		<geometry>
+			<vertices>	vertices	</vertices>
+			<primitive>	indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	garbage_bin_open1	</identifier>
+					<fx>	shaders/std_effects/normalmap_specmap.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	specularMap
+						<Texture>	sets/urban/props/garbage_bin/maps/garbage_bin_s.bmp	</Texture>
+					</property>
+					<property>	alphaReference
+						<Int>	0	</Int>
+					</property>
+					<property>	alphaTestEnable
+						<Bool>	false	</Bool>
+					</property>
+					<property>	selfIllumination
+						<Float>	0.000000	</Float>
+					</property>
+					<property>	doubleSided
+						<Bool>	false	</Bool>
+					</property>
+					<property>	normalMap
+						<Texture>	sets/urban/props/garbage_bin/maps/garbage_bin_norms.bmp	</Texture>
+					</property>
+					<property>	diffuseMap
+						<Texture>	sets/urban/props/garbage_bin/maps/garbage_bin_open_diff.bmp	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<boundingBox>
+		<min>	-1.714481 -0.021996 -1.029391	</min>
+		<max>	1.710798 2.350576 1.502490	</max>
+	</boundingBox>
+	<customBsp>	true	</customBsp>
+</garbage_bin_open.visual>

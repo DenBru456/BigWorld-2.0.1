@@ -1,0 +1,45 @@
+<ffff0003o.chunk>
+	<terrain>
+		<resource>	ffff0003o.cdata/terrain	</resource>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>	</metaData>
+	</terrain>
+	<worldNavmesh>
+		<resource>	ffff0003o.cdata/worldNavmesh	</resource>
+	</worldNavmesh>
+	<vlo>
+		<uid>	ed050d0c.4e047eff.772d4987.72100cf0	</uid>
+		<type>	water	</type>
+	</vlo>
+	<UserDataObject>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>	</metaData>
+		<type>	CameraNode	</type>
+		<Domain>	4	</Domain>
+		<transform>
+			<row0>	0.000001 -0.000004 0.999999	</row0>
+			<row1>	-0.448054 0.894006 0.000004	</row1>
+			<row2>	-0.894006 -0.448054 -0.000001	</row2>
+			<row3>	40.389595 193.440781 87.319611	</row3>
+		</transform>
+		<guid>	90095C81.4FAA5D62.6A5878B5.3DCF97D1	</guid>
+		<properties>
+			<next>
+				<guid>	4B1B58C2.4374754B.61098496.95457DA9	</guid>
+				<chunkId>	fffe0004o	</chunkId>
+			</next>
+		</properties>
+		<backLinks>
+			<link>
+				<guid>	0DF16FB9.4471957B.CFF9B6B6.14D2E5DD	</guid>
+				<chunkId>	00010003o	</chunkId>
+			</link>
+		</backLinks>
+	</UserDataObject>
+</ffff0003o.chunk>

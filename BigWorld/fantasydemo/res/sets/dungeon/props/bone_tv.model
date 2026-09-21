@@ -1,0 +1,190 @@
+<bone_tv.model>
+	<extent>	74.000000	</extent>
+	<dye>
+		<matter>	tv_off	</matter>
+		<replaces>	tv_off	</replaces>
+		<tint>
+			<name>	tv2	</name>
+			<material>
+				<fx>	shaders/std_effects/lightonly_chrome.fx	</fx>
+				<collisionFlags>	0	</collisionFlags>
+				<materialKind>	0	</materialKind>
+				<property>	alphaReference
+					<Int>	0	</Int>
+				</property>
+				<property>	fresnelConstant
+					<Float>	0.040000	</Float>
+				</property>
+				<property>	reflectionAmount
+					<Float>	0.620000	</Float>
+				</property>
+				<property>	vTransform
+					<Vector4>	0.000000 1.000000 0.000000 0.000000	</Vector4>
+				</property>
+				<property>	uTransform
+					<Vector4>	1.000000 0.000000 0.000000 0.000000	</Vector4>
+				</property>
+				<property>	otherMap
+					<Texture>	maps/fx/reflect/ref_environ_city.dds	</Texture>
+				</property>
+				<property>	selfIllumination
+					<Float>	1.000000	</Float>
+				</property>
+				<property>	diffuseMap
+					<TextureFeed>	bone_tv2
+						<default>	sets/dungeon/props/tvoff.bmp	</default>
+					</TextureFeed>
+				</property>
+			</material>
+		</tint>
+		<tint>
+			<name>	tv3	</name>
+			<material>
+				<fx>	shaders/std_effects/lightonly_chrome.fx	</fx>
+				<collisionFlags>	0	</collisionFlags>
+				<materialKind>	0	</materialKind>
+				<property>	alphaReference
+					<Int>	0	</Int>
+				</property>
+				<property>	fresnelConstant
+					<Float>	0.040000	</Float>
+				</property>
+				<property>	reflectionAmount
+					<Float>	0.620000	</Float>
+				</property>
+				<property>	vTransform
+					<Vector4>	0.000000 1.000000 0.000000 0.000000	</Vector4>
+				</property>
+				<property>	uTransform
+					<Vector4>	1.000000 0.000000 0.000000 0.000000	</Vector4>
+				</property>
+				<property>	otherMap
+					<Texture>	maps/fx/reflect/ref_environ_city.dds	</Texture>
+				</property>
+				<property>	selfIllumination
+					<Float>	1.000000	</Float>
+				</property>
+				<property>	diffuseMap
+					<TextureFeed>	bone_tv3
+						<default>	sets/dungeon/props/tvoff.bmp	</default>
+					</TextureFeed>
+				</property>
+			</material>
+		</tint>
+		<tint>
+			<name>	tv4	</name>
+			<material>
+				<fx>	shaders/std_effects/lightonly_chrome.fx	</fx>
+				<collisionFlags>	0	</collisionFlags>
+				<materialKind>	0	</materialKind>
+				<property>	alphaReference
+					<Int>	0	</Int>
+				</property>
+				<property>	fresnelConstant
+					<Float>	0.040000	</Float>
+				</property>
+				<property>	reflectionAmount
+					<Float>	0.620000	</Float>
+				</property>
+				<property>	vTransform
+					<Vector4>	0.000000 1.000000 0.000000 0.000000	</Vector4>
+				</property>
+				<property>	uTransform
+					<Vector4>	1.000000 0.000000 0.000000 0.000000	</Vector4>
+				</property>
+				<property>	otherMap
+					<Texture>	maps/fx/reflect/ref_environ_city.dds	</Texture>
+				</property>
+				<property>	selfIllumination
+					<Float>	1.000000	</Float>
+				</property>
+				<property>	diffuseMap
+					<TextureFeed>	bone_tv4
+						<default>	sets/dungeon/props/tvoff.bmp	</default>
+					</TextureFeed>
+				</property>
+			</material>
+		</tint>
+		<tint>
+			<name>	tv5	</name>
+			<material>
+				<fx>	shaders/std_effects/lightonly_chrome.fx	</fx>
+				<collisionFlags>	0	</collisionFlags>
+				<materialKind>	0	</materialKind>
+				<property>	alphaReference
+					<Int>	0	</Int>
+				</property>
+				<property>	fresnelConstant
+					<Float>	0.040000	</Float>
+				</property>
+				<property>	reflectionAmount
+					<Float>	0.620000	</Float>
+				</property>
+				<property>	vTransform
+					<Vector4>	0.000000 1.000000 0.000000 0.000000	</Vector4>
+				</property>
+				<property>	uTransform
+					<Vector4>	1.000000 0.000000 0.000000 0.000000	</Vector4>
+				</property>
+				<property>	otherMap
+					<Texture>	maps/fx/reflect/ref_environ_city.dds	</Texture>
+				</property>
+				<property>	selfIllumination
+					<Float>	1.000000	</Float>
+				</property>
+				<property>	diffuseMap
+					<TextureFeed>	bone_tv5
+						<default>	sets/dungeon/props/tvoff.bmp	</default>
+					</TextureFeed>
+				</property>
+			</material>
+		</tint>
+		<tint>
+			<name>	tv6	</name>
+			<material>
+				<fx>	shaders/std_effects/lightonly_chrome.fx	</fx>
+				<collisionFlags>	0	</collisionFlags>
+				<materialKind>	0	</materialKind>
+				<property>	alphaReference
+					<Int>	0	</Int>
+				</property>
+				<property>	fresnelConstant
+					<Float>	0.040000	</Float>
+				</property>
+				<property>	reflectionAmount
+					<Float>	0.620000	</Float>
+				</property>
+				<property>	vTransform
+					<Vector4>	0.000000 1.000000 0.000000 0.000000	</Vector4>
+				</property>
+				<property>	uTransform
+					<Vector4>	1.000000 0.000000 0.000000 0.000000	</Vector4>
+				</property>
+				<property>	otherMap
+					<Texture>	maps/fx/reflect/ref_environ_city.dds	</Texture>
+				</property>
+				<property>	selfIllumination
+					<Float>	1.000000	</Float>
+				</property>
+				<property>	diffuseMap
+					<TextureFeed>	bone_tv6
+						<default>	sets/dungeon/props/tvoff.bmp	</default>
+					</TextureFeed>
+				</property>
+			</material>
+		</tint>
+	</dye>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-0.599000 -0.463500 -0.232800	</min>
+		<max>	0.623900 1.192200 0.147400	</max>
+	</visibilityBox>
+	<metaData>
+		<copyright>	Copyright BigWorld Pty Ltd.  Use freely in any BigWorld licensed game.	</copyright>
+		<created_by>	adamm	</created_by>
+		<created_on>	1253065652	</created_on>
+		<modified_by>	adamm	</modified_by>
+		<modified_on>	1254376868	</modified_on>
+	</metaData>
+	<nodelessVisual>	sets/dungeon/props/bone_tv	</nodelessVisual>
+</bone_tv.model>

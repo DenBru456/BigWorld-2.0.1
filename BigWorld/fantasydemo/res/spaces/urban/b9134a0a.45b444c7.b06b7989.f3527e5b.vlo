@@ -1,0 +1,48 @@
+<b9134a0a.45b444c7.b06b7989.f3527e5b.vlo>
+	<water>
+		<position>	59.031002 0.535967 -116.833252	</position>
+		<orientation>	0.000000	</orientation>
+		<size>	25.999973 0.000000 15.799013	</size>
+		<fresnelConstant>	0.100000	</fresnelConstant>
+		<fresnelExponent>	3.700000	</fresnelExponent>
+		<reflectionTint>	0.439216 0.549020 0.560784 1.000000	</reflectionTint>
+		<reflectionStrength>	0.000000	</reflectionStrength>
+		<refractionTint>	1.000000 1.000000 1.000000 1.000000	</refractionTint>
+		<refractionStrength>	0.040000	</refractionStrength>
+		<tessellation>	10.000000	</tessellation>
+		<consistency>	0.950000	</consistency>
+		<textureTessellation>	10.000000	</textureTessellation>
+		<scrollSpeed1>	0.000000 0.000000	</scrollSpeed1>
+		<scrollSpeed2>	0.000000 0.000000	</scrollSpeed2>
+		<waveScale>	0.000000 0.000000	</waveScale>
+		<windVelocity>	0.000000	</windVelocity>
+		<sunPower>	35.799999	</sunPower>
+		<sunScale>	1.000000	</sunScale>
+		<waveTexture>	sets/urban/props/buildings/b_office/maps/office_floor_tile_norms.tga	</waveTexture>
+		<cellsize>	100.000000	</cellsize>
+		<smoothness>	1.000000	</smoothness>
+		<depth>	10.000000	</depth>
+		<foamTexture>	system/maps/water_foam2.dds	</foamTexture>
+		<reflectionTexture>	sets/urban/fx/maps/cubemap_softbox.dds	</reflectionTexture>
+		<deepColour>	0.301961 0.701961 0.572549 1.000000	</deepColour>
+		<fadeDepth>	0.000000	</fadeDepth>
+		<foamIntersection>	0.000000	</foamIntersection>
+		<foamMultiplier>	0.000000	</foamMultiplier>
+		<foamTiling>	0.000000	</foamTiling>
+		<ignoreSoftParticleContrast>	true	</ignoreSoftParticleContrast>
+		<useCubeMap>	false	</useCubeMap>
+		<useEdgeAlpha>	false	</useEdgeAlpha>
+		<useSimulation>	false	</useSimulation>
+		<visibility>	1	</visibility>
+		<reflectBottom>	false	</reflectBottom>
+		<metaData>
+			<modified_by>	adamm	</modified_by>
+			<modified_on>	1250231636	</modified_on>
+		</metaData>
+		<bypassDepth>	true	</bypassDepth>
+	</water>
+	<editorOnly>
+		<hidden>	false	</hidden>
+		<frozen>	false	</frozen>
+	</editorOnly>
+</b9134a0a.45b444c7.b06b7989.f3527e5b.vlo>

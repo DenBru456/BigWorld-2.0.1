@@ -1,0 +1,15 @@
+<facility_bench.model>
+	<materialNames>	</materialNames>
+	<extent>	102.000000	</extent>
+	<visibilityBox>
+		<min>	-2.812500 0.022500 -0.050720	</min>
+		<max>	0.006843 0.646797 0.634796	</max>
+	</visibilityBox>
+	<nodelessVisual>	sets/urban/props/bench/models/facility_bench	</nodelessVisual>
+	<batched>	false	</batched>
+	<metaData>
+		<copyright>	Copyright BigWorld Pty Ltd.  Use freely in any BigWorld licensed game.	</copyright>
+		<modified_by>	adamm	</modified_by>
+		<modified_on>	1254377294	</modified_on>
+	</metaData>
+</facility_bench.model>

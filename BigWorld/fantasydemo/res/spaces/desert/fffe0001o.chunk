@@ -1,0 +1,89 @@
+<fffe0001o.chunk>
+	<waypointGenerationTime>
+		<hi>	29728292	</hi>
+		<lo>	1320467818	</lo>
+	</waypointGenerationTime>
+	<particles>
+		<resource>	sets/desert/particles/hilltop_sand.xml	</resource>
+		<transform>
+			<row0>	-0.727312 0.000000 0.686307	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	-0.686307 0.000000 -0.727312	</row2>
+			<row3>	77.072060 61.870029 90.419266	</row3>
+		</transform>
+	</particles>
+	<model>
+		<resource>	sets/desert/props/ribs.model	</resource>
+		<transform>
+			<row0>	1.329966 -1.750298 -3.258035	</row0>
+			<row1>	1.087578 2.081414 -0.674226	</row1>
+			<row2>	2.645862 -0.879583 1.552606	</row2>
+			<row3>	86.574554 25.871902 9.370026	</row3>
+		</transform>
+	</model>
+	<model>
+		<resource>	sets/desert/props/ribs.model	</resource>
+		<transform>
+			<row0>	1.253098 -1.552989 -2.994397	</row0>
+			<row1>	0.896067 1.824492 -0.571253	</row1>
+			<row2>	2.390052 -0.740434 1.384205	</row2>
+			<row3>	85.277245 27.261269 11.737183	</row3>
+		</transform>
+	</model>
+	<model>
+		<resource>	sets/desert/props/ribs.model	</resource>
+		<transform>
+			<row0>	1.493571 -1.811546 -3.583163	</row0>
+			<row1>	1.208252 2.417857 -0.718764	</row1>
+			<row2>	2.948536 -0.963304 1.716059	</row2>
+			<row3>	89.609436 22.421162 3.283134	</row3>
+		</transform>
+	</model>
+	<model>
+		<resource>	sets/desert/props/ribs.model	</resource>
+		<transform>
+			<row0>	1.431283 -1.838849 -3.470290	</row0>
+			<row1>	1.176015 2.307660 -0.737755	</row1>
+			<row2>	2.862695 -0.924750 1.670695	</row2>
+			<row3>	88.448006 23.776711 5.685989	</row3>
+		</transform>
+	</model>
+	<model>
+		<resource>	sets/desert/props/ribs.model	</resource>
+		<transform>
+			<row0>	1.182626 -1.478310 -2.830335	</row0>
+			<row1>	0.815420 1.655257 -0.523840	</row1>
+			<row2>	2.228554 -0.689225 1.291167	</row2>
+			<row3>	84.194191 28.464718 13.849960	</row3>
+		</transform>
+	</model>
+	<model>
+		<resource>	sets/desert/props/ribs.model	</resource>
+		<transform>
+			<row0>	1.093538 -1.371438 -2.616051	</row0>
+			<row1>	0.705334 1.434557 -0.457216	</row1>
+			<row2>	2.016255 -0.619254 1.167456	</row2>
+			<row3>	82.896889 29.734079 16.203918	</row3>
+		</transform>
+	</model>
+	<particles>
+		<resource>	sets/desert/particles/hilltop_sand.xml	</resource>
+		<transform>
+			<row0>	-0.727312 0.000000 0.686307	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	-0.686307 0.000000 -0.727312	</row2>
+			<row3>	52.990524 43.841797 24.981064	</row3>
+		</transform>
+	</particles>
+	<terrain>
+		<resource>	fffe0001o.cdata/terrain	</resource>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>	</metaData>
+	</terrain>
+	<worldNavmesh>
+		<resource>	fffe0001o.cdata/worldNavmesh	</resource>
+	</worldNavmesh>
+</fffe0001o.chunk>

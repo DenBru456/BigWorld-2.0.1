@@ -1,0 +1,47 @@
+<teapoy.visual>
+	<node>
+		<identifier>	Scene Root	</identifier>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+	</node>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	Scene Root	</node>
+		<geometry>
+			<vertices>	vertices	</vertices>
+			<primitive>	indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	counter	</identifier>
+					<fx>	shaders/std_effects/normalmap_chrome.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	1	</materialKind>
+					<property>	reflectionMask
+						<Texture>	sets/urban/props/bar/maps/counter_spec.bmp	</Texture>
+					</property>
+					<property>	reflectionMap
+						<Texture>	system/maps/beastroomcubemap01.dds	</Texture>
+					</property>
+					<property>	normalMap
+						<Texture>	sets/urban/props/bar/maps/counter_norms.bmp	</Texture>
+					</property>
+					<property>	diffuseMap
+						<Texture>	sets/urban/props/bar/maps/counter_dif_alpha.tga	</Texture>
+					</property>
+					<property>	materialSpecular
+						<Vector4>	0.309804 0.368627 0.423529 1.000000	</Vector4>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<boundingBox>
+		<min>	-0.486695 -0.009938 -0.261682	</min>
+		<max>	0.486695 0.480126 0.261682	</max>
+	</boundingBox>
+	<materialKind>	1	</materialKind>
+</teapoy.visual>

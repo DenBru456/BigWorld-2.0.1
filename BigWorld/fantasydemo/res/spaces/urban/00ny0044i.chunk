@@ -1,0 +1,155 @@
+<root>
+	<shell>
+		<resource>	sets/urban/shells/office_corner.model	</resource>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<reflectionVisible>	true	</reflectionVisible>
+		<metaData>	</metaData>
+		<staticLighting>
+			<offset>	0	</offset>
+			<size>	460	</size>
+		</staticLighting>
+	</shell>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<resource>	sets/urban/props/signs/exit01.model	</resource>
+		<transform>
+			<row0>	-0.999999 0.000001 0.000000	</row0>
+			<row1>	-0.000000 0.000002 -0.999999	</row1>
+			<row2>	-0.000001 -1.000000 -0.000002	</row2>
+			<row3>	-3.199997 2.600000 -3.700001	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<metaData>	</metaData>
+		<staticLighting>
+			<offset>	460	</offset>
+			<size>	432	</size>
+		</staticLighting>
+	</model>
+	<omniLight>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>
+			<modified_by>	adamm	</modified_by>
+			<modified_on>	1250639378	</modified_on>
+		</metaData>
+		<colour>	221.000076 251.000076 187.000000	</colour>
+		<position>	-3.300003 2.609788 -3.599998	</position>
+		<innerRadius>	1.000000	</innerRadius>
+		<outerRadius>	2.343928	</outerRadius>
+		<dynamic>	true	</dynamic>
+		<static>	true	</static>
+		<specular>	false	</specular>
+		<multiplier>	1.000000	</multiplier>
+	</omniLight>
+	<omniLight>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>
+			<modified_by>	adamm	</modified_by>
+			<modified_on>	1250639378	</modified_on>
+		</metaData>
+		<colour>	185.000000 250.000061 253.000061	</colour>
+		<position>	-1.800003 2.409789 -1.900002	</position>
+		<innerRadius>	1.000000	</innerRadius>
+		<outerRadius>	3.684057	</outerRadius>
+		<dynamic>	true	</dynamic>
+		<static>	true	</static>
+		<specular>	false	</specular>
+		<multiplier>	1.000000	</multiplier>
+	</omniLight>
+	<omniLight>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>
+			<modified_by>	adamm	</modified_by>
+			<modified_on>	1250639380	</modified_on>
+		</metaData>
+		<colour>	194.000183 213.000183 174.000000	</colour>
+		<position>	-3.571152 2.549824 -3.126690	</position>
+		<innerRadius>	1.000000	</innerRadius>
+		<outerRadius>	3.486672	</outerRadius>
+		<dynamic>	true	</dynamic>
+		<static>	true	</static>
+		<specular>	false	</specular>
+		<multiplier>	1.000000	</multiplier>
+	</omniLight>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	true	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<metaData>
+			<modified_by>	viv	</modified_by>
+			<modified_on>	1271674655	</modified_on>
+		</metaData>
+		<resource>	sets/urban/props/buildings/b_office/models/office_door.model	</resource>
+		<transform>
+			<row0>	0.941622 0.000000 -0.336670	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	0.336670 0.000000 0.941622	</row2>
+			<row3>	0.525864 0.021934 -3.793308	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<staticLighting>
+			<offset>	892	</offset>
+			<size>	1592	</size>
+		</staticLighting>
+	</model>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	true	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<metaData>
+			<modified_by>	viv	</modified_by>
+			<modified_on>	1271674655	</modified_on>
+		</metaData>
+		<resource>	sets/urban/props/buildings/b_office/models/office_door.model	</resource>
+		<transform>
+			<row0>	0.999071 0.000000 0.043048	</row0>
+			<row1>	0.000000 0.999998 0.000000	</row1>
+			<row2>	-0.043048 0.000000 0.999071	</row2>
+			<row3>	0.458984 0.000000 -0.200077	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<staticLighting>
+			<offset>	2484	</offset>
+			<size>	1592	</size>
+		</staticLighting>
+	</model>
+	<worldNavmesh>
+		<resource>	00ny0044i.cdata/worldNavmesh	</resource>
+	</worldNavmesh>
+	<transform>
+		<row0>	-1.000000 0.000000 0.000000	</row0>
+		<row1>	0.000000 1.000000 0.000000	</row1>
+		<row2>	0.000000 0.000000 -1.000000	</row2>
+		<row3>	73.499962 0.499999 -44.999996	</row3>
+	</transform>
+	<boundingBox>
+		<min>	73.499954 0.499998 -44.999992	</min>
+		<max>	77.499954 41.253563 -40.999992	</max>
+	</boundingBox>
+</root>

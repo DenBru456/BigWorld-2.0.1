@@ -1,0 +1,15 @@
+<nocrossing_streetsign.model>
+	<nodelessVisual>	sets/urban/props/signs/nocrossing_streetsign	</nodelessVisual>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-0.008790 -0.001596 -0.297227	</min>
+		<max>	0.008454 0.624708 0.297227	</max>
+	</visibilityBox>
+	<extent>	257.000000	</extent>
+	<batched>	false	</batched>
+	<metaData>
+		<copyright>	Copyright BigWorld Pty Ltd.  Use freely in any BigWorld licensed game.	</copyright>
+		<modified_by>	adamm	</modified_by>
+		<modified_on>	1254379433	</modified_on>
+	</metaData>
+</nocrossing_streetsign.model>

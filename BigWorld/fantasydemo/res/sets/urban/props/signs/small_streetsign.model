@@ -1,0 +1,14 @@
+<small_streetsign.model>
+	<nodelessVisual>	sets/urban/props/signs/small_streetsign	</nodelessVisual>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-0.004601 0.000671 -0.106607	</min>
+		<max>	0.012644 0.892166 0.106607	</max>
+	</visibilityBox>
+	<extent>	50.000000	</extent>
+	<metaData>
+		<copyright>	Copyright BigWorld Pty Ltd.  Use freely in any BigWorld licensed game.	</copyright>
+		<modified_by>	adamm	</modified_by>
+		<modified_on>	1254380371	</modified_on>
+	</metaData>
+</small_streetsign.model>

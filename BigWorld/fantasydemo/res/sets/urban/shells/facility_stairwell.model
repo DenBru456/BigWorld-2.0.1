@@ -1,0 +1,13 @@
+<facility_stairwell.model>
+	<nodelessVisual>	sets/urban/shells/facility_stairwell	</nodelessVisual>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-10.499998 0.000000 0.000000	</min>
+		<max>	0.000001 8.000000 7.000002	</max>
+	</visibilityBox>
+	<metaData>
+		<copyright>	Copyright BigWorld Pty Ltd.  Use freely in any BigWorld licensed game.	</copyright>
+		<modified_by>	AdamM	</modified_by>
+		<modified_on>	1281673507	</modified_on>
+	</metaData>
+</facility_stairwell.model>

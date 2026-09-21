@@ -1,0 +1,13 @@
+<facility_room_double.model>
+	<nodelessVisual>	sets/urban/shells/facility_room_double	</nodelessVisual>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-11.699999 -0.000000 -23.849997	</min>
+		<max>	-0.299998 3.799992 -4.149998	</max>
+	</visibilityBox>
+	<metaData>
+		<copyright>	Copyright BigWorld Pty Ltd.  Use freely in any BigWorld licensed game.	</copyright>
+		<modified_by>	AdamM	</modified_by>
+		<modified_on>	1281673477	</modified_on>
+	</metaData>
+</facility_room_double.model>

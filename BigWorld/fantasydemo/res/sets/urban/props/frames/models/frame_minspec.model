@@ -1,0 +1,14 @@
+<frame_minspec.model>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-0.316914 -0.010425 -0.261008	</min>
+		<max>	0.316914 0.032743 0.261008	</max>
+	</visibilityBox>
+	<nodelessVisual>	sets/urban/props/frames/models/frame_minspec	</nodelessVisual>
+	<extent>	25.000000	</extent>
+	<metaData>
+		<copyright>	Copyright BigWorld Pty Ltd.  Use freely in any BigWorld licensed game.	</copyright>
+		<modified_by>	AdamM	</modified_by>
+		<modified_on>	1281674713	</modified_on>
+	</metaData>
+</frame_minspec.model>

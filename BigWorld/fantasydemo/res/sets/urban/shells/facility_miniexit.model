@@ -1,0 +1,13 @@
+<facility_miniexit.model>
+	<nodelessVisual>	sets/urban/shells/facility_miniexit	</nodelessVisual>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-4.433587 0.000000 -30.300970	</min>
+		<max>	-0.191187 3.036328 -29.920155	</max>
+	</visibilityBox>
+	<metaData>
+		<copyright>	Copyright BigWorld Pty Ltd.  Use freely in any BigWorld licensed game.	</copyright>
+		<modified_by>	AdamM	</modified_by>
+		<modified_on>	1281673442	</modified_on>
+	</metaData>
+</facility_miniexit.model>

@@ -1,0 +1,67 @@
+<fffd0005o.chunk>
+	<terrain>
+		<resource>	fffd0005o.cdata/terrain	</resource>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>	</metaData>
+	</terrain>
+	<worldNavmesh>
+		<resource>	fffd0005o.cdata/worldNavmesh	</resource>
+	</worldNavmesh>
+	<vlo>
+		<uid>	ed050d0c.4e047eff.772d4987.72100cf0	</uid>
+		<type>	water	</type>
+	</vlo>
+	<entity>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>	</metaData>
+		<guid>	3B31D67E.4CFF8484.5B358B9A.5B6AFFF2	</guid>
+		<type>	Guard	</type>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	82.899399 114.505852 8.285034	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<initialPatrolNode>
+				<guid>	EAB4BDF7.4CA2B8B4.DD6FAA8C.CA7DCCE7	</guid>
+				<chunkId>	fffd0004o	</chunkId>
+			</initialPatrolNode>
+			<guardType>	2	</guardType>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+		<backLinks>	</backLinks>
+	</entity>
+	<entity>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>	</metaData>
+		<guid>	D036A518.443D6940.D1985688.2F213385	</guid>
+		<type>	Guard	</type>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	38.897766 120.269524 4.545929	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<initialPatrolNode>
+				<guid>	EAB4BDF7.4CA2B8B4.DD6FAA8C.CA7DCCE7	</guid>
+				<chunkId>	fffd0004o	</chunkId>
+			</initialPatrolNode>
+			<guardType>	2	</guardType>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+		<backLinks>	</backLinks>
+	</entity>
+</fffd0005o.chunk>

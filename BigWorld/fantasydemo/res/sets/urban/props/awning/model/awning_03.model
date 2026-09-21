@@ -1,0 +1,13 @@
+<awning_03.model>
+	<nodelessVisual>	sets/urban/props/awning/model/awning_03	</nodelessVisual>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-0.034315 -0.021065 -3.975340	</min>
+		<max>	1.961875 0.653853 3.975342	</max>
+	</visibilityBox>
+	<metaData>
+		<copyright>	Copyright BigWorld Pty Ltd.  Use freely in any BigWorld licensed game.	</copyright>
+		<modified_by>	AdamM	</modified_by>
+		<modified_on>	1281674410	</modified_on>
+	</metaData>
+</awning_03.model>

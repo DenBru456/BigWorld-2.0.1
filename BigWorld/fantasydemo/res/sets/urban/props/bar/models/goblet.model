@@ -1,0 +1,14 @@
+<goblet.model>
+	<nodelessVisual>	sets/urban/props/bar/models/goblet	</nodelessVisual>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-0.063300 -0.000848 -0.063549	</min>
+		<max>	0.063300 0.176826 0.063548	</max>
+	</visibilityBox>
+	<extent>	15.000000	</extent>
+	<metaData>
+		<copyright>	Copyright BigWorld Pty Ltd.  Use freely in any BigWorld licensed game.	</copyright>
+		<modified_by>	AdamM	</modified_by>
+		<modified_on>	1281674780	</modified_on>
+	</metaData>
+</goblet.model>

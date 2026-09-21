@@ -1,0 +1,17 @@
+<fff7ffffo.chunk>
+	<terrain>
+		<resource>	fff7ffffo.cdata/terrain	</resource>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>	</metaData>
+	</terrain>
+	<worldNavmesh>
+		<resource>	fff7ffffo.cdata/worldNavmesh	</resource>
+	</worldNavmesh>
+	<vlo>
+		<uid>	ed050d0c.4e047eff.772d4987.72100cf0	</uid>
+		<type>	water	</type>
+	</vlo>
+</fff7ffffo.chunk>

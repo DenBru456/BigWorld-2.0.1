@@ -1,0 +1,142 @@
+<facility_corridor_small.visual>
+	<node>
+		<identifier>	Scene Root	</identifier>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+	</node>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	Scene Root	</node>
+		<geometry>
+			<vertices>	vertices	</vertices>
+			<primitive>	indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	facility	</identifier>
+					<fx>	shaders/std_effects/normalmap_chrome.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	reflectionMask
+						<Texture>	sets/urban/props/buildings/b_facility/maps/concrete_facility_s.bmp	</Texture>
+					</property>
+					<property>	texAddressMode
+						<Int>	1	</Int>
+					</property>
+					<property>	doubleSided
+						<Bool>	false	</Bool>
+					</property>
+					<property>	alphaReference
+						<Int>	0	</Int>
+					</property>
+					<property>	alphaTestEnable
+						<Bool>	false	</Bool>
+					</property>
+					<property>	reflectionMap
+						<Texture>	sets/urban/fx/maps/cubemap_softbox.dds	</Texture>
+					</property>
+					<property>	normalMap
+						<Texture>	sets/urban/props/buildings/b_facility/maps/concrete_facility_norms.bmp	</Texture>
+					</property>
+					<property>	diffuseMap
+						<Texture>	sets/urban/props/buildings/b_facility/maps/concrete_facility.bmp	</Texture>
+					</property>
+					<property>	selfIllumination
+						<Float>	0.000000	</Float>
+					</property>
+					<property>	materialSpecular
+						<Vector4>	1.000000 1.000000 1.000000 1.000000	</Vector4>
+					</property>
+					<property>	reflectionAmount
+						<Float>	0.500000	</Float>
+					</property>
+					<property>	fresnelConstant
+						<Float>	0.500000	</Float>
+					</property>
+					<property>	fresnelExp
+						<Float>	5.000000	</Float>
+					</property>
+				</material>
+			</primitiveGroup>
+			<primitiveGroup>	1
+				<material>
+					<identifier>	floor_tile	</identifier>
+					<fx>	shaders/std_effects/normalmap_specmap.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	texAddressMode
+						<Int>	1	</Int>
+					</property>
+					<property>	specularMap
+						<Texture>	sets/urban/props/buildings/b_facility/maps/facility_edge_tile_d.bmp	</Texture>
+					</property>
+					<property>	alphaReference
+						<Int>	0	</Int>
+					</property>
+					<property>	alphaTestEnable
+						<Bool>	false	</Bool>
+					</property>
+					<property>	selfIllumination
+						<Float>	0.000000	</Float>
+					</property>
+					<property>	doubleSided
+						<Bool>	false	</Bool>
+					</property>
+					<property>	normalMap
+						<Texture>	sets/urban/props/buildings/b_facility/maps/facility_floor_tile_norms.bmp	</Texture>
+					</property>
+					<property>	diffuseMap
+						<Texture>	sets/urban/props/buildings/b_facility/maps/facility_floor_tile_d.bmp	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<boundingBox>
+		<min>	-4.000000 0.000000 0.000000	</min>
+		<max>	0.000000 3.000000 4.000000	</max>
+	</boundingBox>
+	<boundary>
+		<normal>	1.000000 0.000000 0.000000	</normal>
+		<d>	-4.000000	</d>
+	</boundary>
+	<boundary>
+		<normal>	-1.000000 -0.000000 -0.000000	</normal>
+		<d>	-0.000000	</d>
+	</boundary>
+	<boundary>
+		<normal>	0.000000 1.000000 0.000000	</normal>
+		<d>	0.000000	</d>
+	</boundary>
+	<boundary>
+		<normal>	-0.000000 -1.000000 -0.000000	</normal>
+		<d>	-3.000000	</d>
+	</boundary>
+	<boundary>
+		<normal>	0.000000 0.000000 1.000000	</normal>
+		<d>	0.000000	</d>
+		<portal>
+			<uAxis>	1.000000 0.000000 0.000000	</uAxis>
+			<point>	-4.000000 3.000000 0.000000	</point>
+			<point>	0.000000 3.000000 0.000000	</point>
+			<point>	0.000000 0.000000 0.000000	</point>
+			<point>	-4.000000 0.000000 0.000000	</point>
+		</portal>
+	</boundary>
+	<boundary>
+		<normal>	-0.000000 -0.000000 -1.000000	</normal>
+		<d>	-4.000000	</d>
+		<portal>
+			<uAxis>	1.000000 0.000000 0.000000	</uAxis>
+			<point>	-4.000000 0.000000 0.000000	</point>
+			<point>	0.000000 0.000000 0.000000	</point>
+			<point>	0.000000 -3.000000 0.000000	</point>
+			<point>	-4.000000 -3.000000 0.000000	</point>
+		</portal>
+	</boundary>
+	<customHull>	false	</customHull>
+	<materialKind>	2	</materialKind>
+</facility_corridor_small.visual>

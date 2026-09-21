@@ -1,0 +1,14 @@
+<b_office_floor_utility.model>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-28.249996 -0.000000 -20.499996	</min>
+		<max>	0.250002 7.999999 3.750002	</max>
+	</visibilityBox>
+	<nodelessVisual>	sets/urban/props/buildings/b_office/models/b_office_floor_utility	</nodelessVisual>
+	<dpvsOccluder>	true	</dpvsOccluder>
+	<metaData>
+		<copyright>	Copyright BigWorld Pty Ltd.  Use freely in any BigWorld licensed game.	</copyright>
+		<modified_by>	adamm	</modified_by>
+		<modified_on>	1254376359	</modified_on>
+	</metaData>
+</b_office_floor_utility.model>

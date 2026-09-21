@@ -1,0 +1,10 @@
+<sky.xml>
+	<texture>	system/maps/sky_gradient_blue.tga	</texture>
+	<mieAmount>	0.240000	</mieAmount>
+	<turbidityOffset>	0.190000	</turbidityOffset>
+	<turbidityFactor>	0.100000	</turbidityFactor>
+	<vertexHeightEffect>	0.920000	</vertexHeightEffect>
+	<sunHeightEffect>	1.030000	</sunHeightEffect>
+	<power>	23.650000	</power>
+	<farPlane>	1000.000000	</farPlane>
+</sky.xml>

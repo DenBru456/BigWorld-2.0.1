@@ -1,0 +1,15 @@
+<busesonly_streetsign.model>
+	<nodelessVisual>	sets/urban/props/signs/busesonly_streetsign	</nodelessVisual>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-0.010236 -0.002528 -0.387701	</min>
+		<max>	0.009845 0.989334 0.387701	</max>
+	</visibilityBox>
+	<extent>	138.000000	</extent>
+	<batched>	false	</batched>
+	<metaData>
+		<copyright>	Copyright BigWorld Pty Ltd.  Use freely in any BigWorld licensed game.	</copyright>
+		<modified_by>	adamm	</modified_by>
+		<modified_on>	1254376892	</modified_on>
+	</metaData>
+</busesonly_streetsign.model>

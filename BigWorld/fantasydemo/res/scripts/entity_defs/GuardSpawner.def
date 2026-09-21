@@ -1,0 +1,186 @@
+<root>
+	<Volatile>
+	</Volatile>
+
+	<Implements>
+		<Interface> BaseAndCell </Interface>
+	</Implements>
+
+	<Properties>
+		<spaceID>
+			<Type>			SPACE_ID			</Type>
+			<Flags>			BASE				</Flags>
+		</spaceID>
+
+		<guardSpawners>
+			<Type>			PYTHON				</Type>
+			<Flags>			BASE				</Flags>
+		</guardSpawners>
+
+		<localSpawnRequests>
+			<Type>			PYTHON				</Type>
+			<Flags>			BASE				</Flags>
+		</localSpawnRequests>
+
+		<globalSpawnRequests>
+			<Type>			PYTHON				</Type>
+			<Flags>			BASE				</Flags>
+		</globalSpawnRequests>
+
+		<guardRemoveRequests>
+			<Type>			PYTHON				</Type>
+			<Flags>			BASE				</Flags>
+		</guardRemoveRequests>
+
+		<spawnTimers>
+			<Type>			PYTHON				</Type>
+			<Flags>			BASE		</Flags>
+		</spawnTimers>
+
+		<guardType>
+			<Type>			UINT8				</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Default>		0					</Default>
+			<Editable>		true				</Editable>
+			<Persistent>	true				</Persistent>
+		</guardType>
+
+
+		<guardTimeToLive>
+			<Type>			FLOAT				</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Default>		300.0				</Default>
+			<Editable>		true				</Editable>
+			<Persistent>	true				</Persistent>
+		</guardTimeToLive>
+
+		<dictionary>
+			<Type>			STRING				</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Default>		{}					</Default>
+			<Editable>		true				</Editable>
+			<Persistent>	true				</Persistent>
+		</dictionary>
+
+		<spawnPoints>
+			<Type>	ARRAY	<of> PATROL_NODE </of>	</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Editable>		true				</Editable>
+			<Persistent>	true				</Persistent>
+		</spawnPoints>
+
+		<entityCreationDictionary>
+			<Type>			PYTHON				</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+		</entityCreationDictionary>
+
+		<numberOfGuards>
+			<Type>			UINT32				</Type>
+			<Flags>			ALL_CLIENTS			</Flags>
+			<Default>		0					</Default>
+		</numberOfGuards>
+
+		<spawning>
+			<Type>			BOOL				</Type>
+			<Flags>			ALL_CLIENTS			</Flags>
+			<Default>		0				</Default>
+		</spawning>
+
+		<nameProperty>
+			<Type>			STRING				</Type>
+			<Flags>			ALL_CLIENTS			</Flags>
+			<Default>		Guard Spawner		</Default>
+			<Persistent>	true				</Persistent>
+			<Editable>		true				</Editable>
+		</nameProperty>
+
+		<guardList>
+			<Type>	ARRAY	<of> MAILBOX </of>	</Type>
+			<Flags>			BASE				</Flags>
+		</guardList>
+	</Properties>
+
+	<BaseMethods>
+		<addGuardSpawner>
+			<Arg>		MAILBOX		</Arg>	<!-- guardSpawnerMailbox -->
+		</addGuardSpawner>
+
+		<spawnGuardsLocally>
+			<Arg>		MAILBOX		</Arg>	<!-- targetGuardSpawner -->
+			<Arg>		UINT32		</Arg>	<!-- numberOfGuards -->
+			<Arg>		UINT32		</Arg>	<!-- maxGuards -->
+			<Arg>		FLOAT		</Arg>	<!-- spawnDuration -->
+			<Arg>		FLOAT		</Arg>	<!-- timeToLive -->
+		</spawnGuardsLocally>
+
+		<spawnGuardsGlobally>
+			<Arg>		UINT32		</Arg>	<!-- numberOfGuards -->
+			<Arg>		UINT32		</Arg>	<!-- maxGuards -->
+			<Arg>		FLOAT		</Arg>	<!-- spawnDuration -->
+			<Arg>		FLOAT		</Arg>	<!-- timeToLive -->
+		</spawnGuardsGlobally>
+
+		<removeGuardsGlobally>
+			<Arg>		UINT32		</Arg>	<!-- numberOfGuards -->
+		</removeGuardsGlobally>
+
+
+		<queryNumberOfGuards>
+			<Arg>		MAILBOX		</Arg>	<!-- returnMailbox -->
+		</queryNumberOfGuards>
+
+		<notifyNumberOfGuards>
+			<Arg>		MAILBOX		</Arg>	<!-- spawnerMailbox -->
+			<Arg>		UINT32		</Arg>	<!-- spawnedGuards -->
+			<Arg>		UINT32		</Arg>	<!-- pendingGuards -->
+		</notifyNumberOfGuards>
+
+		<spawnGuards>
+			<Arg>		UINT32		</Arg>	<!-- numberOfGuards -->
+			<Arg>		FLOAT		</Arg>	<!-- spawnDuration -->
+			<Arg>		FLOAT		</Arg>	<!-- timeToLive -->
+		</spawnGuards>
+
+		<removeGuards>
+			<Arg>		UINT32		</Arg>	<!-- numberOfGuards -->
+		</removeGuards>
+
+		<registerGuard>
+			<Arg>		MAILBOX		</Arg>
+		</registerGuard>
+
+		<deregisterGuard>
+			<Arg>		ENTITY_ID	</Arg>
+		</deregisterGuard>
+
+		<setSpaceID>
+			<Arg>		SPACE_ID	</Arg>
+		</setSpaceID>
+	</BaseMethods>
+
+	<CellMethods>
+		<spawnGuardsLocally>
+			<Exposed/>
+			<Arg>		UINT32		</Arg>	<!-- numberOfGuards -->
+			<Arg>		UINT32		</Arg>	<!-- maxGuards -->
+			<Arg>		FLOAT		</Arg>	<!-- spawnDuration -->
+		</spawnGuardsLocally>
+
+		<createGuard>
+			<Arg>		FLOAT		</Arg>		<!-- timeToLive -->
+		</createGuard>
+
+		<setNumberOfGuards>
+			<Arg>		UINT32		</Arg>		<!-- numberOfGuards -->
+		</setNumberOfGuards>
+
+		<setSpawning>
+			<Arg>		BOOL		</Arg>		<!-- spawning -->
+		</setSpawning>
+	</CellMethods>
+
+	<ClientMethods>
+	</ClientMethods>
+
+</root>
+

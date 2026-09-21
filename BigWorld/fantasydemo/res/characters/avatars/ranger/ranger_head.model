@@ -1,0 +1,171 @@
+<ranger_head.model>
+	<action>
+		<name>	m_blow	</name>
+		<animation>	m_blow_head	</animation>
+	</action>
+	<action>
+		<name>	m_head_stretch	</name>
+		<animation>	m_head_stretch	</animation>
+	</action>
+	<action>
+		<name>	m_troller	</name>
+		<animation>	m_troller	</animation>
+	</action>
+	<extent>	73.000000	</extent>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-0.238510 1.569469 -0.198607	</min>
+		<max>	0.283627 1.955875 0.352104	</max>
+	</visibilityBox>
+	<animation>
+		<name>	m_blow	</name>
+		<frameRate>	30.000000	</frameRate>
+		<nodes>	characters/avatars/base/animations/Gestures/m_blow	</nodes>
+	</animation>
+	<animation>
+		<name>	m_head_stretch	</name>
+		<frameRate>	30.000000	</frameRate>
+		<nodes>	characters/avatars/base/animations/Gestures/m_head_stretch	</nodes>
+	</animation>
+	<animation>
+		<name>	m_troller	</name>
+		<frameRate>	30.000000	</frameRate>
+		<nodes>	characters/avatars/base/animations/Gestures/m_troller	</nodes>
+	</animation>
+	<dye>
+		<matter>	Head_skinned	</matter>
+		<replaces>	Head_skinned	</replaces>
+		<tint>
+			<name>	Merchant	</name>
+			<material>
+				<identifier>	Head_skinned	</identifier>
+				<fx>	shaders/std_effects/subsurface_skinned.fx	</fx>
+				<collisionFlags>	0	</collisionFlags>
+				<materialKind>	0	</materialKind>
+				<property>	rimStrength
+					<Float>	0.140000	</Float>
+				</property>
+				<property>	rimWidth
+					<Float>	0.140000	</Float>
+				</property>
+				<property>	subSurfaceBlendPower
+					<Float>	0.800000	</Float>
+				</property>
+				<property>	subSurfaceMap
+					<Texture>	characters/avatars/ranger/ranger_face_subsurface.tga	</Texture>
+				</property>
+				<property>	specularMap
+					<Texture>	characters/avatars/ranger/ranger_face_spec.bmp	</Texture>
+				</property>
+				<property>	normalMap
+					<Texture>	characters/avatars/ranger/ranger_face_norms.bmp	</Texture>
+				</property>
+				<property>	diffuseMap
+					<Texture>	characters/avatars/ranger/ranger_face.tga	</Texture>
+				</property>
+			</material>
+		</tint>
+	</dye>
+	<dye>
+		<matter>	Hair_skinned	</matter>
+		<replaces>	Hair_skinned	</replaces>
+		<tint>
+			<name>	Merchant	</name>
+			<material>
+				<identifier>	Hair_skinned	</identifier>
+				<fx>	shaders/std_effects/lightonly_skinned.fx	</fx>
+				<collisionFlags>	0	</collisionFlags>
+				<materialKind>	0	</materialKind>
+				<property>	alphaReference
+					<Int>	77	</Int>
+				</property>
+				<property>	alphaTestEnable
+					<Bool>	true	</Bool>
+				</property>
+				<property>	doubleSided
+					<Bool>	true	</Bool>
+				</property>
+				<property>	diffuseMap
+					<Texture>	characters/avatars/ranger/ranger_hairstyle.tga	</Texture>
+				</property>
+			</material>
+		</tint>
+	</dye>
+	<dye>
+		<matter>	chrome_eyes_skinned	</matter>
+		<replaces>	chrome_eyes_skinned	</replaces>
+		<tint>
+			<name>	Merchant	</name>
+			<material>
+				<identifier>	chrome_eyes_skinned	</identifier>
+				<fx>	shaders/std_effects/normalmap_chrome_skinned.fx	</fx>
+				<collisionFlags>	0	</collisionFlags>
+				<materialKind>	11	</materialKind>
+				<property>	reflectionMap
+					<Texture>	system/maps/cloudyhillscubemap2.dds	</Texture>
+				</property>
+				<property>	normalMap
+					<Texture>	characters/avatars/ranger/ranger_face_norms.bmp	</Texture>
+				</property>
+				<property>	diffuseMap
+					<Texture>	characters/avatars/ranger/ranger_face.tga	</Texture>
+				</property>
+				<property>	materialSpecular
+					<Vector4>	1.000000 0.996078 0.984314 1.000000	</Vector4>
+				</property>
+				<property>	reflectionAmount
+					<Float>	1.510000	</Float>
+				</property>
+				<property>	fresnelConstant
+					<Float>	0.130000	</Float>
+				</property>
+				<property>	fresnelExp
+					<Float>	1.220000	</Float>
+				</property>
+			</material>
+		</tint>
+	</dye>
+	<animation>
+		<name>	m_blow_head	</name>
+		<frameRate>	30.000000	</frameRate>
+		<nodes>	characters/avatars/base/animations/Gestures/m_blow_head	</nodes>
+	</animation>
+	<animation>
+		<name>	eye_l	</name>
+		<frameRate>	30.000000	</frameRate>
+		<nodes>	characters/avatars/ranger/animations/eye_l	</nodes>
+	</animation>
+	<animation>
+		<name>	eye_r	</name>
+		<frameRate>	30.000000	</frameRate>
+		<nodes>	characters/avatars/ranger/animations/eye_r	</nodes>
+	</animation>
+	<animation>
+		<name>	grrr	</name>
+		<frameRate>	30.000000	</frameRate>
+		<nodes>	characters/avatars/ranger/animations/grrr	</nodes>
+	</animation>
+	<animation>
+		<name>	smile	</name>
+		<frameRate>	30.000000	</frameRate>
+		<nodes>	characters/avatars/ranger/animations/smile	</nodes>
+	</animation>
+	<animation>
+		<name>	sneer	</name>
+		<frameRate>	30.000000	</frameRate>
+		<nodes>	characters/avatars/ranger/animations/sneer	</nodes>
+	</animation>
+	<animation>
+		<name>	wide_eyes	</name>
+		<frameRate>	30.000000	</frameRate>
+		<nodes>	characters/avatars/ranger/animations/wide_eyes	</nodes>
+	</animation>
+	<metaData>
+		<copyright>	Copyright BigWorld Pty Ltd.  Use freely in any BigWorld licensed game.	</copyright>
+		<created_by>	adamm	</created_by>
+		<created_on>	1255671200	</created_on>
+		<modified_by>	AdamM	</modified_by>
+		<modified_on>	1280102392	</modified_on>
+	</metaData>
+	<nodefullVisual>	characters/avatars/ranger/ranger_head	</nodefullVisual>
+</ranger_head.model>

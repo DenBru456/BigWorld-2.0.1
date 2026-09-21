@@ -1,0 +1,15 @@
+<undergroundcable_streetsign.model>
+	<nodelessVisual>	sets/urban/props/signs/undergroundcable_streetsign	</nodelessVisual>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-0.207133 0.000769 -0.332941	</min>
+		<max>	0.206458 0.018014 0.332941	</max>
+	</visibilityBox>
+	<extent>	122.000000	</extent>
+	<batched>	false	</batched>
+	<metaData>
+		<copyright>	Copyright BigWorld Pty Ltd.  Use freely in any BigWorld licensed game.	</copyright>
+		<modified_by>	AdamM	</modified_by>
+		<modified_on>	1281675184	</modified_on>
+	</metaData>
+</undergroundcable_streetsign.model>

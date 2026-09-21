@@ -1,0 +1,102 @@
+<ffff0000o.chunk>
+	<waypointGenerationTime>
+		<hi>	29728292	</hi>
+		<lo>	154686568	</lo>
+	</waypointGenerationTime>
+	<model>
+		<resource>	sets/temperate/props/brush.model	</resource>
+		<transform>
+			<row0>	0.319565 -0.022346 3.047883	</row0>
+			<row1>	0.213781 3.057205 0.000000	</row1>
+			<row2>	-3.040458 0.212610 0.320346	</row2>
+			<row3>	48.084419 1.100000 51.614544	</row3>
+		</transform>
+		<reflectionVisible>	true	</reflectionVisible>
+	</model>
+	<model>
+		<resource>	sets/temperate/props/brush.model	</resource>
+		<transform>
+			<row0>	0.319565 -0.022346 3.047883	</row0>
+			<row1>	0.213781 3.057205 0.000000	</row1>
+			<row2>	-3.040458 0.212610 0.320346	</row2>
+			<row3>	45.799999 4.179074 35.200001	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<terrain>
+		<resource>	ffff0000o.cdata/terrain	</resource>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>	</metaData>
+	</terrain>
+	<worldNavmesh>
+		<resource>	ffff0000o.cdata/worldNavmesh	</resource>
+	</worldNavmesh>
+	<entity>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>	</metaData>
+		<guid>	C4070042.4C6DF5B6.4D695D94.04EDB2D1	</guid>
+		<type>	Ripper	</type>
+		<transform>
+			<row0>	0.882335 0.000000 -0.470621	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.470621 0.000000 0.882335	</row2>
+			<row3>	14.074287 9.000000 4.465161	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+		<backLinks>	</backLinks>
+	</entity>
+	<entity>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>	</metaData>
+		<guid>	0429B74C.43DCEE02.4B8A4887.D575EDEC	</guid>
+		<type>	Ripper	</type>
+		<transform>
+			<row0>	0.882335 0.000000 -0.470621	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.470621 0.000000 0.882335	</row2>
+			<row3>	12.721306 9.000000 12.884037	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+		<backLinks>	</backLinks>
+	</entity>
+	<entity>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>	</metaData>
+		<guid>	0CD407BF.4E1D8890.FAB674AB.20098BDB	</guid>
+		<type>	TeleportPoint	</type>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	6.568268 8.999999 1.113802	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<label>	demo1	</label>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+		<backLinks>	</backLinks>
+	</entity>
+	<vlo>
+		<uid>	d881daba.4f7f166e.b35d7f8a.145db23d	</uid>
+		<type>	water	</type>
+	</vlo>
+</ffff0000o.chunk>

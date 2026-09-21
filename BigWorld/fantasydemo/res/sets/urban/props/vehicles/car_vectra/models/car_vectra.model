@@ -1,0 +1,15 @@
+<car_vectra.model>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-0.872265 -0.016735 -1.710720	</min>
+		<max>	0.848916 1.163130 2.032930	</max>
+	</visibilityBox>
+	<extent>	55.000000	</extent>
+	<parent>	sets/urban/props/vehicles/car_vectra/models/car_vectra_lod01	</parent>
+	<nodelessVisual>	sets/urban/props/vehicles/car_vectra/models/car_vectra	</nodelessVisual>
+	<metaData>
+		<copyright>	Copyright owned by the3dstudio.com	</copyright>
+		<modified_by>	adamm	</modified_by>
+		<modified_on>	1254383224	</modified_on>
+	</metaData>
+</car_vectra.model>

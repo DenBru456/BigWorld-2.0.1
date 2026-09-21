@@ -1,0 +1,157 @@
+<root>
+	<!-- The values used in entity definitions are described more fully in
+		enum.xml -->
+
+	<!-- Volatile parameters are those that must be sent to the client on a
+		regular basis.  Anything not specified here will have to be sent
+		explicitly.  In the case of the TED, as with any thing that moves, we
+		will need to send the position and directional components.  Each
+		component can have an associated priority level, which will affect its
+		placement in the transmission priority queue.  A normal priority is
+		assigned if no priority value is provided.  Priorities become less as
+		higher values are specified. -->
+	<Volatile>
+		<position/>
+		<yaw/>
+		<pitch> 20 </pitch>
+	</Volatile>
+
+	<Implements>
+		<Interface> BaseAndCell </Interface>
+	</Implements>
+
+
+	<!-- Any of TED's properties can have (optionally implemented)
+		set_<propertyName>(oldValue) callbacks in the client implementation
+		script, which are called whenever the property value has been changed.
+	-->
+	<Properties>
+
+		<!-- This property stores the Entity Vision Controller to allow the TED
+			to 'see' as an AI unit. -->
+		<visionController>
+
+			<!-- The type of this property, as specified in alias.xml in the
+				entities/defs folder. -->
+			<Type> CONTROLLER_ID </Type>
+
+			<!-- This property is CELL_PRIVATE to the TED.  Only the real cell
+				entity has access to this property. -->
+			<Flags> CELL_PRIVATE </Flags>
+			
+			<!-- The default value to be passed in when Entity is created, if no
+				other value is supplied. -->
+			<Default> 0 </Default>
+			
+		</visionController>
+
+		<!-- This property stores the Entity Navigation Controller to allow the
+			TED to move as an AI unit. -->
+		<movementController>
+			
+			<!-- The type of this property, as specified in alias.xml in the
+				entities/defs folder. -->
+			<Type> CONTROLLER_ID </Type>
+
+			<!-- This property is CELL_PRIVATE to the TED.  Only the real cell
+				entity has access to this property. -->
+			<Flags> CELL_PRIVATE </Flags>
+
+			<!-- The default value to be passed in when Entity is created, if no
+				other value is supplied. -->
+			<Default> 0 </Default>
+
+		</movementController>
+
+		<!-- This property stores the current behaviour of the AI unit.  It will
+			be changed as the vision and navigation components provide input to
+			the TED. -->
+		<behaviour>
+			
+			<!-- The type of this property. -->
+			<Type> UINT8 </Type>
+
+			<!-- This property is CELL_PRIVATE to the TED.  Only the real cell
+				entity has access to this property. -->
+			<Flags> CELL_PRIVATE </Flags>
+
+			<!-- The default value to be passed in when Entity is created, if no
+				other value is supplied. -->
+			<Default> 0 </Default>
+
+		</behaviour>
+
+		<!-- The mode property represents a change in TED that will affect how a
+			client will perceive him.  This may include dead and alive, or a
+			particular state that all clients will need to know about.  In the
+			current TED implementation, this is used for a scream and a state of
+			alarm, which will be propagated to all clients so they can all
+			experience the scream. -->
+		<mode>
+			
+			<!-- The type of this property, as specified in enum.xml. -->
+			<Type> INT8 </Type>
+
+			<!-- The OTHER_CLIENTS flag will ensure that when the mode property
+				is changed, that change is propagated to all client machines
+				that have the TED instantiation for which the property was
+				changed.  set_mode() will then be called on each client that
+				experienced the change. -->
+			<Flags> OTHER_CLIENTS </Flags>
+			
+			<!-- The default value to be passed in when Entity is created, if no
+				other value is supplied.  See TEDModes.py in the common entities
+				folder for the default value representation. -->
+			<Default> -1 </Default>
+			
+			<!-- If true, the Persitant flag instructs BigWorld to save this
+				property out to the database.  If false, or not specified the
+				property value will be lost when the Entity is destroyed. -->
+			<Persistent> false </Persistent>
+
+		</mode>
+
+	</Properties>
+
+	<!-- These methods are implemented in the client part of the distributed
+		Entity. -->
+	<ClientMethods>
+	
+		<!-- The chat() method on the client displays the given chat message -->
+		<chat>
+		
+			<!-- This single argument is the message to be displayed.  It is of
+				type UNICODE_STRING. -->
+			<Arg> UNICODE_STRING </Arg>
+			<DetailDistance> 10 </DetailDistance>
+			
+		</chat>
+	
+	</ClientMethods>
+
+	<!-- These methods will be implemented on the Cell, hence available to the
+		other cell entities and base entities.  Exposed methods are also
+		available to be called from client entities.  These methods will have to
+		be implemented in the CellApp part of the distributed Entity. -->
+	<CellMethods>
+	
+		<!-- The use() method is called by the TED Client to inform the Cell
+			entity that a player has requested to use it. -->
+		<use>
+		
+			<!-- The Exposed tag should be used for any method that is to be
+				called from the Client. It passes the ID of the player Entity on
+				that client as the first parameter. -->
+			<Exposed/>
+			
+		</use>
+	
+	</CellMethods>
+
+	<!-- These methods will be available to the Base entity to perform any
+		server designated behaviour.  These methods will have to be implemented
+		in the BaseApp part of the distributed Entity. -->
+	<BaseMethods>
+	</BaseMethods>
+
+</root>

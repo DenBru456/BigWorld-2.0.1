@@ -1,0 +1,73 @@
+<exporter_000_temp.visual>
+	<node>
+		<identifier>	Scene Root	</identifier>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+	</node>
+	<materialKind>	5	</materialKind>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	Scene Root	</node>
+		<geometry>
+			<vertices>	vertices	</vertices>
+			<primitive>	indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	Truck A	</identifier>
+					<fx>	shaders/std_effects/normalmap_specmap_chrome.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	reflectionMask
+						<Texture>	sets/urban/props/vehicles/truck/maps/truck_cab_spec.bmp	</Texture>
+					</property>
+					<property>	reflectionMap
+						<Texture>	sets/urban/fx/maps/cubemap_urban.dds	</Texture>
+					</property>
+					<property>	specularMap
+						<Texture>	sets/urban/props/vehicles/truck/maps/truck_cab_spec.bmp	</Texture>
+					</property>
+					<property>	normalMap
+						<Texture>	sets/urban/props/vehicles/truck/maps/truck_cab_norms.bmp	</Texture>
+					</property>
+					<property>	diffuseMap
+						<Texture>	sets/urban/props/vehicles/truck/maps/truck_cab_diff.bmp	</Texture>
+					</property>
+					<property>	reflectionAmount
+						<Float>	1.000000	</Float>
+					</property>
+				</material>
+			</primitiveGroup>
+			<primitiveGroup>	1
+				<material>
+					<identifier>	Truck Ab	</identifier>
+					<fx>	shaders/std_effects/normalmap_specmap_chrome.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	reflectionMask
+						<Texture>	sets/urban/props/vehicles/truck/maps/truck_container_spec.bmp	</Texture>
+					</property>
+					<property>	reflectionMap
+						<Texture>	sets/urban/fx/maps/cubemap_urban.dds	</Texture>
+					</property>
+					<property>	specularMap
+						<Texture>	sets/urban/props/vehicles/truck/maps/truck_container_spec.bmp	</Texture>
+					</property>
+					<property>	normalMap
+						<Texture>	sets/urban/props/vehicles/truck/maps/truck_container_norms.bmp	</Texture>
+					</property>
+					<property>	diffuseMap
+						<Texture>	sets/urban/props/vehicles/truck/maps/truck_bigworld_logo.bmp	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<boundingBox>
+		<min>	-1.176642 0.005424 -3.172247	</min>
+		<max>	1.177366 3.218402 3.915401	</max>
+	</boundingBox>
+</exporter_000_temp.visual>

@@ -1,0 +1,97 @@
+<b_office_floor.visual>
+	<node>
+		<identifier>	Scene Root	</identifier>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+	</node>
+	<materialKind>	2	</materialKind>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	Scene Root	</node>
+		<geometry>
+			<vertices>	vertices	</vertices>
+			<primitive>	indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	WALL	</identifier>
+					<fx>	shaders/std_effects/normalmap_chrome.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	reflectionMask
+						<Texture>	sets/urban/props/buildings/b_office/maps/office_exterior_s.bmp	</Texture>
+					</property>
+					<property>	reflectionMap
+						<Texture>	sets/urban/fx/maps/cubemap_urban.dds	</Texture>
+					</property>
+					<property>	normalMap
+						<Texture>	sets/urban/props/buildings/b_office/maps/office_exterior_norms.bmp	</Texture>
+					</property>
+					<property>	diffuseMap
+						<Texture>	sets/urban/props/buildings/b_office/maps/office_exterior.bmp	</Texture>
+					</property>
+					<property>	fresnelConstant
+						<Float>	0.100000	</Float>
+					</property>
+					<property>	fresnelExp
+						<Float>	2.500000	</Float>
+					</property>
+				</material>
+			</primitiveGroup>
+			<primitiveGroup>	1
+				<material>
+					<identifier>	face	</identifier>
+					<fx>	shaders/std_effects/normalmap_specmap.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	specularMap
+						<Texture>	sets/urban/props/buildings/b_office/maps/office_concrete_s.bmp	</Texture>
+					</property>
+					<property>	normalMap
+						<Texture>	sets/urban/props/buildings/b_office/maps/office_concrete_norms.bmp	</Texture>
+					</property>
+					<property>	diffuseMap
+						<Texture>	sets/urban/props/buildings/b_office/maps/office_concrete.bmp	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+			<primitiveGroup>	2
+				<material>
+					<identifier>	WINDOW	</identifier>
+					<fx>	shaders/std_effects/normalmap_chrome_glow.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	reflectionMask
+						<Texture>	helpers/maps/col_white.bmp	</Texture>
+					</property>
+					<property>	reflectionMap
+						<Texture>	sets/urban/fx/maps/cubemap_urban.dds	</Texture>
+					</property>
+					<property>	glowMap
+						<Texture>	sets/urban/props/buildings/b_office/maps/office_window_g1.bmp	</Texture>
+					</property>
+					<property>	glowFactor
+						<Float>	0.000000	</Float>
+					</property>
+					<property>	normalMap
+						<Texture>	sets/urban/props/buildings/b_office/maps/office_window_norms.bmp	</Texture>
+					</property>
+					<property>	diffuseMap
+						<Texture>	sets/urban/props/buildings/b_office/maps/office_window.bmp	</Texture>
+					</property>
+					<property>	selfIllumination
+						<Float>	0.000000	</Float>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<boundingBox>
+		<min>	-28.250000 -0.200000 -20.500000	</min>
+		<max>	0.250000 8.199999 3.750000	</max>
+	</boundingBox>
+	<customBsp>	true	</customBsp>
+</b_office_floor.visual>

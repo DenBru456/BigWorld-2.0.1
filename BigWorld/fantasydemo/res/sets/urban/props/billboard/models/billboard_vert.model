@@ -1,0 +1,14 @@
+<billboard_vert.model>
+	<materialNames>	</materialNames>
+	<batched>	false	</batched>
+	<visibilityBox>
+		<min>	-8.474425 -0.000002 0.000000	</min>
+		<max>	0.000002 0.353102 17.655054	</max>
+	</visibilityBox>
+	<nodelessVisual>	sets/urban/props/billboard/models/billboard_vert	</nodelessVisual>
+	<metaData>
+		<copyright>	Copyright BigWorld Pty Ltd.  Use freely in any BigWorld licensed game.	</copyright>
+		<modified_by>	adamm	</modified_by>
+		<modified_on>	1254376834	</modified_on>
+	</metaData>
+</billboard_vert.model>

@@ -1,0 +1,13 @@
+<facility_door.model>
+	<nodelessVisual>	sets/urban/props/buildings/b_facility/models/facility_door	</nodelessVisual>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-3.992112 0.005834 -1.507859	</min>
+		<max>	0.007888 3.006853 1.281865	</max>
+	</visibilityBox>
+	<metaData>
+		<copyright>	Copyright BigWorld Pty Ltd.  Use freely in any BigWorld licensed game.	</copyright>
+		<modified_by>	AdamM	</modified_by>
+		<modified_on>	1281674655	</modified_on>
+	</metaData>
+</facility_door.model>

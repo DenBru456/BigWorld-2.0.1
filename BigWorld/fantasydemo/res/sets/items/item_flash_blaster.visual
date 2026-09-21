@@ -1,0 +1,117 @@
+<item_flash_blaster.visual>
+	<node>
+		<identifier>	Scene Root	</identifier>
+		<transform>
+			<row0>	1.0000 0.0000 0.0000	</row0>
+			<row1>	0.0000 1.0000 0.0000	</row1>
+			<row2>	0.0000 0.0000 1.0000	</row2>
+			<row3>	0.0000 0.0000 0.0000	</row3>
+		</transform>
+		<node>
+			<identifier>	HP_muzzle	</identifier>
+			<transform>
+				<row0>	-0.0000 0.0000 1.0000	</row0>
+				<row1>	1.0000 0.0000 0.0000	</row1>
+				<row2>	-0.0000 1.0000 -0.0000	</row2>
+				<row3>	0.0215 -0.1352 0.0093	</row3>
+			</transform>
+		</node>
+		<node>
+			<identifier>	root_blast	</identifier>
+			<transform>
+				<row0>	-0.6086 0.0000 -0.0000	</row0>
+				<row1>	0.0000 0.6086 0.0000	</row1>
+				<row2>	0.0000 0.0000 -0.6086	</row2>
+				<row3>	0.0000 -0.0000 0.0000	</row3>
+			</transform>
+			<node>
+				<identifier>	effect	</identifier>
+				<transform>
+					<row0>	-1.1804 0.0000 0.0000	</row0>
+					<row1>	-0.0000 1.1804 -0.0000	</row1>
+					<row2>	-0.0000 -0.0000 -1.1804	</row2>
+					<row3>	-0.0546 -0.2124 0.0220	</row3>
+				</transform>
+			</node>
+		</node>
+	</node>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	root_blast	</node>
+		<geometry>
+			<vertices>	sets/items/item_flash_blaster.root_blast.vertices	</vertices>
+			<primitive>	sets/items/item_flash_blaster.root_blast.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<fx>	shaders/std_effects/lightonly_add.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	effect	</node>
+		<geometry>
+			<vertices>	sets/items/item_flash_blaster.effect.vertices	</vertices>
+			<primitive>	sets/items/item_flash_blaster.effect.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<fx>	shaders/std_effects/lightonly_add.fx	</fx>
+					<property>	alphaReference
+						<Int>	0	</Int>
+					</property>
+					<property>	alphaTestEnable
+						<Bool>	true	</Bool>
+					</property>
+					<property>	doubleSided
+						<Bool>	false	</Bool>
+					</property>
+					<property>	selfIllumination
+						<Float>	1.000000	</Float>
+					</property>
+					<property>	diffuseMap
+						<Texture>	maps/fx/gun_hotfire.bmp	</Texture>
+					</property>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<identifier>	gun_hotfire	</identifier>
+				</material>
+			</primitiveGroup>
+			<primitiveGroup>	1
+				<material>
+					<fx>	shaders/std_effects/lightonly_add.fx	</fx>
+					<property>	alphaReference
+						<Int>	0	</Int>
+					</property>
+					<property>	alphaTestEnable
+						<Bool>	true	</Bool>
+					</property>
+					<property>	doubleSided
+						<Bool>	true	</Bool>
+					</property>
+					<property>	selfIllumination
+						<Float>	1.000000	</Float>
+					</property>
+					<property>	diffuseMap
+						<Texture>	maps\fx\gun_hotburst.bmp	</Texture>
+					</property>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<identifier>	gun_hotburst	</identifier>
+				</material>
+			</primitiveGroup>
+			<primitiveGroup>	2
+				<material>
+					<mfm>	materials\items\weapons\gun_railflare.mfm	</mfm>
+					<identifier>	gun_railflare	</identifier>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<boundingBox>
+		<min>	-0.00 -0.14 -0.04	</min>
+		<max>	0.09 0.06 0.03	</max>
+	</boundingBox>
+</item_flash_blaster.visual>

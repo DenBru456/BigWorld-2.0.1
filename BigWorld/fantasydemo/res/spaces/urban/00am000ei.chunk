@@ -1,0 +1,35 @@
+<root>
+	<shell>
+		<resource>	sets/urban/shells/facility_elevator.model	</resource>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<reflectionVisible>	true	</reflectionVisible>
+		<metaData>	</metaData>
+		<staticLighting>
+			<offset>	0	</offset>
+			<size>	96	</size>
+		</staticLighting>
+	</shell>
+	<worldNavmesh>
+		<resource>	00am000ei.cdata/worldNavmesh	</resource>
+	</worldNavmesh>
+	<transform>
+		<row0>	0.000000 0.000000 1.000000	</row0>
+		<row1>	0.000000 1.000000 0.000000	</row1>
+		<row2>	-1.000000 0.000000 0.000000	</row2>
+		<row3>	70.014755 0.498379 -109.987335	</row3>
+	</transform>
+	<boundingBox>
+		<min>	26.014753 0.479842 -113.987328	</min>
+		<max>	30.014753 52.998325 -109.987328	</max>
+	</boundingBox>
+</root>

@@ -1,0 +1,14 @@
+<elevator_outerdoors.model>
+	<nodelessVisual>	sets/urban/props/elevator/models/elevator_outerdoors	</nodelessVisual>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	1.790660 0.000000 -1.960181	</min>
+		<max>	2.001722 3.205704 1.889819	</max>
+	</visibilityBox>
+	<extent>	396.000000	</extent>
+	<metaData>
+		<copyright>	Copyright BigWorld Pty Ltd.  Use freely in any BigWorld licensed game.	</copyright>
+		<modified_by>	adamm	</modified_by>
+		<modified_on>	1254377268	</modified_on>
+	</metaData>
+</elevator_outerdoors.model>

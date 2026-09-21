@@ -1,0 +1,44 @@
+<ice_bucket.visual>
+	<node>
+		<identifier>	Scene Root	</identifier>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+	</node>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	Scene Root	</node>
+		<geometry>
+			<vertices>	vertices	</vertices>
+			<primitive>	indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	bottles	</identifier>
+					<fx>	shaders/std_effects/normalmap_chrome.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	12	</materialKind>
+					<property>	reflectionMask
+						<Texture>	sets/urban/props/bar/maps/counter_spec.bmp	</Texture>
+					</property>
+					<property>	reflectionMap
+						<Texture>	sets/shared/fx/maps/cubemap_window128.dds	</Texture>
+					</property>
+					<property>	normalMap
+						<Texture>	sets/urban/props/bar/maps/counter_norms.bmp	</Texture>
+					</property>
+					<property>	diffuseMap
+						<Texture>	sets/urban/props/bar/maps/counter_dif_alpha.tga	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<boundingBox>
+		<min>	-0.297632 -0.001261 -0.236581	</min>
+		<max>	0.297633 0.961311 0.236581	</max>
+	</boundingBox>
+	<materialKind>	6	</materialKind>
+</ice_bucket.visual>

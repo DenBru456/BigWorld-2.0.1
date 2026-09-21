@@ -1,0 +1,14 @@
+<badaboing_neon_sign.model>
+	<nodelessVisual>	sets/urban/props/neon_signs/models/badaboing_neon_sign	</nodelessVisual>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-0.500000 0.010000 -0.500000	</min>
+		<max>	0.500000 0.020000 0.500000	</max>
+	</visibilityBox>
+	<extent>	240.000000	</extent>
+	<metaData>
+		<copyright>	Copyright BigWorld Pty Ltd.  Use freely in any BigWorld licensed game.	</copyright>
+		<modified_by>	adamm	</modified_by>
+		<modified_on>	1254376370	</modified_on>
+	</metaData>
+</badaboing_neon_sign.model>

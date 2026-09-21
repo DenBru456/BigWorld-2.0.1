@@ -1,0 +1,79 @@
+<door.model>
+	<action>
+		<name>	door_closed	</name>
+		<animation>	door_closed	</animation>
+	</action>
+	<action>
+		<name>	door_open	</name>
+		<animation>	door_open	</animation>
+	</action>
+	<action>
+		<name>	door_close_out	</name>
+		<animation>	door_close_out	</animation>
+	</action>
+	<action>
+		<name>	door_close_in	</name>
+		<animation>	door_close_in	</animation>
+	</action>
+	<action>
+		<name>	door_open_out	</name>
+		<animation>	door_open_out	</animation>
+	</action>
+	<action>
+		<name>	door_open_in	</name>
+		<animation>	door_open_in	</animation>
+	</action>
+	<nodefullVisual>	sets/minspec/props/house/models/door	</nodefullVisual>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-1.309249 1.719593 -8.117114	</min>
+		<max>	1.631783 4.847418 -2.533867	</max>
+	</visibilityBox>
+	<animation>
+		<name>	door_open_in	</name>
+		<frameRate>	30.000000	</frameRate>
+		<nodes>	sets/minspec/props/house/models/door_open_close	</nodes>
+		<firstFrame>	0	</firstFrame>
+		<lastFrame>	30	</lastFrame>
+	</animation>
+	<animation>
+		<name>	door_open_out	</name>
+		<frameRate>	30.000000	</frameRate>
+		<nodes>	sets/minspec/props/house/models/door_open_close	</nodes>
+		<firstFrame>	60	</firstFrame>
+		<lastFrame>	90	</lastFrame>
+	</animation>
+	<animation>
+		<name>	door_close_in	</name>
+		<frameRate>	30.000000	</frameRate>
+		<nodes>	sets/minspec/props/house/models/door_open_close	</nodes>
+		<firstFrame>	30	</firstFrame>
+		<lastFrame>	60	</lastFrame>
+	</animation>
+	<animation>
+		<name>	door_close_out	</name>
+		<frameRate>	30.000000	</frameRate>
+		<nodes>	sets/minspec/props/house/models/door_open_close	</nodes>
+		<firstFrame>	90	</firstFrame>
+		<lastFrame>	120	</lastFrame>
+	</animation>
+	<animation>
+		<name>	door_open	</name>
+		<frameRate>	30.000000	</frameRate>
+		<nodes>	sets/minspec/props/house/models/door_open_close	</nodes>
+		<firstFrame>	30	</firstFrame>
+		<lastFrame>	30	</lastFrame>
+	</animation>
+	<animation>
+		<name>	door_closed	</name>
+		<frameRate>	30.000000	</frameRate>
+		<nodes>	sets/minspec/props/house/models/door_open_close	</nodes>
+		<firstFrame>	0	</firstFrame>
+		<lastFrame>	0	</lastFrame>
+	</animation>
+	<metaData>
+		<copyright>	Copyright BigWorld Pty Ltd.  Use freely in any BigWorld licensed game.	</copyright>
+		<modified_by>	AdamM	</modified_by>
+		<modified_on>	1281489715	</modified_on>
+	</metaData>
+</door.model>

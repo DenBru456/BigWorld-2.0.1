@@ -1,0 +1,13 @@
+<facility_elevator.model>
+	<nodelessVisual>	sets/urban/shells/facility_elevator	</nodelessVisual>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-3.994827 12.008422 40.018082	</min>
+		<max>	-3.894827 12.118422 40.118080	</max>
+	</visibilityBox>
+	<metaData>
+		<copyright>	Copyright BigWorld Pty Ltd.  Use freely in any BigWorld licensed game.	</copyright>
+		<modified_by>	AdamM	</modified_by>
+		<modified_on>	1281673391	</modified_on>
+	</metaData>
+</facility_elevator.model>

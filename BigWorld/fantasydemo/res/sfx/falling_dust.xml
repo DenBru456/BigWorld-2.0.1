@@ -1,0 +1,18 @@
+<beast_stomp.xml>
+	<Actor> particles
+		<ParticleSystem>	particles/falling_dust.xml	</ParticleSystem>
+	</Actor>
+	
+	<Joint>	particles
+		<Entity/>
+	</Joint>
+
+	<Event> particles
+		<ForceParticle/>
+	</Event>
+	
+	<!--<Event>-->
+		<!--<PlaySound>	guns/shot	</PlaySound>-->
+	<!--</Event>-->
+
+</beast_stomp.xml>

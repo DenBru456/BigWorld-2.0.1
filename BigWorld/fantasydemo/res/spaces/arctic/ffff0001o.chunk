@@ -1,0 +1,17 @@
+<ffff0001o.chunk>
+	<waypointGenerationTime>
+		<hi>	29734717	</hi>
+		<lo>	-121876278	</lo>
+	</waypointGenerationTime>
+	<terrain>
+		<resource>	ffff0001o.cdata/terrain	</resource>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>	</metaData>
+	</terrain>
+	<worldNavmesh>
+		<resource>	ffff0001o.cdata/worldNavmesh	</resource>
+	</worldNavmesh>
+</ffff0001o.chunk>

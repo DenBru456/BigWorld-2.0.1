@@ -1,0 +1,404 @@
+<root>
+	<Implements>
+		<Interface> BaseAndCell </Interface>
+		<Interface> ModeTarget </Interface>
+	</Implements>
+
+	<Properties>
+		<playerName>
+			<Type>			UNICODE_STRING	</Type>
+			<Flags>			ALL_CLIENTS		</Flags>
+			<Editable>		true			</Editable>
+			<Persistent>	true			</Persistent>
+			<DatabaseLength> 100			</DatabaseLength>
+			<Identifier>	true			</Identifier>
+		</playerName>
+
+		<avatarModel>
+			<Type>			PACKED_AVATAR_MODEL	</Type>
+			<Flags>			ALL_CLIENTS			</Flags>
+		</avatarModel>
+
+		<persistentAvatarModelData>
+			<Type>			PERSISTENT_AVATAR_MODEL		</Type>
+			<Flags>			BASE						</Flags>
+			<Persistent>	true						</Persistent>
+		</persistentAvatarModelData>		
+
+		<modelNumber>
+			<!-- Model Numbers are now deprecated in favour or more flexible Avatar Models.
+			This property has not been removed because of AI logic in Guard that depends on it. -->
+
+			<Type>			UINT16				</Type>
+			<Flags>			OTHER_CLIENTS		</Flags>
+			<Default>		2					</Default>
+			<Persistent>	true				</Persistent>
+			<!-- Data LoD'ing example.
+			<DetailLevel>	NEAR				</DetailLevel>
+			-->
+			<Editable>		true				</Editable>
+		</modelNumber>
+		
+		<customColour>
+			<Type>			INT8				</Type>
+			<Flags>			ALL_CLIENTS			</Flags>
+			<Persistent>	true				</Persistent>
+			<Default>		-1					</Default>
+		</customColour>
+
+		<rightHand>
+			<Type>			ITEMTYPE				</Type>
+			<Flags>			OTHER_CLIENTS		</Flags>
+			<Default>		-1					</Default>
+			<Editable>		true				</Editable>
+		</rightHand>
+
+		<shoulder>
+			<Type>			ITEMTYPE			</Type>
+			<Flags>			OTHER_CLIENTS		</Flags>
+			<Default>		-1					</Default>
+			<Editable>		true				</Editable>
+			<Persistent>	true				</Persistent>
+		</shoulder>
+
+		<rightHip>
+			<Type>			ITEMTYPE			</Type>
+			<Flags>			OTHER_CLIENTS		</Flags>
+			<Default>		-1					</Default>
+			<Editable>		true				</Editable>
+			<Persistent>	true				</Persistent>
+		</rightHip>
+
+		<leftHip>
+			<Type>			ITEMTYPE			</Type>
+			<Flags>			OTHER_CLIENTS		</Flags>
+			<Default>		-1					</Default>
+			<Editable>		true				</Editable>
+			<Persistent>	true				</Persistent>
+		</leftHip>
+
+		<label>
+			<Type>			STRING				</Type>
+			<Flags>			CELL_PUBLIC			</Flags>
+			<Editable>		true			</Editable>
+			<Persistent>	true			</Persistent>
+		</label>
+
+		<health>
+			<Type>			INT32				</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Default>		250					</Default>
+			<Editable>		true			</Editable>
+			<Persistent>	true			</Persistent>
+		</health>
+
+		<maxHealth>
+			<Type>			INT32				</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Default>		250					</Default>
+			<Editable>		true			</Editable>
+			<Persistent>	true			</Persistent>
+		</maxHealth>
+
+		<healthPercent>
+			<Type>			INT8				</Type>
+			<Flags>			ALL_CLIENTS			</Flags>
+			<Default>		100					</Default>
+		</healthPercent>
+
+		<frags>
+			<Type>			INT32				</Type>
+			<Flags>			ALL_CLIENTS			</Flags>
+			<Default>		0					</Default>
+			<Persistent>	true				</Persistent>
+		</frags>
+
+		<mode>
+			<Type>			INT8				</Type>
+			<Flags>			ALL_CLIENTS			</Flags>
+			<Default>		-1					</Default>
+		</mode>
+
+		<modeIntParam>
+			<Type>			INT32				</Type>
+			<Flags>			CELL_PUBLIC			</Flags>
+		</modeIntParam>
+
+		<stance>
+			<Type>			INT8				</Type>
+			<Flags>			OTHER_CLIENTS		</Flags>
+			<Default>		-1					</Default>
+		</stance>
+
+		<ccInCharge>
+			<Type>			BOOL				</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Default>		0					</Default>
+		</ccInCharge>
+
+		<ccTimerId>
+			<Type>			INT32				</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Default>		0					</Default>
+		</ccTimerId>
+
+		<ccOwnMove>
+			<Type>			INT8				</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Default>		-1					</Default>
+		</ccOwnMove>
+
+		<ccOthMove>
+			<Type>			INT8				</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Default>		-1					</Default>
+		</ccOthMove>
+
+		<ccDefence>
+			<Type>			INT8				</Type>
+			<Flags>			CELL_PUBLIC			</Flags>
+			<Default>		0					</Default>
+		</ccDefence>
+		
+		<delayedDamageList>
+			<!-- List of tuples: ( entityID, time ) -->
+			<Type>			PYTHON				</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Default>		[]					</Default>
+			<Persistent>	false				</Persistent>
+		</delayedDamageList>
+		
+		<delayedDamageTimerID>
+			<Type>			INT32				</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Default>		0					</Default>
+		</delayedDamageTimerID>
+	</Properties>
+
+	<ClientMethods>
+
+		<shonk>
+			<Arg>	OBJECT_ID		</Arg>	<!-- opponent -->
+			<Arg>	UINT8				</Arg>	<!-- oppAction -->
+			<Arg>	UINT8				</Arg>	<!-- ownAction -->
+		</shonk>
+
+		<handshake>
+			<Arg>	OBJECT_ID			</Arg>	<!-- partner -->
+		</handshake>
+
+		<pullUp>
+			<Arg>	OBJECT_ID			</Arg>	<!-- partner -->
+		</pullUp>
+
+		<pushUp>
+			<Arg>	OBJECT_ID			</Arg>	<!-- partner -->
+		</pushUp>
+
+		<didGesture>
+			<Arg>	UINT8					</Arg>	<!-- actionID -->
+		</didGesture>
+
+		<fireWeapon>
+			<Arg>	OBJECT_ID			</Arg>	<!-- shotid -->
+			<Arg>	INT8					</Arg>	<!-- lockLevel -->
+		</fireWeapon>
+		
+		<castSpell>
+			<Arg>	OBJECT_ID			</Arg>	<!-- shotid, or -->
+			<Arg>	VECTOR3				</Arg>	<!-- target location -->
+			<Arg>	UINT8				</Arg>	<!-- and material kind -->
+		</castSpell>
+
+		<fragged>
+			<Arg>	OBJECT_ID			</Arg>	<!-- shooterID -->
+		</fragged>
+
+		<!--
+		<dropItem>
+			<Arg>	OBJECT_ID			</Arg> begin nested comment: itemID :end nested comment
+		</dropItem>
+		-->
+
+		<eat>
+			<Arg>	ITEMTYPE				</Arg>	<!-- itemType -->
+		</eat>
+
+		<assail>
+		</assail>
+
+		<salida>
+			<Arg>	INT8					</Arg>	<!-- result -->
+		</salida>
+		<chat>
+			<Arg>	UNICODE_STRING				</Arg>	<!-- msg -->
+			<!-- Data LoD'ing example.
+			<DetailDistance>	30		</DetailDistance>
+			-->
+		</chat>
+
+	</ClientMethods>
+
+	<BaseMethods>
+
+		<logOff>
+			<Exposed/>
+		</logOff>
+
+		<setRightHand>
+			<Exposed/>
+			<Arg>	ITEMTYPE				</Arg>	<!-- itemType -->
+		</setRightHand>
+
+
+	</BaseMethods>
+
+	<CellMethods>
+		<enterMode>
+			<Exposed/>
+			<Arg>	INT8					</Arg>	<!-- mode -->
+			<Arg>	OBJECT_ID			</Arg>	<!-- modeTarget -->
+			<Arg>	INT32					</Arg>	<!-- modeIntParam -->
+		</enterMode>
+
+		<answerMode>
+			<Exposed/>
+			<Arg>	INT8					</Arg>	<!-- mode -->
+			<Arg>	OBJECT_ID			</Arg>	<!-- respondent -->
+			<Arg>	INT32					</Arg>	<!-- param -->
+		</answerMode>
+
+		<cancelMode>
+			<Exposed/>
+		</cancelMode>
+
+		<enterCombat>
+			<Exposed/>
+		</enterCombat>
+
+		<leaveCombat>
+			<Exposed/>
+		</leaveCombat>
+		
+		<setCustomColour>
+			<Exposed/>
+			<Arg>	INT8				</Arg>	<!-- custom colour index -->
+		</setCustomColour>
+
+		<didGesture>
+			<Exposed/>
+			<Arg>	UINT8					</Arg>	<!-- gestureNumber -->
+		</didGesture>
+
+		<setRightHand>
+			<Exposed/>
+			<Arg>	ITEMTYPE				</Arg>	<!-- itemType -->
+		</setRightHand>
+
+		<setShoulder>
+			<Exposed/>
+			<Arg>	ITEMTYPE				</Arg>	<!-- itemType -->
+		</setShoulder>
+
+		<setRightHip>
+			<Exposed/>
+			<Arg>	ITEMTYPE				</Arg>	<!-- itemType -->
+		</setRightHip>
+
+		<setLeftHip>
+			<Exposed/>
+			<Arg>	ITEMTYPE				</Arg>	<!-- itemType -->
+		</setLeftHip>
+
+		<fireWeapon> <Exposed/>
+			<Arg>	OBJECT_ID			</Arg>	<!-- who -->
+			<!-- TODO: Need to implement float types properly -->
+			<Arg>	FLOAT					</Arg>	<!-- accuracy -->
+		</fireWeapon>
+		
+		<castSpell> <Exposed/>
+			<Arg>	OBJECT_ID			</Arg>	<!-- who, or -->
+			<Arg>	VECTOR3				</Arg>	<!-- target location -->
+			<Arg>	UINT8				</Arg>	<!-- and material kind. -->
+			<Arg>	FLOAT				</Arg>	<!-- time to hit target -->
+			<Arg>	FLOAT				</Arg>	<!-- explodeRadius -->
+		</castSpell>
+
+		<rangedHit>
+			<Arg>	OBJECT_ID			</Arg>	<!-- who -->
+			<!-- TODO: Need to implement float types properly -->
+			<Arg>	FLOAT					</Arg>	<!-- accuracy -->
+		</rangedHit>
+
+
+
+		<gotFrag>
+			<Arg>	OBJECT_ID			</Arg>	<!-- victimID -->
+		</gotFrag>
+
+		<eat> <Exposed/>
+			<Arg>	ITEMTYPE				</Arg>	<!-- itemType -->
+		</eat>
+
+
+		<reincarnate>
+			<Exposed/>
+		</reincarnate>
+
+		<assail>
+			<Exposed/>
+			<Arg>	OBJECT_ID				</Arg> <!-- targetID -->
+		</assail>
+
+		<closeCombatNotify>
+			<Arg>	OBJECT_ID				</Arg> <!-- assailant -->
+		</closeCombatNotify>
+
+		<setStance>
+			<Exposed/>
+			<Arg>	INT8						</Arg> <!-- stance -->
+		</setStance>
+
+		<closeHit>
+			<Arg>	INT32						</Arg> <!-- damage -->
+			<Arg>	OBJECT_ID				</Arg> <!-- whoid -->
+		</closeHit>
+
+		<reduceDefence>
+			<Arg>	INT8						</Arg> <!-- amount -->
+		</reduceDefence>
+
+		<chat> <Exposed/>
+			<Arg>	UNICODE_STRING					</Arg>	<!-- message -->
+		</chat>
+
+		<!-- Called by a player when they change their name. -->
+		<setPlayerName> <Exposed/>
+			<Arg> STRING </Arg>
+		</setPlayerName>
+
+		<syncServTime>
+			<Exposed/>
+			<Arg>	INT8				</Arg>
+			<Arg>	FLOAT				</Arg>
+			<Arg>	FLOAT				</Arg>
+		</syncServTime>
+
+		<resyncServTime>
+			<Exposed/>
+			<Arg>	INT8				</Arg>
+		</resyncServTime>
+
+		<syncServWeather>
+			<Exposed/>
+			<Arg>	INT8				</Arg>
+			<Arg>	STRING				</Arg>
+		</syncServWeather>
+
+	</CellMethods>
+
+	<ClientMethods>
+	</ClientMethods>
+
+</root>
+

@@ -1,0 +1,14 @@
+<graffiti05.model>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-0.539552 0.020954 -0.306322	</min>
+		<max>	0.539552 0.024781 0.306322	</max>
+	</visibilityBox>
+	<nodelessVisual>	sets/urban/props/graffiti/models/graffiti05	</nodelessVisual>
+	<extent>	50.000000	</extent>
+	<metaData>
+		<copyright>	Copyright owned by 3dTotal.com	</copyright>
+		<modified_by>	AdamM	</modified_by>
+		<modified_on>	1281674807	</modified_on>
+	</metaData>
+</graffiti05.model>

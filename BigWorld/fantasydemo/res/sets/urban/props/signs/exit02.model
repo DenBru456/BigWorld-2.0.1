@@ -1,0 +1,15 @@
+<exit02.model>
+	<nodelessVisual>	sets/urban/props/signs/exit02	</nodelessVisual>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-0.216306 0.000000 -0.148036	</min>
+		<max>	0.346744 0.106354 0.139380	</max>
+	</visibilityBox>
+	<extent>	80.000000	</extent>
+	<batched>	false	</batched>
+	<metaData>
+		<copyright>	Copyright BigWorld Pty Ltd.  Use freely in any BigWorld licensed game.	</copyright>
+		<modified_by>	adamm	</modified_by>
+		<modified_on>	1254377286	</modified_on>
+	</metaData>
+</exit02.model>

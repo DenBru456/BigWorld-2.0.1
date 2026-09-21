@@ -1,0 +1,72 @@
+<b_brownstone_ground.visual>
+	<node>
+		<identifier>	Scene Root	</identifier>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+	</node>
+	<materialKind>	2	</materialKind>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	Scene Root	</node>
+		<geometry>
+			<vertices>	vertices	</vertices>
+			<primitive>	indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	groundfloor	</identifier>
+					<fx>	shaders/std_effects/normalmap_specmap_chrome_glow.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	reflectionMask
+						<Texture>	sets/urban/props/buildings/b_brownstone/maps/b_brownstone_ref_mask.bmp	</Texture>
+					</property>
+					<property>	texAddressMode
+						<Int>	1	</Int>
+					</property>
+					<property>	doubleSided
+						<Bool>	false	</Bool>
+					</property>
+					<property>	alphaReference
+						<Int>	0	</Int>
+					</property>
+					<property>	alphaTestEnable
+						<Bool>	false	</Bool>
+					</property>
+					<property>	reflectionMap
+						<Texture>	sets/urban/fx/maps/cubemap_urban.dds	</Texture>
+					</property>
+					<property>	specularMap
+						<Texture>	sets/urban/props/buildings/b_brownstone/maps/b_brownstone_spec.bmp	</Texture>
+					</property>
+					<property>	glowMap
+						<Texture>	sets/urban/props/buildings/b_brownstone/maps/b_brownstone_glow.bmp	</Texture>
+					</property>
+					<property>	glowFactor
+						<Float>	0.000000	</Float>
+					</property>
+					<property>	normalMap
+						<Texture>	sets/urban/props/buildings/b_brownstone/maps/b_brownstone_norms.bmp	</Texture>
+					</property>
+					<property>	diffuseMap
+						<Texture>	sets/urban/props/buildings/b_brownstone/maps/b_brownstone.bmp	</Texture>
+					</property>
+					<property>	selfIllumination
+						<Float>	0.000000	</Float>
+					</property>
+					<property>	reflectionAmount
+						<Float>	0.700000	</Float>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<boundingBox>
+		<min>	-27.145256 -1.225303 -0.141942	</min>
+		<max>	0.141911 5.459245 13.231505	</max>
+	</boundingBox>
+	<customBsp>	true	</customBsp>
+</b_brownstone_ground.visual>

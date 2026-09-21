@@ -1,0 +1,14 @@
+<wine_glass.model>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-0.094412 -0.001464 -0.094412	</min>
+		<max>	0.094412 0.224901 0.094412	</max>
+	</visibilityBox>
+	<extent>	19.000000	</extent>
+	<nodelessVisual>	sets/urban/props/bar/models/wine_glass	</nodelessVisual>
+	<metaData>
+		<copyright>	Copyright BigWorld Pty Ltd.  Use freely in any BigWorld licensed game.	</copyright>
+		<modified_by>	AdamM	</modified_by>
+		<modified_on>	1281675218	</modified_on>
+	</metaData>
+</wine_glass.model>

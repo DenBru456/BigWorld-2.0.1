@@ -1,0 +1,1508 @@
+<ffff0000o.chunk>
+	<speedtree>
+		<seed>	1	</seed>
+		<transform>
+			<row0>	0.164212 0.000000 0.137790	</row0>
+			<row1>	0.000000 0.214364 0.000000	</row1>
+			<row2>	-0.137790 0.000000 0.164212	</row2>
+			<row3>	34.167145 141.394333 76.286072	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<spt>	speedtree/Conifers/douglas_fir_full/DouglasFir_RT_Full.spt	</spt>
+	</speedtree>
+	<speedtree>
+		<seed>	1	</seed>
+		<transform>
+			<row0>	0.149521 0.000000 -0.149521	</row0>
+			<row1>	0.000000 0.211455 0.000000	</row1>
+			<row2>	0.149521 0.000000 0.149521	</row2>
+			<row3>	19.054131 151.868088 93.833420	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<spt>	speedtree/Conifers/douglas_fir_full/DouglasFir_RT_Full.spt	</spt>
+	</speedtree>
+	<speedtree>
+		<seed>	1	</seed>
+		<transform>
+			<row0>	0.085970 0.000000 -0.137580	</row0>
+			<row1>	0.000000 0.162232 0.000000	</row1>
+			<row2>	0.137580 0.000000 0.085970	</row2>
+			<row3>	54.662998 138.571609 77.165413	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<spt>	speedtree/Conifers/douglas_fir_full/DouglasFir_RT_Full.spt	</spt>
+	</speedtree>
+	<speedtree>
+		<seed>	1	</seed>
+		<transform>
+			<row0>	0.114877 0.000000 0.103436	</row0>
+			<row1>	0.000000 0.154582 0.000000	</row1>
+			<row2>	-0.103436 0.000000 0.114877	</row2>
+			<row3>	66.388092 140.385406 82.557655	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<spt>	speedtree/Conifers/douglas_fir/DouglasFir_RT.spt	</spt>
+	</speedtree>
+	<speedtree>
+		<seed>	1	</seed>
+		<transform>
+			<row0>	-0.133848 0.000000 0.148653	</row0>
+			<row1>	0.000000 0.200033 0.000000	</row1>
+			<row2>	-0.148653 0.000000 -0.133848	</row2>
+			<row3>	96.443169 149.089233 92.643585	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<spt>	speedtree/Conifers/douglas_fir/DouglasFir_RT.spt	</spt>
+	</speedtree>
+	<speedtree>
+		<seed>	1	</seed>
+		<transform>
+			<row0>	0.026422 0.000000 0.188000	</row0>
+			<row1>	0.000000 0.189848 0.000000	</row1>
+			<row2>	-0.188000 0.000000 0.026422	</row2>
+			<row3>	82.899231 139.775482 81.164703	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<spt>	speedtree/Conifers/douglas_fir_full/DouglasFir_RT_Full.spt	</spt>
+	</speedtree>
+	<speedtree>
+		<seed>	1	</seed>
+		<transform>
+			<row0>	0.073969 0.000000 0.133443	</row0>
+			<row1>	0.000000 0.152573 0.000000	</row1>
+			<row2>	-0.133443 0.000000 0.073969	</row2>
+			<row3>	75.786316 134.779404 65.771477	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<spt>	speedtree/Conifers/douglas_fir_full/DouglasFir_RT_Full.spt	</spt>
+	</speedtree>
+	<speedtree>
+		<seed>	1	</seed>
+		<transform>
+			<row0>	-0.146315 0.049805 0.156001	</row0>
+			<row1>	0.002694 0.209902 -0.064487	</row1>
+			<row2>	-0.163736 -0.041052 -0.140464	</row2>
+			<row3>	77.578690 133.494598 60.669277	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<spt>	speedtree/shrubs_flowers/american_boxwood/AmericanBoxwood_RT.spt	</spt>
+	</speedtree>
+	<speedtree>
+		<seed>	1	</seed>
+		<transform>
+			<row0>	0.171038 -0.029556 -0.130945	</row0>
+			<row1>	-0.028090 0.199515 -0.081724	</row1>
+			<row2>	0.131267 0.081205 0.153130	</row2>
+			<row3>	94.574104 140.439957 73.642410	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<spt>	speedtree/shrubs_flowers/american_boxwood/AmericanBoxwood_RT.spt	</spt>
+	</speedtree>
+	<speedtree>
+		<seed>	1	</seed>
+		<transform>
+			<row0>	-0.124014 -0.034583 -0.122951	</row0>
+			<row1>	0.006507 0.169440 -0.054222	</row1>
+			<row2>	0.127557 -0.042265 -0.116771	</row2>
+			<row3>	44.758904 121.036140 21.077778	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<spt>	speedtree/shrubs_flowers/american_boxwood/AmericanBoxwood_RT.spt	</spt>
+	</speedtree>
+	<speedtree>
+		<seed>	1	</seed>
+		<transform>
+			<row0>	0.145795 0.021567 0.067402	</row0>
+			<row1>	-0.000000 0.154354 -0.049390	</row1>
+			<row2>	-0.070768 0.044431 0.138860	</row2>
+			<row3>	57.208202 131.304077 55.387722	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<spt>	speedtree/shrubs_flowers/american_boxwood/AmericanBoxwood_RT.spt	</spt>
+	</speedtree>
+	<speedtree>
+		<spt>	speedtree/shrubs_flowers/cinnamon_fern/CinnamonFern_RT.spt	</spt>
+		<seed>	1	</seed>
+		<transform>
+			<row0>	-0.220255 0.059558 0.194929	</row0>
+			<row1>	-0.003656 0.285797 -0.091453	</row1>
+			<row2>	-0.203792 -0.069497 -0.209036	</row2>
+			<row3>	74.574554 132.834579 58.562607	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</speedtree>
+	<speedtree>
+		<spt>	speedtree/shrubs_flowers/cinnamon_fern/CinnamonFern_RT.spt	</spt>
+		<seed>	1	</seed>
+		<transform>
+			<row0>	-0.185985 0.064045 0.278157	</row0>
+			<row1>	-0.025120 0.327034 -0.092095	</row1>
+			<row2>	-0.284328 -0.070786 -0.173812	</row2>
+			<row3>	90.017097 118.113350 4.062683	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</speedtree>
+	<speedtree>
+		<seed>	1	</seed>
+		<transform>
+			<row0>	-0.028228 0.069138 0.181935	</row0>
+			<row1>	-0.004696 0.183542 -0.070478	</row1>
+			<row2>	-0.194572 -0.014461 -0.024694	</row2>
+			<row3>	52.629601 138.268768 75.264191	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<spt>	speedtree/shrubs_flowers/american_boxwood/AmericanBoxwood_RT.spt	</spt>
+	</speedtree>
+	<speedtree>
+		<seed>	1	</seed>
+		<transform>
+			<row0>	-0.029318 0.058140 0.185573	</row0>
+			<row1>	0.051600 0.183268 -0.049267	</row1>
+			<row2>	-0.187496 0.041345 -0.042576	</row2>
+			<row3>	36.307793 141.853668 79.196228	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<spt>	speedtree/shrubs_flowers/american_boxwood/AmericanBoxwood_RT.spt	</spt>
+	</speedtree>
+	<model>
+		<resource>	sets/temperate/props/fd_peasant_hut.model	</resource>
+		<transform>
+			<row0>	-1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 -1.000000	</row2>
+			<row3>	80.000000 123.000000 37.417404	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<resource>	sets/temperate/props/fd_peasant_hut.model	</resource>
+		<transform>
+			<row0>	0.000000 0.000000 -1.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	1.000000 0.000000 0.000000	</row2>
+			<row3>	87.000000 123.000000 37.417404	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<speedtree>
+		<spt>	speedtree/shrubs_flowers/cinnamon_fern/CinnamonFern_RT.spt	</spt>
+		<seed>	1	</seed>
+		<transform>
+			<row0>	-0.003122 -0.101773 -0.317690	</row0>
+			<row1>	-0.012199 0.317526 -0.101601	</row1>
+			<row2>	0.333371 0.010666 -0.006694	</row2>
+			<row3>	61.821827 129.484283 49.753326	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</speedtree>
+	<speedtree>
+		<seed>	1	</seed>
+		<transform>
+			<row0>	0.145761 0.024182 0.066582	</row0>
+			<row1>	-0.003962 0.154872 -0.047575	</row1>
+			<row2>	-0.070727 0.041161 0.139886	</row2>
+			<row3>	62.137535 128.424469 46.676674	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<spt>	speedtree/shrubs_flowers/american_boxwood/AmericanBoxwood_RT.spt	</spt>
+	</speedtree>
+	<model>
+		<resource>	sets/temperate/props/woodpile.model	</resource>
+		<transform>
+			<row0>	-1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 -0.000000	</row1>
+			<row2>	0.000000 -0.000000 -1.000000	</row2>
+			<row3>	82.203674 122.976440 26.275948	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<speedtree>
+		<spt>	speedtree/shrubs_flowers/cinnamon_fern/CinnamonFern_RT.spt	</spt>
+		<seed>	1	</seed>
+		<transform>
+			<row0>	-0.151263 0.053929 0.225663	</row0>
+			<row1>	0.003453 0.269878 -0.062181	</row1>
+			<row2>	-0.231992 -0.031146 -0.148061	</row2>
+			<row3>	84.471863 120.788948 14.198680	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</speedtree>
+	<speedtree>
+		<spt>	speedtree/shrubs_flowers/cinnamon_fern/CinnamonFern_RT.spt	</spt>
+		<seed>	1	</seed>
+		<transform>
+			<row0>	-0.298221 -0.017902 -0.060808	</row0>
+			<row1>	0.000000 0.292472 -0.086102	</row1>
+			<row2>	0.063389 -0.084220 -0.286081	</row2>
+			<row3>	47.508060 120.706032 20.538027	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</speedtree>
+	<particles>
+		<resource>	particles/chimney_smoke_black.xml	</resource>
+		<transform>
+			<row0>	-1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 -1.000000	</row2>
+			<row3>	79.934280 134.843597 44.344971	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</particles>
+	<particles>
+		<resource>	particles/chimney_smoke_black.xml	</resource>
+		<transform>
+			<row0>	-1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 -1.000000	</row2>
+			<row3>	96.037636 130.648804 37.470253	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</particles>
+	<particles>
+		<resource>	particles/bradford_pear_flowers.xml	</resource>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	50.462658 122.210938 25.288990	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</particles>
+	<particles>
+		<resource>	particles/bradford_pear_flowers.xml	</resource>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	84.499397 119.898438 11.293842	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</particles>
+	<model>
+		<resource>	sets/temperate/props/mushrooms/mushroom02_cluster.model	</resource>
+		<transform>
+			<row0>	-1.117726 -0.000001 0.715361	</row0>
+			<row1>	-0.277435 1.223183 -0.433481	</row1>
+			<row2>	-0.659371 -0.514661 -1.030246	</row2>
+			<row3>	81.821648 119.913040 10.997011	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<resource>	sets/temperate/props/mushrooms/mushroom05_single.model	</resource>
+		<transform>
+			<row0>	-0.593637 -0.086393 0.011437	</row0>
+			<row1>	-0.232392 1.569339 -0.207760	</row1>
+			<row2>	-0.000000 -0.078745 -0.594810	</row2>
+			<row3>	76.667839 123.004051 27.093624	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<resource>	sets/temperate/props/mushrooms/mushroom05_single.model	</resource>
+		<transform>
+			<row0>	-0.993913 0.108177 -0.020803	</row0>
+			<row1>	0.110159 0.976027 -0.187708	</row1>
+			<row2>	-0.000001 -0.188858 -0.982004	</row2>
+			<row3>	76.840652 122.987663 26.860458	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<resource>	sets/temperate/props/mushrooms/mushroom03_cluster.model	</resource>
+		<transform>
+			<row0>	-0.814517 0.000000 -0.580140	</row0>
+			<row1>	0.232243 0.916374 -0.326069	</row1>
+			<row2>	0.531625 -0.400322 -0.746402	</row2>
+			<row3>	48.155289 122.517418 25.827747	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<resource>	sets/town/props/barrels/model/barrel.model	</resource>
+		<transform>
+			<row0>	-1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 -0.000000	</row1>
+			<row2>	0.000000 -0.000000 -1.000000	</row2>
+			<row3>	75.635017 122.998993 33.293945	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<resource>	sets/town/props/barrels/model/barrel.model	</resource>
+		<transform>
+			<row0>	0.500000 0.000000 0.866025	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	-0.866025 0.000000 0.500000	</row2>
+			<row3>	75.505539 122.998955 32.192001	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<speedtree>
+		<spt>	speedtree/Broadleaves/crab_apple/bwcrabapple_rt_flowers.spt	</spt>
+		<seed>	1	</seed>
+		<transform>
+			<row0>	0.090626 0.000000 0.479007	</row0>
+			<row1>	-0.025063 0.486836 0.004743	</row1>
+			<row2>	-0.478350 -0.025509 0.090503	</row2>
+			<row3>	84.277328 119.497772 11.132425	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+	</speedtree>
+	<speedtree>
+		<spt>	speedtree/Broadleaves/crab_apple/bwcrabapple_rt_flowers.spt	</spt>
+		<seed>	1	</seed>
+		<transform>
+			<row0>	0.090626 0.000000 0.479007	</row0>
+			<row1>	-0.025063 0.486836 0.004743	</row1>
+			<row2>	-0.478350 -0.025509 0.090503	</row2>
+			<row3>	49.626362 121.890106 25.480200	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+	</speedtree>
+	<model>
+		<resource>	sets/town/props/barrels/model/barrel_apples.model	</resource>
+		<transform>
+			<row0>	-0.976334 0.216266 0.000000	</row0>
+			<row1>	0.216078 0.975486 -0.041693	</row1>
+			<row2>	-0.009017 -0.040706 -0.999130	</row2>
+			<row3>	85.039650 123.804581 26.919210	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<resource>	sets/town/props/barrels/model/barrel_apples.model	</resource>
+		<transform>
+			<row0>	-0.976276 0.216529 -0.000011	</row0>
+			<row1>	0.216345 0.975444 -0.041286	</row1>
+			<row2>	-0.008929 -0.040309 -0.999147	</row2>
+			<row3>	86.057884 123.550354 26.247618	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<resource>	sets/town/props/barrels/model/barrel_apples.model	</resource>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	89.332306 123.001053 27.590057	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<resource>	sets/town/props/barrels/model/barrel_apples.model	</resource>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	88.371292 122.999008 29.637943	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<resource>	sets/town/props/table_indoor/model/table_indoor.model	</resource>
+		<transform>
+			<row0>	-0.707106 -0.000420 -0.707106	</row0>
+			<row1>	-0.000593 0.999999 0.000000	</row1>
+			<row2>	0.707106 0.000420 -0.707106	</row2>
+			<row3>	74.768707 122.998863 30.530075	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<resource>	sets/town/props/barrels/model/barrel.model	</resource>
+		<transform>
+			<row0>	0.500000 0.002224 0.866022	</row0>
+			<row1>	-0.000012 0.999996 -0.002561	</row1>
+			<row2>	-0.866025 0.001270 0.499998	</row2>
+			<row3>	75.377541 123.976280 30.803448	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<resource>	sets/town/props/barrels/model/barrel.model	</resource>
+		<transform>
+			<row0>	0.999976 -0.006804 -0.000015	</row0>
+			<row1>	0.006804 0.999967 0.004483	</row1>
+			<row2>	-0.000015 -0.004483 0.999989	</row2>
+			<row3>	75.520439 125.072922 30.417885	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<resource>	sets/town/props/barrels/model/barrel.model	</resource>
+		<transform>
+			<row0>	0.499975 -0.007272 0.866009	</row0>
+			<row1>	0.006792 0.999967 0.004475	</row1>
+			<row2>	-0.866012 0.003645 0.500008	</row2>
+			<row3>	75.453842 123.976700 29.987814	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<resource>	sets/town/props/barrels/model/barrel.model	</resource>
+		<transform>
+			<row0>	0.499997 -0.000178 0.866026	</row0>
+			<row1>	-0.000523 0.999999 0.000508	</row1>
+			<row2>	-0.866026 -0.000707 0.499997	</row2>
+			<row3>	74.785667 123.977325 30.392996	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<resource>	sets/town/props/barrels/model/barrel.model	</resource>
+		<transform>
+			<row0>	0.499983 0.002630 0.866031	</row0>
+			<row1>	-0.005263 0.999986 0.000002	</row1>
+			<row2>	-0.866019 -0.004559 0.499990	</row2>
+			<row3>	75.499893 122.997520 29.288261	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<resource>	sets/temperate/props/fd_s_rock_smooth_large.model	</resource>
+		<transform>
+			<row0>	-0.199151 0.080550 0.253920	</row0>
+			<row1>	0.004068 0.317916 -0.097661	</row1>
+			<row2>	-0.266359 -0.055371 -0.191342	</row2>
+			<row3>	48.512257 121.366272 22.451939	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<resource>	sets/temperate/props/fd_s_rock_smooth_large.model	</resource>
+		<transform>
+			<row0>	-0.445701 -0.132114 -0.374321	</row0>
+			<row1>	-0.021893 0.570140 -0.175159	</row1>
+			<row2>	0.396347 -0.117072 -0.430607	</row2>
+			<row3>	59.623974 128.552765 47.039219	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<resource>	sets/temperate/props/fd_s_rock_smooth_large.model	</resource>
+		<transform>
+			<row0>	-0.111131 0.099655 0.285994	</row0>
+			<row1>	-0.007768 0.303602 -0.108809	</row1>
+			<row2>	-0.302760 -0.044369 -0.102185	</row2>
+			<row3>	91.846138 133.141693 59.125118	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<resource>	sets/temperate/props/fd_s_rock_smooth_large.model	</resource>
+		<transform>
+			<row0>	-0.484061 0.096919 0.322298	</row0>
+			<row1>	-0.021298 0.554635 -0.198773	</row1>
+			<row2>	-0.335880 -0.174846 -0.451882	</row2>
+			<row3>	69.868546 139.465042 78.437767	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<resource>	sets/temperate/props/fd_s_rock_smooth_large.model	</resource>
+		<transform>
+			<row0>	-0.452679 -0.085887 -0.258081	</row0>
+			<row1>	0.000000 0.501091 -0.166759	</row1>
+			<row2>	0.271997 -0.142940 -0.429519	</row2>
+			<row3>	56.411003 131.944214 57.374466	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<resource>	sets/temperate/props/fd_s_rock_smooth_large.model	</resource>
+		<transform>
+			<row0>	0.107243 0.119829 0.383712	</row0>
+			<row1>	-0.025498 0.398360 -0.117277	</row1>
+			<row2>	-0.401178 0.006714 0.110028	</row2>
+			<row3>	91.020676 118.708221 5.095098	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<resource>	sets/temperate/props/fd_rock_sharp_high.model	</resource>
+		<transform>
+			<row0>	-0.283541 0.041006 0.109879	</row0>
+			<row1>	0.007497 0.293222 -0.090083	</row1>
+			<row2>	-0.117041 -0.080559 -0.271959	</row2>
+			<row3>	55.572704 131.209427 55.052414	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<resource>	sets/temperate/props/fd_rock_sharp_high.model	</resource>
+		<transform>
+			<row0>	0.266538 0.077805 0.231054	</row0>
+			<row1>	-0.008833 0.345192 -0.106051	</row1>
+			<row2>	-0.243642 0.072603 0.256611	</row2>
+			<row3>	62.590080 128.940796 48.495678	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<resource>	sets/temperate/props/fd_rock_sharp_high.model	</resource>
+		<transform>
+			<row0>	-0.352245 0.088566 0.220410	</row0>
+			<row1>	0.020691 0.404161 -0.129333	</row1>
+			<row2>	-0.236635 -0.096495 -0.339402	</row2>
+			<row3>	45.314186 121.326729 22.440321	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<resource>	sets/temperate/props/fd_rock_sharp_medium.model	</resource>
+		<transform>
+			<row0>	-0.318757 -0.004403 0.037258	</row0>
+			<row1>	-0.015637 0.305325 -0.097702	</row1>
+			<row2>	-0.034104 -0.098848 -0.303446	</row2>
+			<row3>	61.340656 128.302841 46.000324	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<resource>	sets/temperate/props/fd_rock_sharp_medium.model	</resource>
+		<transform>
+			<row0>	-0.337788 0.001665 0.005656	</row0>
+			<row1>	0.000000 0.324088 -0.095408	</row1>
+			<row2>	-0.005896 -0.095393 -0.324039	</row2>
+			<row3>	47.664948 121.056358 21.421082	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<resource>	sets/temperate/props/fd_rock_sharp_medium.model	</resource>
+		<transform>
+			<row0>	0.377906 -0.089806 -0.310886	</row0>
+			<row1>	-0.012122 0.473715 -0.151577	</row1>
+			<row2>	0.323371 0.122709 0.357634	</row2>
+			<row3>	56.003700 128.560852 47.010796	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<resource>	sets/temperate/props/fd_rock_sharp_medium.model	</resource>
+		<transform>
+			<row0>	-0.368120 -0.137541 -0.399076	</row0>
+			<row1>	-0.006819 0.531384 -0.176850	</row1>
+			<row2>	0.422058 -0.111378 -0.350933	</row2>
+			<row3>	70.862999 138.662109 76.066917	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<resource>	sets/temperate/props/fd_rock_sharp_medium.model	</resource>
+		<transform>
+			<row0>	0.215889 0.103216 0.301835	</row0>
+			<row1>	-0.004683 0.365449 -0.121619	</row1>
+			<row2>	-0.318961 0.064496 0.206083	</row2>
+			<row3>	67.084625 139.361908 78.314972	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<resource>	sets/temperate/props/fd_rock_sharp_medium.model	</resource>
+		<transform>
+			<row0>	0.079031 -0.110264 -0.347766	</row0>
+			<row1>	-0.004555 0.355507 -0.113754	</row1>
+			<row2>	0.364800 0.028327 0.073920	</row2>
+			<row3>	58.146076 131.278885 55.295677	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<resource>	sets/temperate/props/fd_rock_sharp_medium.model	</resource>
+		<transform>
+			<row0>	0.343402 0.067803 0.263628	</row0>
+			<row1>	0.016071 0.418601 -0.128595	</row1>
+			<row2>	-0.271733 0.110443 0.325554	</row2>
+			<row3>	45.290684 120.202301 18.461790	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<resource>	sets/town/props/wheel_barrow/model/wheel_barrow_empty.model	</resource>
+		<transform>
+			<row0>	0.935289 -0.059062 -0.348921	</row0>
+			<row1>	-0.035840 0.965096 -0.259430	</row1>
+			<row2>	0.352064 0.255147 0.900527	</row2>
+			<row3>	76.430573 118.014511 6.415282	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<resource>	sets/town/props/t_shovel.model	</resource>
+		<transform>
+			<row0>	-0.799491 0.000001 0.028547	</row0>
+			<row1>	0.009406 0.755336 0.263400	</row1>
+			<row2>	-0.026953 0.263568 -0.754855	</row2>
+			<row3>	79.926010 122.982857 26.708796	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<resource>	sets/town/props/cart/model/cart.model	</resource>
+		<transform>
+			<row0>	-0.504870 0.057931 -0.861247	</row0>
+			<row1>	-0.004754 0.997543 0.069886	</row1>
+			<row2>	0.863181 0.039378 -0.503355	</row2>
+			<row3>	85.673302 122.903900 26.844887	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<resource>	sets/town/props/barrels/model/barrel_cabbages.model	</resource>
+		<transform>
+			<row0>	-0.981262 0.192658 -0.002783	</row0>
+			<row1>	0.192032 0.976688 -0.095938	</row1>
+			<row2>	-0.015766 -0.094675 -0.995382	</row2>
+			<row3>	85.775925 123.656425 27.147606	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<resource>	sets/town/props/well.model	</resource>
+		<transform>
+			<row0>	0.999990 -0.000366 -0.004316	</row0>
+			<row1>	-0.000000 0.996417 -0.084565	</row1>
+			<row2>	0.004331 0.084564 0.996407	</row2>
+			<row3>	60.795124 122.592499 27.243452	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<worldNavmesh>
+		<resource>	ffff0000o.cdata/worldNavmesh	</resource>
+	</worldNavmesh>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<metaData>	</metaData>
+		<resource>	sets/temperate/props/mushrooms/mushroom05_cluster.model	</resource>
+		<transform>
+			<row0>	0.565363 0.000000 0.824842	</row0>
+			<row1>	-0.000000 1.000000 0.000000	</row1>
+			<row2>	-0.824842 -0.000000 0.565363	</row2>
+			<row3>	77.581856 122.984398 26.817154	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<terrain>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>	</metaData>
+		<resource>	ffff0000o.cdata/terrain2	</resource>
+	</terrain>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<metaData>
+			<modified_by>	AdamM	</modified_by>
+			<modified_on>	1270708747	</modified_on>
+		</metaData>
+		<resource>	sets/temperate/props/fd_rock_sharp_medium.model	</resource>
+		<transform>
+			<row0>	0.193738 -0.101781 -0.359080	</row0>
+			<row1>	-0.045518 0.395113 -0.136553	</row1>
+			<row2>	0.370440 0.101781 0.171018	</row2>
+			<row3>	89.039322 118.158501 5.118019	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<entity>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>	</metaData>
+		<guid>	798A0A62.4CB4A055.AB1481AD.40641512	</guid>
+		<type>	SpawnPoint	</type>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	67.000000 120.304688 16.011589	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<spawnName>	striff	</spawnName>
+			<spawnCount>	1	</spawnCount>
+			<rarePercent>	50.000000	</rarePercent>
+			<spawnInterval>	1	</spawnInterval>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+		<backLinks>	</backLinks>
+	</entity>
+	<entity>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>	</metaData>
+		<guid>	6B28F89B.4017D66A.EEF1C49F.AA286EAA	</guid>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.999288 -0.037497 0.004031	</row0>
+			<row1>	0.037497 0.976449 -0.212465	</row1>
+			<row2>	0.004031 0.212465 0.977160	</row2>
+			<row3>	66.455582 116.812973 1.079399	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<maxFlightTime>	0.000000	</maxFlightTime>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+		<backLinks>	</backLinks>
+	</entity>
+	<entity>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>	</metaData>
+		<guid>	56B61C51.46B26823.26C47F93.F7A05F9D	</guid>
+		<type>	SpawnPoint	</type>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	61.175888 140.960922 83.187714	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<spawnName>	striff	</spawnName>
+			<spawnCount>	1	</spawnCount>
+			<rarePercent>	50.000000	</rarePercent>
+			<spawnInterval>	1	</spawnInterval>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+		<backLinks>	</backLinks>
+	</entity>
+	<entity>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>	</metaData>
+		<guid>	49D13119.4A9D69CE.86E95FAA.70E82AB2	</guid>
+		<type>	Creature	</type>
+		<transform>
+			<row0>	-0.258818 0.000000 -0.965925	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.965925 0.000000 -0.258818	</row2>
+			<row3>	82.896133 117.264137 4.172309	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<creatureType>	3	</creatureType>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+		<backLinks>	</backLinks>
+	</entity>
+	<entity>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>	</metaData>
+		<guid>	78A1A69A.4563C805.7F9945B4.CC50E39F	</guid>
+		<type>	Creature	</type>
+		<transform>
+			<row0>	0.866025 0.000000 -0.499999	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.499999 0.000000 0.866025	</row2>
+			<row3>	80.447990 117.002792 2.036735	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<creatureType>	3	</creatureType>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+		<backLinks>	</backLinks>
+	</entity>
+	<entity>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>	</metaData>
+		<guid>	20C116EC.4610C7A0.600B0181.2B7A4543	</guid>
+		<type>	Creature	</type>
+		<transform>
+			<row0>	0.965925 0.000000 0.258819	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	-0.258819 0.000000 0.965925	</row2>
+			<row3>	79.575264 117.461174 4.193260	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<creatureType>	3	</creatureType>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+		<backLinks>	</backLinks>
+	</entity>
+	<entity>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>	</metaData>
+		<guid>	E12BF319.46D3CD92.8CE53B9B.C3B40DEB	</guid>
+		<type>	Creature	</type>
+		<transform>
+			<row0>	-0.707105 0.000000 -0.707106	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.707106 0.000000 -0.707105	</row2>
+			<row3>	81.437096 118.027565 5.475059	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<creatureType>	3	</creatureType>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+		<backLinks>	</backLinks>
+	</entity>
+	<entity>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>	</metaData>
+		<guid>	91A3ED3F.49DE8EC0.38BB3B8D.F466BA97	</guid>
+		<type>	Creature	</type>
+		<transform>
+			<row0>	-0.258818 0.000000 -0.965925	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.965925 0.000000 -0.258818	</row2>
+			<row3>	51.705620 115.767601 5.078818	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<creatureType>	3	</creatureType>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+		<backLinks>	</backLinks>
+	</entity>
+	<entity>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>	</metaData>
+		<guid>	D7AAFDB4.42185F8B.30E7CB8A.4498E390	</guid>
+		<type>	Creature	</type>
+		<transform>
+			<row0>	0.866025 0.000000 -0.499999	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.499999 0.000000 0.866025	</row2>
+			<row3>	49.257477 115.506256 2.943245	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<creatureType>	3	</creatureType>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+		<backLinks>	</backLinks>
+	</entity>
+	<entity>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>	</metaData>
+		<guid>	0E833EA1.4701FA98.83B76A93.D824BFD0	</guid>
+		<type>	Creature	</type>
+		<transform>
+			<row0>	0.965925 0.000000 0.258819	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	-0.258819 0.000000 0.965925	</row2>
+			<row3>	48.384750 115.964638 5.099770	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<creatureType>	3	</creatureType>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+		<backLinks>	</backLinks>
+	</entity>
+	<entity>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>	</metaData>
+		<guid>	BA177CAC.44A1B7C0.D729E78B.01EADA49	</guid>
+		<type>	Creature	</type>
+		<transform>
+			<row0>	-0.707105 0.000000 -0.707106	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.707106 0.000000 -0.707105	</row2>
+			<row3>	50.246582 116.531029 6.381568	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<creatureType>	3	</creatureType>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+		<backLinks>	</backLinks>
+	</entity>
+	<entity>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>	</metaData>
+		<guid>	FCDFB4BD.4F4AF29A.A1C5CC8E.6F873537	</guid>
+		<type>	Creature	</type>
+		<transform>
+			<row0>	-0.999998 0.000000 -0.000001	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000001 0.000000 -0.999998	</row2>
+			<row3>	67.367584 123.394287 27.769974	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<creatureType>	3	</creatureType>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+		<backLinks>	</backLinks>
+	</entity>
+	<entity>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>	</metaData>
+		<guid>	211F8880.45BCD488.2C8F29A8.B33F5EFB	</guid>
+		<type>	Creature	</type>
+		<transform>
+			<row0>	-0.866024 0.000000 -0.500000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.500000 0.000000 -0.866024	</row2>
+			<row3>	61.102310 122.738426 28.915741	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<creatureType>	3	</creatureType>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+		<backLinks>	</backLinks>
+	</entity>
+	<entity>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>	</metaData>
+		<guid>	27A999CD.483CECFE.B2477D86.A5DD71A0	</guid>
+		<type>	Creature	</type>
+		<transform>
+			<row0>	-0.999998 0.000000 -0.000001	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000001 0.000000 -0.999998	</row2>
+			<row3>	60.991806 123.501854 30.868616	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<creatureType>	3	</creatureType>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+		<backLinks>	</backLinks>
+	</entity>
+	<entity>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>	</metaData>
+		<guid>	FB7CE093.42BE257D.7760A781.147745D8	</guid>
+		<type>	Creature	</type>
+		<transform>
+			<row0>	0.259594 -0.110555 -0.959368	</row0>
+			<row1>	-0.013979 0.992891 -0.118201	</row1>
+			<row2>	0.965616 0.044095 0.256204	</row2>
+			<row3>	63.962723 122.716423 26.300766	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<creatureType>	3	</creatureType>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+		<backLinks>	</backLinks>
+	</entity>
+	<entity>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>	</metaData>
+		<guid>	16F1A03F.46355177.23CE9FAF.C9A3871F	</guid>
+		<type>	Creature	</type>
+		<transform>
+			<row0>	0.258819 -0.041991 -0.965012	</row0>
+			<row1>	0.000000 0.999054 -0.043473	</row1>
+			<row2>	0.965925 0.011252 0.258574	</row2>
+			<row3>	59.340862 122.710991 27.941360	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<creatureType>	3	</creatureType>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+		<backLinks>	</backLinks>
+	</entity>
+	<entity>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>	</metaData>
+		<guid>	0E379A9E.42CF73DA.3C20B7BC.F605EE85	</guid>
+		<type>	Creature	</type>
+		<transform>
+			<row0>	0.866585 -0.018731 -0.498676	</row0>
+			<row1>	-0.059449 0.988304 -0.140431	</row1>
+			<row2>	0.495474 0.151341 0.855336	</row2>
+			<row3>	65.515228 122.944084 27.658388	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<creatureType>	3	</creatureType>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+		<backLinks>	</backLinks>
+	</entity>
+	<entity>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>	</metaData>
+		<guid>	EAC6A564.4D3C3A4D.14323C8A.B88424FB	</guid>
+		<type>	Creature	</type>
+		<transform>
+			<row0>	-0.861769 -0.117907 -0.493405	</row0>
+			<row1>	-0.071849 0.991178 -0.111367	</row1>
+			<row2>	0.502184 -0.060522 -0.862639	</row2>
+			<row3>	67.693817 122.724312 25.482603	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<creatureType>	3	</creatureType>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+		<backLinks>	</backLinks>
+	</entity>
+	<UserDataObject>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>	</metaData>
+		<type>	PatrolNode	</type>
+		<Domain>	2	</Domain>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	1.370506 137.781219 25.619482	</row3>
+		</transform>
+		<guid>	43735A92.460EC105.7F18D0B1.7D143465	</guid>
+		<properties>
+			<patrolLinks>
+				<item>
+					<guid>	A6CB7E16.4C431970.B627A896.D97462F4	</guid>
+					<chunkId>	ffff0000o	</chunkId>
+				</item>
+				<item>
+					<guid>	0D6EBBB5.419276E1.D6A29A9C.64A0EF18	</guid>
+					<chunkId>	fffeffffo	</chunkId>
+				</item>
+			</patrolLinks>
+			<departureSpeed>	2.000000	</departureSpeed>
+			<importance>	1	</importance>
+			<waitSecs>	0.000000	</waitSecs>
+		</properties>
+		<backLinks>
+			<link>
+				<guid>	0D6EBBB5.419276E1.D6A29A9C.64A0EF18	</guid>
+				<chunkId>	fffeffffo	</chunkId>
+			</link>
+			<link>
+				<guid>	A6CB7E16.4C431970.B627A896.D97462F4	</guid>
+				<chunkId>	ffff0000o	</chunkId>
+			</link>
+		</backLinks>
+	</UserDataObject>
+	<UserDataObject>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>	</metaData>
+		<type>	PatrolNode	</type>
+		<Domain>	2	</Domain>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	11.607025 148.749969 56.033371	</row3>
+		</transform>
+		<guid>	A6CB7E16.4C431970.B627A896.D97462F4	</guid>
+		<properties>
+			<patrolLinks>
+				<item>
+					<guid>	0D8CB792.4DE545D5.1425D6A3.937D7C74	</guid>
+					<chunkId>	ffff0000o	</chunkId>
+				</item>
+				<item>
+					<guid>	43735A92.460EC105.7F18D0B1.7D143465	</guid>
+					<chunkId>	ffff0000o	</chunkId>
+				</item>
+			</patrolLinks>
+			<departureSpeed>	2.000000	</departureSpeed>
+			<importance>	1	</importance>
+			<waitSecs>	0.000000	</waitSecs>
+		</properties>
+		<backLinks>
+			<link>
+				<guid>	0D8CB792.4DE545D5.1425D6A3.937D7C74	</guid>
+				<chunkId>	ffff0000o	</chunkId>
+			</link>
+			<link>
+				<guid>	43735A92.460EC105.7F18D0B1.7D143465	</guid>
+				<chunkId>	ffff0000o	</chunkId>
+			</link>
+		</backLinks>
+	</UserDataObject>
+	<UserDataObject>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>	</metaData>
+		<type>	PatrolNode	</type>
+		<Domain>	2	</Domain>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	24.457565 148.499969 87.577637	</row3>
+		</transform>
+		<guid>	0D8CB792.4DE545D5.1425D6A3.937D7C74	</guid>
+		<properties>
+			<patrolLinks>
+				<item>
+					<guid>	C1167BB8.4F9148C5.6BBDA6A0.7CC8E3CD	</guid>
+					<chunkId>	ffff0000o	</chunkId>
+				</item>
+				<item>
+					<guid>	A6CB7E16.4C431970.B627A896.D97462F4	</guid>
+					<chunkId>	ffff0000o	</chunkId>
+				</item>
+			</patrolLinks>
+			<departureSpeed>	2.000000	</departureSpeed>
+			<importance>	1	</importance>
+			<waitSecs>	0.000000	</waitSecs>
+		</properties>
+		<backLinks>
+			<link>
+				<guid>	A6CB7E16.4C431970.B627A896.D97462F4	</guid>
+				<chunkId>	ffff0000o	</chunkId>
+			</link>
+			<link>
+				<guid>	C1167BB8.4F9148C5.6BBDA6A0.7CC8E3CD	</guid>
+				<chunkId>	ffff0000o	</chunkId>
+			</link>
+		</backLinks>
+	</UserDataObject>
+	<UserDataObject>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>	</metaData>
+		<type>	PatrolNode	</type>
+		<Domain>	2	</Domain>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	43.511303 141.640594 82.833099	</row3>
+		</transform>
+		<guid>	C1167BB8.4F9148C5.6BBDA6A0.7CC8E3CD	</guid>
+		<properties>
+			<patrolLinks>
+				<item>
+					<guid>	35B912F9.4DDD96FB.75DF128A.3CA59377	</guid>
+					<chunkId>	ffff0000o	</chunkId>
+				</item>
+				<item>
+					<guid>	0D8CB792.4DE545D5.1425D6A3.937D7C74	</guid>
+					<chunkId>	ffff0000o	</chunkId>
+				</item>
+			</patrolLinks>
+			<departureSpeed>	2.000000	</departureSpeed>
+			<importance>	1	</importance>
+			<waitSecs>	0.000000	</waitSecs>
+		</properties>
+		<backLinks>
+			<link>
+				<guid>	0D8CB792.4DE545D5.1425D6A3.937D7C74	</guid>
+				<chunkId>	ffff0000o	</chunkId>
+			</link>
+			<link>
+				<guid>	35B912F9.4DDD96FB.75DF128A.3CA59377	</guid>
+				<chunkId>	ffff0000o	</chunkId>
+			</link>
+		</backLinks>
+	</UserDataObject>
+	<UserDataObject>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>	</metaData>
+		<type>	PatrolNode	</type>
+		<Domain>	2	</Domain>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	48.500992 125.429672 40.485493	</row3>
+		</transform>
+		<guid>	35B912F9.4DDD96FB.75DF128A.3CA59377	</guid>
+		<properties>
+			<patrolLinks>
+				<item>
+					<guid>	EC45EEC4.403323CC.64235A80.1CA07F13	</guid>
+					<chunkId>	ffff0000o	</chunkId>
+				</item>
+				<item>
+					<guid>	C1167BB8.4F9148C5.6BBDA6A0.7CC8E3CD	</guid>
+					<chunkId>	ffff0000o	</chunkId>
+				</item>
+			</patrolLinks>
+			<departureSpeed>	2.000000	</departureSpeed>
+			<importance>	1	</importance>
+			<waitSecs>	0.000000	</waitSecs>
+		</properties>
+		<backLinks>
+			<link>
+				<guid>	C1167BB8.4F9148C5.6BBDA6A0.7CC8E3CD	</guid>
+				<chunkId>	ffff0000o	</chunkId>
+			</link>
+			<link>
+				<guid>	EC45EEC4.403323CC.64235A80.1CA07F13	</guid>
+				<chunkId>	ffff0000o	</chunkId>
+			</link>
+		</backLinks>
+	</UserDataObject>
+	<UserDataObject>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>	</metaData>
+		<type>	PatrolNode	</type>
+		<Domain>	2	</Domain>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	52.951397 119.757797 16.938663	</row3>
+		</transform>
+		<guid>	EC45EEC4.403323CC.64235A80.1CA07F13	</guid>
+		<properties>
+			<patrolLinks>
+				<item>
+					<guid>	33478344.428769E9.9BF83793.0C2550A2	</guid>
+					<chunkId>	ffff0000o	</chunkId>
+				</item>
+				<item>
+					<guid>	35B912F9.4DDD96FB.75DF128A.3CA59377	</guid>
+					<chunkId>	ffff0000o	</chunkId>
+				</item>
+			</patrolLinks>
+			<departureSpeed>	2.000000	</departureSpeed>
+			<importance>	1	</importance>
+			<waitSecs>	0.000000	</waitSecs>
+		</properties>
+		<backLinks>
+			<link>
+				<guid>	33478344.428769E9.9BF83793.0C2550A2	</guid>
+				<chunkId>	ffff0000o	</chunkId>
+			</link>
+			<link>
+				<guid>	35B912F9.4DDD96FB.75DF128A.3CA59377	</guid>
+				<chunkId>	ffff0000o	</chunkId>
+			</link>
+		</backLinks>
+	</UserDataObject>
+	<UserDataObject>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>	</metaData>
+		<type>	PatrolNode	</type>
+		<Domain>	2	</Domain>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	73.815399 120.054672 14.853594	</row3>
+		</transform>
+		<guid>	33478344.428769E9.9BF83793.0C2550A2	</guid>
+		<properties>
+			<patrolLinks>
+				<item>
+					<guid>	42043204.470CBE6B.4920E288.917A46F1	</guid>
+					<chunkId>	ffffffffo	</chunkId>
+				</item>
+				<item>
+					<guid>	EC45EEC4.403323CC.64235A80.1CA07F13	</guid>
+					<chunkId>	ffff0000o	</chunkId>
+				</item>
+			</patrolLinks>
+			<departureSpeed>	2.000000	</departureSpeed>
+			<importance>	1	</importance>
+			<waitSecs>	0.000000	</waitSecs>
+			<radius>	3.647768	</radius>
+		</properties>
+		<backLinks>
+			<link>
+				<guid>	42043204.470CBE6B.4920E288.917A46F1	</guid>
+				<chunkId>	ffffffffo	</chunkId>
+			</link>
+			<link>
+				<guid>	EC45EEC4.403323CC.64235A80.1CA07F13	</guid>
+				<chunkId>	ffff0000o	</chunkId>
+			</link>
+		</backLinks>
+	</UserDataObject>
+</ffff0000o.chunk>

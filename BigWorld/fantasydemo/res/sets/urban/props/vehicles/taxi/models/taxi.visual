@@ -1,0 +1,116 @@
+<taxi.visual>
+	<node>
+		<identifier>	Scene Root	</identifier>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+	</node>
+	<materialKind>	5	</materialKind>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	Scene Root	</node>
+		<geometry>
+			<vertices>	vertices	</vertices>
+			<stream>	uv2	</stream>
+			<primitive>	indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	NYCtaxi	</identifier>
+					<fx>	shaders/std_effects/normalmap_specmap_chrome.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	5	</materialKind>
+					<property>	reflectionMask
+						<Texture>	helpers/maps/system/col_white.bmp	</Texture>
+					</property>
+					<property>	doubleSided
+						<Bool>	true	</Bool>
+					</property>
+					<property>	reflectionMap
+						<Texture>	sets/urban/fx/maps/cubemap_urban.dds	</Texture>
+					</property>
+					<property>	specularMap
+						<Texture>	sets/urban/props/vehicles/taxi/maps/taxi.bmp	</Texture>
+					</property>
+					<property>	normalMap
+						<Texture>	system/maps/default_norms.bmp	</Texture>
+					</property>
+					<property>	diffuseMap
+						<Texture>	sets/urban/props/vehicles/taxi/maps/taxi.bmp	</Texture>
+					</property>
+					<property>	reflectionAmount
+						<Float>	0.220000	</Float>
+					</property>
+				</material>
+			</primitiveGroup>
+			<primitiveGroup>	1
+				<material>
+					<identifier>	TaxiGlass	</identifier>
+					<fx>	shaders/std_effects/distort.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	tint
+						<Vector4>	0.776471 0.878431 0.890196 1.000000	</Vector4>
+					</property>
+					<property>	useReflection
+						<Bool>	true	</Bool>
+					</property>
+					<property>	scale
+						<Float>	0.072000	</Float>
+					</property>
+					<property>	distortionMap
+						<Texture>	system/maps/default_norms.bmp	</Texture>
+					</property>
+					<property>	doubleSided
+						<Bool>	false	</Bool>
+					</property>
+					<property>	reflectionAmount
+						<Float>	0.980000	</Float>
+					</property>
+					<property>	reflectionMap
+						<Texture>	sets/urban/fx/maps/cubemap_urban.dds	</Texture>
+					</property>
+					<property>	diffuseMap
+						<Texture>	sets/urban/props/vehicles/taxi/maps/taxi.bmp	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+			<primitiveGroup>	2
+				<material>
+					<identifier>	mirror	</identifier>
+					<fx>	shaders/std_effects/normalmap_chrome.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	reflectionMask
+						<Texture>	helpers/maps/col_white.bmp	</Texture>
+					</property>
+					<property>	reflectionMap
+						<Texture>	sets/urban/fx/maps/cubemap_urban.dds	</Texture>
+					</property>
+					<property>	normalMap
+						<Texture>	system/maps/default_norms.bmp	</Texture>
+					</property>
+					<property>	diffuseMap
+						<Texture>	sets/urban/props/vehicles/taxi/maps/taxi.bmp	</Texture>
+					</property>
+					<property>	reflectionAmount
+						<Float>	1.370000	</Float>
+					</property>
+					<property>	fresnelConstant
+						<Float>	0.500000	</Float>
+					</property>
+					<property>	fresnelExp
+						<Float>	7.000000	</Float>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<boundingBox>
+		<min>	-1.312202 -0.000000 -3.199596	</min>
+		<max>	1.284097 1.915762 2.745141	</max>
+	</boundingBox>
+	<customBsp>	true	</customBsp>
+</taxi.visual>

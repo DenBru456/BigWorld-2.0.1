@@ -1,0 +1,381 @@
+<root>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<resource>	sets/urban/props/lightpanel/models/facility_lightpanel.model	</resource>
+		<transform>
+			<row0>	0.000001 0.000000 1.000000	</row0>
+			<row1>	0.000000 -1.000000 0.000000	</row1>
+			<row2>	1.000000 0.000000 -0.000001	</row2>
+			<row3>	2.999999 3.000000 -1.599998	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<metaData>	</metaData>
+		<staticLighting>
+			<offset>	3196	</offset>
+			<size>	732	</size>
+		</staticLighting>
+	</model>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<resource>	sets/urban/props/lightpanel/models/facility_lightpanel.model	</resource>
+		<transform>
+			<row0>	0.000001 0.000000 0.999998	</row0>
+			<row1>	0.000000 -0.999998 0.000000	</row1>
+			<row2>	0.999998 0.000000 -0.000001	</row2>
+			<row3>	-1.199998 3.000000 -1.599995	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<metaData>	</metaData>
+		<staticLighting>
+			<offset>	3928	</offset>
+			<size>	732	</size>
+		</staticLighting>
+	</model>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<resource>	sets/urban/props/planter/models/facility_planter.model	</resource>
+		<transform>
+			<row0>	0.000000 0.000000 0.999996	</row0>
+			<row1>	0.000000 0.999996 0.000000	</row1>
+			<row2>	-0.999996 0.000000 0.000000	</row2>
+			<row3>	3.199997 0.000000 -0.500000	</row3>
+		</transform>
+		<reflectionVisible>	true	</reflectionVisible>
+		<metaData>	</metaData>
+		<staticLighting>
+			<offset>	4660	</offset>
+			<size>	2040	</size>
+		</staticLighting>
+	</model>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<resource>	sets/urban/props/bar/models/simple_shelf.model	</resource>
+		<transform>
+			<row0>	-0.999997 0.000000 -0.000000	</row0>
+			<row1>	0.000000 0.500000 0.000000	</row1>
+			<row2>	0.000000 0.000000 -0.999997	</row2>
+			<row3>	-2.055141 1.616035 -4.000008	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<metaData>	</metaData>
+		<staticLighting>
+			<offset>	6700	</offset>
+			<size>	512	</size>
+		</staticLighting>
+	</model>
+	<shell>
+		<resource>	sets/urban/shells/facility_bend.model	</resource>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<reflectionVisible>	true	</reflectionVisible>
+		<metaData>	</metaData>
+		<staticLighting>
+			<offset>	0	</offset>
+			<size>	3196	</size>
+		</staticLighting>
+	</shell>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<resource>	sets/urban/props/bw_entrance_sign/models/entrance_sign.model	</resource>
+		<transform>
+			<row0>	-1.000000 0.000000 0.000000	</row0>
+			<row1>	-0.000000 -0.000000 -1.000000	</row1>
+			<row2>	0.000000 -1.000000 0.000000	</row2>
+			<row3>	1.086746 1.798616 -0.000004	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<metaData>	</metaData>
+		<staticLighting>
+			<offset>	7212	</offset>
+			<size>	512	</size>
+		</staticLighting>
+	</model>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<resource>	sets/urban/props/frames/models/frame_minspec.model	</resource>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 -0.000000 1.000000	</row1>
+			<row2>	0.000000 -1.000000 -0.000000	</row2>
+			<row3>	-3.004387 1.922245 -4.000008	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<metaData>	</metaData>
+		<staticLighting>
+			<offset>	7724	</offset>
+			<size>	464	</size>
+		</staticLighting>
+	</model>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<resource>	sets/urban/props/frames/models/frame_urban.model	</resource>
+		<transform>
+			<row0>	1.185376 0.000000 0.000000	</row0>
+			<row1>	0.000000 -0.000000 1.185376	</row1>
+			<row2>	-0.000000 -1.185376 -0.000000	</row2>
+			<row3>	-1.494789 1.942973 -4.000011	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<metaData>	</metaData>
+		<staticLighting>
+			<offset>	8188	</offset>
+			<size>	324	</size>
+		</staticLighting>
+	</model>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<resource>	sets/urban/props/frames/models/frame_highland.model	</resource>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 -0.000000 1.000000	</row1>
+			<row2>	0.000000 -1.000000 -0.000000	</row2>
+			<row3>	-0.358841 1.914976 -4.000008	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<metaData>	</metaData>
+		<staticLighting>
+			<offset>	8512	</offset>
+			<size>	304	</size>
+		</staticLighting>
+	</model>
+	<ambientLight>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<colour>	17.000000 27.000004 28.000004	</colour>
+		<multiplier>	1.000000	</multiplier>
+		<metaData>
+			<created_by>	adamm	</created_by>
+			<created_on>	1249530342	</created_on>
+			<modified_by>	adamm	</modified_by>
+			<modified_on>	1249530342	</modified_on>
+		</metaData>
+	</ambientLight>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<metaData>
+			<created_by>	adamm	</created_by>
+			<created_on>	1249530603	</created_on>
+			<modified_by>	adamm	</modified_by>
+			<modified_on>	1249530623	</modified_on>
+		</metaData>
+		<resource>	sets/urban/props/bar/models/big_partition.model	</resource>
+		<transform>
+			<row0>	-0.558623 0.000000 0.000001	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	-0.000001 0.000000 -0.999999	</row2>
+			<row3>	-0.454552 -0.000000 -0.233463	</row3>
+		</transform>
+		<reflectionVisible>	true	</reflectionVisible>
+		<staticLighting>
+			<offset>	8816	</offset>
+			<size>	628	</size>
+		</staticLighting>
+	</model>
+	<vlo>
+		<uid>	b9134a0a.45b444c7.b06b7989.f3527e5b	</uid>
+		<type>	water	</type>
+	</vlo>
+	<omniLight>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>
+			<modified_by>	adamm	</modified_by>
+			<modified_on>	1250639376	</modified_on>
+		</metaData>
+		<colour>	207.000031 243.000031 234.000031	</colour>
+		<position>	2.699997 2.099602 -1.934620	</position>
+		<innerRadius>	0.585590	</innerRadius>
+		<outerRadius>	7.618388	</outerRadius>
+		<dynamic>	false	</dynamic>
+		<static>	true	</static>
+		<specular>	false	</specular>
+		<multiplier>	0.500000	</multiplier>
+	</omniLight>
+	<omniLight>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>
+			<modified_by>	adamm	</modified_by>
+			<modified_on>	1250639376	</modified_on>
+		</metaData>
+		<colour>	215.000031 244.000031 236.000031	</colour>
+		<position>	-1.800003 2.539068 -1.910408	</position>
+		<innerRadius>	1.805641	</innerRadius>
+		<outerRadius>	13.689384	</outerRadius>
+		<dynamic>	false	</dynamic>
+		<static>	true	</static>
+		<specular>	false	</specular>
+		<multiplier>	0.500000	</multiplier>
+	</omniLight>
+	<speedtree>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<metaData>	</metaData>
+		<spt>	speedtree/shrubs_flowers/elephant_ear/ElephantEar_RT.spt	</spt>
+		<seed>	1	</seed>
+		<transform>
+			<row0>	-0.125682 0.000000 -0.002193	</row0>
+			<row1>	0.000000 0.125702 0.000000	</row1>
+			<row2>	0.002193 0.000000 -0.125682	</row2>
+			<row3>	3.599998 0.500000 -0.700001	</row3>
+		</transform>
+		<reflectionVisible>	true	</reflectionVisible>
+	</speedtree>
+	<UserDataObject>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>	</metaData>
+		<type>	CameraNode	</type>
+		<Domain>	4	</Domain>
+		<transform>
+			<row0>	0.707107 0.000000 0.707106	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	-0.707106 0.000000 0.707107	</row2>
+			<row3>	1.306326 0.918159 -2.276653	</row3>
+		</transform>
+		<guid>	D0457326.40B19938.ABC47E85.283478DA	</guid>
+		<properties>
+			<next>
+				<guid>	86B29B0E.4CB97731.4C575CA5.43DD06C0	</guid>
+				<chunkId>	0000fffeo	</chunkId>
+			</next>
+		</properties>
+		<backLinks>
+			<link>
+				<guid>	099F68D3.43E34578.D4384D8D.88169A44	</guid>
+				<chunkId>	0000fffeo	</chunkId>
+			</link>
+		</backLinks>
+	</UserDataObject>
+	<UserDataObject>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>
+			<modified_by>	adamm	</modified_by>
+			<modified_on>	1249530735	</modified_on>
+		</metaData>
+		<type>	CameraNode	</type>
+		<Domain>	4	</Domain>
+		<transform>
+			<row0>	-0.500001 0.000000 -0.866024	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	0.866024 0.000000 -0.500001	</row2>
+			<row3>	-1.545204 0.968691 -1.874710	</row3>
+		</transform>
+		<guid>	1A99E90C.4791D6E6.39EE3A8F.7488A4D1	</guid>
+		<properties>
+			<next>
+				<guid>	C2B5489B.45841CEA.2898319B.2152EF96	</guid>
+				<chunkId>	0000fffeo	</chunkId>
+			</next>
+		</properties>
+		<backLinks>
+			<link>
+				<guid>	C3F1431E.4BBC02B3.7657139D.B06B5A26	</guid>
+				<chunkId>	0000fffeo	</chunkId>
+			</link>
+		</backLinks>
+	</UserDataObject>
+	<UserDataObject>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>
+			<modified_by>	adamm	</modified_by>
+			<modified_on>	1249530746	</modified_on>
+		</metaData>
+		<type>	CameraNode	</type>
+		<Domain>	4	</Domain>
+		<transform>
+			<row0>	-0.866024 0.000000 0.500000	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	-0.500000 0.000000 -0.866024	</row2>
+			<row3>	3.208725 0.935680 -3.351810	</row3>
+		</transform>
+		<guid>	C2B5489B.45841CEA.2898319B.2152EF96	</guid>
+		<properties>
+			<next>
+				<guid>	A766BF51.4FDB6D38.198F099F.439E1627	</guid>
+				<chunkId>	0000fffeo	</chunkId>
+			</next>
+		</properties>
+		<backLinks>
+			<link>
+				<guid>	1A99E90C.4791D6E6.39EE3A8F.7488A4D1	</guid>
+				<chunkId>	0000fffeo	</chunkId>
+			</link>
+		</backLinks>
+	</UserDataObject>
+	<worldNavmesh>
+		<resource>	00am0003i.cdata/worldNavmesh	</resource>
+	</worldNavmesh>
+	<transform>
+		<row0>	0.000000 0.000000 -1.000000	</row0>
+		<row1>	0.000000 1.000000 0.000000	</row1>
+		<row2>	1.000000 0.000000 0.000000	</row2>
+		<row3>	46.016083 0.498380 -113.487328	</row3>
+	</transform>
+	<boundingBox>
+		<min>	41.877762 0.398380 -117.987320	</min>
+		<max>	46.197075 52.998325 -109.487320	</max>
+	</boundingBox>
+</root>

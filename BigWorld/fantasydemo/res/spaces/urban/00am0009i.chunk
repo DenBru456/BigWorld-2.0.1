@@ -1,0 +1,140 @@
+<root>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<resource>	sets/urban/props/signage/models/signage_floor.model	</resource>
+		<transform>
+			<row0>	0.000000 0.000000 -0.999999	</row0>
+			<row1>	0.999999 0.000000 0.000000	</row1>
+			<row2>	0.000000 -0.999999 0.000000	</row2>
+			<row3>	-4.000001 1.300000 -2.799999	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<metaData>	</metaData>
+		<dye>
+			<name>	signage	</name>
+			<tint>	first	</tint>
+		</dye>
+		<staticLighting>
+			<offset>	3196	</offset>
+			<size>	188	</size>
+		</staticLighting>
+	</model>
+	<shell>
+		<resource>	sets/urban/shells/facility_bend.model	</resource>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<reflectionVisible>	true	</reflectionVisible>
+		<metaData>	</metaData>
+		<staticLighting>
+			<offset>	0	</offset>
+			<size>	3196	</size>
+		</staticLighting>
+	</shell>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<metaData>
+			<created_by>	adamm	</created_by>
+			<created_on>	1245829573	</created_on>
+			<modified_by>	adamm	</modified_by>
+			<modified_on>	1245829599	</modified_on>
+		</metaData>
+		<resource>	sets/urban/props/lightpanel/models/facility_lightpanel.model	</resource>
+		<transform>
+			<row0>	0.999999 0.000000 0.000001	</row0>
+			<row1>	0.000000 -0.999999 0.000000	</row1>
+			<row2>	0.000001 0.000000 -0.999999	</row2>
+			<row3>	1.622054 3.001368 -2.610355	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<staticLighting>
+			<offset>	3384	</offset>
+			<size>	732	</size>
+		</staticLighting>
+	</model>
+	<omniLight>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>
+			<created_by>	adamm	</created_by>
+			<created_on>	1245829573	</created_on>
+			<modified_by>	adamm	</modified_by>
+			<modified_on>	1250639379	</modified_on>
+		</metaData>
+		<colour>	199.000168 249.000168 254.000168	</colour>
+		<position>	1.133581 2.167607 -2.130138	</position>
+		<innerRadius>	0.742202	</innerRadius>
+		<outerRadius>	4.729414	</outerRadius>
+		<dynamic>	true	</dynamic>
+		<static>	true	</static>
+		<specular>	false	</specular>
+		<multiplier>	1.000000	</multiplier>
+	</omniLight>
+	<omniLight>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>
+			<modified_by>	adamm	</modified_by>
+			<modified_on>	1250639379	</modified_on>
+		</metaData>
+		<colour>	162.000000 190.000000 196.000168	</colour>
+		<position>	-3.622080 2.109789 -1.799999	</position>
+		<innerRadius>	0.811548	</innerRadius>
+		<outerRadius>	3.059300	</outerRadius>
+		<dynamic>	true	</dynamic>
+		<static>	true	</static>
+		<specular>	false	</specular>
+		<multiplier>	1.000000	</multiplier>
+	</omniLight>
+	<flare>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>
+			<created_by>	adamm	</created_by>
+			<created_on>	1245829622	</created_on>
+			<modified_by>	adamm	</modified_by>
+			<modified_on>	1250639379	</modified_on>
+		</metaData>
+		<resource>	environments/fx/corona.xml	</resource>
+		<position>	1.257742 2.841158 -2.262428	</position>
+		<maxDistance>	150.000000	</maxDistance>
+		<area>	1.000000	</area>
+		<fadeSpeed>	1.000000	</fadeSpeed>
+		<colour>	198.000015 221.000015 216.000015	</colour>
+	</flare>
+	<worldNavmesh>
+		<resource>	00am0009i.cdata/worldNavmesh	</resource>
+	</worldNavmesh>
+	<transform>
+		<row0>	0.000001 0.000000 1.000000	</row0>
+		<row1>	0.000000 1.000000 0.000000	</row1>
+		<row2>	-1.000000 0.000000 0.000001	</row2>
+		<row3>	42.016075 4.498378 -113.987297	</row3>
+	</transform>
+	<boundingBox>
+		<min>	41.835068 4.398377 -117.987297	</min>
+		<max>	46.154392 56.998322 -109.487289	</max>
+	</boundingBox>
+</root>

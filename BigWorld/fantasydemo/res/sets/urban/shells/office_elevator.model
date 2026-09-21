@@ -1,0 +1,13 @@
+<office_elevator.model>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-9.999998 0.000000 0.000000	</min>
+		<max>	0.000001 3.999999 7.000000	</max>
+	</visibilityBox>
+	<nodelessVisual>	sets/urban/shells/office_elevator	</nodelessVisual>
+	<metaData>
+		<copyright>	Copyright BigWorld Pty Ltd.  Use freely in any BigWorld licensed game.	</copyright>
+		<modified_by>	AdamM	</modified_by>
+		<modified_on>	1281673612	</modified_on>
+	</metaData>
+</office_elevator.model>

@@ -1,0 +1,63 @@
+<handrailB04.visual>
+	<node>
+		<identifier>	Scene Root	</identifier>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+	</node>
+	<materialKind>	4	</materialKind>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	Scene Root	</node>
+		<geometry>
+			<vertices>	vertices	</vertices>
+			<primitive>	indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	handrails	</identifier>
+					<fx>	shaders/std_effects/normalmap_chrome.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	4	</materialKind>
+					<property>	reflectionMask
+						<Texture>	sets/urban/props/handrails/maps/handrail_sp.bmp	</Texture>
+					</property>
+					<property>	doubleSided
+						<Bool>	true	</Bool>
+					</property>
+					<property>	alphaReference
+						<Int>	0	</Int>
+					</property>
+					<property>	alphaTestEnable
+						<Bool>	false	</Bool>
+					</property>
+					<property>	reflectionMap
+						<Texture>	sets/urban/fx/maps/cubemap_urban.dds	</Texture>
+					</property>
+					<property>	normalMap
+						<Texture>	sets/urban/props/handrails/maps/handrail_norms.bmp	</Texture>
+					</property>
+					<property>	diffuseMap
+						<Texture>	sets/urban/props/handrails/maps/handrail.bmp	</Texture>
+					</property>
+					<property>	selfIllumination
+						<Float>	0.000000	</Float>
+					</property>
+					<property>	materialSpecular
+						<Vector4>	0.839216 0.874510 0.886275 1.000000	</Vector4>
+					</property>
+					<property>	reflectionAmount
+						<Float>	1.000000	</Float>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<boundingBox>
+		<min>	-0.077466 -0.019999 -1.897213	</min>
+		<max>	0.077466 1.140798 0.075907	</max>
+	</boundingBox>
+	<customBsp>	true	</customBsp>
+</handrailB04.visual>

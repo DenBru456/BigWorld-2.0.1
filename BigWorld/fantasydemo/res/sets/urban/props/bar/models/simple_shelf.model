@@ -1,0 +1,15 @@
+<simple_shelf.model>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-2.001577 -0.035630 -0.195407	</min>
+		<max>	2.001577 0.079318 0.195407	</max>
+	</visibilityBox>
+	<nodelessVisual>	sets/urban/props/bar/models/simple_shelf	</nodelessVisual>
+	<batched>	true	</batched>
+	<extent>	25.000000	</extent>
+	<metaData>
+		<copyright>	Copyright BigWorld Pty Ltd.  Use freely in any BigWorld licensed game.	</copyright>
+		<modified_by>	AdamM	</modified_by>
+		<modified_on>	1281675074	</modified_on>
+	</metaData>
+</simple_shelf.model>

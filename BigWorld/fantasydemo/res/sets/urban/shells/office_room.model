@@ -1,0 +1,13 @@
+<office_room.model>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-15.999998 0.000000 -11.999998	</min>
+		<max>	0.000001 3.200000 0.000001	</max>
+	</visibilityBox>
+	<nodelessVisual>	sets/urban/shells/office_room	</nodelessVisual>
+	<metaData>
+		<copyright>	Copyright BigWorld Pty Ltd.  Use freely in any BigWorld licensed game.	</copyright>
+		<modified_by>	AdamM	</modified_by>
+		<modified_on>	1281673878	</modified_on>
+	</metaData>
+</office_room.model>

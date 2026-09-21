@@ -1,0 +1,15 @@
+<fire_escapeC01.model>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-1.587873 -0.045355 -0.308525	</min>
+		<max>	0.047494 3.778589 4.001068	</max>
+	</visibilityBox>
+	<extent>	250.000000	</extent>
+	<batched>	false	</batched>
+	<nodelessVisual>	sets/urban/props/fire_escape/model/fire_escapeC01	</nodelessVisual>
+	<metaData>
+		<copyright>	Copyright BigWorld Pty Ltd.  Use freely in any BigWorld licensed game.	</copyright>
+		<modified_by>	adamm	</modified_by>
+		<modified_on>	1254377607	</modified_on>
+	</metaData>
+</fire_escapeC01.model>

@@ -1,0 +1,15 @@
+<chocolate_shop.model>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-5.016373 0.004286 -0.048483	</min>
+		<max>	0.032957 3.538447 0.498985	</max>
+	</visibilityBox>
+	<nodelessVisual>	sets/urban/props/chocolats/model/chocolate_shop	</nodelessVisual>
+	<extent>	380.000000	</extent>
+	<batched>	false	</batched>
+	<metaData>
+		<copyright>	Copyright BigWorld Pty Ltd.  Use freely in any BigWorld licensed game.	</copyright>
+		<modified_by>	adamm	</modified_by>
+		<modified_on>	1254377017	</modified_on>
+	</metaData>
+</chocolate_shop.model>

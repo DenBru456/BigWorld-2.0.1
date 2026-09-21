@@ -1,0 +1,20 @@
+<AerialD01.model>
+	<materialNames>
+		<material>
+			<original>	orig_orig_01 - Default	</original>
+			<display>	aerials	</display>
+		</material>
+	</materialNames>
+	<visibilityBox>
+		<min>	-0.771576 0.000483 -0.812594	</min>
+		<max>	0.757680 5.141749 0.881612	</max>
+	</visibilityBox>
+	<nodelessVisual>	sets/urban/props/aerial/model/AerialD01	</nodelessVisual>
+	<extent>	265.000000	</extent>
+	<batched>	false	</batched>
+	<metaData>
+		<copyright>	Copyright BigWorld Pty Ltd.  Use freely in any BigWorld licensed game.	</copyright>
+		<modified_by>	adamm	</modified_by>
+		<modified_on>	1254375909	</modified_on>
+	</metaData>
+</AerialD01.model>

@@ -1,0 +1,26 @@
+<fffe0002o.chunk>
+	<waypointGenerationTime>
+		<hi>	29728293	</hi>
+		<lo>	-50404274	</lo>
+	</waypointGenerationTime>
+	<particles>
+		<resource>	sets/desert/particles/hilltop_sand.xml	</resource>
+		<transform>
+			<row0>	-0.727312 0.000000 0.686307	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	-0.686307 0.000000 -0.727312	</row2>
+			<row3>	90.885574 76.228653 25.787750	</row3>
+		</transform>
+	</particles>
+	<terrain>
+		<resource>	fffe0002o.cdata/terrain	</resource>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>	</metaData>
+	</terrain>
+	<worldNavmesh>
+		<resource>	fffe0002o.cdata/worldNavmesh	</resource>
+	</worldNavmesh>
+</fffe0002o.chunk>

@@ -1,0 +1,14 @@
+<table_menu.model>
+	<nodelessVisual>	sets/urban/props/bar/models/table_menu	</nodelessVisual>
+	<materialNames>	</materialNames>
+	<extent>	25.000000	</extent>
+	<visibilityBox>
+		<min>	-0.176014 -0.004035 -0.029777	</min>
+		<max>	0.176014 0.438548 0.029777	</max>
+	</visibilityBox>
+	<metaData>
+		<copyright>	Copyright BigWorld Pty Ltd.  Use freely in any BigWorld licensed game.	</copyright>
+		<modified_by>	AdamM	</modified_by>
+		<modified_on>	1281675132	</modified_on>
+	</metaData>
+</table_menu.model>

@@ -1,0 +1,14 @@
+<glass.model>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-0.049417 0.000000 -0.049417	</min>
+		<max>	0.049417 0.102765 0.049417	</max>
+	</visibilityBox>
+	<nodelessVisual>	sets/urban/props/bar/models/glass	</nodelessVisual>
+	<extent>	20.000000	</extent>
+	<metaData>
+		<copyright>	Copyright BigWorld Pty Ltd.  Use freely in any BigWorld licensed game.	</copyright>
+		<modified_by>	AdamM	</modified_by>
+		<modified_on>	1281674773	</modified_on>
+	</metaData>
+</glass.model>

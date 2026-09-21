@@ -1,0 +1,15 @@
+<facility_planter.model>
+	<materialNames>	</materialNames>
+	<extent>	147.000000	</extent>
+	<visibilityBox>
+		<min>	0.000000 0.000000 0.000000	</min>
+		<max>	0.000000 0.000000 0.000000	</max>
+	</visibilityBox>
+	<nodelessVisual>	sets/urban/props/planter/models/facility_planter	</nodelessVisual>
+	<batched>	false	</batched>
+	<metaData>
+		<copyright>	Copyright BigWorld Pty Ltd.  Use freely in any BigWorld licensed game.	</copyright>
+		<modified_by>	AdamM	</modified_by>
+		<modified_on>	1268889241	</modified_on>
+	</metaData>
+</facility_planter.model>

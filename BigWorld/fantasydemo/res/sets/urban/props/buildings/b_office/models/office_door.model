@@ -1,0 +1,15 @@
+<office_door.model>
+	<nodelessVisual>	sets/urban/props/buildings/b_office/models/office_door	</nodelessVisual>
+	<materialNames>	</materialNames>
+	<extent>	35.000000	</extent>
+	<visibilityBox>
+		<min>	0.000000 0.000000 0.000000	</min>
+		<max>	0.000000 0.000000 0.000000	</max>
+	</visibilityBox>
+	<batched>	false	</batched>
+	<metaData>
+		<copyright>	Copyright BigWorld Pty Ltd.  Use freely in any BigWorld licensed game.	</copyright>
+		<modified_by>	adamm	</modified_by>
+		<modified_on>	1254379591	</modified_on>
+	</metaData>
+</office_door.model>

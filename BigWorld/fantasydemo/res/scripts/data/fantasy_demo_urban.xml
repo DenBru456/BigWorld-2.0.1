@@ -1,0 +1,12 @@
+<root>
+	<spaces>
+		<!-- This is the list of spaces that will be loaded by the server. -->
+		<!-- The first space listed is the default one. -->
+
+		<space>		spaces/urban	</space>
+	</spaces>
+
+	<offlineModeIgnoredSpaces>
+		<space>		spaces/menu_space	</space>
+	</offlineModeIgnoredSpaces>
+</root>

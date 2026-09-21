@@ -1,0 +1,48 @@
+<d881daba.4f7f166e.b35d7f8a.145db23d.vlo>
+	<water>
+		<position>	-69.299973 1.800000 17.299994	</position>
+		<orientation>	0.000000	</orientation>
+		<size>	119.999985 0.000000 119.999985	</size>
+		<fresnelConstant>	0.300000	</fresnelConstant>
+		<fresnelExponent>	5.000000	</fresnelExponent>
+		<reflectionTint>	1.000000 1.000000 1.000000 1.000000	</reflectionTint>
+		<reflectionStrength>	0.040000	</reflectionStrength>
+		<refractionTint>	1.000000 1.000000 1.000000 1.000000	</refractionTint>
+		<refractionStrength>	0.040000	</refractionStrength>
+		<tessellation>	10.000000	</tessellation>
+		<consistency>	0.950000	</consistency>
+		<textureTessellation>	10.000000	</textureTessellation>
+		<scrollSpeed1>	-1.000000 0.500000	</scrollSpeed1>
+		<scrollSpeed2>	1.000000 0.000000	</scrollSpeed2>
+		<waveScale>	1.000000 0.750000	</waveScale>
+		<windVelocity>	0.020000	</windVelocity>
+		<sunPower>	32.000000	</sunPower>
+		<waveTexture>	system/maps/waves2.dds	</waveTexture>
+		<cellsize>	100.000000	</cellsize>
+		<smoothness>	0.000000	</smoothness>
+		<useEdgeAlpha>	true	</useEdgeAlpha>
+		<useSimulation>	true	</useSimulation>
+		<sunScale>	1.000000	</sunScale>
+		<depth>	10.000000	</depth>
+		<foamTexture>	system/maps/water_foam2.dds	</foamTexture>
+		<reflectionTexture>	system/maps/cubemap_desert.dds	</reflectionTexture>
+		<deepColour>	0.000000 0.200000 0.330000 1.000000	</deepColour>
+		<fadeDepth>	0.000000	</fadeDepth>
+		<foamIntersection>	0.250000	</foamIntersection>
+		<foamMultiplier>	0.750000	</foamMultiplier>
+		<foamTiling>	1.000000	</foamTiling>
+		<useCubeMap>	false	</useCubeMap>
+		<visibility>	0	</visibility>
+		<bypassDepth>	false	</bypassDepth>
+		<metaData>
+			<created_by>	AdamM	</created_by>
+			<created_on>	1285550542	</created_on>
+			<modified_by>	AdamM	</modified_by>
+			<modified_on>	1285550542	</modified_on>
+		</metaData>
+	</water>
+	<editorOnly>
+		<hidden>	false	</hidden>
+		<frozen>	false	</frozen>
+	</editorOnly>
+</d881daba.4f7f166e.b35d7f8a.145db23d.vlo>

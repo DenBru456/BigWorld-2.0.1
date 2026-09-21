@@ -1,0 +1,6 @@
+<root>
+	<frames>ab</frames>
+	<fps> 2 </fps>
+	<texture>system/maps/col_black.bmp</texture>
+	<texture>sets/urban/props/crossing_light\maps/crossing_light_stop_glow.bmp</texture>
+</root>

@@ -1,0 +1,13 @@
+<office_corner.model>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-4.000000 0.000000 -4.000000	</min>
+		<max>	0.000000 3.000000 0.000000	</max>
+	</visibilityBox>
+	<nodelessVisual>	sets/urban/shells/office_corner	</nodelessVisual>
+	<metaData>
+		<copyright>	Copyright BigWorld Pty Ltd.  Use freely in any BigWorld licensed game.	</copyright>
+		<modified_by>	AdamM	</modified_by>
+		<modified_on>	1281673577	</modified_on>
+	</metaData>
+</office_corner.model>

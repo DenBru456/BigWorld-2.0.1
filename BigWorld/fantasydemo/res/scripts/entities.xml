@@ -1,0 +1,54 @@
+<root>
+	<!--
+	This file is used by the BigWorld engine to determine the types of entities
+	available for use by the engine. Each tag must correspond to a definition
+	file and possibly a Python implementation script for the cell, base and
+	client version of the distributed entity.
+   	-->
+
+	<Avatar/>
+	<Merchant/>
+	<Building/>
+	<Creature/>
+	<DroppedItem/>
+	<Effect/>
+	<VideoScreen/>
+	<VideoScreenChanger/>
+	<Fog/>
+	<Guard/>
+	<Seat/>
+	<SpawnPoint/>
+	<Flock/>
+	<Ripper/>
+	<WeatherSystem/>
+	<DustDevil/>
+	<Info/>
+	<WebScreen/>
+	
+	<TED/> <!-- TED is used in the BigWorld Tech Lectures -->
+	<VehicleExample/>
+	<LightGuard/>
+	<TradingSupervisor/>
+	<RespawnManager/>	
+	<TeleportSource/>
+	<TeleportPoint/>
+	<SpaceLoader/>
+	<Button/>
+	<Account/>
+	<AuctionHouse/>
+	<Landmark/>
+	<MovingPlatform/>
+	<Door/>
+	<RandomNavigator/>
+	<GuardSpawner/>
+	<GuardRallyPoint/>
+	<Beast/>
+	<PointOfInterest/>
+	<AlertBeastTrigger/>
+	<TriggeredDust/>
+	<MenuScreenAvatar/>
+	<IndoorMapInfo/>
+	<Reverb/>
+	<SoundEmitter/>
+	<XMPPEventNotifier/>
+</root>

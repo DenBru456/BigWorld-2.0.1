@@ -1,0 +1,436 @@
+<root>
+	<model>
+		<resource>	sets/minspec/props/tree/model/tree_bare.model	</resource>
+		<transform>
+			<row0>	-0.261637 -0.000005 1.582150	</row0>
+			<row1>	0.000001 1.603637 0.000005	</row1>
+			<row2>	-1.582150 0.000002 -0.261637	</row2>
+			<row3>	38.071518 198.085938 61.405731	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<resource>	sets/minspec/props/tree/model/tree.model	</resource>
+		<transform>
+			<row0>	1.131287 -0.000002 0.519952	</row0>
+			<row1>	0.000001 1.245055 0.000004	</row1>
+			<row2>	-0.519952 -0.000003 1.131287	</row2>
+			<row3>	27.303429 197.582916 58.606094	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<resource>	sets/minspec/props/tree/model/tree.model	</resource>
+		<transform>
+			<row0>	-0.164582 -0.000003 0.995246	</row0>
+			<row1>	0.000001 1.008762 0.000003	</row1>
+			<row2>	-0.995246 0.000001 -0.164582	</row2>
+			<row3>	37.622528 198.135406 49.959629	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<resource>	sets/minspec/props/tree/model/tree_bare.model	</resource>
+		<transform>
+			<row0>	-0.215198 -0.000004 1.301330	</row0>
+			<row1>	0.000001 1.319003 0.000004	</row1>
+			<row2>	-1.301330 0.000001 -0.215198	</row2>
+			<row3>	18.063164 197.287415 61.895645	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<resource>	sets/minspec/props/tree/model/tree.model	</resource>
+		<transform>
+			<row0>	-0.270071 -0.000005 1.633154	</row0>
+			<row1>	0.000001 1.655334 0.000005	</row1>
+			<row2>	-1.633154 0.000002 -0.270071	</row2>
+			<row3>	29.694000 197.052979 72.010223	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<worldNavmesh>
+		<resource>	0001ffffo.cdata/worldNavmesh	</resource>
+	</worldNavmesh>
+	<model>
+		<resource>	sets/minspec/props/tree/model/tree.model	</resource>
+		<transform>
+			<row0>	-0.707145 0.000000 0.338196	</row0>
+			<row1>	0.000000 0.783857 0.000000	</row1>
+			<row2>	-0.338196 0.000000 -0.707145	</row2>
+			<row3>	26.847130 198.558563 48.710365	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<resource>	sets/minspec/props/tree/model/tree.model	</resource>
+		<transform>
+			<row0>	-1.055757 0.000000 0.504921	</row0>
+			<row1>	0.000000 1.170287 0.000000	</row1>
+			<row2>	-0.504921 0.000000 -1.055757	</row2>
+			<row3>	37.054893 198.489227 50.753105	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<resource>	sets/minspec/props/tree/model/tree.model	</resource>
+		<transform>
+			<row0>	0.212133 -0.000002 1.030135	</row0>
+			<row1>	0.000002 1.051751 0.000001	</row1>
+			<row2>	-1.030135 0.000001 0.212133	</row2>
+			<row3>	22.607933 199.199188 37.785698	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<resource>	sets/minspec/props/tree/model/tree_mid.model	</resource>
+		<transform>
+			<row0>	-0.410003 0.000000 1.412184	</row0>
+			<row1>	0.000002 1.470499 0.000000	</row1>
+			<row2>	-1.412184 0.000001 -0.410003	</row2>
+			<row3>	17.138451 199.453094 32.368637	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<resource>	sets/minspec/props/tree/model/tree.model	</resource>
+		<transform>
+			<row0>	-0.598105 0.000000 -0.290934	</row0>
+			<row1>	0.000000 0.665111 0.000000	</row1>
+			<row2>	0.290934 0.000000 -0.598105	</row2>
+			<row3>	46.631981 197.780243 54.926033	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<resource>	sets/minspec/props/tree/model/tree.model	</resource>
+		<transform>
+			<row0>	-0.921553 0.000000 0.440738	</row0>
+			<row1>	0.000000 1.021525 0.000000	</row1>
+			<row2>	-0.440738 0.000000 -0.921553	</row2>
+			<row3>	30.369011 198.785126 44.428169	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<resource>	sets/minspec/props/tree/model/tree.model	</resource>
+		<transform>
+			<row0>	-0.539393 0.000000 -0.905598	</row0>
+			<row1>	0.000000 1.054066 -0.000001	</row1>
+			<row2>	0.905598 -0.000001 -0.539393	</row2>
+			<row3>	4.000641 200.465790 19.019936	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<resource>	sets/minspec/props/tree/model/tree_mid.model	</resource>
+		<transform>
+			<row0>	-1.594648 0.000002 0.569834	</row0>
+			<row1>	0.000004 1.693402 0.000001	</row1>
+			<row2>	-0.569834 0.000001 -1.594648	</row2>
+			<row3>	14.050735 199.486298 19.676125	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<resource>	sets/minspec/props/tree/model/tree_mid.model	</resource>
+		<transform>
+			<row0>	-0.924832 0.000002 1.047916	</row0>
+			<row1>	0.000001 1.397656 -0.000002	</row1>
+			<row2>	-1.047916 0.000000 -0.924832	</row2>
+			<row3>	2.075958 200.408173 10.959686	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<resource>	sets/minspec/props/tree/model/tree_mid.model	</resource>
+		<transform>
+			<row0>	0.882055 0.000000 0.934348	</row0>
+			<row1>	0.000000 1.284922 0.000000	</row1>
+			<row2>	-0.934348 0.000000 0.882055	</row2>
+			<row3>	40.124535 198.418915 42.370888	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<resource>	sets/minspec/props/tree/model/tree.model	</resource>
+		<transform>
+			<row0>	0.581712 -0.000002 0.623367	</row0>
+			<row1>	0.000002 0.852629 0.000001	</row1>
+			<row2>	-0.623367 0.000000 0.581712	</row2>
+			<row3>	33.657616 198.607391 34.396744	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<resource>	sets/minspec/props/tree/model/tree_mid.model	</resource>
+		<transform>
+			<row0>	1.102437 -0.000003 0.608847	</row0>
+			<row1>	0.000003 1.259390 0.000001	</row1>
+			<row2>	-0.608847 -0.000001 1.102437	</row2>
+			<row3>	20.080681 198.208954 20.477242	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<resource>	sets/minspec/props/tree/model/tree.model	</resource>
+		<transform>
+			<row0>	-0.874210 0.000000 0.418095	</row0>
+			<row1>	0.000000 0.969046 0.000000	</row1>
+			<row2>	-0.418095 0.000000 -0.874210	</row2>
+			<row3>	48.326439 191.721649 41.187416	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<resource>	sets/minspec/props/tree/model/tree_mid.model	</resource>
+		<transform>
+			<row0>	-0.948277 0.000000 -0.828754	</row0>
+			<row1>	0.000000 1.259390 -0.000001	</row1>
+			<row2>	0.828754 -0.000002 -0.948277	</row2>
+			<row3>	7.775238 199.782196 5.430786	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<resource>	sets/minspec/props/tree/model/tree.model	</resource>
+		<transform>
+			<row0>	0.758088 -0.000002 0.812374	</row0>
+			<row1>	0.000003 1.111149 0.000001	</row1>
+			<row2>	-0.812374 0.000000 0.758088	</row2>
+			<row3>	29.497643 196.140594 24.498230	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<resource>	sets/minspec/props/tree/model/tree_mid.model	</resource>
+		<transform>
+			<row0>	-0.846292 0.000000 0.806722	</row0>
+			<row1>	0.000000 1.169193 0.000000	</row1>
+			<row2>	-0.806722 0.000000 -0.846292	</row2>
+			<row3>	45.536705 189.142548 31.096329	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<resource>	sets/minspec/props/tree/model/tree_mid.model	</resource>
+		<transform>
+			<row0>	1.679212 -0.000001 -0.218765	</row0>
+			<row1>	0.000000 1.693402 0.000000	</row1>
+			<row2>	0.218765 -0.000001 1.679212	</row2>
+			<row3>	13.498230 198.744110 7.492188	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<resource>	sets/minspec/props/tree/model/tree_mid.model	</resource>
+		<transform>
+			<row0>	0.681615 0.000001 -1.220181	</row0>
+			<row1>	0.000002 1.397656 0.000002	</row1>
+			<row2>	1.220181 -0.000003 0.681615	</row2>
+			<row3>	24.478081 196.589813 13.865631	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<resource>	sets/minspec/props/tree/model/tree.model	</resource>
+		<transform>
+			<row0>	-0.715279 0.000000 -0.211146	</row0>
+			<row1>	0.000000 0.745793 0.000000	</row1>
+			<row2>	0.211146 0.000000 -0.715279	</row2>
+			<row3>	40.286858 192.241180 22.958954	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<resource>	sets/minspec/props/tree/model/tree.model	</resource>
+		<transform>
+			<row0>	0.719143 -0.000002 0.770640	</row0>
+			<row1>	0.000002 1.054066 0.000001	</row1>
+			<row2>	-0.770640 0.000000 0.719143	</row2>
+			<row3>	20.888145 197.851532 6.396729	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<resource>	sets/minspec/props/tree/model/tree.model	</resource>
+		<transform>
+			<row0>	0.868486 -0.000002 0.930678	</row0>
+			<row1>	0.000002 1.272963 0.000002	</row1>
+			<row2>	-0.930678 0.000001 0.868486	</row2>
+			<row3>	33.297752 195.787079 10.958740	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<terrain>
+		<resource>	0001ffffo.cdata/terrain	</resource>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>	</metaData>
+	</terrain>
+	<particles>
+		<resource>	sets/minspec/particles/m_spec_bluefire_bridge.xml	</resource>
+		<transform>
+			<row0>	0.998890 0.047106 0.000000	</row0>
+			<row1>	-0.047106 0.998890 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	30.159996 201.189957 90.229973	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</particles>
+	<particles>
+		<resource>	sets/minspec/particles/m_spec_bluefire_bridge.xml	</resource>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	20.690002 201.189941 94.049965	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</particles>
+	<model>
+		<resource>	sets/minspec/props/rock_large/models/rock_large.model	</resource>
+		<transform>
+			<row0>	-0.468452 0.078689 -0.627287	</row0>
+			<row1>	0.045015 0.782898 0.064593	</row1>
+			<row2>	0.630599 0.002569 -0.470602	</row2>
+			<row3>	1.860001 196.379974 86.999992	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<vlo>
+		<uid>	ed050d0c.4e047eff.772d4987.72100cf0	</uid>
+		<type>	water	</type>
+	</vlo>
+	<entity>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>	</metaData>
+		<guid>	5E988ACF.49B63021.634278BA.A1C7EABC	</guid>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	9.280106 211.456543 71.402985	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+		<backLinks>	</backLinks>
+	</entity>
+	<UserDataObject>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>	</metaData>
+		<type>	CameraNode	</type>
+		<Domain>	4	</Domain>
+		<transform>
+			<row0>	0.862777 0.086528 -0.498123	</row0>
+			<row1>	-0.074935 0.996248 0.043263	</row1>
+			<row2>	0.499999 0.000000 0.866025	</row2>
+			<row3>	7.450859 203.490250 63.493660	</row3>
+		</transform>
+		<guid>	A0B60F6A.46F2E8B7.5ED9A7B5.5DF20904	</guid>
+		<properties>
+			<next>
+				<guid>	753A51DE.4CA590D0.5AC72C82.44BAEDFE	</guid>
+				<chunkId>	00010000o	</chunkId>
+			</next>
+		</properties>
+		<backLinks>
+			<link>
+				<guid>	653D73E4.4B6329D9.1E5842A7.579FA656	</guid>
+				<chunkId>	0000ffffo	</chunkId>
+			</link>
+		</backLinks>
+	</UserDataObject>
+</root>

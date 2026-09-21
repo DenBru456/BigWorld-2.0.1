@@ -1,0 +1,242 @@
+<root>
+	<shell>
+		<resource>	sets/urban/shells/office_straight_with_doors_b.model	</resource>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<reflectionVisible>	true	</reflectionVisible>
+		<metaData>	</metaData>
+		<staticLighting>
+			<offset>	0	</offset>
+			<size>	1224	</size>
+		</staticLighting>
+	</shell>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<resource>	sets/urban/props/signs/exit01.model	</resource>
+		<transform>
+			<row0>	-1.000000 -0.000000 0.000000	</row0>
+			<row1>	-0.000000 0.000000 -1.000000	</row1>
+			<row2>	0.000000 -1.000000 -0.000000	</row2>
+			<row3>	-1.299999 2.500000 4.000000	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<metaData>	</metaData>
+		<staticLighting>
+			<offset>	1224	</offset>
+			<size>	432	</size>
+		</staticLighting>
+	</model>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	false	</castsShadow>
+		</editorOnly>
+		<resource>	sets/shared/props/gen_shadow/model/gen_shadow.model	</resource>
+		<transform>
+			<row0>	0.000000 0.000000 1.213386	</row0>
+			<row1>	0.000000 1.213386 0.000000	</row1>
+			<row2>	-1.213386 0.000000 0.000000	</row2>
+			<row3>	-5.599792 -0.000043 0.590630	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<metaData>	</metaData>
+		<staticLighting>
+			<offset>	1656	</offset>
+			<size>	16	</size>
+		</staticLighting>
+	</model>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<resource>	sets/urban/props/planter/models/facility_planter.model	</resource>
+		<transform>
+			<row0>	0.999997 0.000005 0.000000	</row0>
+			<row1>	-0.000005 0.999997 -0.000004	</row1>
+			<row2>	0.000000 0.000004 0.999997	</row2>
+			<row3>	-5.377132 0.031636 0.918388	</row3>
+		</transform>
+		<reflectionVisible>	true	</reflectionVisible>
+		<metaData>	</metaData>
+		<staticLighting>
+			<offset>	1672	</offset>
+			<size>	2040	</size>
+		</staticLighting>
+	</model>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<resource>	sets/urban/props/bench/models/facility_bench.model	</resource>
+		<transform>
+			<row0>	0.999999 0.000000 0.000000	</row0>
+			<row1>	-0.000000 0.999999 0.000000	</row1>
+			<row2>	-0.000000 -0.000000 0.999999	</row2>
+			<row3>	-6.112904 -0.000000 0.258904	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<metaData>	</metaData>
+		<staticLighting>
+			<offset>	3712	</offset>
+			<size>	9848	</size>
+		</staticLighting>
+	</model>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	false	</castsShadow>
+		</editorOnly>
+		<resource>	sets/shared/props/gen_shadow/model/gen_shadow.model	</resource>
+		<transform>
+			<row0>	0.000000 0.000000 2.012960	</row0>
+			<row1>	0.000000 2.012964 0.000000	</row1>
+			<row2>	-5.549490 0.000000 0.000000	</row2>
+			<row3>	-7.456245 -0.000000 0.488632	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<metaData>	</metaData>
+		<staticLighting>
+			<offset>	13560	</offset>
+			<size>	16	</size>
+		</staticLighting>
+	</model>
+	<omniLight>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>
+			<modified_by>	adamm	</modified_by>
+			<modified_on>	1250639375	</modified_on>
+		</metaData>
+		<colour>	221.000061 251.000061 187.000000	</colour>
+		<position>	-1.299999 2.509789 3.400002	</position>
+		<innerRadius>	1.000000	</innerRadius>
+		<outerRadius>	2.471445	</outerRadius>
+		<dynamic>	true	</dynamic>
+		<static>	true	</static>
+		<specular>	false	</specular>
+		<multiplier>	1.000000	</multiplier>
+	</omniLight>
+	<omniLight>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>
+			<modified_by>	adamm	</modified_by>
+			<modified_on>	1250639375	</modified_on>
+		</metaData>
+		<colour>	227.000107 188.000000 134.000000	</colour>
+		<position>	-2.099998 2.909789 2.099998	</position>
+		<innerRadius>	1.000000	</innerRadius>
+		<outerRadius>	3.486672	</outerRadius>
+		<dynamic>	true	</dynamic>
+		<static>	true	</static>
+		<specular>	false	</specular>
+		<multiplier>	1.000000	</multiplier>
+	</omniLight>
+	<omniLight>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>
+			<modified_by>	adamm	</modified_by>
+			<modified_on>	1250639375	</modified_on>
+		</metaData>
+		<colour>	227.000107 188.000000 134.000000	</colour>
+		<position>	-6.200001 2.909789 2.099998	</position>
+		<innerRadius>	1.000000	</innerRadius>
+		<outerRadius>	3.486672	</outerRadius>
+		<dynamic>	true	</dynamic>
+		<static>	true	</static>
+		<specular>	false	</specular>
+		<multiplier>	1.000000	</multiplier>
+	</omniLight>
+	<omniLight>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>
+			<modified_by>	adamm	</modified_by>
+			<modified_on>	1250639375	</modified_on>
+		</metaData>
+		<colour>	227.000107 188.000000 134.000000	</colour>
+		<position>	-10.299999 2.909789 2.099998	</position>
+		<innerRadius>	1.000000	</innerRadius>
+		<outerRadius>	3.486672	</outerRadius>
+		<dynamic>	true	</dynamic>
+		<static>	true	</static>
+		<specular>	false	</specular>
+		<multiplier>	1.000000	</multiplier>
+	</omniLight>
+	<omniLight>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>
+			<modified_by>	adamm	</modified_by>
+			<modified_on>	1250639375	</modified_on>
+		</metaData>
+		<colour>	227.000122 188.000000 134.000000	</colour>
+		<position>	-13.900002 2.909789 1.800003	</position>
+		<innerRadius>	1.000000	</innerRadius>
+		<outerRadius>	3.486672	</outerRadius>
+		<dynamic>	true	</dynamic>
+		<static>	true	</static>
+		<specular>	false	</specular>
+		<multiplier>	1.000000	</multiplier>
+	</omniLight>
+	<speedtree>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<metaData>	</metaData>
+		<spt>	speedtree/shrubs_flowers/elephant_ear/ElephantEar_RT.spt	</spt>
+		<seed>	1	</seed>
+		<transform>
+			<row0>	-0.125702 -0.000001 0.000000	</row0>
+			<row1>	-0.000001 0.125702 -0.000001	</row1>
+			<row2>	0.000000 -0.000001 -0.125702	</row2>
+			<row3>	-5.732082 0.552747 0.618423	</row3>
+		</transform>
+		<reflectionVisible>	true	</reflectionVisible>
+	</speedtree>
+	<worldNavmesh>
+		<resource>	00ny0093i.cdata/worldNavmesh	</resource>
+	</worldNavmesh>
+	<transform>
+		<row0>	0.000000 0.000000 1.000000	</row0>
+		<row1>	0.000000 1.000000 0.000000	</row1>
+		<row2>	-1.000000 0.000000 0.000000	</row2>
+		<row3>	77.499954 0.499999 -44.999996	</row3>
+	</transform>
+	<boundingBox>
+		<min>	73.499947 0.499999 -60.999992	</min>
+		<max>	77.499947 41.253567 -44.999992	</max>
+	</boundingBox>
+</root>

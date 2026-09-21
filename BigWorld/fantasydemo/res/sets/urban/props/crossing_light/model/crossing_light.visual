@@ -1,0 +1,60 @@
+<crossing_light.visual>
+	<node>
+		<identifier>	Scene Root	</identifier>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+	</node>
+	<materialKind>	4	</materialKind>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	Scene Root	</node>
+		<geometry>
+			<vertices>	vertices	</vertices>
+			<primitive>	indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	crossing_lights	</identifier>
+					<fx>	shaders/std_effects/normalmap_chrome_glow.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	reflectionMask
+						<Texture>	sets/urban/props/crossing_light/maps/crossing_light_walk_spec.bmp	</Texture>
+					</property>
+					<property>	reflectionMap
+						<Texture>	sets/urban/fx/maps/cubemap_urban.dds	</Texture>
+					</property>
+					<property>	glowMap
+						<Texture>	sets/urban/props/crossing_light/maps/crossing_light_walk_glow.bmp	</Texture>
+					</property>
+					<property>	glowFactor
+						<Float>	2.000000	</Float>
+					</property>
+					<property>	normalMap
+						<Texture>	system/maps/default_norms.bmp	</Texture>
+					</property>
+					<property>	diffuseMap
+						<Texture>	sets/urban/props/crossing_light/maps/crossing_light_diff.bmp	</Texture>
+					</property>
+					<property>	materialSpecular
+						<Vector4>	1.000000 0.960784 0.909804 1.000000	</Vector4>
+					</property>
+					<property>	fresnelConstant
+						<Float>	0.107000	</Float>
+					</property>
+					<property>	fresnelExp
+						<Float>	3.610000	</Float>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<boundingBox>
+		<min>	-0.096511 -0.001936 -0.033049	</min>
+		<max>	0.113693 0.565265 0.377088	</max>
+	</boundingBox>
+	<customBsp>	true	</customBsp>
+</crossing_light.visual>

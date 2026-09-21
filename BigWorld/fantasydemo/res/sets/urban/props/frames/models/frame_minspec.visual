@@ -1,0 +1,64 @@
+<frame_minspec.visual>
+	<node>
+		<identifier>	Scene Root	</identifier>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+	</node>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	Scene Root	</node>
+		<geometry>
+			<vertices>	vertices	</vertices>
+			<primitive>	indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	frames	</identifier>
+					<fx>	shaders/std_effects/normalmap.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	1	</materialKind>
+					<property>	materialSpecular
+						<Vector4>	0.501961 0.501961 0.501961 1.000000	</Vector4>
+					</property>
+					<property>	normalMap
+						<Texture>	sets/urban/props/frames/maps/frames_norms.bmp	</Texture>
+					</property>
+					<property>	diffuseMap
+						<Texture>	sets/urban/props/frames/maps/frames_dif.bmp	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+			<primitiveGroup>	1
+				<material>
+					<identifier>	scr	</identifier>
+					<fx>	shaders/std_effects/lightonly.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	6	</materialKind>
+					<property>	alphaReference
+						<Int>	0	</Int>
+					</property>
+					<property>	alphaTestEnable
+						<Bool>	false	</Bool>
+					</property>
+					<property>	doubleSided
+						<Bool>	false	</Bool>
+					</property>
+					<property>	selfIllumination
+						<Float>	0.000000	</Float>
+					</property>
+					<property>	diffuseMap
+						<Texture>	sets/urban/props/frames/maps/scr_minspecn.bmp	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<boundingBox>
+		<min>	-0.316914 -0.010425 -0.261008	</min>
+		<max>	0.316914 0.032743 0.261008	</max>
+	</boundingBox>
+	<materialKind>	1	</materialKind>
+</frame_minspec.visual>

@@ -1,0 +1,20 @@
+<handrails.mfm>
+	<fx>	shaders/std_effects/normalmap_chrome.fx	</fx>
+	<property>	diffuseMap
+		<Texture>	sets/urban/props/handrails/handrail.tga	</Texture>
+	</property>
+	<collisionFlags>	0	</collisionFlags>
+	<materialKind>	0	</materialKind>
+	<property>	reflectionMask
+		<Texture>	sets/urban/props/handrails/handrail_sp.tga	</Texture>
+	</property>
+	<property>	reflectionMap
+		<Texture>	system/maps/cloudyhillscubemap2.dds	</Texture>
+	</property>
+	<property>	normalMap
+		<Texture>	sets/urban/props/handrails/handrail_norms.tga	</Texture>
+	</property>
+	<property>	materialSpecular
+		<Vector4>	0.839216 0.874510 0.886275 1.000000	</Vector4>
+	</property>
+</handrails.mfm>

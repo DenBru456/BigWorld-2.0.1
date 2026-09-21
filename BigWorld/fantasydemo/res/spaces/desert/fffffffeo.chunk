@@ -1,0 +1,136 @@
+<fffffffeo.chunk>
+	<waypointGenerationTime>
+		<hi>	29728290	</hi>
+		<lo>	639621160	</lo>
+	</waypointGenerationTime>
+	<particles>
+		<resource>	particles/fire_shimmer_smoke_embers.xml	</resource>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	39.085518 13.419525 56.164169	</row3>
+		</transform>
+	</particles>
+	<model>
+		<resource>	sets/temperate/props/fd_s_rock_smooth_medium.model	</resource>
+		<transform>
+			<row0>	3.094867 0.000000 0.569214	</row0>
+			<row1>	0.279850 2.740203 -1.521571	</row1>
+			<row2>	-0.495670 1.547093 2.695000	</row2>
+			<row3>	43.246532 15.633316 95.453766	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<terrain>
+		<resource>	fffffffeo.cdata/terrain	</resource>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>	</metaData>
+	</terrain>
+	<model>
+		<resource>	sets/temperate/props/fd_rock_sharp_medium.model	</resource>
+		<transform>
+			<row0>	2.072519 0.000000 0.000000	</row0>
+			<row1>	0.000000 2.072519 0.000000	</row1>
+			<row2>	0.000000 0.000000 2.072519	</row2>
+			<row3>	50.579994 16.489998 96.139992	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	true	</reflectionVisible>
+	</model>
+	<model>
+		<resource>	sets/temperate/props/fd_rock_sharp_medium.model	</resource>
+		<transform>
+			<row0>	1.704821 1.174466 0.097648	</row0>
+			<row1>	-1.112514 1.547144 0.814849	</row1>
+			<row2>	0.388869 -0.722699 1.903103	</row2>
+			<row3>	48.289993 16.929996 96.559990	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	true	</reflectionVisible>
+	</model>
+	<ambientLight>
+		<colour>	20.000000 16.000000 25.000011	</colour>
+		<multiplier>	3.000000	</multiplier>
+	</ambientLight>
+	<model>
+		<resource>	sets/temperate/props/fd_s_rock_smooth_medium.model	</resource>
+		<transform>
+			<row0>	3.094867 0.000000 0.569214	</row0>
+			<row1>	0.279850 2.740202 -1.521571	</row1>
+			<row2>	-0.495670 1.547093 2.694999	</row2>
+			<row3>	42.499996 12.079999 100.759987	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<resource>	sets/temperate/props/fd_rock_sharp_medium.model	</resource>
+		<transform>
+			<row0>	1.759508 -1.071660 -0.225834	</row0>
+			<row1>	1.095197 1.721694 0.362823	</row1>
+			<row2>	-0.000003 -0.427366 2.027974	</row2>
+			<row3>	52.509987 15.589995 96.529968	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	true	</reflectionVisible>
+	</model>
+	<overlapper>	00am000di	</overlapper>
+	<overlapper>	00am000ci	</overlapper>
+	<overlapper>	00am000bi	</overlapper>
+	<overlapper>	00am000ai	</overlapper>
+	<model>
+		<resource>	sets/temperate/props/fd_rock_sharp_medium.model	</resource>
+		<transform>
+			<row0>	-0.005767 -0.619385 1.342235	</row0>
+			<row1>	-0.568305 1.200137 0.572916	</row1>
+			<row2>	-1.254153 -0.540980 -0.265782	</row2>
+			<row3>	54.579987 14.479997 98.889977	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<resource>	sets/temperate/props/fd_rock_sharp_high.model	</resource>
+		<transform>
+			<row0>	0.965926 0.000000 -0.258819	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.258819 0.000000 0.965926	</row2>
+			<row3>	57.449986 9.999997 98.719978	</row3>
+		</transform>
+		<editorOnly>
+			<outsideOnly>	true	</outsideOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	true	</reflectionVisible>
+	</model>
+	<model>
+		<resource>	sets/temperate/props/fd_rock_sharp_medium.model	</resource>
+		<transform>
+			<row0>	1.863702 -0.408800 1.101590	</row0>
+			<row1>	0.472042 2.152017 0.000000	</row1>
+			<row2>	-1.076009 0.236021 1.908010	</row2>
+			<row3>	56.619995 12.549999 97.409988	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<worldNavmesh>
+		<resource>	fffffffeo.cdata/worldNavmesh	</resource>
+	</worldNavmesh>
+</fffffffeo.chunk>

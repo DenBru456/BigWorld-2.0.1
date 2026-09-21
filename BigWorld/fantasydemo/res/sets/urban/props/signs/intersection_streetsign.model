@@ -1,0 +1,15 @@
+<intersection_streetsign.model>
+	<nodelessVisual>	sets/urban/props/signs/intersection_streetsign	</nodelessVisual>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-0.406733 -0.011953 -0.417540	</min>
+		<max>	0.416459 0.005292 0.405651	</max>
+	</visibilityBox>
+	<extent>	150.000000	</extent>
+	<batched>	false	</batched>
+	<metaData>
+		<copyright>	Copyright BigWorld Pty Ltd.  Use freely in any BigWorld licensed game.	</copyright>
+		<modified_by>	adamm	</modified_by>
+		<modified_on>	1254378942	</modified_on>
+	</metaData>
+</intersection_streetsign.model>

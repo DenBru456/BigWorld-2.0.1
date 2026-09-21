@@ -1,0 +1,101 @@
+<root>
+	<shell>
+		<resource>	sets/urban/shells/facility_bend_exit.model	</resource>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<reflectionVisible>	true	</reflectionVisible>
+		<metaData>	</metaData>
+		<staticLighting>
+			<offset>	0	</offset>
+			<size>	1076	</size>
+		</staticLighting>
+	</shell>
+	<ambientLight>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<colour>	22.000000 36.000000 37.000000	</colour>
+		<multiplier>	1.000000	</multiplier>
+	</ambientLight>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<resource>	sets/urban/props/lightpanel/models/facility_lightpanel.model	</resource>
+		<transform>
+			<row0>	0.000000 0.000000 -0.999999	</row0>
+			<row1>	0.000000 -0.999999 0.000000	</row1>
+			<row2>	-0.999999 0.000000 -0.000000	</row2>
+			<row3>	-2.088786 3.085000 -26.823311	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<metaData>	</metaData>
+		<staticLighting>
+			<offset>	1076	</offset>
+			<size>	732	</size>
+		</staticLighting>
+	</model>
+	<vlo>
+		<uid>	b9134a0a.45b444c7.b06b7989.f3527e5b	</uid>
+		<type>	water	</type>
+	</vlo>
+	<flare>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>
+			<modified_by>	adamm	</modified_by>
+			<modified_on>	1250639380	</modified_on>
+		</metaData>
+		<resource>	environments/fx/corona.xml	</resource>
+		<position>	-1.715973 2.924788 -26.495106	</position>
+		<maxDistance>	150.000000	</maxDistance>
+		<area>	1.000000	</area>
+		<fadeSpeed>	1.000000	</fadeSpeed>
+		<colour>	198.000015 221.000015 216.000015	</colour>
+	</flare>
+	<omniLight>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>
+			<modified_by>	adamm	</modified_by>
+			<modified_on>	1250639380	</modified_on>
+		</metaData>
+		<colour>	140.000000 217.000198 196.000198	</colour>
+		<position>	-1.827858 2.653013 -26.520527	</position>
+		<innerRadius>	0.155167	</innerRadius>
+		<outerRadius>	6.252064	</outerRadius>
+		<dynamic>	false	</dynamic>
+		<static>	true	</static>
+		<specular>	false	</specular>
+		<multiplier>	1.000000	</multiplier>
+	</omniLight>
+	<worldNavmesh>
+		<resource>	00am000ai.cdata/worldNavmesh	</resource>
+	</worldNavmesh>
+	<transform>
+		<row0>	0.000000 0.000000 1.000000	</row0>
+		<row1>	0.000000 1.000000 0.000000	</row1>
+		<row2>	-1.000000 0.000000 0.000000	</row2>
+		<row3>	42.016075 0.498379 -113.987312	</row3>
+	</transform>
+	<boundingBox>
+		<min>	66.016068 0.445887 -118.287308	</min>
+		<max>	72.016068 52.998325 -114.287308	</max>
+	</boundingBox>
+</root>

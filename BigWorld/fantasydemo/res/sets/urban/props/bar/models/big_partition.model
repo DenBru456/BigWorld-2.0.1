@@ -1,0 +1,15 @@
+<big_partition.model>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-2.003227 -0.024275 -0.035221	</min>
+		<max>	2.003228 5.090675 0.035249	</max>
+	</visibilityBox>
+	<batched>	true	</batched>
+	<nodelessVisual>	sets/urban/props/bar/models/big_partition	</nodelessVisual>
+	<extent>	50.000000	</extent>
+	<metaData>
+		<copyright>	Copyright BigWorld Pty Ltd.  Use freely in any BigWorld licensed game.	</copyright>
+		<modified_by>	AdamM	</modified_by>
+		<modified_on>	1281674473	</modified_on>
+	</metaData>
+</big_partition.model>

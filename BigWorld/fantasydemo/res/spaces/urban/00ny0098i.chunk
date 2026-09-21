@@ -1,0 +1,53 @@
+<root>
+	<shell>
+		<resource>	sets/urban/shells/office_straight_with_doors_b.model	</resource>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<reflectionVisible>	true	</reflectionVisible>
+		<metaData>	</metaData>
+		<staticLighting>
+			<offset>	0	</offset>
+			<size>	1224	</size>
+		</staticLighting>
+	</shell>
+	<omniLight>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>
+			<modified_by>	adamm	</modified_by>
+			<modified_on>	1250639376	</modified_on>
+		</metaData>
+		<colour>	237.000122 187.000000 112.000061	</colour>
+		<position>	-7.831539 0.852459 0.796280	</position>
+		<innerRadius>	0.760674	</innerRadius>
+		<outerRadius>	5.876733	</outerRadius>
+		<dynamic>	false	</dynamic>
+		<static>	true	</static>
+		<specular>	false	</specular>
+		<multiplier>	1.520000	</multiplier>
+	</omniLight>
+	<worldNavmesh>
+		<resource>	00ny0098i.cdata/worldNavmesh	</resource>
+	</worldNavmesh>
+	<transform>
+		<row0>	0.000000 0.000000 -1.000000	</row0>
+		<row1>	0.000000 1.000000 0.000000	</row1>
+		<row2>	1.000000 0.000000 0.000000	</row2>
+		<row3>	89.499939 0.499999 -60.999992	</row3>
+	</transform>
+	<boundingBox>
+		<min>	89.499931 0.499429 -60.999989	</min>
+		<max>	93.499931 41.253563 -44.999989	</max>
+	</boundingBox>
+</root>

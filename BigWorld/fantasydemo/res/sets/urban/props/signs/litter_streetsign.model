@@ -1,0 +1,15 @@
+<litter_streetsign.model>
+	<nodelessVisual>	sets/urban/props/signs/litter_streetsign	</nodelessVisual>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-0.152469 -0.008072 -0.193195	</min>
+		<max>	0.172511 0.009173 0.163687	</max>
+	</visibilityBox>
+	<extent>	101.000000	</extent>
+	<batched>	false	</batched>
+	<metaData>
+		<copyright>	Copyright BigWorld Pty Ltd.  Use freely in any BigWorld licensed game.	</copyright>
+		<modified_by>	adamm	</modified_by>
+		<modified_on>	1254379040	</modified_on>
+	</metaData>
+</litter_streetsign.model>

@@ -1,0 +1,15 @@
+<wong_streetsign.model>
+	<nodelessVisual>	sets/urban/props/signs/wong_streetsign	</nodelessVisual>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-0.008060 0.000671 -0.106607	</min>
+		<max>	0.009185 0.892166 0.106607	</max>
+	</visibilityBox>
+	<extent>	50.000000	</extent>
+	<batched>	false	</batched>
+	<metaData>
+		<copyright>	Copyright BigWorld Pty Ltd.  Use freely in any BigWorld licensed game.	</copyright>
+		<modified_by>	adamm	</modified_by>
+		<modified_on>	1254381123	</modified_on>
+	</metaData>
+</wong_streetsign.model>

@@ -1,0 +1,15 @@
+<facility_lightpanel.model>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-0.700000 0.000000 -0.700000	</min>
+		<max>	0.000000 0.150000 0.000000	</max>
+	</visibilityBox>
+	<nodelessVisual>	sets/urban/props/lightpanel/models/facility_lightpanel	</nodelessVisual>
+	<batched>	false	</batched>
+	<extent>	30.000000	</extent>
+	<metaData>
+		<copyright>	Copyright BigWorld Pty Ltd.  Use freely in any BigWorld licensed game.	</copyright>
+		<modified_by>	AdamM	</modified_by>
+		<modified_on>	1281674661	</modified_on>
+	</metaData>
+</facility_lightpanel.model>

@@ -1,0 +1,14 @@
+<ceiling_lamp.model>
+	<nodelessVisual>	sets/urban/props/bar/models/ceiling_lamp	</nodelessVisual>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-0.210546 -0.027516 -0.200241	</min>
+		<max>	0.210546 1.392340 0.200241	</max>
+	</visibilityBox>
+	<extent>	25.000000	</extent>
+	<metaData>
+		<copyright>	Copyright BigWorld Pty Ltd.  Use freely in any BigWorld licensed game.	</copyright>
+		<modified_by>	AdamM	</modified_by>
+		<modified_on>	1281674561	</modified_on>
+	</metaData>
+</ceiling_lamp.model>

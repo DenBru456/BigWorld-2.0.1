@@ -1,0 +1,13 @@
+<facility_t.model>
+	<nodelessVisual>	sets/urban/shells/facility_t	</nodelessVisual>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-4.000000 0.000000 -0.004683	</min>
+		<max>	0.001428 3.000000 4.018734	</max>
+	</visibilityBox>
+	<metaData>
+		<copyright>	Copyright BigWorld Pty Ltd.  Use freely in any BigWorld licensed game.	</copyright>
+		<modified_by>	AdamM	</modified_by>
+		<modified_on>	1281673552	</modified_on>
+	</metaData>
+</facility_t.model>

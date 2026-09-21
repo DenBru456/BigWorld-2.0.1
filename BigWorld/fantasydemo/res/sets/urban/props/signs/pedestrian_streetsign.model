@@ -1,0 +1,15 @@
+<pedestrian_streetsign.model>
+	<nodelessVisual>	sets/urban/props/signs/pedestrian_streetsign	</nodelessVisual>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-0.332940 -0.001384 -0.363502	</min>
+		<max>	0.332941 0.015861 0.338641	</max>
+	</visibilityBox>
+	<extent>	153.000000	</extent>
+	<batched>	false	</batched>
+	<metaData>
+		<copyright>	Copyright BigWorld Pty Ltd.  Use freely in any BigWorld licensed game.	</copyright>
+		<modified_by>	adamm	</modified_by>
+		<modified_on>	1254379702	</modified_on>
+	</metaData>
+</pedestrian_streetsign.model>

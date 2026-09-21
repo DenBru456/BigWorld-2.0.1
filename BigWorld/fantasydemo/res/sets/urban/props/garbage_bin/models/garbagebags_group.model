@@ -1,0 +1,15 @@
+<garbagebags_group.model>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-0.006851 -0.000427 -0.010389	</min>
+		<max>	0.009099 0.011668 0.006792	</max>
+	</visibilityBox>
+	<nodelessVisual>	sets/urban/props/garbage_bin/models/garbagebags_group	</nodelessVisual>
+	<extent>	70.000000	</extent>
+	<batched>	false	</batched>
+	<metaData>
+		<copyright>	Copyright BigWorld Pty Ltd.  Use freely in any BigWorld licensed game.	</copyright>
+		<modified_by>	adamm	</modified_by>
+		<modified_on>	1254378431	</modified_on>
+	</metaData>
+</garbagebags_group.model>

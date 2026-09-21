@@ -1,0 +1,307 @@
+<root>
+	<detailLevel>
+		<contains> _gradient </contains>
+		<format> A8R8G8B8 </format>
+	</detailLevel>
+	<detailLevel>
+		<!-- Flora textures have strict size and format regulations.
+			Do not change the format or reduceDim values -->
+		<contains> flora	</contains>
+		<format>   DXT3		</format>
+		<reduceDim>	0	</reduceDim>
+	</detailLevel>
+	
+	<detailLevel>
+		<prefix>	speedtree	</prefix>
+		<contains>	_normal	</contains>
+		<!-- Note: these capitalised contains flags should not be needed... but the
+			speedtree assets are bjorked at the moment.. so until they are fixed...
+			here they are -->
+		<contains>	_Normal	</contains>
+		<format>	DXT5	</format>
+		<lodMode>	0	</lodMode>
+		<noFilter>	true	</noFilter>
+	</detailLevel>
+	
+	<detailLevel>
+		<prefix>	speedtree	</prefix>
+		<contains>	composite	</contains>
+		<contains>	Composite	</contains>
+		<format>	DXT3	</format>
+		<mipCount>	20	</mipCount>
+		<horizontalMips>	true	</horizontalMips>
+		<lodMode>0</lodMode>
+	</detailLevel>
+	
+
+	<detailLevel>
+		<prefix>system/maps</prefix>
+		<contains> _cloud </contains>
+		<format> A8R8G8B8 </format>
+		<lodMode>1</lodMode>
+	</detailLevel>
+	<detailLevel>
+		<prefix>characters/avatars/ranger</prefix>
+		<contains> norms </contains>
+		<contains> normals </contains>
+		<format> A8R8G8B8 </format>
+		<lodMode>1</lodMode>
+	</detailLevel>
+	<detailLevel>
+		<prefix>characters/avatars/ranger</prefix>
+		<postfix> bmp </postfix>
+		<format> X8R8G8B8 </format>
+		<formatCompressed>   DXT1		</formatCompressed>
+		<lodMode>1</lodMode>
+	</detailLevel>
+	<detailLevel>
+		<prefix>characters/avatars/ranger</prefix>
+		<postfix> tga </postfix>
+		<format> A8R8G8B8 </format>
+		<formatCompressed>   DXT5		</formatCompressed>
+		<lodMode>1</lodMode>
+	</detailLevel>
+	<detailLevel>
+		<prefix>characters/avatars/ranger</prefix>
+		<format> A8R8G8B8 </format>
+		<formatCompressed>   DXT1		</formatCompressed>
+		<lodMode>1</lodMode>
+	</detailLevel>
+
+	<detailLevel>
+		<prefix>characters/npc/chicken</prefix>
+		<contains> norms </contains>
+		<contains> normals </contains>
+		<format> A8R8G8B8 </format>
+		<lodMode>1</lodMode>
+	</detailLevel>
+	<detailLevel>
+		<prefix>characters/npc/chicken</prefix>
+		<postfix> bmp </postfix>
+		<format> DXT1 </format>
+		<lodMode>1</lodMode>
+	</detailLevel>
+	<detailLevel>
+		<prefix>characters/npc/chicken</prefix>
+		<postfix> tga </postfix>
+		<format> DXT3 </format>
+		<lodMode>1</lodMode>
+	</detailLevel>
+	<detailLevel>
+		<prefix>characters/npc/chicken</prefix>
+		<format> DXT1 </format>
+		<lodMode>1</lodMode>
+	</detailLevel>
+
+	<detailLevel>
+		<prefix>maps/landscape</prefix>
+		<contains> norms </contains>
+		<contains> normals </contains>
+		<format> A8R8G8B8 </format>
+		<lodMode>1</lodMode>
+	</detailLevel>
+	<detailLevel>
+		<prefix>maps/landscape</prefix>
+		<postfix> bmp </postfix>
+		<format> DXT1 </format>
+		<lodMode>1</lodMode>
+	</detailLevel>
+	<detailLevel>
+		<prefix>maps/landscape</prefix>
+		<postfix> tga </postfix>
+		<format> DXT3 </format>
+		<lodMode>1</lodMode>
+	</detailLevel>
+	<detailLevel>
+		<prefix>maps/landscape</prefix>
+		<format> DXT1 </format>
+		<lodMode>1</lodMode>
+	</detailLevel>
+
+	<detailLevel>
+		<prefix>sets/temperate/props</prefix>
+		<contains> norms </contains>
+		<contains> normals </contains>
+		<format> A8R8G8B8 </format>
+		<lodMode>1</lodMode>
+	</detailLevel>
+	<detailLevel>
+		<prefix>sets/temperate/props</prefix>
+		<postfix> bmp </postfix>
+		<format> DXT1 </format>
+		<lodMode>1</lodMode>
+	</detailLevel>
+	<detailLevel>
+		<prefix>sets/temperate/props</prefix>
+		<postfix> tga </postfix>
+		<format> DXT3 </format>
+		<lodMode>1</lodMode>
+	</detailLevel>
+	<detailLevel>
+		<prefix>sets/temperate/props</prefix>
+		<format> DXT1 </format>
+		<lodMode>1</lodMode>
+	</detailLevel>
+
+	<detailLevel>
+		<prefix>sets/town/props</prefix>
+		<contains> norms </contains>
+		<contains> normals </contains>
+		<format> A8R8G8B8 </format>
+		<lodMode>1</lodMode>
+	</detailLevel>
+	<detailLevel>
+		<prefix>sets/town/props</prefix>
+		<postfix> bmp </postfix>
+		<format> DXT1 </format>
+		<lodMode>1</lodMode>
+	</detailLevel>
+	<detailLevel>
+		<prefix>sets/town/props</prefix>
+		<postfix> tga </postfix>
+		<format> DXT3 </format>
+		<lodMode>1</lodMode>
+	</detailLevel>
+	<detailLevel>
+		<prefix>sets/town/props</prefix>
+		<format> DXT1 </format>
+		<lodMode>1</lodMode>
+	</detailLevel>
+
+	<detailLevel>
+		<prefix>sets/dungeon/props</prefix>
+		<contains> dragon_ </contains>
+		<contains> norms </contains>
+		<contains> normals </contains>
+		<format> A8R8G8B8 </format>
+		<lodMode>1</lodMode>
+	</detailLevel>
+	<detailLevel>
+		<prefix>sets/dungeon/props</prefix>
+		<contains> dragon_ </contains>
+		<postfix> bmp </postfix>
+		<format> DXT1 </format>
+		<lodMode>1</lodMode>
+	</detailLevel>
+	<detailLevel>
+		<prefix>sets/dungeon/props</prefix>
+		<contains> dragon_ </contains>
+		<postfix> tga </postfix>
+		<format> DXT3 </format>
+		<lodMode>1</lodMode>
+	</detailLevel>
+	<detailLevel>
+		<prefix>sets/dungeon/props</prefix>
+		<contains> dragon_ </contains>
+		<format> DXT1 </format>
+		<lodMode>1</lodMode>
+	</detailLevel>
+
+	<detailLevel>
+		<prefix>sets/dungeon/props</prefix>
+		<contains> norms </contains>
+		<contains> normals </contains>
+		<format> A8R8G8B8 </format>
+		<lodMode>1</lodMode>
+	</detailLevel>
+	<detailLevel>
+		<prefix>sets/dungeon/props</prefix>
+		<postfix> bmp </postfix>
+		<format> DXT1 </format>
+		<lodMode>1</lodMode>
+	</detailLevel>
+	<detailLevel>
+		<prefix>sets/dungeon/props</prefix>
+		<postfix> tga </postfix>
+		<format> DXT3 </format>
+		<lodMode>1</lodMode>
+	</detailLevel>
+	<detailLevel>
+		<prefix>sets/dungeon/props</prefix>
+		<format> DXT1 </format>
+		<lodMode>1</lodMode>
+	</detailLevel>
+
+	<detailLevel>
+		<prefix>sets/dungeon/maps</prefix>
+		<contains> norms </contains>
+		<contains> normals </contains>
+		<format> A8R8G8B8 </format>
+		<lodMode>1</lodMode>
+	</detailLevel>
+	<detailLevel>
+		<prefix>sets/dungeon/maps</prefix>
+		<postfix> bmp </postfix>
+		<format> DXT1 </format>
+		<lodMode>1</lodMode>
+	</detailLevel>
+	<detailLevel>
+		<prefix>sets/dungeon/maps</prefix>
+		<postfix> tga </postfix>
+		<format> DXT3 </format>
+		<lodMode>1</lodMode>
+	</detailLevel>
+	<detailLevel>
+		<prefix>sets/dungeon/maps</prefix>
+		<format> DXT1 </format>
+		<lodMode>1</lodMode>
+	</detailLevel>
+
+	<detailLevel>
+		<prefix>gui</prefix>
+		<postfix> bmp </postfix>
+		<format> DXT1 </format>
+		<lodMode>0</lodMode>
+	</detailLevel>
+	<detailLevel>
+		<prefix>gui</prefix>
+		<postfix> tga </postfix>
+		<format> DXT5 </format>
+		<lodMode>0</lodMode>
+	</detailLevel>
+	<detailLevel>
+		<prefix>gui</prefix>
+		<format> DXT1 </format>
+		<lodMode>0</lodMode>
+	</detailLevel>
+
+	<detailLevel>
+		<prefix>system/fonts</prefix>
+		<postfix> bmp </postfix>
+		<format> DXT1 </format>
+		<lodMode>0</lodMode>
+	</detailLevel>
+	<detailLevel>
+		<prefix>system/fonts</prefix>
+		<postfix> tga </postfix>
+		<format> DXT3 </format>
+		<lodMode>0</lodMode>
+	</detailLevel>
+	<detailLevel>
+		<prefix>system/fonts</prefix>
+		<format> DXT1 </format>
+		<lodMode>0</lodMode>
+	</detailLevel>
+
+	<detailLevel>
+		<contains> norms </contains>
+		<contains> normals </contains>
+		<contains> Normals </contains>
+		<format> A8R8G8B8 </format>
+		<lodMode>1</lodMode>
+	</detailLevel>
+	<detailLevel>
+		<postfix> bmp </postfix>
+		<format> DXT1 </format>
+		<lodMode>1</lodMode>
+	</detailLevel>
+	<detailLevel>
+		<postfix> tga </postfix>
+		<format> DXT3 </format>
+		<lodMode>1</lodMode>
+	</detailLevel>
+	<detailLevel>
+		<format> DXT1 </format>
+		<lodMode>1</lodMode>
+	</detailLevel>
+</root>

@@ -1,0 +1,333 @@
+<fffefffeo.chunk>
+	<worldNavmesh>
+		<resource>	fffefffeo.cdata/worldNavmesh	</resource>
+	</worldNavmesh>
+	<model>
+		<resource>	sets/minspec/props/tree/model/tree_mid.model	</resource>
+		<transform>
+			<row0>	0.004791 0.000000 0.988382	</row0>
+			<row1>	0.000000 0.988394 0.000000	</row1>
+			<row2>	-0.988382 0.000000 0.004791	</row2>
+			<row3>	40.096512 196.284668 42.245758	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<resource>	sets/minspec/props/tree_fallen/model/tree_fallen.model	</resource>
+		<transform>
+			<row0>	0.972944 -0.712682 -1.584980	</row0>
+			<row1>	0.000000 1.816475 -0.816774	</row1>
+			<row2>	1.737837 0.399002 0.887365	</row2>
+			<row3>	97.826042 198.332336 33.139893	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<resource>	sets/minspec/props/tree/model/tree_mid.model	</resource>
+		<transform>
+			<row0>	0.006303 0.000444 1.303468	</row0>
+			<row1>	-0.091642 1.300259 0.000000	</row1>
+			<row2>	-1.300243 -0.091641 0.006318	</row2>
+			<row3>	93.396454 190.495239 48.952759	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<particles>
+		<resource>	particles/fireflies.xml	</resource>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	37.687241 203.628647 43.495010	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</particles>
+	<particles>
+		<resource>	sets/minspec/particles/m_spec_bluefire_bridge.xml	</resource>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	50.621765 200.616913 54.815018	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</particles>
+	<particles>
+		<resource>	sets/minspec/particles/m_spec_bluefire_bridge.xml	</resource>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	48.349991 200.615540 43.819992	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</particles>
+	<particles>
+		<resource>	sets/minspec/particles/m_spec_bluefire_bridge.xml	</resource>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	94.779976 200.598907 34.259995	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</particles>
+	<particles>
+		<resource>	sets/minspec/particles/m_spec_bluefire_bridge.xml	</resource>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	96.959984 200.606720 45.209991	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</particles>
+	<model>
+		<resource>	sets/minspec/props/rock_large/models/rock_large.model	</resource>
+		<transform>
+			<row0>	-0.795692 0.040978 0.679957	</row0>
+			<row1>	0.070603 1.044882 0.019649	</row1>
+			<row2>	-0.677522 0.060759 -0.796504	</row2>
+			<row3>	50.917175 195.219269 37.564896	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<resource>	sets/minspec/props/rock_large/models/rock_large.model	</resource>
+		<transform>
+			<row0>	-0.900292 -0.523208 -0.113454	</row0>
+			<row1>	-0.514680 0.784741 0.465222	</row1>
+			<row2>	-0.147383 0.455611 -0.931578	</row2>
+			<row3>	89.051018 187.336624 43.619415	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<resource>	sets/minspec/props/rock_large/models/rock_large.model	</resource>
+		<transform>
+			<row0>	-1.031707 0.030757 0.178266	</row0>
+			<row1>	0.104897 0.942666 0.444438	</row1>
+			<row2>	-0.147382 0.455611 -0.931579	</row2>
+			<row3>	56.652054 184.247650 49.928955	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<resource>	sets/minspec/props/rock_large/models/rock_large.model	</resource>
+		<transform>
+			<row0>	0.694336 -0.032181 -0.783587	</row0>
+			<row1>	0.070601 1.044882 0.019649	</row1>
+			<row2>	0.781063 -0.065840 0.694804	</row2>
+			<row3>	87.429993 120.339989 69.959991	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<resource>	sets/minspec/props/rock_medium/model/rock_medium.model	</resource>
+		<transform>
+			<row0>	-1.483778 0.184831 0.015090	</row0>
+			<row1>	0.184618 1.460759 0.260936	</row1>
+			<row2>	0.017512 0.260784 -1.472301	</row2>
+			<row3>	44.686310 195.774307 39.409409	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<resource>	sets/minspec/props/rock_medium/model/rock_medium.model	</resource>
+		<transform>
+			<row0>	1.393604 0.818732 -1.726562	</row0>
+			<row1>	-0.451160 2.217527 0.687391	</row1>
+			<row2>	1.856821 -0.075684 1.462855	</row2>
+			<row3>	82.349991 144.099976 46.139999	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<resource>	sets/minspec/props/rock_medium/model/rock_medium.model	</resource>
+		<transform>
+			<row0>	1.452497 0.343376 -0.091305	</row0>
+			<row1>	-0.319674 1.430666 0.294955	</row1>
+			<row2>	0.155088 -0.266988 1.463097	</row2>
+			<row3>	84.119987 129.059982 61.720001	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<resource>	sets/minspec/props/rock_medium/model/rock_medium.model	</resource>
+		<transform>
+			<row0>	0.457739 0.262326 -1.072171	</row0>
+			<row1>	0.365200 1.059345 0.415102	</row1>
+			<row2>	1.041631 -0.486689 0.325624	</row2>
+			<row3>	94.140556 124.704094 67.856613	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<resource>	sets/minspec/props/bridge/models/bridge.model	</resource>
+		<transform>
+			<row0>	0.260970 0.000000 1.268092	</row0>
+			<row1>	0.000000 1.243465 0.000000	</row1>
+			<row2>	-1.268092 0.000000 0.260970	</row2>
+			<row3>	72.669991 191.819977 44.589996	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<terrain>
+		<resource>	fffefffeo.cdata/terrain	</resource>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>	</metaData>
+	</terrain>
+	<vlo>
+		<uid>	ed050d0c.4e047eff.772d4987.72100cf0	</uid>
+		<type>	water	</type>
+	</vlo>
+	<entity>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>	</metaData>
+		<guid>	93B85EC6.43746E44.9D60D99F.320F6779	</guid>
+		<type>	Landmark	</type>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	73.519997 196.966507 43.529999	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<radius>	59.697414	</radius>
+			<description>	Waterfall	</description>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+		<backLinks>	</backLinks>
+	</entity>
+	<entity>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>	</metaData>
+		<guid>	CFF7B85B.4F9F5006.9812C3BD.A1EDCF6F	</guid>
+		<type>	Guard	</type>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	36.942871 196.629852 53.675186	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<initialPatrolNode>
+				<guid>	80A728D9.4637C722.B2B68DA8.93EB54B5	</guid>
+				<chunkId>	fffefffeo	</chunkId>
+			</initialPatrolNode>
+			<guardType>	2	</guardType>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+		<backLinks>	</backLinks>
+	</entity>
+	<UserDataObject>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>	</metaData>
+		<type>	CameraNode	</type>
+		<Domain>	4	</Domain>
+		<transform>
+			<row0>	-0.856194 0.150247 -0.494324	</row0>
+			<row1>	0.130118 0.988648 0.075124	</row1>
+			<row2>	0.500000 0.000000 -0.866025	</row2>
+			<row3>	47.467926 204.357742 71.282822	</row3>
+		</transform>
+		<guid>	11E37102.4DF046E1.87A3DC9A.B7C0AB0B	</guid>
+		<properties>
+			<next>
+				<guid>	A16A4B33.47647AB7.AECD4FA5.8EAF2D0D	</guid>
+				<chunkId>	fffffffeo	</chunkId>
+			</next>
+		</properties>
+		<backLinks>
+			<link>
+				<guid>	8087A913.45BE6025.E109388E.19046E16	</guid>
+				<chunkId>	fffdffffo	</chunkId>
+			</link>
+		</backLinks>
+	</UserDataObject>
+	<UserDataObject>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>	</metaData>
+		<type>	PatrolNode	</type>
+		<Domain>	2	</Domain>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	27.597900 196.730347 52.446411	</row3>
+		</transform>
+		<guid>	80A728D9.4637C722.B2B68DA8.93EB54B5	</guid>
+		<properties>
+			<patrolLinks>
+				<item>
+					<guid>	E78E4B8C.4E6550F9.CC49BD84.C75BBC55	</guid>
+					<chunkId>	fffdfffeo	</chunkId>
+				</item>
+			</patrolLinks>
+			<radius>	4.653823	</radius>
+		</properties>
+		<backLinks>
+			<link>
+				<guid>	0F24CDE1.40E4C9E5.9AD40093.A19F2EF7	</guid>
+				<chunkId>	fffffffeo	</chunkId>
+			</link>
+			<link>
+				<guid>	CFF7B85B.4F9F5006.9812C3BD.A1EDCF6F	</guid>
+				<chunkId>	fffefffeo	</chunkId>
+			</link>
+		</backLinks>
+	</UserDataObject>
+</fffefffeo.chunk>

@@ -1,0 +1,13 @@
+<root>
+	<worldNavmesh>
+		<resource>	000b0007o.cdata/worldNavmesh	</resource>
+	</worldNavmesh>
+	<terrain>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>	</metaData>
+		<resource>	000b0007o.cdata/terrain2	</resource>
+	</terrain>
+</root>

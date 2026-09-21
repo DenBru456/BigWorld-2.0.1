@@ -1,0 +1,122 @@
+<fffe0003o.chunk>
+	<terrain>
+		<resource>	fffe0003o.cdata/terrain	</resource>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>	</metaData>
+	</terrain>
+	<worldNavmesh>
+		<resource>	fffe0003o.cdata/worldNavmesh	</resource>
+	</worldNavmesh>
+	<model>
+		<resource>	sets/minspec/props/rock_large/models/rock_large.model	</resource>
+		<transform>
+			<row0>	1.551613 -0.576969 2.421313	</row0>
+			<row1>	0.138276 2.868801 0.594990	</row1>
+			<row2>	-2.485262 -0.200599 1.544794	</row2>
+			<row3>	8.233337 95.788605 93.555573	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<reflectionVisible>	true	</reflectionVisible>
+		<lighting>	lighting/rock_large-0	</lighting>
+	</model>
+	<vlo>
+		<uid>	ed050d0c.4e047eff.772d4987.72100cf0	</uid>
+		<type>	water	</type>
+	</vlo>
+	<UserDataObject>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>	</metaData>
+		<type>	PatrolNode	</type>
+		<Domain>	2	</Domain>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	4.169266 111.971664 65.295349	</row3>
+		</transform>
+		<guid>	FD1198A3.433A5B86.7B3BDEAB.74AE89AA	</guid>
+		<properties>
+			<patrolLinks>
+				<item>
+					<guid>	09756E52.45846AC3.0513B08A.55F4324B	</guid>
+					<chunkId>	fffd0004o	</chunkId>
+				</item>
+			</patrolLinks>
+			<radius>	12.248992	</radius>
+		</properties>
+		<backLinks>
+			<link>
+				<guid>	30CD6993.43B28856.D839AA9E.498F4576	</guid>
+				<chunkId>	fffe0002o	</chunkId>
+			</link>
+		</backLinks>
+	</UserDataObject>
+	<UserDataObject>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>	</metaData>
+		<type>	PlatformNode	</type>
+		<Domain>	2	</Domain>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	82.719810 131.939804 9.107513	</row3>
+		</transform>
+		<guid>	6CCCA794.48225570.F34B97A2.9A75E36D	</guid>
+		<properties>
+			<links>
+				<item>
+					<guid>	50B7AE4E.4AD823DF.D4E0DD91.890333FE	</guid>
+					<chunkId>	00000002o	</chunkId>
+				</item>
+			</links>
+		</properties>
+		<backLinks>
+			<link>
+				<guid>	0C9A8456.4AC836DA.5E66FCB5.AA61D25D	</guid>
+				<chunkId>	fffd0003o	</chunkId>
+			</link>
+		</backLinks>
+	</UserDataObject>
+	<UserDataObject>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>	</metaData>
+		<type>	CameraNode	</type>
+		<Domain>	4	</Domain>
+		<transform>
+			<row0>	-0.941484 -0.177373 -0.286609	</row0>
+			<row1>	-0.167420 0.984113 -0.059076	</row1>
+			<row2>	0.292535 -0.007635 -0.956223	</row2>
+			<row3>	12.240250 119.472847 49.640015	</row3>
+		</transform>
+		<guid>	9F65DF4A.4907B6C6.B33B2B97.584A8FFD	</guid>
+		<properties>
+			<next>
+				<guid>	C98C56AD.47998A04.898FC783.7529D306	</guid>
+				<chunkId>	fffe0002o	</chunkId>
+			</next>
+		</properties>
+		<backLinks>
+			<link>
+				<guid>	0E06C03B.4A339509.8C6CB7A5.25350A33	</guid>
+				<chunkId>	fffd0004o	</chunkId>
+			</link>
+		</backLinks>
+	</UserDataObject>
+</fffe0003o.chunk>

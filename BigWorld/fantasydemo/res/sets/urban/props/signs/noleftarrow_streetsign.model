@@ -1,0 +1,15 @@
+<noleftarrow_streetsign.model>
+	<nodelessVisual>	sets/urban/props/signs/noleftarrow_streetsign	</nodelessVisual>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-0.009981 -0.002009 -0.378037	</min>
+		<max>	0.009600 0.786062 0.378037	</max>
+	</visibilityBox>
+	<extent>	188.000000	</extent>
+	<batched>	false	</batched>
+	<metaData>
+		<copyright>	Copyright BigWorld Pty Ltd.  Use freely in any BigWorld licensed game.	</copyright>
+		<modified_by>	adamm	</modified_by>
+		<modified_on>	1254379442	</modified_on>
+	</metaData>
+</noleftarrow_streetsign.model>

@@ -1,0 +1,24 @@
+<space.settings>
+	<timeOfDay>	sets/t_ice/environments/t_ice_sky.xml	</timeOfDay>
+	<skyGradientDome>	sets/t_ice/environments/t_ice_sky.xml	</skyGradientDome>
+	<bounds>
+		<minX>	-5	</minX>
+		<maxX>	4	</maxX>
+		<minY>	-5	</minY>
+		<maxY>	4	</maxY>
+	</bounds>
+	<startPosition>	-18.00 -14.67 -85.26	</startPosition>
+	<farPlane>	1000.000000	</farPlane>
+	<terrain>
+		<version>	100	</version>
+		<soundOcclusion>
+			<directOcclusion>	0.000000	</directOcclusion>
+			<reverbOcclusion>	0.000000	</reverbOcclusion>
+		</soundOcclusion>
+	</terrain>
+	<minimap>
+		<mapName>	spaces/arctic/space.outdoors.dds	</mapName>
+	</minimap>
+	<skyDomePartition>	0	</skyDomePartition>
+	<skyDome>	sets/t_ice/props/skybox_withmount.visual	</skyDome>
+</space.settings>

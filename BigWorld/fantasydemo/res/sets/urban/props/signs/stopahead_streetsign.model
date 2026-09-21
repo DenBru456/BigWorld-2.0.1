@@ -1,0 +1,15 @@
+<stopahead_streetsign.model>
+	<nodelessVisual>	sets/urban/props/signs/stopahead_streetsign	</nodelessVisual>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-0.417045 -0.002978 -0.417540	</min>
+		<max>	0.406147 0.014267 0.405651	</max>
+	</visibilityBox>
+	<extent>	171.000000	</extent>
+	<batched>	false	</batched>
+	<metaData>
+		<copyright>	Copyright BigWorld Pty Ltd.  Use freely in any BigWorld licensed game.	</copyright>
+		<modified_by>	adamm	</modified_by>
+		<modified_on>	1254380478	</modified_on>
+	</metaData>
+</stopahead_streetsign.model>

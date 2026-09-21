@@ -1,0 +1,113 @@
+<facility_hall.visual>
+	<node>
+		<identifier>	Scene Root	</identifier>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+	</node>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	Scene Root	</node>
+		<geometry>
+			<vertices>	vertices	</vertices>
+			<primitive>	indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	white_wall_ceiling	</identifier>
+					<fx>	shaders/std_effects/lightonly.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	diffuseMap
+						<Texture>	sets/urban/props/buildings/b_facility/maps/internet_room_ceiling03.bmp	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+			<primitiveGroup>	1
+				<material>
+					<identifier>	panel02	</identifier>
+					<fx>	shaders/std_effects/normalmap_specmap.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	specularMap
+						<Texture>	sets/urban/props/buildings/b_facility/maps/internet_room_panel02.bmp	</Texture>
+					</property>
+					<property>	normalMap
+						<Texture>	sets/urban/props/buildings/b_facility/maps/internet_room_panel_norms.bmp	</Texture>
+					</property>
+					<property>	diffuseMap
+						<Texture>	sets/urban/props/buildings/b_facility/maps/internet_room_panel02.bmp	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+			<primitiveGroup>	2
+				<material>
+					<identifier>	floor_boards	</identifier>
+					<fx>	shaders/std_effects/lightonly.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	diffuseMap
+						<Texture>	sets/urban/props/buildings/b_facility/maps/internet_room_floor01..bmp	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+			<primitiveGroup>	3
+				<material>
+					<identifier>	ceiling_trim	</identifier>
+					<fx>	shaders/std_effects/lightonly.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	diffuseMap
+						<Texture>	sets/urban/props/buildings/b_facility/maps/internet_room_ceiling.bmp	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<boundingBox>
+		<min>	-11.200000 -0.100000 -23.900000	</min>
+		<max>	-0.261310 8.000000 -4.100000	</max>
+	</boundingBox>
+	<boundary>
+		<normal>	0.000000 1.000000 0.000000	</normal>
+		<d>	-0.100000	</d>
+	</boundary>
+	<boundary>
+		<normal>	0.000000 -0.000000 -1.000000	</normal>
+		<d>	4.100000	</d>
+	</boundary>
+	<boundary>
+		<normal>	-1.000000 -0.000000 0.000000	</normal>
+		<d>	0.300000	</d>
+		<portal>
+			<uAxis>	-0.000000 1.000000 0.000000	</uAxis>
+			<point>	4.000000 22.000000 -0.000001	</point>
+			<point>	7.599999 22.000000 -0.000001	</point>
+			<point>	7.599999 6.000000 -0.000000	</point>
+			<point>	4.000000 6.000000 -0.000000	</point>
+		</portal>
+		<portal>
+			<uAxis>	0.000000 1.000000 0.000000	</uAxis>
+			<point>	0.000000 21.999994 -0.000000	</point>
+			<point>	3.599999 21.999994 -0.000000	</point>
+			<point>	3.599999 5.999999 0.000001	</point>
+			<point>	0.000000 5.999999 0.000001	</point>
+		</portal>
+	</boundary>
+	<boundary>
+		<normal>	-0.000000 0.000000 1.000000	</normal>
+		<d>	-23.899998	</d>
+	</boundary>
+	<boundary>
+		<normal>	1.000000 0.000000 0.000000	</normal>
+		<d>	-11.199999	</d>
+	</boundary>
+	<boundary>
+		<normal>	0.000000 -1.000000 0.000000	</normal>
+		<d>	-8.000000	</d>
+	</boundary>
+	<customHull>	true	</customHull>
+	<materialKind>	1	</materialKind>
+</facility_hall.visual>

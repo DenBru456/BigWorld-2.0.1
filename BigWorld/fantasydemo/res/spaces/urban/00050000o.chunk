@@ -1,0 +1,19 @@
+<root>
+	<worldNavmesh>
+		<resource>	00050000o.cdata/worldNavmesh	</resource>
+	</worldNavmesh>
+	<omniLight>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<colour>	2.000000 71.000000 83.000000	</colour>
+		<position>	5.000000 204.499954 19.999990	</position>
+		<innerRadius>	1.000000	</innerRadius>
+		<outerRadius>	100.000000	</outerRadius>
+		<dynamic>	false	</dynamic>
+		<static>	true	</static>
+		<specular>	false	</specular>
+		<multiplier>	1.250000	</multiplier>
+	</omniLight>
+</root>

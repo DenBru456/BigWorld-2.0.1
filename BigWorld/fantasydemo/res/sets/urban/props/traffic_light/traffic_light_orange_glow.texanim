@@ -1,0 +1,6 @@
+<root>
+	<frames>ab</frames>
+	<fps> 3 </fps>
+	<texture>system/maps/col_black.bmp</texture>
+	<texture>sets/urban/props/traffic_light/traffic_light_orange_glow.bmp</texture>
+</root>

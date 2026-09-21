@@ -1,0 +1,20 @@
+<hydrant.model>
+	<materialNames>
+		<material>
+			<original>	04 - Default	</original>
+			<display>	hydrant	</display>
+		</material>
+	</materialNames>
+	<visibilityBox>
+		<min>	-0.182139 0.000000 -0.169343	</min>
+		<max>	0.181872 0.710878 0.130248	</max>
+	</visibilityBox>
+	<nodelessVisual>	sets/urban/props/hydrant/hydrant	</nodelessVisual>
+	<batched>	false	</batched>
+	<extent>	50.000000	</extent>
+	<metaData>
+		<copyright>	Copyright BigWorld Pty Ltd.  Use freely in any BigWorld licensed game.	</copyright>
+		<modified_by>	adamm	</modified_by>
+		<modified_on>	1254378885	</modified_on>
+	</metaData>
+</hydrant.model>

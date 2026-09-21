@@ -1,0 +1,74 @@
+<glass.visual>
+	<node>
+		<identifier>	Scene Root	</identifier>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+	</node>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	Scene Root	</node>
+		<geometry>
+			<vertices>	vertices	</vertices>
+			<primitive>	indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	glass	</identifier>
+					<fx>	shaders/std_effects/distort.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	6	</materialKind>
+					<property>	tint
+						<Vector4>	0.945098 0.960784 0.960784 1.000000	</Vector4>
+					</property>
+					<property>	useReflection
+						<Bool>	true	</Bool>
+					</property>
+					<property>	scale
+						<Float>	0.714000	</Float>
+					</property>
+					<property>	useOverlay
+						<Bool>	false	</Bool>
+					</property>
+					<property>	useDiffuse
+						<Bool>	true	</Bool>
+					</property>
+					<property>	distortionMap
+						<Texture>	sets/urban/props/bar/maps/counter_norms.bmp	</Texture>
+					</property>
+					<property>	doubleSided
+						<Bool>	true	</Bool>
+					</property>
+					<property>	reflectionAmount
+						<Float>	1.930000	</Float>
+					</property>
+					<property>	reflectionMap
+						<Texture>	sets/shared/fx/maps/cubemap_window128.dds	</Texture>
+					</property>
+					<property>	diffuseMap
+						<Texture>	sets/urban/props/bar/maps/counter_dif_alpha.tga	</Texture>
+					</property>
+					<property>	fresnelConstant
+						<Float>	0.447000	</Float>
+					</property>
+					<property>	fresnelExp
+						<Float>	1.340000	</Float>
+					</property>
+					<property>	alphaReference
+						<Int>	0	</Int>
+					</property>
+					<property>	alphaTestEnable
+						<Bool>	false	</Bool>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<boundingBox>
+		<min>	-0.049417 0.000000 -0.049417	</min>
+		<max>	0.049417 0.102765 0.049417	</max>
+	</boundingBox>
+	<materialKind>	6	</materialKind>
+</glass.visual>

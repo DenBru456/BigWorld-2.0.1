@@ -1,0 +1,14 @@
+<watertankB01_lod01.model>
+	<nodelessVisual>	sets/urban/props/watertank/model/watertankB01_lod01	</nodelessVisual>
+	<extent>	650.000000	</extent>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-3.649494 -0.026369 -3.187373	</min>
+		<max>	3.649495 16.679003 3.187374	</max>
+	</visibilityBox>
+	<metaData>
+		<copyright>	Copyright BigWorld Pty Ltd.  Use freely in any BigWorld licensed game.	</copyright>
+		<modified_by>	AdamM	</modified_by>
+		<modified_on>	1281675201	</modified_on>
+	</metaData>
+</watertankB01_lod01.model>

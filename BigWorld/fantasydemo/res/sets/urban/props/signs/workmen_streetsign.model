@@ -1,0 +1,15 @@
+<workmen_streetsign.model>
+	<nodelessVisual>	sets/urban/props/signs/workmen_streetsign	</nodelessVisual>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-0.688776 -0.003291 -0.679575	</min>
+		<max>	0.688776 0.018152 0.354939	</max>
+	</visibilityBox>
+	<extent>	186.000000	</extent>
+	<batched>	false	</batched>
+	<metaData>
+		<copyright>	Copyright BigWorld Pty Ltd.  Use freely in any BigWorld licensed game.	</copyright>
+		<modified_by>	adamm	</modified_by>
+		<modified_on>	1254381134	</modified_on>
+	</metaData>
+</workmen_streetsign.model>

@@ -1,0 +1,15 @@
+<onewayarrow_streetsign.model>
+	<nodelessVisual>	sets/urban/props/signs/onewayarrow_streetsign	</nodelessVisual>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	0.001591 0.005336 -0.236001	</min>
+		<max>	0.018836 1.118546 0.160060	</max>
+	</visibilityBox>
+	<extent>	218.000000	</extent>
+	<batched>	false	</batched>
+	<metaData>
+		<copyright>	Copyright BigWorld Pty Ltd.  Use freely in any BigWorld licensed game.	</copyright>
+		<modified_by>	adamm	</modified_by>
+		<modified_on>	1254379601	</modified_on>
+	</metaData>
+</onewayarrow_streetsign.model>

@@ -1,0 +1,33 @@
+<root>
+	<!-- BaseApp only -->
+	<Properties>
+		<name>
+			<Type> STRING </Type>
+		</name>
+	
+		<members>
+			<Type> ARRAY <of> ENTITY_ID </of> </Type>
+			<Flags> CELL_PRIVATE </Flags>
+		</members>
+	</Properties>
+
+	<ClientMethods>
+	</ClientMethods>
+
+	<CellMethods>
+	</CellMethods>
+
+	<BaseMethods>
+		<broadcast>
+			<Arg> UNICODE_STRING </Arg> <!-- what's been said -->
+		</broadcast>
+		
+		<enter>
+			<Arg> ENTITY_ID </Arg> <!-- who's entering -->
+		</enter>
+
+		<leave>
+			<Arg> ENTITY_ID </Arg> <!-- who's leaving -->
+		</leave>
+	</BaseMethods>
+</root>

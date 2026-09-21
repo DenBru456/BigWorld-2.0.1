@@ -1,0 +1,14 @@
+<root>
+	<Properties>
+	</Properties>
+
+	<BaseMethods>
+
+		<registerForRespawn>
+			<Arg>		STRING			</Arg>	<!-- entity type -->
+			<Arg>		PYTHON			</Arg>	<!-- entity intial dictionary -->
+			<Arg>		UINT16			</Arg>	<!-- respawn interval -->
+		</registerForRespawn>
+
+	</BaseMethods>
+</root>

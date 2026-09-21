@@ -1,0 +1,270 @@
+<ffffffffo.chunk>
+	<model>
+		<resource>	sets/minspec/props/tree/model/tree.model	</resource>
+		<transform>
+			<row0>	0.091972 0.000000 0.695186	</row0>
+			<row1>	0.000000 0.701244 0.000000	</row1>
+			<row2>	-0.695186 0.000000 0.091972	</row2>
+			<row3>	0.114578 157.457321 26.689682	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<resource>	sets/minspec/props/tree/model/tree.model	</resource>
+		<transform>
+			<row0>	-0.558141 0.000000 0.211009	</row0>
+			<row1>	0.000000 0.596696 0.000000	</row1>
+			<row2>	-0.211009 0.000000 -0.558141	</row2>
+			<row3>	1.184990 163.987976 19.291412	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<resource>	sets/minspec/props/tree/model/tree.model	</resource>
+		<transform>
+			<row0>	-0.251062 0.000000 0.782376	</row0>
+			<row1>	0.000000 0.821673 0.000000	</row1>
+			<row2>	-0.782376 0.000000 -0.251062	</row2>
+			<row3>	6.535782 164.283691 23.240829	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<worldNavmesh>
+		<resource>	ffffffffo.cdata/worldNavmesh	</resource>
+	</worldNavmesh>
+	<terrain>
+		<resource>	ffffffffo.cdata/terrain	</resource>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>	</metaData>
+	</terrain>
+	<model>
+		<resource>	sets/minspec/props/rock_large/models/rock_large.model	</resource>
+		<transform>
+			<row0>	-1.212483 -0.000004 -1.584514	</row0>
+			<row1>	-0.000001 1.995193 -0.000004	</row1>
+			<row2>	1.584514 -0.000002 -1.212483	</row2>
+			<row3>	38.953979 195.296051 21.425758	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<vlo>
+		<uid>	ed050d0c.4e047eff.772d4987.72100cf0	</uid>
+		<type>	water	</type>
+	</vlo>
+	<entity>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>	</metaData>
+		<guid>	5880B615.4A33C4C4.D75BF281.E6177920	</guid>
+		<type>	MovingPlatform	</type>
+		<transform>
+			<row0>	0.999998 0.000000 0.000000	</row0>
+			<row1>	0.000000 0.999998 0.000000	</row1>
+			<row2>	0.000000 0.000000 0.999998	</row2>
+			<row3>	57.739994 195.719971 21.440002	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<platformName>	Platform2	</platformName>
+			<startNode>
+				<guid>	310655BC.4514CA21.B692BDAA.94DF91E9	</guid>
+				<chunkId>	ffffffffo	</chunkId>
+			</startNode>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+		<backLinks>	</backLinks>
+	</entity>
+	<entity>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>	</metaData>
+		<guid>	B780BE0F.4244E642.9120B9B9.73CE1924	</guid>
+		<type>	Guard	</type>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	53.075974 195.694244 20.768890	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<initialPatrolNode>
+				<guid>	8BF6E88F.4E334233.51B7CAA4.212BCA9D	</guid>
+				<chunkId>	ffffffffo	</chunkId>
+			</initialPatrolNode>
+			<guardType>	2	</guardType>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+		<backLinks>	</backLinks>
+	</entity>
+	<entity>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>	</metaData>
+		<guid>	3D21A5FA.4F3FAC6A.543B7282.5158D945	</guid>
+		<type>	Info	</type>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	72.074883 196.440414 25.493698	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<text>	Wait here for the floating platform	</text>
+			<showWhenNear>	1	</showWhenNear>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+		<backLinks>	</backLinks>
+	</entity>
+	<UserDataObject>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>	</metaData>
+		<type>	CameraNode	</type>
+		<Domain>	4	</Domain>
+		<transform>
+			<row0>	0.659874 -0.359351 -0.659872	</row0>
+			<row1>	0.254100 0.933202 -0.254099	</row1>
+			<row2>	0.707104 0.000000 0.707107	</row2>
+			<row3>	38.344612 203.174637 6.572960	</row3>
+		</transform>
+		<guid>	8552F3D0.4B66B81E.12A4CD84.14C033BB	</guid>
+		<properties>
+			<next>
+				<guid>	53047D4E.4F0996B8.D9367080.4EA0918A	</guid>
+				<chunkId>	0000ffffo	</chunkId>
+			</next>
+		</properties>
+		<backLinks>
+			<link>
+				<guid>	A16A4B33.47647AB7.AECD4FA5.8EAF2D0D	</guid>
+				<chunkId>	fffffffeo	</chunkId>
+			</link>
+		</backLinks>
+	</UserDataObject>
+	<UserDataObject>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>	</metaData>
+		<type>	PatrolNode	</type>
+		<Domain>	2	</Domain>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	45.683159 196.502899 12.778122	</row3>
+		</transform>
+		<guid>	8BF6E88F.4E334233.51B7CAA4.212BCA9D	</guid>
+		<properties>
+			<patrolLinks>
+				<item>
+					<guid>	31D39328.4F18344F.4DC5BF83.8BC40791	</guid>
+					<chunkId>	fffffffeo	</chunkId>
+				</item>
+			</patrolLinks>
+			<radius>	6.031629	</radius>
+		</properties>
+		<backLinks>
+			<link>
+				<guid>	B780BE0F.4244E642.9120B9B9.73CE1924	</guid>
+				<chunkId>	ffffffffo	</chunkId>
+			</link>
+			<link>
+				<guid>	F28C2D60.468DA3EE.3AE277BF.B6383F23	</guid>
+				<chunkId>	ffffffffo	</chunkId>
+			</link>
+		</backLinks>
+	</UserDataObject>
+	<UserDataObject>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>	</metaData>
+		<type>	PatrolNode	</type>
+		<Domain>	2	</Domain>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	89.836037 196.973602 23.669456	</row3>
+		</transform>
+		<guid>	F28C2D60.468DA3EE.3AE277BF.B6383F23	</guid>
+		<properties>
+			<patrolLinks>
+				<item>
+					<guid>	8BF6E88F.4E334233.51B7CAA4.212BCA9D	</guid>
+					<chunkId>	ffffffffo	</chunkId>
+				</item>
+			</patrolLinks>
+		</properties>
+		<backLinks>
+			<link>
+				<guid>	88FDDFED.4B6B8D77.1BC65B88.B6394522	</guid>
+				<chunkId>	0000ffffo	</chunkId>
+			</link>
+		</backLinks>
+	</UserDataObject>
+	<UserDataObject>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>	</metaData>
+		<type>	PlatformNode	</type>
+		<Domain>	2	</Domain>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	57.739994 195.719696 21.440002	</row3>
+		</transform>
+		<guid>	310655BC.4514CA21.B692BDAA.94DF91E9	</guid>
+		<properties>
+			<links>
+				<item>
+					<guid>	718BAA73.4255B1A0.15FC2A90.E417D5D4	</guid>
+					<chunkId>	fffe0000o	</chunkId>
+				</item>
+			</links>
+			<approachAcceleration>	4.000000	</approachAcceleration>
+			<waitTime>	5.000000	</waitTime>
+		</properties>
+		<backLinks>
+			<link>
+				<guid>	5880B615.4A33C4C4.D75BF281.E6177920	</guid>
+				<chunkId>	ffffffffo	</chunkId>
+			</link>
+			<link>
+				<guid>	A5DD6C3D.4DD9D577.2B66B19B.3BAF0CC4	</guid>
+				<chunkId>	00000001o	</chunkId>
+			</link>
+		</backLinks>
+	</UserDataObject>
+</ffffffffo.chunk>

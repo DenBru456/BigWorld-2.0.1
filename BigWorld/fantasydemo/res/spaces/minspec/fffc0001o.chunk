@@ -1,0 +1,117 @@
+<fffc0001o.chunk>
+	<model>
+		<resource>	sets/minspec/props/tree/model/tree.model	</resource>
+		<transform>
+			<row0>	0.946102 0.000000 0.777656	</row0>
+			<row1>	0.000000 1.224687 0.000000	</row1>
+			<row2>	-0.777656 0.000000 0.946102	</row2>
+			<row3>	35.315674 197.288391 4.445450	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<lighting>	lighting/tree-0	</lighting>
+	</model>
+	<worldNavmesh>
+		<resource>	fffc0001o.cdata/worldNavmesh	</resource>
+	</worldNavmesh>
+	<terrain>
+		<resource>	fffc0001o.cdata/terrain	</resource>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>	</metaData>
+	</terrain>
+	<vlo>
+		<uid>	ed050d0c.4e047eff.772d4987.72100cf0	</uid>
+		<type>	water	</type>
+	</vlo>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<metaData>
+			<created_by>	AdamM	</created_by>
+			<created_on>	1280190566	</created_on>
+			<modified_by>	AdamM	</modified_by>
+			<modified_on>	1280190572	</modified_on>
+		</metaData>
+		<resource>	sets/minspec/props/tree/model/tree.model	</resource>
+		<transform>
+			<row0>	-0.344752 0.000000 -1.286630	</row0>
+			<row1>	0.000000 1.332017 0.000000	</row1>
+			<row2>	1.286630 0.000000 -0.344752	</row2>
+			<row3>	1.577759 193.224579 49.911674	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<metaData>
+			<created_by>	AdamM	</created_by>
+			<created_on>	1280190566	</created_on>
+			<modified_by>	AdamM	</modified_by>
+			<modified_on>	1280190572	</modified_on>
+		</metaData>
+		<resource>	sets/minspec/props/tree/model/tree.model	</resource>
+		<transform>
+			<row0>	1.067062 -0.000001 -0.710451	</row0>
+			<row1>	0.000001 1.281935 -0.000001	</row1>
+			<row2>	0.710451 -0.000001 1.067062	</row2>
+			<row3>	7.629517 196.600555 38.731133	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<metaData>
+			<created_by>	AdamM	</created_by>
+			<created_on>	1280190583	</created_on>
+			<modified_by>	AdamM	</modified_by>
+			<modified_on>	1280190586	</modified_on>
+		</metaData>
+		<resource>	sets/minspec/props/tree/model/tree.model	</resource>
+		<transform>
+			<row0>	1.054238 0.000000 1.277199	</row0>
+			<row1>	0.000000 1.656095 0.000000	</row1>
+			<row2>	-1.277199 0.000000 1.054238	</row2>
+			<row3>	33.933136 155.426727 91.682365	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<metaData>
+			<created_by>	AdamM	</created_by>
+			<created_on>	1280190583	</created_on>
+			<modified_by>	AdamM	</modified_by>
+			<modified_on>	1280190586	</modified_on>
+		</metaData>
+		<resource>	sets/minspec/props/tree/model/tree_mid.model	</resource>
+		<transform>
+			<row0>	-0.759776 0.000001 0.969983	</row0>
+			<row1>	-0.000002 1.232122 -0.000001	</row1>
+			<row2>	-0.969983 -0.000002 -0.759776	</row2>
+			<row3>	21.956329 158.367157 91.307671	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+</fffc0001o.chunk>

@@ -1,0 +1,65 @@
+<fffe0006o.chunk>
+	<worldNavmesh>
+		<resource>	fffe0006o.cdata/worldNavmesh	</resource>
+	</worldNavmesh>
+	<terrain>
+		<resource>	fffe0006o.cdata/terrain	</resource>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>	</metaData>
+	</terrain>
+	<model>
+		<resource>	sets/minspec/props/tree/model/tree.model	</resource>
+		<transform>
+			<row0>	-0.180829 0.161777 1.638225	</row0>
+			<row1>	-0.066529 1.646013 -0.169889	</row1>
+			<row2>	-1.644848 -0.084361 -0.173230	</row2>
+			<row3>	16.356491 195.393967 59.549622	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<lighting>	lighting/tree-0	</lighting>
+	</model>
+	<model>
+		<resource>	sets/minspec/props/tree/model/tree_mid.model	</resource>
+		<transform>
+			<row0>	0.315610 0.284553 1.194956	</row0>
+			<row1>	-0.055179 1.235806 -0.279707	</row1>
+			<row2>	-1.227129 0.017616 0.319913	</row2>
+			<row3>	8.867615 195.274536 59.762451	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<lighting>	lighting/tree_mid-0	</lighting>
+	</model>
+	<model>
+		<resource>	sets/minspec/props/rock_large/models/rock_large.model	</resource>
+		<transform>
+			<row0>	-0.919250 -0.008369 0.429850	</row0>
+			<row1>	-0.051222 1.009534 -0.089883	</row1>
+			<row2>	-0.426870 -0.103114 -0.914885	</row2>
+			<row3>	57.985611 201.275452 85.548401	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<lighting>	lighting/rock_large-0	</lighting>
+	</model>
+	<vlo>
+		<uid>	ed050d0c.4e047eff.772d4987.72100cf0	</uid>
+		<type>	water	</type>
+	</vlo>
+</fffe0006o.chunk>

@@ -1,0 +1,39 @@
+<root>
+	<model>
+		<resource>	sets/town/props/wall/model/wall_straight_tower.model	</resource>
+		<transform>
+			<row0>	0.000000 0.000000 -0.999997	</row0>
+			<row1>	0.000000 0.999997 0.000000	</row1>
+			<row2>	0.999997 0.000000 0.000000	</row2>
+			<row3>	36.000000 226.999985 19.000000	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<resource>	sets/town/props/wall/model/wall_accend_01.model	</resource>
+		<transform>
+			<row0>	0.000000 0.000000 -0.999997	</row0>
+			<row1>	0.000000 0.999997 0.000000	</row1>
+			<row2>	0.999997 0.000000 0.000000	</row2>
+			<row3>	36.000000 226.999985 39.000000	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<terrain>
+		<resource>	0008fffeo.cdata/terrain2	</resource>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>	</metaData>
+	</terrain>
+	<worldNavmesh>
+		<resource>	0008fffeo.cdata/worldNavmesh	</resource>
+	</worldNavmesh>
+</root>

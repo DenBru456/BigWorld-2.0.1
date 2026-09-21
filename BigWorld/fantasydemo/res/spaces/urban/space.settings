@@ -1,0 +1,32 @@
+<space.settings>
+	<timeOfDay>	sets/urban/environments/sky_tod.xml	</timeOfDay>
+	<skyGradientDome>	sets/urban/environments/sky.xml	</skyGradientDome>
+	<bounds>
+		<minX>	-5	</minX>
+		<maxX>	3	</maxX>
+		<minY>	-4	</minY>
+		<maxY>	4	</maxY>
+	</bounds>
+	<terrain>
+		<version>	100	</version>
+		<soundOcclusion>
+			<directOcclusion>	0.000000	</directOcclusion>
+			<reverbOcclusion>	0.000000	</reverbOcclusion>
+		</soundOcclusion>
+	</terrain>
+	<farPlane>	700.000000	</farPlane>
+	<startPosition>	52.141338 2.369309 -117.588393	</startPosition>
+	<startDirection>	0.000488 0.099999 1.050157	</startDirection>
+	<skyDomePartition>	0	</skyDomePartition>
+	<staticLighting>
+		<enableOutside>	true	</enableOutside>
+		<portalDepth>	10	</portalDepth>
+	</staticLighting>
+	<flora>	environments/no_flora.xml	</flora>
+	<minimap>
+		<mapName>	spaces/urban/space.outdoors.dds	</mapName>
+		<worldMapWidth>	900.0	</worldMapWidth>
+		<worldMapHeight>	-900.0	</worldMapHeight>
+		<worldMapAnchor>	-50.0 50.0	</worldMapAnchor>
+	</minimap>
+</space.settings>

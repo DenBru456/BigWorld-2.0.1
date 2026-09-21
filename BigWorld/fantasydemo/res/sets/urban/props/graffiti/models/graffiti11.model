@@ -1,0 +1,14 @@
+<graffiti11.model>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-0.442954 0.020954 -0.555485	</min>
+		<max>	0.442954 0.030149 0.555485	</max>
+	</visibilityBox>
+	<nodelessVisual>	sets/urban/props/graffiti/models/graffiti11	</nodelessVisual>
+	<extent>	60.000000	</extent>
+	<metaData>
+		<copyright>	Copyright BigWorld Pty Ltd.  Use freely in any BigWorld licensed game.	</copyright>
+		<modified_by>	AdamM	</modified_by>
+		<modified_on>	1268889373	</modified_on>
+	</metaData>
+</graffiti11.model>

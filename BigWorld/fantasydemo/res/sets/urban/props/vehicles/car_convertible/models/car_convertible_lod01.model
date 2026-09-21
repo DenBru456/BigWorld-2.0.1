@@ -1,0 +1,14 @@
+<car_convertible_lod01.model>
+	<nodelessVisual>	sets/urban/props/vehicles/car_convertible/models/car_convertible_lod01	</nodelessVisual>
+	<extent>	250.000000	</extent>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-1.057060 -0.007382 -2.326419	</min>
+		<max>	1.074018 1.440385 2.347080	</max>
+	</visibilityBox>
+	<metaData>
+		<copyright>	Copyright owned by the3dstudio.com	</copyright>
+		<modified_by>	AdamM	</modified_by>
+		<modified_on>	1281674535	</modified_on>
+	</metaData>
+</car_convertible_lod01.model>

@@ -1,0 +1,861 @@
+<root>
+	<shell>
+		<resource>	sets/urban/shells/facility_lobby.model	</resource>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<reflectionVisible>	true	</reflectionVisible>
+		<metaData>	</metaData>
+		<staticLighting>
+			<offset>	0	</offset>
+			<size>	25320	</size>
+		</staticLighting>
+	</shell>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<resource>	sets/urban/props/signs/exit01.model	</resource>
+		<transform>
+			<row0>	-0.999999 0.000000 0.000000	</row0>
+			<row1>	0.000000 0.000000 -0.999999	</row1>
+			<row2>	0.000000 -0.999999 0.000000	</row2>
+			<row3>	-0.296951 2.798722 39.872719	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<metaData>	</metaData>
+		<staticLighting>
+			<offset>	25320	</offset>
+			<size>	432	</size>
+		</staticLighting>
+	</model>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<resource>	sets/urban/props/bench/models/facility_bench.model	</resource>
+		<transform>
+			<row0>	-0.999997 -0.000005 0.000000	</row0>
+			<row1>	-0.000005 0.999998 -0.000004	</row1>
+			<row2>	0.000000 -0.000004 -0.999997	</row2>
+			<row3>	-1.726410 -0.014450 32.672813	</row3>
+		</transform>
+		<reflectionVisible>	true	</reflectionVisible>
+		<metaData>	</metaData>
+		<staticLighting>
+			<offset>	25752	</offset>
+			<size>	9848	</size>
+		</staticLighting>
+	</model>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<resource>	sets/urban/props/planter/models/facility_planter.model	</resource>
+		<transform>
+			<row0>	0.999997 0.000005 0.000000	</row0>
+			<row1>	-0.000005 0.999996 -0.000349	</row1>
+			<row2>	0.000000 0.000349 0.999996	</row2>
+			<row3>	1.673584 -0.019858 32.672813	</row3>
+		</transform>
+		<reflectionVisible>	true	</reflectionVisible>
+		<metaData>	</metaData>
+		<staticLighting>
+			<offset>	35600	</offset>
+			<size>	2040	</size>
+		</staticLighting>
+	</model>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<resource>	sets/urban/props/planter/models/facility_planter.model	</resource>
+		<transform>
+			<row0>	0.999997 0.000005 0.000000	</row0>
+			<row1>	-0.000005 0.999998 -0.000004	</row1>
+			<row2>	0.000000 0.000004 0.999997	</row2>
+			<row3>	-2.026398 -0.015979 32.672813	</row3>
+		</transform>
+		<reflectionVisible>	true	</reflectionVisible>
+		<metaData>	</metaData>
+		<staticLighting>
+			<offset>	37640	</offset>
+			<size>	2040	</size>
+		</staticLighting>
+	</model>
+	<omniLight>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>
+			<modified_by>	adamm	</modified_by>
+			<modified_on>	1250639375	</modified_on>
+		</metaData>
+		<colour>	156.000000 201.000244 188.000000	</colour>
+		<position>	3.363083 6.592013 52.835327	</position>
+		<innerRadius>	9.294077	</innerRadius>
+		<outerRadius>	12.042819	</outerRadius>
+		<dynamic>	true	</dynamic>
+		<static>	true	</static>
+		<specular>	true	</specular>
+		<multiplier>	1.200000	</multiplier>
+	</omniLight>
+	<omniLight>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>
+			<modified_by>	adamm	</modified_by>
+			<modified_on>	1250639375	</modified_on>
+		</metaData>
+		<colour>	134.000000 223.000229 199.000229	</colour>
+		<position>	2.573746 10.709769 55.872627	</position>
+		<innerRadius>	1.000000	</innerRadius>
+		<outerRadius>	8.790561	</outerRadius>
+		<dynamic>	false	</dynamic>
+		<static>	true	</static>
+		<specular>	false	</specular>
+		<multiplier>	1.520000	</multiplier>
+	</omniLight>
+	<flare>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>
+			<modified_by>	adamm	</modified_by>
+			<modified_on>	1250639375	</modified_on>
+		</metaData>
+		<resource>	environments/fx/corona.xml	</resource>
+		<position>	4.573746 11.609769 55.872627	</position>
+		<maxDistance>	150.000000	</maxDistance>
+		<area>	1.000000	</area>
+		<fadeSpeed>	1.000000	</fadeSpeed>
+		<colour>	134.000000 223.000015 199.000015	</colour>
+	</flare>
+	<omniLight>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>
+			<modified_by>	adamm	</modified_by>
+			<modified_on>	1250639375	</modified_on>
+		</metaData>
+		<colour>	134.000000 223.000214 199.000214	</colour>
+		<position>	1.073746 1.309789 41.872643	</position>
+		<innerRadius>	1.000000	</innerRadius>
+		<outerRadius>	7.010785	</outerRadius>
+		<dynamic>	false	</dynamic>
+		<static>	true	</static>
+		<specular>	false	</specular>
+		<multiplier>	1.520000	</multiplier>
+	</omniLight>
+	<flare>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>
+			<modified_by>	adamm	</modified_by>
+			<modified_on>	1250639375	</modified_on>
+		</metaData>
+		<resource>	environments/fx/corona.xml	</resource>
+		<position>	4.573746 11.609769 51.872627	</position>
+		<maxDistance>	150.000000	</maxDistance>
+		<area>	1.000000	</area>
+		<fadeSpeed>	1.000000	</fadeSpeed>
+		<colour>	134.000000 223.000015 199.000015	</colour>
+	</flare>
+	<omniLight>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>
+			<modified_by>	adamm	</modified_by>
+			<modified_on>	1250639375	</modified_on>
+		</metaData>
+		<colour>	133.000000 236.000259 128.000000	</colour>
+		<position>	-0.326263 2.809787 39.572662	</position>
+		<innerRadius>	0.072291	</innerRadius>
+		<outerRadius>	1.888916	</outerRadius>
+		<dynamic>	false	</dynamic>
+		<static>	true	</static>
+		<specular>	false	</specular>
+		<multiplier>	0.500000	</multiplier>
+	</omniLight>
+	<omniLight>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>
+			<modified_by>	adamm	</modified_by>
+			<modified_on>	1250639375	</modified_on>
+		</metaData>
+		<colour>	134.000000 223.000229 199.000229	</colour>
+		<position>	6.919296 5.447351 41.858597	</position>
+		<innerRadius>	1.000000	</innerRadius>
+		<outerRadius>	11.386196	</outerRadius>
+		<dynamic>	false	</dynamic>
+		<static>	true	</static>
+		<specular>	false	</specular>
+		<multiplier>	1.520000	</multiplier>
+	</omniLight>
+	<flare>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>
+			<modified_by>	adamm	</modified_by>
+			<modified_on>	1250639375	</modified_on>
+		</metaData>
+		<resource>	environments/fx/corona.xml	</resource>
+		<position>	4.473740 11.509768 47.672630	</position>
+		<maxDistance>	150.000000	</maxDistance>
+		<area>	1.000000	</area>
+		<fadeSpeed>	1.000000	</fadeSpeed>
+		<colour>	134.000000 223.000015 199.000015	</colour>
+	</flare>
+	<flare>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>
+			<modified_by>	adamm	</modified_by>
+			<modified_on>	1250639375	</modified_on>
+		</metaData>
+		<resource>	environments/fx/corona.xml	</resource>
+		<position>	4.573746 11.609769 43.872643	</position>
+		<maxDistance>	150.000000	</maxDistance>
+		<area>	1.000000	</area>
+		<fadeSpeed>	1.000000	</fadeSpeed>
+		<colour>	134.000000 223.000015 199.000015	</colour>
+	</flare>
+	<flare>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>
+			<modified_by>	adamm	</modified_by>
+			<modified_on>	1250639375	</modified_on>
+		</metaData>
+		<resource>	environments/fx/corona.xml	</resource>
+		<position>	4.573746 11.609769 39.872643	</position>
+		<maxDistance>	150.000000	</maxDistance>
+		<area>	1.000000	</area>
+		<fadeSpeed>	1.000000	</fadeSpeed>
+		<colour>	134.000000 223.000015 199.000015	</colour>
+	</flare>
+	<flare>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>
+			<modified_by>	adamm	</modified_by>
+			<modified_on>	1250639375	</modified_on>
+		</metaData>
+		<resource>	environments/fx/corona.xml	</resource>
+		<position>	4.573746 11.509768 35.872726	</position>
+		<maxDistance>	150.000000	</maxDistance>
+		<area>	1.000000	</area>
+		<fadeSpeed>	1.000000	</fadeSpeed>
+		<colour>	134.000000 223.000015 199.000015	</colour>
+	</flare>
+	<omniLight>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>
+			<modified_by>	adamm	</modified_by>
+			<modified_on>	1250639375	</modified_on>
+		</metaData>
+		<colour>	134.000000 223.000412 199.000412	</colour>
+		<position>	-5.405914 5.609789 36.999977	</position>
+		<innerRadius>	1.000000	</innerRadius>
+		<outerRadius>	7.765221	</outerRadius>
+		<dynamic>	false	</dynamic>
+		<static>	true	</static>
+		<specular>	false	</specular>
+		<multiplier>	0.800000	</multiplier>
+	</omniLight>
+	<omniLight>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>
+			<modified_by>	adamm	</modified_by>
+			<modified_on>	1250639380	</modified_on>
+		</metaData>
+		<colour>	133.000000 236.000092 128.000000	</colour>
+		<position>	0.387329 2.711410 36.314774	</position>
+		<innerRadius>	0.072291	</innerRadius>
+		<outerRadius>	1.888916	</outerRadius>
+		<dynamic>	false	</dynamic>
+		<static>	true	</static>
+		<specular>	false	</specular>
+		<multiplier>	0.500000	</multiplier>
+	</omniLight>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<metaData>	</metaData>
+		<resource>	sets/urban/props/tree_shadow/models/tree_shadow.model	</resource>
+		<transform>
+			<row0>	-0.504431 0.000000 -0.504430	</row0>
+			<row1>	0.000000 0.713373 0.000000	</row1>
+			<row2>	0.504430 0.000000 -0.504431	</row2>
+			<row3>	7.356903 0.001462 48.430893	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<staticLighting>
+			<offset>	39680	</offset>
+			<size>	16	</size>
+		</staticLighting>
+	</model>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<metaData>	</metaData>
+		<resource>	sets/urban/props/tree_shadow/models/tree_shadow.model	</resource>
+		<transform>
+			<row0>	-0.617799 0.000000 0.356687	</row0>
+			<row1>	0.000000 0.713373 0.000000	</row1>
+			<row2>	-0.356687 0.000000 -0.617799	</row2>
+			<row3>	7.568954 0.001462 42.494888	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<staticLighting>
+			<offset>	39696	</offset>
+			<size>	16	</size>
+		</staticLighting>
+	</model>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<metaData>	</metaData>
+		<resource>	sets/urban/props/tree_shadow/models/tree_shadow.model	</resource>
+		<transform>
+			<row0>	-0.617799 0.000000 0.356687	</row0>
+			<row1>	0.000000 0.713373 0.000000	</row1>
+			<row2>	-0.356687 0.000000 -0.617799	</row2>
+			<row3>	7.518005 0.001463 36.433521	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<staticLighting>
+			<offset>	39712	</offset>
+			<size>	16	</size>
+		</staticLighting>
+	</model>
+	<speedtree>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<metaData>	</metaData>
+		<spt>	speedtree/shrubs_flowers/elephant_ear/ElephantEar_RT.spt	</spt>
+		<seed>	1	</seed>
+		<transform>
+			<row0>	-0.125702 -0.000001 0.000000	</row0>
+			<row1>	-0.000001 0.125702 -0.000088	</row1>
+			<row2>	0.000000 -0.000088 -0.125702	</row2>
+			<row3>	1.473572 0.478324 32.272820	</row3>
+		</transform>
+		<reflectionVisible>	true	</reflectionVisible>
+	</speedtree>
+	<speedtree>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<metaData>	</metaData>
+		<spt>	speedtree/shrubs_flowers/elephant_ear/ElephantEar_RT.spt	</spt>
+		<seed>	1	</seed>
+		<transform>
+			<row0>	-0.125702 -0.000001 0.000000	</row0>
+			<row1>	-0.000001 0.125702 -0.000001	</row1>
+			<row2>	0.000000 -0.000001 -0.125702	</row2>
+			<row3>	-2.284119 0.505131 32.372826	</row3>
+		</transform>
+		<reflectionVisible>	true	</reflectionVisible>
+	</speedtree>
+	<speedtree>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<metaData>	</metaData>
+		<spt>	speedtree/Broadleaves/american_elm/bwAmericanElm_RT.spt	</spt>
+		<seed>	1	</seed>
+		<transform>
+			<row0>	0.082256 0.000000 -0.082256	</row0>
+			<row1>	0.000000 0.116328 0.000000	</row1>
+			<row2>	0.082256 0.000000 0.082256	</row2>
+			<row3>	7.492371 0.300000 42.452271	</row3>
+		</transform>
+		<reflectionVisible>	true	</reflectionVisible>
+	</speedtree>
+	<speedtree>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<metaData>	</metaData>
+		<spt>	speedtree/Broadleaves/american_elm/bwAmericanElm_RT.spt	</spt>
+		<seed>	1	</seed>
+		<transform>
+			<row0>	0.000000 0.000000 0.112501	</row0>
+			<row1>	0.000000 0.112501 0.000000	</row1>
+			<row2>	-0.112501 0.000000 0.000000	</row2>
+			<row3>	7.524628 0.277335 48.529724	</row3>
+		</transform>
+		<reflectionVisible>	true	</reflectionVisible>
+	</speedtree>
+	<speedtree>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<metaData>	</metaData>
+		<spt>	speedtree/Broadleaves/american_elm/bwAmericanElm_RT.spt	</spt>
+		<seed>	1	</seed>
+		<transform>
+			<row0>	0.111844 0.000000 0.000000	</row0>
+			<row1>	0.000000 0.111844 0.000000	</row1>
+			<row2>	0.000000 0.000000 0.111844	</row2>
+			<row3>	7.524643 0.300000 36.445377	</row3>
+		</transform>
+		<reflectionVisible>	true	</reflectionVisible>
+	</speedtree>
+	<entity>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>	</metaData>
+		<guid>	5345224D.4A0AF55E.13BE72BB.666549B5	</guid>
+		<type>	Guard	</type>
+		<transform>
+			<row0>	0.000003 0.000000 -1.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.999999 0.000000 0.000003	</row2>
+			<row3>	7.241310 0.001461 57.160595	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<initialPatrolNode>
+				<guid>	26BB8A16.4A286508.EDDE89A2.78523AF5	</guid>
+				<chunkId>	0000ffffo	</chunkId>
+			</initialPatrolNode>
+			<guardType>	1	</guardType>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+		<backLinks>	</backLinks>
+	</entity>
+	<entity>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>	</metaData>
+		<guid>	688BA57A.4EAB701E.7C087398.83E97D84	</guid>
+		<type>	MovingPlatform	</type>
+		<transform>
+			<row0>	0.023594 0.000000 -0.999720	</row0>
+			<row1>	0.000000 0.999998 0.000000	</row1>
+			<row2>	0.999720 0.000000 0.023594	</row2>
+			<row3>	-1.968224 0.168652 42.114784	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<platformType>	2	</platformType>
+			<platformName>	Platform	</platformName>
+			<startNode>
+				<guid>	F37A8085.4B6BBDD1.9FE80797.A0EEF6BA	</guid>
+				<chunkId>	0000fffeo	</chunkId>
+			</startNode>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+		<backLinks>	</backLinks>
+	</entity>
+	<entity>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>
+			<created_by>	adamm	</created_by>
+			<created_on>	1248669508	</created_on>
+			<modified_by>	adamm	</modified_by>
+			<modified_on>	1248669508	</modified_on>
+		</metaData>
+		<guid>	0407B5E7.4B9095E6.79690484.0F3226E0	</guid>
+		<type>	TeleportPoint	</type>
+		<transform>
+			<row0>	0.999999 0.000000 0.000001	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	-0.000001 0.000000 0.999999	</row2>
+			<row3>	-2.721519 -0.005220 52.790169	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<label>	Dungeon	</label>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+		<backLinks>	</backLinks>
+	</entity>
+	<UserDataObject>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>	</metaData>
+		<type>	CameraNode	</type>
+		<Domain>	4	</Domain>
+		<transform>
+			<row0>	-0.965925 0.000000 -0.258819	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	0.258819 0.000000 -0.965925	</row2>
+			<row3>	-5.846664 1.242267 32.813339	</row3>
+		</transform>
+		<guid>	099F68D3.43E34578.D4384D8D.88169A44	</guid>
+		<properties>
+			<next>
+				<guid>	D0457326.40B19938.ABC47E85.283478DA	</guid>
+				<chunkId>	0000fffeo	</chunkId>
+			</next>
+		</properties>
+		<backLinks>
+			<link>
+				<guid>	FA07D0A7.4805B0DD.39AC8395.8E672E41	</guid>
+				<chunkId>	0000fffeo	</chunkId>
+			</link>
+		</backLinks>
+	</UserDataObject>
+	<UserDataObject>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>	</metaData>
+		<type>	CameraNode	</type>
+		<Domain>	4	</Domain>
+		<transform>
+			<row0>	0.499999 0.000000 -0.866024	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	0.866024 0.000000 0.499999	</row2>
+			<row3>	3.967407 1.778854 53.463379	</row3>
+		</transform>
+		<guid>	7C4C7533.4F0F6F87.AD8FB39C.1B2D9108	</guid>
+		<properties>
+			<next>
+				<guid>	D5A4A819.4EF9F27F.A3279B9A.DEBFDA2E	</guid>
+				<chunkId>	0000ffffo	</chunkId>
+			</next>
+		</properties>
+		<backLinks>
+			<link>
+				<guid>	5B420FFA.4E5EDA8A.EA2E59AC.E756502B	</guid>
+				<chunkId>	0000fffeo	</chunkId>
+			</link>
+		</backLinks>
+	</UserDataObject>
+	<UserDataObject>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>	</metaData>
+		<type>	PlatformNode	</type>
+		<Domain>	2	</Domain>
+		<transform>
+			<row0>	0.000000 0.000000 -0.999996	</row0>
+			<row1>	0.000000 0.999996 0.000000	</row1>
+			<row2>	0.999996 0.000000 0.000000	</row2>
+			<row3>	-1.995300 0.021863 42.017967	</row3>
+		</transform>
+		<guid>	F37A8085.4B6BBDD1.9FE80797.A0EEF6BA	</guid>
+		<properties>
+			<links>
+				<item>
+					<guid>	007DBB8B.4F754ECA.9059A796.DF86F5D9	</guid>
+					<chunkId>	0000fffeo	</chunkId>
+				</item>
+			</links>
+			<approachAcceleration>	4.000000	</approachAcceleration>
+			<waitTime>	5.000000	</waitTime>
+		</properties>
+		<backLinks>
+			<link>
+				<guid>	67132972.41D83EEC.AC32D0B5.DBE1B0B9	</guid>
+				<chunkId>	0000fffeo	</chunkId>
+			</link>
+			<link>
+				<guid>	688BA57A.4EAB701E.7C087398.83E97D84	</guid>
+				<chunkId>	0000fffeo	</chunkId>
+			</link>
+		</backLinks>
+	</UserDataObject>
+	<UserDataObject>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>	</metaData>
+		<type>	CameraNode	</type>
+		<Domain>	4	</Domain>
+		<transform>
+			<row0>	-0.500000 0.000000 0.866024	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	-0.866024 0.000000 -0.500000	</row2>
+			<row3>	1.475067 1.756592 36.931656	</row3>
+		</transform>
+		<guid>	FA07D0A7.4805B0DD.39AC8395.8E672E41	</guid>
+		<properties>
+			<next>
+				<guid>	099F68D3.43E34578.D4384D8D.88169A44	</guid>
+				<chunkId>	0000fffeo	</chunkId>
+			</next>
+		</properties>
+		<backLinks>
+			<link>
+				<guid>	1D682C34.43E09FB3.28B8ECA6.B310F080	</guid>
+				<chunkId>	0000fffeo	</chunkId>
+			</link>
+		</backLinks>
+	</UserDataObject>
+	<UserDataObject>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>	</metaData>
+		<type>	CameraNode	</type>
+		<Domain>	4	</Domain>
+		<transform>
+			<row0>	0.965925 0.000000 -0.258819	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	0.258819 0.000000 0.965925	</row2>
+			<row3>	3.713432 1.594874 40.608810	</row3>
+		</transform>
+		<guid>	5B420FFA.4E5EDA8A.EA2E59AC.E756502B	</guid>
+		<properties>
+			<next>
+				<guid>	7C4C7533.4F0F6F87.AD8FB39C.1B2D9108	</guid>
+				<chunkId>	0000fffeo	</chunkId>
+			</next>
+		</properties>
+		<backLinks>
+			<link>
+				<guid>	A766BF51.4FDB6D38.198F099F.439E1627	</guid>
+				<chunkId>	0000fffeo	</chunkId>
+			</link>
+		</backLinks>
+	</UserDataObject>
+	<UserDataObject>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>	</metaData>
+		<type>	PlatformNode	</type>
+		<Domain>	2	</Domain>
+		<transform>
+			<row0>	0.000000 0.000000 -0.999998	</row0>
+			<row1>	0.000000 0.999998 0.000000	</row1>
+			<row2>	0.999998 0.000000 0.000000	</row2>
+			<row3>	-1.995644 0.021863 42.014801	</row3>
+		</transform>
+		<guid>	67132972.41D83EEC.AC32D0B5.DBE1B0B9	</guid>
+		<properties>
+			<links>
+				<item>
+					<guid>	F37A8085.4B6BBDD1.9FE80797.A0EEF6BA	</guid>
+					<chunkId>	0000fffeo	</chunkId>
+				</item>
+			</links>
+			<approachAcceleration>	4.000000	</approachAcceleration>
+			<waitTime>	5.000000	</waitTime>
+		</properties>
+		<backLinks>
+			<link>
+				<guid>	007DBB8B.4F754ECA.9059A796.DF86F5D9	</guid>
+				<chunkId>	0000fffeo	</chunkId>
+			</link>
+		</backLinks>
+	</UserDataObject>
+	<UserDataObject>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>	</metaData>
+		<type>	CameraNode	</type>
+		<Domain>	4	</Domain>
+		<transform>
+			<row0>	-0.999999 0.000000 -0.000000	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	0.000000 0.000000 -0.999999	</row2>
+			<row3>	3.719307 1.375857 49.411751	</row3>
+		</transform>
+		<guid>	1D682C34.43E09FB3.28B8ECA6.B310F080	</guid>
+		<properties>
+			<next>
+				<guid>	FA07D0A7.4805B0DD.39AC8395.8E672E41	</guid>
+				<chunkId>	0000fffeo	</chunkId>
+			</next>
+		</properties>
+		<backLinks>
+			<link>
+				<guid>	BE6A8876.4DEF0E4D.4BC4729D.47E2C02B	</guid>
+				<chunkId>	0000ffffo	</chunkId>
+			</link>
+		</backLinks>
+	</UserDataObject>
+	<UserDataObject>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>	</metaData>
+		<type>	CameraNode	</type>
+		<Domain>	4	</Domain>
+		<transform>
+			<row0>	0.499999 0.000000 -0.866024	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	0.866024 0.000000 0.499999	</row2>
+			<row3>	-3.326508 1.584828 34.925865	</row3>
+		</transform>
+		<guid>	A766BF51.4FDB6D38.198F099F.439E1627	</guid>
+		<properties>
+			<next>
+				<guid>	5B420FFA.4E5EDA8A.EA2E59AC.E756502B	</guid>
+				<chunkId>	0000fffeo	</chunkId>
+			</next>
+		</properties>
+		<backLinks>
+			<link>
+				<guid>	C2B5489B.45841CEA.2898319B.2152EF96	</guid>
+				<chunkId>	0000fffeo	</chunkId>
+			</link>
+		</backLinks>
+	</UserDataObject>
+	<UserDataObject>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>
+			<created_by>	adamm	</created_by>
+			<created_on>	1249536006	</created_on>
+			<modified_by>	adamm	</modified_by>
+			<modified_on>	1249536296	</modified_on>
+		</metaData>
+		<type>	CameraNode	</type>
+		<Domain>	4	</Domain>
+		<transform>
+			<row0>	-0.965925 0.000000 -0.258819	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	0.258819 0.000000 -0.965925	</row2>
+			<row3>	0.210571 1.175961 49.028893	</row3>
+		</transform>
+		<guid>	8454E707.4F910F6E.3F9917B9.C8DC9939	</guid>
+		<properties>
+			<next>
+				<guid>	91DA1DD4.464D75C0.FF1F2AB7.96D6F307	</guid>
+				<chunkId>	0000fffeo	</chunkId>
+			</next>
+		</properties>
+		<backLinks>
+			<link>
+				<guid>	739F901F.497F8AAD.BE9B6680.0E2ADB89	</guid>
+				<chunkId>	ffffffffo	</chunkId>
+			</link>
+		</backLinks>
+	</UserDataObject>
+	<UserDataObject>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>
+			<created_by>	adamm	</created_by>
+			<created_on>	1249536006	</created_on>
+			<modified_by>	adamm	</modified_by>
+			<modified_on>	1249536307	</modified_on>
+		</metaData>
+		<type>	CameraNode	</type>
+		<Domain>	4	</Domain>
+		<transform>
+			<row0>	-0.965924 0.000000 -0.258818	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	0.258818 0.000000 -0.965924	</row2>
+			<row3>	-4.589798 1.409498 32.048664	</row3>
+		</transform>
+		<guid>	91DA1DD4.464D75C0.FF1F2AB7.96D6F307	</guid>
+		<properties>
+			<next>
+				<guid>	A7C8AFED.477CA06F.9D319B8A.6F18FAB7	</guid>
+				<chunkId>	0000fffeo	</chunkId>
+			</next>
+		</properties>
+		<backLinks>
+			<link>
+				<guid>	8454E707.4F910F6E.3F9917B9.C8DC9939	</guid>
+				<chunkId>	0000fffeo	</chunkId>
+			</link>
+		</backLinks>
+	</UserDataObject>
+	<worldNavmesh>
+		<resource>	00am0002i.cdata/worldNavmesh	</resource>
+	</worldNavmesh>
+	<transform>
+		<row0>	0.000000 0.000000 1.000000	</row0>
+		<row1>	0.000000 1.000000 0.000000	</row1>
+		<row2>	-1.000000 0.000000 0.000000	</row2>
+		<row3>	70.014755 0.498380 -109.987335	</row3>
+	</transform>
+	<boundingBox>
+		<min>	10.014751 0.478310 -117.987328	</min>
+		<max>	38.016079 52.998325 -97.987328	</max>
+	</boundingBox>
+</root>

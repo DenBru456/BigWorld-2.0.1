@@ -1,0 +1,48 @@
+<facility_spotlight.model>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-1.194573 -0.039903 -0.439094	</min>
+		<max>	1.184563 2.418631 1.249285	</max>
+	</visibilityBox>
+	<nodelessVisual>	sets/urban/props/spotlight/models/facility_spotlight	</nodelessVisual>
+	<dye>
+		<matter>	glow	</matter>
+		<replaces>	glow	</replaces>
+		<tint>
+			<name>	no_glow	</name>
+			<material>
+				<identifier>	glow	</identifier>
+				<fx>	shaders/std_effects/normalmap.fx	</fx>
+				<collisionFlags>	0	</collisionFlags>
+				<materialKind>	6	</materialKind>
+				<property>	materialSpecular
+					<Vector4>	1.000000 1.000000 1.000000 1.000000	</Vector4>
+				</property>
+				<property>	alphaReference
+					<Int>	0	</Int>
+				</property>
+				<property>	alphaTestEnable
+					<Bool>	false	</Bool>
+				</property>
+				<property>	selfIllumination
+					<Float>	0.000000	</Float>
+				</property>
+				<property>	doubleSided
+					<Bool>	false	</Bool>
+				</property>
+				<property>	normalMap
+					<Texture>	sets/urban/props/spotlight/maps/spotlight_norms.bmp	</Texture>
+				</property>
+				<property>	diffuseMap
+					<Texture>	sets/urban/props/spotlight/maps/spotlight_dif.bmp	</Texture>
+				</property>
+			</material>
+		</tint>
+	</dye>
+	<extent>	82.000000	</extent>
+	<metaData>
+		<copyright>	Copyright BigWorld Pty Ltd.  Use freely in any BigWorld licensed game.	</copyright>
+		<modified_by>	AdamM	</modified_by>
+		<modified_on>	1281674668	</modified_on>
+	</metaData>
+</facility_spotlight.model>

@@ -1,0 +1,15 @@
+<detour_streetsign.model>
+	<nodelessVisual>	sets/urban/props/signs/detour_streetsign	</nodelessVisual>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-0.008790 -0.002478 -0.332941	</min>
+		<max>	0.008454 0.969716 0.332940	</max>
+	</visibilityBox>
+	<extent>	181.000000	</extent>
+	<batched>	false	</batched>
+	<metaData>
+		<copyright>	Copyright BigWorld Pty Ltd.  Use freely in any BigWorld licensed game.	</copyright>
+		<modified_by>	adamm	</modified_by>
+		<modified_on>	1254377096	</modified_on>
+	</metaData>
+</detour_streetsign.model>

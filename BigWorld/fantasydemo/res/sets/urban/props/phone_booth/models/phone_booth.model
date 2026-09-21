@@ -1,0 +1,56 @@
+<phone_booth.model>
+	<materialNames>
+		<material>
+			<original>	blinn1	</original>
+			<display>	phonebooth1	</display>
+		</material>
+	</materialNames>
+	<visibilityBox>
+		<min>	-0.016772 0.000000 -0.007910	</min>
+		<max>	0.016404 0.034575 0.008360	</max>
+	</visibilityBox>
+	<extent>	95.000000	</extent>
+	<nodelessVisual>	sets/urban/props/phone_booth/models/phone_booth	</nodelessVisual>
+	<dye>
+		<matter>	phonebooth	</matter>
+		<replaces>	blinn1	</replaces>
+		<tint>
+			<name>	lights on	</name>
+			<material>
+				<fx>	shaders/std_effects/normalmap_chrome_glow.fx	</fx>
+				<collisionFlags>	0	</collisionFlags>
+				<materialKind>	0	</materialKind>
+				<property>	reflectionMask
+					<Texture>	sets/urban/props/phone_booth/maps/phonebooth_s.bmp	</Texture>
+				</property>
+				<property>	reflectionMap
+					<Texture>	sets/urban/fx/maps/cubemap_urban.dds	</Texture>
+				</property>
+				<property>	glowMap
+					<Texture>	sets/urban/props/phone_booth/maps/phonebooth_glow.bmp	</Texture>
+				</property>
+				<property>	glowFactor
+					<Float>	0.800000	</Float>
+				</property>
+				<property>	normalMap
+					<Texture>	sets/urban/props/phone_booth/maps/phonebooth_norms.bmp	</Texture>
+				</property>
+				<property>	diffuseMap
+					<Texture>	sets/urban/props/phone_booth/maps/phonebooth_diff.bmp	</Texture>
+				</property>
+				<property>	selfIllumination
+					<Float>	0.000000	</Float>
+				</property>
+				<property>	reflectionAmount
+					<Float>	0.200000	</Float>
+				</property>
+			</material>
+		</tint>
+	</dye>
+	<parent>	sets/urban/props/phone_booth/models/phone_booth_lod01	</parent>
+	<metaData>
+		<copyright>	Copyright BigWorld Pty Ltd.  Use freely in any BigWorld licensed game.	</copyright>
+		<modified_by>	AdamM	</modified_by>
+		<modified_on>	1258346948	</modified_on>
+	</metaData>
+</phone_booth.model>

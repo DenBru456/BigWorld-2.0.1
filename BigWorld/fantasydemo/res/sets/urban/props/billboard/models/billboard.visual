@@ -1,0 +1,586 @@
+<billboard.visual>
+	<node>
+		<identifier>	Scene Root	</identifier>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+		<node>
+			<identifier>	Box04	</identifier>
+			<transform>
+				<row0>	1.000000 0.000000 0.000000	</row0>
+				<row1>	0.000000 1.000000 0.000000	</row1>
+				<row2>	0.000000 0.000000 1.000000	</row2>
+				<row3>	-8.827528 0.000000 0.136978	</row3>
+			</transform>
+		</node>
+		<node>
+			<identifier>	light04	</identifier>
+			<transform>
+				<row0>	1.000000 0.000000 0.000000	</row0>
+				<row1>	0.000000 1.000000 0.000000	</row1>
+				<row2>	0.000000 0.000000 1.000000	</row2>
+				<row3>	-15.076050 9.776487 -0.083970	</row3>
+			</transform>
+		</node>
+		<node>
+			<identifier>	Bone01	</identifier>
+			<transform>
+				<row0>	-0.000000 -1.000000 0.000000	</row0>
+				<row1>	0.000000 0.000000 1.000000	</row1>
+				<row2>	-1.000000 0.000000 0.000000	</row2>
+				<row3>	-17.469877 1.301038 -0.169095	</row3>
+			</transform>
+			<node>
+				<identifier>	Bone01BlendBoneMesh22	</identifier>
+				<transform>
+					<row0>	-0.000000 0.000000 -1.000000	</row0>
+					<row1>	-1.000000 0.000000 0.000000	</row1>
+					<row2>	0.000000 1.000000 0.000000	</row2>
+					<row3>	1.301037 0.169095 -17.469877	</row3>
+				</transform>
+			</node>
+		</node>
+		<node>
+			<identifier>	Bone02	</identifier>
+			<transform>
+				<row0>	-0.000000 -1.000000 0.000000	</row0>
+				<row1>	0.000000 0.000000 1.000000	</row1>
+				<row2>	-1.000000 0.000000 0.000000	</row2>
+				<row3>	-16.689877 1.301038 -0.169095	</row3>
+			</transform>
+			<node>
+				<identifier>	Bone02BlendBoneMesh22	</identifier>
+				<transform>
+					<row0>	-0.000000 0.000000 -1.000000	</row0>
+					<row1>	-1.000000 0.000000 0.000000	</row1>
+					<row2>	0.000000 1.000000 0.000000	</row2>
+					<row3>	1.301037 0.169095 -16.689877	</row3>
+				</transform>
+			</node>
+		</node>
+		<node>
+			<identifier>	Bone03	</identifier>
+			<transform>
+				<row0>	-0.000000 -1.000000 0.000000	</row0>
+				<row1>	0.000000 0.000000 1.000000	</row1>
+				<row2>	-1.000000 0.000000 0.000000	</row2>
+				<row3>	-15.909877 1.301038 -0.169095	</row3>
+			</transform>
+			<node>
+				<identifier>	Bone03BlendBoneMesh22	</identifier>
+				<transform>
+					<row0>	-0.000000 0.000000 -1.000000	</row0>
+					<row1>	-1.000000 0.000000 0.000000	</row1>
+					<row2>	0.000000 1.000000 0.000000	</row2>
+					<row3>	1.301037 0.169095 -15.909877	</row3>
+				</transform>
+			</node>
+		</node>
+		<node>
+			<identifier>	Bone04	</identifier>
+			<transform>
+				<row0>	-0.000000 -1.000000 0.000000	</row0>
+				<row1>	0.000000 0.000000 1.000000	</row1>
+				<row2>	-1.000000 0.000000 0.000000	</row2>
+				<row3>	-15.129877 1.301038 -0.169095	</row3>
+			</transform>
+			<node>
+				<identifier>	Bone04BlendBoneMesh22	</identifier>
+				<transform>
+					<row0>	-0.000000 0.000000 -1.000000	</row0>
+					<row1>	-1.000000 0.000000 0.000000	</row1>
+					<row2>	0.000000 1.000000 0.000000	</row2>
+					<row3>	1.301037 0.169095 -15.129877	</row3>
+				</transform>
+			</node>
+		</node>
+		<node>
+			<identifier>	Bone05	</identifier>
+			<transform>
+				<row0>	-0.000000 -1.000000 0.000000	</row0>
+				<row1>	0.000000 0.000000 1.000000	</row1>
+				<row2>	-1.000000 0.000000 0.000000	</row2>
+				<row3>	-14.349877 1.301038 -0.169095	</row3>
+			</transform>
+			<node>
+				<identifier>	Bone05BlendBoneMesh22	</identifier>
+				<transform>
+					<row0>	-0.000000 0.000000 -1.000000	</row0>
+					<row1>	-1.000000 0.000000 0.000000	</row1>
+					<row2>	0.000000 1.000000 0.000000	</row2>
+					<row3>	1.301037 0.169095 -14.349877	</row3>
+				</transform>
+			</node>
+		</node>
+		<node>
+			<identifier>	Bone06	</identifier>
+			<transform>
+				<row0>	-0.000000 -1.000000 0.000000	</row0>
+				<row1>	0.000000 0.000000 1.000000	</row1>
+				<row2>	-1.000000 0.000000 0.000000	</row2>
+				<row3>	-12.789878 1.301038 -0.169095	</row3>
+			</transform>
+			<node>
+				<identifier>	Bone06BlendBoneMesh22	</identifier>
+				<transform>
+					<row0>	-0.000000 0.000000 -1.000000	</row0>
+					<row1>	-1.000000 0.000000 0.000000	</row1>
+					<row2>	0.000000 1.000000 0.000000	</row2>
+					<row3>	1.301037 0.169095 -12.789878	</row3>
+				</transform>
+			</node>
+		</node>
+		<node>
+			<identifier>	Bone07	</identifier>
+			<transform>
+				<row0>	-0.000000 -1.000000 0.000000	</row0>
+				<row1>	0.000000 0.000000 1.000000	</row1>
+				<row2>	-1.000000 0.000000 0.000000	</row2>
+				<row3>	-12.009878 1.301038 -0.169095	</row3>
+			</transform>
+			<node>
+				<identifier>	Bone07BlendBoneMesh22	</identifier>
+				<transform>
+					<row0>	-0.000000 0.000000 -1.000000	</row0>
+					<row1>	-1.000000 0.000000 0.000000	</row1>
+					<row2>	0.000000 1.000000 0.000000	</row2>
+					<row3>	1.301037 0.169095 -12.009878	</row3>
+				</transform>
+			</node>
+		</node>
+		<node>
+			<identifier>	Bone08	</identifier>
+			<transform>
+				<row0>	-0.000000 -1.000000 0.000000	</row0>
+				<row1>	0.000000 0.000000 1.000000	</row1>
+				<row2>	-1.000000 0.000000 0.000000	</row2>
+				<row3>	-11.229878 1.301038 -0.169095	</row3>
+			</transform>
+			<node>
+				<identifier>	Bone08BlendBoneMesh22	</identifier>
+				<transform>
+					<row0>	-0.000000 0.000000 -1.000000	</row0>
+					<row1>	-1.000000 0.000000 0.000000	</row1>
+					<row2>	0.000000 1.000000 0.000000	</row2>
+					<row3>	1.301037 0.169095 -11.229878	</row3>
+				</transform>
+			</node>
+		</node>
+		<node>
+			<identifier>	Bone09	</identifier>
+			<transform>
+				<row0>	-0.000000 -1.000000 0.000000	</row0>
+				<row1>	0.000000 0.000000 1.000000	</row1>
+				<row2>	-1.000000 0.000000 0.000000	</row2>
+				<row3>	-13.569878 1.301038 -0.169095	</row3>
+			</transform>
+			<node>
+				<identifier>	Bone09BlendBoneMesh22	</identifier>
+				<transform>
+					<row0>	-0.000000 0.000000 -1.000000	</row0>
+					<row1>	-1.000000 0.000000 0.000000	</row1>
+					<row2>	0.000000 1.000000 0.000000	</row2>
+					<row3>	1.301037 0.169095 -13.569878	</row3>
+				</transform>
+			</node>
+		</node>
+		<node>
+			<identifier>	Bone10	</identifier>
+			<transform>
+				<row0>	-0.000000 -1.000000 0.000000	</row0>
+				<row1>	0.000000 0.000000 1.000000	</row1>
+				<row2>	-1.000000 0.000000 0.000000	</row2>
+				<row3>	-9.669879 1.301038 -0.169095	</row3>
+			</transform>
+			<node>
+				<identifier>	Bone10BlendBoneMesh22	</identifier>
+				<transform>
+					<row0>	-0.000000 0.000000 -1.000000	</row0>
+					<row1>	-1.000000 0.000000 0.000000	</row1>
+					<row2>	0.000000 1.000000 0.000000	</row2>
+					<row3>	1.301037 0.169095 -9.669879	</row3>
+				</transform>
+			</node>
+		</node>
+		<node>
+			<identifier>	Bone11	</identifier>
+			<transform>
+				<row0>	-0.000000 -1.000000 0.000000	</row0>
+				<row1>	0.000000 0.000000 1.000000	</row1>
+				<row2>	-1.000000 0.000000 0.000000	</row2>
+				<row3>	-8.889879 1.301038 -0.169095	</row3>
+			</transform>
+			<node>
+				<identifier>	Bone11BlendBoneMesh22	</identifier>
+				<transform>
+					<row0>	-0.000000 0.000000 -1.000000	</row0>
+					<row1>	-1.000000 0.000000 0.000000	</row1>
+					<row2>	0.000000 1.000000 0.000000	</row2>
+					<row3>	1.301037 0.169095 -8.889879	</row3>
+				</transform>
+			</node>
+		</node>
+		<node>
+			<identifier>	Bone12	</identifier>
+			<transform>
+				<row0>	-0.000000 -1.000000 0.000000	</row0>
+				<row1>	0.000000 0.000000 1.000000	</row1>
+				<row2>	-1.000000 0.000000 0.000000	</row2>
+				<row3>	-8.109879 1.301038 -0.169095	</row3>
+			</transform>
+			<node>
+				<identifier>	Bone12BlendBoneMesh22	</identifier>
+				<transform>
+					<row0>	-0.000000 0.000000 -1.000000	</row0>
+					<row1>	-1.000000 0.000000 0.000000	</row1>
+					<row2>	0.000000 1.000000 0.000000	</row2>
+					<row3>	1.301037 0.169095 -8.109879	</row3>
+				</transform>
+			</node>
+		</node>
+		<node>
+			<identifier>	Bone13	</identifier>
+			<transform>
+				<row0>	-0.000000 -1.000000 0.000000	</row0>
+				<row1>	0.000000 0.000000 1.000000	</row1>
+				<row2>	-1.000000 0.000000 0.000000	</row2>
+				<row3>	-6.549880 1.301038 -0.169095	</row3>
+			</transform>
+			<node>
+				<identifier>	Bone13BlendBoneMesh22	</identifier>
+				<transform>
+					<row0>	-0.000000 0.000000 -1.000000	</row0>
+					<row1>	-1.000000 0.000000 0.000000	</row1>
+					<row2>	0.000000 1.000000 0.000000	</row2>
+					<row3>	1.301038 0.169095 -6.549880	</row3>
+				</transform>
+			</node>
+		</node>
+		<node>
+			<identifier>	Bone14	</identifier>
+			<transform>
+				<row0>	-0.000000 -1.000000 0.000000	</row0>
+				<row1>	0.000000 0.000000 1.000000	</row1>
+				<row2>	-1.000000 0.000000 0.000000	</row2>
+				<row3>	-5.769880 1.301038 -0.169095	</row3>
+			</transform>
+			<node>
+				<identifier>	Bone14BlendBoneMesh22	</identifier>
+				<transform>
+					<row0>	-0.000000 0.000000 -1.000000	</row0>
+					<row1>	-1.000000 0.000000 0.000000	</row1>
+					<row2>	0.000000 1.000000 0.000000	</row2>
+					<row3>	1.301038 0.169095 -5.769880	</row3>
+				</transform>
+			</node>
+		</node>
+		<node>
+			<identifier>	Bone15	</identifier>
+			<transform>
+				<row0>	-0.000000 -1.000000 0.000000	</row0>
+				<row1>	0.000000 0.000000 1.000000	</row1>
+				<row2>	-1.000000 0.000000 0.000000	</row2>
+				<row3>	-4.989881 1.301038 -0.169095	</row3>
+			</transform>
+			<node>
+				<identifier>	Bone15BlendBoneMesh22	</identifier>
+				<transform>
+					<row0>	-0.000000 0.000000 -1.000000	</row0>
+					<row1>	-1.000000 0.000000 0.000000	</row1>
+					<row2>	0.000000 1.000000 0.000000	</row2>
+					<row3>	1.301038 0.169095 -4.989881	</row3>
+				</transform>
+			</node>
+		</node>
+		<node>
+			<identifier>	Bone16	</identifier>
+			<transform>
+				<row0>	-0.000000 -1.000000 0.000000	</row0>
+				<row1>	0.000000 0.000000 1.000000	</row1>
+				<row2>	-1.000000 0.000000 0.000000	</row2>
+				<row3>	-7.329880 1.301038 -0.169095	</row3>
+			</transform>
+			<node>
+				<identifier>	Bone16BlendBoneMesh22	</identifier>
+				<transform>
+					<row0>	-0.000000 0.000000 -1.000000	</row0>
+					<row1>	-1.000000 0.000000 0.000000	</row1>
+					<row2>	0.000000 1.000000 0.000000	</row2>
+					<row3>	1.301037 0.169095 -7.329880	</row3>
+				</transform>
+			</node>
+		</node>
+		<node>
+			<identifier>	Bone17	</identifier>
+			<transform>
+				<row0>	-0.000000 -1.000000 0.000000	</row0>
+				<row1>	0.000000 0.000000 1.000000	</row1>
+				<row2>	-1.000000 0.000000 0.000000	</row2>
+				<row3>	-10.449879 1.301038 -0.169095	</row3>
+			</transform>
+			<node>
+				<identifier>	Bone17BlendBoneMesh22	</identifier>
+				<transform>
+					<row0>	-0.000000 0.000000 -1.000000	</row0>
+					<row1>	-1.000000 0.000000 0.000000	</row1>
+					<row2>	0.000000 1.000000 0.000000	</row2>
+					<row3>	1.301037 0.169095 -10.449879	</row3>
+				</transform>
+			</node>
+		</node>
+		<node>
+			<identifier>	Bone18	</identifier>
+			<transform>
+				<row0>	-0.000000 -1.000000 0.000000	</row0>
+				<row1>	0.000000 0.000000 1.000000	</row1>
+				<row2>	-1.000000 0.000000 0.000000	</row2>
+				<row3>	-3.429881 1.301038 -0.169095	</row3>
+			</transform>
+			<node>
+				<identifier>	Bone18BlendBoneMesh22	</identifier>
+				<transform>
+					<row0>	-0.000000 0.000000 -1.000000	</row0>
+					<row1>	-1.000000 0.000000 0.000000	</row1>
+					<row2>	0.000000 1.000000 0.000000	</row2>
+					<row3>	1.301038 0.169095 -3.429881	</row3>
+				</transform>
+			</node>
+		</node>
+		<node>
+			<identifier>	Bone19	</identifier>
+			<transform>
+				<row0>	-0.000000 -1.000000 0.000000	</row0>
+				<row1>	0.000000 0.000000 1.000000	</row1>
+				<row2>	-1.000000 0.000000 0.000000	</row2>
+				<row3>	-2.649881 1.301038 -0.169095	</row3>
+			</transform>
+			<node>
+				<identifier>	Bone19BlendBoneMesh22	</identifier>
+				<transform>
+					<row0>	-0.000000 0.000000 -1.000000	</row0>
+					<row1>	-1.000000 0.000000 0.000000	</row1>
+					<row2>	0.000000 1.000000 0.000000	</row2>
+					<row3>	1.301038 0.169095 -2.649881	</row3>
+				</transform>
+			</node>
+		</node>
+		<node>
+			<identifier>	Bone20	</identifier>
+			<transform>
+				<row0>	-0.000000 -1.000000 0.000000	</row0>
+				<row1>	0.000000 0.000000 1.000000	</row1>
+				<row2>	-1.000000 0.000000 0.000000	</row2>
+				<row3>	-1.869881 1.301038 -0.169095	</row3>
+			</transform>
+			<node>
+				<identifier>	Bone20BlendBoneMesh22	</identifier>
+				<transform>
+					<row0>	-0.000000 0.000000 -1.000000	</row0>
+					<row1>	-1.000000 0.000000 0.000000	</row1>
+					<row2>	0.000000 1.000000 0.000000	</row2>
+					<row3>	1.301038 0.169095 -1.869881	</row3>
+				</transform>
+			</node>
+		</node>
+		<node>
+			<identifier>	Bone21	</identifier>
+			<transform>
+				<row0>	-0.000000 -1.000000 0.000000	</row0>
+				<row1>	0.000000 0.000000 1.000000	</row1>
+				<row2>	-1.000000 0.000000 0.000000	</row2>
+				<row3>	-0.309881 1.301038 -0.169095	</row3>
+			</transform>
+			<node>
+				<identifier>	Bone21BlendBoneMesh22	</identifier>
+				<transform>
+					<row0>	-0.000000 0.000000 -1.000000	</row0>
+					<row1>	-1.000000 0.000000 0.000000	</row1>
+					<row2>	0.000000 1.000000 0.000000	</row2>
+					<row3>	1.301038 0.169095 -0.309881	</row3>
+				</transform>
+			</node>
+		</node>
+		<node>
+			<identifier>	Bone24	</identifier>
+			<transform>
+				<row0>	-0.000000 -1.000000 0.000000	</row0>
+				<row1>	0.000000 0.000000 1.000000	</row1>
+				<row2>	-1.000000 0.000000 0.000000	</row2>
+				<row3>	-1.089881 1.301038 -0.169095	</row3>
+			</transform>
+			<node>
+				<identifier>	Bone24BlendBoneMesh22	</identifier>
+				<transform>
+					<row0>	-0.000000 0.000000 -1.000000	</row0>
+					<row1>	-1.000000 0.000000 0.000000	</row1>
+					<row2>	0.000000 1.000000 0.000000	</row2>
+					<row3>	1.301038 0.169095 -1.089881	</row3>
+				</transform>
+			</node>
+		</node>
+		<node>
+			<identifier>	Bone25	</identifier>
+			<transform>
+				<row0>	-0.000000 -1.000000 0.000000	</row0>
+				<row1>	0.000000 0.000000 1.000000	</row1>
+				<row2>	-1.000000 0.000000 0.000000	</row2>
+				<row3>	-4.209881 1.301038 -0.169095	</row3>
+			</transform>
+			<node>
+				<identifier>	Bone25BlendBoneMesh22	</identifier>
+				<transform>
+					<row0>	-0.000000 0.000000 -1.000000	</row0>
+					<row1>	-1.000000 0.000000 0.000000	</row1>
+					<row2>	0.000000 1.000000 0.000000	</row2>
+					<row3>	1.301038 0.169095 -4.209881	</row3>
+				</transform>
+			</node>
+		</node>
+	</node>
+	<renderSet>
+		<treatAsWorldSpaceObject>	true	</treatAsWorldSpaceObject>
+		<node>	Bone21BlendBoneMesh22	</node>
+		<node>	Bone01BlendBoneMesh22	</node>
+		<node>	Bone02BlendBoneMesh22	</node>
+		<node>	Bone03BlendBoneMesh22	</node>
+		<node>	Bone04BlendBoneMesh22	</node>
+		<node>	Bone20BlendBoneMesh22	</node>
+		<node>	Bone11BlendBoneMesh22	</node>
+		<node>	Bone08BlendBoneMesh22	</node>
+		<node>	Bone07BlendBoneMesh22	</node>
+		<node>	Bone06BlendBoneMesh22	</node>
+		<node>	Bone05BlendBoneMesh22	</node>
+		<node>	Bone17BlendBoneMesh22	</node>
+		<node>	Bone10BlendBoneMesh22	</node>
+		<node>	Bone14BlendBoneMesh22	</node>
+		<node>	Bone18BlendBoneMesh22	</node>
+		<node>	Bone24BlendBoneMesh22	</node>
+		<node>	Bone19BlendBoneMesh22	</node>
+		<geometry>
+			<vertices>	Mesh220a.vertices	</vertices>
+			<primitive>	Mesh220a.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	billboard_combined_skinned	</identifier>
+					<fx>	shaders/std_effects/lightonly_skinned.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	diffuseMap
+						<Texture>	sets/urban/props/billboard/maps/billboard_combined.bmp	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	true	</treatAsWorldSpaceObject>
+		<node>	Bone13BlendBoneMesh22	</node>
+		<node>	Bone16BlendBoneMesh22	</node>
+		<node>	Bone12BlendBoneMesh22	</node>
+		<node>	Bone09BlendBoneMesh22	</node>
+		<node>	Bone25BlendBoneMesh22	</node>
+		<node>	Bone15BlendBoneMesh22	</node>
+		<geometry>
+			<vertices>	Mesh220b.vertices	</vertices>
+			<primitive>	Mesh220b.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	billboard_combined_skinned	</identifier>
+					<fx>	shaders/std_effects/lightonly_skinned.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	diffuseMap
+						<Texture>	sets/urban/props/billboard/maps/billboard_combined.bmp	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	light04	</node>
+		<geometry>
+			<vertices>	light04.vertices	</vertices>
+			<primitive>	light04.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	light_structure	</identifier>
+					<fx>	shaders/std_effects/lightonly.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	alphaReference
+						<Int>	0	</Int>
+					</property>
+					<property>	alphaTestEnable
+						<Bool>	false	</Bool>
+					</property>
+					<property>	doubleSided
+						<Bool>	false	</Bool>
+					</property>
+					<property>	selfIllumination
+						<Float>	0.000000	</Float>
+					</property>
+					<property>	diffuseMap
+						<Texture>	helpers/maps/aid_builder.tga	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+			<primitiveGroup>	1
+				<material>
+					<identifier>	light	</identifier>
+					<fx>	shaders/std_effects/lightonly_glow.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	alphaReference
+						<Int>	0	</Int>
+					</property>
+					<property>	alphaTestEnable
+						<Bool>	false	</Bool>
+					</property>
+					<property>	doubleSided
+						<Bool>	false	</Bool>
+					</property>
+					<property>	selfIllumination
+						<Float>	0.900000	</Float>
+					</property>
+					<property>	glowFactor
+						<Float>	2.000000	</Float>
+					</property>
+					<property>	glowMap
+						<Texture>	helpers/maps/system/col_white.bmp	</Texture>
+					</property>
+					<property>	diffuseMap
+						<Texture>	helpers/maps/col_white.bmp	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	Box04	</node>
+		<geometry>
+			<vertices>	Box04.vertices	</vertices>
+			<primitive>	Box04.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	billboard_combined	</identifier>
+					<fx>	shaders/std_effects/lightonly.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	diffuseMap
+						<Texture>	sets/urban/props/billboard/maps/billboard_combined.bmp	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<boundingBox>
+		<min>	-17.871798 -0.000001 -1.687008	</min>
+		<max>	0.080883 11.252607 1.162139	</max>
+	</boundingBox>
+	<materialKind>	4	</materialKind>
+</billboard.visual>

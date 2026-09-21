@@ -1,0 +1,70 @@
+<arcade_cabinet.model>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-0.712388 -0.007979 -1.585566	</min>
+		<max>	0.712388 2.625364 -0.008709	</max>
+	</visibilityBox>
+	<dye>
+		<matter>	channels	</matter>
+		<replaces>	screen	</replaces>
+		<tint>
+			<name>	flash_game	</name>
+			<material>
+				<fx>	shaders/std_effects/no_lighting.fx	</fx>
+				<collisionFlags>	0	</collisionFlags>
+				<materialKind>	0	</materialKind>
+				<property>	alphaReference
+					<Int>	0	</Int>
+				</property>
+				<property>	selfIllumination
+					<Float>	0.700000	</Float>
+				</property>
+				<property>	diffuseMap
+					<TextureFeed>	flash_game
+						<default>	sets/urban/props/tv/maps/tv_off.bmp	</default>
+					</TextureFeed>
+				</property>
+			</material>
+		</tint>
+		<tint>
+			<name>	flash_game1	</name>
+			<material>
+				<fx>	shaders/std_effects/no_lighting.fx	</fx>
+				<collisionFlags>	0	</collisionFlags>
+				<materialKind>	0	</materialKind>
+				<property>	alphaReference
+					<Int>	0	</Int>
+				</property>
+				<property>	selfIllumination
+					<Float>	0.700000	</Float>
+				</property>
+				<property>	diffuseMap
+					<TextureFeed>	flash_game1
+						<default>	sets/urban/props/tv/maps/tv_off.bmp	</default>
+					</TextureFeed>
+				</property>
+			</material>
+		</tint>
+		<tint>
+			<name>	tv_small8	</name>
+			<material>
+				<fx>	shaders/std_effects/no_lighting.fx	</fx>
+				<collisionFlags>	0	</collisionFlags>
+				<materialKind>	0	</materialKind>
+				<property>	selfIllumination
+					<Float>	1.000000	</Float>
+				</property>
+				<property>	diffuseMap
+					<Texture>	sets/urban/props/tv/maps/tv_off.bmp	</Texture>
+				</property>
+			</material>
+		</tint>
+	</dye>
+	<nodefullVisual>	sets/urban/props/arcade_cabinet/models/arcade_cabinet	</nodefullVisual>
+	<extent>	70.000000	</extent>
+	<metaData>
+		<copyright>	Copyright BigWorld Pty Ltd.  Use freely in any BigWorld licensed game.	</copyright>
+		<modified_by>	AdamM	</modified_by>
+		<modified_on>	1281674343	</modified_on>
+	</metaData>
+</arcade_cabinet.model>

@@ -1,0 +1,75 @@
+<traffic_light.model>
+	<materialNames>
+		<material>
+			<original>	orig_traffic_light	</original>
+			<display>	traffic_light	</display>
+		</material>
+	</materialNames>
+	<visibilityBox>
+		<min>	-0.182946 -0.051024 -0.144282	</min>
+		<max>	0.133988 0.411158 0.000000	</max>
+	</visibilityBox>
+	<dye>
+		<matter>	orig_traffic_light	</matter>
+		<replaces>	orig_traffic_light	</replaces>
+		<tint>
+			<name>	red	</name>
+			<material>
+				<identifier>	orig_traffic_light	</identifier>
+				<fx>	shaders/std_effects/lightonly_glow.fx	</fx>
+				<collisionFlags>	0	</collisionFlags>
+				<materialKind>	0	</materialKind>
+				<property>	glowFactor
+					<Float>	1.600000	</Float>
+				</property>
+				<property>	glowMap
+					<Texture>	sets/urban/props/traffic_light/traffic_light_red_glow.bmp	</Texture>
+				</property>
+				<property>	diffuseMap
+					<Texture>	sets/urban/props/traffic_light/traffic_light_dif.bmp	</Texture>
+				</property>
+			</material>
+		</tint>
+		<tint>
+			<name>	orange	</name>
+			<material>
+				<fx>	shaders/std_effects/lightonly_glow.fx	</fx>
+				<collisionFlags>	0	</collisionFlags>
+				<materialKind>	0	</materialKind>
+				<property>	glowFactor
+					<Float>	1.600000	</Float>
+				</property>
+				<property>	glowMap
+					<Texture>	sets/urban/props/traffic_light/traffic_light_orange_glow.bmp	</Texture>
+				</property>
+				<property>	diffuseMap
+					<Texture>	sets/urban/props/traffic_light/traffic_light_dif.bmp	</Texture>
+				</property>
+			</material>
+		</tint>
+		<tint>
+			<name>	green	</name>
+			<material>
+				<fx>	shaders/std_effects/lightonly_glow.fx	</fx>
+				<collisionFlags>	0	</collisionFlags>
+				<materialKind>	0	</materialKind>
+				<property>	glowFactor
+					<Float>	1.600000	</Float>
+				</property>
+				<property>	glowMap
+					<Texture>	sets/urban/props/traffic_light/traffic_light_green_glow.bmp	</Texture>
+				</property>
+				<property>	diffuseMap
+					<Texture>	sets/urban/props/traffic_light/traffic_light_dif.bmp	</Texture>
+				</property>
+			</material>
+		</tint>
+	</dye>
+	<nodelessVisual>	sets/urban/props/traffic_light/traffic_light	</nodelessVisual>
+	<extent>	96.000000	</extent>
+	<metaData>
+		<copyright>	Copyright BigWorld Pty Ltd.  Use freely in any BigWorld licensed game.	</copyright>
+		<modified_by>	adamm	</modified_by>
+		<modified_on>	1254380693	</modified_on>
+	</metaData>
+</traffic_light.model>

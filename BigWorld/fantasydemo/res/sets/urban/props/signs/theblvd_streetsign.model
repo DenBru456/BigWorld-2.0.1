@@ -1,0 +1,15 @@
+<theblvd_streetsign.model>
+	<nodelessVisual>	sets/urban/props/signs/theblvd_streetsign	</nodelessVisual>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-0.007130 0.000671 -0.106607	</min>
+		<max>	0.010115 0.892166 0.106607	</max>
+	</visibilityBox>
+	<extent>	50.000000	</extent>
+	<batched>	false	</batched>
+	<metaData>
+		<copyright>	Copyright BigWorld Pty Ltd.  Use freely in any BigWorld licensed game.	</copyright>
+		<modified_by>	adamm	</modified_by>
+		<modified_on>	1254380632	</modified_on>
+	</metaData>
+</theblvd_streetsign.model>

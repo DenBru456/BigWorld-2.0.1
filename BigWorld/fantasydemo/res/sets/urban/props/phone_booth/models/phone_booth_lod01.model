@@ -1,0 +1,19 @@
+<phone_booth_lod01.model>
+	<materialNames>
+		<material>
+			<original>	blinn1	</original>
+			<display>	phonebooth_lod	</display>
+		</material>
+	</materialNames>
+	<visibilityBox>
+		<min>	-0.016772 0.000000 -0.007910	</min>
+		<max>	0.016404 0.034537 0.008360	</max>
+	</visibilityBox>
+	<nodelessVisual>	sets/urban/props/phone_booth/models/phone_booth_lod01	</nodelessVisual>
+	<extent>	137.000000	</extent>
+	<metaData>
+		<copyright>	Copyright BigWorld Pty Ltd.  Use freely in any BigWorld licensed game.	</copyright>
+		<modified_by>	AdamM	</modified_by>
+		<modified_on>	1281674982	</modified_on>
+	</metaData>
+</phone_booth_lod01.model>

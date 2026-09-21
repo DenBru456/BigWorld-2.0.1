@@ -1,0 +1,15 @@
+<nouturn_streetsign.model>
+	<nodelessVisual>	sets/urban/props/signs/nouturn_streetsign	</nodelessVisual>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-0.011087 -0.002120 -0.419913	</min>
+		<max>	0.010663 0.829584 0.419913	</max>
+	</visibilityBox>
+	<extent>	209.000000	</extent>
+	<batched>	false	</batched>
+	<metaData>
+		<copyright>	Copyright BigWorld Pty Ltd.  Use freely in any BigWorld licensed game.	</copyright>
+		<modified_by>	adamm	</modified_by>
+		<modified_on>	1254379470	</modified_on>
+	</metaData>
+</nouturn_streetsign.model>

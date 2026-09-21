@@ -1,0 +1,15 @@
+<office_exit.model>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-4.003004 -0.074530 -0.000000	</min>
+		<max>	0.003006 3.097935 0.500000	</max>
+	</visibilityBox>
+	<metaData>
+		<copyright>	Copyright BigWorld Pty Ltd.  Use freely in any BigWorld licensed game.	</copyright>
+		<created_by>	AdamM	</created_by>
+		<created_on>	1268009721	</created_on>
+		<modified_by>	AdamM	</modified_by>
+		<modified_on>	1281673756	</modified_on>
+	</metaData>
+	<nodelessVisual>	sets/urban/shells/office_exit	</nodelessVisual>
+</office_exit.model>

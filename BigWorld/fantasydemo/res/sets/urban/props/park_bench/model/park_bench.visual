@@ -1,0 +1,59 @@
+<park_bench.visual>
+	<node>
+		<identifier>	Scene Root	</identifier>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+	</node>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	Scene Root	</node>
+		<geometry>
+			<vertices>	vertices	</vertices>
+			<primitive>	indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	park_bench	</identifier>
+					<fx>	shaders/std_effects/lightonly.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	1	</materialKind>
+					<property>	diffuseMap
+						<Texture>	sets/urban/props/park_bench/maps/park_bench_diff.bmp	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+			<primitiveGroup>	1
+				<material>
+					<identifier>	metal	</identifier>
+					<fx>	shaders/std_effects/normalmap_chrome.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	4	</materialKind>
+					<property>	reflectionMask
+						<Texture>	system/maps/col_white.bmp	</Texture>
+					</property>
+					<property>	reflectionMap
+						<Texture>	sets/urban/fx/maps/cubemap_urban.dds	</Texture>
+					</property>
+					<property>	normalMap
+						<Texture>	system/maps/default_norms.bmp	</Texture>
+					</property>
+					<property>	diffuseMap
+						<Texture>	sets/urban/props/park_bench/maps/park_bench_diff.bmp	</Texture>
+					</property>
+					<property>	materialSpecular
+						<Vector4>	0.603922 0.603922 0.603922 1.000000	</Vector4>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<boundingBox>
+		<min>	-1.213040 0.000000 -0.217611	</min>
+		<max>	1.206975 1.244662 0.758730	</max>
+	</boundingBox>
+	<customBsp>	true	</customBsp>
+	<materialKind>	1	</materialKind>
+</park_bench.visual>

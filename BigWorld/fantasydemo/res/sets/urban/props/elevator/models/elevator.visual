@@ -1,0 +1,130 @@
+<elevator.visual>
+	<node>
+		<identifier>	Scene Root	</identifier>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+	</node>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	Scene Root	</node>
+		<geometry>
+			<vertices>	vertices	</vertices>
+			<primitive>	indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	elevator_shader	</identifier>
+					<fx>	shaders/std_effects/normalmap_specmap_chrome_glow.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	4	</materialKind>
+					<property>	reflectionMask
+						<Texture>	sets/urban/props/elevator/maps/elevator_refl_mask.bmp	</Texture>
+					</property>
+					<property>	reflectionMap
+						<Texture>	sets/urban/fx/maps/cubemap_softbox.dds	</Texture>
+					</property>
+					<property>	specularMap
+						<Texture>	system/maps/col_white.bmp	</Texture>
+					</property>
+					<property>	glowMap
+						<Texture>	sets/urban/props/elevator/maps/elevator_glow.bmp	</Texture>
+					</property>
+					<property>	glowFactor
+						<Float>	1.100000	</Float>
+					</property>
+					<property>	normalMap
+						<Texture>	sets/urban/props/elevator/maps/elevator_norms.bmp	</Texture>
+					</property>
+					<property>	diffuseMap
+						<Texture>	sets/urban/props/elevator/maps/elevator_diff.bmp	</Texture>
+					</property>
+					<property>	selfIllumination
+						<Float>	0.000000	</Float>
+					</property>
+					<property>	reflectionAmount
+						<Float>	0.260000	</Float>
+					</property>
+				</material>
+			</primitiveGroup>
+			<primitiveGroup>	1
+				<material>
+					<identifier>	elevator_outerdoors:doors1	</identifier>
+					<fx>	shaders/std_effects/normalmap_specmap_chrome.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	4	</materialKind>
+					<property>	reflectionMask
+						<Texture>	system/maps/col_white.bmp	</Texture>
+					</property>
+					<property>	doubleSided
+						<Bool>	false	</Bool>
+					</property>
+					<property>	alphaReference
+						<Int>	0	</Int>
+					</property>
+					<property>	alphaTestEnable
+						<Bool>	false	</Bool>
+					</property>
+					<property>	specularMap
+						<Texture>	system/maps/col_white.bmp	</Texture>
+					</property>
+					<property>	diffuseMap
+						<Texture>	sets/urban/props/elevator/maps/elevator_door_diff.bmp	</Texture>
+					</property>
+					<property>	selfIllumination
+						<Float>	0.000000	</Float>
+					</property>
+					<property>	materialSpecular
+						<Vector4>	0.470588 0.470588 0.470588 1.000000	</Vector4>
+					</property>
+					<property>	reflectionAmount
+						<Float>	0.600000	</Float>
+					</property>
+				</material>
+			</primitiveGroup>
+			<primitiveGroup>	2
+				<material>
+					<identifier>	glass1	</identifier>
+					<fx>	shaders/std_effects/distort.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	6	</materialKind>
+					<property>	useReflection
+						<Bool>	true	</Bool>
+					</property>
+					<property>	scale
+						<Float>	0.945000	</Float>
+					</property>
+					<property>	distortionMap
+						<Texture>	system/maps/default_norms.bmp	</Texture>
+					</property>
+					<property>	doubleSided
+						<Bool>	true	</Bool>
+					</property>
+					<property>	reflectionAmount
+						<Float>	0.970000	</Float>
+					</property>
+					<property>	reflectionMap
+						<Texture>	sets/urban/fx/maps/cubemap_softbox.dds	</Texture>
+					</property>
+					<property>	diffuseMap
+						<Texture>	helpers/maps/system/col_black.bmp	</Texture>
+					</property>
+					<property>	alphaReference
+						<Int>	0	</Int>
+					</property>
+					<property>	alphaTestEnable
+						<Bool>	true	</Bool>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<boundingBox>
+		<min>	-1.697170 -0.352747 -1.881924	</min>
+		<max>	1.948108 4.319618 1.810020	</max>
+	</boundingBox>
+	<customBsp>	true	</customBsp>
+	<materialKind>	4	</materialKind>
+</elevator.visual>

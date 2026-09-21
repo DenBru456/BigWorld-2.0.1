@@ -1,0 +1,15 @@
+<blackboard_01.model>
+	<nodelessVisual>	sets/urban/props/bar/models/blackboard_01	</nodelessVisual>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-0.483727 0.000000 -1.035693	</min>
+		<max>	0.483727 0.073947 1.035693	</max>
+	</visibilityBox>
+	<batched>	true	</batched>
+	<extent>	25.000000	</extent>
+	<metaData>
+		<copyright>	Copyright BigWorld Pty Ltd.  Use freely in any BigWorld licensed game.	</copyright>
+		<modified_by>	AdamM	</modified_by>
+		<modified_on>	1281674497	</modified_on>
+	</metaData>
+</blackboard_01.model>

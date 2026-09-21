@@ -1,0 +1,15 @@
+<handrailB04.model>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-0.077466 -0.019999 -1.892133	</min>
+		<max>	0.077466 1.135413 0.076706	</max>
+	</visibilityBox>
+	<extent>	110.000000	</extent>
+	<batched>	false	</batched>
+	<nodelessVisual>	sets/urban/props/handrails/model/handrailB04	</nodelessVisual>
+	<metaData>
+		<copyright>	Copyright BigWorld Pty Ltd.  Use freely in any BigWorld licensed game.	</copyright>
+		<modified_by>	AdamM	</modified_by>
+		<modified_on>	1268889422	</modified_on>
+	</metaData>
+</handrailB04.model>

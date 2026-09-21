@@ -1,0 +1,13 @@
+<root>
+
+	<enabled> true </enabled>
+
+	<!-- External Data Store bug reporting example -->
+	<database>
+		<host> </host>
+		<username> </username>
+		<password> </password>
+		<databaseName> note_data_store </databaseName>
+		<type> mysql </type>
+	</database>
+</root>

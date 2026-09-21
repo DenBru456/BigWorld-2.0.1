@@ -1,0 +1,15 @@
+<employeeparking_streetsign.model>
+	<nodelessVisual>	sets/urban/props/signs/employeeparking_streetsign	</nodelessVisual>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-0.259153 -0.000068 -0.445683	</min>
+		<max>	0.294490 0.023016 0.445682	</max>
+	</visibilityBox>
+	<extent>	100.000000	</extent>
+	<batched>	false	</batched>
+	<metaData>
+		<copyright>	Copyright BigWorld Pty Ltd.  Use freely in any BigWorld licensed game.	</copyright>
+		<modified_by>	adamm	</modified_by>
+		<modified_on>	1254377271	</modified_on>
+	</metaData>
+</employeeparking_streetsign.model>

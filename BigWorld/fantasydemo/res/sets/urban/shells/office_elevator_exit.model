@@ -1,0 +1,13 @@
+<office_elevator_exit.model>
+	<nodelessVisual>	sets/urban/shells/office_elevator_exit	</nodelessVisual>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-9.999998 0.000000 3.000000	</min>
+		<max>	-3.999997 3.999999 6.999999	</max>
+	</visibilityBox>
+	<metaData>
+		<copyright>	Copyright BigWorld Pty Ltd.  Use freely in any BigWorld licensed game.	</copyright>
+		<modified_by>	AdamM	</modified_by>
+		<modified_on>	1281673702	</modified_on>
+	</metaData>
+</office_elevator_exit.model>

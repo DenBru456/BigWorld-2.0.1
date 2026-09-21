@@ -1,0 +1,296 @@
+<ped_male.model>
+	<materialNames>
+		<material>
+			<original>	empty_skinned	</original>
+			<display>	ped_skinned	</display>
+		</material>
+	</materialNames>
+	<visibilityBox>
+		<min>	-0.350612 -0.024877 -0.743203	</min>
+		<max>	0.350092 1.796832 0.485125	</max>
+	</visibilityBox>
+	<extent>	56.000000	</extent>
+	<parent>	characters/avatars/base/base	</parent>
+	<dye>
+		<matter>	empty_skinned	</matter>
+		<replaces>	empty_skinned	</replaces>
+		<tint>
+			<name>	variant_a	</name>
+			<material>
+				<fx>	shaders/std_effects/ambient_skylight_skinned.fx	</fx>
+				<collisionFlags>	0	</collisionFlags>
+				<materialKind>	0	</materialKind>
+				<property>	rimStrength
+					<Float>	2.000000	</Float>
+				</property>
+				<property>	rimWidth
+					<Float>	1.000000	</Float>
+				</property>
+				<property>	selfIllumination
+					<Float>	0.000000	</Float>
+				</property>
+				<property>	alphaReference
+					<Int>	0	</Int>
+				</property>
+				<property>	alphaTestEnable
+					<Bool>	false	</Bool>
+				</property>
+				<property>	doubleSided
+					<Bool>	false	</Bool>
+				</property>
+				<property>	fakeLightAmount
+					<Float>	0.500000	</Float>
+				</property>
+				<property>	fakeLight2Colour
+					<Vector4>	0.000000 0.000000 0.500000 0.000000	</Vector4>
+				</property>
+				<property>	fakeLight2Direction
+					<Vector4>	1.000000 -1.000000 -0.100000 0.000000	</Vector4>
+				</property>
+				<property>	fakeLight1Colour
+					<Vector4>	1.000000 0.900000 0.800000 0.000000	</Vector4>
+				</property>
+				<property>	fakeLight1Direction
+					<Vector4>	-1.200000 1.200000 -1.500000 0.000000	</Vector4>
+				</property>
+				<property>	subSurfaceBlendPower
+					<Float>	1.000000	</Float>
+				</property>
+				<property>	subSurfaceMap
+					<Texture>	sets/urban/characters/npc/ped_male/maps/ped_male_ss.tga	</Texture>
+				</property>
+				<property>	specularMap
+					<Texture>	sets/urban/characters/npc/ped_male/maps/ped_male_s.tga	</Texture>
+				</property>
+				<property>	normalMap
+					<Texture>	sets/urban/characters/npc/ped_male/maps/ped_male_norms.bmp	</Texture>
+				</property>
+				<property>	diffuseMap
+					<Texture>	sets/urban/characters/npc/ped_male/maps/ped_male_d.bmp	</Texture>
+				</property>
+				<property>	clothesColour4
+					<Vector4>	1.000000 1.000000 1.000000 1.000000	</Vector4>
+				</property>
+				<property>	clothesColour3
+					<Vector4>	0.733333 0.266667 0.266667 1.000000	</Vector4>
+				</property>
+				<property>	clothesColour2
+					<Vector4>	1.000000 1.000000 1.000000 1.000000	</Vector4>
+				</property>
+				<property>	clothesColour1
+					<Vector4>	1.000000 1.000000 1.000000 1.000000	</Vector4>
+				</property>
+				<property>	maskMap
+					<Texture>	sets/urban/characters/npc/ped_male/maps/ped_male_colorize.tga	</Texture>
+				</property>
+			</material>
+		</tint>
+		<tint>
+			<name>	variant_b	</name>
+			<material>
+				<fx>	shaders/std_effects/ambient_skylight_skinned.fx	</fx>
+				<collisionFlags>	0	</collisionFlags>
+				<materialKind>	0	</materialKind>
+				<property>	rimStrength
+					<Float>	2.000000	</Float>
+				</property>
+				<property>	rimWidth
+					<Float>	1.000000	</Float>
+				</property>
+				<property>	selfIllumination
+					<Float>	0.000000	</Float>
+				</property>
+				<property>	alphaReference
+					<Int>	0	</Int>
+				</property>
+				<property>	alphaTestEnable
+					<Bool>	false	</Bool>
+				</property>
+				<property>	doubleSided
+					<Bool>	false	</Bool>
+				</property>
+				<property>	fakeLightAmount
+					<Float>	0.500000	</Float>
+				</property>
+				<property>	fakeLight2Colour
+					<Vector4>	0.000000 0.000000 0.500000 0.000000	</Vector4>
+				</property>
+				<property>	fakeLight2Direction
+					<Vector4>	1.000000 -1.000000 -0.100000 0.000000	</Vector4>
+				</property>
+				<property>	fakeLight1Colour
+					<Vector4>	1.000000 0.900000 0.800000 0.000000	</Vector4>
+				</property>
+				<property>	fakeLight1Direction
+					<Vector4>	-1.200000 1.200000 -1.500000 0.000000	</Vector4>
+				</property>
+				<property>	subSurfaceBlendPower
+					<Float>	1.000000	</Float>
+				</property>
+				<property>	subSurfaceMap
+					<Texture>	sets/urban/characters/npc/ped_male/maps/ped_male_ss.tga	</Texture>
+				</property>
+				<property>	specularMap
+					<Texture>	sets/urban/characters/npc/ped_male/maps/ped_male_s.tga	</Texture>
+				</property>
+				<property>	normalMap
+					<Texture>	sets/urban/characters/npc/ped_male/maps/ped_male_norms.bmp	</Texture>
+				</property>
+				<property>	diffuseMap
+					<Texture>	sets/urban/characters/npc/ped_male/maps/ped_male_d.bmp	</Texture>
+				</property>
+				<property>	clothesColour2
+					<Vector4>	0.019608 0.349020 0.960784 1.000000	</Vector4>
+				</property>
+				<property>	clothesColour1
+					<Vector4>	0.400000 0.584314 0.023529 1.000000	</Vector4>
+				</property>
+				<property>	maskMap
+					<Texture>	sets/urban/characters/npc/ped_male/maps/ped_male_colorize.tga	</Texture>
+				</property>
+			</material>
+		</tint>
+		<tint>
+			<name>	variant_c	</name>
+			<material>
+				<fx>	shaders/std_effects/ambient_skylight_skinned.fx	</fx>
+				<collisionFlags>	0	</collisionFlags>
+				<materialKind>	0	</materialKind>
+				<property>	rimStrength
+					<Float>	2.000000	</Float>
+				</property>
+				<property>	rimWidth
+					<Float>	1.000000	</Float>
+				</property>
+				<property>	selfIllumination
+					<Float>	0.000000	</Float>
+				</property>
+				<property>	alphaReference
+					<Int>	0	</Int>
+				</property>
+				<property>	alphaTestEnable
+					<Bool>	false	</Bool>
+				</property>
+				<property>	doubleSided
+					<Bool>	false	</Bool>
+				</property>
+				<property>	fakeLightAmount
+					<Float>	0.500000	</Float>
+				</property>
+				<property>	fakeLight2Colour
+					<Vector4>	0.000000 0.000000 0.500000 0.000000	</Vector4>
+				</property>
+				<property>	fakeLight2Direction
+					<Vector4>	1.000000 -1.000000 -0.100000 0.000000	</Vector4>
+				</property>
+				<property>	fakeLight1Colour
+					<Vector4>	1.000000 0.900000 0.800000 0.000000	</Vector4>
+				</property>
+				<property>	fakeLight1Direction
+					<Vector4>	-1.200000 1.200000 -1.500000 0.000000	</Vector4>
+				</property>
+				<property>	subSurfaceMap
+					<Texture>	sets/urban/characters/npc/ped_male/maps/ped_male_ss.tga	</Texture>
+				</property>
+				<property>	specularMap
+					<Texture>	sets/urban/characters/npc/ped_male/maps/ped_male_s.tga	</Texture>
+				</property>
+				<property>	normalMap
+					<Texture>	sets/urban/characters/npc/ped_male/maps/ped_male_norms.bmp	</Texture>
+				</property>
+				<property>	diffuseMap
+					<Texture>	sets/urban/characters/npc/ped_male/maps/ped_male_d.bmp	</Texture>
+				</property>
+				<property>	clothesColour4
+					<Vector4>	0.839216 0.517647 0.160784 1.000000	</Vector4>
+				</property>
+				<property>	clothesColour3
+					<Vector4>	1.000000 0.501961 0.250980 1.000000	</Vector4>
+				</property>
+				<property>	clothesColour2
+					<Vector4>	1.000000 0.501961 0.250980 1.000000	</Vector4>
+				</property>
+				<property>	clothesColour1
+					<Vector4>	0.501961 0.250980 0.250980 1.000000	</Vector4>
+				</property>
+				<property>	maskMap
+					<Texture>	sets/urban/characters/npc/ped_male/maps/ped_male_colorize.tga	</Texture>
+				</property>
+			</material>
+		</tint>
+		<tint>
+			<name>	variant_d	</name>
+			<material>
+				<fx>	shaders/std_effects/ambient_skylight_skinned.fx	</fx>
+				<collisionFlags>	0	</collisionFlags>
+				<materialKind>	0	</materialKind>
+				<property>	rimStrength
+					<Float>	2.000000	</Float>
+				</property>
+				<property>	rimWidth
+					<Float>	1.000000	</Float>
+				</property>
+				<property>	selfIllumination
+					<Float>	0.000000	</Float>
+				</property>
+				<property>	alphaReference
+					<Int>	0	</Int>
+				</property>
+				<property>	alphaTestEnable
+					<Bool>	false	</Bool>
+				</property>
+				<property>	doubleSided
+					<Bool>	false	</Bool>
+				</property>
+				<property>	fakeLightAmount
+					<Float>	0.500000	</Float>
+				</property>
+				<property>	fakeLight2Colour
+					<Vector4>	0.000000 0.000000 0.500000 0.000000	</Vector4>
+				</property>
+				<property>	fakeLight2Direction
+					<Vector4>	1.000000 -1.000000 -0.100000 0.000000	</Vector4>
+				</property>
+				<property>	fakeLight1Colour
+					<Vector4>	1.000000 0.900000 0.800000 0.000000	</Vector4>
+				</property>
+				<property>	fakeLight1Direction
+					<Vector4>	-1.200000 1.200000 -1.500000 0.000000	</Vector4>
+				</property>
+				<property>	subSurfaceMap
+					<Texture>	sets/urban/characters/npc/ped_male/maps/ped_male_ss.tga	</Texture>
+				</property>
+				<property>	specularMap
+					<Texture>	sets/urban/characters/npc/ped_male/maps/ped_male_s.tga	</Texture>
+				</property>
+				<property>	normalMap
+					<Texture>	sets/urban/characters/npc/ped_male/maps/ped_male_norms.bmp	</Texture>
+				</property>
+				<property>	diffuseMap
+					<Texture>	sets/urban/characters/npc/ped_male/maps/ped_male_d.bmp	</Texture>
+				</property>
+				<property>	clothesColour4
+					<Vector4>	1.000000 1.000000 1.000000 1.000000	</Vector4>
+				</property>
+				<property>	clothesColour3
+					<Vector4>	0.925490 0.796079 0.074510 1.000000	</Vector4>
+				</property>
+				<property>	clothesColour2
+					<Vector4>	0.333333 0.584314 0.623529 1.000000	</Vector4>
+				</property>
+				<property>	clothesColour1
+					<Vector4>	1.000000 1.000000 1.000000 1.000000	</Vector4>
+				</property>
+				<property>	maskMap
+					<Texture>	sets/urban/characters/npc/ped_male/maps/ped_male_colorize.tga	</Texture>
+				</property>
+			</material>
+		</tint>
+	</dye>
+	<nodefullVisual>	sets/urban/characters/npc/ped_male/models/ped_male	</nodefullVisual>
+	<metaData>
+		<copyright>	Copyright BigWorld Pty Ltd.  Use freely in any BigWorld licensed game.	</copyright>
+		<modified_by>	adamm	</modified_by>
+		<modified_on>	1254379689	</modified_on>
+	</metaData>
+</ped_male.model>

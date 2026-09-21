@@ -1,0 +1,47 @@
+<tree_shadow.visual>
+	<node>
+		<identifier>	Scene Root	</identifier>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+	</node>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	Scene Root	</node>
+		<geometry>
+			<vertices>	vertices	</vertices>
+			<primitive>	indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	23 - Default	</identifier>
+					<fx>	shaders/std_effects/lightonly_alpha.fx	</fx>
+					<collisionFlags>	255	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	alphaReference
+						<Int>	82	</Int>
+					</property>
+					<property>	alphaTestEnable
+						<Bool>	false	</Bool>
+					</property>
+					<property>	doubleSided
+						<Bool>	false	</Bool>
+					</property>
+					<property>	selfIllumination
+						<Float>	0.000000	</Float>
+					</property>
+					<property>	diffuseMap
+						<Texture>	sets/urban/props/tree_shadow/maps/tree_shadow.tga	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<boundingBox>
+		<min>	-4.063690 0.010000 -4.063690	</min>
+		<max>	4.063690 0.020000 4.063690	</max>
+	</boundingBox>
+	<materialKind>	2	</materialKind>
+</tree_shadow.visual>

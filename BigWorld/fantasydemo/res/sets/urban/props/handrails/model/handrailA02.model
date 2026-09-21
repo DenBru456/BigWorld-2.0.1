@@ -1,0 +1,15 @@
+<handrailA02.model>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-0.079085 -0.019999 -0.910898	</min>
+		<max>	0.075847 1.182455 0.079822	</max>
+	</visibilityBox>
+	<extent>	110.000000	</extent>
+	<batched>	false	</batched>
+	<nodelessVisual>	sets/urban/props/handrails/model/handrailA02	</nodelessVisual>
+	<metaData>
+		<copyright>	Copyright BigWorld Pty Ltd.  Use freely in any BigWorld licensed game.	</copyright>
+		<modified_by>	AdamM	</modified_by>
+		<modified_on>	1268889402	</modified_on>
+	</metaData>
+</handrailA02.model>

@@ -1,0 +1,56 @@
+<workmen_streetsign.visual>
+	<node>
+		<identifier>	Scene Root	</identifier>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+	</node>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	Scene Root	</node>
+		<geometry>
+			<vertices>	vertices	</vertices>
+			<primitive>	indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	signs	</identifier>
+					<fx>	shaders/std_effects/normalmap_chrome.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	reflectionMask
+						<Texture>	helpers/maps/col_white.bmp	</Texture>
+					</property>
+					<property>	reflectionMap
+						<Texture>	sets/urban/fx/maps/cubemap_urban.dds	</Texture>
+					</property>
+					<property>	normalMap
+						<Texture>	system/maps/default_norms.bmp	</Texture>
+					</property>
+					<property>	diffuseMap
+						<Texture>	sets/urban/props/signs/street_signs.bmp	</Texture>
+					</property>
+					<property>	materialSpecular
+						<Vector4>	0.521569 0.521569 0.521569 1.000000	</Vector4>
+					</property>
+					<property>	reflectionAmount
+						<Float>	0.490000	</Float>
+					</property>
+					<property>	fresnelConstant
+						<Float>	0.083000	</Float>
+					</property>
+					<property>	fresnelExp
+						<Float>	4.810000	</Float>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<boundingBox>
+		<min>	-0.688776 -0.003291 -0.679575	</min>
+		<max>	0.688776 0.018152 0.354939	</max>
+	</boundingBox>
+	<materialKind>	4	</materialKind>
+</workmen_streetsign.visual>

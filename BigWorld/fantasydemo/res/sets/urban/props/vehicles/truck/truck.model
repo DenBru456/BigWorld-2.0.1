@@ -1,0 +1,89 @@
+<root>
+	<materialNames>
+		<material>
+			<original>	Truck A	</original>
+			<display>	Truck_Cab	</display>
+		</material>
+		<material>
+			<original>	Truck Ab	</original>
+			<display>	Truck_Container	</display>
+		</material>
+	</materialNames>
+	<visibilityBox>
+		<min>	-1.063792 -0.012469 -2.858477	</min>
+		<max>	1.063792 2.905137 3.547421	</max>
+	</visibilityBox>
+	<dye>
+		<matter>	Truck_Ab	</matter>
+		<replaces>	Truck Ab	</replaces>
+		<tint>
+			<name>	Umbra_Container	</name>
+			<material>
+				<identifier>	Truck Ab	</identifier>
+				<fx>	shaders/std_effects/normalmap_specmap_chrome.fx	</fx>
+				<collisionFlags>	0	</collisionFlags>
+				<materialKind>	0	</materialKind>
+				<property>	reflectionMask
+					<Texture>	sets/urban/props/vehicles/truck/maps/truck_container_spec.bmp	</Texture>
+				</property>
+				<property>	reflectionMap
+					<Texture>	sets/urban/fx/maps/cubemap_urban.dds	</Texture>
+				</property>
+				<property>	specularMap
+					<Texture>	sets/urban/props/vehicles/truck/maps/truck_container_spec.bmp	</Texture>
+				</property>
+				<property>	normalMap
+					<Texture>	sets/urban/props/vehicles/truck/maps/truck_container_norms.bmp	</Texture>
+				</property>
+				<property>	diffuseMap
+					<Texture>	sets/urban/props/vehicles/truck/maps/truck_umbra_logo.bmp	</Texture>
+				</property>
+			</material>
+		</tint>
+	</dye>
+	<dye>
+		<matter>	Truck_A	</matter>
+		<replaces>	Truck A	</replaces>
+		<tint>
+			<name>	lights_on	</name>
+			<material>
+				<fx>	shaders/std_effects/normalmap_specmap_chrome_glow.fx	</fx>
+				<collisionFlags>	0	</collisionFlags>
+				<materialKind>	0	</materialKind>
+				<property>	reflectionMask
+					<Texture>	sets/urban/props/vehicles/truck/maps/truck_cab_spec.bmp	</Texture>
+				</property>
+				<property>	reflectionMap
+					<Texture>	sets/urban/fx/maps/cubemap_urban.dds	</Texture>
+				</property>
+				<property>	specularMap
+					<Texture>	sets/urban/props/vehicles/truck/maps/truck_cab_spec.bmp	</Texture>
+				</property>
+				<property>	glowMap
+					<Texture>	sets/urban/props/vehicles/truck/maps/truck_cab_glow.bmp	</Texture>
+				</property>
+				<property>	glowFactor
+					<Float>	2.000000	</Float>
+				</property>
+				<property>	normalMap
+					<Texture>	sets/urban/props/vehicles/truck/maps/truck_cab_norms.bmp	</Texture>
+				</property>
+				<property>	diffuseMap
+					<Texture>	sets/urban/props/vehicles/truck/maps/truck_cab_diff.bmp	</Texture>
+				</property>
+				<property>	reflectionAmount
+					<Float>	1.000000	</Float>
+				</property>
+			</material>
+		</tint>
+	</dye>
+	<extent>	450.000000	</extent>
+	<metaData>
+		<copyright>	Copyright owned by the3dstudio.com	</copyright>
+		<created_by>	adamm	</created_by>
+		<created_on>	1252544380	</created_on>
+		<modified_by>	adamm	</modified_by>
+		<modified_on>	1255905923	</modified_on>
+	</metaData>
+	<nodelessVisual>	sets/urban/props/vehicles/truck/truck	</nodelessVisual>
+</root>

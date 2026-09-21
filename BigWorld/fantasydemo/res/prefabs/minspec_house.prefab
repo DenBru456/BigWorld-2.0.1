@@ -1,0 +1,1075 @@
+<minspec_house.prefab>
+	<chunks>
+		<chunk0.chunk>
+			<shell>
+				<resource>	sets/minspec/shells/house/house_interior.model	</resource>
+				<transform>
+					<row0>	1.000000 0.000000 0.000000	</row0>
+					<row1>	0.000000 1.000000 0.000000	</row1>
+					<row2>	0.000000 0.000000 1.000000	</row2>
+					<row3>	0.000000 0.000000 0.000000	</row3>
+				</transform>
+				<editorOnly>
+					<castsShadow>	true	</castsShadow>
+					<hidden>	false	</hidden>
+					<frozen>	false	</frozen>
+				</editorOnly>
+				<reflectionVisible>	true	</reflectionVisible>
+				<metaData>	</metaData>
+				<staticLighting>
+					<offset>	0	</offset>
+					<size>	8080	</size>
+				</staticLighting>
+			</shell>
+			<omniLight>
+				<editorOnly>
+					<hidden>	false	</hidden>
+					<frozen>	false	</frozen>
+				</editorOnly>
+				<colour>	122.000023 162.000000 254.000046	</colour>
+				<position>	-3.451653 9.620377 -1.057220	</position>
+				<innerRadius>	2.843914	</innerRadius>
+				<outerRadius>	5.748497	</outerRadius>
+				<dynamic>	false	</dynamic>
+				<static>	true	</static>
+				<specular>	false	</specular>
+				<multiplier>	1.000000	</multiplier>
+			</omniLight>
+			<omniLight>
+				<editorOnly>
+					<hidden>	false	</hidden>
+					<frozen>	false	</frozen>
+				</editorOnly>
+				<colour>	122.000031 162.000000 254.000061	</colour>
+				<position>	3.775322 9.515472 -1.394958	</position>
+				<innerRadius>	0.945657	</innerRadius>
+				<outerRadius>	6.230397	</outerRadius>
+				<dynamic>	false	</dynamic>
+				<static>	true	</static>
+				<specular>	false	</specular>
+				<multiplier>	1.000000	</multiplier>
+			</omniLight>
+			<ambientLight>
+				<editorOnly>
+					<hidden>	false	</hidden>
+					<frozen>	false	</frozen>
+				</editorOnly>
+				<colour>	95.000000 51.000008 3.000000	</colour>
+				<multiplier>	1.000000	</multiplier>
+			</ambientLight>
+			<pulseLight>
+				<editorOnly>
+					<hidden>	false	</hidden>
+					<frozen>	false	</frozen>
+				</editorOnly>
+				<colour>	255.000000 255.000000 255.000000	</colour>
+				<position>	-2.826904 2.398514 4.335068	</position>
+				<innerRadius>	1.000000	</innerRadius>
+				<outerRadius>	8.185780	</outerRadius>
+				<multiplier>	1.000000	</multiplier>
+				<timeScale>	0.500000	</timeScale>
+				<duration>	6.600000	</duration>
+				<animation>	system/animation/lightnoise.animation	</animation>
+				<frame>	0.000000 0.450000	</frame>
+				<frame>	0.600000 0.650000	</frame>
+				<frame>	0.700000 0.400000	</frame>
+				<frame>	0.900000 0.650000	</frame>
+				<frame>	1.200000 0.410000	</frame>
+				<frame>	1.500000 0.650000	</frame>
+				<frame>	1.700000 0.410000	</frame>
+				<frame>	1.900000 0.700000	</frame>
+				<frame>	2.100000 0.450000	</frame>
+				<frame>	2.400000 0.620000	</frame>
+				<frame>	2.700000 0.540000	</frame>
+				<frame>	3.200000 0.620000	</frame>
+				<frame>	3.700000 0.520000	</frame>
+				<frame>	3.900000 0.680000	</frame>
+				<frame>	4.200000 0.380000	</frame>
+				<frame>	4.400000 0.660000	</frame>
+				<frame>	4.800000 0.560000	</frame>
+				<frame>	5.500000 0.660000	</frame>
+				<frame>	5.800000 0.420000	</frame>
+				<frame>	6.300000 0.600000	</frame>
+				<frame>	6.500000 0.540000	</frame>
+			</pulseLight>
+			<omniLight>
+				<editorOnly>
+					<hidden>	false	</hidden>
+					<frozen>	false	</frozen>
+				</editorOnly>
+				<colour>	255.000000 215.000031 132.000000	</colour>
+				<position>	-2.847973 2.641068 4.311768	</position>
+				<innerRadius>	2.843914	</innerRadius>
+				<outerRadius>	7.436202	</outerRadius>
+				<dynamic>	true	</dynamic>
+				<static>	true	</static>
+				<specular>	false	</specular>
+				<multiplier>	1.000000	</multiplier>
+			</omniLight>
+			<model>
+				<editorOnly>
+					<hidden>	false	</hidden>
+					<frozen>	false	</frozen>
+					<castsShadow>	true	</castsShadow>
+				</editorOnly>
+				<resource>	sets/minspec/props/barrel/models/barrel.model	</resource>
+				<transform>
+					<row0>	0.998282 0.001717 0.058568	</row0>
+					<row1>	-0.000029 0.999584 -0.028834	</row1>
+					<row2>	-0.058592 0.028782 0.997868	</row2>
+					<row3>	-1.308659 1.571594 4.853378	</row3>
+				</transform>
+				<reflectionVisible>	false	</reflectionVisible>
+				<metaData>	</metaData>
+				<staticLighting>
+					<offset>	8080	</offset>
+					<size>	5516	</size>
+				</staticLighting>
+			</model>
+			<model>
+				<editorOnly>
+					<hidden>	false	</hidden>
+					<frozen>	false	</frozen>
+					<castsShadow>	true	</castsShadow>
+				</editorOnly>
+				<resource>	sets/minspec/props/barrel/models/barrel.model	</resource>
+				<transform>
+					<row0>	0.664688 0.021991 0.746798	</row0>
+					<row1>	-0.000005 0.999567 -0.029433	</row1>
+					<row2>	-0.747122 0.019560 0.664401	</row2>
+					<row3>	-0.497086 1.572998 4.901199	</row3>
+				</transform>
+				<reflectionVisible>	false	</reflectionVisible>
+				<metaData>	</metaData>
+				<staticLighting>
+					<offset>	13596	</offset>
+					<size>	5516	</size>
+				</staticLighting>
+			</model>
+			<model>
+				<editorOnly>
+					<hidden>	false	</hidden>
+					<frozen>	false	</frozen>
+					<castsShadow>	true	</castsShadow>
+				</editorOnly>
+				<resource>	sets/minspec/props/barrel/models/barrel.model	</resource>
+				<transform>
+					<row0>	0.998282 0.001733 0.058568	</row0>
+					<row1>	0.000005 0.999560 -0.029679	</row1>
+					<row2>	-0.058592 0.029627 0.997843	</row2>
+					<row3>	-0.927387 2.675919 4.941833	</row3>
+				</transform>
+				<reflectionVisible>	false	</reflectionVisible>
+				<metaData>	</metaData>
+				<staticLighting>
+					<offset>	19112	</offset>
+					<size>	5516	</size>
+				</staticLighting>
+			</model>
+			<model>
+				<editorOnly>
+					<hidden>	false	</hidden>
+					<frozen>	false	</frozen>
+					<castsShadow>	true	</castsShadow>
+				</editorOnly>
+				<resource>	sets/minspec/props/barrel/models/barrel_cabbage.model	</resource>
+				<transform>
+					<row0>	0.172326 -0.004541 -0.985030	</row0>
+					<row1>	-0.000432 0.999989 -0.004686	</row1>
+					<row2>	0.985040 0.001232 0.172321	</row2>
+					<row3>	3.959515 1.509537 -2.297897	</row3>
+				</transform>
+				<reflectionVisible>	false	</reflectionVisible>
+				<metaData>	</metaData>
+				<staticLighting>
+					<offset>	24628	</offset>
+					<size>	6836	</size>
+				</staticLighting>
+			</model>
+			<model>
+				<editorOnly>
+					<hidden>	false	</hidden>
+					<frozen>	false	</frozen>
+					<castsShadow>	true	</castsShadow>
+				</editorOnly>
+				<resource>	sets/minspec/props/table/models/table.model	</resource>
+				<transform>
+					<row0>	0.172325 -0.000480 -0.985040	</row0>
+					<row1>	-0.000004 1.000000 -0.000488	</row1>
+					<row2>	0.985040 0.000088 0.172325	</row2>
+					<row3>	3.128998 1.526108 1.427612	</row3>
+				</transform>
+				<reflectionVisible>	false	</reflectionVisible>
+				<metaData>	</metaData>
+				<staticLighting>
+					<offset>	31464	</offset>
+					<size>	6484	</size>
+				</staticLighting>
+			</model>
+			<model>
+				<editorOnly>
+					<hidden>	false	</hidden>
+					<frozen>	false	</frozen>
+					<castsShadow>	true	</castsShadow>
+				</editorOnly>
+				<resource>	sets/minspec/props/table/models/table.model	</resource>
+				<transform>
+					<row0>	0.172325 0.000282 -0.985040	</row0>
+					<row1>	0.000050 1.000000 0.000295	</row1>
+					<row2>	0.985041 -0.000100 0.172325	</row2>
+					<row3>	-2.516701 1.526428 0.328445	</row3>
+				</transform>
+				<reflectionVisible>	false	</reflectionVisible>
+				<metaData>	</metaData>
+				<staticLighting>
+					<offset>	37948	</offset>
+					<size>	6484	</size>
+				</staticLighting>
+			</model>
+			<model>
+				<editorOnly>
+					<hidden>	false	</hidden>
+					<frozen>	false	</frozen>
+					<castsShadow>	true	</castsShadow>
+				</editorOnly>
+				<resource>	sets/minspec/props/barrel/models/barrel_apples.model	</resource>
+				<transform>
+					<row0>	0.172326 -0.004541 -0.985030	</row0>
+					<row1>	-0.000432 0.999989 -0.004686	</row1>
+					<row2>	0.985040 0.001232 0.172321	</row2>
+					<row3>	3.138447 1.509415 -2.243896	</row3>
+				</transform>
+				<reflectionVisible>	false	</reflectionVisible>
+				<metaData>	</metaData>
+				<staticLighting>
+					<offset>	44432	</offset>
+					<size>	8340	</size>
+				</staticLighting>
+			</model>
+			<model>
+				<editorOnly>
+					<hidden>	false	</hidden>
+					<frozen>	false	</frozen>
+					<castsShadow>	true	</castsShadow>
+				</editorOnly>
+				<resource>	sets/temperate/props/fd_campfire.model	</resource>
+				<transform>
+					<row0>	-0.819887 -0.000001 0.572526	</row0>
+					<row1>	-0.000117 1.000000 -0.000166	</row1>
+					<row2>	-0.572526 -0.000204 -0.819887	</row2>
+					<row3>	-2.963314 1.593170 4.727737	</row3>
+				</transform>
+				<reflectionVisible>	false	</reflectionVisible>
+				<metaData>	</metaData>
+				<staticLighting>
+					<offset>	52772	</offset>
+					<size>	2920	</size>
+				</staticLighting>
+			</model>
+			<particles>
+				<editorOnly>
+					<hidden>	false	</hidden>
+					<frozen>	false	</frozen>
+				</editorOnly>
+				<resource>	particles/fireplace_fire.xml	</resource>
+				<transform>
+					<row0>	-0.836029 0.000000 0.548688	</row0>
+					<row1>	0.000000 0.999999 0.000000	</row1>
+					<row2>	-0.548688 0.000000 -0.836029	</row2>
+					<row3>	-2.904770 1.898109 4.589218	</row3>
+				</transform>
+				<reflectionVisible>	false	</reflectionVisible>
+			</particles>
+			<model>
+				<editorOnly>
+					<hidden>	false	</hidden>
+					<frozen>	false	</frozen>
+					<castsShadow>	true	</castsShadow>
+				</editorOnly>
+				<resource>	sets/town/props/t_candle.model	</resource>
+				<transform>
+					<row0>	-0.278236 0.131998 1.198217	</row0>
+					<row1>	0.007232 1.229878 -0.133806	</row1>
+					<row2>	-1.205445 -0.023089 -0.277371	</row2>
+					<row3>	-1.908585 3.713371 3.794830	</row3>
+				</transform>
+				<reflectionVisible>	false	</reflectionVisible>
+			</model>
+			<model>
+				<editorOnly>
+					<hidden>	false	</hidden>
+					<frozen>	false	</frozen>
+					<castsShadow>	true	</castsShadow>
+				</editorOnly>
+				<resource>	sets/town/props/t_candle.model	</resource>
+				<transform>
+					<row0>	0.679027 -0.112575 -0.725430	</row0>
+					<row1>	0.056085 0.993238 -0.101638	</row1>
+					<row2>	0.731968 0.028329 0.680749	</row2>
+					<row3>	-2.157166 3.718544 3.765121	</row3>
+				</transform>
+				<reflectionVisible>	false	</reflectionVisible>
+			</model>
+			<model>
+				<editorOnly>
+					<hidden>	false	</hidden>
+					<frozen>	false	</frozen>
+					<castsShadow>	true	</castsShadow>
+				</editorOnly>
+				<resource>	sets/town/props/t_candle.model	</resource>
+				<transform>
+					<row0>	0.133976 -0.064909 -0.576816	</row0>
+					<row1>	0.008533 1.476295 -0.164147	</row1>
+					<row2>	0.708677 0.014031 0.163025	</row2>
+					<row3>	-3.846069 3.708870 3.650299	</row3>
+				</transform>
+				<reflectionVisible>	false	</reflectionVisible>
+			</model>
+			<flare>
+				<editorOnly>
+					<hidden>	false	</hidden>
+					<frozen>	false	</frozen>
+				</editorOnly>
+				<resource>	environments/fx/corona.xml	</resource>
+				<position>	-1.902374 4.125404 3.734070	</position>
+				<maxDistance>	150.000000	</maxDistance>
+				<area>	1.000000	</area>
+				<fadeSpeed>	1.000000	</fadeSpeed>
+				<colour>	254.000015 198.000015 114.000008	</colour>
+			</flare>
+			<flare>
+				<editorOnly>
+					<hidden>	false	</hidden>
+					<frozen>	false	</frozen>
+				</editorOnly>
+				<resource>	environments/fx/corona.xml	</resource>
+				<position>	-2.142578 4.094933 3.728394	</position>
+				<maxDistance>	150.000000	</maxDistance>
+				<area>	1.000000	</area>
+				<fadeSpeed>	1.000000	</fadeSpeed>
+				<colour>	254.000015 198.000015 114.000008	</colour>
+			</flare>
+			<flare>
+				<editorOnly>
+					<hidden>	false	</hidden>
+					<frozen>	false	</frozen>
+				</editorOnly>
+				<resource>	environments/fx/corona.xml	</resource>
+				<position>	-3.841248 4.191383 3.600861	</position>
+				<maxDistance>	150.000000	</maxDistance>
+				<area>	1.000000	</area>
+				<fadeSpeed>	1.000000	</fadeSpeed>
+				<colour>	254.000015 198.000015 114.000008	</colour>
+			</flare>
+			<transform>
+				<row0>	0.836028 0.000000 0.548687	</row0>
+				<row1>	0.000000 1.000000 0.000000	</row1>
+				<row2>	-0.548687 0.000000 0.836028	</row2>
+				<row3>	1.388702 -2.932106 -1.029968	</row3>
+			</transform>
+			<boundingBox>
+				<min>	-7.818390 -1.668945 -8.557343	</min>
+				<max>	10.078781 124.634125 7.850891	</max>
+			</boundingBox>
+			<entity>
+				<editorOnly>
+					<hidden>	false	</hidden>
+					<frozen>	false	</frozen>
+				</editorOnly>
+				<metaData>	</metaData>
+				<guid>	89D941E9.4AD3D15E.5B03EA9A.58F8F454	</guid>
+				<type>	Seat	</type>
+				<transform>
+					<row0>	-0.818583 -0.000001 0.574387	</row0>
+					<row1>	-0.000000 0.999998 0.000000	</row1>
+					<row2>	-0.574387 -0.000000 -0.818581	</row2>
+					<row3>	1.823448 1.526047 2.941086	</row3>
+				</transform>
+				<clientOnly>	false	</clientOnly>
+				<properties>
+					<seatType>	3	</seatType>
+					<patrolPathNode>	</patrolPathNode>
+				</properties>
+				<backLinks>	</backLinks>
+			</entity>
+			<entity>
+				<editorOnly>
+					<hidden>	false	</hidden>
+					<frozen>	false	</frozen>
+				</editorOnly>
+				<metaData>	</metaData>
+				<guid>	A26AB7DD.4CB7FF97.42CA69AA.06279FA6	</guid>
+				<type>	Seat	</type>
+				<transform>
+					<row0>	-0.088163 -0.007719 -0.996075	</row0>
+					<row1>	-0.001230 0.999968 -0.007640	</row1>
+					<row2>	0.996103 0.000551 -0.088172	</row2>
+					<row3>	3.364624 1.516556 -0.923798	</row3>
+				</transform>
+				<clientOnly>	false	</clientOnly>
+				<properties>
+					<seatType>	3	</seatType>
+					<patrolPathNode>	</patrolPathNode>
+				</properties>
+				<backLinks>	</backLinks>
+			</entity>
+			<entity>
+				<editorOnly>
+					<hidden>	false	</hidden>
+					<frozen>	false	</frozen>
+				</editorOnly>
+				<metaData>	</metaData>
+				<guid>	10936DAD.422A8720.1072538E.BD7DDF74	</guid>
+				<type>	Seat	</type>
+				<transform>
+					<row0>	0.906736 0.000012 0.421697	</row0>
+					<row1>	-0.000011 0.999998 -0.000004	</row1>
+					<row2>	-0.421694 -0.000002 0.906736	</row2>
+					<row3>	-0.678596 1.526077 1.510803	</row3>
+				</transform>
+				<clientOnly>	false	</clientOnly>
+				<properties>
+					<seatType>	3	</seatType>
+					<patrolPathNode>	</patrolPathNode>
+				</properties>
+				<backLinks>	</backLinks>
+			</entity>
+		</chunk0.chunk>
+	</chunks>
+	<items>
+		<omniLight>
+			<editorOnly>
+				<hidden>	false	</hidden>
+				<frozen>	false	</frozen>
+			</editorOnly>
+			<colour>	122.000031 162.000000 254.000061	</colour>
+			<position>	3.775322 9.515472 -1.394958	</position>
+			<innerRadius>	0.945657	</innerRadius>
+			<outerRadius>	6.230397	</outerRadius>
+			<dynamic>	false	</dynamic>
+			<static>	true	</static>
+			<specular>	false	</specular>
+			<multiplier>	1.000000	</multiplier>
+			<prefabTransform>
+				<row0>	0.836028 0.000000 0.548687	</row0>
+				<row1>	0.000000 1.000000 0.000000	</row1>
+				<row2>	-0.548687 0.000000 0.836028	</row2>
+				<row3>	5.310379 6.583366 -0.124725	</row3>
+			</prefabTransform>
+		</omniLight>
+		<omniLight>
+			<editorOnly>
+				<hidden>	false	</hidden>
+				<frozen>	false	</frozen>
+			</editorOnly>
+			<colour>	122.000023 162.000000 254.000046	</colour>
+			<position>	-3.451653 9.620377 -1.057220	</position>
+			<innerRadius>	2.843914	</innerRadius>
+			<outerRadius>	5.748497	</outerRadius>
+			<dynamic>	false	</dynamic>
+			<static>	true	</static>
+			<specular>	false	</specular>
+			<multiplier>	1.000000	</multiplier>
+			<prefabTransform>
+				<row0>	0.836028 0.000000 0.548687	</row0>
+				<row1>	0.000000 1.000000 0.000000	</row1>
+				<row2>	-0.548687 0.000000 0.836028	</row2>
+				<row3>	-0.916901 6.688271 -3.807739	</row3>
+			</prefabTransform>
+		</omniLight>
+		<ambientLight>
+			<editorOnly>
+				<hidden>	false	</hidden>
+				<frozen>	false	</frozen>
+			</editorOnly>
+			<colour>	95.000000 51.000008 3.000000	</colour>
+			<multiplier>	1.000000	</multiplier>
+			<prefabTransform>
+				<row0>	0.836028 0.000000 0.548687	</row0>
+				<row1>	0.000000 1.000000 0.000000	</row1>
+				<row2>	-0.548687 0.000000 0.836028	</row2>
+				<row3>	1.130142 4.923286 -0.353210	</row3>
+			</prefabTransform>
+		</ambientLight>
+		<flare>
+			<editorOnly>
+				<hidden>	false	</hidden>
+				<frozen>	false	</frozen>
+			</editorOnly>
+			<resource>	environments/fx/corona.xml	</resource>
+			<position>	-3.841248 4.191383 3.600861	</position>
+			<maxDistance>	150.000000	</maxDistance>
+			<area>	1.000000	</area>
+			<fadeSpeed>	1.000000	</fadeSpeed>
+			<colour>	254.000015 198.000015 114.000008	</colour>
+			<prefabTransform>
+				<row0>	0.836028 0.000000 0.548687	</row0>
+				<row1>	0.000000 1.000000 0.000000	</row1>
+				<row2>	-0.548687 0.000000 0.836028	</row2>
+				<row3>	-3.798431 1.259277 -0.127197	</row3>
+			</prefabTransform>
+		</flare>
+		<flare>
+			<editorOnly>
+				<hidden>	false	</hidden>
+				<frozen>	false	</frozen>
+			</editorOnly>
+			<resource>	environments/fx/corona.xml	</resource>
+			<position>	-2.142578 4.094933 3.728394	</position>
+			<maxDistance>	150.000000	</maxDistance>
+			<area>	1.000000	</area>
+			<fadeSpeed>	1.000000	</fadeSpeed>
+			<colour>	254.000015 198.000015 114.000008	</colour>
+			<prefabTransform>
+				<row0>	0.836028 0.000000 0.548687	</row0>
+				<row1>	0.000000 1.000000 0.000000	</row1>
+				<row2>	-0.548687 0.000000 0.836028	</row2>
+				<row3>	-2.448273 1.162827 0.911469	</row3>
+			</prefabTransform>
+		</flare>
+		<flare>
+			<editorOnly>
+				<hidden>	false	</hidden>
+				<frozen>	false	</frozen>
+			</editorOnly>
+			<resource>	environments/fx/corona.xml	</resource>
+			<position>	-1.902374 4.125404 3.734070	</position>
+			<maxDistance>	150.000000	</maxDistance>
+			<area>	1.000000	</area>
+			<fadeSpeed>	1.000000	</fadeSpeed>
+			<colour>	254.000015 198.000015 114.000008	</colour>
+			<prefabTransform>
+				<row0>	0.836028 0.000000 0.548687	</row0>
+				<row1>	0.000000 1.000000 0.000000	</row1>
+				<row2>	-0.548687 0.000000 0.836028	</row2>
+				<row3>	-2.250549 1.193298 1.048035	</row3>
+			</prefabTransform>
+		</flare>
+		<model>
+			<editorOnly>
+				<hidden>	false	</hidden>
+				<frozen>	false	</frozen>
+				<castsShadow>	true	</castsShadow>
+			</editorOnly>
+			<resource>	sets/town/props/t_candle.model	</resource>
+			<transform>
+				<row0>	0.133976 -0.064909 -0.576816	</row0>
+				<row1>	0.008533 1.476295 -0.164147	</row1>
+				<row2>	0.708677 0.014031 0.163025	</row2>
+				<row3>	-3.846069 3.708870 3.650299	</row3>
+			</transform>
+			<reflectionVisible>	false	</reflectionVisible>
+			<prefabTransform>
+				<row0>	0.428499 -0.064909 -0.408723	</row0>
+				<row1>	0.097199 1.476295 -0.132550	</row1>
+				<row2>	0.503024 0.014031 0.525135	</row2>
+				<row3>	-3.829590 0.776764 -0.088501	</row3>
+			</prefabTransform>
+		</model>
+		<model>
+			<editorOnly>
+				<hidden>	false	</hidden>
+				<frozen>	false	</frozen>
+				<castsShadow>	true	</castsShadow>
+			</editorOnly>
+			<resource>	sets/minspec/props/barrel/models/barrel.model	</resource>
+			<transform>
+				<row0>	0.998282 0.001733 0.058568	</row0>
+				<row1>	0.000005 0.999560 -0.029679	</row1>
+				<row2>	-0.058592 0.029627 0.997843	</row2>
+				<row3>	-0.927387 2.675919 4.941833	</row3>
+			</transform>
+			<reflectionVisible>	false	</reflectionVisible>
+			<metaData>	</metaData>
+			<staticLighting>
+				<offset>	19112	</offset>
+				<size>	5516	</size>
+			</staticLighting>
+			<prefabTransform>
+				<row0>	0.802456 0.001733 0.596709	</row0>
+				<row1>	0.016289 0.999560 -0.024810	</row1>
+				<row2>	-0.596488 0.029627 0.802076	</row2>
+				<row3>	-2.098145 -0.256187 2.592682	</row3>
+			</prefabTransform>
+		</model>
+		<model>
+			<editorOnly>
+				<hidden>	false	</hidden>
+				<frozen>	false	</frozen>
+				<castsShadow>	true	</castsShadow>
+			</editorOnly>
+			<resource>	sets/town/props/t_candle.model	</resource>
+			<transform>
+				<row0>	-0.278236 0.131998 1.198217	</row0>
+				<row1>	0.007232 1.229878 -0.133806	</row1>
+				<row2>	-1.205445 -0.023089 -0.277371	</row2>
+				<row3>	-1.908585 3.713371 3.794830	</row3>
+			</transform>
+			<reflectionVisible>	false	</reflectionVisible>
+			<prefabTransform>
+				<row0>	-0.890059 0.131998 0.849078	</row0>
+				<row1>	0.079464 1.229878 -0.107897	</row1>
+				<row2>	-0.855596 -0.023089 -0.893302	</row2>
+				<row3>	-2.289093 0.781265 1.095398	</row3>
+			</prefabTransform>
+		</model>
+		<model>
+			<editorOnly>
+				<hidden>	false	</hidden>
+				<frozen>	false	</frozen>
+				<castsShadow>	true	</castsShadow>
+			</editorOnly>
+			<resource>	sets/town/props/t_candle.model	</resource>
+			<transform>
+				<row0>	0.679027 -0.112575 -0.725430	</row0>
+				<row1>	0.056085 0.993238 -0.101638	</row1>
+				<row2>	0.731968 0.028329 0.680749	</row2>
+				<row3>	-2.157166 3.718544 3.765121	</row3>
+			</transform>
+			<reflectionVisible>	false	</reflectionVisible>
+			<prefabTransform>
+				<row0>	0.965720 -0.112575 -0.233906	</row0>
+				<row1>	0.102656 0.993238 -0.054199	</row1>
+				<row2>	0.238428 0.028329 0.970747	</row2>
+				<row3>	-2.480621 0.786438 0.934174	</row3>
+			</prefabTransform>
+		</model>
+		<pulseLight>
+			<editorOnly>
+				<hidden>	false	</hidden>
+				<frozen>	false	</frozen>
+			</editorOnly>
+			<colour>	255.000000 255.000000 255.000000	</colour>
+			<position>	-2.826904 2.398514 4.335068	</position>
+			<innerRadius>	1.000000	</innerRadius>
+			<outerRadius>	8.185780	</outerRadius>
+			<multiplier>	1.000000	</multiplier>
+			<timeScale>	0.500000	</timeScale>
+			<duration>	6.600000	</duration>
+			<animation>	system/animation/lightnoise.animation	</animation>
+			<frame>	0.000000 0.450000	</frame>
+			<frame>	0.600000 0.650000	</frame>
+			<frame>	0.700000 0.400000	</frame>
+			<frame>	0.900000 0.650000	</frame>
+			<frame>	1.200000 0.410000	</frame>
+			<frame>	1.500000 0.650000	</frame>
+			<frame>	1.700000 0.410000	</frame>
+			<frame>	1.900000 0.700000	</frame>
+			<frame>	2.100000 0.450000	</frame>
+			<frame>	2.400000 0.620000	</frame>
+			<frame>	2.700000 0.540000	</frame>
+			<frame>	3.200000 0.620000	</frame>
+			<frame>	3.700000 0.520000	</frame>
+			<frame>	3.900000 0.680000	</frame>
+			<frame>	4.200000 0.380000	</frame>
+			<frame>	4.400000 0.660000	</frame>
+			<frame>	4.800000 0.560000	</frame>
+			<frame>	5.500000 0.660000	</frame>
+			<frame>	5.800000 0.420000	</frame>
+			<frame>	6.300000 0.600000	</frame>
+			<frame>	6.500000 0.540000	</frame>
+			<prefabTransform>
+				<row0>	0.836028 0.000000 0.548687	</row0>
+				<row1>	0.000000 1.000000 0.000000	</row1>
+				<row2>	-0.548687 0.000000 0.836028	</row2>
+				<row3>	-3.353271 -0.533592 1.043182	</row3>
+			</prefabTransform>
+		</pulseLight>
+		<omniLight>
+			<editorOnly>
+				<hidden>	false	</hidden>
+				<frozen>	false	</frozen>
+			</editorOnly>
+			<colour>	255.000000 215.000031 132.000000	</colour>
+			<position>	-2.847973 2.641068 4.311768	</position>
+			<innerRadius>	2.843914	</innerRadius>
+			<outerRadius>	7.436202	</outerRadius>
+			<dynamic>	true	</dynamic>
+			<static>	true	</static>
+			<specular>	false	</specular>
+			<multiplier>	1.000000	</multiplier>
+			<prefabTransform>
+				<row0>	0.836028 0.000000 0.548687	</row0>
+				<row1>	0.000000 1.000000 0.000000	</row1>
+				<row2>	-0.548687 0.000000 0.836028	</row2>
+				<row3>	-3.358093 -0.291039 1.012146	</row3>
+			</prefabTransform>
+		</omniLight>
+		<omniLight>
+			<editorOnly>
+				<hidden>	false	</hidden>
+				<frozen>	false	</frozen>
+			</editorOnly>
+			<colour>	122.000038 162.000000 254.000076	</colour>
+			<position>	0.407593 3.388153 -4.560028	</position>
+			<innerRadius>	0.945657	</innerRadius>
+			<outerRadius>	6.230397	</outerRadius>
+			<dynamic>	false	</dynamic>
+			<static>	true	</static>
+			<specular>	false	</specular>
+			<multiplier>	1.000000	</multiplier>
+			<prefabTransform>
+				<row0>	0.836028 0.000000 0.548687	</row0>
+				<row1>	0.000000 1.000000 0.000000	</row1>
+				<row2>	-0.548687 0.000000 0.836028	</row2>
+				<row3>	4.231506 0.456032 -4.618683	</row3>
+			</prefabTransform>
+		</omniLight>
+		<model>
+			<editorOnly>
+				<hidden>	false	</hidden>
+				<frozen>	false	</frozen>
+				<castsShadow>	true	</castsShadow>
+			</editorOnly>
+			<resource>	sets/minspec/props/barrel/models/barrel.model	</resource>
+			<transform>
+				<row0>	0.998282 0.001717 0.058568	</row0>
+				<row1>	-0.000029 0.999584 -0.028834	</row1>
+				<row2>	-0.058592 0.028782 0.997868	</row2>
+				<row3>	-1.308659 1.571594 4.853378	</row3>
+			</transform>
+			<reflectionVisible>	false	</reflectionVisible>
+			<metaData>	</metaData>
+			<staticLighting>
+				<offset>	8080	</offset>
+				<size>	5516	</size>
+			</staticLighting>
+			<prefabTransform>
+				<row0>	0.802456 0.001717 0.596709	</row0>
+				<row1>	0.015797 0.999584 -0.024122	</row1>
+				<row2>	-0.596502 0.028782 0.802097	</row2>
+				<row3>	-2.368347 -1.360512 2.309540	</row3>
+			</prefabTransform>
+		</model>
+		<model>
+			<editorOnly>
+				<hidden>	false	</hidden>
+				<frozen>	false	</frozen>
+				<castsShadow>	true	</castsShadow>
+			</editorOnly>
+			<resource>	sets/minspec/props/barrel/models/barrel.model	</resource>
+			<transform>
+				<row0>	0.664688 0.021991 0.746798	</row0>
+				<row1>	-0.000005 0.999567 -0.029433	</row1>
+				<row2>	-0.747122 0.019560 0.664401	</row2>
+				<row3>	-0.497086 1.572998 4.901199	</row3>
+			</transform>
+			<reflectionVisible>	false	</reflectionVisible>
+			<metaData>	</metaData>
+			<staticLighting>
+				<offset>	13596	</offset>
+				<size>	5516	</size>
+			</staticLighting>
+			<prefabTransform>
+				<row0>	0.145939 0.021991 0.989050	</row0>
+				<row1>	0.016145 0.999567 -0.024610	</row1>
+				<row2>	-0.989163 0.019560 0.145522	</row2>
+				<row3>	-1.716095 -1.359108 2.794830	</row3>
+			</prefabTransform>
+		</model>
+		<model>
+			<editorOnly>
+				<hidden>	false	</hidden>
+				<frozen>	false	</frozen>
+				<castsShadow>	true	</castsShadow>
+			</editorOnly>
+			<resource>	sets/temperate/props/fd_campfire.model	</resource>
+			<transform>
+				<row0>	-0.819887 -0.000001 0.572526	</row0>
+				<row1>	-0.000117 1.000000 -0.000166	</row1>
+				<row2>	-0.572526 -0.000204 -0.819887	</row2>
+				<row3>	-2.963314 1.593170 4.727737	</row3>
+			</transform>
+			<reflectionVisible>	false	</reflectionVisible>
+			<metaData>	</metaData>
+			<staticLighting>
+				<offset>	52772	</offset>
+				<size>	2920	</size>
+			</staticLighting>
+			<prefabTransform>
+				<row0>	-0.999586 -0.000001 0.028786	</row0>
+				<row1>	-0.000007 1.000000 -0.000203	</row1>
+				<row2>	-0.028786 -0.000204 -0.999586	</row2>
+				<row3>	-3.682770 -1.338936 1.296600	</row3>
+			</prefabTransform>
+		</model>
+		<ambientLight>
+			<editorOnly>
+				<hidden>	false	</hidden>
+				<frozen>	false	</frozen>
+			</editorOnly>
+			<colour>	95.000000 51.000008 3.000000	</colour>
+			<multiplier>	1.000000	</multiplier>
+			<prefabTransform>
+				<row0>	0.836028 0.000000 0.548687	</row0>
+				<row1>	0.000000 1.000000 0.000000	</row1>
+				<row2>	-0.548687 0.000000 0.836028	</row2>
+				<row3>	3.829483 0.263191 -4.203308	</row3>
+			</prefabTransform>
+		</ambientLight>
+		<model>
+			<editorOnly>
+				<hidden>	false	</hidden>
+				<frozen>	false	</frozen>
+				<castsShadow>	true	</castsShadow>
+			</editorOnly>
+			<resource>	sets/minspec/props/table/models/table.model	</resource>
+			<transform>
+				<row0>	0.172325 0.000282 -0.985040	</row0>
+				<row1>	0.000050 1.000000 0.000295	</row1>
+				<row2>	0.985041 -0.000100 0.172325	</row2>
+				<row3>	-2.516701 1.526428 0.328445	</row3>
+			</transform>
+			<reflectionVisible>	false	</reflectionVisible>
+			<metaData>	</metaData>
+			<staticLighting>
+				<offset>	37948	</offset>
+				<size>	6484	</size>
+			</staticLighting>
+			<prefabTransform>
+				<row0>	0.684547 0.000282 -0.728969	</row0>
+				<row1>	-0.000120 1.000000 0.000274	</row1>
+				<row2>	0.728969 -0.000100 0.684548	</row2>
+				<row3>	-0.895538 -1.405678 -2.136261	</row3>
+			</prefabTransform>
+		</model>
+		<particles>
+			<editorOnly>
+				<hidden>	false	</hidden>
+				<frozen>	false	</frozen>
+			</editorOnly>
+			<resource>	particles/fireplace_fire.xml	</resource>
+			<transform>
+				<row0>	-0.836029 0.000000 0.548688	</row0>
+				<row1>	0.000000 0.999999 0.000000	</row1>
+				<row2>	-0.548688 0.000000 -0.836029	</row2>
+				<row3>	-2.904770 1.898109 4.589218	</row3>
+			</transform>
+			<reflectionVisible>	false	</reflectionVisible>
+			<prefabTransform>
+				<row0>	-1.000002 0.000000 0.000000	</row0>
+				<row1>	0.000000 0.999999 0.000000	</row1>
+				<row2>	-0.000000 0.000000 -1.000002	</row2>
+				<row3>	-3.557831 -1.033997 1.212921	</row3>
+			</prefabTransform>
+		</particles>
+		<model>
+			<editorOnly>
+				<hidden>	false	</hidden>
+				<frozen>	false	</frozen>
+				<castsShadow>	true	</castsShadow>
+			</editorOnly>
+			<resource>	sets/minspec/props/table/models/table.model	</resource>
+			<transform>
+				<row0>	0.172325 -0.000480 -0.985040	</row0>
+				<row1>	-0.000004 1.000000 -0.000488	</row1>
+				<row2>	0.985040 0.000088 0.172325	</row2>
+				<row3>	3.128998 1.526108 1.427612	</row3>
+			</transform>
+			<reflectionVisible>	false	</reflectionVisible>
+			<metaData>	</metaData>
+			<staticLighting>
+				<offset>	31464	</offset>
+				<size>	6484	</size>
+			</staticLighting>
+			<prefabTransform>
+				<row0>	0.684547 -0.000480 -0.728969	</row0>
+				<row1>	0.000264 1.000000 -0.000410	</row1>
+				<row2>	0.728969 0.000088 0.684547	</row2>
+				<row3>	3.221329 -1.405998 1.880371	</row3>
+			</prefabTransform>
+		</model>
+		<entity>
+			<editorOnly>
+				<hidden>	false	</hidden>
+				<frozen>	false	</frozen>
+			</editorOnly>
+			<metaData>	</metaData>
+			<guid>	89D941E9.4AD3D15E.5B03EA9A.58F8F454	</guid>
+			<type>	Seat	</type>
+			<transform>
+				<row0>	-0.818583 -0.000001 0.574387	</row0>
+				<row1>	-0.000000 0.999998 0.000000	</row1>
+				<row2>	-0.574387 -0.000000 -0.818581	</row2>
+				<row3>	1.823448 1.526047 2.941086	</row3>
+			</transform>
+			<clientOnly>	false	</clientOnly>
+			<properties>
+				<seatType>	3	</seatType>
+				<patrolPathNode>	</patrolPathNode>
+			</properties>
+			<backLinks>	</backLinks>
+			<prefabTransform>
+				<row0>	-0.999517 -0.000001 0.031058	</row0>
+				<row1>	0.000000 0.999998 0.000000	</row1>
+				<row2>	-0.031059 0.000000 -0.999515	</row2>
+				<row3>	1.299423 -1.406059 2.429352	</row3>
+			</prefabTransform>
+		</entity>
+		<entity>
+			<editorOnly>
+				<hidden>	false	</hidden>
+				<frozen>	false	</frozen>
+			</editorOnly>
+			<metaData>	</metaData>
+			<guid>	10936DAD.422A8720.1072538E.BD7DDF74	</guid>
+			<type>	Seat	</type>
+			<transform>
+				<row0>	0.906736 0.000012 0.421697	</row0>
+				<row1>	-0.000011 0.999998 -0.000004	</row1>
+				<row2>	-0.421694 -0.000002 0.906736	</row2>
+				<row3>	-0.678596 1.526077 1.510803	</row3>
+			</transform>
+			<clientOnly>	false	</clientOnly>
+			<properties>
+				<seatType>	3	</seatType>
+				<patrolPathNode>	</patrolPathNode>
+			</properties>
+			<backLinks>	</backLinks>
+			<prefabTransform>
+				<row0>	0.526677 0.000012 0.850065	</row0>
+				<row1>	-0.000007 0.999998 -0.000009	</row1>
+				<row2>	-0.850062 -0.000002 0.526679	</row2>
+				<row3>	-0.007584 -1.406029 -0.139252	</row3>
+			</prefabTransform>
+		</entity>
+		<model>
+			<editorOnly>
+				<hidden>	false	</hidden>
+				<frozen>	false	</frozen>
+				<castsShadow>	true	</castsShadow>
+			</editorOnly>
+			<resource>	sets/minspec/props/barrel/models/barrel_cabbage.model	</resource>
+			<transform>
+				<row0>	0.172326 -0.004541 -0.985030	</row0>
+				<row1>	-0.000432 0.999989 -0.004686	</row1>
+				<row2>	0.985040 0.001232 0.172321	</row2>
+				<row3>	3.959515 1.509537 -2.297897	</row3>
+			</transform>
+			<reflectionVisible>	false	</reflectionVisible>
+			<metaData>	</metaData>
+			<staticLighting>
+				<offset>	24628	</offset>
+				<size>	6836	</size>
+			</staticLighting>
+			<prefabTransform>
+				<row0>	0.684543 -0.004541 -0.728960	</row0>
+				<row1>	0.002210 0.999989 -0.004155	</row1>
+				<row2>	0.728971 0.001232 0.684544	</row2>
+				<row3>	5.959808 -1.422569 -0.778534	</row3>
+			</prefabTransform>
+		</model>
+		<model>
+			<editorOnly>
+				<hidden>	false	</hidden>
+				<frozen>	false	</frozen>
+				<castsShadow>	true	</castsShadow>
+			</editorOnly>
+			<resource>	sets/minspec/props/barrel/models/barrel_apples.model	</resource>
+			<transform>
+				<row0>	0.172326 -0.004541 -0.985030	</row0>
+				<row1>	-0.000432 0.999989 -0.004686	</row1>
+				<row2>	0.985040 0.001232 0.172321	</row2>
+				<row3>	3.138447 1.509415 -2.243896	</row3>
+			</transform>
+			<reflectionVisible>	false	</reflectionVisible>
+			<metaData>	</metaData>
+			<staticLighting>
+				<offset>	44432	</offset>
+				<size>	8340	</size>
+			</staticLighting>
+			<prefabTransform>
+				<row0>	0.684543 -0.004541 -0.728960	</row0>
+				<row1>	0.002210 0.999989 -0.004155	</row1>
+				<row2>	0.728971 0.001232 0.684544	</row2>
+				<row3>	5.243729 -1.422691 -1.183899	</row3>
+			</prefabTransform>
+		</model>
+		<entity>
+			<editorOnly>
+				<hidden>	false	</hidden>
+				<frozen>	false	</frozen>
+			</editorOnly>
+			<metaData>	</metaData>
+			<guid>	A26AB7DD.4CB7FF97.42CA69AA.06279FA6	</guid>
+			<type>	Seat	</type>
+			<transform>
+				<row0>	-0.088163 -0.007719 -0.996075	</row0>
+				<row1>	-0.001230 0.999968 -0.007640	</row1>
+				<row2>	0.996103 0.000551 -0.088172	</row2>
+				<row3>	3.364624 1.516556 -0.923798	</row3>
+			</transform>
+			<clientOnly>	false	</clientOnly>
+			<properties>
+				<seatType>	3	</seatType>
+				<patrolPathNode>	</patrolPathNode>
+			</properties>
+			<backLinks>	</backLinks>
+			<prefabTransform>
+				<row0>	0.472827 -0.007719 -0.881120	</row0>
+				<row1>	0.003164 0.999968 -0.007062	</row1>
+				<row2>	0.881149 0.000551 0.472834	</row2>
+				<row3>	4.708511 -1.415550 0.043854	</row3>
+			</prefabTransform>
+		</entity>
+		<model>
+			<editorOnly>
+				<hidden>	false	</hidden>
+				<frozen>	false	</frozen>
+				<outsideOnly>	true	</outsideOnly>
+				<castsShadow>	true	</castsShadow>
+			</editorOnly>
+			<resource>	sets/minspec/props/house/models/house.model	</resource>
+			<transform>
+				<row0>	0.836031 0.000000 0.548680	</row0>
+				<row1>	0.000000 0.999999 0.000000	</row1>
+				<row2>	-0.548680 0.000000 0.836031	</row2>
+				<row3>	47.328461 111.098808 39.220276	</row3>
+			</transform>
+			<reflectionVisible>	false	</reflectionVisible>
+			<prefabTransform>
+				<row0>	0.836031 0.000000 0.548680	</row0>
+				<row1>	0.000000 0.999999 0.000000	</row1>
+				<row2>	-0.548680 0.000000 0.836031	</row2>
+				<row3>	1.388458 -2.931190 -1.029724	</row3>
+			</prefabTransform>
+		</model>
+		<model>
+			<editorOnly>
+				<hidden>	false	</hidden>
+				<frozen>	false	</frozen>
+				<castsShadow>	true	</castsShadow>
+			</editorOnly>
+			<resource>	sets/minspec/props/house/models/door.model	</resource>
+			<animation>
+				<name>	door_closed	</name>
+				<frameRateMultiplier>	1.000000	</frameRateMultiplier>
+			</animation>
+			<transform>
+				<row0>	0.836026 0.000000 0.548687	</row0>
+				<row1>	0.000000 0.999999 0.000000	</row1>
+				<row2>	-0.548687 0.000000 0.836026	</row2>
+				<row3>	47.329010 111.098366 39.220154	</row3>
+			</transform>
+			<reflectionVisible>	false	</reflectionVisible>
+			<metaData>
+				<modified_by>	adamm	</modified_by>
+				<modified_on>	1248657851	</modified_on>
+			</metaData>
+			<prefabTransform>
+				<row0>	0.836026 0.000000 0.548687	</row0>
+				<row1>	0.000000 0.999999 0.000000	</row1>
+				<row2>	-0.548687 0.000000 0.836026	</row2>
+				<row3>	1.389008 -2.931633 -1.029846	</row3>
+			</prefabTransform>
+		</model>
+	</items>
+	<boundingBox>
+		<min>	-10.726105 -2.932114 -15.006470	</min>
+		<max>	15.413864 124.634125 10.993042	</max>
+	</boundingBox>
+	<snaps>
+		<position>	0.010000 0.010000 0.010000	</position>
+		<angle>	0.100000	</angle>
+	</snaps>
+</minspec_house.prefab>

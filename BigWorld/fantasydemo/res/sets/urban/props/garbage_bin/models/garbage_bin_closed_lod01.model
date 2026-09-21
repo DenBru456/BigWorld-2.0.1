@@ -1,0 +1,14 @@
+<garbage_bin_closed_lod01.model>
+	<nodelessVisual>	sets/urban/props/garbage_bin/models/garbage_bin_closed_lod01	</nodelessVisual>
+	<extent>	100.000000	</extent>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-1.533250 0.011151 -0.972644	</min>
+		<max>	1.573158 2.342265 0.986097	</max>
+	</visibilityBox>
+	<metaData>
+		<copyright>	Copyright BigWorld Pty Ltd.  Use freely in any BigWorld licensed game.	</copyright>
+		<modified_by>	AdamM	</modified_by>
+		<modified_on>	1281674750	</modified_on>
+	</metaData>
+</garbage_bin_closed_lod01.model>

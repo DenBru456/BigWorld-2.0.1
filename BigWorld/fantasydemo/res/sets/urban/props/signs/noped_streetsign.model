@@ -1,0 +1,15 @@
+<noped_streetsign.model>
+	<nodelessVisual>	sets/urban/props/signs/noped_streetsign	</nodelessVisual>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-0.010066 -0.003320 -0.381259	</min>
+		<max>	0.009681 1.298961 0.381258	</max>
+	</visibilityBox>
+	<extent>	196.000000	</extent>
+	<batched>	false	</batched>
+	<metaData>
+		<copyright>	Copyright BigWorld Pty Ltd.  Use freely in any BigWorld licensed game.	</copyright>
+		<modified_by>	adamm	</modified_by>
+		<modified_on>	1254379459	</modified_on>
+	</metaData>
+</noped_streetsign.model>

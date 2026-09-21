@@ -1,0 +1,14 @@
+<frame_highland.model>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-0.183086 -0.005249 -0.261008	</min>
+		<max>	0.183086 0.047185 0.261008	</max>
+	</visibilityBox>
+	<nodelessVisual>	sets/urban/props/frames/models/frame_highland	</nodelessVisual>
+	<extent>	25.000000	</extent>
+	<metaData>
+		<copyright>	Copyright BigWorld Pty Ltd.  Use freely in any BigWorld licensed game.	</copyright>
+		<modified_by>	AdamM	</modified_by>
+		<modified_on>	1281674696	</modified_on>
+	</metaData>
+</frame_highland.model>

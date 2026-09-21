@@ -1,0 +1,141 @@
+<root>
+	<texture>	maps/fx/des_sky_gradient.tga	</texture>
+	<mieAmount>	0.4	</mieAmount>
+	<turbidityOffset> 0.2	</turbidityOffset>
+	<turbidityFactor>	0.1	</turbidityFactor>
+	<vertexHeightEffect>	1.0	</vertexHeightEffect>
+	<sunHeightEffect>	1.0	</sunHeightEffect>
+	<power>			2.0	</power>
+	<farPlane>		450	</farPlane>
+
+	<light_map>
+		<material> system/materials/sky_light_map.mfm </material>
+		<!-- Path to effect material.  Must be valid.-->
+
+		<width>			512	</width>
+		<!-- Width in pixels of the light map. -->
+
+		<height>		512	</height>	
+		<!-- Height in pixels of the light map.
+		     For best results, set to same as width. -->
+
+		<timeToleranceSecs>	0	</timeToleranceSecs>
+		<!-- Game time between updates of light map. -->
+
+		<textureFeedName>	skyLightMap	</textureFeedName>
+		<!-- Optional name of texture feed for light map. -->
+		
+		<effectTextureName>	SkyLightMap	</effectTextureName>
+		<!-- Required, exposes the light map to the effect engine -->
+
+		<effectTransformName>	SkyLightMapTransform </effectTransformName>
+		<!-- Required, exposes the worldToLightMap transform to the effect engine -->
+	</light_map>
+
+	<day_night_cycle>
+		<angle>	80.00	</angle>
+		<moonAngle>	80.00	</moonAngle>
+		<hourlength>	120.00	</hourlength>
+		<starttime>	8.00	</starttime>
+		<lightkey>
+			<time>	0.00	</time>
+			<colour> 5.00 0.00 50.00 </colour>
+		</lightkey>
+		<lightkey>
+			<time> 0.20 </time>
+			<colour> 10.00 5.00 60.00 </colour>
+		</lightkey>
+
+		<lightkey>
+			<time> 3.30 </time>
+			<colour> 35.00 30.00 70.00 </colour>
+		</lightkey>
+
+		<lightkey>
+			<time> 5.07 </time>
+			<colour> 180.00 45.00 40.00 </colour>
+		</lightkey>
+		<lightkey>
+			<time> 6.40 </time>
+			<colour> 230.00 100.00 60.00 </colour>
+		</lightkey>
+		<lightkey>
+			<time> 9.30 </time>
+			<colour> 235.00 180.00 120.00 </colour>
+		</lightkey>
+		<lightkey>
+			<time> 12.00 </time>
+			<colour> 220.00 160.00 120.00 </colour>
+		</lightkey>
+		<lightkey>
+			<time> 16.00 </time>
+			<colour> 150.00 110.00 50.00 </colour>
+		</lightkey>
+		<lightkey>
+			<time> 17.00 </time>
+			<colour> 270.00 110.00 0.00 </colour>
+		</lightkey>
+		<lightkey>
+			<time> 20.77 </time>
+			<colour> 40.00 35.00 90.00 </colour>
+		</lightkey>
+
+		<moonlightkey>
+			<time> 0.00 </time>
+			<colour> 65.00 115.00 158.00 </colour>
+		</moonlightkey>
+		<moonlightkey>
+			<time> 4.03 </time>
+			<colour> 25.00 100.00 144.00 </colour>
+		</moonlightkey>
+		<moonlightkey>
+			<time> 5.58 </time>
+			<colour> 25.00 5.00 0.00 </colour>
+		</moonlightkey>
+		<moonlightkey>
+			<time> 13.55 </time>
+			<colour> 75.00 50.00 21.00 </colour>
+		</moonlightkey>
+		<moonlightkey>
+			<time> 17.77 </time>
+			<colour> 35.00 20.00 02.00 </colour>
+		</moonlightkey>
+		<moonlightkey>
+			<time> 20.67 </time>
+			<colour> 65.00 115.00 150.00 </colour>
+		</moonlightkey>
+
+		<ambientkey>
+			<time> 0.00 </time>
+			<colour> 35.00 75.00 120.00 </colour> 
+		</ambientkey>
+		<ambientkey>
+			<time> 3.00 </time>
+			<colour> 40.00 80.00 120.00 </colour> 
+		</ambientkey>
+		<ambientkey>
+			<time> 4.00 </time>
+			<colour> 85.00 80.00 85.00 </colour>  
+		</ambientkey>
+		<ambientkey>
+			<time> 5.00 </time>
+			<colour> 120.00 65.00 75.00 </colour> 
+		</ambientkey>
+		<ambientkey>
+			<time> 8.47 </time>
+			<colour> 120.00 120.00 50.00 </colour> 
+		</ambientkey>
+		<ambientkey>
+			<time> 11.37 </time>
+			<colour> 130.00 110.00 70.00 </colour>
+		</ambientkey>
+		<ambientkey>
+			<time> 18.00 </time>
+			<colour> 120.00 80.00 60.00 </colour>
+		</ambientkey>
+		<ambientkey>
+			<time> 20.00 </time>
+			<colour> 35.00 75.00 120.00 </colour>
+		</ambientkey>
+	</day_night_cycle>
+</root>

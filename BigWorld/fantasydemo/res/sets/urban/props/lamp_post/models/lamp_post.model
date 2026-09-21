@@ -1,0 +1,62 @@
+<lamp_post.model>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-0.009667 -0.000066 -0.002967	</min>
+		<max>	0.009666 0.056645 0.002967	</max>
+	</visibilityBox>
+	<dye>
+		<matter>	lights1	</matter>
+		<replaces>	lights1	</replaces>
+		<tint>
+			<name>	light_on	</name>
+			<material>
+				<fx>	shaders/std_effects/normalmap_specmap_chrome_glow.fx	</fx>
+				<collisionFlags>	0	</collisionFlags>
+				<materialKind>	0	</materialKind>
+				<property>	reflectionMask
+					<Texture>	sets/urban/props/lamp_post/maps/lamp_post_s.bmp	</Texture>
+				</property>
+				<property>	doubleSided
+					<Bool>	true	</Bool>
+				</property>
+				<property>	alphaReference
+					<Int>	0	</Int>
+				</property>
+				<property>	alphaTestEnable
+					<Bool>	false	</Bool>
+				</property>
+				<property>	reflectionMap
+					<Texture>	sets/urban/fx/maps/cubemap_urban.dds	</Texture>
+				</property>
+				<property>	specularMap
+					<Texture>	sets/urban/props/lamp_post/maps/lamp_post_glow_mask.bmp	</Texture>
+				</property>
+				<property>	glowMap
+					<Texture>	sets/urban/props/lamp_post/maps/lamp_post_glow_mask.bmp	</Texture>
+				</property>
+				<property>	glowFactor
+					<Float>	2.000000	</Float>
+				</property>
+				<property>	normalMap
+					<Texture>	sets/urban/props/lamp_post/maps/lamp_post_norms.bmp	</Texture>
+				</property>
+				<property>	diffuseMap
+					<Texture>	sets/urban/props/lamp_post/maps/lamp_post_d.bmp	</Texture>
+				</property>
+				<property>	selfIllumination
+					<Float>	0.000000	</Float>
+				</property>
+				<property>	reflectionAmount
+					<Float>	1.000000	</Float>
+				</property>
+			</material>
+		</tint>
+	</dye>
+	<nodelessVisual>	sets/urban/props/lamp_post/models/lamp_post	</nodelessVisual>
+	<extent>	309.000000	</extent>
+	<metaData>
+		<copyright>	Copyright BigWorld Pty Ltd.  Use freely in any BigWorld licensed game.	</copyright>
+		<modified_by>	adamm	</modified_by>
+		<modified_on>	1254379019	</modified_on>
+	</metaData>
+</lamp_post.model>

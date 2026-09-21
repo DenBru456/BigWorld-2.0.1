@@ -1,0 +1,39 @@
+<root>
+	<shell>
+		<resource>	sets/urban/shells/facility_miniexit.model	</resource>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<reflectionVisible>	true	</reflectionVisible>
+		<metaData>	</metaData>
+		<staticLighting>
+			<offset>	0	</offset>
+			<size>	324	</size>
+		</staticLighting>
+	</shell>
+	<vlo>
+		<uid>	b9134a0a.45b444c7.b06b7989.f3527e5b	</uid>
+		<type>	water	</type>
+	</vlo>
+	<worldNavmesh>
+		<resource>	00am0010i.cdata/worldNavmesh	</resource>
+	</worldNavmesh>
+	<transform>
+		<row0>	0.000000 0.000000 1.000000	</row0>
+		<row1>	0.000000 1.000000 0.000000	</row1>
+		<row2>	-1.000000 0.000000 0.000000	</row2>
+		<row3>	42.016071 0.498379 -113.987305	</row3>
+	</transform>
+	<boundingBox>
+		<min>	71.936226 0.445887 -118.420883	</min>
+		<max>	72.317039 52.998325 -114.178482	</max>
+	</boundingBox>
+</root>

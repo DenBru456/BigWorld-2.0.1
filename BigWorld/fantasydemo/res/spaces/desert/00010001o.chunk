@@ -1,0 +1,26 @@
+<root>
+	<waypointGenerationTime>
+		<hi>	29728296	</hi>
+		<lo>	39817384	</lo>
+	</waypointGenerationTime>
+	<particles>
+		<resource>	sets/desert/particles/fx_sandstorm.xml	</resource>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	75.109741 -5.983612 72.716110	</row3>
+		</transform>
+	</particles>
+	<terrain>
+		<resource>	00010001o.cdata/terrain	</resource>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>	</metaData>
+	</terrain>
+	<worldNavmesh>
+		<resource>	00010001o.cdata/worldNavmesh	</resource>
+	</worldNavmesh>
+</root>

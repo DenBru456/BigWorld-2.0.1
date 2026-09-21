@@ -1,0 +1,91 @@
+<crossing_light.model>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-0.096511 -0.001936 -0.033049	</min>
+		<max>	0.113693 0.565265 0.377088	</max>
+	</visibilityBox>
+	<dye>
+		<matter>	crossing_lights	</matter>
+		<replaces>	crossing_lights	</replaces>
+		<tint>
+			<name>	walk	</name>
+			<material>
+				<fx>	shaders/std_effects/normalmap_chrome_glow.fx	</fx>
+				<collisionFlags>	0	</collisionFlags>
+				<materialKind>	0	</materialKind>
+				<property>	reflectionMask
+					<Texture>	sets/urban/props/crossing_light/maps/crossing_light_walk_spec.bmp	</Texture>
+				</property>
+				<property>	reflectionMap
+					<Texture>	sets/urban/fx/maps/cubemap_urban.dds	</Texture>
+				</property>
+				<property>	glowMap
+					<Texture>	sets/urban/props/crossing_light/maps/crossing_light_walk_glow.bmp	</Texture>
+				</property>
+				<property>	glowFactor
+					<Float>	2.000000	</Float>
+				</property>
+				<property>	normalMap
+					<Texture>	system/maps/default_norms.bmp	</Texture>
+				</property>
+				<property>	diffuseMap
+					<Texture>	sets/urban/props/crossing_light/maps/crossing_light_diff.bmp	</Texture>
+				</property>
+				<property>	materialSpecular
+					<Vector4>	1.000000 0.960784 0.909804 1.000000	</Vector4>
+				</property>
+				<property>	fresnelConstant
+					<Float>	0.107000	</Float>
+				</property>
+				<property>	fresnelExp
+					<Float>	3.610000	</Float>
+				</property>
+			</material>
+		</tint>
+		<tint>
+			<name>	stop	</name>
+			<material>
+				<fx>	shaders/std_effects/normalmap_chrome_glow.fx	</fx>
+				<collisionFlags>	0	</collisionFlags>
+				<materialKind>	0	</materialKind>
+				<property>	reflectionMask
+					<Texture>	sets/urban/props/crossing_light/maps/crossing_light_walk_spec.bmp	</Texture>
+				</property>
+				<property>	reflectionMap
+					<Texture>	sets/urban/fx/maps/cubemap_urban.dds	</Texture>
+				</property>
+				<property>	glowMap
+					<Texture>	sets/urban/props/crossing_light/maps/crossing_light_glow_stop.texanim	</Texture>
+				</property>
+				<property>	glowFactor
+					<Float>	2.000000	</Float>
+				</property>
+				<property>	normalMap
+					<Texture>	system/maps/default_norms.bmp	</Texture>
+				</property>
+				<property>	diffuseMap
+					<Texture>	sets/urban/props/crossing_light/maps/crossing_light_diff.bmp	</Texture>
+				</property>
+				<property>	materialSpecular
+					<Vector4>	1.000000 0.960784 0.909804 1.000000	</Vector4>
+				</property>
+				<property>	reflectionAmount
+					<Float>	0.490000	</Float>
+				</property>
+				<property>	fresnelConstant
+					<Float>	0.107000	</Float>
+				</property>
+				<property>	fresnelExp
+					<Float>	3.610000	</Float>
+				</property>
+			</material>
+		</tint>
+	</dye>
+	<extent>	70.000000	</extent>
+	<nodelessVisual>	sets/urban/props/crossing_light/model/crossing_light	</nodelessVisual>
+	<metaData>
+		<copyright>	Copyright BigWorld Pty Ltd.  Use freely in any BigWorld licensed game.	</copyright>
+		<modified_by>	adamm	</modified_by>
+		<modified_on>	1254377079	</modified_on>
+	</metaData>
+</crossing_light.model>

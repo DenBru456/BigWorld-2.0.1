@@ -1,0 +1,13 @@
+<root>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	0.000000 0.000000 0.000000	</min>
+		<max>	5.999996 0.010000 2.999999	</max>
+	</visibilityBox>
+	<nodelessVisual>	sets/urban/props/billboard/models/electronic strobe4	</nodelessVisual>
+	<metaData>
+		<copyright>	Copyright BigWorld Pty Ltd.  Use freely in any BigWorld licensed game.	</copyright>
+		<modified_by>	AdamM	</modified_by>
+		<modified_on>	1281674623	</modified_on>
+	</metaData>
+</root>

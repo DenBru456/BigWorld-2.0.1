@@ -1,0 +1,15 @@
+<stop_streetsign.model>
+	<nodelessVisual>	sets/urban/props/signs/stop_streetsign	</nodelessVisual>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-0.445748 0.017946 -0.469208	</min>
+		<max>	0.445748 0.035191 0.469208	</max>
+	</visibilityBox>
+	<extent>	216.000000	</extent>
+	<batched>	false	</batched>
+	<metaData>
+		<copyright>	Copyright BigWorld Pty Ltd.  Use freely in any BigWorld licensed game.	</copyright>
+		<modified_by>	adamm	</modified_by>
+		<modified_on>	1254380475	</modified_on>
+	</metaData>
+</stop_streetsign.model>

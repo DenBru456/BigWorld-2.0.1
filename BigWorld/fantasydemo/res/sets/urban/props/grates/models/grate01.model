@@ -1,0 +1,19 @@
+<grate01.model>
+	<materialNames>
+		<material>
+			<original>	gen_shadow	</original>
+			<display>	grate	</display>
+		</material>
+	</materialNames>
+	<visibilityBox>
+		<min>	-0.291330 0.010000 -0.291330	</min>
+		<max>	0.291330 0.020000 0.291330	</max>
+	</visibilityBox>
+	<nodelessVisual>	sets/urban/props/grates/models/grate01	</nodelessVisual>
+	<extent>	35.000000	</extent>
+	<metaData>
+		<copyright>	Copyright BigWorld Pty Ltd.  Use freely in any BigWorld licensed game.	</copyright>
+		<modified_by>	AdamM	</modified_by>
+		<modified_on>	1283745738	</modified_on>
+	</metaData>
+</grate01.model>

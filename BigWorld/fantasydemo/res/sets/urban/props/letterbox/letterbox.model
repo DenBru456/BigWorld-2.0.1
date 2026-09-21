@@ -1,0 +1,15 @@
+<letterbox.model>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-0.317789 -0.008400 -0.487922	</min>
+		<max>	0.317789 1.408120 0.208786	</max>
+	</visibilityBox>
+	<extent>	180.000000	</extent>
+	<batched>	false	</batched>
+	<nodelessVisual>	sets/urban/props/letterbox/letterbox	</nodelessVisual>
+	<metaData>
+		<copyright>	Copyright BigWorld Pty Ltd.  Use freely in any BigWorld licensed game.	</copyright>
+		<modified_by>	adamm	</modified_by>
+		<modified_on>	1254379031	</modified_on>
+	</metaData>
+</letterbox.model>

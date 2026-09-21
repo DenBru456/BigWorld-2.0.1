@@ -1,0 +1,136 @@
+<root>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<resource>	sets/urban/props/signs/exit01.model	</resource>
+		<transform>
+			<row0>	0.000000 0.014415 0.999892	</row0>
+			<row1>	-0.999996 0.000000 0.000000	</row1>
+			<row2>	-0.000000 -0.999893 0.014415	</row2>
+			<row3>	4.500000 2.678434 -3.263229	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<metaData>	</metaData>
+		<staticLighting>
+			<offset>	3196	</offset>
+			<size>	432	</size>
+		</staticLighting>
+	</model>
+	<shell>
+		<resource>	sets/urban/shells/facility_bend.model	</resource>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<reflectionVisible>	true	</reflectionVisible>
+		<metaData>	</metaData>
+		<staticLighting>
+			<offset>	0	</offset>
+			<size>	3196	</size>
+		</staticLighting>
+	</shell>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<metaData>
+			<created_by>	adamm	</created_by>
+			<created_on>	1245829515	</created_on>
+			<modified_by>	adamm	</modified_by>
+			<modified_on>	1245829521	</modified_on>
+		</metaData>
+		<resource>	sets/urban/props/lightpanel/models/facility_lightpanel.model	</resource>
+		<transform>
+			<row0>	-0.999999 0.000000 -0.000001	</row0>
+			<row1>	-0.000000 -0.999999 0.000000	</row1>
+			<row2>	-0.000001 0.000000 0.999999	</row2>
+			<row3>	-0.109500 3.036290 -1.419746	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<staticLighting>
+			<offset>	3628	</offset>
+			<size>	732	</size>
+		</staticLighting>
+	</model>
+	<omniLight>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>
+			<modified_by>	adamm	</modified_by>
+			<modified_on>	1250639377	</modified_on>
+		</metaData>
+		<colour>	142.000000 223.000076 134.000000	</colour>
+		<position>	4.393669 2.628663 -3.209042	</position>
+		<innerRadius>	0.100000	</innerRadius>
+		<outerRadius>	3.000000	</outerRadius>
+		<dynamic>	true	</dynamic>
+		<static>	true	</static>
+		<specular>	false	</specular>
+		<multiplier>	1.000000	</multiplier>
+	</omniLight>
+	<omniLight>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>
+			<created_by>	adamm	</created_by>
+			<created_on>	1245829515	</created_on>
+			<modified_by>	adamm	</modified_by>
+			<modified_on>	1250639377	</modified_on>
+		</metaData>
+		<colour>	199.000153 249.000153 254.000153	</colour>
+		<position>	0.378965 2.135177 -1.899979	</position>
+		<innerRadius>	0.742202	</innerRadius>
+		<outerRadius>	4.729414	</outerRadius>
+		<dynamic>	true	</dynamic>
+		<static>	true	</static>
+		<specular>	false	</specular>
+		<multiplier>	1.000000	</multiplier>
+	</omniLight>
+	<flare>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>
+			<created_by>	adamm	</created_by>
+			<created_on>	1245829628	</created_on>
+			<modified_by>	adamm	</modified_by>
+			<modified_on>	1250639377	</modified_on>
+		</metaData>
+		<resource>	environments/fx/corona.xml	</resource>
+		<position>	0.218763 2.876081 -1.733688	</position>
+		<maxDistance>	150.000000	</maxDistance>
+		<area>	1.000000	</area>
+		<fadeSpeed>	1.000000	</fadeSpeed>
+		<colour>	198.000015 221.000015 216.000015	</colour>
+	</flare>
+	<worldNavmesh>
+		<resource>	00am000bi.cdata/worldNavmesh	</resource>
+	</worldNavmesh>
+	<transform>
+		<row0>	-0.000001 0.000000 -1.000000	</row0>
+		<row1>	0.000000 1.000000 0.000000	</row1>
+		<row2>	1.000000 0.000000 -0.000001	</row2>
+		<row3>	42.016068 4.498377 -117.987289	</row3>
+	</transform>
+	<boundingBox>
+		<min>	37.877743 4.481323 -122.487282	</min>
+		<max>	42.197067 56.998322 -113.987274	</max>
+	</boundingBox>
+</root>

@@ -1,0 +1,13 @@
+<facility_bend_exit.model>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-4.299999 0.000000 -29.999996	</min>
+		<max>	-0.299999 3.000000 -23.999996	</max>
+	</visibilityBox>
+	<nodelessVisual>	sets/urban/shells/facility_bend_exit	</nodelessVisual>
+	<metaData>
+		<copyright>	Copyright BigWorld Pty Ltd.  Use freely in any BigWorld licensed game.	</copyright>
+		<modified_by>	AdamM	</modified_by>
+		<modified_on>	1281673127	</modified_on>
+	</metaData>
+</facility_bend_exit.model>

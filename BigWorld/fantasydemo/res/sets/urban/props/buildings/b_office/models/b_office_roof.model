@@ -1,0 +1,105 @@
+<b_office_roof.model>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-28.249996 0.000000 -20.499996	</min>
+		<max>	0.250002 8.020103 3.750002	</max>
+	</visibilityBox>
+	<dye>
+		<matter>	WINDOW	</matter>
+		<replaces>	WINDOW	</replaces>
+		<tint>
+			<name>	lights_on1	</name>
+			<material>
+				<fx>	shaders/std_effects/normalmap_chrome_glow.fx	</fx>
+				<collisionFlags>	0	</collisionFlags>
+				<materialKind>	0	</materialKind>
+				<property>	reflectionMask
+					<Texture>	helpers/maps/col_white.bmp	</Texture>
+				</property>
+				<property>	reflectionMap
+					<Texture>	sets/urban/fx/maps/cubemap_urban.dds	</Texture>
+				</property>
+				<property>	glowMap
+					<Texture>	sets/urban/props/buildings/b_office/maps/office_window_g1.bmp	</Texture>
+				</property>
+				<property>	glowFactor
+					<Float>	1.000000	</Float>
+				</property>
+				<property>	normalMap
+					<Texture>	sets/urban/props/buildings/b_office/maps/office_window_norms.bmp	</Texture>
+				</property>
+				<property>	diffuseMap
+					<Texture>	sets/urban/props/buildings/b_office/maps/office_window.bmp	</Texture>
+				</property>
+				<property>	selfIllumination
+					<Float>	0.000000	</Float>
+				</property>
+			</material>
+		</tint>
+		<tint>
+			<name>	lights_on2	</name>
+			<material>
+				<fx>	shaders/std_effects/normalmap_chrome_glow.fx	</fx>
+				<collisionFlags>	0	</collisionFlags>
+				<materialKind>	0	</materialKind>
+				<property>	reflectionMask
+					<Texture>	helpers/maps/col_white.bmp	</Texture>
+				</property>
+				<property>	reflectionMap
+					<Texture>	sets/urban/fx/maps/cubemap_urban.dds	</Texture>
+				</property>
+				<property>	glowMap
+					<Texture>	sets/urban/props/buildings/b_office/maps/office_window_g2.bmp	</Texture>
+				</property>
+				<property>	glowFactor
+					<Float>	1.000000	</Float>
+				</property>
+				<property>	normalMap
+					<Texture>	sets/urban/props/buildings/b_office/maps/office_window_norms.bmp	</Texture>
+				</property>
+				<property>	diffuseMap
+					<Texture>	sets/urban/props/buildings/b_office/maps/office_window.bmp	</Texture>
+				</property>
+				<property>	selfIllumination
+					<Float>	0.000000	</Float>
+				</property>
+			</material>
+		</tint>
+		<tint>
+			<name>	lights_on3	</name>
+			<material>
+				<fx>	shaders/std_effects/normalmap_chrome_glow.fx	</fx>
+				<collisionFlags>	0	</collisionFlags>
+				<materialKind>	0	</materialKind>
+				<property>	reflectionMask
+					<Texture>	helpers/maps/col_white.bmp	</Texture>
+				</property>
+				<property>	reflectionMap
+					<Texture>	sets/urban/fx/maps/cubemap_urban.dds	</Texture>
+				</property>
+				<property>	glowMap
+					<Texture>	sets/urban/props/buildings/b_office/maps/office_window_g3.bmp	</Texture>
+				</property>
+				<property>	glowFactor
+					<Float>	1.000000	</Float>
+				</property>
+				<property>	normalMap
+					<Texture>	sets/urban/props/buildings/b_office/maps/office_window_norms.bmp	</Texture>
+				</property>
+				<property>	diffuseMap
+					<Texture>	sets/urban/props/buildings/b_office/maps/office_window.bmp	</Texture>
+				</property>
+				<property>	selfIllumination
+					<Float>	0.000000	</Float>
+				</property>
+			</material>
+		</tint>
+	</dye>
+	<nodelessVisual>	sets/urban/props/buildings/b_office/models/b_office_roof	</nodelessVisual>
+	<dpvsOccluder>	true	</dpvsOccluder>
+	<metaData>
+		<copyright>	Copyright BigWorld Pty Ltd.  Use freely in any BigWorld licensed game.	</copyright>
+		<modified_by>	adamm	</modified_by>
+		<modified_on>	1254376377	</modified_on>
+	</metaData>
+</b_office_roof.model>

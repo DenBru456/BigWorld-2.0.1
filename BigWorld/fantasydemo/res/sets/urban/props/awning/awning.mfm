@@ -1,0 +1,14 @@
+<awning.mfm>
+	<fx>	shaders/std_effects/normalmap.fx	</fx>
+	<collisionFlags>	0	</collisionFlags>
+	<materialKind>	0	</materialKind>
+	<property>	materialSpecular
+		<Vector4>	0.309804 0.301961 0.274510 1.000000	</Vector4>
+	</property>
+	<property>	normalMap
+		<Texture>	sets/urban/props/awning/maps/awning_norms.tga	</Texture>
+	</property>
+	<property>	diffuseMap
+		<Texture>	sets/urban/props/awning/maps/awning.tga	</Texture>
+	</property>
+</awning.mfm>

@@ -1,0 +1,24 @@
+<billboard.model>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-17.920723 0.000000 -1.652949	</min>
+		<max>	0.140966 11.252606 1.162139	</max>
+	</visibilityBox>
+	<animation>
+		<name>	billboard_rotate_a	</name>
+		<frameRate>	10.000000	</frameRate>
+		<nodes>	sets/urban/props/billboard/models/billboard_rotate_a	</nodes>
+	</animation>
+	<animation>
+		<name>	billboard_rotate_b	</name>
+		<frameRate>	10.000000	</frameRate>
+		<nodes>	sets/urban/props/billboard/models/billboard_rotate_b	</nodes>
+	</animation>
+	<extent>	500.000000	</extent>
+	<nodefullVisual>	sets/urban/props/billboard/models/billboard	</nodefullVisual>
+	<metaData>
+		<copyright>	Copyright BigWorld Pty Ltd.  Use freely in any BigWorld licensed game.	</copyright>
+		<modified_by>	AdamM	</modified_by>
+		<modified_on>	1263186417	</modified_on>
+	</metaData>
+</billboard.model>

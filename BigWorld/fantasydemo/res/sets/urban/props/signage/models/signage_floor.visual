@@ -1,0 +1,41 @@
+<signage_floor.visual>
+	<node>
+		<identifier>	Scene Root	</identifier>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+	</node>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	Scene Root	</node>
+		<geometry>
+			<vertices>	vertices	</vertices>
+			<primitive>	indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	signage	</identifier>
+					<fx>	shaders/std_effects/lightonly_glow.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	glowFactor
+						<Float>	1.000000	</Float>
+					</property>
+					<property>	glowMap
+						<Texture>	sets/urban/props/buildings/b_facility/maps/signage_ground_g.bmp	</Texture>
+					</property>
+					<property>	diffuseMap
+						<Texture>	sets/urban/props/buildings/b_facility/maps/signage_ground.bmp	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<boundingBox>
+		<min>	-2.761564 -0.000000 -1.502611	</min>
+		<max>	0.000000 0.070122 0.000000	</max>
+	</boundingBox>
+	<materialKind>	4	</materialKind>
+</signage_floor.visual>

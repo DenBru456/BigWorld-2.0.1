@@ -1,0 +1,16 @@
+<park_bench.model>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-0.914829 0.001181 -0.176858	</min>
+		<max>	0.914977 0.942775 0.561608	</max>
+	</visibilityBox>
+	<extent>	80.000000	</extent>
+	<batched>	false	</batched>
+	<nodelessVisual>	sets/urban/props/park_bench/model/park_bench	</nodelessVisual>
+	<parent>	sets/urban/props/park_bench/model/park_bench_lod01	</parent>
+	<metaData>
+		<copyright>	Copyright BigWorld Pty Ltd.  Use freely in any BigWorld licensed game.	</copyright>
+		<modified_by>	AdamM	</modified_by>
+		<modified_on>	1281674946	</modified_on>
+	</metaData>
+</park_bench.model>

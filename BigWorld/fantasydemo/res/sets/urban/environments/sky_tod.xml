@@ -1,0 +1,24 @@
+<sky_tod.xml>
+	<day_night_cycle>
+		<angle>	90.000000	</angle>
+		<moonAngle>	90.000000	</moonAngle>
+		<hourlength>	76000.000000	</hourlength>
+		<starttime>	4.000000	</starttime>
+		<lightkey>
+			<time>	0.000000	</time>
+			<colour>	0.000000 0.000000 0.000000	</colour>
+		</lightkey>
+		<lightkey>
+			<time>	4.064516	</time>
+			<colour>	0.000000 0.000000 0.000000	</colour>
+		</lightkey>
+		<ambientkey>
+			<time>	0.000000	</time>
+			<colour>	0.000000 0.000000 0.000000	</colour>
+		</ambientkey>
+		<ambientkey>
+			<time>	20.129032	</time>
+			<colour>	0.000000 0.000000 0.000000	</colour>
+		</ambientkey>
+	</day_night_cycle>
+</sky_tod.xml>

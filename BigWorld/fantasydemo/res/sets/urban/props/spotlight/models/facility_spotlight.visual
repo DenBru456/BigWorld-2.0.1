@@ -1,0 +1,88 @@
+<facility_spotlight.visual>
+	<node>
+		<identifier>	Scene Root	</identifier>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+	</node>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	Scene Root	</node>
+		<geometry>
+			<vertices>	vertices	</vertices>
+			<primitive>	indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	glow	</identifier>
+					<fx>	shaders/std_effects/normalmap_glow.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	6	</materialKind>
+					<property>	materialSpecular
+						<Vector4>	0.811765 0.862745 0.870588 1.000000	</Vector4>
+					</property>
+					<property>	glowFactor
+						<Float>	1.000000	</Float>
+					</property>
+					<property>	glowMap
+						<Texture>	sets/urban/props/spotlight/maps/spotlight_glow0.bmp	</Texture>
+					</property>
+					<property>	alphaReference
+						<Int>	0	</Int>
+					</property>
+					<property>	alphaTestEnable
+						<Bool>	false	</Bool>
+					</property>
+					<property>	selfIllumination
+						<Float>	0.000000	</Float>
+					</property>
+					<property>	doubleSided
+						<Bool>	false	</Bool>
+					</property>
+					<property>	normalMap
+						<Texture>	sets/urban/props/spotlight/maps/spotlight_norms.bmp	</Texture>
+					</property>
+					<property>	diffuseMap
+						<Texture>	sets/urban/props/spotlight/maps/spotlight_dif.bmp	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+			<primitiveGroup>	1
+				<material>
+					<identifier>	metal	</identifier>
+					<fx>	shaders/std_effects/normalmap.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	4	</materialKind>
+					<property>	materialSpecular
+						<Vector4>	0.729412 0.850980 0.988235 1.000000	</Vector4>
+					</property>
+					<property>	alphaReference
+						<Int>	0	</Int>
+					</property>
+					<property>	alphaTestEnable
+						<Bool>	false	</Bool>
+					</property>
+					<property>	selfIllumination
+						<Float>	0.000000	</Float>
+					</property>
+					<property>	doubleSided
+						<Bool>	false	</Bool>
+					</property>
+					<property>	normalMap
+						<Texture>	sets/urban/props/spotlight/maps/spotlight_norms.bmp	</Texture>
+					</property>
+					<property>	diffuseMap
+						<Texture>	sets/urban/props/spotlight/maps/spotlight_dif.bmp	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<boundingBox>
+		<min>	-0.119457 -0.003688 -0.009960	</min>
+		<max>	0.118456 0.242165 0.132895	</max>
+	</boundingBox>
+	<materialKind>	6	</materialKind>
+</facility_spotlight.visual>

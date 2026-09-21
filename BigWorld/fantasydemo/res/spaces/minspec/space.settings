@@ -1,0 +1,25 @@
+<space.settings>
+	<timeOfDay>	system/data/sky.xml	</timeOfDay>
+	<skyGradientDome>	system/data/sky.xml	</skyGradientDome>
+	<bounds>
+		<minX>	-12	</minX>
+		<maxX>	12	</maxX>
+		<minY>	-12	</minY>
+		<maxY>	12	</maxY>
+	</bounds>
+	<terrain>
+		<version>	100	</version>
+		<soundOcclusion>
+			<directOcclusion>	0.000000	</directOcclusion>
+			<reverbOcclusion>	0.000000	</reverbOcclusion>
+		</soundOcclusion>
+	</terrain>
+	<farPlane>	700.000000	</farPlane>
+	<startPosition>	-224.609711 203.782974 136.289612	</startPosition>
+	<startDirection>	0.000000 -0.119999 -0.060004	</startDirection>
+	<minimap>
+		<mapName>	spaces/minspec/space.outdoors.dds	</mapName>
+		<worldMapAnchor>	50.0 50.0	</worldMapAnchor>
+	</minimap>
+	<skyDomePartition>	0	</skyDomePartition>
+</space.settings>

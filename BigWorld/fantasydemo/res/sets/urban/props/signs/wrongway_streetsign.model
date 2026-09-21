@@ -1,0 +1,15 @@
+<wrongway_streetsign.model>
+	<nodelessVisual>	sets/urban/props/signs/wrongway_streetsign	</nodelessVisual>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-0.016445 -0.001972 -0.298981	</min>
+		<max>	0.015816 0.771752 0.298981	</max>
+	</visibilityBox>
+	<extent>	189.000000	</extent>
+	<batched>	false	</batched>
+	<metaData>
+		<copyright>	Copyright BigWorld Pty Ltd.  Use freely in any BigWorld licensed game.	</copyright>
+		<modified_by>	adamm	</modified_by>
+		<modified_on>	1254381139	</modified_on>
+	</metaData>
+</wrongway_streetsign.model>

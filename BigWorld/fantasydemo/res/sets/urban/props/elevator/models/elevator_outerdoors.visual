@@ -1,0 +1,62 @@
+<elevator_outerdoors.visual>
+	<node>
+		<identifier>	Scene Root	</identifier>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+	</node>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	Scene Root	</node>
+		<geometry>
+			<vertices>	vertices	</vertices>
+			<primitive>	indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	elevator_outerdoors:doors1	</identifier>
+					<fx>	shaders/std_effects/normalmap_specmap_chrome.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	reflectionMask
+						<Texture>	system/maps/col_white.bmp	</Texture>
+					</property>
+					<property>	doubleSided
+						<Bool>	false	</Bool>
+					</property>
+					<property>	alphaReference
+						<Int>	0	</Int>
+					</property>
+					<property>	alphaTestEnable
+						<Bool>	false	</Bool>
+					</property>
+					<property>	reflectionMap
+						<Texture>	sets/urban/fx/maps/cubemap_softbox.dds	</Texture>
+					</property>
+					<property>	specularMap
+						<Texture>	system/maps/col_white.bmp	</Texture>
+					</property>
+					<property>	diffuseMap
+						<Texture>	sets/urban/props/elevator/maps/elevator_door_diff.bmp	</Texture>
+					</property>
+					<property>	selfIllumination
+						<Float>	0.000000	</Float>
+					</property>
+					<property>	materialSpecular
+						<Vector4>	0.603922 0.603922 0.603922 1.000000	</Vector4>
+					</property>
+					<property>	reflectionAmount
+						<Float>	0.660000	</Float>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<boundingBox>
+		<min>	1.790660 0.000000 -1.960181	</min>
+		<max>	2.001722 3.205705 1.889819	</max>
+	</boundingBox>
+	<materialKind>	4	</materialKind>
+</elevator_outerdoors.visual>

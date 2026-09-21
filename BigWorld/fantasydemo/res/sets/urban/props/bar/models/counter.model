@@ -1,0 +1,15 @@
+<counter.model>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-2.328081 -0.035630 -1.442870	</min>
+		<max>	2.465355 5.090675 5.442027	</max>
+	</visibilityBox>
+	<batched>	true	</batched>
+	<nodelessVisual>	sets/urban/props/bar/models/counter	</nodelessVisual>
+	<extent>	60.000000	</extent>
+	<metaData>
+		<copyright>	Copyright BigWorld Pty Ltd.  Use freely in any BigWorld licensed game.	</copyright>
+		<modified_by>	AdamM	</modified_by>
+		<modified_on>	1281674598	</modified_on>
+	</metaData>
+</counter.model>

@@ -1,0 +1,13 @@
+<office_plug.model>
+	<nodelessVisual>	sets/urban/shells/office_plug	</nodelessVisual>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-4.000000 0.000000 0.000000	</min>
+		<max>	0.000000 3.000000 0.199999	</max>
+	</visibilityBox>
+	<metaData>
+		<copyright>	Copyright BigWorld Pty Ltd.  Use freely in any BigWorld licensed game.	</copyright>
+		<modified_by>	AdamM	</modified_by>
+		<modified_on>	1281673834	</modified_on>
+	</metaData>
+</office_plug.model>

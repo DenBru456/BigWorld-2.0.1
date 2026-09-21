@@ -1,0 +1,465 @@
+<main_menu.gui>
+	<SimpleGUIComponent>	36702064
+		<script>	&quot;MainMenuGUI.MainMenu&quot;	
+			<backgroundAspectRatio>		2.5		</backgroundAspectRatio>
+		</script>
+		<position>	0.000000 0.000000 0.500000	</position>
+		<width>	2.000000	</width>
+		<height>	2.000000	</height>
+		<colour>	255.0 255.000000 255.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	1	</horizontalAnchor>
+		<verticalAnchor>	1	</verticalAnchor>
+		<textureName>	</textureName>
+		<materialFX>	1	</materialFX>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<children>
+			<captions>	36924160	</captions>
+			<username>	36970944	</username>
+			<mainBackground>	36974529	</mainBackground>
+			<background>	36975585	</background>
+			<scrollUp>	37040080	</scrollUp>
+			<scrollDown>	37044560	</scrollDown>
+			<mainmenu>	36800992	</mainmenu>
+		</children>
+		<shaders>
+			<fader>	222080408	</fader>
+		</shaders>
+		<widthMode>	2	</widthMode>
+		<heightMode>	2	</heightMode>
+		<filterType>	2	</filterType>
+	</SimpleGUIComponent>
+	<WindowGUIComponent>	37044560
+		<position>	-0.600000 -0.30000 0.000000	</position>
+		<width>	1.200000	</width>
+		<height>	0.075000	</height>
+		<colour>	255.000000 0.000000 0.000000 0.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	false	</visible>
+		<horizontalAnchor>	0	</horizontalAnchor>
+		<verticalAnchor>	0	</verticalAnchor>
+		<textureName>	system/maps/col_white.bmp	</textureName>
+		<materialFX>	4	</materialFX>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<widthMode>	0	</widthMode>
+		<heightMode>	0	</heightMode>
+		<filterType>	2	</filterType>
+		<script>	&quot;MainMenuGUI.MainMenuScrollButton&quot;	
+			<moveDistance>	1	</moveDistance>
+		</script>
+		<children>
+			<arrow>	37044561 </arrow>
+		</children>
+	</WindowGUIComponent>
+	<SimpleGUIComponent>	37044561
+		<position>	0.900000 0.00000 0.000000	</position>
+		<width>	16.000000	</width>
+		<height>	16.00000	</height>
+		<colour>	255.000000 174.000000 136.000000 255.000000	</colour>
+		<angle>	2	</angle>
+		<flip>	0	</flip>
+		<horizontalAnchor>	2	</horizontalAnchor>
+		<verticalAnchor>	1	</verticalAnchor>
+		<verticalPositionMode> 0 </verticalPositionMode>
+		<horizontalPositionMode> 0 </horizontalPositionMode>
+		<textureName>	gui/maps/gui_tri.dds	</textureName>
+		<materialFX>	1	</materialFX>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<widthMode>	1	</widthMode>
+		<heightMode>	1	</heightMode>
+		<filterType>	2	</filterType>	
+		<visible> true </visible>	
+	</SimpleGUIComponent>	
+	<SimpleGUIComponent>	36924160
+		<position>	0.000000 0.000000 0.000000	</position>
+		<width>	1.100000	</width>
+		<height>	0.500000	</height>
+		<colour>	0.000000 0.000000 0.000000 0.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	1	</horizontalAnchor>
+		<verticalAnchor>	1	</verticalAnchor>
+		<textureName>	</textureName>
+		<materialFX>	0	</materialFX>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<children>
+			<title>	37152080	</title>
+			<help>	36977200	</help>
+		</children>
+		<widthMode>	2	</widthMode>
+		<heightMode>	2	</heightMode>
+		<filterType>	2	</filterType>
+	</SimpleGUIComponent>
+	<WindowGUIComponent>	36970944
+		<position>	0.000000 0.000000 0.50000	</position>
+		<width>	0.80000	</width>
+		<height>	0.080000	</height>
+		<colour>	0.000000 0.000000 0.000000 128.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	1	</horizontalAnchor>
+		<verticalAnchor>	1	</verticalAnchor>
+		<textureName>	system/maps/col_white.dds	</textureName>
+		<materialFX>	1	</materialFX>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<children>
+			<edit>	474956832	</edit>
+			<languageIndicator> 500832816 </languageIndicator>
+		</children>
+		<widthMode>	2	</widthMode>
+		<heightMode>	2	</heightMode>
+		<filterType>	2	</filterType>
+	</WindowGUIComponent>	
+	<WindowGUIComponent>	500832816
+		<position>	1.000000 0.000000 1.000000	</position>
+		<horizontalPositionMode>	0	</horizontalPositionMode>
+		<verticalPositionMode>	2	</verticalPositionMode>
+		<widthMode>	2	</widthMode>
+		<width>	0.080000	</width>
+		<heightMode>	0	</heightMode>
+		<height>	2.0	</height>
+		<colour>	255.000000 128.000000 64.000000 255.000000	</colour>
+		<visible>	true	</visible>
+		<horizontalAnchor>	2	</horizontalAnchor>
+		<verticalAnchor>	1	</verticalAnchor>
+		<textureName>	system/maps/col_white.dds	</textureName>
+		<materialFX>	1	</materialFX>
+		<filterType>	1	</filterType>
+		<script>	&quot;PyGUI.LanguageIndicator&quot;
+			<autoSize>	false	</autoSize>
+			<padding>	5	</padding>
+			<square>	true	</square>
+		</script>
+		<children>
+			<label>	195888608	</label>
+		</children>
+	</WindowGUIComponent>
+	<TextGUIComponent>	195888608
+		<position>	0.000000 0.000000 1.000000	</position>
+		<horizontalPositionMode>	2	</horizontalPositionMode>
+		<verticalPositionMode>	2	</verticalPositionMode>
+		<widthMode>	2	</widthMode>
+		<width>	0.019531	</width>
+		<heightMode>	2	</heightMode>
+		<height>	0.046875	</height>
+		<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	1	</horizontalAnchor>
+		<verticalAnchor>	1	</verticalAnchor>
+		<materialFX>	1	</materialFX>
+		<filterType>	1	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<pixelSnap>	true	</pixelSnap>
+		<focus>	false	</focus>
+		<moveFocus>	false	</moveFocus>
+		<crossFocus>	false	</crossFocus>
+		<dragFocus>	false	</dragFocus>
+		<dropFocus>	false	</dropFocus>
+		<label>	</label>
+		<font>	Label.font	</font>
+		<explicitSize>	false	</explicitSize>
+	</TextGUIComponent>	
+	
+	<WindowGUIComponent>	474956832
+		<position>	5 0.000000 1.000000	</position>
+		<horizontalPositionMode>	1	</horizontalPositionMode>
+		<verticalPositionMode>	0	</verticalPositionMode>
+		<widthMode>	0	</widthMode>
+		<width>	1.70000	</width>
+		<heightMode>	0	</heightMode>
+		<height>	2.0	</height>
+		<colour>	0.000000 0.000000 0.000000 0.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	0	</horizontalAnchor>
+		<verticalAnchor>	1	</verticalAnchor>
+		<textureName>	system/maps/col_white.dds	</textureName>
+		<materialFX>	1	</materialFX>
+		<filterType>	1	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<pixelSnap>	true	</pixelSnap>
+		<focus>	false	</focus>
+		<mouseButtonFocus> true </mouseButtonFocus>
+		<moveFocus>	false	</moveFocus>
+		<crossFocus>	false	</crossFocus>
+		<dragFocus>	false	</dragFocus>
+		<dropFocus>	false	</dropFocus>
+		<mapping>
+			<coords0>	0.000000 0.000000	</coords0>
+			<coords1>	0.000000 1.000000	</coords1>
+			<coords2>	1.000000 1.000000	</coords2>
+			<coords3>	1.000000 0.000000	</coords3>
+		</mapping>
+		<script>	&quot;PyGUI.EditField&quot;	
+			<enableIME>		true		</enableIME>
+			<maxLength>	15			</maxLength>
+			<allowAutoDefocus> false </allowAutoDefocus>
+			<idealVisibleCharacters>	25		</idealVisibleCharacters>
+			<autoFont>	default_medium.font	</autoFont>
+			<autoFont>	default_small.font	</autoFont>
+			<autoFont>	default_smaller.font	</autoFont>
+		</script>
+		<children>
+			<text>	341280972	</text>
+		</children>
+		<scroll>	0.000000 0.000000	</scroll>
+		<minScroll>	-100.000000 -100.000000	</minScroll>
+		<maxScroll>	100.000000 100.000000	</maxScroll>
+	</WindowGUIComponent>
+	<TextGUIComponent>	341280972
+		<position>	-1.000000 0.000000 0.500000	</position>
+		<horizontalPositionMode>	0	</horizontalPositionMode>
+		<verticalPositionMode>	0	</verticalPositionMode>
+		<widthMode>	2	</widthMode>
+		<width>	0.000000	</width>
+		<heightMode>	2	</heightMode>
+		<height>	0.000000	</height>
+		<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	0	</horizontalAnchor>
+		<verticalAnchor>	1	</verticalAnchor>
+		<textureName>	system/fonts/Meiryo_15.dds	</textureName>
+		<materialFX>	1	</materialFX>
+		<filterType>	1	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<pixelSnap>	true	</pixelSnap>
+		<focus>	false	</focus>
+		<moveFocus>	false	</moveFocus>
+		<crossFocus>	false	</crossFocus>
+		<dragFocus>	false	</dragFocus>
+		<dropFocus>	false	</dropFocus>
+		<label>	</label>
+		<font>	Label.font	</font>
+		<explicitSize>	false	</explicitSize>
+		<multiline>	false	</multiline>
+		<colourFormatting>	true	</colourFormatting>
+	</TextGUIComponent>
+	
+	<SimpleGUIComponent>	36974529
+		<position>	0.000000 0.000000 0.600000	</position>
+		<width>	2.000000	</width>
+		<height>	2.000000	</height>
+		<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	1	</horizontalAnchor>
+		<verticalAnchor>	1	</verticalAnchor>
+		<textureName>	gui/maps/main_background_wide_alpha.tga	</textureName>
+		<materialFX>	1	</materialFX>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<widthMode>	2	</widthMode>
+		<heightMode>	2	</heightMode>
+		<filterType>	2	</filterType>
+	</SimpleGUIComponent>
+	<SimpleGUIComponent>	36975585
+		<position>	0.000000 0.000000 0.800000	</position>
+		<width>	2.000000	</width>
+		<height>	2.0	</height>
+		<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	1	</horizontalAnchor>
+		<verticalAnchor>	1	</verticalAnchor>
+		<textureName>	gui/maps/main_background_wide.bmp	</textureName>
+		<materialFX>	1	</materialFX>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<shaders>
+			<fader>	222080409	</fader>
+		</shaders>
+		<widthMode>	2	</widthMode>
+		<heightMode>	2	</heightMode>
+		<filterType>	2	</filterType>
+	</SimpleGUIComponent>
+	<WindowGUIComponent>	37040080
+		<position>	-0.600000 0.30000 0.000000	</position>
+		<width>	1.200000	</width>
+		<height>	0.075000	</height>
+		<colour>	255.000000 0.000000 0.000000 0.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	false	</visible>
+		<horizontalAnchor>	0	</horizontalAnchor>
+		<verticalAnchor>	2	</verticalAnchor>
+		<textureName>	system/maps/col_white.bmp	</textureName>
+		<materialFX>	4	</materialFX>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<widthMode>	0	</widthMode>
+		<heightMode>	0	</heightMode>
+		<filterType>	2	</filterType>
+		<script>	&quot;MainMenuGUI.MainMenuScrollButton&quot;	
+			<moveDistance>	-1	</moveDistance>
+		</script>
+		<children>
+			<arrow>	37040081 </arrow>
+		</children>
+	</WindowGUIComponent>
+	<SimpleGUIComponent>	37040081
+		<position>	0.900000 0.00000 0.000000	</position>
+		<width>	16.000000	</width>
+		<height>	16.00000	</height>
+		<colour>	255.000000 174.000000 136.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<horizontalAnchor>	2	</horizontalAnchor>
+		<verticalAnchor>	1	</verticalAnchor>
+		<verticalPositionMode> 0 </verticalPositionMode>
+		<horizontalPositionMode> 0 </horizontalPositionMode>
+		<textureName>	gui/maps/gui_tri.dds	</textureName>
+		<materialFX>	1	</materialFX>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<widthMode>	1	</widthMode>
+		<heightMode>	1	</heightMode>
+		<filterType>	2	</filterType>	
+		<visible> true </visible>	
+	</SimpleGUIComponent>	
+	<WindowGUIComponent>	36800992
+		<position>	-0.600000 0.000000 0.000000	</position>
+		<width>	1.20000	</width>
+		<height>	0.550	</height>
+		<colour>	0.000000 0.000000 0.000000 0.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	0	</horizontalAnchor>
+		<verticalAnchor>	1	</verticalAnchor>
+		<textureName>	</textureName>
+		<materialFX>	0	</materialFX>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<script>	&quot;PyGUI.ScrollingList&quot;
+			<itemGui>	gui/menu_item.gui	</itemGui>
+		</script>
+		<children>
+			<items>	36893248	</items>
+		</children>
+		<scroll>	0.000000 0.000000	</scroll>
+		<minScroll>	0.000000 0.000000	</minScroll>
+		<maxScroll>	0.000000 0.000000	</maxScroll>
+		<widthMode>	2	</widthMode>
+		<heightMode>	2	</heightMode>
+		<filterType>	2	</filterType>
+	</WindowGUIComponent>
+	<SimpleGUIComponent>	37152080
+		<position>	-1.000000 0.530000 0.100000	</position>
+		<width>	1.000000	</width>
+		<height>	0.166667	</height>
+		<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	0	</horizontalAnchor>
+		<verticalAnchor>	0	</verticalAnchor>
+		<textureName>	gui/maps/main_title_main.tga	</textureName>
+		<materialFX>	1	</materialFX>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<widthMode>	2	</widthMode>
+		<heightMode>	2	</heightMode>
+		<filterType>	2	</filterType>
+	</SimpleGUIComponent>
+	<SimpleGUIComponent>	36977200
+		<position>	-1.000000 -0.600000 0.300000	</position>
+		<width>	2.000000	</width>
+		<height>	0.080000	</height>
+		<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	0	</horizontalAnchor>
+		<verticalAnchor>	2	</verticalAnchor>
+		<textureName>	gui/maps/main_help_menu.tga	</textureName>
+		<materialFX>	1	</materialFX>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<widthMode>	2	</widthMode>
+		<heightMode>	2	</heightMode>
+		<filterType>	2	</filterType>
+	</SimpleGUIComponent>
+	<SimpleGUIComponent>	36893248
+		<position>	0.017500 1.00000 0.000000	</position>
+		<width>	1.100000	</width>
+		<height>	0.446875	</height>
+		<colour>	0.000000 0.000000 0.000000 0.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	1	</horizontalAnchor>
+		<verticalAnchor>	0	</verticalAnchor>
+		<verticalPositionMode> 0 </verticalPositionMode>
+		<textureName>	 </textureName>
+		<materialFX>	0	</materialFX>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<script>	&quot;MainMenuGUI.SmoothMover&quot;	</script>
+		<shaders>
+			<transform>	36911280	</transform>
+		</shaders>
+		<widthMode>	2	</widthMode>
+		<heightMode>	0	</heightMode>
+		<filterType>	2	</filterType>
+	</SimpleGUIComponent>
+	<MatrixGUIShader>	36911280
+		<target>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</target>
+		<eta>	0.000000	</eta>
+		<blend>	true	</blend>
+	</MatrixGUIShader>
+	<AlphaGUIShader>	222080408
+		<mode>	0	</mode>
+		<stop>	-1.000000	</stop>
+		<start>	1.000000	</start>
+		<alpha>	0.000000	</alpha>
+		<speed>	1.000000	</speed>
+	</AlphaGUIShader>
+	<AlphaGUIShader>	222080409
+		<mode>	0	</mode>
+		<stop>	-1.000000	</stop>
+		<start>	1.000000	</start>
+		<alpha>	1.000000	</alpha>
+		<speed>	1.000000	</speed>
+	</AlphaGUIShader>
+</main_menu.gui>

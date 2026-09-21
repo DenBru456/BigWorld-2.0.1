@@ -1,0 +1,211 @@
+<facility_room_double.visual>
+	<node>
+		<identifier>	Scene Root	</identifier>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+	</node>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	Scene Root	</node>
+		<geometry>
+			<vertices>	vertices	</vertices>
+			<primitive>	indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	facility	</identifier>
+					<fx>	shaders/std_effects/normalmap_specmap.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	texAddressMode
+						<Int>	1	</Int>
+					</property>
+					<property>	specularMap
+						<Texture>	sets/urban/props/buildings/b_facility/maps/concrete_facility_s.bmp	</Texture>
+					</property>
+					<property>	alphaReference
+						<Int>	0	</Int>
+					</property>
+					<property>	alphaTestEnable
+						<Bool>	false	</Bool>
+					</property>
+					<property>	selfIllumination
+						<Float>	0.000000	</Float>
+					</property>
+					<property>	doubleSided
+						<Bool>	false	</Bool>
+					</property>
+					<property>	normalMap
+						<Texture>	sets/urban/props/buildings/b_facility/maps/concrete_facility_norms.bmp	</Texture>
+					</property>
+					<property>	diffuseMap
+						<Texture>	sets/urban/props/buildings/b_facility/maps/concrete_facility.bmp	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+			<primitiveGroup>	1
+				<material>
+					<identifier>	floor_tile	</identifier>
+					<fx>	shaders/std_effects/normalmap_specmap.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	texAddressMode
+						<Int>	1	</Int>
+					</property>
+					<property>	specularMap
+						<Texture>	sets/urban/props/buildings/b_facility/maps/facility_floor_tile_s.bmp	</Texture>
+					</property>
+					<property>	alphaReference
+						<Int>	0	</Int>
+					</property>
+					<property>	alphaTestEnable
+						<Bool>	false	</Bool>
+					</property>
+					<property>	selfIllumination
+						<Float>	0.000000	</Float>
+					</property>
+					<property>	doubleSided
+						<Bool>	false	</Bool>
+					</property>
+					<property>	normalMap
+						<Texture>	sets/urban/props/buildings/b_facility/maps/facility_floor_tile_norms.bmp	</Texture>
+					</property>
+					<property>	diffuseMap
+						<Texture>	sets/urban/props/buildings/b_facility/maps/facility_floor_tile_d.bmp	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+			<primitiveGroup>	2
+				<material>
+					<identifier>	glow	</identifier>
+					<fx>	shaders/std_effects/normalmap_glow.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	texAddressMode
+						<Int>	1	</Int>
+					</property>
+					<property>	materialSpecular
+						<Vector4>	1.000000 1.000000 1.000000 1.000000	</Vector4>
+					</property>
+					<property>	glowFactor
+						<Float>	2.000000	</Float>
+					</property>
+					<property>	glowMap
+						<Texture>	sets/urban/props/buildings/b_facility/maps/strip_lighting_g.bmp	</Texture>
+					</property>
+					<property>	alphaReference
+						<Int>	0	</Int>
+					</property>
+					<property>	alphaTestEnable
+						<Bool>	false	</Bool>
+					</property>
+					<property>	selfIllumination
+						<Float>	0.000000	</Float>
+					</property>
+					<property>	doubleSided
+						<Bool>	false	</Bool>
+					</property>
+					<property>	normalMap
+						<Texture>	sets/urban/props/buildings/b_facility/maps/internet_room_panel_norms.bmp	</Texture>
+					</property>
+					<property>	diffuseMap
+						<Texture>	sets/urban/props/buildings/b_facility/maps/strip_lighting_d.bmp	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+			<primitiveGroup>	3
+				<material>
+					<identifier>	grill	</identifier>
+					<fx>	shaders/std_effects/normalmap_specmap.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	texAddressMode
+						<Int>	1	</Int>
+					</property>
+					<property>	specularMap
+						<Texture>	sets/urban/props/buildings/b_facility/maps/facility_edge_tile_d.bmp	</Texture>
+					</property>
+					<property>	alphaReference
+						<Int>	0	</Int>
+					</property>
+					<property>	alphaTestEnable
+						<Bool>	false	</Bool>
+					</property>
+					<property>	selfIllumination
+						<Float>	0.000000	</Float>
+					</property>
+					<property>	doubleSided
+						<Bool>	false	</Bool>
+					</property>
+					<property>	normalMap
+						<Texture>	sets/urban/props/buildings/b_facility/maps/facility_edge_tile_norms.bmp	</Texture>
+					</property>
+					<property>	diffuseMap
+						<Texture>	sets/urban/props/buildings/b_facility/maps/facility_edge_tile_d.bmp	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<boundingBox>
+		<min>	-11.700001 -0.000000 -23.850000	</min>
+		<max>	-0.300000 3.799993 -4.150000	</max>
+	</boundingBox>
+	<boundary>
+		<normal>	1.000000 0.000000 0.000000	</normal>
+		<d>	-11.700000	</d>
+		<portal>
+			<uAxis>	0.000000 1.000000 0.000000	</uAxis>
+			<point>	0.000000 -6.000001 -0.000001	</point>
+			<point>	2.999999 -6.000001 -0.000001	</point>
+			<point>	2.999999 -10.000000 0.000000	</point>
+			<point>	0.000000 -10.000000 0.000000	</point>
+		</portal>
+		<portal>
+			<uAxis>	0.000000 1.000000 0.000000	</uAxis>
+			<point>	0.000000 -18.000000 -0.000001	</point>
+			<point>	2.999999 -18.000000 -0.000001	</point>
+			<point>	2.999999 -22.000000 0.000000	</point>
+			<point>	0.000000 -22.000000 0.000000	</point>
+		</portal>
+	</boundary>
+	<boundary>
+		<normal>	-1.000000 -0.000000 -0.000000	</normal>
+		<d>	0.300000	</d>
+		<portal>
+			<uAxis>	0.000000 1.000000 0.000000	</uAxis>
+			<point>	0.000000 10.000000 -0.000000	</point>
+			<point>	2.999999 10.000000 -0.000000	</point>
+			<point>	2.999999 6.000001 0.000000	</point>
+			<point>	0.000000 6.000001 0.000000	</point>
+		</portal>
+		<portal>
+			<uAxis>	0.000000 1.000000 0.000000	</uAxis>
+			<point>	0.000000 22.000000 -0.000000	</point>
+			<point>	2.999999 22.000000 -0.000000	</point>
+			<point>	2.999999 18.000000 0.000000	</point>
+			<point>	0.000000 18.000000 0.000000	</point>
+		</portal>
+	</boundary>
+	<boundary>
+		<normal>	0.000000 1.000000 0.000000	</normal>
+		<d>	-0.000000	</d>
+	</boundary>
+	<boundary>
+		<normal>	-0.000000 -1.000000 -0.000000	</normal>
+		<d>	-3.799992	</d>
+	</boundary>
+	<boundary>
+		<normal>	0.000000 0.000000 1.000000	</normal>
+		<d>	-23.849998	</d>
+	</boundary>
+	<boundary>
+		<normal>	-0.000000 -0.000000 -1.000000	</normal>
+		<d>	4.149999	</d>
+	</boundary>
+	<customHull>	false	</customHull>
+	<materialKind>	2	</materialKind>
+</facility_room_double.visual>

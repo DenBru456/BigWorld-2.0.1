@@ -1,0 +1,23 @@
+<root>
+	<copy> true </copy>
+	<ignore>	ignore.opt	</ignore>
+	<ignore>	xbsync.opt	</ignore>
+	<!-- build process: -->
+	<ignore>	Makefile	</ignore>
+	<ignore>	*.checked	</ignore>
+	<ignore>	visual_rules.xml	</ignore>
+	<!-- CVS related: -->
+	<ignore>	CVS	</ignore>
+	<ignore>	.#*	</ignore>
+	<!-- viewer cache files: -->
+	<ignore>	Thumbs.db	</ignore>
+	<ignore>	.xvpics		</ignore>
+	<ignore>	*~			</ignore>
+	<ignore>	space.localsettings	</ignore>
+
+	<!-- client-generated files ignored for dev-time: -->
+	<ignore>	*.dds		</ignore>
+	<ignore>	*.pyc		</ignore>
+	<ignore>	*.anca		</ignore>
+	<ignore>	*.bsp		</ignore>
+</root>

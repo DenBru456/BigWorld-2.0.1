@@ -1,0 +1,15 @@
+<wine.model>
+	<nodelessVisual>	sets/urban/props/bar/models/wine	</nodelessVisual>
+	<materialNames>	</materialNames>
+	<batched>	false	</batched>
+	<visibilityBox>
+		<min>	-0.101401 0.013768 -0.087815	</min>
+		<max>	0.101401 0.946282 0.087816	</max>
+	</visibilityBox>
+	<extent>	21.000000	</extent>
+	<metaData>
+		<copyright>	Copyright BigWorld Pty Ltd.  Use freely in any BigWorld licensed game.	</copyright>
+		<modified_by>	AdamM	</modified_by>
+		<modified_on>	1281675211	</modified_on>
+	</metaData>
+</wine.model>

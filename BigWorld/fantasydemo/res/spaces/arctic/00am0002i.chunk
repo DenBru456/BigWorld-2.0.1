@@ -1,0 +1,43 @@
+<root>
+	<shell>
+		<resource>	sets/temperate/shells/dungeon/entrance_connector.model	</resource>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<reflectionVisible>	true	</reflectionVisible>
+		<metaData>	</metaData>
+		<staticLighting>
+			<offset>	0	</offset>
+			<size>	5828	</size>
+		</staticLighting>
+	</shell>
+	<ambientLight>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<colour>	20.000000 16.000000 25.000011	</colour>
+		<multiplier>	3.000000	</multiplier>
+	</ambientLight>
+	<worldNavmesh>
+		<resource>	00am0002i.cdata/worldNavmesh	</resource>
+	</worldNavmesh>
+	<transform>
+		<row0>	0.000000 0.000000 -1.000000	</row0>
+		<row1>	0.000000 1.000000 0.000000	</row1>
+		<row2>	1.000000 0.000000 0.000000	</row2>
+		<row3>	-14.969999 -15.069998 -99.309990	</row3>
+	</transform>
+	<boundingBox>
+		<min>	-20.430414 -39.845959 -105.317482	</min>
+		<max>	-14.471627 -8.266481 -98.626961	</max>
+	</boundingBox>
+</root>

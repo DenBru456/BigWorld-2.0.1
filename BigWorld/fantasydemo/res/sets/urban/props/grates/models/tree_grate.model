@@ -1,0 +1,19 @@
+<tree_grate.model>
+	<nodelessVisual>	sets/urban/props/grates/models/tree_grate	</nodelessVisual>
+	<materialNames>
+		<material>
+			<original>	01 - Default	</original>
+			<display>	Treegrate	</display>
+		</material>
+	</materialNames>
+	<visibilityBox>
+		<min>	-0.750000 0.016055 -0.750000	</min>
+		<max>	0.750000 0.020000 0.750000	</max>
+	</visibilityBox>
+	<extent>	40.000000	</extent>
+	<metaData>
+		<copyright>	Copyright BigWorld Pty Ltd.  Use freely in any BigWorld licensed game.	</copyright>
+		<modified_by>	AdamM	</modified_by>
+		<modified_on>	1283745621	</modified_on>
+	</metaData>
+</tree_grate.model>

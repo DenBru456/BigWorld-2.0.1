@@ -1,0 +1,15 @@
+<newspaper_dispenser.model>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-0.400000 0.034048 -0.407813	</min>
+		<max>	0.400000 1.752378 0.350000	</max>
+	</visibilityBox>
+	<extent>	40.000000	</extent>
+	<batched>	false	</batched>
+	<nodelessVisual>	sets/urban/props/newspaper_dispenser/model/newspaper_dispenser	</nodelessVisual>
+	<metaData>
+		<copyright>	Copyright BigWorld Pty Ltd.  Use freely in any BigWorld licensed game.	</copyright>
+		<modified_by>	adamm	</modified_by>
+		<modified_on>	1254379425	</modified_on>
+	</metaData>
+</newspaper_dispenser.model>

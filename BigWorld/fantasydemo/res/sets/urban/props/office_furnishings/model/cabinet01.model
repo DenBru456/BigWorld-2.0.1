@@ -1,0 +1,15 @@
+<cabinet01.model>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-0.186486 0.000000 -0.006919	</min>
+		<max>	0.186486 1.512810 0.999521	</max>
+	</visibilityBox>
+	<batched>	false	</batched>
+	<extent>	30.000000	</extent>
+	<nodelessVisual>	sets/urban/props/office_furnishings/model/cabinet01	</nodelessVisual>
+	<metaData>
+		<copyright>	Copyright BigWorld Pty Ltd.  Use freely in any BigWorld licensed game.	</copyright>
+		<modified_by>	adamm	</modified_by>
+		<modified_on>	1254376905	</modified_on>
+	</metaData>
+</cabinet01.model>

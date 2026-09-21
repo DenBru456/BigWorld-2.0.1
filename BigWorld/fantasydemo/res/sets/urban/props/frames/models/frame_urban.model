@@ -1,0 +1,14 @@
+<frame_urban.model>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-0.500000 -0.006536 -0.238992	</min>
+		<max>	0.500000 0.020350 0.238992	</max>
+	</visibilityBox>
+	<nodelessVisual>	sets/urban/props/frames/models/frame_urban	</nodelessVisual>
+	<extent>	25.000000	</extent>
+	<metaData>
+		<copyright>	Copyright BigWorld Pty Ltd.  Use freely in any BigWorld licensed game.	</copyright>
+		<modified_by>	AdamM	</modified_by>
+		<modified_on>	1281674738	</modified_on>
+	</metaData>
+</frame_urban.model>

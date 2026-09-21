@@ -1,0 +1,15 @@
+<no_parking_streetsign.model>
+	<nodelessVisual>	sets/urban/props/signs/no_parking_streetsign	</nodelessVisual>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-0.008790 -0.001054 -0.332940	</min>
+		<max>	0.008454 0.412536 0.332941	</max>
+	</visibilityBox>
+	<extent>	254.000000	</extent>
+	<batched>	false	</batched>
+	<metaData>
+		<copyright>	Copyright BigWorld Pty Ltd.  Use freely in any BigWorld licensed game.	</copyright>
+		<modified_by>	adamm	</modified_by>
+		<modified_on>	1254379429	</modified_on>
+	</metaData>
+</no_parking_streetsign.model>

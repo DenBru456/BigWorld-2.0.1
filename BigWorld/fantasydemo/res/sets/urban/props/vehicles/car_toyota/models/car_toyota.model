@@ -1,0 +1,15 @@
+<car_toyota.model>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-0.410392 -0.002950 -0.949072	</min>
+		<max>	0.414259 0.617107 0.992785	</max>
+	</visibilityBox>
+	<extent>	81.000000	</extent>
+	<nodelessVisual>	sets/urban/props/vehicles/car_toyota/models/car_toyota	</nodelessVisual>
+	<parent>	sets/urban/props/vehicles/car_toyota/models/car_toyota_lod01	</parent>
+	<metaData>
+		<copyright>	Copyright owned by the3dstudio.com	</copyright>
+		<modified_by>	adamm	</modified_by>
+		<modified_on>	1254383211	</modified_on>
+	</metaData>
+</car_toyota.model>

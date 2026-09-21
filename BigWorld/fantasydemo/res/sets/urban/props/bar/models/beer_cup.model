@@ -1,0 +1,15 @@
+<beer_cup.model>
+	<nodelessVisual>	sets/urban/props/bar/models/beer_cup	</nodelessVisual>
+	<materialNames>	</materialNames>
+	<batched>	false	</batched>
+	<visibilityBox>
+		<min>	-0.054516 -0.004577 -0.060627	</min>
+		<max>	0.136708 0.207841 0.060626	</max>
+	</visibilityBox>
+	<extent>	25.000000	</extent>
+	<metaData>
+		<copyright>	Copyright BigWorld Pty Ltd.  Use freely in any BigWorld licensed game.	</copyright>
+		<modified_by>	AdamM	</modified_by>
+		<modified_on>	1281674451	</modified_on>
+	</metaData>
+</beer_cup.model>

@@ -1,0 +1,121 @@
+<arcade_cabinet.visual>
+	<node>
+		<identifier>	Scene Root	</identifier>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+		<node>
+			<identifier>	screen	</identifier>
+			<transform>
+				<row0>	1.000000 0.000000 0.000000	</row0>
+				<row1>	0.000000 1.000000 0.000000	</row1>
+				<row2>	0.000000 0.000000 1.000000	</row2>
+				<row3>	0.000000 0.000000 0.000000	</row3>
+			</transform>
+		</node>
+		<node>
+			<identifier>	Line01	</identifier>
+			<transform>
+				<row0>	1.000000 0.000000 0.000000	</row0>
+				<row1>	0.000000 1.000000 0.000000	</row1>
+				<row2>	0.000000 0.000000 1.000000	</row2>
+				<row3>	0.000000 0.000000 0.000000	</row3>
+			</transform>
+		</node>
+		<node>
+			<identifier>	HP_top_left	</identifier>
+			<transform>
+				<row0>	-1.000000 -0.000000 -0.000000	</row0>
+				<row1>	-0.000000 0.837072 0.547092	</row1>
+				<row2>	0.000000 0.547092 -0.837072	</row2>
+				<row3>	-0.620562 1.959499 -0.435881	</row3>
+			</transform>
+		</node>
+		<node>
+			<identifier>	HP_bottom_left	</identifier>
+			<transform>
+				<row0>	-1.000000 -0.000000 -0.000000	</row0>
+				<row1>	-0.000000 0.837072 0.547092	</row1>
+				<row2>	0.000000 0.547092 -0.837072	</row2>
+				<row3>	-0.620562 1.231752 -0.911521	</row3>
+			</transform>
+		</node>
+		<node>
+			<identifier>	HP_top_right	</identifier>
+			<transform>
+				<row0>	-1.000000 -0.000000 -0.000000	</row0>
+				<row1>	-0.000000 0.837072 0.547092	</row1>
+				<row2>	0.000000 0.547092 -0.837072	</row2>
+				<row3>	0.620679 1.959499 -0.435881	</row3>
+			</transform>
+		</node>
+	</node>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	Scene Root	</node>
+		<geometry>
+			<vertices>	vertices	</vertices>
+			<primitive>	indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	cabinet	</identifier>
+					<fx>	shaders/std_effects/normalmap.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	1	</materialKind>
+					<property>	materialSpecular
+						<Vector4>	0.305882 0.466667 0.596078 1.000000	</Vector4>
+					</property>
+					<property>	alphaReference
+						<Int>	0	</Int>
+					</property>
+					<property>	alphaTestEnable
+						<Bool>	false	</Bool>
+					</property>
+					<property>	selfIllumination
+						<Float>	0.200000	</Float>
+					</property>
+					<property>	doubleSided
+						<Bool>	false	</Bool>
+					</property>
+					<property>	normalMap
+						<Texture>	sets/urban/props/arcade_cabinet/maps/carbinet_norms.bmp	</Texture>
+					</property>
+					<property>	diffuseMap
+						<Texture>	sets/urban/props/arcade_cabinet/maps/carbinet.bmp	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+			<primitiveGroup>	1
+				<material>
+					<identifier>	screen	</identifier>
+					<fx>	shaders/std_effects/no_lighting.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	6	</materialKind>
+					<property>	alphaReference
+						<Int>	0	</Int>
+					</property>
+					<property>	alphaTestEnable
+						<Bool>	false	</Bool>
+					</property>
+					<property>	doubleSided
+						<Bool>	false	</Bool>
+					</property>
+					<property>	selfIllumination
+						<Float>	1.000000	</Float>
+					</property>
+					<property>	diffuseMap
+						<Texture>	sets/urban/props/tv/maps/tv_off.bmp	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<boundingBox>
+		<min>	-0.712388 -0.007979 -1.585567	</min>
+		<max>	0.712388 2.625365 -0.008709	</max>
+	</boundingBox>
+	<materialKind>	1	</materialKind>
+</arcade_cabinet.visual>

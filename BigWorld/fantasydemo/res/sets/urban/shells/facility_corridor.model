@@ -1,0 +1,13 @@
+<facility_corridor.model>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-0.300000 0.000000 -28.016777	</min>
+		<max>	4.598583 3.900000 -3.999998	</max>
+	</visibilityBox>
+	<nodelessVisual>	sets/urban/shells/facility_corridor	</nodelessVisual>
+	<metaData>
+		<copyright>	Copyright BigWorld Pty Ltd.  Use freely in any BigWorld licensed game.	</copyright>
+		<modified_by>	AdamM	</modified_by>
+		<modified_on>	1281673299	</modified_on>
+	</metaData>
+</facility_corridor.model>

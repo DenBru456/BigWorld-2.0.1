@@ -1,0 +1,14 @@
+<tree_shadow.model>
+	<nodelessVisual>	sets/urban/props/tree_shadow/models/tree_shadow	</nodelessVisual>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-4.063689 0.010000 -4.063689	</min>
+		<max>	4.063690 0.020000 4.063690	</max>
+	</visibilityBox>
+	<extent>	101.000000	</extent>
+	<metaData>
+		<copyright>	Copyright BigWorld Pty Ltd.  Use freely in any BigWorld licensed game.	</copyright>
+		<modified_by>	AdamM	</modified_by>
+		<modified_on>	1283744410	</modified_on>
+	</metaData>
+</tree_shadow.model>

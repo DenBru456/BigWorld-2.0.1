@@ -1,0 +1,15 @@
+<teapoy.model>
+	<nodelessVisual>	sets/urban/props/bar/models/teapoy	</nodelessVisual>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-0.486695 -0.009938 -0.261682	</min>
+		<max>	0.486695 0.480126 0.261682	</max>
+	</visibilityBox>
+	<batched>	true	</batched>
+	<extent>	25.000000	</extent>
+	<metaData>
+		<copyright>	Copyright BigWorld Pty Ltd.  Use freely in any BigWorld licensed game.	</copyright>
+		<modified_by>	AdamM	</modified_by>
+		<modified_on>	1281675140	</modified_on>
+	</metaData>
+</teapoy.model>

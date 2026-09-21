@@ -1,0 +1,201 @@
+<root>
+	<model>
+		<resource>	sets/town/props/wall/model/wall_gate.model	</resource>
+		<transform>
+			<row0>	0.000000 0.000000 0.999996	</row0>
+			<row1>	0.000000 0.999996 0.000000	</row1>
+			<row2>	-0.999996 0.000000 0.000000	</row2>
+			<row3>	76.000000 227.999985 -16.000000	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<resource>	sets/town/props/wall/model/wall_accend_02.model	</resource>
+		<transform>
+			<row0>	-0.000000 0.000000 0.999995	</row0>
+			<row1>	0.000000 0.999996 0.000000	</row1>
+			<row2>	-0.999995 0.000000 -0.000000	</row2>
+			<row3>	76.000000 227.999985 24.000000	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<resource>	sets/town/props/wall/model/wall_gate_gate.model	</resource>
+		<transform>
+			<row0>	-0.000000 0.000000 -0.999999	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	0.999999 0.000000 -0.000000	</row2>
+			<row3>	78.885437 227.896439 11.502441	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<resource>	sets/town/props/wall/model/wall_gate_gate.model	</resource>
+		<transform>
+			<row0>	0.000000 0.000000 0.999998	</row0>
+			<row1>	0.000000 0.999998 0.000000	</row1>
+			<row2>	-0.999998 0.000000 0.000000	</row2>
+			<row3>	78.872009 227.870667 -3.543121	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<resource>	sets/temperate/props/fd_village_statue.model	</resource>
+		<transform>
+			<row0>	-0.525104 0.000000 0.010025	</row0>
+			<row1>	0.000000 0.525200 0.000000	</row1>
+			<row2>	-0.010025 0.000000 -0.525104	</row2>
+			<row3>	72.286194 227.201981 13.371109	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<resource>	sets/temperate/props/fd_village_statue.model	</resource>
+		<transform>
+			<row0>	-0.525104 0.000000 0.010025	</row0>
+			<row1>	0.000000 0.525200 0.000000	</row1>
+			<row2>	-0.010025 0.000000 -0.525104	</row2>
+			<row3>	68.385559 227.486450 13.448944	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<resource>	sets/temperate/props/fd_village_statue.model	</resource>
+		<transform>
+			<row0>	-0.525104 0.000000 0.010025	</row0>
+			<row1>	0.000000 0.525200 0.000000	</row1>
+			<row2>	-0.010025 0.000000 -0.525104	</row2>
+			<row3>	64.973450 227.338867 13.310226	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<resource>	sets/town/props/grave_gargoyle/model/grave_gargoyle.model	</resource>
+		<transform>
+			<row0>	0.000000 0.000000 -1.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	1.000000 -0.000000 0.000000	</row2>
+			<row3>	78.038269 236.220276 12.359329	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<worldNavmesh>
+		<resource>	0007fffeo.cdata/worldNavmesh	</resource>
+	</worldNavmesh>
+	<terrain>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>	</metaData>
+		<resource>	0007fffeo.cdata/terrain2	</resource>
+	</terrain>
+	<UserDataObject>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>	</metaData>
+		<type>	PatrolNode	</type>
+		<Domain>	2	</Domain>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	27.703552 223.249969 3.407654	</row3>
+		</transform>
+		<guid>	53BB35E2.4AA0DDF0.A17D1793.83BA642B	</guid>
+		<properties>
+			<patrolLinks>
+				<item>
+					<guid>	B82DEF5A.4970662F.1AC179B8.5F223E16	</guid>
+					<chunkId>	0007fffeo	</chunkId>
+				</item>
+				<item>
+					<guid>	4A5A8AAF.4101B93F.38DA66B7.94DFEB13	</guid>
+					<chunkId>	0006fffdo	</chunkId>
+				</item>
+				<item>
+					<guid>	65C4C017.4564EC5C.BF1A17BC.4E512ECD	</guid>
+					<chunkId>	0006fffeo	</chunkId>
+				</item>
+			</patrolLinks>
+			<departureSpeed>	2.000000	</departureSpeed>
+			<importance>	1	</importance>
+			<waitSecs>	0.000000	</waitSecs>
+			<radius>	2.885347	</radius>
+		</properties>
+		<backLinks>
+			<link>
+				<guid>	4A5A8AAF.4101B93F.38DA66B7.94DFEB13	</guid>
+				<chunkId>	0006fffdo	</chunkId>
+			</link>
+			<link>
+				<guid>	65C4C017.4564EC5C.BF1A17BC.4E512ECD	</guid>
+				<chunkId>	0006fffeo	</chunkId>
+			</link>
+			<link>
+				<guid>	B82DEF5A.4970662F.1AC179B8.5F223E16	</guid>
+				<chunkId>	0007fffeo	</chunkId>
+			</link>
+		</backLinks>
+	</UserDataObject>
+	<UserDataObject>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>	</metaData>
+		<type>	PatrolNode	</type>
+		<Domain>	2	</Domain>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	59.657410 225.254852 3.938995	</row3>
+		</transform>
+		<guid>	B82DEF5A.4970662F.1AC179B8.5F223E16	</guid>
+		<properties>
+			<patrolLinks>
+				<item>
+					<guid>	53BB35E2.4AA0DDF0.A17D1793.83BA642B	</guid>
+					<chunkId>	0007fffeo	</chunkId>
+				</item>
+			</patrolLinks>
+			<departureSpeed>	2.000000	</departureSpeed>
+			<importance>	1	</importance>
+			<waitSecs>	0.000000	</waitSecs>
+			<radius>	3.313330	</radius>
+		</properties>
+		<backLinks>
+			<link>
+				<guid>	53BB35E2.4AA0DDF0.A17D1793.83BA642B	</guid>
+				<chunkId>	0007fffeo	</chunkId>
+			</link>
+		</backLinks>
+	</UserDataObject>
+</root>

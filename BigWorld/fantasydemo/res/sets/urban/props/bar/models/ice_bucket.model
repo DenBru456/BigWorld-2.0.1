@@ -1,0 +1,15 @@
+<ice_bucket.model>
+	<nodelessVisual>	sets/urban/props/bar/models/ice_bucket	</nodelessVisual>
+	<materialNames>	</materialNames>
+	<batched>	true	</batched>
+	<visibilityBox>
+		<min>	-0.297632 -0.001261 -0.236581	</min>
+		<max>	0.297633 0.961311 0.236581	</max>
+	</visibilityBox>
+	<extent>	25.000000	</extent>
+	<metaData>
+		<copyright>	Copyright BigWorld Pty Ltd.  Use freely in any BigWorld licensed game.	</copyright>
+		<modified_by>	AdamM	</modified_by>
+		<modified_on>	1281674866	</modified_on>
+	</metaData>
+</ice_bucket.model>

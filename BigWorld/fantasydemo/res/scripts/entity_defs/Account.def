@@ -1,0 +1,137 @@
+<root>
+	<Properties>
+		<accountName>
+			<Type>			UNICODE_STRING	</Type>
+			<Flags>			BASE_AND_CLIENT	</Flags>
+			<Persistent>	true			</Persistent>
+			<DatabaseLength> 100			</DatabaseLength>
+			<Identifier>	true			</Identifier>
+		</accountName>
+
+		<persistentCharacterList>
+			<Type>			ARRAY <of> PERSISTENT_CHARACTER_INFO </of>	</Type>
+			<Flags>			BASE				</Flags>
+			<Persistent>	true		</Persistent>
+		</persistentCharacterList>
+
+		<selectedRealm>
+			<Type>			REALM_ID		</Type>
+			<Flags>			BASE			</Flags>
+			<Default>						</Default>
+		</selectedRealm>
+
+		<!-- --- Logon/Billing stuff --- -->
+
+		<!-- The password property will be populated with the value sent from
+			the client during the login process -->
+		<password>
+			<Type>			STRING		</Type>
+			<Flags>			BASE		</Flags>
+			<Default>					</Default>
+			<Persistent>	true			</Persistent>
+		</password>
+		
+		<activeCharacter>
+			<Type>			MAILBOX		</Type>
+			<Flags>			BASE		</Flags>
+		</activeCharacter>
+		
+		<lastClientIpAddr>
+			<Type>			UINT32		</Type>
+			<Flags>			BASE		</Flags>
+			<Default>		0			</Default>
+		</lastClientIpAddr>
+
+		<isBot>
+			<Type>			BOOL		</Type>
+			<Flags>			BASE		</Flags>
+			<Persistent>	false		</Persistent>
+		</isBot>
+
+		<haveWebClient>
+			<Type>			BOOL		</Type>
+			<Flags>			BASE		</Flags>
+			<Persistent>	false		</Persistent>
+		</haveWebClient>
+	</Properties>
+
+	<TempProperties>
+		<!-- The character list will be recreated in onRestore -->
+		<characterList/>
+	</TempProperties>
+
+	<ClientMethods>
+		<logMessage>
+			<Arg>	UNICODE_STRING </Arg> <!-- messages to be displayed on client -->
+		</logMessage>
+
+		<failLogon>
+			<Arg>	UNICODE_STRING	</Arg>	<!-- message to show on console -->
+		</failLogon>
+
+		<switchRealm>
+			<Arg>	REALM_ID			</Arg>
+			<Arg>	ARRAY <of> CHARACTER_INFO </of>	</Arg>
+		</switchRealm>
+
+		<createCharacterCallback>
+			<Arg>	BOOL	</Arg>
+			<Arg>	UNICODE_STRING	</Arg> <!-- message to show on console -->
+			<Arg>	ARRAY <of> CHARACTER_INFO </of>	</Arg>
+		</createCharacterCallback>
+	</ClientMethods>
+
+	<BaseMethods>
+
+		<selectRealm>
+			<Exposed/>
+			<Arg>	REALM_ID	</Arg>
+		</selectRealm>
+
+		<createNewAvatar>
+			<Exposed/>
+			<Arg>	UNICODE_STRING	</Arg>	<!-- character name -->
+		</createNewAvatar>
+
+		<characterBeginPlay>
+			<Exposed/>
+			<Arg>	UNICODE_STRING	</Arg>	<!-- character name -->
+		</characterBeginPlay>	
+
+		<!-- Called by an Avatar on death -->
+		<onAvatarDeath>
+			<Arg>	DBID	</Arg>	<!-- Avatar database ID -->
+			<!-- The characters model at the time of death/logoff. -->
+			<Arg>	PACKED_AVATAR_MODEL		</Arg>
+		</onAvatarDeath>
+
+		<webGetCharacterList>
+			<ReturnValues>
+				<characters>	ARRAY	<of>PYTHON</of>	
+				</characters>
+			</ReturnValues>
+		</webGetCharacterList>
+
+		<webChooseCharacter>
+			<Arg>		STRING		</Arg>	<!-- character name -->
+			<Arg>		STRING		</Arg>	<!-- character type -->
+			<ReturnValues>
+				<errMsg>		STRING		</errMsg>
+				<character>		MAILBOX		</character>
+			</ReturnValues>
+		</webChooseCharacter>
+
+		<webCreateCharacter>
+			<Arg>		STRING		</Arg>	<!-- character name -->
+			<ReturnValues>
+				<success>		BOOL		</success>
+				<errMsg>		STRING		</errMsg>
+			</ReturnValues>
+		</webCreateCharacter>
+
+	</BaseMethods>
+
+	<CellMethods>
+	</CellMethods>
+
+</root>

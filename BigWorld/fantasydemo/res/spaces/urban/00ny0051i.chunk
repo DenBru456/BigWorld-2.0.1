@@ -1,0 +1,71 @@
+<root>
+	<shell>
+		<resource>	sets/urban/shells/office_elevator_floor.model	</resource>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<reflectionVisible>	true	</reflectionVisible>
+		<metaData>	</metaData>
+		<staticLighting>
+			<offset>	0	</offset>
+			<size>	1292	</size>
+		</staticLighting>
+	</shell>
+	<omniLight>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>
+			<modified_by>	adamm	</modified_by>
+			<modified_on>	1250639377	</modified_on>
+		</metaData>
+		<colour>	227.000107 188.000000 134.000000	</colour>
+		<position>	-2.088631 3.409777 5.399994	</position>
+		<innerRadius>	1.000000	</innerRadius>
+		<outerRadius>	3.420704	</outerRadius>
+		<dynamic>	true	</dynamic>
+		<static>	true	</static>
+		<specular>	false	</specular>
+		<multiplier>	1.000000	</multiplier>
+	</omniLight>
+	<omniLight>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>
+			<modified_by>	adamm	</modified_by>
+			<modified_on>	1250639377	</modified_on>
+		</metaData>
+		<colour>	227.000107 188.000000 134.000000	</colour>
+		<position>	-1.988625 3.509773 1.900024	</position>
+		<innerRadius>	1.000000	</innerRadius>
+		<outerRadius>	3.420704	</outerRadius>
+		<dynamic>	true	</dynamic>
+		<static>	true	</static>
+		<specular>	false	</specular>
+		<multiplier>	1.000000	</multiplier>
+	</omniLight>
+	<worldNavmesh>
+		<resource>	00ny0051i.cdata/worldNavmesh	</resource>
+	</worldNavmesh>
+	<transform>
+		<row0>	-1.000000 0.000000 0.000000	</row0>
+		<row1>	0.000000 1.000000 0.000000	</row1>
+		<row2>	0.000000 0.000000 -1.000000	</row2>
+		<row3>	77.499901 28.499983 -60.999996	</row3>
+	</transform>
+	<boundingBox>
+		<min>	77.499893 28.499981 -67.999992	</min>
+		<max>	87.499893 69.253548 -60.999992	</max>
+	</boundingBox>
+</root>

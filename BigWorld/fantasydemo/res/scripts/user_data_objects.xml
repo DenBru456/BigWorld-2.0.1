@@ -1,0 +1,7 @@
+<root>
+	<!-- Base classes need to be before derived classes -->
+	<testItem/>
+	<CameraNode/>
+	<PatrolNode/>
+	<PlatformNode/>
+</root>

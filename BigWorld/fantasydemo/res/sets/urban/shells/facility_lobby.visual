@@ -1,0 +1,310 @@
+<facility_lobby.visual>
+	<node>
+		<identifier>	Scene Root	</identifier>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+	</node>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	Scene Root	</node>
+		<geometry>
+			<vertices>	vertices	</vertices>
+			<primitive>	indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	facility	</identifier>
+					<fx>	shaders/std_effects/normalmap_chrome.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	texAddressMode
+						<Int>	1	</Int>
+					</property>
+					<property>	doubleSided
+						<Bool>	false	</Bool>
+					</property>
+					<property>	alphaReference
+						<Int>	0	</Int>
+					</property>
+					<property>	alphaTestEnable
+						<Bool>	false	</Bool>
+					</property>
+					<property>	reflectionMap
+						<Texture>	sets/urban/fx/maps/cubemap_softbox.dds	</Texture>
+					</property>
+					<property>	normalMap
+						<Texture>	sets/urban/props/buildings/b_facility/maps/concrete_facility_norms.bmp	</Texture>
+					</property>
+					<property>	diffuseMap
+						<Texture>	sets/urban/props/buildings/b_facility/maps/concrete_facility.bmp	</Texture>
+					</property>
+					<property>	selfIllumination
+						<Float>	0.000000	</Float>
+					</property>
+					<property>	materialSpecular
+						<Vector4>	1.000000 1.000000 1.000000 1.000000	</Vector4>
+					</property>
+					<property>	reflectionAmount
+						<Float>	0.500000	</Float>
+					</property>
+					<property>	fresnelConstant
+						<Float>	0.500000	</Float>
+					</property>
+					<property>	fresnelExp
+						<Float>	5.000000	</Float>
+					</property>
+				</material>
+			</primitiveGroup>
+			<primitiveGroup>	1
+				<material>
+					<identifier>	facility_window	</identifier>
+					<fx>	shaders/std_effects/distort.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	vTransform
+						<Vector4>	0.000000 1.000000 0.000000 0.000000	</Vector4>
+					</property>
+					<property>	uTransform
+						<Vector4>	1.000000 0.000000 0.000000 0.000000	</Vector4>
+					</property>
+					<property>	tint
+						<Vector4>	0.654902 0.878431 0.858824 1.000000	</Vector4>
+					</property>
+					<property>	useReflection
+						<Bool>	true	</Bool>
+					</property>
+					<property>	scale
+						<Float>	0.139000	</Float>
+					</property>
+					<property>	useOverlay
+						<Bool>	true	</Bool>
+					</property>
+					<property>	useDiffuse
+						<Bool>	false	</Bool>
+					</property>
+					<property>	distortionMap
+						<Texture>	sets/urban/props/buildings/b_facility/maps/facility_glass_norms.bmp	</Texture>
+					</property>
+					<property>	texAddressMode
+						<Int>	1	</Int>
+					</property>
+					<property>	doubleSided
+						<Bool>	true	</Bool>
+					</property>
+					<property>	reflectionAmount
+						<Float>	0.750000	</Float>
+					</property>
+					<property>	reflectionMap
+						<Texture>	sets/urban/fx/maps/cubemap_softbox.dds	</Texture>
+					</property>
+					<property>	diffuseMap
+						<Texture>	sets/urban/props/buildings/b_facility/maps/glass_d.tga	</Texture>
+					</property>
+					<property>	fresnelConstant
+						<Float>	0.057000	</Float>
+					</property>
+					<property>	fresnelExp
+						<Float>	3.220000	</Float>
+					</property>
+					<property>	alphaReference
+						<Int>	0	</Int>
+					</property>
+					<property>	alphaTestEnable
+						<Bool>	false	</Bool>
+					</property>
+				</material>
+			</primitiveGroup>
+			<primitiveGroup>	2
+				<material>
+					<identifier>	floor_tile	</identifier>
+					<fx>	shaders/std_effects/normalmap_specmap_chrome.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	reflectionMask
+						<Texture>	sets/urban/props/buildings/b_facility/maps/facility_floor_tile_d.bmp	</Texture>
+					</property>
+					<property>	texAddressMode
+						<Int>	1	</Int>
+					</property>
+					<property>	doubleSided
+						<Bool>	false	</Bool>
+					</property>
+					<property>	alphaReference
+						<Int>	0	</Int>
+					</property>
+					<property>	alphaTestEnable
+						<Bool>	false	</Bool>
+					</property>
+					<property>	reflectionMap
+						<Texture>	sets/urban/fx/maps/cubemap_urban.dds	</Texture>
+					</property>
+					<property>	specularMap
+						<Texture>	sets/urban/props/buildings/b_facility/maps/facility_floor_tile_s.bmp	</Texture>
+					</property>
+					<property>	normalMap
+						<Texture>	sets/urban/props/buildings/b_facility/maps/facility_floor_tile_norms.bmp	</Texture>
+					</property>
+					<property>	diffuseMap
+						<Texture>	sets/urban/props/buildings/b_facility/maps/facility_floor_tile_d.bmp	</Texture>
+					</property>
+					<property>	selfIllumination
+						<Float>	0.000000	</Float>
+					</property>
+					<property>	reflectionAmount
+						<Float>	1.510000	</Float>
+					</property>
+				</material>
+			</primitiveGroup>
+			<primitiveGroup>	3
+				<material>
+					<identifier>	metal panel	</identifier>
+					<fx>	shaders/std_effects/normalmap_specmap.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	texAddressMode
+						<Int>	1	</Int>
+					</property>
+					<property>	specularMap
+						<Texture>	sets/urban/props/buildings/b_facility/maps/metal_panel_s.bmp	</Texture>
+					</property>
+					<property>	alphaReference
+						<Int>	0	</Int>
+					</property>
+					<property>	alphaTestEnable
+						<Bool>	false	</Bool>
+					</property>
+					<property>	selfIllumination
+						<Float>	0.000000	</Float>
+					</property>
+					<property>	doubleSided
+						<Bool>	false	</Bool>
+					</property>
+					<property>	normalMap
+						<Texture>	sets/urban/props/buildings/b_facility/maps/metal_panel_norms.bmp	</Texture>
+					</property>
+					<property>	diffuseMap
+						<Texture>	sets/urban/props/buildings/b_facility/maps/metal_panel_d.bmp	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+			<primitiveGroup>	4
+				<material>
+					<identifier>	Material #81	</identifier>
+					<fx>	shaders/std_effects/normalmap_specmap.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	texAddressMode
+						<Int>	1	</Int>
+					</property>
+					<property>	specularMap
+						<Texture>	sets/urban/props/buildings/b_office/maps/elevator_shaft.bmp	</Texture>
+					</property>
+					<property>	alphaReference
+						<Int>	0	</Int>
+					</property>
+					<property>	alphaTestEnable
+						<Bool>	false	</Bool>
+					</property>
+					<property>	selfIllumination
+						<Float>	0.000000	</Float>
+					</property>
+					<property>	doubleSided
+						<Bool>	false	</Bool>
+					</property>
+					<property>	normalMap
+						<Texture>	sets/urban/props/buildings/b_office/maps/elevator_shaft_norms.bmp	</Texture>
+					</property>
+					<property>	diffuseMap
+						<Texture>	sets/urban/props/buildings/b_office/maps/elevator_shaft.bmp	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<boundingBox>
+		<min>	-8.000000 -0.018537 31.998672	</min>
+		<max>	12.000000 12.000000 60.000000	</max>
+	</boundingBox>
+	<boundary>
+		<normal>	1.000000 0.000000 0.000000	</normal>
+		<d>	-8.000000	</d>
+		<portal>
+			<chunk>	invasive	</chunk>
+			<uAxis>	0.000000 1.000000 0.000000	</uAxis>
+			<point>	0.000000 59.999996 0.000000	</point>
+			<point>	11.999998 59.999996 0.000000	</point>
+			<point>	11.999998 39.999992 0.000000	</point>
+			<point>	0.000000 39.999992 0.000000	</point>
+		</portal>
+		<portal>
+			<uAxis>	0.000000 1.000000 0.000000	</uAxis>
+			<point>	0.000000 36.000000 0.000000	</point>
+			<point>	2.999999 36.000000 0.000000	</point>
+			<point>	2.999999 32.000000 0.000000	</point>
+			<point>	0.000000 32.000000 0.000000	</point>
+		</portal>
+	</boundary>
+	<boundary>
+		<normal>	-1.000000 -0.000000 -0.000000	</normal>
+		<d>	-11.999999	</d>
+		<portal>
+			<chunk>	invasive	</chunk>
+			<uAxis>	0.000000 1.000000 0.000000	</uAxis>
+			<point>	0.000000 -31.999998 0.000000	</point>
+			<point>	11.999998 -31.999998 0.000000	</point>
+			<point>	11.999998 -59.999996 0.000000	</point>
+			<point>	0.000000 -59.999996 0.000000	</point>
+		</portal>
+	</boundary>
+	<boundary>
+		<normal>	0.000000 1.000000 0.000000	</normal>
+		<d>	-0.018537	</d>
+	</boundary>
+	<boundary>
+		<normal>	-0.000000 -1.000000 -0.000000	</normal>
+		<d>	-11.999999	</d>
+		<portal>
+			<uAxis>	0.000000 0.000000 1.000000	</uAxis>
+			<point>	39.999989 4.000000 -0.000002	</point>
+			<point>	43.999989 4.000000 -0.000002	</point>
+			<point>	43.999989 0.000000 -0.000002	</point>
+			<point>	39.999989 0.000000 -0.000002	</point>
+		</portal>
+	</boundary>
+	<boundary>
+		<normal>	0.000000 0.000000 1.000000	</normal>
+		<d>	31.998671	</d>
+		<portal>
+			<chunk>	invasive	</chunk>
+			<uAxis>	1.000000 0.000000 0.000000	</uAxis>
+			<point>	2.000000 11.999998 0.001329	</point>
+			<point>	11.999998 11.999998 0.001329	</point>
+			<point>	11.999998 0.000000 0.001329	</point>
+			<point>	2.000000 0.000000 0.001329	</point>
+		</portal>
+		<portal>
+			<uAxis>	1.000000 0.000000 0.000000	</uAxis>
+			<point>	-8.000000 3.000000 0.001329	</point>
+			<point>	-4.000000 3.000000 0.001329	</point>
+			<point>	-4.000000 0.000000 0.001329	</point>
+			<point>	-8.000000 0.000000 0.001329	</point>
+		</portal>
+	</boundary>
+	<boundary>
+		<normal>	-0.000000 -0.000000 -1.000000	</normal>
+		<d>	-59.999996	</d>
+		<portal>
+			<chunk>	invasive	</chunk>
+			<uAxis>	1.000000 0.000000 0.000000	</uAxis>
+			<point>	-8.000000 0.000000 -0.000004	</point>
+			<point>	11.999998 0.000000 -0.000004	</point>
+			<point>	11.999998 -11.999998 -0.000004	</point>
+			<point>	-8.000000 -11.999998 -0.000004	</point>
+		</portal>
+	</boundary>
+	<customHull>	false	</customHull>
+	<materialKind>	2	</materialKind>
+</facility_lobby.visual>

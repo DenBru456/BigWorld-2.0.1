@@ -1,0 +1,43 @@
+<root>
+	<Properties>
+		<label>
+			<Type>		STRING			</Type>
+			<Flags>		CELL_PUBLIC		</Flags>
+		</label>
+
+		<members>
+			<Type>		ARRAY <of>OBJECT_ID</of>		</Type>
+			<Flags>		CELL_PRIVATE			</Flags>
+		</members>
+	</Properties>
+
+	<ClientMethods>
+	</ClientMethods>
+
+	<CellMethods>
+		<register>
+			<Arg>	OBJECT_ID			</Arg>	<!-- id -->
+			<!-- TODO: Could make type 1 byte -->
+			<Arg>	UINT16				</Arg>	<!-- type -->
+			<Arg>	UINT32				</Arg>	<!-- ip -->
+			<Arg>	UINT16				</Arg>	<!-- port -->
+		</register>
+
+		<deregister>
+			<Arg>	OBJECT_ID			</Arg>	<!-- id -->
+		</deregister>
+
+		<tellOthers>
+			<Arg>	OBJECT_ID			</Arg>	<!-- source -->
+			<Arg>	STRING				</Arg>	<!-- message -->
+		</tellOthers>
+
+		<broadcast>
+			<Arg>	UNICODE_STRING				</Arg>	<!-- message -->
+		</broadcast>
+	</CellMethods>
+
+	<BaseMethods>
+	</BaseMethods>
+</root>
+

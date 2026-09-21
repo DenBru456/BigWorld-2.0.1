@@ -1,0 +1,106 @@
+<tv_small.visual>
+	<node>
+		<identifier>	Scene Root	</identifier>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+		<node>
+			<identifier>	HP_top_left	</identifier>
+			<transform>
+				<row0>	-1.000000 0.000001 -0.000000	</row0>
+				<row1>	0.000001 1.000000 -0.000000	</row1>
+				<row2>	0.000000 -0.000000 -1.000000	</row2>
+				<row3>	-0.786384 0.609622 -0.051814	</row3>
+			</transform>
+		</node>
+		<node>
+			<identifier>	HP_top_right	</identifier>
+			<transform>
+				<row0>	-1.000000 0.000001 -0.000000	</row0>
+				<row1>	0.000001 1.000000 -0.000000	</row1>
+				<row2>	0.000000 -0.000000 -1.000000	</row2>
+				<row3>	0.835294 0.609622 -0.051814	</row3>
+			</transform>
+		</node>
+		<node>
+			<identifier>	HP_bottom_left	</identifier>
+			<transform>
+				<row0>	-1.000000 0.000001 -0.000000	</row0>
+				<row1>	0.000001 1.000000 -0.000000	</row1>
+				<row2>	0.000000 -0.000000 -1.000000	</row2>
+				<row3>	-0.786384 -0.334486 -0.051814	</row3>
+			</transform>
+		</node>
+		<node>
+			<identifier>	Plane02	</identifier>
+			<transform>
+				<row0>	1.000000 0.000000 0.000000	</row0>
+				<row1>	0.000000 1.000000 0.000000	</row1>
+				<row2>	0.000000 0.000000 1.000000	</row2>
+				<row3>	0.024455 -0.019784 0.000000	</row3>
+			</transform>
+		</node>
+	</node>
+	<materialKind>	12	</materialKind>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	Scene Root	</node>
+		<geometry>
+			<vertices>	vertices	</vertices>
+			<primitive>	indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	frame	</identifier>
+					<fx>	shaders/std_effects/normalmap_specmap.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	12	</materialKind>
+					<property>	specularMap
+						<Texture>	sets/urban/props/tv/maps/tv_frame_spec.bmp	</Texture>
+					</property>
+					<property>	alphaReference
+						<Int>	0	</Int>
+					</property>
+					<property>	selfIllumination
+						<Float>	0.000000	</Float>
+					</property>
+					<property>	doubleSided
+						<Bool>	false	</Bool>
+					</property>
+					<property>	normalMap
+						<Texture>	sets/urban/props/tv/maps/tv_norms.bmp	</Texture>
+					</property>
+					<property>	diffuseMap
+						<Texture>	sets/urban/props/tv/maps/tv.bmp	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+			<primitiveGroup>	1
+				<material>
+					<identifier>	tv_off	</identifier>
+					<fx>	shaders/std_effects/no_lighting.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	6	</materialKind>
+					<property>	alphaReference
+						<Int>	0	</Int>
+					</property>
+					<property>	selfIllumination
+						<Float>	0.700000	</Float>
+					</property>
+					<property>	diffuseMap
+						<TextureFeed>	tv_small1
+							<default>	sets/urban/props/tv/maps/tv_off.bmp	</default>
+						</TextureFeed>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<boundingBox>
+		<min>	-0.807904 -0.382629 -0.074550	</min>
+		<max>	0.864765 0.633766 0.070320	</max>
+	</boundingBox>
+	<customBsp>	true	</customBsp>
+</tv_small.visual>

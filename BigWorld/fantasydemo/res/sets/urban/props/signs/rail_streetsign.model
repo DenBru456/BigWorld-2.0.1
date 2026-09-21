@@ -1,0 +1,15 @@
+<rail_streetsign.model>
+	<nodelessVisual>	sets/urban/props/signs/rail_streetsign	</nodelessVisual>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-0.447877 -0.000452 -0.469208	</min>
+		<max>	0.443618 0.016793 0.469208	</max>
+	</visibilityBox>
+	<extent>	189.000000	</extent>
+	<batched>	false	</batched>
+	<metaData>
+		<copyright>	Copyright BigWorld Pty Ltd.  Use freely in any BigWorld licensed game.	</copyright>
+		<modified_by>	adamm	</modified_by>
+		<modified_on>	1254379840	</modified_on>
+	</metaData>
+</rail_streetsign.model>

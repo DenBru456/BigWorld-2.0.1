@@ -1,0 +1,14 @@
+<plant.model>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-0.472263 0.000000 -0.460134	</min>
+		<max>	0.458778 0.924206 0.484247	</max>
+	</visibilityBox>
+	<nodelessVisual>	sets/urban/props/plant/model/plant	</nodelessVisual>
+	<extent>	25.000000	</extent>
+	<metaData>
+		<copyright>	Copyright BigWorld Pty Ltd.  Use freely in any BigWorld licensed game.	</copyright>
+		<modified_by>	AdamM	</modified_by>
+		<modified_on>	1268889467	</modified_on>
+	</metaData>
+</plant.model>

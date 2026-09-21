@@ -1,0 +1,14 @@
+<sofa.model>
+	<nodelessVisual>	sets/urban/props/sofa/model/sofa	</nodelessVisual>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-0.480293 -0.000210 -1.120967	</min>
+		<max>	0.506173 0.919846 1.120967	</max>
+	</visibilityBox>
+	<extent>	30.000000	</extent>
+	<metaData>
+		<copyright>	Copyright BigWorld Pty Ltd.  Use freely in any BigWorld licensed game.	</copyright>
+		<modified_by>	AdamM	</modified_by>
+		<modified_on>	1281675088	</modified_on>
+	</metaData>
+</sofa.model>

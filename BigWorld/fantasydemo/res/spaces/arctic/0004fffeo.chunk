@@ -1,0 +1,17 @@
+<root>
+	<waypointGenerationTime>
+		<hi>	29734732	</hi>
+		<lo>	-1552948218	</lo>
+	</waypointGenerationTime>
+	<terrain>
+		<resource>	0004fffeo.cdata/terrain	</resource>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>	</metaData>
+	</terrain>
+	<worldNavmesh>
+		<resource>	0004fffeo.cdata/worldNavmesh	</resource>
+	</worldNavmesh>
+</root>

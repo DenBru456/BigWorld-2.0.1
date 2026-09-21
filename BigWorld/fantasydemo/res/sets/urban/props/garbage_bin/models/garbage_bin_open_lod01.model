@@ -1,0 +1,14 @@
+<garbage_bin_open_lod01.model>
+	<nodelessVisual>	sets/urban/props/garbage_bin/models/garbage_bin_open_lod01	</nodelessVisual>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-1.533250 0.011151 -0.972644	</min>
+		<max>	1.573158 2.342265 0.986097	</max>
+	</visibilityBox>
+	<extent>	200.000000	</extent>
+	<metaData>
+		<copyright>	Copyright BigWorld Pty Ltd.  Use freely in any BigWorld licensed game.	</copyright>
+		<modified_by>	AdamM	</modified_by>
+		<modified_on>	1281674756	</modified_on>
+	</metaData>
+</garbage_bin_open_lod01.model>

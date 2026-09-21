@@ -1,0 +1,105 @@
+<ffffffffo.chunk>
+	<waypointGenerationTime>
+		<hi>	29792693	</hi>
+		<lo>	1919919372	</lo>
+	</waypointGenerationTime>
+	<particles>
+		<resource>	sets/desert/particles/fx_sandstorm.xml	</resource>
+		<transform>
+			<row0>	0.456252 0.000000 -0.889851	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.889851 0.000000 0.456252	</row2>
+			<row3>	76.683899 -3.877827 76.931419	</row3>
+		</transform>
+	</particles>
+	<speedtree>
+		<seed>	1	</seed>
+		<transform>
+			<row0>	-0.500000 0.000000 0.866025	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	-0.866025 0.000000 -0.500000	</row2>
+			<row3>	64.800003 -0.087891 67.399994	</row3>
+		</transform>
+		<reflectionVisible>	true	</reflectionVisible>
+		<spt>	speedtree/Palms_Cacti_Cycads/suguaro_cactus/SaguaroCactus_RT.spt	</spt>
+	</speedtree>
+	<model>
+		<resource>	sets/temperate/props/fd_rock_sharp_small.model	</resource>
+		<transform>
+			<row0>	-4.386762 -1.646439 8.115622	</row0>
+			<row1>	-3.292877 8.773521 0.000000	</row1>
+			<row2>	-7.598094 -2.851716 -4.685557	</row2>
+			<row3>	44.382870 10.157810 6.550774	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<terrain>
+		<resource>	ffffffffo.cdata/terrain	</resource>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>	</metaData>
+	</terrain>
+	<model>
+		<resource>	sets/temperate/props/dungeon/entrance/dungeon_facade.model	</resource>
+		<transform>
+			<row0>	-0.999997 0.000000 0.000000	</row0>
+			<row1>	0.000000 0.999997 0.000000	</row1>
+			<row2>	-0.000000 0.000000 -0.999997	</row2>
+			<row3>	50.089996 9.939999 0.120003	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<resource>	sets/temperate/props/fd_rock_sharp_small.model	</resource>
+		<transform>
+			<row0>	-3.337683 0.208649 8.754087	</row0>
+			<row1>	2.069978 9.121726 0.571813	</row1>
+			<row2>	-8.508395 2.137346 -3.294950	</row2>
+			<row3>	44.159996 8.809999 0.500000	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	true	</reflectionVisible>
+	</model>
+	<pulseLight>
+		<colour>	255.000000 183.000000 74.000000	</colour>
+		<position>	50.499996 11.959999 0.080002	</position>
+		<innerRadius>	1.000000	</innerRadius>
+		<outerRadius>	5.000000	</outerRadius>
+		<multiplier>	1.200000	</multiplier>
+	</pulseLight>
+	<overlapper>	00am000di	</overlapper>
+	<worldNavmesh>
+		<resource>	ffffffffo.cdata/worldNavmesh	</resource>
+	</worldNavmesh>
+	<entity>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>	</metaData>
+		<guid>	4A6BC727.417ADF88.BFA36D93.0846B352	</guid>
+		<type>	Ripper	</type>
+		<transform>
+			<row0>	0.916640 0.000000 -0.399714	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.399714 0.000000 0.916640	</row2>
+			<row3>	15.870872 9.000000 95.793068	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+		<backLinks>	</backLinks>
+	</entity>
+	<vlo>
+		<uid>	d881daba.4f7f166e.b35d7f8a.145db23d	</uid>
+		<type>	water	</type>
+	</vlo>
+</ffffffffo.chunk>

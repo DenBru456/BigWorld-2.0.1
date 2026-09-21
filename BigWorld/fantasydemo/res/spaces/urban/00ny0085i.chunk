@@ -1,0 +1,35 @@
+<root>
+	<shell>
+		<resource>	sets/urban/shells/office_plug.model	</resource>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<reflectionVisible>	true	</reflectionVisible>
+		<metaData>	</metaData>
+		<staticLighting>
+			<offset>	0	</offset>
+			<size>	260	</size>
+		</staticLighting>
+	</shell>
+	<worldNavmesh>
+		<resource>	00ny0085i.cdata/worldNavmesh	</resource>
+	</worldNavmesh>
+	<transform>
+		<row0>	0.000000 0.000000 1.000000	</row0>
+		<row1>	0.000000 1.000000 0.000000	</row1>
+		<row2>	-1.000000 0.000000 0.000000	</row2>
+		<row3>	77.499931 8.499996 -60.999992	</row3>
+	</transform>
+	<boundingBox>
+		<min>	77.299927 8.499995 -64.999985	</min>
+		<max>	77.499924 49.253563 -60.999985	</max>
+	</boundingBox>
+</root>

@@ -1,0 +1,62 @@
+<facility_lightpanel.visual>
+	<node>
+		<identifier>	Scene Root	</identifier>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+	</node>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	Scene Root	</node>
+		<geometry>
+			<vertices>	vertices	</vertices>
+			<primitive>	indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	Material #50	</identifier>
+					<fx>	shaders/std_effects/normalmap_glow.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	8	</materialKind>
+					<property>	texAddressMode
+						<Int>	1	</Int>
+					</property>
+					<property>	materialSpecular
+						<Vector4>	1.000000 1.000000 1.000000 1.000000	</Vector4>
+					</property>
+					<property>	glowFactor
+						<Float>	2.000000	</Float>
+					</property>
+					<property>	glowMap
+						<Texture>	sets/urban/props/lightpanel/maps/lightbox_g.bmp	</Texture>
+					</property>
+					<property>	alphaReference
+						<Int>	0	</Int>
+					</property>
+					<property>	alphaTestEnable
+						<Bool>	false	</Bool>
+					</property>
+					<property>	selfIllumination
+						<Float>	0.000000	</Float>
+					</property>
+					<property>	doubleSided
+						<Bool>	false	</Bool>
+					</property>
+					<property>	normalMap
+						<Texture>	sets/urban/props/lightpanel/maps/lightbox_norms.bmp	</Texture>
+					</property>
+					<property>	diffuseMap
+						<Texture>	sets/urban/props/lightpanel/maps/lightbox_d.bmp	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<boundingBox>
+		<min>	-0.700000 0.000000 -0.700000	</min>
+		<max>	0.000000 0.170000 0.000000	</max>
+	</boundingBox>
+	<materialKind>	6	</materialKind>
+</facility_lightpanel.visual>

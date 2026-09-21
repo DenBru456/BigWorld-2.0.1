@@ -1,0 +1,53 @@
+<taxi.model>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-1.413767 0.002785 -3.447243	</min>
+		<max>	1.383486 2.060899 2.940341	</max>
+	</visibilityBox>
+	<dye>
+		<matter>	NYCtaxi	</matter>
+		<replaces>	NYCtaxi	</replaces>
+		<tint>
+			<name>	Lights_On	</name>
+			<material>
+				<fx>	shaders/std_effects/normalmap_specmap_chrome_glow.fx	</fx>
+				<collisionFlags>	0	</collisionFlags>
+				<materialKind>	0	</materialKind>
+				<property>	reflectionMask
+					<Texture>	helpers/maps/system/col_white.bmp	</Texture>
+				</property>
+				<property>	doubleSided
+					<Bool>	true	</Bool>
+				</property>
+				<property>	reflectionMap
+					<Texture>	sets/urban/fx/maps/cubemap_urban.dds	</Texture>
+				</property>
+				<property>	specularMap
+					<Texture>	sets/urban/props/vehicles/taxi/maps/taxi.bmp	</Texture>
+				</property>
+				<property>	glowMap
+					<Texture>	sets/urban/props/vehicles/taxi/maps/taxi_glow.bmp	</Texture>
+				</property>
+				<property>	glowFactor
+					<Float>	2.000000	</Float>
+				</property>
+				<property>	normalMap
+					<Texture>	system/maps/default_norms.bmp	</Texture>
+				</property>
+				<property>	diffuseMap
+					<Texture>	sets/urban/props/vehicles/taxi/maps/taxi.bmp	</Texture>
+				</property>
+				<property>	reflectionAmount
+					<Float>	0.220000	</Float>
+				</property>
+			</material>
+		</tint>
+	</dye>
+	<extent>	350.000000	</extent>
+	<nodelessVisual>	sets/urban/props/vehicles/taxi/models/taxi	</nodelessVisual>
+	<metaData>
+		<copyright>	Copyright owned by the3dstudio.com	</copyright>
+		<modified_by>	AdamM	</modified_by>
+		<modified_on>	1268889548	</modified_on>
+	</metaData>
+</taxi.model>

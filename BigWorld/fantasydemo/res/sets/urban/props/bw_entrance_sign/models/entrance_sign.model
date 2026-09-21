@@ -1,0 +1,14 @@
+<entrance_sign.model>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-1.000359 -0.014041 -0.498194	</min>
+		<max>	1.000359 0.101208 0.498195	</max>
+	</visibilityBox>
+	<nodelessVisual>	sets/urban/props/bw_entrance_sign/models/entrance_sign	</nodelessVisual>
+	<extent>	25.000000	</extent>
+	<metaData>
+		<copyright>	Copyright BigWorld Pty Ltd.  Use freely in any BigWorld licensed game.	</copyright>
+		<modified_by>	AdamM	</modified_by>
+		<modified_on>	1281674639	</modified_on>
+	</metaData>
+</entrance_sign.model>

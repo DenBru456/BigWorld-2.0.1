@@ -1,0 +1,15 @@
+<trash_can.model>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-0.058505 -0.008460 -0.058283	</min>
+		<max>	0.058309 0.137222 0.058531	</max>
+	</visibilityBox>
+	<extent>	150.000000	</extent>
+	<batched>	false	</batched>
+	<nodelessVisual>	sets/urban/props/trash_can/trash_can	</nodelessVisual>
+	<metaData>
+		<copyright>	Copyright BigWorld Pty Ltd.  Use freely in any BigWorld licensed game.	</copyright>
+		<modified_by>	adamm	</modified_by>
+		<modified_on>	1254380704	</modified_on>
+	</metaData>
+</trash_can.model>

@@ -1,0 +1,15 @@
+<oneway_streetsign.model>
+	<nodelessVisual>	sets/urban/props/signs/oneway_streetsign	</nodelessVisual>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-0.012107 -0.001452 -0.458567	</min>
+		<max>	0.011644 0.568196 0.458567	</max>
+	</visibilityBox>
+	<extent>	147.000000	</extent>
+	<batched>	false	</batched>
+	<metaData>
+		<copyright>	Copyright BigWorld Pty Ltd.  Use freely in any BigWorld licensed game.	</copyright>
+		<modified_by>	adamm	</modified_by>
+		<modified_on>	1254379595	</modified_on>
+	</metaData>
+</oneway_streetsign.model>

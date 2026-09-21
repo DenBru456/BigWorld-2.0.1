@@ -1,0 +1,15 @@
+<donotenter_streetsign.model>
+	<nodelessVisual>	sets/urban/props/signs/donotenter_streetsign	</nodelessVisual>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-0.598990 -0.001938 -0.573142	</min>
+		<max>	0.589471 0.027850 0.577078	</max>
+	</visibilityBox>
+	<extent>	150.000000	</extent>
+	<batched>	false	</batched>
+	<metaData>
+		<copyright>	Copyright BigWorld Pty Ltd.  Use freely in any BigWorld licensed game.	</copyright>
+		<modified_by>	adamm	</modified_by>
+		<modified_on>	1254377100	</modified_on>
+	</metaData>
+</donotenter_streetsign.model>

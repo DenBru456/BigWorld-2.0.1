@@ -1,0 +1,48 @@
+<root>
+	<worldNavmesh>
+		<resource>	00010005o.cdata/worldNavmesh	</resource>
+	</worldNavmesh>
+	<terrain>
+		<resource>	00010005o.cdata/terrain	</resource>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>	</metaData>
+	</terrain>
+	<vlo>
+		<uid>	ed050d0c.4e047eff.772d4987.72100cf0	</uid>
+		<type>	water	</type>
+	</vlo>
+	<UserDataObject>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>	</metaData>
+		<type>	PatrolNode	</type>
+		<Domain>	2	</Domain>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	85.205406 198.738251 59.532318	</row3>
+		</transform>
+		<guid>	3CF2046E.4C5D3E92.4E2A269C.54C9ACF3	</guid>
+		<properties>
+			<patrolLinks>
+				<item>
+					<guid>	596E8D83.4D7F6811.6267818E.2FE2B77F	</guid>
+					<chunkId>	00020004o	</chunkId>
+				</item>
+			</patrolLinks>
+			<radius>	6.350725	</radius>
+		</properties>
+		<backLinks>
+			<link>
+				<guid>	04CD3281.4DE98B98.2317BB81.1DE7FB3B	</guid>
+				<chunkId>	00000005o	</chunkId>
+			</link>
+		</backLinks>
+	</UserDataObject>
+</root>

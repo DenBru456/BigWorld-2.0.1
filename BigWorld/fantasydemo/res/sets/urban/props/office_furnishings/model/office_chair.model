@@ -1,0 +1,15 @@
+<office_chair.model>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-0.261080 0.002093 -0.262721	</min>
+		<max>	0.260581 1.104322 0.272462	</max>
+	</visibilityBox>
+	<extent>	35.000000	</extent>
+	<batched>	true	</batched>
+	<nodelessVisual>	sets/urban/props/office_furnishings/model/office_chair	</nodelessVisual>
+	<metaData>
+		<copyright>	Copyright BigWorld Pty Ltd.  Use freely in any BigWorld licensed game.	</copyright>
+		<modified_by>	adamm	</modified_by>
+		<modified_on>	1254379492	</modified_on>
+	</metaData>
+</office_chair.model>

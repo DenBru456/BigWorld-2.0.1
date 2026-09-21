@@ -1,0 +1,6 @@
+<root>
+	<frames>aaaaaaaaabbbbbbb</frames>
+	<fps> 0.1 </fps>
+	<texture>sets/urban/props/window/maps/window_on.bmp</texture>
+	<texture>helpers/maps/col_black.bmp</texture>
+</root>

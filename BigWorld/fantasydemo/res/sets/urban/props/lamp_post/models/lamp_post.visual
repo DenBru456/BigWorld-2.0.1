@@ -1,0 +1,82 @@
+<lamp_post.visual>
+	<node>
+		<identifier>	Scene Root	</identifier>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+	</node>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	Scene Root	</node>
+		<geometry>
+			<vertices>	vertices	</vertices>
+			<primitive>	indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	orig_traffic_light_post1	</identifier>
+					<fx>	shaders/std_effects/normalmap_specmap.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	alphaReference
+						<Int>	0	</Int>
+					</property>
+					<property>	alphaTestEnable
+						<Bool>	false	</Bool>
+					</property>
+					<property>	selfIllumination
+						<Float>	0.000000	</Float>
+					</property>
+					<property>	doubleSided
+						<Bool>	false	</Bool>
+					</property>
+					<property>	normalMap
+						<Texture>	sets/urban/props/traffic_light_post/maps/traffic_light_post_norms.bmp	</Texture>
+					</property>
+					<property>	diffuseMap
+						<Texture>	sets/urban/props/traffic_light_post/maps/traffic_light_post.bmp	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+			<primitiveGroup>	1
+				<material>
+					<identifier>	lights1	</identifier>
+					<fx>	shaders/std_effects/normalmap_specmap_chrome_glow.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	reflectionMask
+						<Texture>	helpers/maps/system/col_black.bmp	</Texture>
+					</property>
+					<property>	reflectionMap
+						<Texture>	system/maps/cubemap_desert.dds	</Texture>
+					</property>
+					<property>	specularMap
+						<Texture>	sets/urban/props/lamp_post/maps/lamp_post_s.bmp	</Texture>
+					</property>
+					<property>	glowMap
+						<Texture>	helpers/maps/system/col_black.bmp	</Texture>
+					</property>
+					<property>	glowFactor
+						<Float>	0.000000	</Float>
+					</property>
+					<property>	normalMap
+						<Texture>	sets/urban/props/lamp_post/maps/lamp_post_norms.bmp	</Texture>
+					</property>
+					<property>	diffuseMap
+						<Texture>	sets/urban/props/lamp_post/maps/lamp_post_d.bmp	</Texture>
+					</property>
+					<property>	reflectionAmount
+						<Float>	0.000000	</Float>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<boundingBox>
+		<min>	-0.966846 -0.006564 -0.296689	</min>
+		<max>	0.966846 5.664470 0.296689	</max>
+	</boundingBox>
+	<materialKind>	5	</materialKind>
+</lamp_post.visual>

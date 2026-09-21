@@ -1,0 +1,105 @@
+<fffe0000o.chunk>
+	<waypointGenerationTime>
+		<hi>	29728291	</hi>
+		<lo>	1024341364	</lo>
+	</waypointGenerationTime>
+	<model>
+		<resource>	sets/desert/props/ribs.model	</resource>
+		<transform>
+			<row0>	1.271059 -1.733624 -3.085225	</row0>
+			<row1>	0.978247 1.934650 -0.684083	</row1>
+			<row2>	2.528860 -0.759423 1.468576	</row2>
+			<row3>	94.149323 16.909184 93.260948	</row3>
+		</transform>
+	</model>
+	<model>
+		<resource>	sets/desert/props/ribs.model	</resource>
+		<transform>
+			<row0>	1.227455 -1.674152 -2.979383	</row0>
+			<row1>	0.922735 1.824867 -0.645264	</row1>
+			<row2>	2.420888 -0.727000 1.405875	</row2>
+			<row3>	94.601288 15.941251 91.064911	</row3>
+		</transform>
+	</model>
+	<model>
+		<resource>	sets/desert/props/ribs.model	</resource>
+		<transform>
+			<row0>	1.129916 -1.477593 -2.772718	</row0>
+			<row1>	0.829572 1.577528 -0.502610	</row1>
+			<row2>	2.151521 -0.728400 1.264939	</row2>
+			<row3>	95.382538 14.916692 89.254372	</row3>
+		</transform>
+	</model>
+	<model>
+		<resource>	sets/desert/props/ribs.model	</resource>
+		<transform>
+			<row0>	0.998734 -1.379485 -2.477454	</row0>
+			<row1>	0.687068 1.282675 -0.437236	</row1>
+			<row2>	1.876850 -0.628190 1.106400	</row2>
+			<row3>	96.912445 13.534287 87.103531	</row3>
+		</transform>
+	</model>
+	<model>
+		<resource>	sets/desert/props/ribs.model	</resource>
+		<transform>
+			<row0>	1.503711 -1.761544 -3.559296	</row0>
+			<row1>	1.159293 2.404313 -0.700156	</row1>
+			<row2>	2.930707 -0.919960 1.693449	</row2>
+			<row3>	90.918472 20.821682 100.081963	</row3>
+		</transform>
+	</model>
+	<model>
+		<resource>	sets/desert/props/ribs.model	</resource>
+		<transform>
+			<row0>	1.457045 -1.796626 -3.472554	</row0>
+			<row1>	1.132968 2.323749 -0.726878	</row1>
+			<row2>	2.872848 -0.881043 1.661249	</row2>
+			<row3>	92.128273 19.504551 97.771385	</row3>
+		</transform>
+	</model>
+	<model>
+		<resource>	sets/desert/props/ribs.model	</resource>
+		<transform>
+			<row0>	1.383970 -1.706520 -3.298393	</row0>
+			<row1>	1.044683 2.142673 -0.670237	</row1>
+			<row2>	2.697760 -0.827346 1.560003	</row2>
+			<row3>	92.978714 18.251686 95.437622	</row3>
+		</transform>
+	</model>
+	<model>
+		<resource>	sets/desert/props/ribs.model	</resource>
+		<transform>
+			<row0>	1.088347 -1.423231 -2.670711	</row0>
+			<row1>	0.774546 1.472890 -0.469271	</row1>
+			<row2>	2.049870 -0.693984 1.205175	</row2>
+			<row3>	96.400002 14.100000 88.300003	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<speedtree>
+		<seed>	1	</seed>
+		<transform>
+			<row0>	0.000000 0.000000 -0.803375	</row0>
+			<row1>	0.000000 0.803376 0.000000	</row1>
+			<row2>	0.803375 0.000000 0.000000	</row2>
+			<row3>	92.299995 18.200001 75.000000	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<spt>	speedtree/Palms_Cacti_Cycads/suguaro_cactus/SaguaroCactus_RT.spt	</spt>
+	</speedtree>
+	<terrain>
+		<resource>	fffe0000o.cdata/terrain	</resource>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>	</metaData>
+	</terrain>
+	<worldNavmesh>
+		<resource>	fffe0000o.cdata/worldNavmesh	</resource>
+	</worldNavmesh>
+	<vlo>
+		<uid>	d881daba.4f7f166e.b35d7f8a.145db23d	</uid>
+		<type>	water	</type>
+	</vlo>
+</fffe0000o.chunk>

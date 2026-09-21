@@ -1,0 +1,725 @@
+<ped_male.visual>
+	<node>
+		<identifier>	Scene Root	</identifier>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+		<node>
+			<identifier>	biped	</identifier>
+			<transform>
+				<row0>	-0.022049 0.080262 0.996530	</row0>
+				<row1>	0.005037 0.996768 -0.080170	</row1>
+				<row2>	-0.999744 0.003252 -0.022382	</row2>
+				<row3>	-0.039350 1.022215 -0.045883	</row3>
+			</transform>
+			<node>
+				<identifier>	biped Footsteps	</identifier>
+				<transform>
+					<row0>	-0.022049 0.005037 -0.999744	</row0>
+					<row1>	0.080262 0.996769 0.003252	</row1>
+					<row2>	0.996530 -0.080170 -0.022382	</row2>
+					<row3>	-0.072892 -0.905241 -0.002954	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	biped Pelvis	</identifier>
+				<transform>
+					<row0>	-0.000000 0.999046 0.043675	</row0>
+					<row1>	-0.000001 -0.043675 0.999046	</row1>
+					<row2>	1.000000 -0.000000 0.000001	</row2>
+					<row3>	-0.002599 -0.003188 -0.021991	</row3>
+				</transform>
+				<node>
+					<identifier>	biped Spine	</identifier>
+					<transform>
+						<row0>	0.990758 -0.113887 0.073679	</row0>
+						<row1>	0.084696 0.943697 0.319786	</row1>
+						<row2>	-0.105950 -0.310590 0.944621	</row2>
+						<row3>	0.151805 -0.006584 -0.000156	</row3>
+					</transform>
+					<node>
+						<identifier>	biped Spine1	</identifier>
+						<transform>
+							<row0>	0.998347 -0.003753 0.057352	</row0>
+							<row1>	0.002231 0.999644 0.026574	</row1>
+							<row2>	-0.057432 -0.026403 0.998000	</row2>
+							<row3>	0.207510 0.000005 -0.000202	</row3>
+						</transform>
+						<node>
+							<identifier>	biped Neck	</identifier>
+							<transform>
+								<row0>	0.983255 0.000000 0.182236	</row0>
+								<row1>	-0.000001 1.000000 -0.000000	</row1>
+								<row2>	-0.182236 -0.000000 0.983255	</row2>
+								<row3>	0.254506 0.000000 -0.000100	</row3>
+							</transform>
+							<node>
+								<identifier>	biped Head	</identifier>
+								<transform>
+									<row0>	0.985061 0.107354 -0.134646	</row0>
+									<row1>	-0.142780 0.946287 -0.290093	</row1>
+									<row2>	0.096271 0.304985 0.947479	</row2>
+									<row3>	0.127423 0.000000 0.000000	</row3>
+								</transform>
+								<node>
+									<identifier>	Dummy05	</identifier>
+									<transform>
+										<row0>	1.000000 0.000000 0.000000	</row0>
+										<row1>	0.000000 1.000000 0.000000	</row1>
+										<row2>	-0.000000 0.000000 1.000000	</row2>
+										<row3>	0.175836 0.000000 0.000000	</row3>
+									</transform>
+								</node>
+								<node>
+									<identifier>	biped HeadBlendBoneped_male	</identifier>
+									<transform>
+										<row0>	0.000000 0.998629 -0.052337	</row0>
+										<row1>	0.999048 -0.002283 -0.043558	</row1>
+										<row2>	-0.043618 -0.052288 -0.997679	</row2>
+										<row3>	-1.776930 0.004415 0.084243	</row3>
+									</transform>
+								</node>
+							</node>
+							<node>
+								<identifier>	biped L Clavicle	</identifier>
+								<transform>
+									<row0>	-0.028206 0.957897 0.285722	</row0>
+									<row1>	0.984008 0.076900 -0.160670	</row1>
+									<row2>	-0.175877 0.276621 -0.944748	</row2>
+									<row3>	-0.030240 0.082318 0.004376	</row3>
+								</transform>
+								<node>
+									<identifier>	biped L UpperArm	</identifier>
+									<transform>
+										<row0>	0.499136 -0.866026 0.029369	</row0>
+										<row1>	0.837427 0.473389 -0.273164	</row1>
+										<row2>	0.222664 0.160940 0.961519	</row2>
+										<row3>	0.165294 0.000000 0.000000	</row3>
+									</transform>
+									<node>
+										<identifier>	biped L Forearm	</identifier>
+										<transform>
+											<row0>	-0.366572 -0.000000 -0.930390	</row0>
+											<row1>	-0.000000 1.000000 -0.000000	</row1>
+											<row2>	0.930390 -0.000000 -0.366572	</row2>
+											<row3>	0.362082 0.000000 0.000000	</row3>
+										</transform>
+										<node>
+											<identifier>	biped L Hand	</identifier>
+											<transform>
+												<row0>	0.999608 0.011468 0.025536	</row0>
+												<row1>	-0.025521 -0.001441 0.999673	</row1>
+												<row2>	0.011501 -0.999933 -0.001148	</row2>
+												<row3>	0.260821 0.000000 0.000000	</row3>
+											</transform>
+											<node>
+												<identifier>	biped L Finger0	</identifier>
+												<transform>
+													<row0>	0.806366 -0.038565 0.590158	</row0>
+													<row1>	-0.303627 0.829334 0.469058	</row1>
+													<row2>	-0.507527 -0.557420 0.657038	</row2>
+													<row3>	0.099092 0.000000 0.000000	</row3>
+												</transform>
+												<node>
+													<identifier>	Dummy02	</identifier>
+													<transform>
+														<row0>	1.000000 0.000000 -0.000000	</row0>
+														<row1>	0.000000 1.000000 0.000000	</row1>
+														<row2>	0.000000 0.000000 1.000000	</row2>
+														<row3>	0.119634 0.000000 0.000000	</row3>
+													</transform>
+												</node>
+												<node>
+													<identifier>	biped L Finger0BlendBoneped_male	</identifier>
+													<transform>
+														<row0>	0.273199 0.112451 -0.955362	</row0>
+														<row1>	-0.932386 -0.213399 -0.291747	</row1>
+														<row2>	-0.236680 0.970472 0.046547	</row2>
+														<row3>	0.698108 0.192455 0.807167	</row3>
+													</transform>
+												</node>
+											</node>
+											<node>
+												<identifier>	HP_left_hand	</identifier>
+												<transform>
+													<row0>	0.044303 -0.988642 -0.143613	</row0>
+													<row1>	0.977500 0.013223 0.210521	</row1>
+													<row2>	-0.206231 -0.149709 0.966983	</row2>
+													<row3>	0.077893 -0.037352 0.006403	</row3>
+												</transform>
+											</node>
+											<node>
+												<identifier>	biped L HandBlendBoneped_male	</identifier>
+												<transform>
+													<row0>	0.434945 0.113162 -0.893318	</row0>
+													<row1>	-0.867560 -0.213041 -0.449392	</row1>
+													<row2>	-0.241168 0.970468 0.005514	</row2>
+													<row3>	0.646431 0.191726 0.916282	</row3>
+												</transform>
+											</node>
+										</node>
+										<node>
+											<identifier>	biped L ForearmBlendBoneped_male	</identifier>
+											<transform>
+												<row0>	0.445137 0.885681 0.131993	</row0>
+												<row1>	-0.849462 0.464294 -0.250691	</row1>
+												<row2>	-0.283316 -0.000532 0.959027	</row2>
+												<row3>	0.882169 -0.927272 0.219767	</row3>
+											</transform>
+										</node>
+									</node>
+									<node>
+										<identifier>	biped L UpperArmBlendBoneped_male	</identifier>
+										<transform>
+											<row0>	0.462568 0.885681 -0.040005	</row0>
+											<row1>	-0.882288 0.464294 0.077453	</row1>
+											<row2>	0.087172 -0.000532 0.996193	</row2>
+											<row3>	1.263497 -0.927272 -0.118198	</row3>
+										</transform>
+									</node>
+								</node>
+								<node>
+									<identifier>	biped L ClavicleBlendBoneped_male	</identifier>
+									<transform>
+										<row0>	0.906066 0.412138 0.095845	</row0>
+										<row1>	-0.409845 0.911121 -0.043419	</row1>
+										<row2>	-0.105221 0.000059 0.994449	</row2>
+										<row3>	0.592841 -1.511944 0.038175	</row3>
+									</transform>
+								</node>
+							</node>
+							<node>
+								<identifier>	biped R Clavicle	</identifier>
+								<transform>
+									<row0>	-0.603073 -0.763859 0.229831	</row0>
+									<row1>	-0.776889 0.627805 0.048006	</row1>
+									<row2>	-0.180959 -0.149602 -0.972046	</row2>
+									<row3>	-0.030240 -0.082318 0.004376	</row3>
+								</transform>
+								<node>
+									<identifier>	biped R UpperArm	</identifier>
+									<transform>
+										<row0>	0.557767 0.230596 0.797321	</row0>
+										<row1>	-0.462245 0.884168 0.067651	</row1>
+										<row2>	-0.689366 -0.406291 0.599752	</row2>
+										<row3>	0.165293 -0.000000 0.000000	</row3>
+									</transform>
+									<node>
+										<identifier>	biped R Forearm	</identifier>
+										<transform>
+											<row0>	-0.446927 -0.000000 -0.894570	</row0>
+											<row1>	0.000000 1.000000 -0.000000	</row1>
+											<row2>	0.894570 -0.000000 -0.446927	</row2>
+											<row3>	0.362082 0.000000 0.000000	</row3>
+										</transform>
+										<node>
+											<identifier>	biped R Hand	</identifier>
+											<transform>
+												<row0>	0.995220 -0.011769 -0.096950	</row0>
+												<row1>	-0.097460 -0.055945 -0.993666	</row1>
+												<row2>	0.006271 0.998364 -0.056825	</row2>
+												<row3>	0.260820 -0.000000 -0.000000	</row3>
+											</transform>
+											<node>
+												<identifier>	biped R Finger0	</identifier>
+												<transform>
+													<row0>	0.806366 0.038565 0.590158	</row0>
+													<row1>	0.303627 0.829334 -0.469058	</row1>
+													<row2>	-0.507528 0.557420 0.657038	</row2>
+													<row3>	0.099092 0.000000 0.000000	</row3>
+												</transform>
+												<node>
+													<identifier>	Dummy01	</identifier>
+													<transform>
+														<row0>	1.000000 -0.000000 0.000000	</row0>
+														<row1>	-0.000000 -1.000000 0.000000	</row1>
+														<row2>	0.000000 0.000000 1.000000	</row2>
+														<row3>	0.119634 0.000000 -0.000000	</row3>
+													</transform>
+												</node>
+												<node>
+													<identifier>	biped R Finger0BlendBoneped_male	</identifier>
+													<transform>
+														<row0>	-0.273199 0.112454 0.955362	</row0>
+														<row1>	-0.932386 0.213399 -0.291747	</row1>
+														<row2>	-0.236681 -0.970472 0.046550	</row2>
+														<row3>	0.698108 -0.192455 0.807167	</row3>
+													</transform>
+												</node>
+											</node>
+											<node>
+												<identifier>	HP_right_hand	</identifier>
+												<transform>
+													<row0>	0.038905 0.992183 -0.118574	</row0>
+													<row1>	0.976645 -0.012662 0.214487	</row1>
+													<row2>	0.211309 -0.124149 -0.969503	</row2>
+													<row3>	0.077460 0.041811 0.013814	</row3>
+												</transform>
+											</node>
+											<node>
+												<identifier>	biped R HandBlendBoneped_male	</identifier>
+												<transform>
+													<row0>	-0.434945 0.113165 0.893318	</row0>
+													<row1>	-0.867560 0.213041 -0.449392	</row1>
+													<row2>	-0.241169 -0.970468 0.005516	</row2>
+													<row3>	0.646431 -0.191726 0.916283	</row3>
+												</transform>
+											</node>
+										</node>
+										<node>
+											<identifier>	biped R ForearmBlendBoneped_male	</identifier>
+											<transform>
+												<row0>	-0.445137 0.885681 -0.131996	</row0>
+												<row1>	-0.849462 -0.464294 -0.250691	</row1>
+												<row2>	-0.283317 0.000534 0.959026	</row2>
+												<row3>	0.882169 0.927272 0.219767	</row3>
+											</transform>
+										</node>
+									</node>
+									<node>
+										<identifier>	biped R UpperArmBlendBoneped_male	</identifier>
+										<transform>
+											<row0>	-0.462568 0.885681 0.040002	</row0>
+											<row1>	-0.882288 -0.464294 0.077453	</row1>
+											<row2>	0.087171 0.000534 0.996193	</row2>
+											<row3>	1.263498 0.927272 -0.118198	</row3>
+										</transform>
+									</node>
+								</node>
+								<node>
+									<identifier>	biped R ClavicleBlendBoneped_male	</identifier>
+									<transform>
+										<row0>	-0.906066 0.412138 -0.095847	</row0>
+										<row1>	-0.409845 -0.911121 -0.043419	</row1>
+										<row2>	-0.105223 -0.000058 0.994449	</row2>
+										<row3>	0.592841 1.511944 0.038175	</row3>
+									</transform>
+								</node>
+							</node>
+							<node>
+								<identifier>	biped NeckBlendBoneped_male	</identifier>
+								<transform>
+									<row0>	0.000000 1.000000 -0.000001	</row0>
+									<row1>	0.990157 -0.000000 -0.139962	</row1>
+									<row2>	-0.139962 -0.000001 -0.990157	</row2>
+									<row3>	-1.633038 0.000001 0.255686	</row3>
+								</transform>
+							</node>
+						</node>
+						<node>
+							<identifier>	HP_shoulder	</identifier>
+							<transform>
+								<row0>	-0.475562 -0.878306 0.049193	</row0>
+								<row1>	-0.874666 0.466147 -0.132914	</row1>
+								<row2>	0.093808 -0.106236 -0.989906	</row2>
+								<row3>	0.187797 -0.142861 -0.149835	</row3>
+							</transform>
+						</node>
+						<node>
+							<identifier>	biped Spine1BlendBoneped_male	</identifier>
+							<transform>
+								<row0>	-0.000000 1.000000 -0.000001	</row0>
+								<row1>	0.999083 0.000000 0.042824	</row1>
+								<row2>	0.042824 -0.000001 -0.999083	</row2>
+								<row3>	-1.397781 -0.000000 -0.046294	</row3>
+							</transform>
+						</node>
+					</node>
+					<node>
+						<identifier>	biped SpineBlendBoneped_male	</identifier>
+						<transform>
+							<row0>	-0.000000 1.000000 -0.000001	</row0>
+							<row1>	0.996264 0.000000 0.086362	</row1>
+							<row2>	0.086362 -0.000001 -0.996264	</row2>
+							<row3>	-1.186924 -0.000000 -0.107422	</row3>
+						</transform>
+					</node>
+				</node>
+				<node>
+					<identifier>	biped L Thigh	</identifier>
+					<transform>
+						<row0>	-0.928061 0.101973 -0.358195	</row0>
+						<row1>	-0.134288 -0.988712 0.066458	</row1>
+						<row2>	-0.347375 0.109778 0.931278	</row2>
+						<row3>	-0.000000 0.122083 0.000000	</row3>
+					</transform>
+					<node>
+						<identifier>	biped L Calf	</identifier>
+						<transform>
+							<row0>	-0.071757 0.000000 -0.997422	</row0>
+							<row1>	0.000000 1.000000 -0.000000	</row1>
+							<row2>	0.997422 -0.000000 -0.071757	</row2>
+							<row3>	0.489507 -0.000000 0.000000	</row3>
+						</transform>
+						<node>
+							<identifier>	biped L Foot	</identifier>
+							<transform>
+								<row0>	0.995478 0.044108 -0.084133	</row0>
+								<row1>	-0.038641 0.997101 0.065542	</row1>
+								<row2>	0.086780 -0.061995 0.994297	</row2>
+								<row3>	0.455310 0.000000 0.000000	</row3>
+							</transform>
+							<node>
+								<identifier>	biped L Toe0	</identifier>
+								<transform>
+									<row0>	0.000000 0.000000 1.000000	</row0>
+									<row1>	0.000000 1.000000 -0.000000	</row1>
+									<row2>	-1.000000 0.000000 0.000000	</row2>
+									<row3>	0.103448 0.000183 0.159721	</row3>
+								</transform>
+								<node>
+									<identifier>	Dummy04	</identifier>
+									<transform>
+										<row0>	1.000000 0.000000 0.000000	</row0>
+										<row1>	0.000000 -1.000000 0.000000	</row1>
+										<row2>	-0.000000 -0.000000 1.000000	</row2>
+										<row3>	0.107314 -0.000000 0.000000	</row3>
+									</transform>
+								</node>
+								<node>
+									<identifier>	biped L Toe0BlendBoneped_male	</identifier>
+									<transform>
+										<row0>	0.000001 -1.000000 -0.000001	</row0>
+										<row1>	-0.000000 -0.000001 1.000000	</row1>
+										<row2>	-1.000000 -0.000001 -0.000000	</row2>
+										<row3>	-0.088028 0.171655 0.003370	</row3>
+									</transform>
+								</node>
+							</node>
+							<node>
+								<identifier>	biped L FootBlendBoneped_male	</identifier>
+								<transform>
+									<row0>	0.000001 -1.000000 0.000001	</row0>
+									<row1>	-1.000000 -0.000001 0.000000	</row1>
+									<row2>	-0.000000 -0.000001 -1.000000	</row2>
+									<row3>	0.100078 0.171838 0.071693	</row3>
+								</transform>
+							</node>
+						</node>
+						<node>
+							<identifier>	biped L CalfBlendBoneped_male	</identifier>
+							<transform>
+								<row0>	0.055506 -0.995803 -0.072767	</row0>
+								<row1>	-0.991385 -0.046306 -0.122524	</row1>
+								<row2>	0.118640 0.078941 -0.989794	</row2>
+								<row3>	0.536482 0.170092 0.095727	</row3>
+							</transform>
+						</node>
+					</node>
+					<node>
+						<identifier>	HP_left_hip	</identifier>
+						<transform>
+							<row0>	0.400071 0.159636 0.902474	</row0>
+							<row1>	0.916431 -0.080290 -0.392055	</row1>
+							<row2>	0.009874 0.983905 -0.178417	</row2>
+							<row3>	-0.074771 -0.089881 -0.064657	</row3>
+						</transform>
+					</node>
+					<node>
+						<identifier>	biped L ThighBlendBoneped_male	</identifier>
+						<transform>
+							<row0>	0.050015 -0.995803 -0.076645	</row0>
+							<row1>	-0.997704 -0.046306 -0.049424	</row1>
+							<row2>	0.045668 0.078941 -0.995833	</row2>
+							<row3>	1.031569 0.170092 0.056091	</row3>
+						</transform>
+					</node>
+				</node>
+				<node>
+					<identifier>	biped R Thigh	</identifier>
+					<transform>
+						<row0>	-0.963971 0.012157 0.265728	</row0>
+						<row1>	-0.060206 -0.983003 -0.173435	</row1>
+						<row2>	0.259103 -0.183185 0.948319	</row2>
+						<row3>	0.000000 -0.122083 -0.000000	</row3>
+					</transform>
+					<node>
+						<identifier>	biped R Calf	</identifier>
+						<transform>
+							<row0>	0.922963 -0.000000 -0.384888	</row0>
+							<row1>	0.000000 1.000000 0.000000	</row1>
+							<row2>	0.384888 -0.000000 0.922963	</row2>
+							<row3>	0.489507 0.000000 0.000000	</row3>
+						</transform>
+						<node>
+							<identifier>	biped R Foot	</identifier>
+							<transform>
+								<row0>	0.932581 0.019717 0.360421	</row0>
+								<row1>	-0.035458 0.998682 0.037114	</row1>
+								<row2>	-0.359214 -0.047392 0.932051	</row2>
+								<row3>	0.455310 -0.000000 0.000000	</row3>
+							</transform>
+							<node>
+								<identifier>	biped R Toe0	</identifier>
+								<transform>
+									<row0>	0.000000 -0.000000 1.000000	</row0>
+									<row1>	0.000000 1.000000 0.000000	</row1>
+									<row2>	-1.000000 0.000000 0.000000	</row2>
+									<row3>	0.103448 -0.000171 0.159721	</row3>
+								</transform>
+								<node>
+									<identifier>	Dummy03	</identifier>
+									<transform>
+										<row0>	1.000000 -0.000000 0.000000	</row0>
+										<row1>	0.000000 1.000000 0.000000	</row1>
+										<row2>	0.000000 0.000000 1.000000	</row2>
+										<row3>	0.107314 0.000000 0.000000	</row3>
+									</transform>
+								</node>
+								<node>
+									<identifier>	biped R Toe0BlendBoneped_male	</identifier>
+									<transform>
+										<row0>	0.000001 -1.000000 0.000001	</row0>
+										<row1>	-0.000000 0.000001 1.000000	</row1>
+										<row2>	-1.000000 -0.000001 -0.000000	</row2>
+										<row3>	-0.088052 -0.171958 0.003356	</row3>
+									</transform>
+								</node>
+							</node>
+							<node>
+								<identifier>	biped R FootBlendBoneped_male	</identifier>
+								<transform>
+									<row0>	-0.000001 -1.000000 0.000001	</row0>
+									<row1>	-1.000000 0.000001 0.000000	</row1>
+									<row2>	-0.000000 -0.000001 -1.000000	</row2>
+									<row3>	0.100091 -0.172129 0.071669	</row3>
+								</transform>
+							</node>
+						</node>
+						<node>
+							<identifier>	biped R CalfBlendBoneped_male	</identifier>
+							<transform>
+								<row0>	-0.056144 -0.995096 0.081433	</row0>
+								<row1>	-0.991355 0.045873 -0.122925	</row1>
+								<row2>	0.118586 -0.087631 -0.989069	</row2>
+								<row3>	0.536373 -0.169596 0.097206	</row3>
+							</transform>
+						</node>
+					</node>
+					<node>
+						<identifier>	HP_right_hip	</identifier>
+						<transform>
+							<row0>	0.373328 -0.151517 0.915242	</row0>
+							<row1>	0.927653 0.070865 -0.366658	</row1>
+							<row2>	-0.009303 0.985911 0.167011	</row2>
+							<row3>	-0.074772 0.089278 -0.065436	</row3>
+						</transform>
+					</node>
+					<node>
+						<identifier>	biped R ThighBlendBoneped_male	</identifier>
+						<transform>
+							<row0>	-0.050015 -0.995096 0.085335	</row0>
+							<row1>	-0.997704 0.045873 -0.049827	</row1>
+							<row2>	0.045668 -0.087631 -0.995106	</row2>
+							<row3>	1.031569 -0.169596 0.057573	</row3>
+						</transform>
+					</node>
+				</node>
+				<node>
+					<identifier>	biped PelvisBlendBoneped_male	</identifier>
+					<transform>
+						<row0>	-0.000001 1.000000 0.000003	</row0>
+						<row1>	1.000000 0.000001 0.000000	</row1>
+						<row2>	-0.000000 0.000003 -1.000000	</row2>
+						<row3>	-1.039849 -0.000001 -0.004680	</row3>
+					</transform>
+				</node>
+			</node>
+			<node>
+				<identifier>	HP_mount	</identifier>
+				<transform>
+					<row0>	0.000001 0.000000 1.000000	</row0>
+					<row1>	1.000000 0.000000 -0.000001	</row1>
+					<row2>	-0.000000 1.000000 -0.000000	</row2>
+					<row3>	-0.000212 -0.129400 0.000000	</row3>
+				</transform>
+			</node>
+		</node>
+	</node>
+	<renderSet>
+		<treatAsWorldSpaceObject>	true	</treatAsWorldSpaceObject>
+		<node>	biped R ForearmBlendBoneped_male	</node>
+		<node>	biped R HandBlendBoneped_male	</node>
+		<node>	biped R Finger0BlendBoneped_male	</node>
+		<node>	biped R UpperArmBlendBoneped_male	</node>
+		<node>	biped L UpperArmBlendBoneped_male	</node>
+		<node>	biped L ForearmBlendBoneped_male	</node>
+		<node>	biped L HandBlendBoneped_male	</node>
+		<node>	biped L Finger0BlendBoneped_male	</node>
+		<node>	biped SpineBlendBoneped_male	</node>
+		<node>	biped PelvisBlendBoneped_male	</node>
+		<node>	biped L ThighBlendBoneped_male	</node>
+		<node>	biped Spine1BlendBoneped_male	</node>
+		<node>	biped L ClavicleBlendBoneped_male	</node>
+		<node>	biped R ThighBlendBoneped_male	</node>
+		<node>	biped R ClavicleBlendBoneped_male	</node>
+		<node>	biped L CalfBlendBoneped_male	</node>
+		<node>	biped R CalfBlendBoneped_male	</node>
+		<geometry>
+			<vertices>	ped_male0a.vertices	</vertices>
+			<primitive>	ped_male0a.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	empty_skinned	</identifier>
+					<fx>	shaders/std_effects/ambient_skylight_skinned.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	rimStrength
+						<Float>	2.000000	</Float>
+					</property>
+					<property>	rimWidth
+						<Float>	1.000000	</Float>
+					</property>
+					<property>	selfIllumination
+						<Float>	0.000000	</Float>
+					</property>
+					<property>	alphaReference
+						<Int>	0	</Int>
+					</property>
+					<property>	alphaTestEnable
+						<Bool>	false	</Bool>
+					</property>
+					<property>	doubleSided
+						<Bool>	false	</Bool>
+					</property>
+					<property>	fakeLightAmount
+						<Float>	0.500000	</Float>
+					</property>
+					<property>	fakeLight2Colour
+						<Vector4>	0.000000 0.000000 0.500000 0.000000	</Vector4>
+					</property>
+					<property>	fakeLight2Direction
+						<Vector4>	1.000000 -1.000000 -0.100000 0.000000	</Vector4>
+					</property>
+					<property>	fakeLight1Colour
+						<Vector4>	1.000000 0.900000 0.800000 0.000000	</Vector4>
+					</property>
+					<property>	fakeLight1Direction
+						<Vector4>	-1.200000 1.200000 -1.500000 0.000000	</Vector4>
+					</property>
+					<property>	subSurfaceMap
+						<Texture>	sets/urban/characters/npc/ped_male/maps/ped_male_ss.tga	</Texture>
+					</property>
+					<property>	specularMap
+						<Texture>	sets/urban/characters/npc/ped_male/maps/ped_male_s.tga	</Texture>
+					</property>
+					<property>	normalMap
+						<Texture>	sets/urban/characters/npc/ped_male/maps/ped_male_norms.bmp	</Texture>
+					</property>
+					<property>	diffuseMap
+						<Texture>	sets/urban/characters/npc/ped_male/maps/ped_male_d.bmp	</Texture>
+					</property>
+					<property>	clothesColour4
+						<Vector4>	0.501961 0.501961 0.501961 1.000000	</Vector4>
+					</property>
+					<property>	clothesColour3
+						<Vector4>	0.501961 0.501961 0.501961 1.000000	</Vector4>
+					</property>
+					<property>	clothesColour2
+						<Vector4>	0.501961 0.501961 0.501961 1.000000	</Vector4>
+					</property>
+					<property>	clothesColour1
+						<Vector4>	1.000000 1.000000 1.000000 1.000000	</Vector4>
+					</property>
+					<property>	maskMap
+						<Texture>	sets/urban/characters/npc/ped_male/maps/ped_male_colorize.tga	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	true	</treatAsWorldSpaceObject>
+		<node>	biped Spine1BlendBoneped_male	</node>
+		<node>	biped R ClavicleBlendBoneped_male	</node>
+		<node>	biped HeadBlendBoneped_male	</node>
+		<node>	biped NeckBlendBoneped_male	</node>
+		<node>	biped L ClavicleBlendBoneped_male	</node>
+		<node>	biped L FootBlendBoneped_male	</node>
+		<node>	biped L CalfBlendBoneped_male	</node>
+		<node>	biped L Toe0BlendBoneped_male	</node>
+		<node>	biped R FootBlendBoneped_male	</node>
+		<node>	biped R CalfBlendBoneped_male	</node>
+		<node>	biped R Toe0BlendBoneped_male	</node>
+		<geometry>
+			<vertices>	ped_male0b.vertices	</vertices>
+			<primitive>	ped_male0b.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	empty_skinned	</identifier>
+					<fx>	shaders/std_effects/ambient_skylight_skinned.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	rimStrength
+						<Float>	2.000000	</Float>
+					</property>
+					<property>	rimWidth
+						<Float>	1.000000	</Float>
+					</property>
+					<property>	selfIllumination
+						<Float>	0.000000	</Float>
+					</property>
+					<property>	alphaReference
+						<Int>	0	</Int>
+					</property>
+					<property>	alphaTestEnable
+						<Bool>	false	</Bool>
+					</property>
+					<property>	doubleSided
+						<Bool>	false	</Bool>
+					</property>
+					<property>	fakeLightAmount
+						<Float>	0.500000	</Float>
+					</property>
+					<property>	fakeLight2Colour
+						<Vector4>	0.000000 0.000000 0.500000 0.000000	</Vector4>
+					</property>
+					<property>	fakeLight2Direction
+						<Vector4>	1.000000 -1.000000 -0.100000 0.000000	</Vector4>
+					</property>
+					<property>	fakeLight1Colour
+						<Vector4>	1.000000 0.900000 0.800000 0.000000	</Vector4>
+					</property>
+					<property>	fakeLight1Direction
+						<Vector4>	-1.200000 1.200000 -1.500000 0.000000	</Vector4>
+					</property>
+					<property>	subSurfaceMap
+						<Texture>	sets/urban/characters/npc/ped_male/maps/ped_male_ss.tga	</Texture>
+					</property>
+					<property>	specularMap
+						<Texture>	sets/urban/characters/npc/ped_male/maps/ped_male_s.tga	</Texture>
+					</property>
+					<property>	normalMap
+						<Texture>	sets/urban/characters/npc/ped_male/maps/ped_male_norms.bmp	</Texture>
+					</property>
+					<property>	diffuseMap
+						<Texture>	sets/urban/characters/npc/ped_male/maps/ped_male_d.bmp	</Texture>
+					</property>
+					<property>	clothesColour4
+						<Vector4>	0.501961 0.501961 0.501961 1.000000	</Vector4>
+					</property>
+					<property>	clothesColour3
+						<Vector4>	0.501961 0.501961 0.501961 1.000000	</Vector4>
+					</property>
+					<property>	clothesColour2
+						<Vector4>	0.501961 0.501961 0.501961 1.000000	</Vector4>
+					</property>
+					<property>	clothesColour1
+						<Vector4>	1.000000 1.000000 1.000000 1.000000	</Vector4>
+					</property>
+					<property>	maskMap
+						<Texture>	sets/urban/characters/npc/ped_male/maps/ped_male_colorize.tga	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<boundingBox>
+		<min>	-0.606913 -0.015596 -0.185487	</min>
+		<max>	0.606913 1.965000 0.194853	</max>
+	</boundingBox>
+	<materialKind>	11	</materialKind>
+</ped_male.visual>

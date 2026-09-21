@@ -1,0 +1,38 @@
+<awning_03.visual>
+	<node>
+		<identifier>	Scene Root	</identifier>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+	</node>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	Scene Root	</node>
+		<geometry>
+			<vertices>	vertices	</vertices>
+			<primitive>	indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	awning	</identifier>
+					<fx>	shaders/std_effects/lightonly.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	12	</materialKind>
+					<property>	doubleSided
+						<Bool>	true	</Bool>
+					</property>
+					<property>	diffuseMap
+						<Texture>	sets/urban/props/awning/maps/awning.tga	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<boundingBox>
+		<min>	-0.034315 -0.021065 -3.975340	</min>
+		<max>	1.961875 0.653853 3.975342	</max>
+	</boundingBox>
+	<materialKind>	12	</materialKind>
+</awning_03.visual>

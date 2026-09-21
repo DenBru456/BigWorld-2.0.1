@@ -1,0 +1,60 @@
+<ffff0000o.chunk>
+	<terrain>
+		<resource>	ffff0000o.cdata/terrain2	</resource>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>	</metaData>
+	</terrain>
+	<entity>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>
+			<created_by>	v2v3v4	</created_by>
+			<created_on>	1604604736	</created_on>
+			<modified_by>	v2v3v4	</modified_by>
+			<modified_on>	1604604736	</modified_on>
+		</metaData>
+		<guid>	C98A2072.4953B26B.6C7DEEA8.3BA9A68E	</guid>
+		<type>	Ripper	</type>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	98.940079 -0.000000 1.939029	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+		<backLinks>	</backLinks>
+	</entity>
+	<entity>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>
+			<created_by>	v2v3v4	</created_by>
+			<created_on>	1604607714	</created_on>
+			<modified_by>	v2v3v4	</modified_by>
+			<modified_on>	1604607730	</modified_on>
+		</metaData>
+		<guid>	B3BE6E49.4370800C.D6E154A9.B734A4E1	</guid>
+		<type>	VehicleExample	</type>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	94.135658 0.000000 5.677656	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+		<backLinks>	</backLinks>
+	</entity>
+</ffff0000o.chunk>

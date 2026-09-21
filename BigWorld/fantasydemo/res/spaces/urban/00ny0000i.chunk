@@ -1,0 +1,89 @@
+<root>
+	<shell>
+		<resource>	sets/urban/shells/office_exit.model	</resource>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<reflectionVisible>	true	</reflectionVisible>
+		<metaData>	</metaData>
+		<staticLighting>
+			<offset>	0	</offset>
+			<size>	492	</size>
+		</staticLighting>
+	</shell>
+	<omniLight>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>
+			<modified_by>	adamm	</modified_by>
+			<modified_on>	1250639381	</modified_on>
+		</metaData>
+		<colour>	134.000000 223.000259 199.000259	</colour>
+		<position>	-3.007404 3.309788 2.196259	</position>
+		<innerRadius>	1.000000	</innerRadius>
+		<outerRadius>	7.010785	</outerRadius>
+		<dynamic>	true	</dynamic>
+		<static>	true	</static>
+		<specular>	false	</specular>
+		<multiplier>	1.520000	</multiplier>
+	</omniLight>
+	<omniLight>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>
+			<modified_by>	adamm	</modified_by>
+			<modified_on>	1250639381	</modified_on>
+		</metaData>
+		<colour>	134.000000 223.000259 199.000259	</colour>
+		<position>	-12.000034 3.309788 1.999992	</position>
+		<innerRadius>	1.000000	</innerRadius>
+		<outerRadius>	7.010785	</outerRadius>
+		<dynamic>	true	</dynamic>
+		<static>	true	</static>
+		<specular>	false	</specular>
+		<multiplier>	1.520000	</multiplier>
+	</omniLight>
+	<omniLight>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>
+			<modified_by>	adamm	</modified_by>
+			<modified_on>	1250639381	</modified_on>
+		</metaData>
+		<colour>	134.000000 223.000259 199.000259	</colour>
+		<position>	-20.000034 3.309788 1.999992	</position>
+		<innerRadius>	1.000000	</innerRadius>
+		<outerRadius>	7.010785	</outerRadius>
+		<dynamic>	true	</dynamic>
+		<static>	true	</static>
+		<specular>	false	</specular>
+		<multiplier>	1.520000	</multiplier>
+	</omniLight>
+	<worldNavmesh>
+		<resource>	00ny0000i.cdata/worldNavmesh	</resource>
+	</worldNavmesh>
+	<transform>
+		<row0>	0.000000 0.000000 1.000000	</row0>
+		<row1>	0.000000 1.000000 0.000000	</row1>
+		<row2>	-1.000000 0.000000 0.000000	</row2>
+		<row3>	73.499954 0.499999 -40.999996	</row3>
+	</transform>
+	<boundingBox>
+		<min>	69.749947 0.425469 -69.249992	</min>
+		<max>	73.499947 41.253567 -40.749992	</max>
+	</boundingBox>
+</root>

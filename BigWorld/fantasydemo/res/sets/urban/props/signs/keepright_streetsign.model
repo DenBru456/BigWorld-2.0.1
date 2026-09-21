@@ -1,0 +1,15 @@
+<keepright_streetsign.model>
+	<nodelessVisual>	sets/urban/props/signs/keepright_streetsign	</nodelessVisual>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-0.008790 -0.002358 -0.332941	</min>
+		<max>	0.008454 0.922600 0.332940	</max>
+	</visibilityBox>
+	<extent>	160.000000	</extent>
+	<batched>	false	</batched>
+	<metaData>
+		<copyright>	Copyright BigWorld Pty Ltd.  Use freely in any BigWorld licensed game.	</copyright>
+		<modified_by>	adamm	</modified_by>
+		<modified_on>	1254378980	</modified_on>
+	</metaData>
+</keepright_streetsign.model>

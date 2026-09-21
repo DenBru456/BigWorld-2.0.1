@@ -1,0 +1,200 @@
+<root>
+	<model>
+		<resource>	sets/temperate/props/flagstone_slab.model	</resource>
+		<transform>
+			<row0>	-1.275530 0.000000 1.148492	</row0>
+			<row1>	0.000000 1.716394 0.000000	</row1>
+			<row2>	-1.148492 0.000001 -1.275529	</row2>
+			<row3>	45.100002 60.400002 2.000000	</row3>
+		</transform>
+	</model>
+	<model>
+		<resource>	sets/temperate/props/flagstone_slab.model	</resource>
+		<transform>
+			<row0>	-1.275530 0.000000 1.148492	</row0>
+			<row1>	0.000000 1.716394 0.000000	</row1>
+			<row2>	-1.148492 0.000001 -1.275529	</row2>
+			<row3>	40.000000 60.400002 6.600000	</row3>
+		</transform>
+	</model>
+	<model>
+		<resource>	sets/temperate/props/flagstone_slab.model	</resource>
+		<transform>
+			<row0>	-1.275530 0.000000 1.148492	</row0>
+			<row1>	0.000000 1.716394 0.000000	</row1>
+			<row2>	-1.148492 0.000001 -1.275529	</row2>
+			<row3>	35.400002 60.400002 1.500000	</row3>
+		</transform>
+	</model>
+	<waypointGenerationTime>
+		<hi>	29728293	</hi>
+		<lo>	1178469272	</lo>
+	</waypointGenerationTime>
+	<model>
+		<resource>	sets/temperate/props/brush.model	</resource>
+		<transform>
+			<row0>	3.009431 0.000000 0.579257	</row0>
+			<row1>	0.000000 3.064671 0.000000	</row1>
+			<row2>	-0.579256 0.000001 3.009430	</row2>
+			<row3>	75.590546 35.172913 32.431458	</row3>
+		</transform>
+	</model>
+	<model>
+		<resource>	sets/temperate/props/brush.model	</resource>
+		<transform>
+			<row0>	3.009431 0.000000 0.579257	</row0>
+			<row1>	0.000000 3.064671 0.000000	</row1>
+			<row2>	-0.579256 0.000001 3.009430	</row2>
+			<row3>	74.398315 35.630493 33.742409	</row3>
+		</transform>
+	</model>
+	<model>
+		<resource>	sets/desert/props/ribs.model	</resource>
+		<transform>
+			<row0>	2.508396 -0.199461 -2.294116	</row0>
+			<row1>	0.131969 1.913450 -0.022068	</row1>
+			<row2>	1.793707 -0.100991 1.970028	</row2>
+			<row3>	75.755539 34.045872 98.570961	</row3>
+		</transform>
+	</model>
+	<model>
+		<resource>	sets/desert/props/ribs.model	</resource>
+		<transform>
+			<row0>	2.895265 -0.230224 -2.647939	</row0>
+			<row1>	0.168102 2.437343 -0.028111	</row1>
+			<row2>	2.147023 -0.120883 2.358074	</row2>
+			<row3>	79.387054 32.110767 95.428963	</row3>
+		</transform>
+	</model>
+	<model>
+		<resource>	sets/desert/props/ribs.model	</resource>
+		<transform>
+			<row0>	2.650776 -0.210782 -2.424335	</row0>
+			<row1>	0.145268 2.106263 -0.024292	</row1>
+			<row2>	1.923740 -0.108311 2.112843	</row2>
+			<row3>	77.431595 33.120670 97.074028	</row3>
+		</transform>
+	</model>
+	<model>
+		<resource>	sets/desert/props/ribs.model	</resource>
+		<transform>
+			<row0>	3.155733 -0.250936 -2.886155	</row0>
+			<row1>	0.192429 2.790065 -0.032178	</row1>
+			<row2>	2.384899 -0.134276 2.619333	</row2>
+			<row3>	84.135818 30.133152 91.086250	</row3>
+		</transform>
+	</model>
+	<model>
+		<resource>	sets/desert/props/ribs.model	</resource>
+		<transform>
+			<row0>	3.079260 -0.244855 -2.816212	</row0>
+			<row1>	0.185286 2.686503 -0.030984	</row1>
+			<row2>	2.315055 -0.130343 2.542624	</row2>
+			<row3>	82.295486 30.838169 92.813446	</row3>
+		</transform>
+	</model>
+	<model>
+		<resource>	sets/desert/props/ribs.model	</resource>
+		<transform>
+			<row0>	3.128208 -0.248747 -2.860981	</row0>
+			<row1>	0.189858 2.752788 -0.031749	</row1>
+			<row2>	2.359759 -0.132860 2.591722	</row2>
+			<row3>	86.370346 29.400990 88.684807	</row3>
+		</transform>
+	</model>
+	<model>
+		<resource>	sets/desert/props/ribs.model	</resource>
+		<transform>
+			<row0>	3.073669 -0.244410 -2.811103	</row0>
+			<row1>	0.184764 2.678933 -0.030897	</row1>
+			<row2>	2.309951 -0.130056 2.537017	</row2>
+			<row3>	88.227188 28.642109 87.056267	</row3>
+		</transform>
+	</model>
+	<model>
+		<resource>	sets/desert/props/ribs.model	</resource>
+		<transform>
+			<row0>	2.919515 -0.232152 -2.670116	</row0>
+			<row1>	0.170367 2.470180 -0.028489	</row1>
+			<row2>	2.169168 -0.122129 2.382396	</row2>
+			<row3>	89.755096 28.049839 85.279915	</row3>
+		</transform>
+	</model>
+	<model>
+		<resource>	sets/desert/props/ribs.model	</resource>
+		<transform>
+			<row0>	2.770025 -0.220265 -2.533397	</row0>
+			<row1>	0.156406 2.267743 -0.026154	</row1>
+			<row2>	2.032643 -0.114443 2.232451	</row2>
+			<row3>	91.529808 27.211246 83.766487	</row3>
+		</transform>
+	</model>
+	<model>
+		<resource>	sets/desert/props/ribs.model	</resource>
+		<transform>
+			<row0>	2.674998 -0.212708 -2.446486	</row0>
+			<row1>	0.147529 2.139059 -0.024670	</row1>
+			<row2>	1.945858 -0.109556 2.137135	</row2>
+			<row3>	92.646721 26.704105 81.957481	</row3>
+		</transform>
+	</model>
+	<model>
+		<resource>	sets/desert/props/ribs.model	</resource>
+		<transform>
+			<row0>	2.459586 -0.195580 -2.249476	</row0>
+			<row1>	0.127410 1.847353 -0.021306	</row1>
+			<row2>	1.749133 -0.098480 1.921072	</row2>
+			<row3>	93.944748 26.006153 80.625160	</row3>
+		</transform>
+	</model>
+	<model>
+		<resource>	sets/desert/props/ribs.model	</resource>
+		<transform>
+			<row0>	2.214655 -0.176104 -2.025467	</row0>
+			<row1>	0.104535 1.515671 -0.017480	</row1>
+			<row2>	1.525444 -0.085886 1.675396	</row2>
+			<row3>	96.048340 24.693226 79.259506	</row3>
+		</transform>
+	</model>
+	<model>
+		<resource>	sets/desert/props/ribs.model	</resource>
+		<transform>
+			<row0>	2.369098 -0.188384 -2.166718	</row0>
+			<row1>	0.118960 1.724817 -0.019892	</row1>
+			<row2>	1.666492 -0.093827 1.830309	</row2>
+			<row3>	95.177490 25.272190 80.114845	</row3>
+		</transform>
+	</model>
+	<terrain>
+		<resource>	00000000o.cdata/terrain	</resource>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>	</metaData>
+	</terrain>
+	<worldNavmesh>
+		<resource>	00000000o.cdata/worldNavmesh	</resource>
+	</worldNavmesh>
+	<entity>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>	</metaData>
+		<guid>	6197B5A6.43F0B0F7.E454989C.640E4AD4	</guid>
+		<type>	TeleportPoint	</type>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	39.268299 62.104492 7.835524	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<label>	demo2	</label>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+		<backLinks>	</backLinks>
+	</entity>
+</root>

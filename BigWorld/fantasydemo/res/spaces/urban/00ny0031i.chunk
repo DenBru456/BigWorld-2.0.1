@@ -1,0 +1,732 @@
+<root>
+	<shell>
+		<resource>	sets/urban/shells/office_room.model	</resource>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<reflectionVisible>	true	</reflectionVisible>
+		<metaData>	</metaData>
+		<staticLighting>
+			<offset>	0	</offset>
+			<size>	6080	</size>
+		</staticLighting>
+	</shell>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<resource>	sets/urban/props/graffiti/models/graffiti05.model	</resource>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 -0.000311 1.000000	</row1>
+			<row2>	0.000000 -1.000000 -0.000311	</row2>
+			<row3>	-5.205776 0.699985 -0.442627	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<metaData>	</metaData>
+		<staticLighting>
+			<offset>	6080	</offset>
+			<size>	100	</size>
+		</staticLighting>
+	</model>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<resource>	sets/urban/props/office_furnishings/model/desk.model	</resource>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	-6.805767 -0.000016 -9.342590	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<metaData>	</metaData>
+		<staticLighting>
+			<offset>	6180	</offset>
+			<size>	7868	</size>
+		</staticLighting>
+	</model>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<resource>	sets/urban/props/office_furnishings/model/desk.model	</resource>
+		<transform>
+			<row0>	0.000000 0.000000 -0.999997	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	0.999997 0.000000 0.000000	</row2>
+			<row3>	-6.805767 -0.000016 -9.342590	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<metaData>	</metaData>
+		<staticLighting>
+			<offset>	14048	</offset>
+			<size>	7868	</size>
+		</staticLighting>
+	</model>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<resource>	sets/urban/props/office_furnishings/model/desk.model	</resource>
+		<transform>
+			<row0>	0.000000 0.000000 -0.999997	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	0.999997 0.000000 0.000000	</row2>
+			<row3>	-7.105762 -0.000016 -2.642586	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<metaData>	</metaData>
+		<staticLighting>
+			<offset>	21916	</offset>
+			<size>	7868	</size>
+		</staticLighting>
+	</model>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<resource>	sets/urban/props/office_furnishings/model/office_chair.model	</resource>
+		<transform>
+			<row0>	-0.499999 0.000001 -0.866024	</row0>
+			<row1>	-0.000001 0.999999 0.000002	</row1>
+			<row2>	0.866024 0.000001 -0.499999	</row2>
+			<row3>	-6.205791 -0.000016 -3.642578	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<metaData>	</metaData>
+		<staticLighting>
+			<offset>	29784	</offset>
+			<size>	9148	</size>
+		</staticLighting>
+	</model>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<resource>	sets/urban/props/office_furnishings/model/office_chair.model	</resource>
+		<transform>
+			<row0>	0.499998 0.000072 -0.866023	</row0>
+			<row1>	-0.000110 0.999997 0.000020	</row1>
+			<row2>	0.866023 0.000085 0.499998	</row2>
+			<row3>	-5.905766 -0.000016 -8.542587	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<metaData>	</metaData>
+		<staticLighting>
+			<offset>	38932	</offset>
+			<size>	9148	</size>
+		</staticLighting>
+	</model>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<resource>	sets/urban/props/office_furnishings/model/office_chair.model	</resource>
+		<transform>
+			<row0>	-0.499999 -0.000315 -0.866023	</row0>
+			<row1>	0.000164 0.999997 -0.000458	</row1>
+			<row2>	0.866023 -0.000371 -0.499999	</row2>
+			<row3>	-5.905766 -0.000016 -10.542587	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<metaData>	</metaData>
+		<staticLighting>
+			<offset>	48080	</offset>
+			<size>	9148	</size>
+		</staticLighting>
+	</model>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<resource>	sets/urban/props/office_furnishings/model/desk.model	</resource>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	-7.105762 -0.000016 -2.642586	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<metaData>	</metaData>
+		<staticLighting>
+			<offset>	57228	</offset>
+			<size>	7868	</size>
+		</staticLighting>
+	</model>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<resource>	sets/urban/props/office_furnishings/model/desk.model	</resource>
+		<transform>
+			<row0>	0.000000 0.000000 0.999999	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	-0.999999 0.000000 0.000000	</row2>
+			<row3>	-7.105732 -0.000016 -2.642593	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<metaData>	</metaData>
+		<staticLighting>
+			<offset>	65096	</offset>
+			<size>	7868	</size>
+		</staticLighting>
+	</model>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<resource>	sets/urban/props/office_furnishings/model/desk.model	</resource>
+		<transform>
+			<row0>	0.000000 0.000000 0.999999	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	-0.999999 0.000000 0.000000	</row2>
+			<row3>	-6.805767 -0.000016 -9.342590	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<metaData>	</metaData>
+		<staticLighting>
+			<offset>	72964	</offset>
+			<size>	7868	</size>
+		</staticLighting>
+	</model>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<resource>	sets/urban/props/office_furnishings/model/desk.model	</resource>
+		<transform>
+			<row0>	-0.999999 0.000002 0.000000	</row0>
+			<row1>	0.000002 1.000000 0.000003	</row1>
+			<row2>	0.000000 0.000003 -0.999999	</row2>
+			<row3>	-6.805767 -0.000016 -9.342590	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<metaData>	</metaData>
+		<staticLighting>
+			<offset>	80832	</offset>
+			<size>	7868	</size>
+		</staticLighting>
+	</model>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<resource>	sets/urban/props/office_furnishings/model/desk.model	</resource>
+		<transform>
+			<row0>	-0.999999 0.000002 0.000000	</row0>
+			<row1>	0.000002 1.000000 0.000003	</row1>
+			<row2>	0.000000 0.000003 -0.999999	</row2>
+			<row3>	-7.105762 -0.000016 -2.642586	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<metaData>	</metaData>
+		<staticLighting>
+			<offset>	88700	</offset>
+			<size>	7868	</size>
+		</staticLighting>
+	</model>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<resource>	sets/urban/props/office_furnishings/model/office_chair.model	</resource>
+		<transform>
+			<row0>	0.866023 0.000072 0.499998	</row0>
+			<row1>	-0.000020 0.999997 -0.000110	</row1>
+			<row2>	-0.499998 0.000085 0.866023	</row2>
+			<row3>	-7.705769 -0.000016 -8.442589	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<metaData>	</metaData>
+		<staticLighting>
+			<offset>	96568	</offset>
+			<size>	9148	</size>
+		</staticLighting>
+	</model>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<resource>	sets/urban/props/office_furnishings/model/partition03.model	</resource>
+		<transform>
+			<row0>	0.000000 0.000000 -0.999999	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	0.999999 0.000000 0.000000	</row2>
+			<row3>	-9.005764 -0.000016 -4.142586	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<metaData>	</metaData>
+		<staticLighting>
+			<offset>	105716	</offset>
+			<size>	1432	</size>
+		</staticLighting>
+	</model>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<resource>	sets/urban/props/office_furnishings/model/partition01.model	</resource>
+		<transform>
+			<row0>	0.999997 0.000000 0.000000	</row0>
+			<row1>	0.000000 0.999997 0.000000	</row1>
+			<row2>	0.000000 0.000000 0.999997	</row2>
+			<row3>	-10.005764 -0.000016 -2.142586	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<metaData>	</metaData>
+		<staticLighting>
+			<offset>	107148	</offset>
+			<size>	2244	</size>
+		</staticLighting>
+	</model>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<resource>	sets/urban/props/office_furnishings/model/partition01.model	</resource>
+		<transform>
+			<row0>	0.999997 0.000000 0.000000	</row0>
+			<row1>	0.000000 0.999997 0.000000	</row1>
+			<row2>	0.000000 0.000000 0.999997	</row2>
+			<row3>	-10.005764 -0.000016 -4.142586	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<metaData>	</metaData>
+		<staticLighting>
+			<offset>	109392	</offset>
+			<size>	2244	</size>
+		</staticLighting>
+	</model>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<resource>	sets/urban/props/office_furnishings/model/partition01.model	</resource>
+		<transform>
+			<row0>	0.999999 0.000000 0.000000	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	0.000000 0.000000 0.999999	</row2>
+			<row3>	-10.105762 -0.000016 -9.642586	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<metaData>	</metaData>
+		<staticLighting>
+			<offset>	111636	</offset>
+			<size>	2244	</size>
+		</staticLighting>
+	</model>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<resource>	sets/urban/props/office_furnishings/model/partition01.model	</resource>
+		<transform>
+			<row0>	0.999999 0.000000 0.000000	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	0.000000 0.000000 0.999999	</row2>
+			<row3>	-10.105762 -0.000016 -11.642586	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<metaData>	</metaData>
+		<staticLighting>
+			<offset>	113880	</offset>
+			<size>	2244	</size>
+		</staticLighting>
+	</model>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<resource>	sets/urban/props/signs/exit02.model	</resource>
+		<transform>
+			<row0>	0.000000 0.000000 -1.000000	</row0>
+			<row1>	1.000000 0.000000 0.000000	</row1>
+			<row2>	0.000000 -1.000000 0.000000	</row2>
+			<row3>	-13.705769 2.739732 -0.355606	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<metaData>	</metaData>
+		<staticLighting>
+			<offset>	116124	</offset>
+			<size>	452	</size>
+		</staticLighting>
+	</model>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	false	</castsShadow>
+		</editorOnly>
+		<resource>	sets/shared/props/gen_shadow/model/gen_shadow.model	</resource>
+		<transform>
+			<row0>	-0.000000 0.000000 1.213387	</row0>
+			<row1>	0.000000 1.213387 0.000000	</row1>
+			<row2>	-1.213387 0.000000 -0.000000	</row2>
+			<row3>	-0.399995 0.070529 -1.799202	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<metaData>	</metaData>
+		<staticLighting>
+			<offset>	116576	</offset>
+			<size>	16	</size>
+		</staticLighting>
+	</model>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<resource>	sets/urban/props/planter/models/facility_planter.model	</resource>
+		<transform>
+			<row0>	0.999997 0.000005 0.000000	</row0>
+			<row1>	-0.000005 0.999998 -0.000004	</row1>
+			<row2>	-0.000000 0.000004 0.999997	</row2>
+			<row3>	-0.199990 0.070528 -1.499153	</row3>
+		</transform>
+		<reflectionVisible>	true	</reflectionVisible>
+		<metaData>	</metaData>
+		<staticLighting>
+			<offset>	116592	</offset>
+			<size>	2040	</size>
+		</staticLighting>
+	</model>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	false	</castsShadow>
+		</editorOnly>
+		<resource>	sets/shared/props/gen_shadow/model/gen_shadow.model	</resource>
+		<transform>
+			<row0>	-0.000000 0.000000 1.213387	</row0>
+			<row1>	0.000000 1.213387 0.000000	</row1>
+			<row2>	-1.213387 0.000000 -0.000000	</row2>
+			<row3>	-4.305549 -0.012704 -11.442284	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<metaData>	</metaData>
+		<staticLighting>
+			<offset>	118632	</offset>
+			<size>	16	</size>
+		</staticLighting>
+	</model>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<resource>	sets/urban/props/planter/models/facility_planter.model	</resource>
+		<transform>
+			<row0>	0.999997 0.000005 0.000000	</row0>
+			<row1>	-0.000005 0.999998 -0.000004	</row1>
+			<row2>	-0.000000 0.000004 0.999997	</row2>
+			<row3>	-4.105545 -0.012705 -11.142250	</row3>
+		</transform>
+		<reflectionVisible>	true	</reflectionVisible>
+		<metaData>	</metaData>
+		<staticLighting>
+			<offset>	118648	</offset>
+			<size>	2040	</size>
+		</staticLighting>
+	</model>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<resource>	sets/urban/props/planter/models/facility_planter.model	</resource>
+		<transform>
+			<row0>	0.999997 0.000005 0.000000	</row0>
+			<row1>	-0.000005 0.999998 -0.000004	</row1>
+			<row2>	-0.000000 0.000004 0.999997	</row2>
+			<row3>	-9.280632 -0.047900 -7.500519	</row3>
+		</transform>
+		<reflectionVisible>	true	</reflectionVisible>
+		<metaData>	</metaData>
+		<staticLighting>
+			<offset>	120688	</offset>
+			<size>	2040	</size>
+		</staticLighting>
+	</model>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<resource>	sets/urban/props/lightpanel/models/facility_lightpanel.model	</resource>
+		<transform>
+			<row0>	0.999999 0.000000 0.000000	</row0>
+			<row1>	0.000000 0.000000 0.999999	</row1>
+			<row2>	0.000000 -0.999999 0.000000	</row2>
+			<row3>	-5.705769 1.799983 -11.742592	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<metaData>	</metaData>
+		<staticLighting>
+			<offset>	122728	</offset>
+			<size>	732	</size>
+		</staticLighting>
+	</model>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<resource>	sets/urban/props/lightpanel/models/facility_lightpanel.model	</resource>
+		<transform>
+			<row0>	-0.999999 0.000000 0.000000	</row0>
+			<row1>	0.000000 0.000000 -0.999999	</row1>
+			<row2>	0.000000 -0.999999 0.000000	</row2>
+			<row3>	-6.305798 1.699982 -0.142586	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<metaData>	</metaData>
+		<staticLighting>
+			<offset>	123460	</offset>
+			<size>	732	</size>
+		</staticLighting>
+	</model>
+	<omniLight>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>
+			<modified_by>	adamm	</modified_by>
+			<modified_on>	1250639377	</modified_on>
+		</metaData>
+		<colour>	194.000168 213.000168 174.000000	</colour>
+		<position>	-3.650085 2.386069 -2.100159	</position>
+		<innerRadius>	1.000000	</innerRadius>
+		<outerRadius>	3.486672	</outerRadius>
+		<dynamic>	true	</dynamic>
+		<static>	true	</static>
+		<specular>	false	</specular>
+		<multiplier>	1.000000	</multiplier>
+	</omniLight>
+	<omniLight>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>
+			<modified_by>	adamm	</modified_by>
+			<modified_on>	1250639377	</modified_on>
+		</metaData>
+		<colour>	194.000168 213.000168 174.000000	</colour>
+		<position>	-3.768715 2.758858 -10.314293	</position>
+		<innerRadius>	1.000000	</innerRadius>
+		<outerRadius>	3.486672	</outerRadius>
+		<dynamic>	true	</dynamic>
+		<static>	true	</static>
+		<specular>	false	</specular>
+		<multiplier>	1.000000	</multiplier>
+	</omniLight>
+	<omniLight>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>
+			<modified_by>	adamm	</modified_by>
+			<modified_on>	1250639377	</modified_on>
+		</metaData>
+		<colour>	194.000183 213.000183 174.000000	</colour>
+		<position>	-6.605782 2.309772 -1.442604	</position>
+		<innerRadius>	1.000000	</innerRadius>
+		<outerRadius>	7.700630	</outerRadius>
+		<dynamic>	true	</dynamic>
+		<static>	true	</static>
+		<specular>	false	</specular>
+		<multiplier>	1.000000	</multiplier>
+	</omniLight>
+	<omniLight>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>
+			<modified_by>	adamm	</modified_by>
+			<modified_on>	1250639377	</modified_on>
+		</metaData>
+		<colour>	194.000137 213.000137 174.000000	</colour>
+		<position>	-12.106888 2.572320 -9.247124	</position>
+		<innerRadius>	1.000000	</innerRadius>
+		<outerRadius>	3.420704	</outerRadius>
+		<dynamic>	true	</dynamic>
+		<static>	true	</static>
+		<specular>	false	</specular>
+		<multiplier>	1.000000	</multiplier>
+	</omniLight>
+	<omniLight>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>
+			<modified_by>	adamm	</modified_by>
+			<modified_on>	1250639377	</modified_on>
+		</metaData>
+		<colour>	194.000168 213.000168 174.000000	</colour>
+		<position>	-11.866760 2.659894 -2.540054	</position>
+		<innerRadius>	1.000000	</innerRadius>
+		<outerRadius>	3.420704	</outerRadius>
+		<dynamic>	true	</dynamic>
+		<static>	true	</static>
+		<specular>	false	</specular>
+		<multiplier>	1.000000	</multiplier>
+	</omniLight>
+	<omniLight>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>
+			<modified_by>	adamm	</modified_by>
+			<modified_on>	1250639377	</modified_on>
+		</metaData>
+		<colour>	194.000183 213.000183 174.000000	</colour>
+		<position>	-6.099998 2.209789 -11.300003	</position>
+		<innerRadius>	1.000000	</innerRadius>
+		<outerRadius>	7.186684	</outerRadius>
+		<dynamic>	true	</dynamic>
+		<static>	true	</static>
+		<specular>	false	</specular>
+		<multiplier>	1.000000	</multiplier>
+	</omniLight>
+	<omniLight>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>
+			<modified_by>	adamm	</modified_by>
+			<modified_on>	1250639377	</modified_on>
+		</metaData>
+		<colour>	237.000122 187.000000 112.000061	</colour>
+		<position>	-5.900005 2.009789 -0.300003	</position>
+		<innerRadius>	0.760674	</innerRadius>
+		<outerRadius>	5.876733	</outerRadius>
+		<dynamic>	false	</dynamic>
+		<static>	true	</static>
+		<specular>	false	</specular>
+		<multiplier>	1.520000	</multiplier>
+	</omniLight>
+	<speedtree>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<metaData>	</metaData>
+		<spt>	speedtree/shrubs_flowers/elephant_ear/ElephantEar_RT.spt	</spt>
+		<seed>	1	</seed>
+		<transform>
+			<row0>	-0.125702 -0.000001 0.000000	</row0>
+			<row1>	-0.000001 0.125702 -0.000001	</row1>
+			<row2>	0.000000 -0.000001 -0.125702	</row2>
+			<row3>	-4.405544 0.487295 -11.442253	</row3>
+		</transform>
+		<reflectionVisible>	true	</reflectionVisible>
+	</speedtree>
+	<speedtree>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<metaData>	</metaData>
+		<spt>	speedtree/shrubs_flowers/elephant_ear/ElephantEar_RT.spt	</spt>
+		<seed>	1	</seed>
+		<transform>
+			<row0>	-0.125702 -0.000001 -0.000000	</row0>
+			<row1>	-0.000001 0.125702 -0.000001	</row1>
+			<row2>	0.000000 -0.000001 -0.125702	</row2>
+			<row3>	-0.499990 0.570528 -1.799156	</row3>
+		</transform>
+		<reflectionVisible>	true	</reflectionVisible>
+	</speedtree>
+	<speedtree>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<metaData>	</metaData>
+		<spt>	speedtree/shrubs_flowers/elephant_ear/ElephantEar_RT.spt	</spt>
+		<seed>	1	</seed>
+		<transform>
+			<row0>	-0.125702 -0.000001 -0.000000	</row0>
+			<row1>	-0.000001 0.125702 -0.000001	</row1>
+			<row2>	0.000000 -0.000001 -0.125702	</row2>
+			<row3>	-9.635586 0.473211 -7.800491	</row3>
+		</transform>
+		<reflectionVisible>	true	</reflectionVisible>
+	</speedtree>
+	<worldNavmesh>
+		<resource>	00ny0031i.cdata/worldNavmesh	</resource>
+	</worldNavmesh>
+	<transform>
+		<row0>	0.000000 0.000000 1.000000	</row0>
+		<row1>	0.000000 1.000000 0.000000	</row1>
+		<row2>	-1.000000 0.000000 0.000000	</row2>
+		<row3>	77.499954 0.499999 -44.999992	</row3>
+	</transform>
+	<boundingBox>
+		<min>	77.499947 0.452094 -60.999989	</min>
+		<max>	89.499947 41.253567 -44.999989	</max>
+	</boundingBox>
+</root>

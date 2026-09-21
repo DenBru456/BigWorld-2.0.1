@@ -1,0 +1,32 @@
+<root>
+	<Volatile>
+		<position/>
+		<yaw/>
+		<pitch> 20 </pitch>
+	</Volatile>
+
+	<Implements>
+		<Interface> BaseAndCell </Interface>
+	</Implements>
+
+	<Properties>
+		<pilot>
+			<Type>		OBJECT_ID	</Type>
+			<Flags>		ALL_CLIENTS	</Flags>
+			<Default>	0			</Default>
+		</pilot>
+	</Properties>
+
+	<ClientMethods>
+	</ClientMethods>
+
+	<CellMethods>
+		<mount>
+			<Exposed/>
+		</mount>
+		<dismount>
+			<Exposed/>
+		</dismount>
+	</CellMethods>
+
+</root>

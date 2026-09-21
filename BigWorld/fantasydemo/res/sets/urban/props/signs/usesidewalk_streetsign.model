@@ -1,0 +1,15 @@
+<usesidewalk_streetsign.model>
+	<nodelessVisual>	sets/urban/props/signs/usesidewalk_streetsign	</nodelessVisual>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-0.009326 -0.000525 -0.332703	</min>
+		<max>	0.007919 0.991623 0.333178	</max>
+	</visibilityBox>
+	<extent>	180.000000	</extent>
+	<batched>	false	</batched>
+	<metaData>
+		<copyright>	Copyright BigWorld Pty Ltd.  Use freely in any BigWorld licensed game.	</copyright>
+		<modified_by>	adamm	</modified_by>
+		<modified_on>	1254380836	</modified_on>
+	</metaData>
+</usesidewalk_streetsign.model>

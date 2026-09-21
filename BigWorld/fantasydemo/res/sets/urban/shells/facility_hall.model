@@ -1,0 +1,13 @@
+<facility_hall.model>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-11.099997 -0.000000 -23.849997	</min>
+		<max>	-0.299998 7.800000 -4.149998	</max>
+	</visibilityBox>
+	<nodelessVisual>	sets/urban/shells/facility_hall	</nodelessVisual>
+	<metaData>
+		<copyright>	Copyright BigWorld Pty Ltd.  Use freely in any BigWorld licensed game.	</copyright>
+		<modified_by>	AdamM	</modified_by>
+		<modified_on>	1281673075	</modified_on>
+	</metaData>
+</facility_hall.model>

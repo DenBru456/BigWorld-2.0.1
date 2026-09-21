@@ -1,0 +1,56 @@
+<root>
+	<worldNavmesh>
+		<resource>	0001fffeo.cdata/worldNavmesh	</resource>
+	</worldNavmesh>
+	<model>
+		<resource>	sets/minspec/props/tree/model/tree_mid.model	</resource>
+		<transform>
+			<row0>	0.700107 0.000000 -1.293143	</row0>
+			<row1>	0.000001 1.470499 0.000000	</row1>
+			<row2>	1.293143 -0.000002 0.700107	</row2>
+			<row3>	13.171921 199.818329 94.433586	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<resource>	sets/minspec/props/tree/model/tree.model	</resource>
+		<transform>
+			<row0>	0.011110 -0.000001 -1.051691	</row0>
+			<row1>	0.000000 1.051751 -0.000001	</row1>
+			<row2>	1.051691 -0.000001 0.011110	</row2>
+			<row3>	8.975388 200.871063 87.980003	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<resource>	sets/minspec/props/tree/model/tree.model	</resource>
+		<transform>
+			<row0>	-0.162351 -0.000001 1.089043	</row0>
+			<row1>	0.000003 1.101079 0.000001	</row1>
+			<row2>	-1.089043 0.000001 -0.162351	</row2>
+			<row3>	28.298668 198.449188 98.446617	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<terrain>
+		<resource>	0001fffeo.cdata/terrain	</resource>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>	</metaData>
+	</terrain>
+	<vlo>
+		<uid>	ed050d0c.4e047eff.772d4987.72100cf0	</uid>
+		<type>	water	</type>
+	</vlo>
+</root>

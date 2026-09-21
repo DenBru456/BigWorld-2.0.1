@@ -1,0 +1,84 @@
+<root>
+	<waypointGenerationTime>
+		<hi>	29728292	</hi>
+		<lo>	2065311568	</lo>
+	</waypointGenerationTime>
+	<model>
+		<resource>	sets/temperate/props/flagstone_slab.model	</resource>
+		<transform>
+			<row0>	0.785556 0.911842 1.223705	</row0>
+			<row1>	-0.462066 1.453828 -0.786694	</row1>
+			<row2>	-1.454443 0.030624 0.910859	</row2>
+			<row3>	76.989288 43.742828 39.210480	</row3>
+		</transform>
+	</model>
+	<model>
+		<resource>	sets/temperate/props/flagstone_slab.model	</resource>
+		<transform>
+			<row0>	0.874218 0.000000 1.477076	</row0>
+			<row1>	0.000000 1.716394 0.000000	</row1>
+			<row2>	-1.477075 0.000001 0.874218	</row2>
+			<row3>	72.330658 44.574249 31.948456	</row3>
+		</transform>
+	</model>
+	<model>
+		<resource>	sets/temperate/props/flagstone_slab.model	</resource>
+		<transform>
+			<row0>	0.874218 0.000000 1.477076	</row0>
+			<row1>	0.000000 1.716394 0.000000	</row1>
+			<row2>	-1.477075 0.000001 0.874218	</row2>
+			<row3>	81.741241 44.301178 34.352661	</row3>
+		</transform>
+	</model>
+	<model>
+		<resource>	sets/temperate/props/flagstone_slab.model	</resource>
+		<transform>
+			<row0>	-0.687715 0.911842 -1.281249	</row0>
+			<row1>	0.399298 1.453828 0.820337	</row1>
+			<row2>	1.521058 0.030624 -0.794640	</row2>
+			<row3>	76.874451 42.942448 38.056534	</row3>
+		</transform>
+	</model>
+	<model>
+		<resource>	sets/temperate/props/flagstone_slab.model	</resource>
+		<transform>
+			<row0>	0.125025 3.740822 0.211245	</row0>
+			<row1>	-0.872341 0.112387 -1.473902	</row1>
+			<row2>	-1.244101 0.000000 0.736330	</row2>
+			<row3>	80.784271 40.654007 59.715973	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<terrain>
+		<resource>	0002fffeo.cdata/terrain	</resource>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>	</metaData>
+	</terrain>
+	<entity>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>	</metaData>
+		<guid>	23AE080F.464AB971.21CBE1BB.AA1AB37B	</guid>
+		<type>	TeleportPoint	</type>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	13.561005 12.997697 39.764297	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<label>	demo4	</label>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+		<backLinks>	</backLinks>
+	</entity>
+	<worldNavmesh>
+		<resource>	0002fffeo.cdata/worldNavmesh	</resource>
+	</worldNavmesh>
+</root>

@@ -1,0 +1,117 @@
+<root>
+	<model>
+		<resource>	sets/temperate/props/flagstone_slab.model	</resource>
+		<transform>
+			<row0>	-1.275530 0.000000 1.148492	</row0>
+			<row1>	0.000000 1.716394 0.000000	</row1>
+			<row2>	-1.148492 0.000001 -1.275529	</row2>
+			<row3>	40.500000 60.400002 96.900002	</row3>
+		</transform>
+	</model>
+	<model>
+		<resource>	sets/temperate/props/flagstone_slab.model	</resource>
+		<transform>
+			<row0>	-1.275530 0.000000 1.148492	</row0>
+			<row1>	0.000000 1.716394 0.000000	</row1>
+			<row2>	-1.148492 0.000001 -1.275529	</row2>
+			<row3>	35.900002 60.400002 91.800003	</row3>
+		</transform>
+	</model>
+	<model>
+		<resource>	sets/temperate/props/flagstone_slab.model	</resource>
+		<transform>
+			<row0>	-1.275530 0.000000 1.148492	</row0>
+			<row1>	0.000000 1.716394 0.000000	</row1>
+			<row2>	-1.148492 0.000001 -1.275529	</row2>
+			<row3>	30.800001 60.400002 96.400002	</row3>
+		</transform>
+	</model>
+	<model>
+		<resource>	sets/temperate/props/flagstone_slab.model	</resource>
+		<transform>
+			<row0>	-1.275530 0.000000 1.148492	</row0>
+			<row1>	0.000000 1.716394 0.000000	</row1>
+			<row2>	-1.148492 0.000001 -1.275529	</row2>
+			<row3>	46.299999 57.700001 81.800003	</row3>
+		</transform>
+	</model>
+	<model>
+		<resource>	sets/temperate/props/flagstone_slab.model	</resource>
+		<transform>
+			<row0>	-1.275530 0.000000 1.148492	</row0>
+			<row1>	0.000000 1.716394 0.000000	</row1>
+			<row2>	-1.148492 0.000001 -1.275529	</row2>
+			<row3>	45.799999 57.700001 91.500000	</row3>
+		</transform>
+	</model>
+	<model>
+		<resource>	sets/temperate/props/flagstone_slab.model	</resource>
+		<transform>
+			<row0>	-1.275530 0.000000 1.148492	</row0>
+			<row1>	0.000000 1.716394 0.000000	</row1>
+			<row2>	-1.148492 0.000001 -1.275529	</row2>
+			<row3>	41.200001 57.700001 86.400002	</row3>
+		</transform>
+	</model>
+	<model>
+		<resource>	sets/temperate/props/flagstone_slab.model	</resource>
+		<transform>
+			<row0>	-1.044636 0.911842 1.011577	</row0>
+			<row1>	0.680049 1.453828 -0.608215	</row1>
+			<row2>	-1.179947 0.030624 -1.246112	</row2>
+			<row3>	44.700001 56.799999 92.900002	</row3>
+		</transform>
+	</model>
+	<model>
+		<resource>	sets/temperate/props/flagstone_slab.model	</resource>
+		<transform>
+			<row0>	-1.044636 0.911842 1.011577	</row0>
+			<row1>	0.680049 1.453828 -0.608215	</row1>
+			<row2>	-1.179947 0.030624 -1.246112	</row2>
+			<row3>	40.000000 56.900002 87.900002	</row3>
+		</transform>
+	</model>
+	<waypointGenerationTime>
+		<hi>	29728291	</hi>
+		<lo>	-1128282182	</lo>
+	</waypointGenerationTime>
+	<particles>
+		<resource>	sets/desert/particles/fx_sandstorm.xml	</resource>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	92.412872 -1.601883 21.505219	</row3>
+		</transform>
+	</particles>
+	<model>
+		<resource>	sets/temperate/props/flagstone_slab.model	</resource>
+		<transform>
+			<row0>	-0.949334 0.005118 1.018209	</row0>
+			<row1>	1.254466 0.071984 1.169248	</row1>
+			<row2>	-0.048350 1.714871 -0.053699	</row2>
+			<row3>	45.766830 60.690025 78.849197	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<particles>
+		<resource>	sets/desert/particles/hilltop_sand.xml	</resource>
+		<transform>
+			<row0>	-0.727312 0.000000 0.686307	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	-0.686307 0.000000 -0.727312	</row2>
+			<row3>	86.878296 46.919922 5.229538	</row3>
+		</transform>
+	</particles>
+	<terrain>
+		<resource>	0000ffffo.cdata/terrain	</resource>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>	</metaData>
+	</terrain>
+	<worldNavmesh>
+		<resource>	0000ffffo.cdata/worldNavmesh	</resource>
+	</worldNavmesh>
+</root>

@@ -1,0 +1,14 @@
+<yeild_streetsign.model>
+	<nodelessVisual>	sets/urban/props/signs/yeild_streetsign	</nodelessVisual>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-0.688776 -0.001155 -0.460694	</min>
+		<max>	0.688776 0.020288 0.573820	</max>
+	</visibilityBox>
+	<extent>	224.000000	</extent>
+	<metaData>
+		<copyright>	Copyright BigWorld Pty Ltd.  Use freely in any BigWorld licensed game.	</copyright>
+		<modified_by>	adamm	</modified_by>
+		<modified_on>	1254381146	</modified_on>
+	</metaData>
+</yeild_streetsign.model>

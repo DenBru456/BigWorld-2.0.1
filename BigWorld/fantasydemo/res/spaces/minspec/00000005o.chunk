@@ -1,0 +1,61 @@
+<root>
+	<worldNavmesh>
+		<resource>	00000005o.cdata/worldNavmesh	</resource>
+	</worldNavmesh>
+	<terrain>
+		<resource>	00000005o.cdata/terrain	</resource>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>	</metaData>
+	</terrain>
+	<model>
+		<resource>	sets/minspec/props/tree/model/tree.model	</resource>
+		<transform>
+			<row0>	0.281728 0.141124 1.767210	</row0>
+			<row1>	-0.324710 1.763221 -0.089040	</row1>
+			<row2>	-1.742845 -0.305694 0.302256	</row2>
+			<row3>	28.993727 185.335907 98.398987	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<vlo>
+		<uid>	ed050d0c.4e047eff.772d4987.72100cf0	</uid>
+		<type>	water	</type>
+	</vlo>
+	<UserDataObject>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>	</metaData>
+		<type>	PatrolNode	</type>
+		<Domain>	2	</Domain>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	86.208855 198.778290 84.567963	</row3>
+		</transform>
+		<guid>	04CD3281.4DE98B98.2317BB81.1DE7FB3B	</guid>
+		<properties>
+			<patrolLinks>
+				<item>
+					<guid>	3CF2046E.4C5D3E92.4E2A269C.54C9ACF3	</guid>
+					<chunkId>	00010005o	</chunkId>
+				</item>
+			</patrolLinks>
+			<radius>	9.844132	</radius>
+		</properties>
+		<backLinks>
+			<link>
+				<guid>	E3028513.4F0CF38C.B051D9AC.FFA7F2F3	</guid>
+				<chunkId>	00000006o	</chunkId>
+			</link>
+		</backLinks>
+	</UserDataObject>
+</root>

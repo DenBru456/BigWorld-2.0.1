@@ -1,0 +1,15 @@
+<r_corner.model>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-14.999995 0.099999 -14.999998	</min>
+		<max>	14.999999 0.300000 15.012667	</max>
+	</visibilityBox>
+	<extent>	600.000000	</extent>
+	<nodelessVisual>	sets/urban/props/roads/model/r_corner	</nodelessVisual>
+	<dpvsOccluder>	true	</dpvsOccluder>
+	<metaData>
+		<copyright>	Copyright BigWorld Pty Ltd.  Use freely in any BigWorld licensed game.	</copyright>
+		<modified_by>	AdamM	</modified_by>
+		<modified_on>	1257739434	</modified_on>
+	</metaData>
+</r_corner.model>

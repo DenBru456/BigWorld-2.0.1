@@ -1,0 +1,39 @@
+<fffeffffo.chunk>
+	<waypointGenerationTime>
+		<hi>	29728290	</hi>
+		<lo>	1833371160	</lo>
+	</waypointGenerationTime>
+	<particles>
+		<resource>	sets/desert/particles/hilltop_sand.xml	</resource>
+		<transform>
+			<row0>	-0.983535 0.000000 -0.180717	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.180717 0.000000 -0.983535	</row2>
+			<row3>	48.801270 65.437920 63.287117	</row3>
+		</transform>
+	</particles>
+	<particles>
+		<resource>	sets/desert/particles/fx_sandstorm.xml	</resource>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	24.377274 25.469221 72.207458	</row3>
+		</transform>
+	</particles>
+	<terrain>
+		<resource>	fffeffffo.cdata/terrain	</resource>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>	</metaData>
+	</terrain>
+	<worldNavmesh>
+		<resource>	fffeffffo.cdata/worldNavmesh	</resource>
+	</worldNavmesh>
+	<vlo>
+		<uid>	d881daba.4f7f166e.b35d7f8a.145db23d	</uid>
+		<type>	water	</type>
+	</vlo>
+</fffeffffo.chunk>

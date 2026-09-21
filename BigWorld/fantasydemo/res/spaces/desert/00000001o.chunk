@@ -1,0 +1,71 @@
+<root>
+	<model>
+		<resource>	sets/temperate/props/brush.model	</resource>
+		<transform>
+			<row0>	0.793196 -0.000000 2.960246	</row0>
+			<row1>	0.000000 3.064671 0.000000	</row1>
+			<row2>	-2.960245 0.000001 0.793196	</row2>
+			<row3>	1.900000 2.100000 48.800003	</row3>
+		</transform>
+	</model>
+	<model>
+		<resource>	sets/temperate/props/brush.model	</resource>
+		<transform>
+			<row0>	0.793196 -0.000000 2.960246	</row0>
+			<row1>	0.000000 3.064671 0.000000	</row1>
+			<row2>	-2.960245 0.000001 0.793196	</row2>
+			<row3>	5.500000 5.000000 49.000000	</row3>
+		</transform>
+	</model>
+	<model>
+		<resource>	sets/temperate/props/brush.model	</resource>
+		<transform>
+			<row0>	0.793196 -0.000000 2.960246	</row0>
+			<row1>	0.000000 3.064671 0.000000	</row1>
+			<row2>	-2.960245 0.000001 0.793196	</row2>
+			<row3>	23.200001 18.000000 41.500000	</row3>
+		</transform>
+	</model>
+	<model>
+		<resource>	sets/temperate/props/brush.model	</resource>
+		<transform>
+			<row0>	0.793196 0.000000 2.960246	</row0>
+			<row1>	0.000000 3.064671 0.000000	</row1>
+			<row2>	-2.960245 0.000001 0.793196	</row2>
+			<row3>	21.500000 20.600000 41.000000	</row3>
+		</transform>
+	</model>
+	<waypointGenerationTime>
+		<hi>	29728295	</hi>
+		<lo>	49628430	</lo>
+	</waypointGenerationTime>
+	<model>
+		<resource>	sets/desert/props/ribs.model	</resource>
+		<transform>
+			<row0>	2.320216 -0.184497 -2.122015	</row0>
+			<row1>	0.114395 1.658627 -0.019130	</row1>
+			<row2>	1.621855 -0.091315 1.781281	</row2>
+			<row3>	73.800102 35.118412 0.215996	</row3>
+		</transform>
+	</model>
+	<particles>
+		<resource>	sets/desert/particles/hilltop_sand.xml	</resource>
+		<transform>
+			<row0>	-0.815005 0.000000 0.579454	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	-0.579454 0.000000 -0.815005	</row2>
+			<row3>	56.894886 50.346413 24.314163	</row3>
+		</transform>
+	</particles>
+	<terrain>
+		<resource>	00000001o.cdata/terrain	</resource>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>	</metaData>
+	</terrain>
+	<worldNavmesh>
+		<resource>	00000001o.cdata/worldNavmesh	</resource>
+	</worldNavmesh>
+</root>

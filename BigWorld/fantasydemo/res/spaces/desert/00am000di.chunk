@@ -1,0 +1,39 @@
+<root>
+	<shell>
+		<resource>	sets/temperate/shells/dungeon/exit_shell.model	</resource>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<reflectionVisible>	true	</reflectionVisible>
+		<metaData>	</metaData>
+		<staticLighting>
+			<offset>	0	</offset>
+			<size>	4652	</size>
+		</staticLighting>
+	</shell>
+	<ambientLight>
+		<colour>	20.000000 16.000000 25.000013	</colour>
+		<multiplier>	3.000000	</multiplier>
+	</ambientLight>
+	<transform>
+		<row0>	-1.000000 0.000000 0.000000	</row0>
+		<row1>	0.000000 1.000000 0.000000	</row1>
+		<row2>	0.000000 0.000000 -1.000000	</row2>
+		<row3>	-48.070000 9.940000 -109.110001	</row3>
+	</transform>
+	<boundingBox>
+		<min>	-53.101913 9.329707 -110.144676	</min>
+		<max>	-47.179916 35.479076 -99.916183	</max>
+	</boundingBox>
+	<worldNavmesh>
+		<resource>	00am000di.cdata/worldNavmesh	</resource>
+	</worldNavmesh>
+</root>

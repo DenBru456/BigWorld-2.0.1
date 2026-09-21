@@ -1,0 +1,50 @@
+<root>
+	<Implements>
+		<Interface> BaseAndCell </Interface>
+	</Implements>
+
+	<Properties>
+		<!-- Base properties -->
+		<spaceDir>
+			<Type>			STRING			</Type>
+			<Flags>			BASE			</Flags>
+			<Persistent>	true			</Persistent>
+		</spaceDir>
+
+		<realm>
+			<Type>			REALM_ID		</Type>
+			<Flags>			BASE			</Flags>
+			<Persistent>	true			</Persistent>
+		</realm>
+
+		<startPosition>
+			<Type>			VECTOR3			</Type>
+			<Flags>			BASE			</Flags>
+			<Persistent>	true			</Persistent>
+		</startPosition>
+
+		<isDefault>
+			<Type>			INT8			</Type>
+			<Flags>			BASE			</Flags>
+			<Persistent>	true			</Persistent>
+		</isDefault>
+
+		<wasAutoLoaded>
+			<Type>			BOOL			</Type>
+			<Flags>			BASE			</Flags>
+			<Default>		1				</Default>
+		</wasAutoLoaded>
+	</Properties>
+
+	<ClientMethods>
+	</ClientMethods>
+
+	<BaseMethods>
+	</BaseMethods>
+
+	<CellMethods>
+		<addGeometryMappingIfNeeded>
+			<Arg> STRING </Arg> <!-- The path to the geometry to map -->
+		</addGeometryMappingIfNeeded>
+	</CellMethods>
+</root>

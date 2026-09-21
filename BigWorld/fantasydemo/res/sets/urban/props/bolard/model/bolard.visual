@@ -1,0 +1,60 @@
+<bolard.visual>
+	<node>
+		<identifier>	Scene Root	</identifier>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+	</node>
+	<materialKind>	5	</materialKind>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	Scene Root	</node>
+		<geometry>
+			<vertices>	vertices	</vertices>
+			<primitive>	indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	01 - Default	</identifier>
+					<fx>	shaders/std_effects/normalmap_specmap_chrome_glow.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	reflectionMask
+						<Texture>	helpers/maps/col_white.bmp	</Texture>
+					</property>
+					<property>	reflectionMap
+						<Texture>	sets/urban/fx/maps/cubemap_urban.dds	</Texture>
+					</property>
+					<property>	specularMap
+						<Texture>	helpers/maps/col_white.bmp	</Texture>
+					</property>
+					<property>	glowMap
+						<Texture>	sets/urban/props/bolard/maps/bolard_glow.bmp	</Texture>
+					</property>
+					<property>	glowFactor
+						<Float>	1.500000	</Float>
+					</property>
+					<property>	normalMap
+						<Texture>	system/maps/default_norms.bmp	</Texture>
+					</property>
+					<property>	diffuseMap
+						<Texture>	sets/urban/props/bolard/maps/bolard_dif.bmp	</Texture>
+					</property>
+					<property>	reflectionAmount
+						<Float>	0.440000	</Float>
+					</property>
+					<property>	fresnelConstant
+						<Float>	0.256000	</Float>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<boundingBox>
+		<min>	-0.099909 -0.033938 -0.099909	</min>
+		<max>	0.099909 1.187453 0.099909	</max>
+	</boundingBox>
+	<customBsp>	true	</customBsp>
+</bolard.visual>

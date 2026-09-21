@@ -1,0 +1,13 @@
+<fffc0009o.chunk>
+	<terrain>
+		<resource>	fffc0009o.cdata/terrain	</resource>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>	</metaData>
+	</terrain>
+	<worldNavmesh>
+		<resource>	fffc0009o.cdata/worldNavmesh	</resource>
+	</worldNavmesh>
+</fffc0009o.chunk>

@@ -1,0 +1,14 @@
+<car_charger_lod01.model>
+	<nodelessVisual>	sets/urban/props/vehicles/car_charger/models/car_charger_lod01	</nodelessVisual>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-0.958300 -0.005007 -2.749136	</min>
+		<max>	0.958298 1.521230 2.400583	</max>
+	</visibilityBox>
+	<extent>	250.000000	</extent>
+	<metaData>
+		<copyright>	Copyright owned by the3dstudio.com	</copyright>
+		<modified_by>	AdamM	</modified_by>
+		<modified_on>	1281674528	</modified_on>
+	</metaData>
+</car_charger_lod01.model>

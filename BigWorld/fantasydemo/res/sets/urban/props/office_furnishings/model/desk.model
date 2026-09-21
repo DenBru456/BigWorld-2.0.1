@@ -1,0 +1,15 @@
+<desk.model>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-0.000168 -0.003271 -0.000081	</min>
+		<max>	1.554590 0.845818 1.478718	</max>
+	</visibilityBox>
+	<batched>	false	</batched>
+	<extent>	60.000000	</extent>
+	<nodelessVisual>	sets/urban/props/office_furnishings/model/desk	</nodelessVisual>
+	<metaData>
+		<copyright>	Copyright BigWorld Pty Ltd.  Use freely in any BigWorld licensed game.	</copyright>
+		<modified_by>	adamm	</modified_by>
+		<modified_on>	1254377093	</modified_on>
+	</metaData>
+</desk.model>

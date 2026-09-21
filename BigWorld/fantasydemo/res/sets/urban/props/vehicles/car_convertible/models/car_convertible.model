@@ -1,0 +1,15 @@
+<car_convertible.model>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-0.018246 -0.000126 -0.039743	</min>
+		<max>	0.018293 0.024367 0.039873	</max>
+	</visibilityBox>
+	<extent>	74.000000	</extent>
+	<nodelessVisual>	sets/urban/props/vehicles/car_convertible/models/car_convertible	</nodelessVisual>
+	<parent>	sets/urban/props/vehicles/car_convertible/models/car_convertible_lod01	</parent>
+	<metaData>
+		<copyright>	Copyright owned by the3dstudio.com	</copyright>
+		<modified_by>	adamm	</modified_by>
+		<modified_on>	1254383201	</modified_on>
+	</metaData>
+</car_convertible.model>

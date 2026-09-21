@@ -1,0 +1,15 @@
+<stool.model>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-0.234237 -0.000333 -0.196646	</min>
+		<max>	0.234344 1.178995 0.196646	</max>
+	</visibilityBox>
+	<nodelessVisual>	sets/urban/props/bar/models/stool	</nodelessVisual>
+	<batched>	true	</batched>
+	<extent>	25.000000	</extent>
+	<metaData>
+		<copyright>	Copyright BigWorld Pty Ltd.  Use freely in any BigWorld licensed game.	</copyright>
+		<modified_by>	AdamM	</modified_by>
+		<modified_on>	1281675111	</modified_on>
+	</metaData>
+</stool.model>

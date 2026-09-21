@@ -1,0 +1,71 @@
+<root>
+	<Volatile>
+		<position/>
+		<yaw/>
+		<pitch>	40	</pitch>
+		<roll>	20	</roll>
+	</Volatile>
+
+	<Implements>
+		<Interface> BaseAndCell </Interface>
+	</Implements>
+
+	<Properties>
+
+		<pilotID>
+			<Type>			OBJECT_ID			</Type>
+			<Flags>			OTHER_CLIENTS		</Flags>
+			<Default>		-1					</Default>
+		</pilotID>
+
+		<startPosition>
+			<Type>			VECTOR3				</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+		</startPosition>
+
+		<startDirection>
+			<Type>			VECTOR3				</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+		</startDirection>
+
+		<teleportTimer>
+			<Type>			INT32				</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+		</teleportTimer>
+
+	</Properties>
+
+	<ClientMethods>
+	
+		<mountVehicle>
+			<Arg>			BOOL				</Arg>
+			<Arg>			OBJECT_ID			</Arg>
+		</mountVehicle>
+		
+		<dismountVehicle>
+			<Arg>			OBJECT_ID			</Arg> 
+		</dismountVehicle>
+		
+	</ClientMethods>
+
+	<CellMethods>
+
+		<mountVehicle>
+			<Exposed/>
+		</mountVehicle>
+		
+		<dismountVehicle>
+			<Exposed/>
+		</dismountVehicle>
+
+    <passengerBoarded>
+      <Arg>		OBJECT_ID		</Arg> <!-- calling avatar's ID -->
+		</passengerBoarded>
+
+    <passengerAlighted>
+      <Arg>		OBJECT_ID		</Arg> <!-- calling avatar's ID -->
+		</passengerAlighted>
+
+	</CellMethods>
+
+</root>

@@ -1,0 +1,17 @@
+<space.localsettings>
+	<startPosition>	38.959824 5.913078 21.620487	</startPosition>
+	<startDirection>	0.000488 0.070000 1.286813	</startDirection>
+	<dirtyLists>
+		<thumbnail>
+			<chunk>	00000000o	</chunk>
+			<chunk>	00am0000i	</chunk>
+			<chunk>	00am0006i	</chunk>
+			<chunk>	00am0007i	</chunk>
+			<chunk>	00am0008i	</chunk>
+			<chunk>	00am0009i	</chunk>
+			<chunk>	00am000ai	</chunk>
+			<chunk>	00am000bi	</chunk>
+		</thumbnail>
+	</dirtyLists>
+	<reentryFolder>	</reentryFolder>
+</space.localsettings>

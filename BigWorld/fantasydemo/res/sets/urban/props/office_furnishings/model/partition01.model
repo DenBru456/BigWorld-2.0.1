@@ -1,0 +1,15 @@
+<partition01.model>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-0.025130 0.000000 0.000718	</min>
+		<max>	0.025000 1.512886 1.997985	</max>
+	</visibilityBox>
+	<dpvsOccluder>	false	</dpvsOccluder>
+	<extent>	35.000000	</extent>
+	<nodelessVisual>	sets/urban/props/office_furnishings/model/partition01	</nodelessVisual>
+	<metaData>
+		<copyright>	Copyright BigWorld Pty Ltd.  Use freely in any BigWorld licensed game.	</copyright>
+		<modified_by>	adamm	</modified_by>
+		<modified_on>	1254379674	</modified_on>
+	</metaData>
+</partition01.model>

@@ -1,0 +1,15 @@
+<xo_bottle.model>
+	<nodelessVisual>	sets/urban/props/bar/models/xo_bottle	</nodelessVisual>
+	<materialNames>	</materialNames>
+	<batched>	false	</batched>
+	<visibilityBox>
+		<min>	-0.191293 -0.004090 -0.084988	</min>
+		<max>	0.191293 0.550200 0.084989	</max>
+	</visibilityBox>
+	<extent>	25.000000	</extent>
+	<metaData>
+		<copyright>	Copyright BigWorld Pty Ltd.  Use freely in any BigWorld licensed game.	</copyright>
+		<modified_by>	AdamM	</modified_by>
+		<modified_on>	1281675246	</modified_on>
+	</metaData>
+</xo_bottle.model>

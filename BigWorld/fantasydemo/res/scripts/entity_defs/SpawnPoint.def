@@ -1,0 +1,64 @@
+<root>
+	<Implements>
+		<Interface> BaseAndCell </Interface>
+	</Implements>
+
+	<Properties>
+		<spawnName>
+			<Type>		STRING			</Type>
+			<Flags>		BASE			</Flags>
+			<Persistent>	true			</Persistent>
+			<Editable>		true				</Editable>
+		</spawnName>
+		<spawnCount>
+			<Type>		UINT32			</Type>
+			<Flags>		CELL_PRIVATE	</Flags>
+			<Default>	1	</Default>
+			<Persistent>	true	</Persistent>
+			<Editable>		true				</Editable>
+		</spawnCount>
+		<rarePercent>
+			<Type>		FLOAT			</Type>
+			<Flags>		BASE			</Flags>
+			<Default>	0				</Default>
+			<Persistent>	true			</Persistent>
+			<Editable>		true				</Editable>
+		</rarePercent>
+		<spawnInterval>	<!-- in minutes -->
+			<Type>		INT32			</Type>
+			<Flags>		CELL_PRIVATE	</Flags>
+			<Default>	5				</Default>
+			<Persistent>	true			</Persistent>
+			<Editable>		true				</Editable>
+		</spawnInterval>	
+		<spawnedIDs>
+			<Type>		ARRAY <of> OBJECT_ID </of>	</Type>
+			<Flags>		CELL_PRIVATE	</Flags>
+		</spawnedIDs>
+		<respawnTimes>
+			<Type>		ARRAY <of> FLOAT </of>		</Type>
+			<Flags>		CELL_PRIVATE	</Flags>
+		</respawnTimes>	
+	</Properties>
+
+	<ClientMethods>
+	</ClientMethods>
+
+	<CellMethods>
+		<register>
+			<Arg>		OBJECT_ID			</Arg>
+		</register>
+		<spawn>
+			<Arg>		STRING				</Arg>
+			<Arg>		PYTHON				</Arg>
+		</spawn>
+	</CellMethods>
+	<BaseMethods>
+		<spawn>
+			<Arg>		VECTOR3				</Arg>
+			<Arg>		VECTOR3				</Arg>
+		</spawn>
+	</BaseMethods>
+	
+</root>
+

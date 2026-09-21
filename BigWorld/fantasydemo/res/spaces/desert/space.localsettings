@@ -1,0 +1,12 @@
+<space.localsettings>
+	<dirtyLists>
+		<thumbnail>
+			<chunk>	00000001o	</chunk>
+			<chunk>	0000fffeo	</chunk>
+			<chunk>	ffff0000o	</chunk>
+			<chunk>	ffff0001o	</chunk>
+			<chunk>	ffff0002o	</chunk>
+		</thumbnail>
+	</dirtyLists>
+	<reentryFolder>	</reentryFolder>
+</space.localsettings>

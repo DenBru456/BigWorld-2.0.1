@@ -1,0 +1,44 @@
+<tv_teapot.visual>
+	<node>
+		<identifier>	Scene Root	</identifier>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+		<node>
+			<identifier>	Teapot01	</identifier>
+			<transform>
+				<row0>	0.984808 0.173648 0.000000	</row0>
+				<row1>	-0.173648 0.984808 0.000000	</row1>
+				<row2>	0.000000 0.000000 1.000000	</row2>
+				<row3>	0.000000 -0.332104 0.000000	</row3>
+			</transform>
+		</node>
+	</node>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	Teapot01	</node>
+		<geometry>
+			<vertices>	Teapot01.vertices	</vertices>
+			<primitive>	Teapot01.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	tv_off	</identifier>
+					<fx>	shaders/std_effects/lightonly.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	4	</materialKind>
+					<property>	diffuseMap
+						<Texture>	sets/urban/props/neon_signs/maps/badaboing001.bmp	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<boundingBox>
+		<min>	-3.301023 -0.180632 -1.985530	</min>
+		<max>	2.870187 3.100296 1.985530	</max>
+	</boundingBox>
+	<materialKind>	2	</materialKind>
+</tv_teapot.visual>

@@ -1,0 +1,10 @@
+<root>
+	<frames>fedcba</frames>
+	<fps> 1 </fps>
+	<texture>sets/urban/props/neon_signs/maps/casino001.bmp</texture>
+	<texture>sets/urban/props/neon_signs/maps/casino002.bmp</texture>
+	<texture>sets/urban/props/neon_signs/maps/casino003.bmp</texture>
+	<texture>sets/urban/props/neon_signs/maps/casino004.bmp</texture>
+	<texture>sets/urban/props/neon_signs/maps/casino005.bmp</texture>
+	<texture>sets/urban/props/neon_signs/maps/casino006.bmp</texture>
+</root>

@@ -1,0 +1,19 @@
+<park_bench_lod01.model>
+	<nodelessVisual>	sets/urban/props/park_bench/model/park_bench_lod01	</nodelessVisual>
+	<materialNames>
+		<material>
+			<original>	metal	</original>
+			<display>	bench_lod	</display>
+		</material>
+	</materialNames>
+	<visibilityBox>
+		<min>	-1.189209 0.001535 -0.217611	</min>
+		<max>	1.189401 1.223114 0.742340	</max>
+	</visibilityBox>
+	<extent>	122.000000	</extent>
+	<metaData>
+		<copyright>	Copyright BigWorld Pty Ltd.  Use freely in any BigWorld licensed game.	</copyright>
+		<modified_by>	AdamM	</modified_by>
+		<modified_on>	1281674950	</modified_on>
+	</metaData>
+</park_bench_lod01.model>

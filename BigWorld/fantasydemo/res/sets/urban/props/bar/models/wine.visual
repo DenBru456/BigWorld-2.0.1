@@ -1,0 +1,62 @@
+<wine.visual>
+	<node>
+		<identifier>	Scene Root	</identifier>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+	</node>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	Scene Root	</node>
+		<geometry>
+			<vertices>	vertices	</vertices>
+			<primitive>	indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	bottles	</identifier>
+					<fx>	shaders/std_effects/lightonly_chrome_alpha.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	6	</materialKind>
+					<property>	reflectionMask
+						<Texture>	sets/urban/props/bar/maps/counter_spec.bmp	</Texture>
+					</property>
+					<property>	alphaReference
+						<Int>	0	</Int>
+					</property>
+					<property>	alphaTestEnable
+						<Bool>	false	</Bool>
+					</property>
+					<property>	fresnelConstant
+						<Float>	0.431000	</Float>
+					</property>
+					<property>	fresnelExp
+						<Float>	4.100000	</Float>
+					</property>
+					<property>	reflectionAmount
+						<Float>	0.540000	</Float>
+					</property>
+					<property>	otherMap
+						<Texture>	sets/urban/props/bar/maps/counter_dif_alpha.tga	</Texture>
+					</property>
+					<property>	doubleSided
+						<Bool>	true	</Bool>
+					</property>
+					<property>	selfIllumination
+						<Float>	0.000000	</Float>
+					</property>
+					<property>	diffuseMap
+						<Texture>	sets/urban/props/bar/maps/counter_dif_alpha.tga	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<boundingBox>
+		<min>	-0.101401 0.013768 -0.087815	</min>
+		<max>	0.101401 0.946282 0.087816	</max>
+	</boundingBox>
+	<materialKind>	6	</materialKind>
+</wine.visual>

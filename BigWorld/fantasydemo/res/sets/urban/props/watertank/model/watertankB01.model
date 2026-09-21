@@ -1,0 +1,21 @@
+<watertankB01.model>
+	<materialNames>
+		<material>
+			<original>	orig_orig_orig_01 - Default	</original>
+			<display>	watertank	</display>
+		</material>
+	</materialNames>
+	<visibilityBox>
+		<min>	-3.753362 -0.026369 -3.340314	</min>
+		<max>	3.789781 16.772194 3.340315	</max>
+	</visibilityBox>
+	<extent>	200.000000	</extent>
+	<batched>	false	</batched>
+	<nodelessVisual>	sets/urban/props/watertank/model/watertankB01	</nodelessVisual>
+	<parent>	sets/urban/props/watertank/model/watertankB01_lod01	</parent>
+	<metaData>
+		<copyright>	Copyright BigWorld Pty Ltd.  Use freely in any BigWorld licensed game.	</copyright>
+		<modified_by>	adamm	</modified_by>
+		<modified_on>	1254381038	</modified_on>
+	</metaData>
+</watertankB01.model>

@@ -1,0 +1,15 @@
+<construction_streetsign.model>
+	<nodelessVisual>	sets/urban/props/signs/construction_streetsign	</nodelessVisual>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-0.417239 -0.011953 -0.410817	</min>
+		<max>	0.405952 0.005292 0.412374	</max>
+	</visibilityBox>
+	<extent>	82.000000	</extent>
+	<batched>	false	</batched>
+	<metaData>
+		<copyright>	Copyright BigWorld Pty Ltd.  Use freely in any BigWorld licensed game.	</copyright>
+		<modified_by>	adamm	</modified_by>
+		<modified_on>	1254377062	</modified_on>
+	</metaData>
+</construction_streetsign.model>

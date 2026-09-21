@@ -1,0 +1,159 @@
+<b_brownstone_roof.model>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-27.415325 -0.000002 -0.412021	</min>
+		<max>	0.411989 8.154494 13.501585	</max>
+	</visibilityBox>
+	<dye>
+		<matter>	groundfloor	</matter>
+		<replaces>	groundfloor	</replaces>
+		<tint>
+			<name>	lights_on	</name>
+			<material>
+				<fx>	shaders/std_effects/normalmap_specmap_chrome_glow.fx	</fx>
+				<collisionFlags>	0	</collisionFlags>
+				<materialKind>	0	</materialKind>
+				<property>	reflectionMask
+					<Texture>	sets/urban/props/buildings/b_brownstone/maps/b_brownstone_ref_mask.bmp	</Texture>
+				</property>
+				<property>	texAddressMode
+					<Int>	1	</Int>
+				</property>
+				<property>	doubleSided
+					<Bool>	false	</Bool>
+				</property>
+				<property>	alphaReference
+					<Int>	0	</Int>
+				</property>
+				<property>	alphaTestEnable
+					<Bool>	false	</Bool>
+				</property>
+				<property>	reflectionMap
+					<Texture>	sets/urban/fx/maps/cubemap_urban.dds	</Texture>
+				</property>
+				<property>	specularMap
+					<Texture>	sets/urban/props/buildings/b_brownstone/maps/b_brownstone_spec.bmp	</Texture>
+				</property>
+				<property>	glowMap
+					<Texture>	sets/urban/props/buildings/b_brownstone/maps/b_brownstone_glow.bmp	</Texture>
+				</property>
+				<property>	glowFactor
+					<Float>	1.800000	</Float>
+				</property>
+				<property>	normalMap
+					<Texture>	sets/urban/props/buildings/b_brownstone/maps/b_brownstone_norms.bmp	</Texture>
+				</property>
+				<property>	diffuseMap
+					<Texture>	sets/urban/props/buildings/b_brownstone/maps/b_brownstone.bmp	</Texture>
+				</property>
+				<property>	selfIllumination
+					<Float>	0.000000	</Float>
+				</property>
+				<property>	reflectionAmount
+					<Float>	0.700000	</Float>
+				</property>
+			</material>
+		</tint>
+		<tint>
+			<name>	lights_on2	</name>
+			<material>
+				<fx>	shaders/std_effects/normalmap_specmap_chrome_glow.fx	</fx>
+				<collisionFlags>	0	</collisionFlags>
+				<materialKind>	0	</materialKind>
+				<property>	reflectionMask
+					<Texture>	sets/urban/props/buildings/b_brownstone/maps/b_brownstone_ref_mask.bmp	</Texture>
+				</property>
+				<property>	texAddressMode
+					<Int>	1	</Int>
+				</property>
+				<property>	doubleSided
+					<Bool>	false	</Bool>
+				</property>
+				<property>	alphaReference
+					<Int>	0	</Int>
+				</property>
+				<property>	alphaTestEnable
+					<Bool>	false	</Bool>
+				</property>
+				<property>	reflectionMap
+					<Texture>	sets/urban/fx/maps/cubemap_urban.dds	</Texture>
+				</property>
+				<property>	specularMap
+					<Texture>	sets/urban/props/buildings/b_brownstone/maps/b_brownstone_spec.bmp	</Texture>
+				</property>
+				<property>	glowMap
+					<Texture>	sets/urban/props/buildings/b_brownstone/maps/b_brownstone_glow2.bmp	</Texture>
+				</property>
+				<property>	glowFactor
+					<Float>	1.800000	</Float>
+				</property>
+				<property>	normalMap
+					<Texture>	sets/urban/props/buildings/b_brownstone/maps/b_brownstone_norms.bmp	</Texture>
+				</property>
+				<property>	diffuseMap
+					<Texture>	sets/urban/props/buildings/b_brownstone/maps/b_brownstone.bmp	</Texture>
+				</property>
+				<property>	selfIllumination
+					<Float>	0.000000	</Float>
+				</property>
+				<property>	reflectionAmount
+					<Float>	0.700000	</Float>
+				</property>
+			</material>
+		</tint>
+		<tint>
+			<name>	lights_on3	</name>
+			<material>
+				<fx>	shaders/std_effects/normalmap_specmap_chrome_glow.fx	</fx>
+				<collisionFlags>	0	</collisionFlags>
+				<materialKind>	0	</materialKind>
+				<property>	reflectionMask
+					<Texture>	sets/urban/props/buildings/b_brownstone/maps/b_brownstone_ref_mask.bmp	</Texture>
+				</property>
+				<property>	texAddressMode
+					<Int>	1	</Int>
+				</property>
+				<property>	doubleSided
+					<Bool>	false	</Bool>
+				</property>
+				<property>	alphaReference
+					<Int>	0	</Int>
+				</property>
+				<property>	alphaTestEnable
+					<Bool>	false	</Bool>
+				</property>
+				<property>	reflectionMap
+					<Texture>	sets/urban/fx/maps/cubemap_urban.dds	</Texture>
+				</property>
+				<property>	specularMap
+					<Texture>	sets/urban/props/buildings/b_brownstone/maps/b_brownstone_spec.bmp	</Texture>
+				</property>
+				<property>	glowMap
+					<Texture>	sets/urban/props/buildings/b_brownstone/maps/b_brownstone_glow3.bmp	</Texture>
+				</property>
+				<property>	glowFactor
+					<Float>	1.800000	</Float>
+				</property>
+				<property>	normalMap
+					<Texture>	sets/urban/props/buildings/b_brownstone/maps/b_brownstone_norms.bmp	</Texture>
+				</property>
+				<property>	diffuseMap
+					<Texture>	sets/urban/props/buildings/b_brownstone/maps/b_brownstone.bmp	</Texture>
+				</property>
+				<property>	selfIllumination
+					<Float>	0.000000	</Float>
+				</property>
+				<property>	reflectionAmount
+					<Float>	0.700000	</Float>
+				</property>
+			</material>
+		</tint>
+	</dye>
+	<nodelessVisual>	sets/urban/props/buildings/b_brownstone/model/b_brownstone_roof	</nodelessVisual>
+	<dpvsOccluder>	true	</dpvsOccluder>
+	<metaData>
+		<copyright>	Copyright owned by the3dstudio.com	</copyright>
+		<modified_by>	adamm	</modified_by>
+		<modified_on>	1254383144	</modified_on>
+	</metaData>
+</b_brownstone_roof.model>

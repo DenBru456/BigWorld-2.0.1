@@ -1,0 +1,100 @@
+<bone_tv.visual>
+	<node>
+		<identifier>	Scene Root	</identifier>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+	</node>
+	<materialKind>	2	</materialKind>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	Scene Root	</node>
+		<geometry>
+			<vertices>	vertices	</vertices>
+			<primitive>	indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	skull	</identifier>
+					<fx>	shaders/std_effects/lightonly_uvtransform_add.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	2	</materialKind>
+					<property>	alphaReference
+						<Int>	0	</Int>
+					</property>
+					<property>	doubleSided
+						<Bool>	false	</Bool>
+					</property>
+					<property>	selfIllumination
+						<Float>	1.000000	</Float>
+					</property>
+					<property>	diffuseMap
+						<Texture>	sets/dungeon/props/tv_frame.bmp	</Texture>
+					</property>
+					<property>	otherMap
+						<Texture>	sets/dungeon/props/tv_frame.bmp	</Texture>
+					</property>
+					<property>	vTransform
+						<Vector4>	0.000000 1.000000 0.000000 0.000000	</Vector4>
+					</property>
+					<property>	uTransform
+						<Vector4>	1.000000 0.200000 0.200000 0.000000	</Vector4>
+					</property>
+				</material>
+			</primitiveGroup>
+			<primitiveGroup>	1
+				<material>
+					<identifier>	tv_off	</identifier>
+					<fx>	shaders/std_effects/no_lighting.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	alphaReference
+						<Int>	0	</Int>
+					</property>
+					<property>	selfIllumination
+						<Float>	0.700000	</Float>
+					</property>
+					<property>	diffuseMap
+						<TextureFeed>	bone_tv
+							<default>	sets/dungeon/props/tvoff.bmp	</default>
+						</TextureFeed>
+					</property>
+				</material>
+			</primitiveGroup>
+			<primitiveGroup>	2
+				<material>
+					<identifier>	chevrons	</identifier>
+					<fx>	shaders/std_effects/lightonly_glow.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	glowFactor
+						<Float>	1.600000	</Float>
+					</property>
+					<property>	glowMap
+						<Texture>	sets/shared/props/tv_portal/maps/chevrons_glow.bmp	</Texture>
+					</property>
+					<property>	diffuseMap
+						<Texture>	sets/shared/props/tv_portal/maps/chevrons.bmp	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+			<primitiveGroup>	3
+				<material>
+					<identifier>	tv_portal	</identifier>
+					<fx>	shaders/std_effects/lightonly.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	diffuseMap
+						<Texture>	sets/shared/props/dungeon/entrance/maps/entrance.bmp	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<boundingBox>
+		<min>	-3.683211 -0.044147 -3.188531	</min>
+		<max>	3.910600 2.047159 3.118675	</max>
+	</boundingBox>
+</bone_tv.visual>

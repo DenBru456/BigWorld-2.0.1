@@ -1,0 +1,479 @@
+<tv_small.model>
+	<extent>	30.000000	</extent>
+	<materialNames>
+		<material>
+			<original>	tv_off	</original>
+			<display>	tv	</display>
+		</material>
+	</materialNames>
+	<visibilityBox>
+		<min>	-0.008915 -0.008893 -0.000000	</min>
+		<max>	2.390367 1.435703 0.174125	</max>
+	</visibilityBox>
+	<dye>
+		<matter>	channels	</matter>
+		<replaces>	tv_off	</replaces>
+		<tint>
+			<name>	tv_small2	</name>
+			<material>
+				<fx>	shaders/std_effects/no_lighting.fx	</fx>
+				<collisionFlags>	0	</collisionFlags>
+				<materialKind>	0	</materialKind>
+				<property>	alphaReference
+					<Int>	0	</Int>
+				</property>
+				<property>	selfIllumination
+					<Float>	0.700000	</Float>
+				</property>
+				<property>	diffuseMap
+					<TextureFeed>	tv_small2
+						<default>	sets/urban/props/tv/maps/tv_off.bmp	</default>
+					</TextureFeed>
+				</property>
+			</material>
+		</tint>
+		<tint>
+			<name>	tv_small3	</name>
+			<material>
+				<fx>	shaders/std_effects/no_lighting.fx	</fx>
+				<collisionFlags>	0	</collisionFlags>
+				<materialKind>	0	</materialKind>
+				<property>	alphaReference
+					<Int>	0	</Int>
+				</property>
+				<property>	selfIllumination
+					<Float>	0.700000	</Float>
+				</property>
+				<property>	diffuseMap
+					<TextureFeed>	tv_small3
+						<default>	sets/urban/props/tv/maps/tv_off.bmp	</default>
+					</TextureFeed>
+				</property>
+			</material>
+		</tint>
+		<tint>
+			<name>	tv_small4	</name>
+			<material>
+				<fx>	shaders/std_effects/no_lighting.fx	</fx>
+				<collisionFlags>	0	</collisionFlags>
+				<materialKind>	0	</materialKind>
+				<property>	alphaReference
+					<Int>	0	</Int>
+				</property>
+				<property>	selfIllumination
+					<Float>	0.700000	</Float>
+				</property>
+				<property>	diffuseMap
+					<TextureFeed>	tv_small4
+						<default>	sets/urban/props/tv/maps/tv_off.bmp	</default>
+					</TextureFeed>
+				</property>
+			</material>
+		</tint>
+		<tint>
+			<name>	tv_small5	</name>
+			<material>
+				<fx>	shaders/std_effects/no_lighting.fx	</fx>
+				<collisionFlags>	0	</collisionFlags>
+				<materialKind>	0	</materialKind>
+				<property>	alphaReference
+					<Int>	0	</Int>
+				</property>
+				<property>	selfIllumination
+					<Float>	0.700000	</Float>
+				</property>
+				<property>	diffuseMap
+					<TextureFeed>	tv_small5
+						<default>	sets/urban/props/tv/maps/tv_off.bmp	</default>
+					</TextureFeed>
+				</property>
+			</material>
+		</tint>
+		<tint>
+			<name>	tv_small6	</name>
+			<material>
+				<fx>	shaders/std_effects/no_lighting.fx	</fx>
+				<collisionFlags>	0	</collisionFlags>
+				<materialKind>	0	</materialKind>
+				<property>	alphaReference
+					<Int>	0	</Int>
+				</property>
+				<property>	selfIllumination
+					<Float>	0.700000	</Float>
+				</property>
+				<property>	diffuseMap
+					<TextureFeed>	tv_small6
+						<default>	sets/urban/props/tv/maps/tv_off.bmp	</default>
+					</TextureFeed>
+				</property>
+			</material>
+		</tint>
+		<tint>
+			<name>	tv_small7	</name>
+			<material>
+				<fx>	shaders/std_effects/no_lighting.fx	</fx>
+				<collisionFlags>	0	</collisionFlags>
+				<materialKind>	0	</materialKind>
+				<property>	alphaReference
+					<Int>	0	</Int>
+				</property>
+				<property>	selfIllumination
+					<Float>	0.700000	</Float>
+				</property>
+				<property>	diffuseMap
+					<TextureFeed>	tv_small7
+						<default>	sets/urban/props/tv/maps/tv_off.bmp	</default>
+					</TextureFeed>
+				</property>
+			</material>
+		</tint>
+		<tint>
+			<name>	tv_small8	</name>
+			<material>
+				<fx>	shaders/std_effects/no_lighting.fx	</fx>
+				<collisionFlags>	0	</collisionFlags>
+				<materialKind>	0	</materialKind>
+				<property>	alphaReference
+					<Int>	0	</Int>
+				</property>
+				<property>	selfIllumination
+					<Float>	0.700000	</Float>
+				</property>
+				<property>	diffuseMap
+					<TextureFeed>	tv_small8
+						<default>	sets/urban/props/tv/maps/tv_off.bmp	</default>
+					</TextureFeed>
+				</property>
+			</material>
+		</tint>
+		<tint>
+			<name>	tv_small9	</name>
+			<material>
+				<fx>	shaders/std_effects/no_lighting.fx	</fx>
+				<collisionFlags>	0	</collisionFlags>
+				<materialKind>	0	</materialKind>
+				<property>	alphaReference
+					<Int>	0	</Int>
+				</property>
+				<property>	selfIllumination
+					<Float>	0.700000	</Float>
+				</property>
+				<property>	diffuseMap
+					<TextureFeed>	tv_small9
+						<default>	sets/urban/props/tv/maps/tv_off.bmp	</default>
+					</TextureFeed>
+				</property>
+			</material>
+		</tint>
+		<tint>
+			<name>	tv_small10	</name>
+			<material>
+				<fx>	shaders/std_effects/no_lighting.fx	</fx>
+				<collisionFlags>	0	</collisionFlags>
+				<materialKind>	0	</materialKind>
+				<property>	alphaReference
+					<Int>	0	</Int>
+				</property>
+				<property>	selfIllumination
+					<Float>	0.700000	</Float>
+				</property>
+				<property>	diffuseMap
+					<TextureFeed>	tv_small10
+						<default>	sets/urban/props/tv/maps/tv_off.bmp	</default>
+					</TextureFeed>
+				</property>
+			</material>
+		</tint>
+		<tint>
+			<name>	tv_small11	</name>
+			<material>
+				<fx>	shaders/std_effects/no_lighting.fx	</fx>
+				<collisionFlags>	0	</collisionFlags>
+				<materialKind>	0	</materialKind>
+				<property>	alphaReference
+					<Int>	0	</Int>
+				</property>
+				<property>	selfIllumination
+					<Float>	0.700000	</Float>
+				</property>
+				<property>	diffuseMap
+					<TextureFeed>	tv_small11
+						<default>	sets/urban/props/tv/maps/tv_off.bmp	</default>
+					</TextureFeed>
+				</property>
+			</material>
+		</tint>
+		<tint>
+			<name>	tv_small12	</name>
+			<material>
+				<fx>	shaders/std_effects/no_lighting.fx	</fx>
+				<collisionFlags>	0	</collisionFlags>
+				<materialKind>	0	</materialKind>
+				<property>	alphaReference
+					<Int>	0	</Int>
+				</property>
+				<property>	selfIllumination
+					<Float>	0.700000	</Float>
+				</property>
+				<property>	diffuseMap
+					<TextureFeed>	tv_small12
+						<default>	sets/urban/props/tv/maps/tv_off.bmp	</default>
+					</TextureFeed>
+				</property>
+			</material>
+		</tint>
+		<tint>
+			<name>	tv_small13	</name>
+			<material>
+				<fx>	shaders/std_effects/no_lighting.fx	</fx>
+				<collisionFlags>	0	</collisionFlags>
+				<materialKind>	0	</materialKind>
+				<property>	alphaReference
+					<Int>	0	</Int>
+				</property>
+				<property>	selfIllumination
+					<Float>	0.700000	</Float>
+				</property>
+				<property>	diffuseMap
+					<TextureFeed>	tv_small13
+						<default>	sets/urban/props/tv/maps/tv_off.bmp	</default>
+					</TextureFeed>
+				</property>
+			</material>
+		</tint>
+		<tint>
+			<name>	tv_small14	</name>
+			<material>
+				<fx>	shaders/std_effects/no_lighting.fx	</fx>
+				<collisionFlags>	0	</collisionFlags>
+				<materialKind>	0	</materialKind>
+				<property>	alphaReference
+					<Int>	0	</Int>
+				</property>
+				<property>	selfIllumination
+					<Float>	0.700000	</Float>
+				</property>
+				<property>	diffuseMap
+					<TextureFeed>	tv_small14
+						<default>	sets/urban/props/tv/maps/tv_off.bmp	</default>
+					</TextureFeed>
+				</property>
+			</material>
+		</tint>
+		<tint>
+			<name>	tv_small15	</name>
+			<material>
+				<fx>	shaders/std_effects/no_lighting.fx	</fx>
+				<collisionFlags>	0	</collisionFlags>
+				<materialKind>	0	</materialKind>
+				<property>	alphaReference
+					<Int>	0	</Int>
+				</property>
+				<property>	selfIllumination
+					<Float>	0.700000	</Float>
+				</property>
+				<property>	diffuseMap
+					<TextureFeed>	tv_small15
+						<default>	sets/urban/props/tv/maps/tv_off.bmp	</default>
+					</TextureFeed>
+				</property>
+			</material>
+		</tint>
+		<tint>
+			<name>	tv_small16	</name>
+			<material>
+				<fx>	shaders/std_effects/no_lighting.fx	</fx>
+				<collisionFlags>	0	</collisionFlags>
+				<materialKind>	0	</materialKind>
+				<property>	alphaReference
+					<Int>	0	</Int>
+				</property>
+				<property>	selfIllumination
+					<Float>	0.700000	</Float>
+				</property>
+				<property>	diffuseMap
+					<TextureFeed>	tv_small16
+						<default>	sets/urban/props/tv/maps/tv_off.bmp	</default>
+					</TextureFeed>
+				</property>
+			</material>
+		</tint>
+		<tint>
+			<name>	tv_small17	</name>
+			<material>
+				<fx>	shaders/std_effects/no_lighting.fx	</fx>
+				<collisionFlags>	0	</collisionFlags>
+				<materialKind>	0	</materialKind>
+				<property>	alphaReference
+					<Int>	0	</Int>
+				</property>
+				<property>	selfIllumination
+					<Float>	0.700000	</Float>
+				</property>
+				<property>	diffuseMap
+					<TextureFeed>	tv_small17
+						<default>	sets/urban/props/tv/maps/tv_off.bmp	</default>
+					</TextureFeed>
+				</property>
+			</material>
+		</tint>
+		<tint>
+			<name>	tv_small18	</name>
+			<material>
+				<fx>	shaders/std_effects/no_lighting.fx	</fx>
+				<collisionFlags>	0	</collisionFlags>
+				<materialKind>	0	</materialKind>
+				<property>	alphaReference
+					<Int>	0	</Int>
+				</property>
+				<property>	selfIllumination
+					<Float>	0.700000	</Float>
+				</property>
+				<property>	diffuseMap
+					<TextureFeed>	tv_small18
+						<default>	sets/urban/props/tv/maps/tv_off.bmp	</default>
+					</TextureFeed>
+				</property>
+			</material>
+		</tint>
+		<tint>
+			<name>	tv_small19	</name>
+			<material>
+				<fx>	shaders/std_effects/no_lighting.fx	</fx>
+				<collisionFlags>	0	</collisionFlags>
+				<materialKind>	0	</materialKind>
+				<property>	alphaReference
+					<Int>	0	</Int>
+				</property>
+				<property>	selfIllumination
+					<Float>	0.700000	</Float>
+				</property>
+				<property>	diffuseMap
+					<TextureFeed>	tv_small19
+						<default>	sets/urban/props/tv/maps/tv_off.bmp	</default>
+					</TextureFeed>
+				</property>
+			</material>
+		</tint>
+		<tint>
+			<name>	tv_small20	</name>
+			<material>
+				<fx>	shaders/std_effects/no_lighting.fx	</fx>
+				<collisionFlags>	0	</collisionFlags>
+				<materialKind>	0	</materialKind>
+				<property>	alphaReference
+					<Int>	0	</Int>
+				</property>
+				<property>	selfIllumination
+					<Float>	0.700000	</Float>
+				</property>
+				<property>	diffuseMap
+					<TextureFeed>	tv_small20
+						<default>	sets/urban/props/tv/maps/tv_off.bmp	</default>
+					</TextureFeed>
+				</property>
+			</material>
+		</tint>
+		<tint>
+			<name>	tv_small21	</name>
+			<material>
+				<fx>	shaders/std_effects/no_lighting.fx	</fx>
+				<collisionFlags>	0	</collisionFlags>
+				<materialKind>	0	</materialKind>
+				<property>	alphaReference
+					<Int>	0	</Int>
+				</property>
+				<property>	selfIllumination
+					<Float>	0.700000	</Float>
+				</property>
+				<property>	diffuseMap
+					<TextureFeed>	tv_small21
+						<default>	sets/urban/props/tv/maps/tv_off.bmp	</default>
+					</TextureFeed>
+				</property>
+			</material>
+		</tint>
+		<tint>
+			<name>	tv_small22	</name>
+			<material>
+				<fx>	shaders/std_effects/no_lighting.fx	</fx>
+				<collisionFlags>	0	</collisionFlags>
+				<materialKind>	0	</materialKind>
+				<property>	alphaReference
+					<Int>	0	</Int>
+				</property>
+				<property>	selfIllumination
+					<Float>	0.700000	</Float>
+				</property>
+				<property>	diffuseMap
+					<TextureFeed>	tv_small22
+						<default>	sets/urban/props/tv/maps/tv_off.bmp	</default>
+					</TextureFeed>
+				</property>
+			</material>
+		</tint>
+		<tint>
+			<name>	tv_small23	</name>
+			<material>
+				<fx>	shaders/std_effects/no_lighting.fx	</fx>
+				<collisionFlags>	0	</collisionFlags>
+				<materialKind>	0	</materialKind>
+				<property>	alphaReference
+					<Int>	0	</Int>
+				</property>
+				<property>	selfIllumination
+					<Float>	0.700000	</Float>
+				</property>
+				<property>	diffuseMap
+					<TextureFeed>	tv_small23
+						<default>	sets/urban/props/tv/maps/tv_off.bmp	</default>
+					</TextureFeed>
+				</property>
+			</material>
+		</tint>
+		<tint>
+			<name>	tv_small24	</name>
+			<material>
+				<fx>	shaders/std_effects/no_lighting.fx	</fx>
+				<collisionFlags>	0	</collisionFlags>
+				<materialKind>	0	</materialKind>
+				<property>	alphaReference
+					<Int>	0	</Int>
+				</property>
+				<property>	selfIllumination
+					<Float>	0.700000	</Float>
+				</property>
+				<property>	diffuseMap
+					<TextureFeed>	tv_small24
+						<default>	sets/urban/props/tv/maps/tv_off.bmp	</default>
+					</TextureFeed>
+				</property>
+			</material>
+		</tint>
+		<tint>
+			<name>	tv_small25	</name>
+			<material>
+				<fx>	shaders/std_effects/no_lighting.fx	</fx>
+				<collisionFlags>	0	</collisionFlags>
+				<materialKind>	0	</materialKind>
+				<property>	alphaReference
+					<Int>	0	</Int>
+				</property>
+				<property>	selfIllumination
+					<Float>	0.700000	</Float>
+				</property>
+				<property>	diffuseMap
+					<TextureFeed>	tv_small25
+						<default>	sets/urban/props/tv/maps/tv_off.bmp	</default>
+					</TextureFeed>
+				</property>
+			</material>
+		</tint>
+	</dye>
+	<nodefullVisual>	sets/urban/props/tv/models/tv_small	</nodefullVisual>
+	<metaData>
+		<copyright>	Copyright BigWorld Pty Ltd.  Use freely in any BigWorld licensed game.	</copyright>
+		<modified_by>	adamm	</modified_by>
+		<modified_on>	1254380790	</modified_on>
+	</metaData>
+</tv_small.model>

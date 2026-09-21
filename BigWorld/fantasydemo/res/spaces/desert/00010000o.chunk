@@ -1,0 +1,26 @@
+<root>
+	<waypointGenerationTime>
+		<hi>	29728294	</hi>
+		<lo>	-1638184070	</lo>
+	</waypointGenerationTime>
+	<particles>
+		<resource>	sets/desert/particles/hilltop_sand.xml	</resource>
+		<transform>
+			<row0>	-0.995318 -0.018586 0.094853	</row0>
+			<row1>	0.000000 0.981339 0.192286	</row1>
+			<row2>	-0.096656 0.191386 -0.976744	</row2>
+			<row3>	85.769470 56.247299 36.876377	</row3>
+		</transform>
+	</particles>
+	<terrain>
+		<resource>	00010000o.cdata/terrain	</resource>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>	</metaData>
+	</terrain>
+	<worldNavmesh>
+		<resource>	00010000o.cdata/worldNavmesh	</resource>
+	</worldNavmesh>
+</root>

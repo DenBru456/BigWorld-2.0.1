@@ -1,0 +1,13 @@
+<elevator.model>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-0.017217 -0.002519 -0.016150	</min>
+		<max>	0.017949 0.043820 0.016148	</max>
+	</visibilityBox>
+	<nodelessVisual>	sets/urban/props/elevator/models/elevator	</nodelessVisual>
+	<metaData>
+		<copyright>	Copyright BigWorld Pty Ltd.  Use freely in any BigWorld licensed game.	</copyright>
+		<modified_by>	adamm	</modified_by>
+		<modified_on>	1254377265	</modified_on>
+	</metaData>
+</elevator.model>

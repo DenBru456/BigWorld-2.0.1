@@ -1,0 +1,15 @@
+<traffic_light_post.model>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-0.123606 -0.003163 -0.129027	</min>
+		<max>	1.645958 1.928120 0.124033	</max>
+	</visibilityBox>
+	<nodelessVisual>	sets/urban/props/traffic_light_post/traffic_light_post	</nodelessVisual>
+	<extent>	250.000000	</extent>
+	<batched>	false	</batched>
+	<metaData>
+		<copyright>	Copyright BigWorld Pty Ltd.  Use freely in any BigWorld licensed game.	</copyright>
+		<modified_by>	adamm	</modified_by>
+		<modified_on>	1254380696	</modified_on>
+	</metaData>
+</traffic_light_post.model>

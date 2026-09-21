@@ -1,0 +1,55 @@
+<showroom_door.model>
+	<action>
+		<name>	showroom_door_closed	</name>
+		<animation>	showroom_door_closed	</animation>
+	</action>
+	<action>
+		<name>	showroom_door_shutting	</name>
+		<animation>	showroom_door_shutting	</animation>
+	</action>
+	<action>
+		<name>	showroom_door_open	</name>
+		<animation>	showroom_door_open	</animation>
+	</action>
+	<action>
+		<name>	showroom_door_opening	</name>
+		<animation>	showroom_door_opening	</animation>
+	</action>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-1.261500 -0.000000 -6.673156	</min>
+		<max>	3.263716 4.487353 -4.636808	</max>
+	</visibilityBox>
+	<animation>
+		<name>	showroom_door_opening	</name>
+		<frameRate>	30.000000	</frameRate>
+		<nodes>	sets/urban/props/showroom_door/animations/showroom_door_opening	</nodes>
+	</animation>
+	<animation>
+		<name>	showroom_door_open	</name>
+		<frameRate>	30.000000	</frameRate>
+		<nodes>	sets/urban/props/showroom_door/animations/showroom_door_opening	</nodes>
+		<firstFrame>	45	</firstFrame>
+		<lastFrame>	45	</lastFrame>
+	</animation>
+	<animation>
+		<name>	showroom_door_shutting	</name>
+		<frameRate>	30.000000	</frameRate>
+		<nodes>	sets/urban/props/showroom_door/animations/showroom_door_opening	</nodes>
+		<firstFrame>	45	</firstFrame>
+		<lastFrame>	1	</lastFrame>
+	</animation>
+	<animation>
+		<name>	showroom_door_closed	</name>
+		<frameRate>	30.000000	</frameRate>
+		<nodes>	sets/urban/props/showroom_door/animations/showroom_door_opening	</nodes>
+		<firstFrame>	1	</firstFrame>
+		<lastFrame>	1	</lastFrame>
+	</animation>
+	<nodefullVisual>	sets/urban/props/showroom_door/model/showroom_door	</nodefullVisual>
+	<metaData>
+		<copyright>	Copyright BigWorld Pty Ltd.  Use freely in any BigWorld licensed game.	</copyright>
+		<modified_by>	AdamM	</modified_by>
+		<modified_on>	1281675047	</modified_on>
+	</metaData>
+</showroom_door.model>

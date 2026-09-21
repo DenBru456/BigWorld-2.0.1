@@ -1,0 +1,14 @@
+<b_facility.model>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-19.999996 -0.050000 -2.000000	</min>
+		<max>	12.000002 51.999996 60.049995	</max>
+	</visibilityBox>
+	<dpvsOccluder>	true	</dpvsOccluder>
+	<nodelessVisual>	sets/urban/props/buildings/b_facility/models/b_facility	</nodelessVisual>
+	<metaData>
+		<copyright>	Copyright BigWorld Pty Ltd.  Use freely in any BigWorld licensed game.	</copyright>
+		<modified_by>	adamm	</modified_by>
+		<modified_on>	1254376353	</modified_on>
+	</metaData>
+</b_facility.model>

@@ -1,0 +1,113 @@
+<root>
+	<shell>
+		<resource>	sets/urban/shells/facility_corridor_small.model	</resource>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<reflectionVisible>	true	</reflectionVisible>
+		<metaData>	</metaData>
+		<staticLighting>
+			<offset>	0	</offset>
+			<size>	256	</size>
+		</staticLighting>
+	</shell>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<resource>	sets/urban/props/signage/models/signage_floor.model	</resource>
+		<transform>
+			<row0>	0.000000 0.000000 -0.999999	</row0>
+			<row1>	0.999999 0.000000 0.000000	</row1>
+			<row2>	0.000000 -0.999999 0.000000	</row2>
+			<row3>	-4.000027 1.321510 0.262306	</row3>
+		</transform>
+		<reflectionVisible>	true	</reflectionVisible>
+		<metaData>	</metaData>
+		<staticLighting>
+			<offset>	256	</offset>
+			<size>	188	</size>
+		</staticLighting>
+	</model>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<resource>	sets/urban/props/signs/exit01.model	</resource>
+		<transform>
+			<row0>	-0.000100 -0.000002 -0.999999	</row0>
+			<row1>	0.999999 -0.000105 -0.000100	</row1>
+			<row2>	-0.000105 -0.999999 0.000002	</row2>
+			<row3>	-3.999993 2.654515 3.568649	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<metaData>	</metaData>
+		<staticLighting>
+			<offset>	444	</offset>
+			<size>	432	</size>
+		</staticLighting>
+	</model>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<resource>	sets/urban/props/lightpanel/models/facility_lightpanel.model	</resource>
+		<transform>
+			<row0>	-0.000001 0.000000 -1.000000	</row0>
+			<row1>	0.000000 -1.000000 0.000000	</row1>
+			<row2>	-1.000000 0.000000 0.000001	</row2>
+			<row3>	-2.499994 3.000000 2.099998	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<metaData>	</metaData>
+		<staticLighting>
+			<offset>	876	</offset>
+			<size>	732	</size>
+		</staticLighting>
+	</model>
+	<omniLight>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>
+			<modified_by>	adamm	</modified_by>
+			<modified_on>	1250639378	</modified_on>
+		</metaData>
+		<colour>	134.000000 223.000488 199.000488	</colour>
+		<position>	-2.193024 2.148173 2.900002	</position>
+		<innerRadius>	1.000000	</innerRadius>
+		<outerRadius>	13.689384	</outerRadius>
+		<dynamic>	false	</dynamic>
+		<static>	true	</static>
+		<specular>	false	</specular>
+		<multiplier>	1.000000	</multiplier>
+	</omniLight>
+	<worldNavmesh>
+		<resource>	00am0004i.cdata/worldNavmesh	</resource>
+	</worldNavmesh>
+	<transform>
+		<row0>	0.000000 0.000000 1.000000	</row0>
+		<row1>	0.000000 1.000000 0.000000	</row1>
+		<row2>	-1.000000 0.000000 0.000000	</row2>
+		<row3>	42.016087 0.498380 -113.987335	</row3>
+	</transform>
+	<boundingBox>
+		<min>	38.016083 0.481327 -117.987328	</min>
+		<max>	42.016083 52.998325 -113.987328	</max>
+	</boundingBox>
+</root>
