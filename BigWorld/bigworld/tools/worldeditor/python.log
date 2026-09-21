@@ -1,0 +1,78 @@
+
+/------------------------------------------------------------------------------\
+WorldEditor Hybrid (compiled on Oct  9 2010 at 05:55:08) starting on Wed Apr 20 20:42:27 2016
+PostProcessing.init()
+PostProcessing: computeBuffer1 (121 x 68)
+PostProcessing: computeBuffer2 (121 x 68)
+PostProcessing: backBufferCopy (971 x 550)
+PostProcessing: downSample1 (485 x 275)
+PostProcessing: downSample3 (121 x 68)
+PostProcessing: downSample2 (242 x 137)
+PostProcessing: total memory used by default RenderTargets : 5.53 MB
+\--------------------------------------------------------------------------------/
+
+/------------------------------------------------------------------------------\
+WorldEditor Hybrid (compiled on Oct  9 2010 at 05:55:08) starting on Wed Apr 20 20:43:04 2016
+PostProcessing.init()
+PostProcessing: computeBuffer1 (121 x 68)
+PostProcessing: computeBuffer2 (121 x 68)
+PostProcessing: backBufferCopy (971 x 550)
+PostProcessing: downSample1 (485 x 275)
+PostProcessing: downSample3 (121 x 68)
+PostProcessing: downSample2 (242 x 137)
+PostProcessing: total memory used by default RenderTargets : 5.53 MB
+\--------------------------------------------------------------------------------/
+
+/------------------------------------------------------------------------------\
+WorldEditor Hybrid (compiled on Oct  9 2010 at 05:55:08) starting on Sun Nov 01 14:03:40 2020
+PostProcessing.init()
+PostProcessing: computeBuffer1 (161 x 91)
+PostProcessing: computeBuffer2 (161 x 91)
+PostProcessing: backBufferCopy (1291 x 731)
+PostProcessing: downSample1 (645 x 365)
+PostProcessing: downSample3 (161 x 91)
+PostProcessing: downSample2 (322 x 182)
+PostProcessing: total memory used by default RenderTargets : 9.78 MB
+\--------------------------------------------------------------------------------/
+
+/------------------------------------------------------------------------------\
+WorldEditor Hybrid (compiled on Oct  9 2010 at 05:55:08) starting on Sun Nov 01 14:03:50 2020
+PostProcessing.init()
+PostProcessing: computeBuffer1 (161 x 91)
+PostProcessing: computeBuffer2 (161 x 91)
+PostProcessing: backBufferCopy (1291 x 731)
+PostProcessing: downSample1 (645 x 365)
+PostProcessing: downSample3 (161 x 91)
+PostProcessing: downSample2 (322 x 182)
+PostProcessing: total memory used by default RenderTargets : 9.78 MB
+\--------------------------------------------------------------------------------/
+
+/------------------------------------------------------------------------------\
+WorldEditor Hybrid (compiled on Oct  9 2010 at 05:55:08) starting on Thu Nov 05 22:29:50 2020
+PostProcessing.init()
+PostProcessing: computeBuffer1 (161 x 91)
+PostProcessing: computeBuffer2 (161 x 91)
+PostProcessing: backBufferCopy (1291 x 731)
+PostProcessing: downSample1 (645 x 365)
+PostProcessing: downSample3 (161 x 91)
+PostProcessing: downSample2 (322 x 182)
+PostProcessing: total memory used by default RenderTargets : 9.78 MB
+setBrowsePath scripts/entity_defs/Ripper.def
+setBrowsePath scripts/entity_defs/Ripper.def
+setBrowsePath scripts/entity_defs/Ripper.def
+setBrowsePath speedtree/shrubs_flowers/american_boxwood/AmericanBoxwood_RT.spt
+setBrowsePath speedtree/shrubs_flowers/american_boxwood/AmericanBoxwood_RT.spt
+\--------------------------------------------------------------------------------/
+
+/------------------------------------------------------------------------------\
+WorldEditor Hybrid (compiled on Oct  9 2010 at 05:55:08) starting on Thu Nov 05 23:21:39 2020
+PostProcessing.init()
+PostProcessing: total memory used by default RenderTargets : 0.00 MB
+setBrowsePath scripts/entity_defs/VehicleExample.def
+setBrowsePath scripts/entity_defs/VehicleExample.def
+\--------------------------------------------------------------------------------/
+
+/------------------------------------------------------------------------------\
+WorldEditor Hybrid (compiled on Oct  9 2010 at 05:55:08) starting on Sat Nov 07 11:17:57 2020
+PostProcessing.init()
+\--------------------------------------------------------------------------------/

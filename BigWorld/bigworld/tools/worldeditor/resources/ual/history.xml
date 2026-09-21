@@ -1,0 +1,21 @@
+<history.xml>
+	<sort>	true	</sort>
+	<item>	Ripper
+		<type>	ENTITY	</type>
+		<longText>	C:\BigWorld_2.0.1\BigWorld\fantasydemo\res\scripts\entity_defs\Ripper.def	</longText>
+		<timestamp1>	0	</timestamp1>
+		<timestamp2>	1604604736	</timestamp2>
+	</item>
+	<item>	AmericanBoxwood_RT.spt
+		<type>	FILE	</type>
+		<longText>	C:\BigWorld_2.0.1\BigWorld\fantasydemo\res\speedtree\shrubs_flowers\american_boxwood\AmericanBoxwood_RT.spt	</longText>
+		<timestamp1>	0	</timestamp1>
+		<timestamp2>	1604604811	</timestamp2>
+	</item>
+	<item>	VehicleExample
+		<type>	ENTITY	</type>
+		<longText>	C:\BigWorld_2.0.1\BigWorld\fantasydemo\res\scripts\entity_defs\VehicleExample.def	</longText>
+		<timestamp1>	0	</timestamp1>
+		<timestamp2>	1604607714	</timestamp2>
+	</item>
+</history.xml>

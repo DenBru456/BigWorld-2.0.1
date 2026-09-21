@@ -1,0 +1,44 @@
+<history.xml>
+	<item>	striff_gib.model
+		<type>	FILE	</type>
+		<longText>	C:\BigWorld_2.0.1\BigWorld\fantasydemo\res\characters\npc\striff\striff_gib.model	</longText>
+		<timestamp1>	0	</timestamp1>
+		<timestamp2>	1604607880	</timestamp2>
+	</item>
+	<item>	falling_feathers.model
+		<type>	FILE	</type>
+		<longText>	C:\BigWorld_2.0.1\BigWorld\fantasydemo\res\characters\npc\striff\falling_feathers.model	</longText>
+		<timestamp1>	0	</timestamp1>
+		<timestamp2>	1604607873	</timestamp2>
+	</item>
+	<item>	spider.model
+		<type>	FILE	</type>
+		<longText>	C:\BigWorld_2.0.1\BigWorld\fantasydemo\res\characters\npc\spider\spider.model	</longText>
+		<timestamp1>	0	</timestamp1>
+		<timestamp2>	1604607935	</timestamp2>
+	</item>
+	<item>	fw_body_03.model
+		<type>	FILE	</type>
+		<longText>	C:\BigWorld_2.0.1\BigWorld\fantasydemo\res\characters\avatars\female_warrior\models\fw_body_03.model	</longText>
+		<timestamp1>	0	</timestamp1>
+		<timestamp2>	1604654805	</timestamp2>
+	</item>
+	<item>	fw_body_00.model
+		<type>	FILE	</type>
+		<longText>	C:\BigWorld_2.0.1\BigWorld\fantasydemo\res\characters\avatars\female_warrior\models\fw_body_00.model	</longText>
+		<timestamp1>	0	</timestamp1>
+		<timestamp2>	1604614583	</timestamp2>
+	</item>
+	<item>	razor_flare.model
+		<type>	FILE	</type>
+		<longText>	C:\BigWorld_2.0.1\BigWorld\fantasydemo\res\sets\vehicles\razor_flare.model	</longText>
+		<timestamp1>	0	</timestamp1>
+		<timestamp2>	1604614598	</timestamp2>
+	</item>
+	<item>	razor2.model
+		<type>	FILE	</type>
+		<longText>	C:\BigWorld_2.0.1\BigWorld\fantasydemo\res\sets\vehicles\razor2.model	</longText>
+		<timestamp1>	0	</timestamp1>
+		<timestamp2>	1604737233	</timestamp2>
+	</item>
+</history.xml>

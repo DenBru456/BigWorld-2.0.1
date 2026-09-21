@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<root>
+	<currentVersion>1.1</currentVersion>
+	<property name="baseURL">http://update.yourgame.com/download</property>
+	<supportedVersions>
+		<version>
+			<name>1.0</name>
+			<property name="updateInfoURL">info/test.php</property>
+			<targets>
+				<target>
+					<name>your_game_res</name>
+					<path>../your_game_res.zip</path>
+					<sourceVersion>1.0</sourceVersion>
+					<destVersion>1.1</destVersion>
+					<patch>
+						<transferType>http</transferType>
+						<name>your_game_res.1.0-1.1.patch</name>
+						<property name="url">your_game_res.1.0-1.1.patch</property>
+						<property name="md5sum">00112233445566778899aabbccddeeff</property>
+					</patch>
+				</target>
+				<target>
+					<name>your_game_bin</name>
+					<path>.</path>
+					<sourceVersion>1.9.2.0</sourceVersion>
+					<destVersion>1.9.4</destVersion>
+					<patch>
+						<transferType>http</transferType>
+						<name>your_game_bin.1.0-1.1.patch</name>
+						<property name="url">your_game_bin.1.0-1.1.patch</property>
+						<property name="md5sum">00112233445566778899aabbccddeeff</property>
+					</patch>
+				</target>
+				<target>
+					<name>bigworld_res</name>
+					<path>../bw_res.zip</path>
+					<sourceVersion>1.9.3.0</sourceVersion>
+					<destVersion>1.9.4</destVersion>
+					<patch>
+						<transferType>http</transferType>
+						<name>bw_res.1.9.3.0-1.9.4.patch</name>
+						<property name="url">bw_res.1.9.3.0-1.9.4.patch</property>
+						<property name="md5sum">00112233445566778899aabbccddeeff</property>
+					</patch>
+				</target>
+			</targets>
+		</version>
+	</supportedVersions>
+</root>

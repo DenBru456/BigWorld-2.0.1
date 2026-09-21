@@ -1,0 +1,95 @@
+<billboard_e_bigworld.visual>
+	<node>
+		<identifier>	Scene Root	</identifier>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+	</node>
+	<materialKind>	2	</materialKind>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	Scene Root	</node>
+		<geometry>
+			<vertices>	vertices	</vertices>
+			<primitive>	indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	structure	</identifier>
+					<fx>	shaders/std_effects/normalmap_specmap.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	texAddressMode
+						<Int>	1	</Int>
+					</property>
+					<property>	alphaReference
+						<Int>	0	</Int>
+					</property>
+					<property>	alphaTestEnable
+						<Bool>	false	</Bool>
+					</property>
+					<property>	selfIllumination
+						<Float>	0.000000	</Float>
+					</property>
+					<property>	doubleSided
+						<Bool>	false	</Bool>
+					</property>
+					<property>	normalMap
+						<Texture>	sets/urban/props/billboard/maps/billboard_norms.bmp	</Texture>
+					</property>
+					<property>	diffuseMap
+						<Texture>	sets/urban/props/billboard/maps/billboard.bmp	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+			<primitiveGroup>	1
+				<material>
+					<identifier>	mirror	</identifier>
+					<fx>	shaders/std_effects/lightonly_uvtransform_add.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	textureOperation
+						<Int>	18	</Int>
+					</property>
+					<property>	alphaReference
+						<Int>	0	</Int>
+					</property>
+					<property>	alphaTestEnable
+						<Bool>	false	</Bool>
+					</property>
+					<property>	doubleSided
+						<Bool>	false	</Bool>
+					</property>
+					<property>	selfIllumination
+						<Float>	0.000000	</Float>
+					</property>
+					<property>	diffuseMap
+						<Texture>	sets/urban/props/billboard/maps/scroll_blue.bmp	</Texture>
+					</property>
+					<property>	otherMap
+						<Texture>	sets/urban/props/billboard/maps/scroll_blue.bmp	</Texture>
+					</property>
+					<property>	texAddressMode
+						<Int>	1	</Int>
+					</property>
+					<property>	vTransform
+						<Vector4>	0.000000 1.000000 1.000000 0.000000	</Vector4>
+					</property>
+					<property>	uTransform
+						<Vector4>	1.000000 0.000000 1.000000 0.000000	</Vector4>
+					</property>
+					<property>	srcBlend
+						<Int>	2	</Int>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<boundingBox>
+		<min>	-0.061272 -0.163383 -0.081697	</min>
+		<max>	17.749184 0.285963 8.537582	</max>
+	</boundingBox>
+	<customBsp>	true	</customBsp>
+</billboard_e_bigworld.visual>

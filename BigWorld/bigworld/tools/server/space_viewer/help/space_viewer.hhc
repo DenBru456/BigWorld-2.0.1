@@ -1,0 +1,75 @@
+<ul>
+ <li>
+  <object type="text/sitemap">
+   <param name="Name" value="User Interface">
+   <param name="Local" value="user_interface.html">
+  </object>
+ </li>
+
+ <li>
+  <object type="text/sitemap">
+   <param name="Name" value="Basic Operation">
+   <param name="Local" value="basic.html">
+  </object>
+ </li>
+
+ <li>
+  <object type="text/sitemap">
+   <param name="Name" value="Replaying Data">
+   <param name="Local" value="replaying.html">
+  </object>
+ </li>
+
+ <li>
+  <object type="text/sitemap">
+   <param name="Name" value="Quick Reference">
+   <param name="Local" value="quick.html">
+  </object>
+ </li>
+
+ <li>
+  <object type="text/sitemap">
+   <param name="Name" value="Menus">
+   <param name="Local" value="menus.html">
+  </object>
+
+  <ul>
+   <li>
+    <object type="text/sitemap">
+     <param name="Name" value="File">
+     <param name="Local" value="menu_file.html">
+    </object>
+   </li>
+   <li>
+    <object type="text/sitemap">
+     <param name="Name" value="View">
+     <param name="Local" value="menu_view.html">
+    </object>
+   </li>
+   <li>
+    <object type="text/sitemap">
+     <param name="Name" value="Colour">
+     <param name="Local" value="menu_colour.html">
+    </object>
+   </li>
+   <li>
+    <object type="text/sitemap">
+     <param name="Name" value="Entity Size">
+     <param name="Local" value="menu_entity_size.html">
+    </object>
+   </li>
+   <li>
+    <object type="text/sitemap">
+     <param name="Name" value="Util">
+     <param name="Local" value="menu_util.html">
+    </object>
+   </li>
+   <li>
+    <object type="text/sitemap">
+     <param name="Name" value="Warp">
+     <param name="Local" value="menu_warp.html">
+    </object>
+   </li>
+  </ul>
+ </li>
+</ul>

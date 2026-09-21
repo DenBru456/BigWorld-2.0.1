@@ -1,0 +1,19 @@
+<xyzwuv4.xml>
+	<POSITIONT/>
+	<TEXCOORD>
+		0
+		<type> FLOAT2 </type>
+	</TEXCOORD>
+	<TEXCOORD>
+		1
+		<type> FLOAT2 </type>
+	</TEXCOORD>
+	<TEXCOORD>
+		2
+		<type> FLOAT2 </type>
+	</TEXCOORD>
+	<TEXCOORD>
+		3
+		<type> FLOAT2 </type>
+	</TEXCOORD>
+</xyzwuv4.xml>

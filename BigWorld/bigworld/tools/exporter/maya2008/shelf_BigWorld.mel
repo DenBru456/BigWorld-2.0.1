@@ -1,0 +1,80 @@
+global proc shelf_BigWorld () {
+    global string $gBuffStr;
+    global string $gBuffStr0;
+    global string $gBuffStr1;
+
+
+    shelfButton
+        -enableCommandRepeat 1
+        -enable 1
+        -width 35
+        -height 35
+        -manage 1
+        -visible 1
+        -preventOverride 0
+        -enableBackground 0
+        -align "center" 
+        -label "Add Portal Flag" 
+        -labelOffset 0
+        -font "tinyBoldLabelFont" 
+        -overlayLabelColor 0.8 0.8 0.8 
+        -overlayLabelBackColor 0 0 0 0.2 
+        -image "standard_portal.bmp" 
+        -image1 "standard_portal.bmp" 
+        -style "iconOnly" 
+        -marginWidth 1
+        -marginHeight 1
+        -command "string $select[] = `ls -sl`;\nfor ( $node in $select )\n{\n  if ( !`attributeQuery -node $node -exists \"Portal\"` )\n    addAttr -ln Portal -at bool $node;\n  setAttr -e -keyable true ($node+\".Portal\") 1;\n  if ( `attributeQuery -node $node -exists \"Exit\"` )\n    deleteAttr -at \"Exit\" $node;\n  if ( `attributeQuery -node $node -exists \"Heaven\"` )\n    deleteAttr -at \"Heaven\" $node;\n  if ( !`attributeQuery -node $node - exists \"Label\"` )\n    addAttr -ln Label -dt \"string\" $node;\n};\n" 
+        -sourceType "mel" 
+        -commandRepeatable 1
+    ;
+    shelfButton
+        -enableCommandRepeat 1
+        -enable 1
+        -width 35
+        -height 35
+        -manage 1
+        -visible 1
+        -preventOverride 0
+        -enableBackground 0
+        -align "center" 
+        -label "Add Exit Flag" 
+        -labelOffset 0
+        -font "tinyBoldLabelFont" 
+        -overlayLabelColor 0.8 0.8 0.8 
+        -overlayLabelBackColor 0 0 0 0.2 
+        -image "exit_portal.bmp" 
+        -image1 "exit_portal.bmp" 
+        -style "iconOnly" 
+        -marginWidth 1
+        -marginHeight 1
+        -command "string $select[] = `ls -sl`;\nfor ( $node in $select )\n{\n  if ( !`attributeQuery -node $node -exists \"Portal\"` )\n    addAttr -ln Portal -at bool $node;\n  setAttr -e -keyable true ($node+\".Portal\") 1;\n  if ( !`attributeQuery -node $node -exists \"Exit\"` )\n    addAttr -ln Exit -at bool $node;\n  setAttr -e -keyable true ($node+\".Exit\") 1;\n  if ( `attributeQuery -node $node -exists \"Heaven\"` )\n    deleteAttr -at \"Heaven\" $node;\n  if ( !`attributeQuery -node $node - exists \"Label\"` )\n    addAttr -ln Label -dt \"string\" $node;\n};\n" 
+        -sourceType "mel" 
+        -commandRepeatable 1
+    ;
+    shelfButton
+        -enableCommandRepeat 1
+        -enable 1
+        -width 35
+        -height 35
+        -manage 1
+        -visible 1
+        -preventOverride 0
+        -enableBackground 0
+        -align "center" 
+        -label "Add Heaven Flag" 
+        -labelOffset 0
+        -font "tinyBoldLabelFont" 
+        -overlayLabelColor 0.8 0.8 0.8 
+        -overlayLabelBackColor 0 0 0 0.2 
+        -image "heavenly_portal.bmp" 
+        -image1 "heavenly_portal.bmp" 
+        -style "iconOnly" 
+        -marginWidth 1
+        -marginHeight 1
+        -command "string $select[] = `ls -sl`;\nfor ( $node in $select )\n{\n  if ( !`attributeQuery -node $node -exists \"Portal\"` )\n    addAttr -ln Portal -at bool $node;\n  setAttr -e -keyable true ($node+\".Portal\") 1;\n  if ( !`attributeQuery -node $node -exists \"Heaven\"` )\n    addAttr -ln Heaven -at bool $node;\n  setAttr -e -keyable true ($node+\".Heaven\") 1;\n  if ( `attributeQuery -node $node -exists \"Exit\"` )\n    deleteAttr -at \"Exit\" $node;\n  if ( !`attributeQuery -node $node - exists \"Label\"` )\n    addAttr -ln Label -dt \"string\" $node;\n};\n" 
+        -sourceType "mel" 
+        -commandRepeatable 1
+    ;
+
+} 

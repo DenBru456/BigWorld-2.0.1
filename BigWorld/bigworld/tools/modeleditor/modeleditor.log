@@ -1,0 +1,2024 @@
+
+/------------------------------------------------------------------------------------------\
+BigWorld Model Editor  (compiled at Oct  9 2010 at 07:21:34) starting on 10/25/20 00:26:36
+
+INFO: AnimationChannel: registered type 6
+INFO: AnimationChannel: registered type 1
+INFO: AnimationChannel: registered type 3
+INFO: AnimationChannel: registered type 4
+INFO: AnimationChannel: registered type 5
+INFO: AnimationChannel: registered type 7
+INFO: AnimationChannel: registered type 2
+INFO: Registering factory for directionalLight
+INFO: Registering factory for omniLight
+INFO: Registering factory for spotLight
+INFO: Registering factory for pulseLight
+INFO: Registering factory for ambientLight
+INFO: Registering factory for model
+INFO: Registering factory for shell
+INFO: Registering factory for terrain
+INFO: Registering factory for flare
+INFO: Registering factory for speedtree
+INFO: Registering factory for overlapper
+INFO: Registering factory for vlo
+INFO: Registering factory for particles
+INFO: Registering factory for PyPhase
+INFO: Registering factory for PyFilterQuad
+INFO: Registering factory for PyCopyBackBuffer
+INFO: Registering factory for PyVisualTransferMesh
+INFO: Registering factory for PyPointSpriteTransferMesh
+INFO: Registering factory for PyTransferQuad
+INFO: AnimationChannel: registered type 0
+INFO: Registering factory for flora
+INFO: Options file is C:\BigWorld2.0\BigWorld\bigworld\tools\modeleditor\options.xml
+TRACE: DataResource::load: C:\BigWorld2.0\BigWorld\bigworld\tools\modeleditor\options.xml
+DEBUG: BWResource::makeInstance: BWResource was not created at the app level.
+Create a BWResource as a member of the application or main.
+DEBUG: Loading.. C:/BigWorld2.0/BigWorld/bigworld/tools/modeleditor/paths.xml
+INFO: Added res path: "C:/BigWorld2.0/BigWorld/fantasydemo/res" (from paths.xml).
+INFO: Added res path: "C:/BigWorld2.0/BigWorld/bigworld/res" (from paths.xml).
+INFO: BWResource::initCommon: Version is 2.0.1
+INFO: Added res path: "C:/BigWorld2.0/BigWorld/bigworld/tools/modeleditor"
+DEBUG: Joystick::init: Joystick not found
+INFO: InputDevices::InputDevices: Joystick failed to initialise
+NOTICE: ATI compatibility selected
+INFO: This adapter supports A8R8G8B8 back buffers
+INFO: RenderContext::createDevice - available texture memory after create: 1830813696
+DEBUG: Moo: Changed mode: 1596 795
+DEBUG: EffectManager::addIncludePaths - adding include path shaders/std_effects/
+DEBUG: EffectManager::addIncludePaths - adding include path shaders/terrain/
+INFO: Created Second RT Surface
+INFO: Material Kinds loaded from system/data/material_kinds.xml
+INFO: Created Font Texture Map system_tiny.font.dds [512 x 32]
+INFO: Created Font Texture Map system_small.font.dds [512 x 32]
+INFO: Created Font Texture Map system_medium.font.dds [512 x 32]
+INFO: Created Font Texture Map system_large.font.dds [512 x 32]
+INFO: Real path is C:/BigWorld2.0/BigWorld/fantasydemo/res/audio\
+INFO: SoundManager::initialise: Loaded sound project fd_sound
+INFO: SoundManager::initialise: Starting preload of sound bank main
+ERROR: SpeedTree authorisation failed
+INFO: Flora::vbSize - reduced memory usage to 1012500, due to alignment requirements
+INFO: Flora::vbSize - 27 triangles per flora block
+INFO: Flora::vbSize - 988 KB used for vertex buffer
+INFO: FloraTexture::init - texture(8192,256), blocks(16,1), blocksize(512,256)
+DEBUG: ChunkSpace::addMapping: Adding helpers/spaces/pe at (0.000000,0.000000,0.000000) xaxis (1.000000,0.000000,0.000000) to space 1
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+INFO: Initialising SimulationManager
+DEBUG: cloud map darkness 0.65
+SCRIPT: ModelEditor.init
+SCRIPT: PostProcessing.init()
+INFO: Created Font Texture Map default_small.font.dds [512 x 32]
+DEBUG: PythonAdapter was loaded correctly
+INFO: This adapter supports A8R8G8B8 back buffers
+INFO: RenderContext::changeMode - trying to reset 
+INFO: RenderContext::changeMode - available texture memory after reset: 1836056576
+DEBUG: Moo: Changed mode: 1286 763
+INFO: Flora::vbSize - reduced memory usage to 6262500, due to alignment requirements
+INFO: Flora::vbSize - 167 triangles per flora block
+INFO: Flora::vbSize - 6115 KB used for vertex buffer
+INFO: Created Second RT Surface
+INFO: SoundManager::registerSoundBank: Sound bank 'main' registered successfully
+TRACE: TextureManager : write DDS helpers/maps/system/default.dds
+INFO: ZAttenuationOccluder - sharing PostProcessing render target
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk determined: 00000000o
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk submitted for loading
+INFO: Flora::vbSize - reduced memory usage to 1012500, due to alignment requirements
+INFO: Flora::vbSize - 27 triangles per flora block
+INFO: Flora::vbSize - 988 KB used for vertex buffer
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/00000000o.chunk'
+TRACE: TextureManager : write DDS helpers/flora/models/drygrass_final.dds
+SCRIPT: PostProcessing: computeBuffer1 (160 x 95)
+SCRIPT: PostProcessing: computeBuffer2 (160 x 95)
+SCRIPT: PostProcessing: backBufferCopy (1286 x 763)
+SCRIPT: PostProcessing: downSample1 (643 x 381)
+SCRIPT: PostProcessing: downSample3 (160 x 95)
+SCRIPT: PostProcessing: downSample2 (321 x 190)
+SCRIPT: PostProcessing: total memory used by default RenderTargets : 10.17 MB
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/ffff0000o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffe0000o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffe0001o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/0001fffeo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffffffeo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffefffeo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffe0002o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/00020002o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/0002fffeo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/0000fffdo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/00030000o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffd0000o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/00000003o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/0001fffdo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/00030001o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/ffff0003o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/0003ffffo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffffffdo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffdffffo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/00010003o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffd0001o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffefffdo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/0003fffeo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffe0003o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/00030002o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffd0002o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffdfffeo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/00020003o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/0002fffdo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffc0000o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/00000004o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/0000fffco.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/00040000o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/0001fffco.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffcffffo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffffffco.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/00010004o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffc0001o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/ffff0004o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/0004ffffo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/00040001o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffd0003o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffdfffdo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/0003fffdo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/0002fffco.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/0004fffeo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffefffco.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffe0004o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffcfffeo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/00040002o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/00000001o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffdfffco.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/0004fffdo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/0003fffco.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/0000ffffo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffd0004o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/00040003o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffcfffdo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffb0000o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffc0003o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/00010000o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/ffff0001o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffffffbo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffb0001o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/0001fffbo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffbffffo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffb0002o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffefffbo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/0002fffbo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffbfffeo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffcfffco.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/00040004o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffc0004o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/0004fffco.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffbfffdo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffdfffbo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/0003fffbo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffb0003o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffcfffbo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/0004fffbo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffb0004o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffbfffco.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffbfffbo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/ffffffffo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/0001ffffo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/00010001o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/00020000o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/00000002o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/0000fffeo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/00010002o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/0002ffffo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/ffff0002o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/00020001o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffeffffo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/00030003o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/00020004o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffc0002o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/0000fffbo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/00030004o.chunk'
+INFO: Exiting ModelEditor...
+INFO: UAL Manager - Waiting for the Thumbnail Manager to stop ...
+INFO: UAL Manager - ... Thumbnail Manager stopped
+TRACE: BgTaskManager::stopAll: Waiting for threads: 1
+TRACE: BgTaskManager::onThreadFinished: Thread finished. 0 remaining
+SCRIPT: ModelEditor.fini
+SCRIPT: PostProcessing.fini()
+SCRIPT: RenderTargets.fini()
+SCRIPT: PostProcessing.Phases.fini()
+DEBUG: ChunkSpace::clear: Clearing space 1
+DEBUG: ChunkSpace::delMapping: Comdemned helpers/spaces/pe/ in space 1
+DEBUG: DELETING LIGHT MAP 9bf8ea8
+DEBUG: DELETING LIGHT MAP 39746f0
+INFO: Destroying SimulationManager
+DEBUG: Moo::TextureManager - Used texture memory 742868
+WARNING: EffectManager::~EffectManager - not empty on destruct.
+This could indicate a possible reference leak or destruction order issue.
+WARNING: 1 - Effect shaders/std_effects/lightonly.fx not unloaded in time. 
+WARNING: 2 - Effect shaders/std_effects/mesh_particle.fx not unloaded in time. 
+WARNING: 3 - Effect shaders/std_effects/mesh_particle_add.fx not unloaded in time. 
+WARNING: 4 - Effect shaders/std_effects/mesh_particle_alpha.fx not unloaded in time. 
+INFO: -- Texture not properly deleted on exit: ThumbnailManager
+INFO: -- Texture not properly deleted on exit: backBufferCopy
+INFO: -- Texture not properly deleted on exit: backBufferCopyB
+INFO: -- Texture not properly deleted on exit: bkBlur1
+INFO: -- Texture not properly deleted on exit: bkBlur2
+INFO: -- Texture not properly deleted on exit: bkBlur3
+INFO: -- Texture not properly deleted on exit: bkBlurN1
+INFO: -- Texture not properly deleted on exit: bkBlurN2
+INFO: -- Texture not properly deleted on exit: bkBlurN3
+INFO: -- Texture not properly deleted on exit: bkComputeBuffer
+INFO: -- Texture not properly deleted on exit: bkDownSample1
+INFO: -- Texture not properly deleted on exit: bkDownSample2
+INFO: -- Texture not properly deleted on exit: bkDownSample3
+INFO: -- Texture not properly deleted on exit: bkDownSampleN1
+INFO: -- Texture not properly deleted on exit: bkDownSampleN2
+INFO: -- Texture not properly deleted on exit: bkDownSampleN3
+INFO: -- Texture not properly deleted on exit: computeBuffer1
+INFO: -- Texture not properly deleted on exit: computeBuffer2
+INFO: -- Texture not properly deleted on exit: downSample1
+INFO: -- Texture not properly deleted on exit: downSample1B
+INFO: -- Texture not properly deleted on exit: downSample2
+INFO: -- Texture not properly deleted on exit: downSample2B
+INFO: -- Texture not properly deleted on exit: downSample3
+INFO: -- Texture not properly deleted on exit: downSample3B
+INFO: -- Texture not properly deleted on exit: downSampleBlur1
+INFO: -- Texture not properly deleted on exit: downSampleBlur2
+INFO: -- Texture not properly deleted on exit: downSampleBlur3
+INFO: -- Texture not properly deleted on exit: fpComputeBuffer1
+INFO: -- Texture not properly deleted on exit: fpComputeBuffer2
+INFO: -- Texture not properly deleted on exit: helpers/maps/system/default.dds
+WARNING: 30 DeviceCallback object(s) NOT DELETED
+WARNING: DeviceCallback: NOT DELETED : 2b9dfc4
+WARNING: DeviceCallback: NOT DELETED : 9b79cb8
+WARNING: DeviceCallback: NOT DELETED : 9be9080
+WARNING: DeviceCallback: NOT DELETED : aeed570
+WARNING: DeviceCallback: NOT DELETED : bc048e8
+WARNING: DeviceCallback: NOT DELETED : 2b80e00
+WARNING: DeviceCallback: NOT DELETED : 9b97e90
+WARNING: DeviceCallback: NOT DELETED : bc05730
+WARNING: DeviceCallback: NOT DELETED : bc1eff0
+WARNING: DeviceCallback: NOT DELETED : bc35dc8
+WARNING: DeviceCallback: NOT DELETED : bc37160
+WARNING: DeviceCallback: NOT DELETED : bc384f8
+WARNING: DeviceCallback: NOT DELETED : bc3ec80
+WARNING: DeviceCallback: NOT DELETED : bc40018
+WARNING: DeviceCallback: NOT DELETED : bc413b0
+WARNING: DeviceCallback: NOT DELETED : bc42748
+WARNING: DeviceCallback: NOT DELETED : bc43d50
+WARNING: DeviceCallback: NOT DELETED : bc450e8
+WARNING: DeviceCallback: NOT DELETED : bc46480
+WARNING: DeviceCallback: NOT DELETED : bc47818
+WARNING: DeviceCallback: NOT DELETED : 9b62ed0
+WARNING: DeviceCallback: NOT DELETED : aeea5d8
+WARNING: DeviceCallback: NOT DELETED : bc1afa0
+WARNING: DeviceCallback: NOT DELETED : 9bd7d08
+WARNING: DeviceCallback: NOT DELETED : 9b80048
+WARNING: DeviceCallback: NOT DELETED : bc208d0
+WARNING: DeviceCallback: NOT DELETED : 9be7f90
+WARNING: DeviceCallback: NOT DELETED : bc1bc18
+WARNING: DeviceCallback: NOT DELETED : 9b94d70
+WARNING: DeviceCallback: NOT DELETED : 39c005c
+
+/------------------------------------------------------------------------------------------\
+BigWorld Model Editor  (compiled at Oct  9 2010 at 07:21:34) starting on 10/25/20 00:27:13
+
+INFO: AnimationChannel: registered type 6
+INFO: AnimationChannel: registered type 1
+INFO: AnimationChannel: registered type 3
+INFO: AnimationChannel: registered type 4
+INFO: AnimationChannel: registered type 5
+INFO: AnimationChannel: registered type 7
+INFO: AnimationChannel: registered type 2
+INFO: Registering factory for directionalLight
+INFO: Registering factory for omniLight
+INFO: Registering factory for spotLight
+INFO: Registering factory for pulseLight
+INFO: Registering factory for ambientLight
+INFO: Registering factory for model
+INFO: Registering factory for shell
+INFO: Registering factory for terrain
+INFO: Registering factory for flare
+INFO: Registering factory for speedtree
+INFO: Registering factory for overlapper
+INFO: Registering factory for vlo
+INFO: Registering factory for particles
+INFO: Registering factory for PyPhase
+INFO: Registering factory for PyFilterQuad
+INFO: Registering factory for PyCopyBackBuffer
+INFO: Registering factory for PyVisualTransferMesh
+INFO: Registering factory for PyPointSpriteTransferMesh
+INFO: Registering factory for PyTransferQuad
+INFO: AnimationChannel: registered type 0
+INFO: Registering factory for flora
+INFO: Options file is C:\BigWorld2.0\BigWorld\bigworld\tools\modeleditor\options.xml
+TRACE: DataResource::load: C:\BigWorld2.0\BigWorld\bigworld\tools\modeleditor\options.xml
+DEBUG: BWResource::makeInstance: BWResource was not created at the app level.
+Create a BWResource as a member of the application or main.
+DEBUG: Loading.. C:/BigWorld2.0/BigWorld/bigworld/tools/modeleditor/paths.xml
+INFO: Added res path: "C:/BigWorld2.0/BigWorld/fantasydemo/res" (from paths.xml).
+INFO: Added res path: "C:/BigWorld2.0/BigWorld/bigworld/res" (from paths.xml).
+INFO: BWResource::initCommon: Version is 2.0.1
+INFO: Added res path: "C:/BigWorld2.0/BigWorld/bigworld/tools/modeleditor"
+DEBUG: Joystick::init: Joystick not found
+INFO: InputDevices::InputDevices: Joystick failed to initialise
+NOTICE: ATI compatibility selected
+INFO: This adapter supports A8R8G8B8 back buffers
+INFO: RenderContext::createDevice - available texture memory after create: 1830813696
+DEBUG: Moo: Changed mode: 1596 795
+DEBUG: EffectManager::addIncludePaths - adding include path shaders/std_effects/
+DEBUG: EffectManager::addIncludePaths - adding include path shaders/terrain/
+INFO: Created Second RT Surface
+INFO: Material Kinds loaded from system/data/material_kinds.xml
+INFO: Created Font Texture Map system_tiny.font.dds [512 x 32]
+INFO: Created Font Texture Map system_small.font.dds [512 x 32]
+INFO: Created Font Texture Map system_medium.font.dds [512 x 32]
+INFO: Created Font Texture Map system_large.font.dds [512 x 32]
+INFO: Real path is C:/BigWorld2.0/BigWorld/fantasydemo/res/audio\
+INFO: SoundManager::initialise: Loaded sound project fd_sound
+INFO: SoundManager::initialise: Starting preload of sound bank main
+ERROR: SpeedTree authorisation failed
+INFO: Flora::vbSize - reduced memory usage to 1012500, due to alignment requirements
+INFO: Flora::vbSize - 27 triangles per flora block
+INFO: Flora::vbSize - 988 KB used for vertex buffer
+INFO: FloraTexture::init - texture(8192,256), blocks(16,1), blocksize(512,256)
+DEBUG: ChunkSpace::addMapping: Adding helpers/spaces/pe at (0.000000,0.000000,0.000000) xaxis (1.000000,0.000000,0.000000) to space 1
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+INFO: Initialising SimulationManager
+DEBUG: cloud map darkness 0.65
+SCRIPT: ModelEditor.init
+SCRIPT: PostProcessing.init()
+INFO: Created Font Texture Map default_small.font.dds [512 x 32]
+DEBUG: PythonAdapter was loaded correctly
+INFO: This adapter supports A8R8G8B8 back buffers
+INFO: RenderContext::changeMode - trying to reset 
+INFO: RenderContext::changeMode - available texture memory after reset: 1836056576
+DEBUG: Moo: Changed mode: 1286 763
+INFO: Flora::vbSize - reduced memory usage to 6262500, due to alignment requirements
+INFO: Flora::vbSize - 167 triangles per flora block
+INFO: Flora::vbSize - 6115 KB used for vertex buffer
+INFO: Created Second RT Surface
+INFO: SoundManager::registerSoundBank: Sound bank 'main' registered successfully
+INFO: ZAttenuationOccluder - sharing PostProcessing render target
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk determined: 00000000o
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk submitted for loading
+INFO: Flora::vbSize - reduced memory usage to 1012500, due to alignment requirements
+INFO: Flora::vbSize - 27 triangles per flora block
+INFO: Flora::vbSize - 988 KB used for vertex buffer
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/00000000o.chunk'
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/00010000o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/ffff0001o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/ffffffffo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/00010001o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/00020000o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/00000002o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/0002ffffo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/ffff0002o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffeffffo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffe0001o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/0001fffeo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffffffeo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffefffeo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffe0002o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/00020002o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/0002fffeo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/0000fffdo.chunk'
+SCRIPT: PostProcessing: computeBuffer1 (160 x 95)
+SCRIPT: PostProcessing: computeBuffer2 (160 x 95)
+SCRIPT: PostProcessing: backBufferCopy (1286 x 763)
+SCRIPT: PostProcessing: downSample1 (643 x 381)
+SCRIPT: PostProcessing: downSample3 (160 x 95)
+SCRIPT: PostProcessing: downSample2 (321 x 190)
+SCRIPT: PostProcessing: total memory used by default RenderTargets : 10.17 MB
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/00030000o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffd0000o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/00000003o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/0001fffdo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/00030001o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/ffff0003o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/0003ffffo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffd0001o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffefffdo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/0003fffeo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffe0003o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/00030002o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffd0002o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffdfffeo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/00020003o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffc0000o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/00000004o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/0000fffco.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/00040000o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/0001fffco.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/00010004o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/ffff0004o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/0004ffffo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/00040001o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffd0003o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/00030003o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffdfffdo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/0003fffdo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/0002fffco.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/0004fffeo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/00000001o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffe0004o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffcfffeo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/00020004o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffc0002o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/00040002o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffdfffco.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/0004fffdo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/0000fffbo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/0003fffco.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffd0004o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/00040003o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffcfffdo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffb0000o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/00030004o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffc0003o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffffffbo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffb0001o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/0001fffbo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffbffffo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffefffbo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/ffff0000o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffbfffeo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffcfffco.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/0000ffffo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/0001ffffo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffc0004o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/0004fffco.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffdfffbo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffe0000o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffb0003o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffcfffbo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/0000fffeo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/00010002o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffb0004o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffbfffco.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/00020001o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffffffdo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffdffffo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/00010003o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/0002fffdo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffcffffo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffffffco.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffc0001o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffefffco.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffb0002o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/0002fffbo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/00040004o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffbfffdo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/0003fffbo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/0004fffbo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffbfffbo.chunk'
+INFO: Exiting ModelEditor...
+INFO: UAL Manager - Waiting for the Thumbnail Manager to stop ...
+INFO: UAL Manager - ... Thumbnail Manager stopped
+TRACE: BgTaskManager::stopAll: Waiting for threads: 1
+TRACE: BgTaskManager::onThreadFinished: Thread finished. 0 remaining
+SCRIPT: ModelEditor.fini
+SCRIPT: PostProcessing.fini()
+SCRIPT: RenderTargets.fini()
+SCRIPT: PostProcessing.Phases.fini()
+DEBUG: ChunkSpace::clear: Clearing space 1
+DEBUG: ChunkSpace::delMapping: Comdemned helpers/spaces/pe/ in space 1
+DEBUG: DELETING LIGHT MAP 2c52530
+DEBUG: DELETING LIGHT MAP 39b46f0
+INFO: Destroying SimulationManager
+DEBUG: Moo::TextureManager - Used texture memory 742868
+WARNING: EffectManager::~EffectManager - not empty on destruct.
+This could indicate a possible reference leak or destruction order issue.
+WARNING: 1 - Effect shaders/std_effects/lightonly.fx not unloaded in time. 
+WARNING: 2 - Effect shaders/std_effects/mesh_particle.fx not unloaded in time. 
+WARNING: 3 - Effect shaders/std_effects/mesh_particle_add.fx not unloaded in time. 
+WARNING: 4 - Effect shaders/std_effects/mesh_particle_alpha.fx not unloaded in time. 
+INFO: -- Texture not properly deleted on exit: ThumbnailManager
+INFO: -- Texture not properly deleted on exit: backBufferCopy
+INFO: -- Texture not properly deleted on exit: backBufferCopyB
+INFO: -- Texture not properly deleted on exit: bkBlur1
+INFO: -- Texture not properly deleted on exit: bkBlur2
+INFO: -- Texture not properly deleted on exit: bkBlur3
+INFO: -- Texture not properly deleted on exit: bkBlurN1
+INFO: -- Texture not properly deleted on exit: bkBlurN2
+INFO: -- Texture not properly deleted on exit: bkBlurN3
+INFO: -- Texture not properly deleted on exit: bkComputeBuffer
+INFO: -- Texture not properly deleted on exit: bkDownSample1
+INFO: -- Texture not properly deleted on exit: bkDownSample2
+INFO: -- Texture not properly deleted on exit: bkDownSample3
+INFO: -- Texture not properly deleted on exit: bkDownSampleN1
+INFO: -- Texture not properly deleted on exit: bkDownSampleN2
+INFO: -- Texture not properly deleted on exit: bkDownSampleN3
+INFO: -- Texture not properly deleted on exit: computeBuffer1
+INFO: -- Texture not properly deleted on exit: computeBuffer2
+INFO: -- Texture not properly deleted on exit: downSample1
+INFO: -- Texture not properly deleted on exit: downSample1B
+INFO: -- Texture not properly deleted on exit: downSample2
+INFO: -- Texture not properly deleted on exit: downSample2B
+INFO: -- Texture not properly deleted on exit: downSample3
+INFO: -- Texture not properly deleted on exit: downSample3B
+INFO: -- Texture not properly deleted on exit: downSampleBlur1
+INFO: -- Texture not properly deleted on exit: downSampleBlur2
+INFO: -- Texture not properly deleted on exit: downSampleBlur3
+INFO: -- Texture not properly deleted on exit: fpComputeBuffer1
+INFO: -- Texture not properly deleted on exit: fpComputeBuffer2
+INFO: -- Texture not properly deleted on exit: helpers/maps/system/default.dds
+WARNING: 30 DeviceCallback object(s) NOT DELETED
+WARNING: DeviceCallback: NOT DELETED : 390500c
+WARNING: DeviceCallback: NOT DELETED : 91f3e10
+WARNING: DeviceCallback: NOT DELETED : 91e7ee8
+WARNING: DeviceCallback: NOT DELETED : a559d98
+WARNING: DeviceCallback: NOT DELETED : 91d8898
+WARNING: DeviceCallback: NOT DELETED : 91fff80
+WARNING: DeviceCallback: NOT DELETED : 3907710
+WARNING: DeviceCallback: NOT DELETED : a54cbe8
+WARNING: DeviceCallback: NOT DELETED : a640a00
+WARNING: DeviceCallback: NOT DELETED : a62ad88
+WARNING: DeviceCallback: NOT DELETED : a6549a0
+WARNING: DeviceCallback: NOT DELETED : a655d38
+WARNING: DeviceCallback: NOT DELETED : a6570d0
+WARNING: DeviceCallback: NOT DELETED : a65f9a0
+WARNING: DeviceCallback: NOT DELETED : a660d38
+WARNING: DeviceCallback: NOT DELETED : a6620d0
+WARNING: DeviceCallback: NOT DELETED : a6636d8
+WARNING: DeviceCallback: NOT DELETED : a664a70
+WARNING: DeviceCallback: NOT DELETED : a665e08
+WARNING: DeviceCallback: NOT DELETED : a6671d8
+WARNING: DeviceCallback: NOT DELETED : a6685a8
+WARNING: DeviceCallback: NOT DELETED : a62c030
+WARNING: DeviceCallback: NOT DELETED : a629fe8
+WARNING: DeviceCallback: NOT DELETED : 7eafe80
+WARNING: DeviceCallback: NOT DELETED : 9243520
+WARNING: DeviceCallback: NOT DELETED : a54f8f0
+WARNING: DeviceCallback: NOT DELETED : 925bee0
+WARNING: DeviceCallback: NOT DELETED : 925a350
+WARNING: DeviceCallback: NOT DELETED : 921afa0
+WARNING: DeviceCallback: NOT DELETED : 39f8f9c
+
+/------------------------------------------------------------------------------------------\
+BigWorld Model Editor  (compiled at Oct  9 2010 at 07:21:34) starting on 11/05/20 23:24:07
+
+INFO: AnimationChannel: registered type 6
+INFO: AnimationChannel: registered type 1
+INFO: AnimationChannel: registered type 3
+INFO: AnimationChannel: registered type 4
+INFO: AnimationChannel: registered type 5
+INFO: AnimationChannel: registered type 7
+INFO: AnimationChannel: registered type 2
+INFO: Registering factory for directionalLight
+INFO: Registering factory for omniLight
+INFO: Registering factory for spotLight
+INFO: Registering factory for pulseLight
+INFO: Registering factory for ambientLight
+INFO: Registering factory for model
+INFO: Registering factory for shell
+INFO: Registering factory for terrain
+INFO: Registering factory for flare
+INFO: Registering factory for speedtree
+INFO: Registering factory for overlapper
+INFO: Registering factory for vlo
+INFO: Registering factory for particles
+INFO: Registering factory for PyPhase
+INFO: Registering factory for PyFilterQuad
+INFO: Registering factory for PyCopyBackBuffer
+INFO: Registering factory for PyVisualTransferMesh
+INFO: Registering factory for PyPointSpriteTransferMesh
+INFO: Registering factory for PyTransferQuad
+INFO: AnimationChannel: registered type 0
+INFO: Registering factory for flora
+INFO: Options file is C:\BigWorld_2.0.1\BigWorld\bigworld\tools\modeleditor\options.xml
+TRACE: DataResource::load: C:\BigWorld_2.0.1\BigWorld\bigworld\tools\modeleditor\options.xml
+DEBUG: BWResource::makeInstance: BWResource was not created at the app level.
+Create a BWResource as a member of the application or main.
+DEBUG: Loading.. C:/BigWorld_2.0.1/BigWorld/bigworld/tools/modeleditor/paths.xml
+INFO: Added res path: "C:/BigWorld_2.0.1/BigWorld/fantasydemo/res" (from paths.xml).
+INFO: Added res path: "C:/BigWorld_2.0.1/BigWorld/bigworld/res" (from paths.xml).
+INFO: BWResource::initCommon: Version is 2.0.1
+INFO: Added res path: "C:/BigWorld_2.0.1/BigWorld/bigworld/tools/modeleditor"
+DEBUG: Joystick::init: Joystick not found
+INFO: InputDevices::InputDevices: Joystick failed to initialise
+NOTICE: ATI compatibility selected
+INFO: This adapter supports A8R8G8B8 back buffers
+INFO: RenderContext::createDevice - available texture memory after create: 1830813696
+DEBUG: Moo: Changed mode: 1596 795
+DEBUG: EffectManager::addIncludePaths - adding include path shaders/std_effects/
+DEBUG: EffectManager::addIncludePaths - adding include path shaders/terrain/
+INFO: Created Second RT Surface
+INFO: Material Kinds loaded from system/data/material_kinds.xml
+INFO: Created Font Texture Map system_tiny.font.dds [512 x 32]
+INFO: Created Font Texture Map system_small.font.dds [512 x 32]
+INFO: Created Font Texture Map system_medium.font.dds [512 x 32]
+INFO: Created Font Texture Map system_large.font.dds [512 x 32]
+INFO: Real path is C:/BigWorld_2.0.1/BigWorld/fantasydemo/res/audio\
+INFO: SoundManager::initialise: Loaded sound project fd_sound
+INFO: SoundManager::initialise: Starting preload of sound bank main
+ERROR: SpeedTree authorisation failed
+INFO: Flora::vbSize - reduced memory usage to 1012500, due to alignment requirements
+INFO: Flora::vbSize - 27 triangles per flora block
+INFO: Flora::vbSize - 988 KB used for vertex buffer
+INFO: FloraTexture::init - texture(8192,256), blocks(16,1), blocksize(512,256)
+DEBUG: ChunkSpace::addMapping: Adding helpers/spaces/pe at (0.000000,0.000000,0.000000) xaxis (1.000000,0.000000,0.000000) to space 1
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+INFO: Initialising SimulationManager
+DEBUG: cloud map darkness 0.65
+SCRIPT: ModelEditor.init
+SCRIPT: PostProcessing.init()
+INFO: Created Font Texture Map default_small.font.dds [512 x 32]
+DEBUG: PythonAdapter was loaded correctly
+INFO: This adapter supports A8R8G8B8 back buffers
+INFO: RenderContext::changeMode - trying to reset 
+INFO: RenderContext::changeMode - available texture memory after reset: 1836056576
+DEBUG: Moo: Changed mode: 1286 763
+INFO: Flora::vbSize - reduced memory usage to 6262500, due to alignment requirements
+INFO: Flora::vbSize - 167 triangles per flora block
+INFO: Flora::vbSize - 6115 KB used for vertex buffer
+INFO: Created Second RT Surface
+INFO: SoundManager::registerSoundBank: Sound bank 'main' registered successfully
+INFO: ZAttenuationOccluder - sharing PostProcessing render target
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk determined: 00000000o
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk submitted for loading
+INFO: Flora::vbSize - reduced memory usage to 1012500, due to alignment requirements
+INFO: Flora::vbSize - 27 triangles per flora block
+INFO: Flora::vbSize - 988 KB used for vertex buffer
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/00000000o.chunk'
+SCRIPT: PostProcessing: computeBuffer1 (160 x 95)
+SCRIPT: PostProcessing: computeBuffer2 (160 x 95)
+SCRIPT: PostProcessing: backBufferCopy (1286 x 763)
+SCRIPT: PostProcessing: downSample1 (643 x 381)
+SCRIPT: PostProcessing: downSample3 (160 x 95)
+SCRIPT: PostProcessing: downSample2 (321 x 190)
+SCRIPT: PostProcessing: total memory used by default RenderTargets : 10.17 MB
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/00010000o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/ffff0001o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/ffffffffo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/0002ffffo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/ffff0002o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/00020001o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffeffffo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffefffeo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffe0002o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/00020002o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/0002fffeo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/0000fffdo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/00030000o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffd0000o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/00000003o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/0001fffdo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/00030001o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/ffff0003o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/0003ffffo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffffffdo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffdffffo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/00010003o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/0003fffeo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffe0003o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/00030002o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffdfffeo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/00020003o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/00000001o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/00000004o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/0000fffco.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/00040000o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/0001fffco.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffcffffo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffffffco.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/00010004o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffc0001o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/ffff0004o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/0004ffffo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/00040001o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffd0003o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/00030003o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffdfffdo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/0003fffdo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/0002fffco.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/0004fffeo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffefffco.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffe0004o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffcfffeo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/00020004o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffc0002o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/00040002o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffdfffco.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/0004fffdo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/0000fffbo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/0003fffco.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffd0004o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/00040003o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffcfffdo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffb0000o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/00030004o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffc0003o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffffffbo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffb0001o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/0001fffbo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffbffffo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffb0002o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffefffbo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/0002fffbo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffbfffeo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/ffff0000o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffcfffco.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffc0004o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/0004fffco.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffbfffdo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffdfffbo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/0000ffffo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffb0003o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffcfffbo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/0004fffbo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffb0004o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffbfffco.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffbfffbo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/0001ffffo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/00010001o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/00020000o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/00000002o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffe0000o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/0000fffeo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/00010002o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffe0001o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/0001fffeo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffffffeo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffd0001o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffefffdo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffd0002o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/0002fffdo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffc0000o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/00040004o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/0003fffbo.chunk'
+INFO: Loading Model: "characters/npc/striff/striff_gib.model"
+TRACE: TextureManager : write DDS characters/npc/fd_striff/maps/strif_dif_gibbs.dds
+DEBUG: ManagedEffect::compiling resources/effects/portal.fx (resources/effects/portal.00.fxo)
+INFO: Loading Model: "characters/npc/striff/falling_feathers.model"
+TRACE: TextureManager : write DDS objects/models/fx/feather.dds
+INFO: Loading Model: "characters/npc/striff/striff_gib.model"
+INFO: Loading Model: "characters/npc/striff/falling_feathers.model"
+INFO: Loading Model: "characters/npc/striff/striff_gib.model"
+INFO: Flora::vbSize - reduced memory usage to 1012500, due to alignment requirements
+INFO: Flora::vbSize - 27 triangles per flora block
+INFO: Flora::vbSize - 988 KB used for vertex buffer
+INFO: Created Second RT Surface
+INFO: Loading Model: "characters/npc/spider/spider.model"
+INFO: Flora::vbSize - reduced memory usage to 1012500, due to alignment requirements
+INFO: Flora::vbSize - 27 triangles per flora block
+INFO: Flora::vbSize - 988 KB used for vertex buffer
+INFO: Created Second RT Surface
+INFO: Loading Model: "characters/avatars/female_warrior/models/fw_body_03.model"
+TRACE: TextureManager : write DDS characters/avatars/female_warrior/maps/warrior_1b_body_d.dds
+TRACE: TextureManager : write DDS characters/avatars/female_warrior/maps/warrior_1a_body_d.dds
+INFO: Loading Model: "characters/avatars/female_warrior/models/fw_body_00.model"
+TRACE: TextureManager : write DDS characters/avatars/female_warrior/maps/warrior_1b_body_norms.dds
+TRACE: TextureManager : write DDS characters/avatars/female_warrior/maps/warrior_1b_body_s.dds
+TRACE: TextureManager : write DDS characters/avatars/female_warrior/maps/warrior_1b_body_ss.dds
+TRACE: TextureManager : write DDS characters/avatars/female_warrior/maps/warrior_1a_body_norms.dds
+TRACE: TextureManager : write DDS characters/avatars/female_warrior/maps/warrior_1a_body_s.dds
+TRACE: TextureManager : write DDS characters/avatars/female_warrior/maps/warrior_1a_body_ss.dds
+INFO: Exiting ModelEditor...
+INFO: UAL Manager - Waiting for the Thumbnail Manager to stop ...
+INFO: UAL Manager - ... Thumbnail Manager stopped
+TRACE: BgTaskManager::stopAll: Waiting for threads: 1
+TRACE: BgTaskManager::onThreadFinished: Thread finished. 0 remaining
+SCRIPT: ModelEditor.fini
+SCRIPT: PostProcessing.fini()
+SCRIPT: RenderTargets.fini()
+SCRIPT: PostProcessing.Phases.fini()
+DEBUG: ChunkSpace::clear: Clearing space 1
+DEBUG: ChunkSpace::delMapping: Comdemned helpers/spaces/pe/ in space 1
+DEBUG: DELETING LIGHT MAP 89a6a40
+DEBUG: DELETING LIGHT MAP 3a1d830
+INFO: Destroying SimulationManager
+DEBUG: Moo::TextureManager - Used texture memory 18132892
+WARNING: VisualManager::~VisualManager - not all visuals freed.
+INFO: -- Visual not deleted: characters/avatars/female_warrior/models/fw_body_00.visual
+INFO: -- Visual not deleted: characters/avatars/female_warrior/models/fw_body_03.visual
+WARNING: EffectManager::~EffectManager - not empty on destruct.
+This could indicate a possible reference leak or destruction order issue.
+WARNING: 1 - Effect resources/effects/portal.fx not unloaded in time. 
+WARNING: 2 - Effect shaders/std_effects/lightonly.fx not unloaded in time. 
+WARNING: 3 - Effect shaders/std_effects/lightonly_skinned.fx not unloaded in time. 
+WARNING: 4 - Effect shaders/std_effects/mesh_particle.fx not unloaded in time. 
+WARNING: 5 - Effect shaders/std_effects/mesh_particle_add.fx not unloaded in time. 
+WARNING: 6 - Effect shaders/std_effects/mesh_particle_alpha.fx not unloaded in time. 
+WARNING: 7 - Effect shaders/std_effects/subsurface_skinned.fx not unloaded in time. 
+INFO: -- Texture not properly deleted on exit: ThumbnailManager
+INFO: -- Texture not properly deleted on exit: backBufferCopy
+INFO: -- Texture not properly deleted on exit: backBufferCopyB
+INFO: -- Texture not properly deleted on exit: bkBlur1
+INFO: -- Texture not properly deleted on exit: bkBlur2
+INFO: -- Texture not properly deleted on exit: bkBlur3
+INFO: -- Texture not properly deleted on exit: bkBlurN1
+INFO: -- Texture not properly deleted on exit: bkBlurN2
+INFO: -- Texture not properly deleted on exit: bkBlurN3
+INFO: -- Texture not properly deleted on exit: bkComputeBuffer
+INFO: -- Texture not properly deleted on exit: bkDownSample1
+INFO: -- Texture not properly deleted on exit: bkDownSample2
+INFO: -- Texture not properly deleted on exit: bkDownSample3
+INFO: -- Texture not properly deleted on exit: bkDownSampleN1
+INFO: -- Texture not properly deleted on exit: bkDownSampleN2
+INFO: -- Texture not properly deleted on exit: bkDownSampleN3
+INFO: -- Texture not properly deleted on exit: characters/avatars/female_warrior/maps/warrior_1a_body_d.dds
+INFO: -- Texture not properly deleted on exit: characters/avatars/female_warrior/maps/warrior_1a_body_norms.dds
+INFO: -- Texture not properly deleted on exit: characters/avatars/female_warrior/maps/warrior_1a_body_s.dds
+INFO: -- Texture not properly deleted on exit: characters/avatars/female_warrior/maps/warrior_1a_body_ss.dds
+INFO: -- Texture not properly deleted on exit: characters/avatars/female_warrior/maps/warrior_1b_body_d.dds
+INFO: -- Texture not properly deleted on exit: characters/avatars/female_warrior/maps/warrior_1b_body_norms.dds
+INFO: -- Texture not properly deleted on exit: characters/avatars/female_warrior/maps/warrior_1b_body_s.dds
+INFO: -- Texture not properly deleted on exit: characters/avatars/female_warrior/maps/warrior_1b_body_ss.dds
+INFO: -- Texture not properly deleted on exit: computeBuffer1
+INFO: -- Texture not properly deleted on exit: computeBuffer2
+INFO: -- Texture not properly deleted on exit: downSample1
+INFO: -- Texture not properly deleted on exit: downSample1B
+INFO: -- Texture not properly deleted on exit: downSample2
+INFO: -- Texture not properly deleted on exit: downSample2B
+INFO: -- Texture not properly deleted on exit: downSample3
+INFO: -- Texture not properly deleted on exit: downSample3B
+INFO: -- Texture not properly deleted on exit: downSampleBlur1
+INFO: -- Texture not properly deleted on exit: downSampleBlur2
+INFO: -- Texture not properly deleted on exit: downSampleBlur3
+INFO: -- Texture not properly deleted on exit: fpComputeBuffer1
+INFO: -- Texture not properly deleted on exit: fpComputeBuffer2
+INFO: -- Texture not properly deleted on exit: helpers/maps/system/default.dds
+WARNING: 30 DeviceCallback object(s) NOT DELETED
+WARNING: DeviceCallback: NOT DELETED : 11e1804
+WARNING: DeviceCallback: NOT DELETED : b2f9728
+WARNING: DeviceCallback: NOT DELETED : b2e60c0
+WARNING: DeviceCallback: NOT DELETED : 894d588
+WARNING: DeviceCallback: NOT DELETED : 891e790
+WARNING: DeviceCallback: NOT DELETED : b2e2980
+WARNING: DeviceCallback: NOT DELETED : 11e71f0
+WARNING: DeviceCallback: NOT DELETED : b2f4108
+WARNING: DeviceCallback: NOT DELETED : 88d4a30
+WARNING: DeviceCallback: NOT DELETED : b2e9f18
+WARNING: DeviceCallback: NOT DELETED : b311f38
+WARNING: DeviceCallback: NOT DELETED : b313308
+WARNING: DeviceCallback: NOT DELETED : b3146d8
+WARNING: DeviceCallback: NOT DELETED : b31fa48
+WARNING: DeviceCallback: NOT DELETED : b320e18
+WARNING: DeviceCallback: NOT DELETED : b3221e8
+WARNING: DeviceCallback: NOT DELETED : b323828
+WARNING: DeviceCallback: NOT DELETED : b324bc0
+WARNING: DeviceCallback: NOT DELETED : b325f58
+WARNING: DeviceCallback: NOT DELETED : b327328
+WARNING: DeviceCallback: NOT DELETED : b3286f8
+WARNING: DeviceCallback: NOT DELETED : b2fd3e8
+WARNING: DeviceCallback: NOT DELETED : b2fbf08
+WARNING: DeviceCallback: NOT DELETED : 8900970
+WARNING: DeviceCallback: NOT DELETED : 88f2fb8
+WARNING: DeviceCallback: NOT DELETED : 89af218
+WARNING: DeviceCallback: NOT DELETED : 8921068
+WARNING: DeviceCallback: NOT DELETED : 896eb88
+WARNING: DeviceCallback: NOT DELETED : b201610
+WARNING: DeviceCallback: NOT DELETED : 3a6687c
+
+/------------------------------------------------------------------------------------------\
+BigWorld Model Editor  (compiled at Oct  9 2010 at 07:21:34) starting on 11/06/20 01:16:21
+
+INFO: AnimationChannel: registered type 6
+INFO: AnimationChannel: registered type 1
+INFO: AnimationChannel: registered type 3
+INFO: AnimationChannel: registered type 4
+INFO: AnimationChannel: registered type 5
+INFO: AnimationChannel: registered type 7
+INFO: AnimationChannel: registered type 2
+INFO: Registering factory for directionalLight
+INFO: Registering factory for omniLight
+INFO: Registering factory for spotLight
+INFO: Registering factory for pulseLight
+INFO: Registering factory for ambientLight
+INFO: Registering factory for model
+INFO: Registering factory for shell
+INFO: Registering factory for terrain
+INFO: Registering factory for flare
+INFO: Registering factory for speedtree
+INFO: Registering factory for overlapper
+INFO: Registering factory for vlo
+INFO: Registering factory for particles
+INFO: Registering factory for PyPhase
+INFO: Registering factory for PyFilterQuad
+INFO: Registering factory for PyCopyBackBuffer
+INFO: Registering factory for PyVisualTransferMesh
+INFO: Registering factory for PyPointSpriteTransferMesh
+INFO: Registering factory for PyTransferQuad
+INFO: AnimationChannel: registered type 0
+INFO: Registering factory for flora
+INFO: Options file is C:\BigWorld_2.0.1\BigWorld\bigworld\tools\modeleditor\options.xml
+TRACE: DataResource::load: C:\BigWorld_2.0.1\BigWorld\bigworld\tools\modeleditor\options.xml
+DEBUG: BWResource::makeInstance: BWResource was not created at the app level.
+Create a BWResource as a member of the application or main.
+DEBUG: Loading.. C:/BigWorld_2.0.1/BigWorld/bigworld/tools/modeleditor/paths.xml
+INFO: Added res path: "C:/BigWorld_2.0.1/BigWorld/fantasydemo/res" (from paths.xml).
+INFO: Added res path: "C:/BigWorld_2.0.1/BigWorld/bigworld/res" (from paths.xml).
+INFO: BWResource::initCommon: Version is 2.0.1
+INFO: Added res path: "C:/BigWorld_2.0.1/BigWorld/bigworld/tools/modeleditor"
+DEBUG: Joystick::init: Joystick not found
+INFO: InputDevices::InputDevices: Joystick failed to initialise
+NOTICE: ATI compatibility selected
+INFO: This adapter supports A8R8G8B8 back buffers
+INFO: RenderContext::createDevice - available texture memory after create: 1830813696
+DEBUG: Moo: Changed mode: 1596 795
+DEBUG: EffectManager::addIncludePaths - adding include path shaders/std_effects/
+DEBUG: EffectManager::addIncludePaths - adding include path shaders/terrain/
+INFO: Created Second RT Surface
+INFO: Material Kinds loaded from system/data/material_kinds.xml
+INFO: Created Font Texture Map system_tiny.font.dds [512 x 32]
+INFO: Created Font Texture Map system_small.font.dds [512 x 32]
+INFO: Created Font Texture Map system_medium.font.dds [512 x 32]
+INFO: Created Font Texture Map system_large.font.dds [512 x 32]
+INFO: Real path is C:/BigWorld_2.0.1/BigWorld/fantasydemo/res/audio\
+INFO: SoundManager::initialise: Loaded sound project fd_sound
+INFO: SoundManager::initialise: Starting preload of sound bank main
+ERROR: SpeedTree authorisation failed
+INFO: Flora::vbSize - reduced memory usage to 1012500, due to alignment requirements
+INFO: Flora::vbSize - 27 triangles per flora block
+INFO: Flora::vbSize - 988 KB used for vertex buffer
+INFO: FloraTexture::init - texture(8192,256), blocks(16,1), blocksize(512,256)
+DEBUG: ChunkSpace::addMapping: Adding helpers/spaces/pe at (0.000000,0.000000,0.000000) xaxis (1.000000,0.000000,0.000000) to space 1
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+INFO: Initialising SimulationManager
+DEBUG: cloud map darkness 0.65
+SCRIPT: ModelEditor.init
+SCRIPT: PostProcessing.init()
+INFO: Created Font Texture Map default_small.font.dds [512 x 32]
+DEBUG: PythonAdapter was loaded correctly
+INFO: This adapter supports A8R8G8B8 back buffers
+INFO: RenderContext::changeMode - trying to reset 
+INFO: RenderContext::changeMode - available texture memory after reset: 1836056576
+DEBUG: Moo: Changed mode: 1286 763
+INFO: Flora::vbSize - reduced memory usage to 6262500, due to alignment requirements
+INFO: Flora::vbSize - 167 triangles per flora block
+INFO: Flora::vbSize - 6115 KB used for vertex buffer
+INFO: Created Second RT Surface
+INFO: SoundManager::registerSoundBank: Sound bank 'main' registered successfully
+INFO: ZAttenuationOccluder - sharing PostProcessing render target
+INFO: Loading Model: "characters/avatars/female_warrior/models/fw_body_00.model"
+INFO: Flora::vbSize - reduced memory usage to 1012500, due to alignment requirements
+INFO: Flora::vbSize - 27 triangles per flora block
+INFO: Flora::vbSize - 988 KB used for vertex buffer
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk determined: 00000000o
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk submitted for loading
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/00000000o.chunk'
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+SCRIPT: PostProcessing: computeBuffer1 (160 x 95)
+SCRIPT: PostProcessing: computeBuffer2 (160 x 95)
+SCRIPT: PostProcessing: backBufferCopy (1286 x 763)
+SCRIPT: PostProcessing: downSample1 (643 x 381)
+SCRIPT: PostProcessing: downSample3 (160 x 95)
+SCRIPT: PostProcessing: downSample2 (321 x 190)
+SCRIPT: PostProcessing: total memory used by default RenderTargets : 10.17 MB
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/0000ffffo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/ffff0001o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/ffffffffo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/00010001o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/00000002o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffe0000o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/0000fffeo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/00010002o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffefffeo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffe0002o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/0000fffdo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/00030000o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffd0000o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/00000003o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/0001fffdo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/00030001o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/ffff0003o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffffffdo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffd0001o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/00000001o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/ffff0000o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/00010000o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/0003fffeo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffe0003o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/00030002o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffd0002o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/0001ffffo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/00020000o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/0002ffffo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/00020003o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/0002fffdo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffc0000o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/00000004o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/0000fffco.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/00040000o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/0001fffco.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffcffffo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffffffco.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffc0001o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/ffff0004o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/00040001o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffd0003o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/ffff0002o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/00020001o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/0003fffdo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/0002fffco.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/0004fffeo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffefffco.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffeffffo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffe0001o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffe0004o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffcfffeo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/00020004o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffdfffco.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/0004fffdo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/0000fffbo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/0003fffco.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffd0004o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/0001fffeo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/00040003o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffcfffdo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffb0000o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/00030004o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffffffbo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffb0001o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/0001fffbo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffffffeo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffb0002o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffefffbo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/0002fffbo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffbfffeo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffcfffco.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/00040004o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffc0004o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/0004fffco.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffbfffdo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffdfffbo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/00020002o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/0002fffeo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffcfffbo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/0004fffbo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffb0004o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffbfffco.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffbfffbo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/0003ffffo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffdffffo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/00010003o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffefffdo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffdfffeo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/00010004o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/0004ffffo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/00030003o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffdfffdo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffc0002o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/00040002o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffc0003o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffbffffo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/0003fffbo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffb0003o.chunk'
+INFO: Loading Model: "sets/vehicles/razor_flare.model"
+INFO: Loading Model: "sets/vehicles/razor2.model"
+INFO: This adapter supports A8R8G8B8 back buffers
+INFO: RenderContext::changeMode - trying to reset 
+INFO: RenderContext::changeMode - available texture memory after reset: 1838153728
+DEBUG: Moo: Changed mode: 1286 763
+INFO: Flora::vbSize - reduced memory usage to 1012500, due to alignment requirements
+INFO: Flora::vbSize - 27 triangles per flora block
+INFO: Flora::vbSize - 988 KB used for vertex buffer
+INFO: Created Second RT Surface
+INFO: Exiting ModelEditor...
+INFO: UAL Manager - Waiting for the Thumbnail Manager to stop ...
+INFO: UAL Manager - ... Thumbnail Manager stopped
+TRACE: BgTaskManager::stopAll: Waiting for threads: 1
+TRACE: BgTaskManager::onThreadFinished: Thread finished. 0 remaining
+SCRIPT: ModelEditor.fini
+SCRIPT: PostProcessing.fini()
+SCRIPT: RenderTargets.fini()
+SCRIPT: PostProcessing.Phases.fini()
+DEBUG: ChunkSpace::clear: Clearing space 1
+DEBUG: ChunkSpace::delMapping: Comdemned helpers/spaces/pe/ in space 1
+DEBUG: DELETING LIGHT MAP 8a08ab8
+DEBUG: DELETING LIGHT MAP 39ad950
+INFO: Destroying SimulationManager
+DEBUG: Moo::TextureManager - Used texture memory 943060
+WARNING: VisualManager::~VisualManager - not all visuals freed.
+INFO: -- Visual not deleted: sets/vehicles/razor2.visual
+WARNING: EffectManager::~EffectManager - not empty on destruct.
+This could indicate a possible reference leak or destruction order issue.
+WARNING: 1 - Effect resources/effects/portal.fx not unloaded in time. 
+WARNING: 2 - Effect shaders/std_effects/lightonly.fx not unloaded in time. 
+WARNING: 3 - Effect shaders/std_effects/mesh_particle.fx not unloaded in time. 
+WARNING: 4 - Effect shaders/std_effects/mesh_particle_add.fx not unloaded in time. 
+WARNING: 5 - Effect shaders/std_effects/mesh_particle_alpha.fx not unloaded in time. 
+INFO: -- Texture not properly deleted on exit: ThumbnailManager
+INFO: -- Texture not properly deleted on exit: backBufferCopy
+INFO: -- Texture not properly deleted on exit: backBufferCopyB
+INFO: -- Texture not properly deleted on exit: bkBlur1
+INFO: -- Texture not properly deleted on exit: bkBlur2
+INFO: -- Texture not properly deleted on exit: bkBlur3
+INFO: -- Texture not properly deleted on exit: bkBlurN1
+INFO: -- Texture not properly deleted on exit: bkBlurN2
+INFO: -- Texture not properly deleted on exit: bkBlurN3
+INFO: -- Texture not properly deleted on exit: bkComputeBuffer
+INFO: -- Texture not properly deleted on exit: bkDownSample1
+INFO: -- Texture not properly deleted on exit: bkDownSample2
+INFO: -- Texture not properly deleted on exit: bkDownSample3
+INFO: -- Texture not properly deleted on exit: bkDownSampleN1
+INFO: -- Texture not properly deleted on exit: bkDownSampleN2
+INFO: -- Texture not properly deleted on exit: bkDownSampleN3
+INFO: -- Texture not properly deleted on exit: computeBuffer1
+INFO: -- Texture not properly deleted on exit: computeBuffer2
+INFO: -- Texture not properly deleted on exit: downSample1
+INFO: -- Texture not properly deleted on exit: downSample1B
+INFO: -- Texture not properly deleted on exit: downSample2
+INFO: -- Texture not properly deleted on exit: downSample2B
+INFO: -- Texture not properly deleted on exit: downSample3
+INFO: -- Texture not properly deleted on exit: downSample3B
+INFO: -- Texture not properly deleted on exit: downSampleBlur1
+INFO: -- Texture not properly deleted on exit: downSampleBlur2
+INFO: -- Texture not properly deleted on exit: downSampleBlur3
+INFO: -- Texture not properly deleted on exit: fpComputeBuffer1
+INFO: -- Texture not properly deleted on exit: fpComputeBuffer2
+INFO: -- Texture not properly deleted on exit: helpers/maps/system/default.dds
+INFO: -- Texture not properly deleted on exit: sets/vehicles/raz_beak_darkwasp.dds
+INFO: -- Texture not properly deleted on exit: sets/vehicles/raz_body_darkwasp.dds
+INFO: -- Texture not properly deleted on exit: sets/vehicles/raz_console_darkwasp.dds
+INFO: -- Texture not properly deleted on exit: sets/vehicles/raz_nose_darkwasp.dds
+INFO: -- Texture not properly deleted on exit: sets/vehicles/raz_rear_darkwasp.dds
+INFO: -- Texture not properly deleted on exit: sets/vehicles/raz_wings_darkwasp.dds
+WARNING: 30 DeviceCallback object(s) NOT DELETED
+WARNING: DeviceCallback: NOT DELETED : 2cd1b2c
+WARNING: DeviceCallback: NOT DELETED : c5f4ff0
+WARNING: DeviceCallback: NOT DELETED : 2c80630
+WARNING: DeviceCallback: NOT DELETED : a205950
+WARNING: DeviceCallback: NOT DELETED : a0f1f50
+WARNING: DeviceCallback: NOT DELETED : a0fd4d0
+WARNING: DeviceCallback: NOT DELETED : a0f0c08
+WARNING: DeviceCallback: NOT DELETED : a217598
+WARNING: DeviceCallback: NOT DELETED : 89c3880
+WARNING: DeviceCallback: NOT DELETED : 89324b8
+WARNING: DeviceCallback: NOT DELETED : 89c3de8
+WARNING: DeviceCallback: NOT DELETED : 89cbb80
+WARNING: DeviceCallback: NOT DELETED : c605988
+WARNING: DeviceCallback: NOT DELETED : c606d20
+WARNING: DeviceCallback: NOT DELETED : c6080b8
+WARNING: DeviceCallback: NOT DELETED : c612100
+WARNING: DeviceCallback: NOT DELETED : c613750
+WARNING: DeviceCallback: NOT DELETED : c614ae8
+WARNING: DeviceCallback: NOT DELETED : c615e80
+WARNING: DeviceCallback: NOT DELETED : c617218
+WARNING: DeviceCallback: NOT DELETED : c6185b0
+WARNING: DeviceCallback: NOT DELETED : 899ed20
+WARNING: DeviceCallback: NOT DELETED : 89be798
+WARNING: DeviceCallback: NOT DELETED : 89a6968
+WARNING: DeviceCallback: NOT DELETED : 2cdb6e8
+WARNING: DeviceCallback: NOT DELETED : 89e2668
+WARNING: DeviceCallback: NOT DELETED : a21b510
+WARNING: DeviceCallback: NOT DELETED : 89d89b0
+WARNING: DeviceCallback: NOT DELETED : 7ef1618
+WARNING: DeviceCallback: NOT DELETED : 39f6a1c
+
+/------------------------------------------------------------------------------------------\
+BigWorld Model Editor  (compiled at Oct  9 2010 at 07:21:34) starting on 11/06/20 09:56:59
+
+INFO: AnimationChannel: registered type 6
+INFO: AnimationChannel: registered type 1
+INFO: AnimationChannel: registered type 3
+INFO: AnimationChannel: registered type 4
+INFO: AnimationChannel: registered type 5
+INFO: AnimationChannel: registered type 7
+INFO: AnimationChannel: registered type 2
+INFO: Registering factory for directionalLight
+INFO: Registering factory for omniLight
+INFO: Registering factory for spotLight
+INFO: Registering factory for pulseLight
+INFO: Registering factory for ambientLight
+INFO: Registering factory for model
+INFO: Registering factory for shell
+INFO: Registering factory for terrain
+INFO: Registering factory for flare
+INFO: Registering factory for speedtree
+INFO: Registering factory for overlapper
+INFO: Registering factory for vlo
+INFO: Registering factory for particles
+INFO: Registering factory for PyPhase
+INFO: Registering factory for PyFilterQuad
+INFO: Registering factory for PyCopyBackBuffer
+INFO: Registering factory for PyVisualTransferMesh
+INFO: Registering factory for PyPointSpriteTransferMesh
+INFO: Registering factory for PyTransferQuad
+INFO: AnimationChannel: registered type 0
+INFO: Registering factory for flora
+INFO: Options file is C:\BigWorld_2.0.1\BigWorld\bigworld\tools\modeleditor\options.xml
+TRACE: DataResource::load: C:\BigWorld_2.0.1\BigWorld\bigworld\tools\modeleditor\options.xml
+DEBUG: BWResource::makeInstance: BWResource was not created at the app level.
+Create a BWResource as a member of the application or main.
+DEBUG: Loading.. C:/BigWorld_2.0.1/BigWorld/bigworld/tools/modeleditor/paths.xml
+INFO: Added res path: "C:/BigWorld_2.0.1/BigWorld/fantasydemo/res" (from paths.xml).
+INFO: Added res path: "C:/BigWorld_2.0.1/BigWorld/bigworld/res" (from paths.xml).
+INFO: BWResource::initCommon: Version is 2.0.1
+INFO: Added res path: "C:/BigWorld_2.0.1/BigWorld/bigworld/tools/modeleditor"
+DEBUG: Joystick::init: Joystick not found
+INFO: InputDevices::InputDevices: Joystick failed to initialise
+NOTICE: ATI compatibility selected
+INFO: This adapter supports A8R8G8B8 back buffers
+INFO: RenderContext::createDevice - available texture memory after create: 1830813696
+DEBUG: Moo: Changed mode: 1596 795
+DEBUG: EffectManager::addIncludePaths - adding include path shaders/std_effects/
+DEBUG: EffectManager::addIncludePaths - adding include path shaders/terrain/
+INFO: Created Second RT Surface
+INFO: Material Kinds loaded from system/data/material_kinds.xml
+INFO: Created Font Texture Map system_tiny.font.dds [512 x 32]
+INFO: Created Font Texture Map system_small.font.dds [512 x 32]
+INFO: Created Font Texture Map system_medium.font.dds [512 x 32]
+INFO: Created Font Texture Map system_large.font.dds [512 x 32]
+INFO: Real path is C:/BigWorld_2.0.1/BigWorld/fantasydemo/res/audio\
+INFO: SoundManager::initialise: Loaded sound project fd_sound
+INFO: SoundManager::initialise: Starting preload of sound bank main
+ERROR: SpeedTree authorisation failed
+INFO: Flora::vbSize - reduced memory usage to 1012500, due to alignment requirements
+INFO: Flora::vbSize - 27 triangles per flora block
+INFO: Flora::vbSize - 988 KB used for vertex buffer
+INFO: FloraTexture::init - texture(8192,256), blocks(16,1), blocksize(512,256)
+DEBUG: ChunkSpace::addMapping: Adding helpers/spaces/pe at (0.000000,0.000000,0.000000) xaxis (1.000000,0.000000,0.000000) to space 1
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+INFO: Initialising SimulationManager
+DEBUG: cloud map darkness 0.65
+SCRIPT: ModelEditor.init
+SCRIPT: PostProcessing.init()
+INFO: Created Font Texture Map default_small.font.dds [512 x 32]
+DEBUG: PythonAdapter was loaded correctly
+INFO: This adapter supports A8R8G8B8 back buffers
+INFO: RenderContext::changeMode - trying to reset 
+INFO: RenderContext::changeMode - available texture memory after reset: 1836056576
+DEBUG: Moo: Changed mode: 1286 763
+INFO: Flora::vbSize - reduced memory usage to 6262500, due to alignment requirements
+INFO: Flora::vbSize - 167 triangles per flora block
+INFO: Flora::vbSize - 6115 KB used for vertex buffer
+INFO: Created Second RT Surface
+INFO: SoundManager::registerSoundBank: Sound bank 'main' registered successfully
+INFO: ZAttenuationOccluder - sharing PostProcessing render target
+INFO: Loading Model: "sets/vehicles/razor2.model"
+INFO: Flora::vbSize - reduced memory usage to 1012500, due to alignment requirements
+INFO: Flora::vbSize - 27 triangles per flora block
+INFO: Flora::vbSize - 988 KB used for vertex buffer
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk determined: 00000000o
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk submitted for loading
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+SCRIPT: PostProcessing: computeBuffer1 (160 x 95)
+SCRIPT: PostProcessing: computeBuffer2 (160 x 95)
+SCRIPT: PostProcessing: backBufferCopy (1286 x 763)
+SCRIPT: PostProcessing: downSample1 (643 x 381)
+SCRIPT: PostProcessing: downSample3 (160 x 95)
+SCRIPT: PostProcessing: downSample2 (321 x 190)
+SCRIPT: PostProcessing: total memory used by default RenderTargets : 10.17 MB
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/00000000o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/00000001o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/ffff0000o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/0000ffffo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/00010000o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/0001ffffo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/00010001o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/00020000o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffe0000o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/0000fffeo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/00010002o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/0002ffffo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/ffff0002o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/00020001o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffe0001o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/0001fffeo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffffffeo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffefffeo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffe0002o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/00020002o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/0000fffdo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/00030000o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/00000003o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/0001fffdo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/ffff0003o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/0003ffffo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffffffdo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffdffffo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/00010003o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffd0001o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffefffdo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/0003fffeo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffe0003o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/00030002o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffd0002o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffdfffeo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/00020003o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/0002fffdo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffc0000o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/00000004o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/0000fffco.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/00040000o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/0001fffco.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffcffffo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffffffco.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/00010004o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffc0001o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/ffff0004o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/0004ffffo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/00040001o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffd0003o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/00030003o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffdfffdo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/0003fffdo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/0002fffco.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/0004fffeo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffefffco.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffe0004o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffcfffeo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/00020004o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffc0002o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/00040002o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffdfffco.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/0004fffdo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/0000fffbo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/0003fffco.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffd0004o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/00040003o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffcfffdo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffb0000o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/00030004o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffc0003o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffffffbo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffb0001o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/0001fffbo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffbffffo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffb0002o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffefffbo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/0002fffbo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffbfffeo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffcfffco.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/00040004o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffc0004o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/0004fffco.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffbfffdo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffdfffbo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/0003fffbo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffb0003o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffcfffbo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/0004fffbo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffb0004o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffbfffco.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffbfffbo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/ffff0001o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/ffffffffo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/00000002o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffeffffo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/0002fffeo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffd0000o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/00030001o.chunk'
+INFO: Loading Model: "characters/avatars/female_warrior/models/fw_body_03.model"
+INFO: Exiting ModelEditor...
+INFO: UAL Manager - Waiting for the Thumbnail Manager to stop ...
+INFO: UAL Manager - ... Thumbnail Manager stopped
+TRACE: BgTaskManager::stopAll: Waiting for threads: 1
+TRACE: BgTaskManager::onThreadFinished: Thread finished. 0 remaining
+SCRIPT: ModelEditor.fini
+SCRIPT: PostProcessing.fini()
+SCRIPT: RenderTargets.fini()
+SCRIPT: PostProcessing.Phases.fini()
+DEBUG: ChunkSpace::clear: Clearing space 1
+DEBUG: ChunkSpace::delMapping: Comdemned helpers/spaces/pe/ in space 1
+DEBUG: DELETING LIGHT MAP 8498c30
+DEBUG: DELETING LIGHT MAP 37de950
+INFO: Destroying SimulationManager
+DEBUG: Moo::TextureManager - Used texture memory 3539364
+WARNING: VisualManager::~VisualManager - not all visuals freed.
+INFO: -- Visual not deleted: characters/avatars/female_warrior/models/fw_body_03.visual
+WARNING: EffectManager::~EffectManager - not empty on destruct.
+This could indicate a possible reference leak or destruction order issue.
+WARNING: 1 - Effect resources/effects/portal.fx not unloaded in time. 
+WARNING: 2 - Effect shaders/std_effects/lightonly.fx not unloaded in time. 
+WARNING: 3 - Effect shaders/std_effects/lightonly_skinned.fx not unloaded in time. 
+WARNING: 4 - Effect shaders/std_effects/mesh_particle.fx not unloaded in time. 
+WARNING: 5 - Effect shaders/std_effects/mesh_particle_add.fx not unloaded in time. 
+WARNING: 6 - Effect shaders/std_effects/mesh_particle_alpha.fx not unloaded in time. 
+INFO: -- Texture not properly deleted on exit: ThumbnailManager
+INFO: -- Texture not properly deleted on exit: backBufferCopy
+INFO: -- Texture not properly deleted on exit: backBufferCopyB
+INFO: -- Texture not properly deleted on exit: bkBlur1
+INFO: -- Texture not properly deleted on exit: bkBlur2
+INFO: -- Texture not properly deleted on exit: bkBlur3
+INFO: -- Texture not properly deleted on exit: bkBlurN1
+INFO: -- Texture not properly deleted on exit: bkBlurN2
+INFO: -- Texture not properly deleted on exit: bkBlurN3
+INFO: -- Texture not properly deleted on exit: bkComputeBuffer
+INFO: -- Texture not properly deleted on exit: bkDownSample1
+INFO: -- Texture not properly deleted on exit: bkDownSample2
+INFO: -- Texture not properly deleted on exit: bkDownSample3
+INFO: -- Texture not properly deleted on exit: bkDownSampleN1
+INFO: -- Texture not properly deleted on exit: bkDownSampleN2
+INFO: -- Texture not properly deleted on exit: bkDownSampleN3
+INFO: -- Texture not properly deleted on exit: characters/avatars/female_warrior/maps/warrior_1a_body_d.dds
+INFO: -- Texture not properly deleted on exit: characters/avatars/female_warrior/maps/warrior_1b_body_d.dds
+INFO: -- Texture not properly deleted on exit: computeBuffer1
+INFO: -- Texture not properly deleted on exit: computeBuffer2
+INFO: -- Texture not properly deleted on exit: downSample1
+INFO: -- Texture not properly deleted on exit: downSample1B
+INFO: -- Texture not properly deleted on exit: downSample2
+INFO: -- Texture not properly deleted on exit: downSample2B
+INFO: -- Texture not properly deleted on exit: downSample3
+INFO: -- Texture not properly deleted on exit: downSample3B
+INFO: -- Texture not properly deleted on exit: downSampleBlur1
+INFO: -- Texture not properly deleted on exit: downSampleBlur2
+INFO: -- Texture not properly deleted on exit: downSampleBlur3
+INFO: -- Texture not properly deleted on exit: fpComputeBuffer1
+INFO: -- Texture not properly deleted on exit: fpComputeBuffer2
+INFO: -- Texture not properly deleted on exit: helpers/maps/system/default.dds
+WARNING: 30 DeviceCallback object(s) NOT DELETED
+WARNING: DeviceCallback: NOT DELETED : 2e1aa6c
+WARNING: DeviceCallback: NOT DELETED : 9c523f0
+WARNING: DeviceCallback: NOT DELETED : 9c75b60
+WARNING: DeviceCallback: NOT DELETED : 84307b0
+WARNING: DeviceCallback: NOT DELETED : 847c760
+WARNING: DeviceCallback: NOT DELETED : 8439540
+WARNING: DeviceCallback: NOT DELETED : 8462460
+WARNING: DeviceCallback: NOT DELETED : 9c557b0
+WARNING: DeviceCallback: NOT DELETED : 7de0628
+WARNING: DeviceCallback: NOT DELETED : 9c5a690
+WARNING: DeviceCallback: NOT DELETED : 9c84960
+WARNING: DeviceCallback: NOT DELETED : 9c85cf8
+WARNING: DeviceCallback: NOT DELETED : 9c87090
+WARNING: DeviceCallback: NOT DELETED : 9c8fe48
+WARNING: DeviceCallback: NOT DELETED : 9c911e0
+WARNING: DeviceCallback: NOT DELETED : 9c92578
+WARNING: DeviceCallback: NOT DELETED : 9c93b80
+WARNING: DeviceCallback: NOT DELETED : 9c94f18
+WARNING: DeviceCallback: NOT DELETED : 9c962b0
+WARNING: DeviceCallback: NOT DELETED : 9c97648
+WARNING: DeviceCallback: NOT DELETED : 9c989e0
+WARNING: DeviceCallback: NOT DELETED : 9c6cd98
+WARNING: DeviceCallback: NOT DELETED : 9c6d2b0
+WARNING: DeviceCallback: NOT DELETED : 8443950
+WARNING: DeviceCallback: NOT DELETED : 9b8cd98
+WARNING: DeviceCallback: NOT DELETED : 9b7f098
+WARNING: DeviceCallback: NOT DELETED : 9b80ac0
+WARNING: DeviceCallback: NOT DELETED : 8454fd8
+WARNING: DeviceCallback: NOT DELETED : 7de7f30
+WARNING: DeviceCallback: NOT DELETED : 3827a1c
+
+/------------------------------------------------------------------------------------------\
+BigWorld Model Editor  (compiled at Oct  9 2010 at 07:21:34) starting on 11/06/20 12:26:42
+
+INFO: AnimationChannel: registered type 6
+INFO: AnimationChannel: registered type 1
+INFO: AnimationChannel: registered type 3
+INFO: AnimationChannel: registered type 4
+INFO: AnimationChannel: registered type 5
+INFO: AnimationChannel: registered type 7
+INFO: AnimationChannel: registered type 2
+INFO: Registering factory for directionalLight
+INFO: Registering factory for omniLight
+INFO: Registering factory for spotLight
+INFO: Registering factory for pulseLight
+INFO: Registering factory for ambientLight
+INFO: Registering factory for model
+INFO: Registering factory for shell
+INFO: Registering factory for terrain
+INFO: Registering factory for flare
+INFO: Registering factory for speedtree
+INFO: Registering factory for overlapper
+INFO: Registering factory for vlo
+INFO: Registering factory for particles
+INFO: Registering factory for PyPhase
+INFO: Registering factory for PyFilterQuad
+INFO: Registering factory for PyCopyBackBuffer
+INFO: Registering factory for PyVisualTransferMesh
+INFO: Registering factory for PyPointSpriteTransferMesh
+INFO: Registering factory for PyTransferQuad
+INFO: AnimationChannel: registered type 0
+INFO: Registering factory for flora
+INFO: Options file is C:\BigWorld_2.0.1\BigWorld\bigworld\tools\modeleditor\options.xml
+TRACE: DataResource::load: C:\BigWorld_2.0.1\BigWorld\bigworld\tools\modeleditor\options.xml
+DEBUG: BWResource::makeInstance: BWResource was not created at the app level.
+Create a BWResource as a member of the application or main.
+DEBUG: Loading.. C:/BigWorld_2.0.1/BigWorld/bigworld/tools/modeleditor/paths.xml
+INFO: Added res path: "C:/BigWorld_2.0.1/BigWorld/fantasydemo/res" (from paths.xml).
+INFO: Added res path: "C:/BigWorld_2.0.1/BigWorld/bigworld/res" (from paths.xml).
+INFO: BWResource::initCommon: Version is 2.0.1
+INFO: Added res path: "C:/BigWorld_2.0.1/BigWorld/bigworld/tools/modeleditor"
+DEBUG: Joystick::init: Joystick not found
+INFO: InputDevices::InputDevices: Joystick failed to initialise
+NOTICE: ATI compatibility selected
+INFO: This adapter supports A8R8G8B8 back buffers
+INFO: RenderContext::createDevice - available texture memory after create: 1830813696
+DEBUG: Moo: Changed mode: 1596 795
+DEBUG: EffectManager::addIncludePaths - adding include path shaders/std_effects/
+DEBUG: EffectManager::addIncludePaths - adding include path shaders/terrain/
+INFO: Created Second RT Surface
+INFO: Material Kinds loaded from system/data/material_kinds.xml
+INFO: Created Font Texture Map system_tiny.font.dds [512 x 32]
+INFO: Created Font Texture Map system_small.font.dds [512 x 32]
+INFO: Created Font Texture Map system_medium.font.dds [512 x 32]
+INFO: Created Font Texture Map system_large.font.dds [512 x 32]
+INFO: Real path is C:/BigWorld_2.0.1/BigWorld/fantasydemo/res/audio\
+INFO: SoundManager::initialise: Loaded sound project fd_sound
+INFO: SoundManager::initialise: Starting preload of sound bank main
+ERROR: SpeedTree authorisation failed
+INFO: Flora::vbSize - reduced memory usage to 1012500, due to alignment requirements
+INFO: Flora::vbSize - 27 triangles per flora block
+INFO: Flora::vbSize - 988 KB used for vertex buffer
+INFO: FloraTexture::init - texture(8192,256), blocks(16,1), blocksize(512,256)
+DEBUG: ChunkSpace::addMapping: Adding helpers/spaces/pe at (0.000000,0.000000,0.000000) xaxis (1.000000,0.000000,0.000000) to space 1
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+INFO: Initialising SimulationManager
+DEBUG: cloud map darkness 0.65
+SCRIPT: ModelEditor.init
+SCRIPT: PostProcessing.init()
+INFO: Created Font Texture Map default_small.font.dds [512 x 32]
+DEBUG: PythonAdapter was loaded correctly
+INFO: This adapter supports A8R8G8B8 back buffers
+INFO: RenderContext::changeMode - trying to reset 
+INFO: RenderContext::changeMode - available texture memory after reset: 1836056576
+DEBUG: Moo: Changed mode: 1286 763
+INFO: Flora::vbSize - reduced memory usage to 6262500, due to alignment requirements
+INFO: Flora::vbSize - 167 triangles per flora block
+INFO: Flora::vbSize - 6115 KB used for vertex buffer
+INFO: Created Second RT Surface
+INFO: SoundManager::registerSoundBank: Sound bank 'main' registered successfully
+INFO: ZAttenuationOccluder - sharing PostProcessing render target
+INFO: Loading Model: "characters/avatars/female_warrior/models/fw_body_03.model"
+INFO: Flora::vbSize - reduced memory usage to 1012500, due to alignment requirements
+INFO: Flora::vbSize - 27 triangles per flora block
+INFO: Flora::vbSize - 988 KB used for vertex buffer
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk determined: 00000000o
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk submitted for loading
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/00000000o.chunk'
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+SCRIPT: PostProcessing: computeBuffer1 (160 x 95)
+SCRIPT: PostProcessing: computeBuffer2 (160 x 95)
+SCRIPT: PostProcessing: backBufferCopy (1286 x 763)
+SCRIPT: PostProcessing: downSample1 (643 x 381)
+SCRIPT: PostProcessing: downSample3 (160 x 95)
+SCRIPT: PostProcessing: downSample2 (321 x 190)
+SCRIPT: PostProcessing: total memory used by default RenderTargets : 10.17 MB
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/00000001o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/ffff0001o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/ffffffffo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/00010001o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffe0001o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/0001fffeo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffffffeo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffefffeo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffe0002o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/00020002o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/0002fffeo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/0000fffdo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/00030000o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffd0000o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/00000003o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/0001fffdo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/00030001o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/ffff0003o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffffffdo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffdffffo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/ffff0000o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/0000ffffo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/00010003o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffd0001o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffefffdo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/0003fffeo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/00030002o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffdfffeo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/00020003o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/0002fffdo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffc0000o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/00000004o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/0000fffco.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/00040000o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/0001fffco.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffffffco.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/ffff0004o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/0004ffffo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/00040001o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffd0003o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/00030003o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/00010000o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/0001ffffo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffdfffdo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/0003fffdo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/0002fffco.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/0004fffeo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffefffco.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffe0004o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffcfffeo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/00020004o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/00040002o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/0004fffdo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/00020000o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/0000fffbo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/0003fffco.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffd0004o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/00040003o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffcfffdo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/00000002o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffe0000o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/00030004o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffc0003o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffffffbo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffb0001o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/0001fffbo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffefffbo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/0002fffbo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/0000fffeo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/00010002o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/0002ffffo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffcfffco.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/00040004o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffc0004o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/0004fffco.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffbfffdo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffdfffbo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/ffff0002o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffb0003o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffcfffbo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffb0004o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffbfffco.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffbfffbo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/00020001o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffeffffo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/0003ffffo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffe0003o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffd0002o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffcffffo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/00010004o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffc0001o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffc0002o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffdfffco.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffb0000o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffbffffo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffb0002o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffbfffeo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/0003fffbo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/0004fffbo.chunk'
+INFO: Loading Model: "sets/vehicles/razor2.model"
+INFO: Exiting ModelEditor...
+INFO: UAL Manager - Waiting for the Thumbnail Manager to stop ...
+INFO: UAL Manager - ... Thumbnail Manager stopped
+TRACE: BgTaskManager::stopAll: Waiting for threads: 1
+TRACE: BgTaskManager::onThreadFinished: Thread finished. 0 remaining
+SCRIPT: ModelEditor.fini
+SCRIPT: PostProcessing.fini()
+SCRIPT: RenderTargets.fini()
+SCRIPT: PostProcessing.Phases.fini()
+DEBUG: ChunkSpace::clear: Clearing space 1
+DEBUG: ChunkSpace::delMapping: Comdemned helpers/spaces/pe/ in space 1
+DEBUG: DELETING LIGHT MAP 84f8b28
+DEBUG: DELETING LIGHT MAP 38de950
+INFO: Destroying SimulationManager
+DEBUG: Moo::TextureManager - Used texture memory 943060
+WARNING: VisualManager::~VisualManager - not all visuals freed.
+INFO: -- Visual not deleted: sets/vehicles/razor2.visual
+WARNING: EffectManager::~EffectManager - not empty on destruct.
+This could indicate a possible reference leak or destruction order issue.
+WARNING: 1 - Effect resources/effects/portal.fx not unloaded in time. 
+WARNING: 2 - Effect shaders/std_effects/lightonly.fx not unloaded in time. 
+WARNING: 3 - Effect shaders/std_effects/mesh_particle.fx not unloaded in time. 
+WARNING: 4 - Effect shaders/std_effects/mesh_particle_add.fx not unloaded in time. 
+WARNING: 5 - Effect shaders/std_effects/mesh_particle_alpha.fx not unloaded in time. 
+INFO: -- Texture not properly deleted on exit: ThumbnailManager
+INFO: -- Texture not properly deleted on exit: backBufferCopy
+INFO: -- Texture not properly deleted on exit: backBufferCopyB
+INFO: -- Texture not properly deleted on exit: bkBlur1
+INFO: -- Texture not properly deleted on exit: bkBlur2
+INFO: -- Texture not properly deleted on exit: bkBlur3
+INFO: -- Texture not properly deleted on exit: bkBlurN1
+INFO: -- Texture not properly deleted on exit: bkBlurN2
+INFO: -- Texture not properly deleted on exit: bkBlurN3
+INFO: -- Texture not properly deleted on exit: bkComputeBuffer
+INFO: -- Texture not properly deleted on exit: bkDownSample1
+INFO: -- Texture not properly deleted on exit: bkDownSample2
+INFO: -- Texture not properly deleted on exit: bkDownSample3
+INFO: -- Texture not properly deleted on exit: bkDownSampleN1
+INFO: -- Texture not properly deleted on exit: bkDownSampleN2
+INFO: -- Texture not properly deleted on exit: bkDownSampleN3
+INFO: -- Texture not properly deleted on exit: computeBuffer1
+INFO: -- Texture not properly deleted on exit: computeBuffer2
+INFO: -- Texture not properly deleted on exit: downSample1
+INFO: -- Texture not properly deleted on exit: downSample1B
+INFO: -- Texture not properly deleted on exit: downSample2
+INFO: -- Texture not properly deleted on exit: downSample2B
+INFO: -- Texture not properly deleted on exit: downSample3
+INFO: -- Texture not properly deleted on exit: downSample3B
+INFO: -- Texture not properly deleted on exit: downSampleBlur1
+INFO: -- Texture not properly deleted on exit: downSampleBlur2
+INFO: -- Texture not properly deleted on exit: downSampleBlur3
+INFO: -- Texture not properly deleted on exit: fpComputeBuffer1
+INFO: -- Texture not properly deleted on exit: fpComputeBuffer2
+INFO: -- Texture not properly deleted on exit: helpers/maps/system/default.dds
+INFO: -- Texture not properly deleted on exit: sets/vehicles/raz_beak_darkwasp.dds
+INFO: -- Texture not properly deleted on exit: sets/vehicles/raz_body_darkwasp.dds
+INFO: -- Texture not properly deleted on exit: sets/vehicles/raz_console_darkwasp.dds
+INFO: -- Texture not properly deleted on exit: sets/vehicles/raz_nose_darkwasp.dds
+INFO: -- Texture not properly deleted on exit: sets/vehicles/raz_rear_darkwasp.dds
+INFO: -- Texture not properly deleted on exit: sets/vehicles/raz_wings_darkwasp.dds
+WARNING: 30 DeviceCallback object(s) NOT DELETED
+WARNING: DeviceCallback: NOT DELETED : 2da211c
+WARNING: DeviceCallback: NOT DELETED : 2c5a078
+WARNING: DeviceCallback: NOT DELETED : 847ab20
+WARNING: DeviceCallback: NOT DELETED : 9bee698
+WARNING: DeviceCallback: NOT DELETED : 2c43158
+WARNING: DeviceCallback: NOT DELETED : 847f8f8
+WARNING: DeviceCallback: NOT DELETED : 84c23b8
+WARNING: DeviceCallback: NOT DELETED : 9c14988
+WARNING: DeviceCallback: NOT DELETED : 84ddd20
+WARNING: DeviceCallback: NOT DELETED : 9be8290
+WARNING: DeviceCallback: NOT DELETED : 9c24ba8
+WARNING: DeviceCallback: NOT DELETED : 9c25f40
+WARNING: DeviceCallback: NOT DELETED : 9c27310
+WARNING: DeviceCallback: NOT DELETED : 9c2f9a8
+WARNING: DeviceCallback: NOT DELETED : 9c30d78
+WARNING: DeviceCallback: NOT DELETED : 9c32148
+WARNING: DeviceCallback: NOT DELETED : 9c33788
+WARNING: DeviceCallback: NOT DELETED : 9c34b20
+WARNING: DeviceCallback: NOT DELETED : 9c35eb8
+WARNING: DeviceCallback: NOT DELETED : 9c37288
+WARNING: DeviceCallback: NOT DELETED : 9c38658
+WARNING: DeviceCallback: NOT DELETED : 847f9b8
+WARNING: DeviceCallback: NOT DELETED : 84a3070
+WARNING: DeviceCallback: NOT DELETED : 84a3260
+WARNING: DeviceCallback: NOT DELETED : 2c5e3a8
+WARNING: DeviceCallback: NOT DELETED : 84702a8
+WARNING: DeviceCallback: NOT DELETED : 8491130
+WARNING: DeviceCallback: NOT DELETED : 2c45b18
+WARNING: DeviceCallback: NOT DELETED : 84c63c8
+WARNING: DeviceCallback: NOT DELETED : 3927a1c
+
+/------------------------------------------------------------------------------------------\
+BigWorld Model Editor  (compiled at Oct  9 2010 at 07:21:34) starting on 11/07/20 11:20:31
+
+INFO: AnimationChannel: registered type 6
+INFO: AnimationChannel: registered type 1
+INFO: AnimationChannel: registered type 3
+INFO: AnimationChannel: registered type 4
+INFO: AnimationChannel: registered type 5
+INFO: AnimationChannel: registered type 7
+INFO: AnimationChannel: registered type 2
+INFO: Registering factory for directionalLight
+INFO: Registering factory for omniLight
+INFO: Registering factory for spotLight
+INFO: Registering factory for pulseLight
+INFO: Registering factory for ambientLight
+INFO: Registering factory for model
+INFO: Registering factory for shell
+INFO: Registering factory for terrain
+INFO: Registering factory for flare
+INFO: Registering factory for speedtree
+INFO: Registering factory for overlapper
+INFO: Registering factory for vlo
+INFO: Registering factory for particles
+INFO: Registering factory for PyPhase
+INFO: Registering factory for PyFilterQuad
+INFO: Registering factory for PyCopyBackBuffer
+INFO: Registering factory for PyVisualTransferMesh
+INFO: Registering factory for PyPointSpriteTransferMesh
+INFO: Registering factory for PyTransferQuad
+INFO: AnimationChannel: registered type 0
+INFO: Registering factory for flora
+INFO: Options file is C:\BigWorld_2.0.1\BigWorld\bigworld\tools\modeleditor\options.xml
+TRACE: DataResource::load: C:\BigWorld_2.0.1\BigWorld\bigworld\tools\modeleditor\options.xml
+DEBUG: BWResource::makeInstance: BWResource was not created at the app level.
+Create a BWResource as a member of the application or main.
+DEBUG: Loading.. C:/BigWorld_2.0.1/BigWorld/bigworld/tools/modeleditor/paths.xml
+INFO: Added res path: "C:/BigWorld_2.0.1/BigWorld/fantasydemo/res" (from paths.xml).
+INFO: Added res path: "C:/BigWorld_2.0.1/BigWorld/bigworld/res" (from paths.xml).
+INFO: BWResource::initCommon: Version is 2.0.1
+INFO: Added res path: "C:/BigWorld_2.0.1/BigWorld/bigworld/tools/modeleditor"
+DEBUG: Joystick::init: Joystick not found
+INFO: InputDevices::InputDevices: Joystick failed to initialise
+NOTICE: ATI compatibility selected
+INFO: This adapter supports A8R8G8B8 back buffers
+INFO: RenderContext::createDevice - available texture memory after create: 1830813696
+DEBUG: Moo: Changed mode: 1596 795
+DEBUG: EffectManager::addIncludePaths - adding include path shaders/std_effects/
+DEBUG: EffectManager::addIncludePaths - adding include path shaders/terrain/
+INFO: Created Second RT Surface
+INFO: Material Kinds loaded from system/data/material_kinds.xml
+INFO: Created Font Texture Map system_tiny.font.dds [512 x 32]
+INFO: Created Font Texture Map system_small.font.dds [512 x 32]
+INFO: Created Font Texture Map system_medium.font.dds [512 x 32]
+INFO: Created Font Texture Map system_large.font.dds [512 x 32]
+INFO: Real path is C:/BigWorld_2.0.1/BigWorld/fantasydemo/res/audio\
+INFO: SoundManager::initialise: Loaded sound project fd_sound
+INFO: SoundManager::initialise: Starting preload of sound bank main
+ERROR: SpeedTree authorisation failed
+INFO: Flora::vbSize - reduced memory usage to 1012500, due to alignment requirements
+INFO: Flora::vbSize - 27 triangles per flora block
+INFO: Flora::vbSize - 988 KB used for vertex buffer
+INFO: FloraTexture::init - texture(8192,256), blocks(16,1), blocksize(512,256)
+DEBUG: ChunkSpace::addMapping: Adding helpers/spaces/pe at (0.000000,0.000000,0.000000) xaxis (1.000000,0.000000,0.000000) to space 1
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+INFO: Initialising SimulationManager
+DEBUG: cloud map darkness 0.65
+SCRIPT: ModelEditor.init
+SCRIPT: PostProcessing.init()
+INFO: Created Font Texture Map default_small.font.dds [512 x 32]
+DEBUG: PythonAdapter was loaded correctly
+INFO: This adapter supports A8R8G8B8 back buffers
+INFO: RenderContext::changeMode - trying to reset 
+INFO: RenderContext::changeMode - available texture memory after reset: 1836056576
+DEBUG: Moo: Changed mode: 1286 763
+INFO: Flora::vbSize - reduced memory usage to 6262500, due to alignment requirements
+INFO: Flora::vbSize - 167 triangles per flora block
+INFO: Flora::vbSize - 6115 KB used for vertex buffer
+INFO: Created Second RT Surface
+INFO: SoundManager::registerSoundBank: Sound bank 'main' registered successfully
+INFO: ZAttenuationOccluder - sharing PostProcessing render target
+INFO: Loading Model: "sets/vehicles/razor2.model"
+INFO: Flora::vbSize - reduced memory usage to 1012500, due to alignment requirements
+INFO: Flora::vbSize - 27 triangles per flora block
+INFO: Flora::vbSize - 988 KB used for vertex buffer
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk determined: 00000000o
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk submitted for loading
+TRACE: ChunkManager::autoBootstrapSeedChunk: seed chunk NULL so starting search
+SCRIPT: PostProcessing: computeBuffer1 (160 x 95)
+SCRIPT: PostProcessing: computeBuffer2 (160 x 95)
+SCRIPT: PostProcessing: backBufferCopy (1286 x 763)
+SCRIPT: PostProcessing: downSample1 (643 x 381)
+SCRIPT: PostProcessing: downSample3 (160 x 95)
+SCRIPT: PostProcessing: downSample2 (321 x 190)
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/00000000o.chunk'
+SCRIPT: PostProcessing: total memory used by default RenderTargets : 10.17 MB
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/00000001o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/ffff0000o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/0000ffffo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/00010000o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/ffffffffo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/0001ffffo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/00010001o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/00020000o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/00000002o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/ffff0002o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffeffffo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffe0001o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/0001fffeo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffffffeo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffefffeo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffe0002o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/00020002o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/0002fffeo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/0000fffdo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/00030000o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffd0000o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/00000003o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/0001fffdo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/00030001o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/ffff0003o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/0003ffffo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/00010003o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffd0001o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffefffdo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/0003fffeo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffe0003o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/00030002o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffd0002o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffdfffeo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffc0000o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/00000004o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/0001fffco.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffffffco.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/00010004o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffc0001o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/ffff0004o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/0004ffffo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/00040001o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffd0003o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/00030003o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffdfffdo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/0003fffdo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/0002fffco.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/0004fffeo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffefffco.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffe0004o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffcfffeo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/00020004o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffc0002o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/00040002o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffdfffco.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/0004fffdo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/0000fffbo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/0003fffco.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffd0004o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/00040003o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffcfffdo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffb0000o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/00030004o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffc0003o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffffffbo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffb0001o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/0001fffbo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffbffffo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffb0002o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffefffbo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/0002fffbo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffbfffeo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffcfffco.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/00040004o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffc0004o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/0004fffco.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffbfffdo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffdfffbo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffb0003o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffcfffbo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/0004fffbo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffb0004o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffbfffco.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffbfffbo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/ffff0001o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffe0000o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/0000fffeo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/00010002o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/0002ffffo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/00020001o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffffffdo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffdffffo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/00020003o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/0002fffdo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/0000fffco.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/00040000o.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/fffcffffo.chunk'
+TRACE: ChunkLoader: Loaded chunk 'helpers/spaces/pe/0003fffbo.chunk'
+INFO: Exiting ModelEditor...
+INFO: UAL Manager - Waiting for the Thumbnail Manager to stop ...
+INFO: UAL Manager - ... Thumbnail Manager stopped
+TRACE: BgTaskManager::stopAll: Waiting for threads: 1
+TRACE: BgTaskManager::onThreadFinished: Thread finished. 0 remaining
+SCRIPT: ModelEditor.fini
+SCRIPT: PostProcessing.fini()
+SCRIPT: RenderTargets.fini()
+SCRIPT: PostProcessing.Phases.fini()
+DEBUG: ChunkSpace::clear: Clearing space 1
+DEBUG: ChunkSpace::delMapping: Comdemned helpers/spaces/pe/ in space 1
+DEBUG: DELETING LIGHT MAP 48e8c90
+DEBUG: DELETING LIGHT MAP 388e950
+INFO: Destroying SimulationManager
+DEBUG: Moo::TextureManager - Used texture memory 943060
+WARNING: VisualManager::~VisualManager - not all visuals freed.
+INFO: -- Visual not deleted: sets/vehicles/razor2.visual
+WARNING: EffectManager::~EffectManager - not empty on destruct.
+This could indicate a possible reference leak or destruction order issue.
+WARNING: 1 - Effect resources/effects/portal.fx not unloaded in time. 
+WARNING: 2 - Effect shaders/std_effects/lightonly.fx not unloaded in time. 
+WARNING: 3 - Effect shaders/std_effects/mesh_particle.fx not unloaded in time. 
+WARNING: 4 - Effect shaders/std_effects/mesh_particle_add.fx not unloaded in time. 
+WARNING: 5 - Effect shaders/std_effects/mesh_particle_alpha.fx not unloaded in time. 
+INFO: -- Texture not properly deleted on exit: ThumbnailManager
+INFO: -- Texture not properly deleted on exit: backBufferCopy
+INFO: -- Texture not properly deleted on exit: backBufferCopyB
+INFO: -- Texture not properly deleted on exit: bkBlur1
+INFO: -- Texture not properly deleted on exit: bkBlur2
+INFO: -- Texture not properly deleted on exit: bkBlur3
+INFO: -- Texture not properly deleted on exit: bkBlurN1
+INFO: -- Texture not properly deleted on exit: bkBlurN2
+INFO: -- Texture not properly deleted on exit: bkBlurN3
+INFO: -- Texture not properly deleted on exit: bkComputeBuffer
+INFO: -- Texture not properly deleted on exit: bkDownSample1
+INFO: -- Texture not properly deleted on exit: bkDownSample2
+INFO: -- Texture not properly deleted on exit: bkDownSample3
+INFO: -- Texture not properly deleted on exit: bkDownSampleN1
+INFO: -- Texture not properly deleted on exit: bkDownSampleN2
+INFO: -- Texture not properly deleted on exit: bkDownSampleN3
+INFO: -- Texture not properly deleted on exit: computeBuffer1
+INFO: -- Texture not properly deleted on exit: computeBuffer2
+INFO: -- Texture not properly deleted on exit: downSample1
+INFO: -- Texture not properly deleted on exit: downSample1B
+INFO: -- Texture not properly deleted on exit: downSample2
+INFO: -- Texture not properly deleted on exit: downSample2B
+INFO: -- Texture not properly deleted on exit: downSample3
+INFO: -- Texture not properly deleted on exit: downSample3B
+INFO: -- Texture not properly deleted on exit: downSampleBlur1
+INFO: -- Texture not properly deleted on exit: downSampleBlur2
+INFO: -- Texture not properly deleted on exit: downSampleBlur3
+INFO: -- Texture not properly deleted on exit: fpComputeBuffer1
+INFO: -- Texture not properly deleted on exit: fpComputeBuffer2
+INFO: -- Texture not properly deleted on exit: helpers/maps/system/default.dds
+INFO: -- Texture not properly deleted on exit: sets/vehicles/raz_beak_darkwasp.dds
+INFO: -- Texture not properly deleted on exit: sets/vehicles/raz_body_darkwasp.dds
+INFO: -- Texture not properly deleted on exit: sets/vehicles/raz_console_darkwasp.dds
+INFO: -- Texture not properly deleted on exit: sets/vehicles/raz_nose_darkwasp.dds
+INFO: -- Texture not properly deleted on exit: sets/vehicles/raz_rear_darkwasp.dds
+INFO: -- Texture not properly deleted on exit: sets/vehicles/raz_wings_darkwasp.dds
+WARNING: 30 DeviceCallback object(s) NOT DELETED
+WARNING: DeviceCallback: NOT DELETED : 2e61aac
+WARNING: DeviceCallback: NOT DELETED : 8794f90
+WARNING: DeviceCallback: NOT DELETED : 877b778
+WARNING: DeviceCallback: NOT DELETED : 8771b00
+WARNING: DeviceCallback: NOT DELETED : 2e68058
+WARNING: DeviceCallback: NOT DELETED : 996a820
+WARNING: DeviceCallback: NOT DELETED : 9a44300
+WARNING: DeviceCallback: NOT DELETED : 9960be0
+WARNING: DeviceCallback: NOT DELETED : 9a35700
+WARNING: DeviceCallback: NOT DELETED : 9a4cae8
+WARNING: DeviceCallback: NOT DELETED : 9a4f330
+WARNING: DeviceCallback: NOT DELETED : 9a65078
+WARNING: DeviceCallback: NOT DELETED : 9a66410
+WARNING: DeviceCallback: NOT DELETED : 9a6fcd8
+WARNING: DeviceCallback: NOT DELETED : 9a71070
+WARNING: DeviceCallback: NOT DELETED : 9a72408
+WARNING: DeviceCallback: NOT DELETED : 9a73a58
+WARNING: DeviceCallback: NOT DELETED : 9a74df0
+WARNING: DeviceCallback: NOT DELETED : 9a76188
+WARNING: DeviceCallback: NOT DELETED : 9a77520
+WARNING: DeviceCallback: NOT DELETED : 9a788f0
+WARNING: DeviceCallback: NOT DELETED : 9a4c050
+WARNING: DeviceCallback: NOT DELETED : 9a4b7d8
+WARNING: DeviceCallback: NOT DELETED : 8719858
+WARNING: DeviceCallback: NOT DELETED : 9968f90
+WARNING: DeviceCallback: NOT DELETED : 99600a0
+WARNING: DeviceCallback: NOT DELETED : 87a38d8
+WARNING: DeviceCallback: NOT DELETED : 8770658
+WARNING: DeviceCallback: NOT DELETED : 99699b8
+WARNING: DeviceCallback: NOT DELETED : 38d7a1c

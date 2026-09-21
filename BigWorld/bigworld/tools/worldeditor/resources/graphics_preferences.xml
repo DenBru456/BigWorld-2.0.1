@@ -1,0 +1,59 @@
+<graphics_preferences.xml>
+	<deviceGUID>	D7B71EE2.11CF2A79.32F4743E.35D7C24A	</deviceGUID>
+	<entry>
+		<label>	MRT_DEPTH	</label>
+		<activeOption>	1	</activeOption>
+	</entry>
+	<entry>
+		<label>	SKY_LIGHT_MAP	</label>
+		<activeOption>	0	</activeOption>
+	</entry>
+	<entry>
+		<label>	SHADER_VERSION_CAP	</label>
+		<activeOption>	0	</activeOption>
+	</entry>
+	<entry>
+		<label>	TEXTURE_QUALITY	</label>
+		<activeOption>	1	</activeOption>
+	</entry>
+	<entry>
+		<label>	TEXTURE_COMPRESSION	</label>
+		<activeOption>	0	</activeOption>
+	</entry>
+	<entry>
+		<label>	TEXTURE_FILTERING	</label>
+		<activeOption>	4	</activeOption>
+	</entry>
+	<entry>
+		<label>	MORPH_VERTICES	</label>
+		<activeOption>	0	</activeOption>
+	</entry>
+	<entry>
+		<label>	TERRAIN_LOD	</label>
+		<activeOption>	1	</activeOption>
+	</entry>
+	<entry>
+		<label>	TERRAIN_MESH_RESOLUTION	</label>
+		<activeOption>	0	</activeOption>
+	</entry>
+	<entry>
+		<label>	SPEEDTREE_QUALITY	</label>
+		<activeOption>	2	</activeOption>
+	</entry>
+	<entry>
+		<label>	WATER_QUALITY	</label>
+		<activeOption>	1	</activeOption>
+	</entry>
+	<entry>
+		<label>	WATER_SIMULATION	</label>
+		<activeOption>	0	</activeOption>
+	</entry>
+	<entry>
+		<label>	POST_PROCESSING	</label>
+		<activeOption>	1	</activeOption>
+	</entry>
+	<entry>
+		<label>	FLORA_DENSITY	</label>
+		<activeOption>	2	</activeOption>
+	</entry>
+</graphics_preferences.xml>

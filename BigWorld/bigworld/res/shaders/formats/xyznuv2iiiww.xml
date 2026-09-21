@@ -1,0 +1,18 @@
+<xyznuv2iiiww.xml>
+	<POSITION/> 
+	<NORMAL/>
+	<TEXCOORD>
+        0
+		<type> FLOAT2 </type>
+	</TEXCOORD>
+	<TEXCOORD>
+        1
+		<type> FLOAT2 </type>
+	</TEXCOORD>    
+	<BLENDINDICES>
+		<type> D3DCOLOR </type>
+	</BLENDINDICES>
+	<BLENDWEIGHT>
+		<type> D3DCOLOR </type>
+	</BLENDWEIGHT>
+</xyznuv2iiiww.xml>

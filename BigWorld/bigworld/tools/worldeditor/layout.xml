@@ -1,0 +1,1761 @@
+<root>
+	<Dock>
+		<visible>	true	</visible>
+		<Panel>
+			<lastX>	300	</lastX>
+			<lastY>	200	</lastY>
+			<lastWidth>	298	</lastWidth>
+			<lastHeight>	519	</lastHeight>
+			<expanded>	true	</expanded>
+			<expandedSize>	100	</expandedSize>
+			<floating>	false	</floating>
+			<Tab>
+				<visible>	true	</visible>
+				<contentID>	UAL	</contentID>
+				<ContentData>
+					<lastLanguage>	en_	</lastLanguage>
+					<shortCaption>	Assets	</shortCaption>
+					<longCaption>	Asset Browser	</longCaption>
+					<initialTreeSize>	195	</initialTreeSize>
+					<layoutVertical>	true	</layoutVertical>
+					<filtersVisible>	false	</filtersVisible>
+					<vfolderOrder>	All;Favourites;History;Models;Shells;Trees;Prefabs;Entities;User Data Objects;Lights;Particles;Textures;Brushes;Special Effects;Post-Processing Render Targets;Post-Processing Effects;Post-Processing Phases;Post-Processing FX Files;Post-Processing Textures;Misc	</vfolderOrder>
+					<lastVFolder>	Entities	</lastVFolder>
+				</ContentData>
+			</Tab>
+			<Tab>
+				<visible>	true	</visible>
+				<contentID>	PageProperties	</contentID>
+				<ContentData>	</ContentData>
+			</Tab>
+			<Tab>
+				<visible>	true	</visible>
+				<contentID>	PageChunkTexture	</contentID>
+				<ContentData>	</ContentData>
+			</Tab>
+			<Tab>
+				<visible>	true	</visible>
+				<contentID>	PageOptionsGeneral	</contentID>
+				<ContentData>	</ContentData>
+			</Tab>
+			<Tab>
+				<visible>	true	</visible>
+				<contentID>	PageOptionsNavigation	</contentID>
+				<ContentData>	</ContentData>
+			</Tab>
+			<Tab>
+				<visible>	true	</visible>
+				<contentID>	PageOptionsWeather	</contentID>
+				<ContentData>	</ContentData>
+			</Tab>
+			<Tab>
+				<visible>	true	</visible>
+				<contentID>	PageOptionsEnvironment	</contentID>
+				<ContentData>	</ContentData>
+			</Tab>
+			<Tab>
+				<visible>	true	</visible>
+				<contentID>	PageOptionsHistogram	</contentID>
+				<ContentData>	</ContentData>
+			</Tab>
+			<Tab>
+				<visible>	true	</visible>
+				<contentID>	PageMessagesID	</contentID>
+				<ContentData>	</ContentData>
+			</Tab>
+			<Tab>
+				<visible>	true	</visible>
+				<contentID>	SceneBrowser	</contentID>
+				<ContentData>
+					<List>
+						<Columns>
+							<State>
+								<typeName>	NYCtaxi	</typeName>
+								<type>	STRING	</type>
+								<width>	100	</width>
+								<order>	2372	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	Standard_10	</typeName>
+								<type>	STRING	</type>
+								<width>	100	</width>
+								<order>	2690	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	Truck_A	</typeName>
+								<type>	STRING	</type>
+								<width>	100	</width>
+								<order>	2199	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	Truck_Ab	</typeName>
+								<type>	STRING	</type>
+								<width>	100	</width>
+								<order>	2200	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	WINDOW	</typeName>
+								<type>	STRING	</type>
+								<width>	100	</width>
+								<order>	2201	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	_07__Default	</typeName>
+								<type>	STRING	</type>
+								<width>	100	</width>
+								<order>	2689	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	animation	</typeName>
+								<type>	STRING	</type>
+								<width>	100	</width>
+								<order>	1256	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	animation speed	</typeName>
+								<type>	FLOAT	</type>
+								<width>	60	</width>
+								<order>	1258	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	approachAcceleration	</typeName>
+								<type>	FLOAT	</type>
+								<width>	60	</width>
+								<order>	1132	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	approachSpeed	</typeName>
+								<type>	FLOAT	</type>
+								<width>	60	</width>
+								<order>	1133	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	area	</typeName>
+								<type>	FLOAT	</type>
+								<width>	60	</width>
+								<order>	1323	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	asset comments	</typeName>
+								<type>	STRING	</type>
+								<width>	100	</width>
+								<order>	1260	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	asset copyright	</typeName>
+								<type>	STRING	</type>
+								<width>	100	</width>
+								<order>	1261	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	asset created by	</typeName>
+								<type>	STRING	</type>
+								<width>	100	</width>
+								<order>	1262	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	asset created on	</typeName>
+								<type>	DATE_STRING	</type>
+								<width>	100	</width>
+								<order>	1263	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	asset description	</typeName>
+								<type>	STRING	</type>
+								<width>	100	</width>
+								<order>	1264	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	asset modified by	</typeName>
+								<type>	STRING	</type>
+								<width>	100	</width>
+								<order>	1265	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	asset modified on	</typeName>
+								<type>	DATE_STRING	</type>
+								<width>	100	</width>
+								<order>	1266	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	autoCloseDelay	</typeName>
+								<type>	FLOAT	</type>
+								<width>	60	</width>
+								<order>	1408	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	backtrackChance	</typeName>
+								<type>	FLOAT	</type>
+								<width>	60	</width>
+								<order>	1038	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	broadcast	</typeName>
+								<type>	FLOAT	</type>
+								<width>	60	</width>
+								<order>	1332	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	builtin_assetName	</typeName>
+								<type>	STRING	</type>
+								<width>	180	</width>
+								<order>	0	</order>
+								<visible>	true	</visible>
+							</State>
+							<State>
+								<typeName>	builtin_assetType	</typeName>
+								<type>	STRING	</type>
+								<width>	95	</width>
+								<order>	2	</order>
+								<visible>	true	</visible>
+							</State>
+							<State>
+								<typeName>	builtin_chunkId	</typeName>
+								<type>	STRING	</type>
+								<width>	70	</width>
+								<order>	1	</order>
+								<visible>	true	</visible>
+							</State>
+							<State>
+								<typeName>	builtin_filePath	</typeName>
+								<type>	FILEPATH	</type>
+								<width>	200	</width>
+								<order>	5	</order>
+								<visible>	true	</visible>
+							</State>
+							<State>
+								<typeName>	builtin_frozen	</typeName>
+								<type>	BOOL	</type>
+								<width>	25	</width>
+								<order>	4	</order>
+								<visible>	true	</visible>
+							</State>
+							<State>
+								<typeName>	builtin_hidden	</typeName>
+								<type>	BOOL	</type>
+								<width>	25	</width>
+								<order>	3	</order>
+								<visible>	true	</visible>
+							</State>
+							<State>
+								<typeName>	builtin_numPrims	</typeName>
+								<type>	INT	</type>
+								<width>	45	</width>
+								<order>	10	</order>
+								<visible>	true	</visible>
+							</State>
+							<State>
+								<typeName>	builtin_numTris	</typeName>
+								<type>	INT	</type>
+								<width>	45	</width>
+								<order>	9	</order>
+								<visible>	true	</visible>
+							</State>
+							<State>
+								<typeName>	bypass depth	</typeName>
+								<type>	BOOL	</type>
+								<width>	20	</width>
+								<order>	1632	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	cancelTradeRadius	</typeName>
+								<type>	FLOAT	</type>
+								<width>	60	</width>
+								<order>	1411	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	casts shadow	</typeName>
+								<type>	BOOL	</type>
+								<width>	25	</width>
+								<order>	6	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	channels	</typeName>
+								<type>	STRING	</type>
+								<width>	100	</width>
+								<order>	2566	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	classType	</typeName>
+								<type>	INT	</type>
+								<width>	40	</width>
+								<order>	1789	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	client only	</typeName>
+								<type>	BOOL	</type>
+								<width>	20	</width>
+								<order>	1267	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	colour	</typeName>
+								<type>	COLOUR	</type>
+								<width>	100	</width>
+								<order>	1334	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	comments	</typeName>
+								<type>	STRING	</type>
+								<width>	100	</width>
+								<order>	1002	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	cone angle	</typeName>
+								<type>	FLOAT	</type>
+								<width>	60	</width>
+								<order>	1616	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	consistency	</typeName>
+								<type>	FLOAT	</type>
+								<width>	60	</width>
+								<order>	1638	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	created by	</typeName>
+								<type>	STRING	</type>
+								<width>	100	</width>
+								<order>	1003	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	created on	</typeName>
+								<type>	DATE_STRING	</type>
+								<width>	100	</width>
+								<order>	1004	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	creatureMonthOfBirth	</typeName>
+								<type>	STRING	</type>
+								<width>	100	</width>
+								<order>	1338	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	creatureRecoverRate	</typeName>
+								<type>	STRING	</type>
+								<width>	100	</width>
+								<order>	1339	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	creatureType	</typeName>
+								<type>	STRING	</type>
+								<width>	100	</width>
+								<order>	1340	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	crossing_lights	</typeName>
+								<type>	STRING	</type>
+								<width>	100	</width>
+								<order>	2230	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	deep colour	</typeName>
+								<type>	COLOUR	</type>
+								<width>	100	</width>
+								<order>	1644	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	departureSpeed	</typeName>
+								<type>	FLOAT	</type>
+								<width>	60	</width>
+								<order>	1042	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	description	</typeName>
+								<type>	STRING	</type>
+								<width>	100	</width>
+								<order>	1005	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	destination	</typeName>
+								<type>	STRING	</type>
+								<width>	100	</width>
+								<order>	1647	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	dictionary	</typeName>
+								<type>	STRING	</type>
+								<width>	100	</width>
+								<order>	2094	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	direction	</typeName>
+								<type>	VECTOR	</type>
+								<width>	100	</width>
+								<order>	1272	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	domain	</typeName>
+								<type>	STRING	</type>
+								<width>	100	</width>
+								<order>	1044	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	doorType	</typeName>
+								<type>	STRING	</type>
+								<width>	100	</width>
+								<order>	1424	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	duration	</typeName>
+								<type>	FLOAT	</type>
+								<width>	60	</width>
+								<order>	1425	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	dustTriggerRadius	</typeName>
+								<type>	FLOAT	</type>
+								<width>	60	</width>
+								<order>	1652	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	dynamic	</typeName>
+								<type>	BOOL	</type>
+								<width>	20	</width>
+								<order>	1345	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	effectName	</typeName>
+								<type>	STRING	</type>
+								<width>	100	</width>
+								<order>	1654	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	effectRadius	</typeName>
+								<type>	FLOAT	</type>
+								<width>	60	</width>
+								<order>	1655	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	fade speed	</typeName>
+								<type>	FLOAT	</type>
+								<width>	60	</width>
+								<order>	1346	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	fade start depth	</typeName>
+								<type>	FLOAT	</type>
+								<width>	60	</width>
+								<order>	1657	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	feedSourcesInput	</typeName>
+								<type>	STRING	</type>
+								<width>	100	</width>
+								<order>	1518	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	feedUpdateDelay	</typeName>
+								<type>	INT	</type>
+								<width>	40	</width>
+								<order>	1519	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	filename	</typeName>
+								<type>	STRING	</type>
+								<width>	100	</width>
+								<order>	1273	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	findBeastRadius	</typeName>
+								<type>	FLOAT	</type>
+								<width>	60	</width>
+								<order>	1661	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	flare	</typeName>
+								<type>	STRING	</type>
+								<width>	100	</width>
+								<order>	1348	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	foam intersection	</typeName>
+								<type>	FLOAT	</type>
+								<width>	60	</width>
+								<order>	1663	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	foam multiplier	</typeName>
+								<type>	FLOAT	</type>
+								<width>	60	</width>
+								<order>	1664	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	foam texture	</typeName>
+								<type>	STRING	</type>
+								<width>	100	</width>
+								<order>	1665	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	foam tiling	</typeName>
+								<type>	FLOAT	</type>
+								<width>	60	</width>
+								<order>	1666	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	fov	</typeName>
+								<type>	FLOAT	</type>
+								<width>	60	</width>
+								<order>	1079	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	frames	</typeName>
+								<type>	STRING	</type>
+								<width>	100	</width>
+								<order>	1431	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	fresnel constant	</typeName>
+								<type>	FLOAT	</type>
+								<width>	60	</width>
+								<order>	1669	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	fresnel exponent	</typeName>
+								<type>	FLOAT	</type>
+								<width>	60	</width>
+								<order>	1670	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	glow	</typeName>
+								<type>	STRING	</type>
+								<width>	100	</width>
+								<order>	2544	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	graph	</typeName>
+								<type>	STRING	</type>
+								<width>	100	</width>
+								<order>	1274	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	graphicsSettingsBehaviour	</typeName>
+								<type>	STRING	</type>
+								<width>	100	</width>
+								<order>	1525	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	grave_gargoyle_cracks	</typeName>
+								<type>	STRING	</type>
+								<width>	100	</width>
+								<order>	1350	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	groundfloor	</typeName>
+								<type>	STRING	</type>
+								<width>	100	</width>
+								<order>	2262	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	guardTimeToLive	</typeName>
+								<type>	FLOAT	</type>
+								<width>	60	</width>
+								<order>	2121	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	guardType	</typeName>
+								<type>	STRING	</type>
+								<width>	100	</width>
+								<order>	1080	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	guid	</typeName>
+								<type>	STRING	</type>
+								<width>	100	</width>
+								<order>	1006	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	health	</typeName>
+								<type>	INT	</type>
+								<width>	40	</width>
+								<order>	1082	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	height	</typeName>
+								<type>	INT	</type>
+								<width>	40	</width>
+								<order>	1530	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	importance	</typeName>
+								<type>	INT	</type>
+								<width>	40	</width>
+								<order>	1046	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	initialTriggerDelay	</typeName>
+								<type>	INT	</type>
+								<width>	40	</width>
+								<order>	1355	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	initialWait	</typeName>
+								<type>	FLOAT	</type>
+								<width>	60	</width>
+								<order>	1084	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	inner radius	</typeName>
+								<type>	FLOAT	</type>
+								<width>	60	</width>
+								<order>	1357	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	interactive	</typeName>
+								<type>	STRING	</type>
+								<width>	100	</width>
+								<order>	1535	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	interactiveRatePerSecond	</typeName>
+								<type>	INT	</type>
+								<width>	40	</width>
+								<order>	1536	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	label	</typeName>
+								<type>	STRING	</type>
+								<width>	100	</width>
+								<order>	1085	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	last script error	</typeName>
+								<type>	STRING	</type>
+								<width>	100	</width>
+								<order>	1276	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	leftHip	</typeName>
+								<type>	INT	</type>
+								<width>	40	</width>
+								<order>	1086	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	lightpost	</typeName>
+								<type>	STRING	</type>
+								<width>	100	</width>
+								<order>	1087	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	lights1	</typeName>
+								<type>	STRING	</type>
+								<width>	100	</width>
+								<order>	2278	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	links	</typeName>
+								<type>	STRING	</type>
+								<width>	100	</width>
+								<order>	1150	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	m_01__Default_skinned	</typeName>
+								<type>	STRING	</type>
+								<width>	100	</width>
+								<order>	1845	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	mapName	</typeName>
+								<type>	STRING	</type>
+								<width>	100	</width>
+								<order>	1151	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	max distance	</typeName>
+								<type>	FLOAT	</type>
+								<width>	60	</width>
+								<order>	1362	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	maxFlightTime	</typeName>
+								<type>	FLOAT	</type>
+								<width>	60	</width>
+								<order>	1152	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	maxHealth	</typeName>
+								<type>	INT	</type>
+								<width>	40	</width>
+								<order>	1088	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	mesh size	</typeName>
+								<type>	FLOAT	</type>
+								<width>	60	</width>
+								<order>	1693	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	minimapRange	</typeName>
+								<type>	FLOAT	</type>
+								<width>	60	</width>
+								<order>	1154	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	minimapRotate	</typeName>
+								<type>	STRING	</type>
+								<width>	100	</width>
+								<order>	1155	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	mipmap	</typeName>
+								<type>	STRING	</type>
+								<width>	100	</width>
+								<order>	1548	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	model name	</typeName>
+								<type>	STRING	</type>
+								<width>	100	</width>
+								<order>	1277	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	modelNumber	</typeName>
+								<type>	INT	</type>
+								<width>	40	</width>
+								<order>	1089	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	modelType	</typeName>
+								<type>	STRING	</type>
+								<width>	100	</width>
+								<order>	1366	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	models	</typeName>
+								<type>	STRING	</type>
+								<width>	100	</width>
+								<order>	1047	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	modified by	</typeName>
+								<type>	STRING	</type>
+								<width>	100	</width>
+								<order>	1007	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	modified on	</typeName>
+								<type>	DATE_STRING	</type>
+								<width>	100	</width>
+								<order>	1008	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	mozillaHandlesKeyboard	</typeName>
+								<type>	STRING	</type>
+								<width>	100	</width>
+								<order>	1555	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	multiplier	</typeName>
+								<type>	FLOAT	</type>
+								<width>	60	</width>
+								<order>	1370	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	name	</typeName>
+								<type>	STRING	</type>
+								<width>	100	</width>
+								<order>	1093	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	nameProperty	</typeName>
+								<type>	STRING	</type>
+								<width>	100	</width>
+								<order>	2155	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	node	</typeName>
+								<type>	STRING	</type>
+								<width>	100	</width>
+								<order>	1280	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	onGround	</typeName>
+								<type>	INT	</type>
+								<width>	40	</width>
+								<order>	1864	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	orientation	</typeName>
+								<type>	VECTOR	</type>
+								<width>	100	</width>
+								<order>	1707	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	orig_traffic_light	</typeName>
+								<type>	STRING	</type>
+								<width>	100	</width>
+								<order>	2302	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	outer radius	</typeName>
+								<type>	FLOAT	</type>
+								<width>	60	</width>
+								<order>	1372	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	outside only	</typeName>
+								<type>	BOOL	</type>
+								<width>	20	</width>
+								<order>	1281	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	particleName	</typeName>
+								<type>	STRING	</type>
+								<width>	100	</width>
+								<order>	1320	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	patrolLinks	</typeName>
+								<type>	STRING	</type>
+								<width>	100	</width>
+								<order>	1050	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	phonebooth	</typeName>
+								<type>	STRING	</type>
+								<width>	100	</width>
+								<order>	2482	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	platformName	</typeName>
+								<type>	STRING	</type>
+								<width>	100	</width>
+								<order>	1461	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	platformType	</typeName>
+								<type>	STRING	</type>
+								<width>	100	</width>
+								<order>	1462	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	playerName	</typeName>
+								<type>	STRING	</type>
+								<width>	100	</width>
+								<order>	1463	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	position	</typeName>
+								<type>	VECTOR	</type>
+								<width>	100	</width>
+								<order>	1282	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	priority	</typeName>
+								<type>	INT	</type>
+								<width>	40	</width>
+								<order>	1377	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	radius	</typeName>
+								<type>	FLOAT	</type>
+								<width>	60	</width>
+								<order>	1051	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	rarePercent	</typeName>
+								<type>	FLOAT	</type>
+								<width>	60	</width>
+								<order>	1009	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	ratePerSecond	</typeName>
+								<type>	FLOAT	</type>
+								<width>	60	</width>
+								<order>	1570	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	reflect bottom	</typeName>
+								<type>	BOOL	</type>
+								<width>	20	</width>
+								<order>	1720	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	reflection strength	</typeName>
+								<type>	FLOAT	</type>
+								<width>	60	</width>
+								<order>	1721	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	reflection texture	</typeName>
+								<type>	STRING	</type>
+								<width>	100	</width>
+								<order>	1722	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	reflection tint	</typeName>
+								<type>	COLOUR	</type>
+								<width>	100	</width>
+								<order>	1723	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	reflection visible	</typeName>
+								<type>	BOOL	</type>
+								<width>	25	</width>
+								<order>	7	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	refraction strength	</typeName>
+								<type>	FLOAT	</type>
+								<width>	60	</width>
+								<order>	1724	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	refraction tint	</typeName>
+								<type>	COLOUR	</type>
+								<width>	100	</width>
+								<order>	1725	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	retriggerDelay	</typeName>
+								<type>	INT	</type>
+								<width>	40	</width>
+								<order>	1380	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	reuseDelay	</typeName>
+								<type>	FLOAT	</type>
+								<width>	60	</width>
+								<order>	1469	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	rightHand	</typeName>
+								<type>	INT	</type>
+								<width>	40	</width>
+								<order>	1097	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	rightHip	</typeName>
+								<type>	INT	</type>
+								<width>	40	</width>
+								<order>	1098	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	rotation	</typeName>
+								<type>	VECTOR	</type>
+								<width>	100	</width>
+								<order>	1284	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	scale	</typeName>
+								<type>	VECTOR	</type>
+								<width>	100	</width>
+								<order>	1285	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	scroll speed 1 U	</typeName>
+								<type>	FLOAT	</type>
+								<width>	60	</width>
+								<order>	1732	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	scroll speed 1 V	</typeName>
+								<type>	FLOAT	</type>
+								<width>	60	</width>
+								<order>	1733	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	scroll speed 2 U	</typeName>
+								<type>	FLOAT	</type>
+								<width>	60	</width>
+								<order>	1734	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	scroll speed 2 V	</typeName>
+								<type>	FLOAT	</type>
+								<width>	60	</width>
+								<order>	1735	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	seatType	</typeName>
+								<type>	STRING	</type>
+								<width>	100	</width>
+								<order>	1053	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	seed	</typeName>
+								<type>	STRING	</type>
+								<width>	100	</width>
+								<order>	1010	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	shoulder	</typeName>
+								<type>	INT	</type>
+								<width>	40	</width>
+								<order>	1101	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	showWhenNear	</typeName>
+								<type>	STRING	</type>
+								<width>	100	</width>
+								<order>	1388	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	signage	</typeName>
+								<type>	STRING	</type>
+								<width>	100	</width>
+								<order>	2685	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	sim cell size	</typeName>
+								<type>	FLOAT	</type>
+								<width>	60	</width>
+								<order>	1740	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	size	</typeName>
+								<type>	VECTOR	</type>
+								<width>	100	</width>
+								<order>	1741	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	skipFrames	</typeName>
+								<type>	INT	</type>
+								<width>	40	</width>
+								<order>	2043	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	spaceLabel	</typeName>
+								<type>	STRING	</type>
+								<width>	100	</width>
+								<order>	1742	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	spawnCount	</typeName>
+								<type>	INT	</type>
+								<width>	40	</width>
+								<order>	1011	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	spawnInterval	</typeName>
+								<type>	INT	</type>
+								<width>	40	</width>
+								<order>	1012	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	spawnName	</typeName>
+								<type>	STRING	</type>
+								<width>	100	</width>
+								<order>	1013	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	spawnPoints	</typeName>
+								<type>	STRING	</type>
+								<width>	100	</width>
+								<order>	2198	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	specular	</typeName>
+								<type>	BOOL	</type>
+								<width>	20	</width>
+								<order>	1392	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	stage	</typeName>
+								<type>	INT	</type>
+								<width>	40	</width>
+								<order>	1058	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	static	</typeName>
+								<type>	BOOL	</type>
+								<width>	20	</width>
+								<order>	1394	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	sun power	</typeName>
+								<type>	FLOAT	</type>
+								<width>	60	</width>
+								<order>	1749	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	sun scale	</typeName>
+								<type>	FLOAT	</type>
+								<width>	60	</width>
+								<order>	1750	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	surface smoothness	</typeName>
+								<type>	FLOAT	</type>
+								<width>	60	</width>
+								<order>	1751	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	text	</typeName>
+								<type>	STRING	</type>
+								<width>	100	</width>
+								<order>	1395	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	texture size	</typeName>
+								<type>	FLOAT	</type>
+								<width>	60	</width>
+								<order>	1753	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	textureFeedName	</typeName>
+								<type>	STRING	</type>
+								<width>	100	</width>
+								<order>	1588	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	timeScale	</typeName>
+								<type>	FLOAT	</type>
+								<width>	60	</width>
+								<order>	1485	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	timeToLive	</typeName>
+								<type>	INT	</type>
+								<width>	40	</width>
+								<order>	1914	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	trapRadius	</typeName>
+								<type>	FLOAT	</type>
+								<width>	60	</width>
+								<order>	1756	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	triggerRadius	</typeName>
+								<type>	FLOAT	</type>
+								<width>	60	</width>
+								<order>	1590	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	tv_off	</typeName>
+								<type>	STRING	</type>
+								<width>	100	</width>
+								<order>	2061	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	type	</typeName>
+								<type>	STRING	</type>
+								<width>	100	</width>
+								<order>	1290	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	use cube map reflections	</typeName>
+								<type>	BOOL	</type>
+								<width>	20	</width>
+								<order>	1759	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	use edge alpha	</typeName>
+								<type>	BOOL	</type>
+								<width>	20	</width>
+								<order>	1760	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	use simulation	</typeName>
+								<type>	BOOL	</type>
+								<width>	20	</width>
+								<order>	1761	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	usedTint	</typeName>
+								<type>	STRING	</type>
+								<width>	100	</width>
+								<order>	1592	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	visibility	</typeName>
+								<type>	STRING	</type>
+								<width>	100	</width>
+								<order>	1763	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	waitSecs	</typeName>
+								<type>	FLOAT	</type>
+								<width>	60	</width>
+								<order>	1059	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	waitTime	</typeName>
+								<type>	FLOAT	</type>
+								<width>	60	</width>
+								<order>	1174	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	wave scale 1	</typeName>
+								<type>	FLOAT	</type>
+								<width>	60	</width>
+								<order>	1766	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	wave scale 2	</typeName>
+								<type>	FLOAT	</type>
+								<width>	60	</width>
+								<order>	1767	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	wave texture	</typeName>
+								<type>	STRING	</type>
+								<width>	100	</width>
+								<order>	1768	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	webScreenType	</typeName>
+								<type>	STRING	</type>
+								<width>	100	</width>
+								<order>	1595	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	width	</typeName>
+								<type>	INT	</type>
+								<width>	40	</width>
+								<order>	1596	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	wind speed	</typeName>
+								<type>	FLOAT	</type>
+								<width>	60	</width>
+								<order>	1771	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	window	</typeName>
+								<type>	STRING	</type>
+								<width>	100	</width>
+								<order>	2371	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	worldMapAnchor	</typeName>
+								<type>	VECTOR	</type>
+								<width>	100	</width>
+								<order>	1175	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	worldMapHeight	</typeName>
+								<type>	FLOAT	</type>
+								<width>	60	</width>
+								<order>	1176	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	worldMapWidth	</typeName>
+								<type>	FLOAT	</type>
+								<width>	60	</width>
+								<order>	1177	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	&#228;&#185;&#152;&#230;&#149;&#176;	</typeName>
+								<type>	FLOAT	</type>
+								<width>	60	</width>
+								<order>	1107	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	&#228;&#186;&#167;&#231;&#148;&#159;&#233;&#152;&#180;&#229;&#189;&#177;	</typeName>
+								<type>	BOOL	</type>
+								<width>	25	</width>
+								<order>	8	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	&#228;&#187;&#133;&#229;&#173;&#152;&#229;&#156;&#168;&#228;&#186;&#142;&#229;&#164;&#150;&#233;&#131;&#168;&#229;&#136;&#134;&#229;&#157;&#151;&#228;&#184;&#173;	</typeName>
+								<type>	BOOL	</type>
+								<width>	20	</width>
+								<order>	1016	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	&#228;&#187;&#133;&#229;&#173;&#152;&#229;&#156;&#168;&#228;&#186;&#142;&#229;&#174;&#162;&#230;&#136;&#183;&#231;&#171;&#175;	</typeName>
+								<type>	BOOL	</type>
+								<width>	20	</width>
+								<order>	1017	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	&#228;&#188;&#152;&#229;&#133;&#136;&#231;&#186;&#167;	</typeName>
+								<type>	INT	</type>
+								<width>	40	</width>
+								<order>	1227	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	&#228;&#189;&#141;&#231;&#189;&#174;	</typeName>
+								<type>	VECTOR	</type>
+								<width>	100	</width>
+								<order>	1018	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	&#229;&#133;&#137;&#230;&#153;&#149;	</typeName>
+								<type>	STRING	</type>
+								<width>	100	</width>
+								<order>	1229	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	&#229;&#134;&#133;&#229;&#190;&#132;	</typeName>
+								<type>	FLOAT	</type>
+								<width>	60	</width>
+								<order>	1230	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	&#229;&#138;&#168;&#230;&#128;&#129;	</typeName>
+								<type>	BOOL	</type>
+								<width>	20	</width>
+								<order>	1231	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	&#229;&#138;&#168;&#231;&#148;&#187;	</typeName>
+								<type>	STRING	</type>
+								<width>	100	</width>
+								<order>	1019	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	&#229;&#138;&#168;&#231;&#148;&#187;&#233;&#128;&#159;&#229;&#186;&#166;	</typeName>
+								<type>	FLOAT	</type>
+								<width>	60	</width>
+								<order>	1020	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	&#229;&#164;&#150;&#229;&#190;&#132;	</typeName>
+								<type>	FLOAT	</type>
+								<width>	60	</width>
+								<order>	1234	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	&#230;&#150;&#135;&#228;&#187;&#182;&#229;&#144;&#141;	</typeName>
+								<type>	STRING	</type>
+								<width>	100	</width>
+								<order>	1021	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	&#230;&#150;&#185;&#229;&#144;&#145;	</typeName>
+								<type>	VECTOR	</type>
+								<width>	100	</width>
+								<order>	1022	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	&#230;&#151;&#139;&#232;&#189;&#172;	</typeName>
+								<type>	VECTOR	</type>
+								<width>	100	</width>
+								<order>	1023	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	&#230;&#152;&#190;&#231;&#164;&#186;&#229;&#128;&#146;&#229;&#189;&#177;	</typeName>
+								<type>	BOOL	</type>
+								<width>	25	</width>
+								<order>	11	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	&#230;&#156;&#128;&#229;&#144;&#142;&#229;&#143;&#145;&#231;&#148;&#159;&#231;&#154;&#132;&#232;&#132;&#154;&#230;&#156;&#172;&#233;&#148;&#153;&#232;&#175;&#175;	</typeName>
+								<type>	STRING	</type>
+								<width>	100	</width>
+								<order>	1024	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	&#230;&#156;&#128;&#229;&#164;&#167;&#232;&#183;&#157;&#231;&#166;&#187;	</typeName>
+								<type>	FLOAT	</type>
+								<width>	60	</width>
+								<order>	1239	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	&#230;&#168;&#161;&#229;&#158;&#139;&#229;&#144;&#141;&#231;&#167;&#176;	</typeName>
+								<type>	STRING	</type>
+								<width>	100	</width>
+								<order>	1025	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	&#230;&#183;&#161;&#229;&#135;&#186;&#233;&#128;&#159;&#229;&#186;&#166;	</typeName>
+								<type>	FLOAT	</type>
+								<width>	60	</width>
+								<order>	1241	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	&#231;&#177;&#187;&#229;&#158;&#139;	</typeName>
+								<type>	STRING	</type>
+								<width>	100	</width>
+								<order>	1026	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	&#231;&#178;&#146;&#229;&#173;&#144;&#229;&#144;&#141;&#231;&#167;&#176;	</typeName>
+								<type>	STRING	</type>
+								<width>	100	</width>
+								<order>	1071	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	&#231;&#188;&#169;&#230;&#148;&#190;	</typeName>
+								<type>	VECTOR	</type>
+								<width>	100	</width>
+								<order>	1027	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	&#232;&#174;&#161;&#231;&#174;&#151;&#233;&#152;&#180;&#229;&#189;&#177;	</typeName>
+								<type>	BOOL	</type>
+								<width>	20	</width>
+								<order>	1028	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	&#232;&#181;&#132;&#230;&#186;&#144; comments	</typeName>
+								<type>	STRING	</type>
+								<width>	100	</width>
+								<order>	1029	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	&#232;&#181;&#132;&#230;&#186;&#144; copyright	</typeName>
+								<type>	STRING	</type>
+								<width>	100	</width>
+								<order>	1030	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	&#232;&#181;&#132;&#230;&#186;&#144; created by	</typeName>
+								<type>	STRING	</type>
+								<width>	100	</width>
+								<order>	1031	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	&#232;&#181;&#132;&#230;&#186;&#144; created on	</typeName>
+								<type>	DATE_STRING	</type>
+								<width>	100	</width>
+								<order>	1032	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	&#232;&#181;&#132;&#230;&#186;&#144; description	</typeName>
+								<type>	STRING	</type>
+								<width>	100	</width>
+								<order>	1033	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	&#232;&#181;&#132;&#230;&#186;&#144; modified by	</typeName>
+								<type>	STRING	</type>
+								<width>	100	</width>
+								<order>	1034	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	&#232;&#181;&#132;&#230;&#186;&#144; modified on	</typeName>
+								<type>	DATE_STRING	</type>
+								<width>	100	</width>
+								<order>	1035	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	&#232;&#183;&#175;&#231;&#130;&#185;	</typeName>
+								<type>	STRING	</type>
+								<width>	100	</width>
+								<order>	1036	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	&#232;&#183;&#175;&#231;&#130;&#185;&#229;&#155;&#190;	</typeName>
+								<type>	STRING	</type>
+								<width>	100	</width>
+								<order>	1037	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	&#233;&#149;&#156;&#233;&#157;&#162;	</typeName>
+								<type>	BOOL	</type>
+								<width>	20	</width>
+								<order>	1255	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	&#233;&#157;&#153;&#230;&#128;&#129;	</typeName>
+								<type>	BOOL	</type>
+								<width>	20	</width>
+								<order>	1257	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	&#233;&#157;&#162;&#231;&#167;&#175;	</typeName>
+								<type>	FLOAT	</type>
+								<width>	60	</width>
+								<order>	1259	</order>
+								<visible>	false	</visible>
+							</State>
+							<State>
+								<typeName>	&#233;&#162;&#156;&#232;&#137;&#178;	</typeName>
+								<type>	COLOUR	</type>
+								<width>	100	</width>
+								<order>	1131	</order>
+								<visible>	false	</visible>
+							</State>
+						</Columns>
+					</List>
+				</ContentData>
+			</Tab>
+			<Tab>
+				<visible>	true	</visible>
+				<contentID>	PagePostProcessing	</contentID>
+				<ContentData>
+					<layout>	TALL	</layout>
+					<chainSplitterSize>	180	</chainSplitterSize>
+					<graphSplitterSize>	57	</graphSplitterSize>
+				</ContentData>
+			</Tab>
+		</Panel>
+		<Panel>
+			<lastX>	300	</lastX>
+			<lastY>	200	</lastY>
+			<lastWidth>	298	</lastWidth>
+			<lastHeight>	205	</lastHeight>
+			<expanded>	true	</expanded>
+			<expandedSize>	100	</expandedSize>
+			<floating>	false	</floating>
+			<Tab>
+				<visible>	true	</visible>
+				<contentID>	GUITABS::ContentContainer	</contentID>
+				<ContentData>
+					<Subcontent>	PageObjects
+						<current>	true	</current>
+						<SubcontentData>	</SubcontentData>
+					</Subcontent>
+					<Subcontent>	PageTerrainTexture
+						<SubcontentData>	</SubcontentData>
+					</Subcontent>
+					<Subcontent>	PageTerrainHeight
+						<SubcontentData>	</SubcontentData>
+					</Subcontent>
+					<Subcontent>	PageTerrainFilter
+						<SubcontentData>	</SubcontentData>
+					</Subcontent>
+					<Subcontent>	PageTerrainMesh
+						<SubcontentData>	</SubcontentData>
+					</Subcontent>
+					<Subcontent>	PageTerrainImport
+						<SubcontentData>	</SubcontentData>
+					</Subcontent>
+					<Subcontent>	PageProject
+						<SubcontentData>	</SubcontentData>
+					</Subcontent>
+				</ContentData>
+			</Tab>
+		</Panel>
+		<Tree>
+			<Splitter>
+				<layoutVertical>	false	</layoutVertical>
+				<Left>
+					<size>	1291	</size>
+					<MainView>	Main Application View Window	</MainView>
+				</Left>
+				<Right>
+					<size>	298	</size>
+					<Splitter>
+						<layoutVertical>	true	</layoutVertical>
+						<Left>
+							<size>	205	</size>
+							<DockedPanel>
+								<index>	1	</index>
+							</DockedPanel>
+						</Left>
+						<Right>
+							<size>	519	</size>
+							<DockedPanel>
+								<index>	0	</index>
+							</DockedPanel>
+						</Right>
+					</Splitter>
+				</Right>
+			</Splitter>
+		</Tree>
+	</Dock>
+</root>

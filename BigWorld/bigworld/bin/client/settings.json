@@ -1,0 +1,18 @@
+{
+    "aspectRatio": "16:9", 
+    "eula_accepted": true, 
+    "fullscreen": false, 
+    "inventoryFilter": 63, 
+    "itemcacheFilter": 63, 
+    "keybindings": {}, 
+    "mouseInvert": false, 
+    "mouseSensitivity": 0.15789473684210528, 
+    "musicVolume": 1.0, 
+    "pp_chain": 0, 
+    "preset": 4, 
+    "screenHeight": 900, 
+    "screenWidth": 1600, 
+    "sfxVolume": 1.0, 
+    "tradeFilter": 63, 
+    "username": ""
+}

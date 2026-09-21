@@ -1,0 +1,107 @@
+<root>
+	<graphicsPreferences>
+		<deviceGUID>	D7B71EE2.11CF2A79.32F4743E.35D7C24A	</deviceGUID>
+		<entry>
+			<label>	SKY_LIGHT_MAP	</label>
+			<activeOption>	0	</activeOption>
+		</entry>
+		<entry>
+			<label>	MRT_DEPTH	</label>
+			<activeOption>	0	</activeOption>
+		</entry>
+		<entry>
+			<label>	SHADER_VERSION_CAP	</label>
+			<activeOption>	0	</activeOption>
+		</entry>
+		<entry>
+			<label>	TEXTURE_QUALITY	</label>
+			<activeOption>	1	</activeOption>
+		</entry>
+		<entry>
+			<label>	TEXTURE_COMPRESSION	</label>
+			<activeOption>	0	</activeOption>
+		</entry>
+		<entry>
+			<label>	TEXTURE_FILTERING	</label>
+			<activeOption>	0	</activeOption>
+		</entry>
+		<entry>
+			<label>	MORPH_VERTICES	</label>
+			<activeOption>	0	</activeOption>
+		</entry>
+		<entry>
+			<label>	SHADOWS_QUALITY	</label>
+			<activeOption>	0	</activeOption>
+		</entry>
+		<entry>
+			<label>	SHADOWS_COUNT	</label>
+			<activeOption>	4	</activeOption>
+		</entry>
+		<entry>
+			<label>	WEB_SETTINGS	</label>
+			<activeOption>	0	</activeOption>
+		</entry>
+		<entry>
+			<label>	TERRAIN_LOD	</label>
+			<activeOption>	0	</activeOption>
+		</entry>
+		<entry>
+			<label>	TERRAIN_MESH_RESOLUTION	</label>
+			<activeOption>	0	</activeOption>
+		</entry>
+		<entry>
+			<label>	SPEEDTREE_QUALITY	</label>
+			<activeOption>	0	</activeOption>
+		</entry>
+		<entry>
+			<label>	WATER_QUALITY	</label>
+			<activeOption>	0	</activeOption>
+		</entry>
+		<entry>
+			<label>	WATER_SIMULATION	</label>
+			<activeOption>	0	</activeOption>
+		</entry>
+		<entry>
+			<label>	FOOT_PRINTS	</label>
+			<activeOption>	0	</activeOption>
+		</entry>
+		<entry>
+			<label>	CLASSIC_TERRAIN_QUALITY	</label>
+			<activeOption>	0	</activeOption>
+		</entry>
+		<entry>
+			<label>	FAR_PLANE	</label>
+			<activeOption>	0	</activeOption>
+		</entry>
+		<entry>
+			<label>	FLORA_DENSITY	</label>
+			<activeOption>	1	</activeOption>
+		</entry>
+		<entry>
+			<label>	OBJECT_LOD	</label>
+			<activeOption>	0	</activeOption>
+		</entry>
+		<entry>
+			<label>	POST_PROCESSING	</label>
+			<activeOption>	0	</activeOption>
+		</entry>
+	</graphicsPreferences>
+	<appPreferences>
+		<mainThreadCpuAffinity>	0	</mainThreadCpuAffinity>
+	</appPreferences>
+	<devicePreferences>
+		<windowed>	true	</windowed>
+		<waitVSync>	true	</waitVSync>
+		<tripleBuffering>	true	</tripleBuffering>
+		<aspectRatio>	1.333333	</aspectRatio>
+		<windowedWidth>	1600	</windowedWidth>
+		<windowedHeight>	838	</windowedHeight>
+		<fullscreenWidth>	1024	</fullscreenWidth>
+		<fullscreenHeight>	768	</fullscreenHeight>
+	</devicePreferences>
+	<scriptsPreferences>	</scriptsPreferences>
+	<consoleHistory>
+		<line>	import\sBigWorld	</line>
+		<line>	BigWorld.ime.enabled\s=\sTrue	</line>
+	</consoleHistory>
+</root>

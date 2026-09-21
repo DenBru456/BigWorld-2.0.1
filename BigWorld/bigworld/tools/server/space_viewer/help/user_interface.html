@@ -1,0 +1,127 @@
+<html>
+<body>
+
+<h2>User Interface</h2>
+
+<h3>Space Window</h3>
+
+<b>Title Bar</b>
+
+<p>
+<img src="space_window_title.png">
+
+<p>
+The title bar of the Space window provides constantly updating information
+regarding the state of the space and the server.
+
+<p>
+<b>Cell Information</b>
+
+<p>
+<img src="space_window_display_info.png">
+
+<p>
+For each cell within the space, the above information is displayed. This allows
+a constant update as to the load of the CellApps managing a space and gives
+live feedback as to how the load balancing is responding in response to
+events. This information can be extremely useful when combined with the
+entity view illustrated below that demonstrates entity density within a space.
+
+
+<p>
+<b>Main Space Display</b>
+
+<p>
+<img src="space_window_display.png">
+
+<p>
+The main space display contains a lot of constantly updating information
+about the space. The image above illustrates the core information that is
+visible by default.
+
+
+<ul>
+<li><b>Space resource name:</b> The res path of the space geometry mapping.
+<li><b>Chunk grid boundaries:</b> The loaded chunk boundaries of the currently selected cell.
+<li><b>Ghosted entities:</b> Entities that exist on surrounding cells but are still accessible in the AoI of the real entities.
+<li><b>Real entities:</b> Entities that reside within the coordinate space of the currently selected cell.
+<li><b>Scale information:</b> An indication as to the current zoom level of the space window.
+</ul>
+
+
+<h3>Status Bar</h3>
+
+<img src="status_bar.png">
+
+<p>
+The status bar is located at the bottom of the Space windows. It provides 
+constantly updating information about the active space, cell and entities.
+
+<p>
+<b>Action Notification</b>
+
+<p>
+<img src="status_bar_action.png">
+
+<p>
+<img src="status_bar_action_history.png">
+
+
+<p>
+<img src="status_bar_action_toggle.png">
+
+
+<p>
+There are a number of state changes that can occur while interacting with the
+space window. As some of the actions may be slightly delayed due to latency
+when connecting to a remote SVLogger process, or simply non-obvious due to
+a new user, the action notification area presents a notification of the last
+major interaction the user performed within the space window.
+
+
+
+
+<p>
+<b>Cursor Position</b>
+
+<p>
+<img src="status_bar_position.png">
+
+<p>
+While moving the mouse around the Space window, this position will update with
+the current cursor position to assist in identifying the location of entities.
+
+
+<p>
+<b>Entity Count</b>
+
+<p>
+<img src="status_bar_entities_total.png">
+
+<p>
+When no cell is selected in a space view, the total number of entities in the
+space is displayed. This allows quick context as to the density of the space.
+
+<p>
+<img src="status_bar_entities_cell.png">
+
+<p>
+Selecting a cell refines the entity count to display the number of entities
+that exist within the space. The image above illustrates there are 121 real
+entities within the selected cell and 15 entities that have been ghosted from
+the surrounding cells.
+
+
+<p>
+<b>Currently Viewing Log Time</b>
+
+<p>
+<img src="status_bar_time.png">
+
+<p>
+When navigating through historic space logs (using the arrow keys to navigate
+time), this status area displays the time currently being displayed. This can
+assist in giving context when attempting to identify key events within a space.
+
+</body>
+</html>

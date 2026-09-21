@@ -1,0 +1,215 @@
+
+#navigation
+{
+	width:	195px;
+}
+
+
+.help
+{
+	margin-top: 5px;
+	border-top: 2px solid black;
+}
+
+.help-index ul
+{
+	list-style-type: decimal;
+}
+
+
+/*----- BODY ----*/
+div.help 
+{
+	max-width:	600px;
+}
+
+/*----- BASIC PARAGRAPH  -----*/
+.help p      
+{
+	margin-top:		6pt;
+	margin-left:	0pt;
+	margin-bottom:	6pt;
+}
+
+
+/*----- HEADINGS -----*/
+
+.help h2 
+{
+	margin-left:	0pt;
+	margin-top:		12.0pt;
+	margin-right:	00pt;
+	margin-bottom:	12pt;
+	font-size:		12.0pt;
+	font-family:	Arial;
+	padding-left:	2pt;
+	padding-top:	2pt;
+	padding-bottom:	2pt;
+	border-bottom:	2pt solid black;
+}
+
+.help h3 
+{
+	margin-left:	0pt;
+	margin-top:		12.0pt;
+	margin-right:	0pt;
+	margin-bottom:	3pt;
+	font-size:		11.0pt;
+	font-family:	Arial;
+	padding-left:	2pt;
+	padding-top:	2pt;
+	padding-bottom:	2pt;
+	border-bottom:	1pt solid black;
+}
+
+.help h4 
+{
+	margin-left:	0pt;
+	margin-top:		12.0pt;
+	margin-right:	0pt;
+	margin-bottom:	3pt;
+	font-size:		9.0pt;
+	font-family:	Arial;
+	padding-left:	2pt;
+	padding-top:	2pt;
+	padding-bottom:	2pt;
+	border-bottom:	1pt solid black;
+}
+
+/*----- LISTS -----*/
+.help li  
+{ 
+	list-style-type:	square;
+	margin-left:		-10pt;
+	margin-top:			05pt;
+	margin-bottom:		03pt;
+}
+
+/*----- ALTERNATE TABLE -----*/
+.help table.alternate
+{
+	font-size:			90%; 
+	margin-left:		12pt; 
+	margin-right:		0pt; 
+	border:				none; 
+	width:				95%; 
+}
+
+.help table.alternate th
+{
+	padding:			3.0pt; 
+	font-weight:		bold; 
+	color:				white; 
+	background:			black; 
+	border:				none; 
+}
+
+.help table.alternate th.FirstCol
+{
+	padding:			3.0pt; 
+	font-weight:		bold; 
+	color:				white; 
+	background:			black; 
+	border:				none; 
+	border-right:		1pt solid white;
+}
+
+.help table.alternate th.MidCol
+{
+	padding:			3.0pt; 
+	font-weight:		bold; 
+	color:				white; 
+	background:			black; 
+	border:				none; 
+	border-right:		1pt solid white;
+}
+
+.help table.alternate td.oddRow
+{
+	vertical-align:		top; 
+	padding:			3.0pt; 
+	background:			white;   
+	border-top:			none; 
+	border-left:		none;            
+	border-bottom:		1pt solid black; 
+	border-right:		1pt solid black;
+}
+
+.help table.alternate td.oddRow1stCol
+{
+	vertical-align:		top; 
+	padding:			3.0pt; 
+	background:			white;   
+	border-top:			none; 
+	border-left:		1pt solid black; 
+	border-bottom:		1pt solid black; 
+	border-right:		1pt solid black;
+}
+
+.help table.alternate td.evnRow
+{
+	vertical-align:		top; 
+	padding:			3.0pt; 
+	background:			#E6F1FE; 
+	border-top:			none; 
+	border-left:		none;            
+	border-bottom:		1pt solid black; 
+	border-right:		1pt solid black;
+}
+
+.help table.alternate td.evnRow1stCol
+{
+	vertical-align:		top; 
+	padding:			3.0pt; 
+	background:			#E6F1FE; 
+	border-top:			none; 
+	border-left:		1pt solid black; 
+	border-bottom:		1pt solid black; 
+	border-right:		1pt solid black;
+}
+
+.help table.alternate td
+{
+	font-size:	90%; 
+}
+
+.help table.alternate td p
+{
+	margin-left:	0.0pt; 
+	margin-top:		3.0pt; 
+	margin-bottom:	0.0pt;
+}
+
+.help table.alternate td p.lvl2
+{
+	font-size:		100%; 
+	margin-left:	6.0pt; 
+	margin-top:		3.0pt; 
+	margin-bottom:	0.0pt;
+}
+
+.help table.alternate td ul
+{
+	margin-top:		0pt; 
+	margin-bottom:	1pt; 
+}
+
+/*----- ALTERNATE TABLE INSIDE ALTERNATE TABLE -----*/
+.help table.alternate table.alternate
+{
+	font-size:		100%; 
+	margin-top:		3.0pt; 
+}
+
+.help table.alternate table.alternate td
+{
+	font-size:	100%; 
+}
+
+.help table.alternate table.alternate td p.lvl2
+{
+	font-size:	100%; 
+}
+
+
+

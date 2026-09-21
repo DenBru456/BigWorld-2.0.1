@@ -1,0 +1,16 @@
+<default.brush>
+	<type>	TerrainPainting	</type>
+	<texture>	</texture>
+	<strength>	100.000000	</strength>
+	<size>	10.000000	</size>
+	<uProjection>	10.000001 0.000000 0.000000 0.000000	</uProjection>
+	<vProjection>	0.000000 0.000000 10.000001 0.000000	</vProjection>
+	<opacity>	255	</opacity>
+	<uvLocked>	true	</uvLocked>
+	<heightMask>	false	</heightMask>
+	<slopeMask>	false	</slopeMask>
+	<textureMask>	false	</textureMask>
+	<noiseMask>	false	</noiseMask>
+	<maxLayerLimit>	false	</maxLayerLimit>
+	<maxLayers>	4	</maxLayers>
+</default.brush>

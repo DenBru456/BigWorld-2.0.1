@@ -1,0 +1,64 @@
+
+/------------------------------------------------------------------------------\
+ParticleEditor Hybrid (compiled at Oct  9 2010 at 07:54:09) starting on Wed Apr 20 20:43:43 2016
+ParticleEditor.init()
+PostProcessing.init()
+PostProcessing: computeBuffer1 (112 x 24)
+PostProcessing: computeBuffer2 (112 x 24)
+PostProcessing: backBufferCopy (899 x 197)
+PostProcessing: downSample1 (449 x 98)
+PostProcessing: downSample3 (112 x 24)
+PostProcessing: downSample2 (224 x 49)
+PostProcessing: total memory used by default RenderTargets : 1.83 MB
+ParticleEditor.fini()
+PostProcessing.fini()
+RenderTargets.fini()
+PostProcessing.Phases.fini()
+
+/------------------------------------------------------------------------------\
+ParticleEditor Hybrid (compiled at Oct  9 2010 at 07:54:09) starting on Wed Apr 20 20:43:51 2016
+ParticleEditor.init()
+PostProcessing.init()
+PostProcessing: computeBuffer1 (112 x 24)
+PostProcessing: computeBuffer2 (112 x 24)
+PostProcessing: backBufferCopy (899 x 197)
+PostProcessing: downSample1 (449 x 98)
+PostProcessing: downSample3 (112 x 24)
+PostProcessing: downSample2 (224 x 49)
+PostProcessing: total memory used by default RenderTargets : 1.83 MB
+ParticleEditor.fini()
+PostProcessing.fini()
+RenderTargets.fini()
+PostProcessing.Phases.fini()
+
+/------------------------------------------------------------------------------\
+ParticleEditor Hybrid (compiled at Oct  9 2010 at 07:54:09) starting on Sun Oct 25 00:26:48 2020
+ParticleEditor.init()
+PostProcessing.init()
+PostProcessing: computeBuffer1 (152 x 47)
+PostProcessing: computeBuffer2 (152 x 47)
+PostProcessing: backBufferCopy (1219 x 378)
+PostProcessing: downSample1 (609 x 189)
+PostProcessing: downSample3 (152 x 47)
+PostProcessing: downSample2 (304 x 94)
+PostProcessing: total memory used by default RenderTargets : 4.78 MB
+ParticleEditor.fini()
+PostProcessing.fini()
+RenderTargets.fini()
+PostProcessing.Phases.fini()
+
+/------------------------------------------------------------------------------\
+ParticleEditor Hybrid (compiled at Oct  9 2010 at 07:54:09) starting on Sun Oct 25 00:26:57 2020
+ParticleEditor.init()
+PostProcessing.init()
+PostProcessing: computeBuffer1 (152 x 47)
+PostProcessing: computeBuffer2 (152 x 47)
+PostProcessing: backBufferCopy (1219 x 378)
+PostProcessing: downSample1 (609 x 189)
+PostProcessing: downSample3 (152 x 47)
+PostProcessing: downSample2 (304 x 94)
+PostProcessing: total memory used by default RenderTargets : 4.78 MB
+ParticleEditor.fini()
+PostProcessing.fini()
+RenderTargets.fini()
+PostProcessing.Phases.fini()

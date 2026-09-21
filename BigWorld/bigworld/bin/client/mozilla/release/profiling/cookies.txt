@@ -1,0 +1,8 @@
+# HTTP Cookie File
+# http://www.netscape.com/newsref/std/cookie_spec.html
+# This is a generated file!  Do not edit.
+# To delete cookies, use the Cookie Manager.
+
+.google.com	TRUE	/	TRUE	1609147788	1P_JAR	2020-11-28-09
+#HttpOnly_.google.com	TRUE	/	FALSE	1620039494	NID	204=kd_K_4GBNPGcNGHVWALb8FHTzaKt5EQhZHjzWlQNJ_nF_5cT7t9t5KyezaHHJ43bLJwDJ8plje5qeqLzy6LWg2HOI6AtSLf1MK82NYEjXMozI2Zlwo_auqMkWZ0Rl8Lx1AL1eG5X6uogQxffEJrYCkek2nF6TWq7mwA2WKE1YSY
+www.tv.com	FALSE	/	FALSE	1635678016	csrftoken	4386ee119e8893d3e8e31a5ef33893bf

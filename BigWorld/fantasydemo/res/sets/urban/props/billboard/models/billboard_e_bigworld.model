@@ -1,0 +1,14 @@
+<billboard_e_bigworld.model>
+	<materialNames>	</materialNames>
+	<extent>	550.000000	</extent>
+	<visibilityBox>
+		<min>	0.409597 -0.000001 -0.000004	</min>
+		<max>	17.655056 0.133114 8.474421	</max>
+	</visibilityBox>
+	<nodelessVisual>	sets/urban/props/billboard/models/billboard_e_bigworld	</nodelessVisual>
+	<metaData>
+		<copyright>	Copyright BigWorld Pty Ltd.  Use freely in any BigWorld licensed game.	</copyright>
+		<modified_by>	adamm	</modified_by>
+		<modified_on>	1254376826	</modified_on>
+	</metaData>
+</billboard_e_bigworld.model>

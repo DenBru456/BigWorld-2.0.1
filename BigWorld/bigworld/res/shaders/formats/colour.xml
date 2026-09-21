@@ -1,0 +1,7 @@
+<colour.xml>
+  <COLOR>
+    <stream> 11 </stream>
+    <offset> 0 </offset>
+		<type> D3DCOLOR </type>
+	</COLOR>
+</colour.xml>

@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<root>
+	<currentVersion> 1.0 </currentVersion>
+	<targets>
+		<target name="your_game_res"> 1.0 </target>
+		<target name="your_game_bin"> 1.0 </target>
+		<target name="bigworld_res"> 1.9.4.0 </target>
+	</targets>
+</root>

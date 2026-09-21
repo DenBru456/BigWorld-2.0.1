@@ -1,0 +1,8 @@
+<uv2.xml>
+	<TEXCOORD>
+		1
+        <stream> 10 </stream>
+        <offset> 0 </offset>
+		<type> FLOAT2 </type>
+	</TEXCOORD>
+</uv2.xml>

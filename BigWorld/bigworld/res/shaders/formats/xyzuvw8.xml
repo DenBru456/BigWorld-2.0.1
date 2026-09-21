@@ -1,0 +1,35 @@
+<xyzuvw8.xml>
+	<POSITION/>
+	<TEXCOORD>
+		0
+		<type> FLOAT3 </type>
+	</TEXCOORD>
+	<TEXCOORD>
+		1
+		<type> FLOAT3 </type>
+	</TEXCOORD>
+	<TEXCOORD>
+		2
+		<type> FLOAT3 </type>
+	</TEXCOORD>
+	<TEXCOORD>
+		3
+		<type> FLOAT3 </type>
+	</TEXCOORD>
+	<TEXCOORD>
+		4
+		<type> FLOAT3 </type>
+	</TEXCOORD>
+	<TEXCOORD>
+		5
+		<type> FLOAT3 </type>
+	</TEXCOORD>
+	<TEXCOORD>
+		6
+		<type> FLOAT3 </type>
+	</TEXCOORD>
+	<TEXCOORD>
+		7
+		<type> FLOAT3 </type>
+	</TEXCOORD>
+</xyzuvw8.xml>

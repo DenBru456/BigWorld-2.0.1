@@ -1,0 +1,48 @@
+<html>
+<body>
+
+<h2>Replaying Data from SVLogger</h2>
+
+
+When replaying data from SVLogger some new keys are used for navigating
+through the logs. The following list outlines the keys and their functionality:
+
+<p>
+<ul>
+
+<li><b><code>LEFT ARROW</code></b>: Moves the playback 1 second backwards.
+
+<li><b><code>RIGHT ARROW</code></b>: Moves the playback 1 second forward.
+
+<li><b><code>UP ARROW</code></b>: Moves the playback 60 seconds backwards.
+
+<li><b><code>DOWN ARROW</code></b>: Moves the playback 60 seconds forward.
+
+<li><b><code>Home</code></b>: Moves the playback to the beginning of the log.
+
+<li><b><code>End</code></b>: Moves the playback to the end of the log.
+
+<li><b><code>Ctrl+L</code></b>: Prompts the user to select a command log file. See below for more info.
+
+<li><b><code>Ctrl+W</code></b>: Prompts the user to enter a time to warp the playback to.
+
+</ul>
+
+
+<h3><a name="logfile">Command Log Files</a></h3>
+
+<p>
+Command log files can be any file in which each line contains date / time
+string such as <code>'Thu Nov 17 17:45:45 2005'</code>. These timestamps are
+used for navigating through a saved space log file.
+
+<p>
+Once a command file has been selected, the script will display all logged
+events contained in the log file, and prompt the user to select one.
+
+<p>
+Once a specific event has selected, playback time will be warped to the
+time of selected event.
+
+</body>
+</html>

@@ -1,0 +1,1455 @@
+? .mozconfig
+? .mozconfig.debug
+? .mozconfig.mk
+? .mozconfig.optimized
+? changes.txt
+? file_list
+? linden.patch
+? mozilla_diff.txt
+? gfx/cairo/cairo/doc/public
+? security/nss/cmd/shlibsign/NONE
+? security/nss/cmd/shlibsign/mangle/NONE
+? security/nss/lib/ckfw/builtins/NONE
+? security/nss/lib/nss/NONE
+? security/nss/lib/smime/NONE
+? security/nss/lib/ssl/NONE
+? security/nss-fips/lib/freebl/NONE
+? security/nss-fips/lib/softoken/NONE
+Index: configure
+===================================================================
+RCS file: /cvsroot/mozilla/configure,v
+retrieving revision 1.1492.2.130
+diff -r1.1492.2.130 configure
+3024a3025,3026
+>         elif test "$_CC_MAJOR_VERSION" = "15"; then
+>             _CC_SUITE=9
+14417c14419
+<             { echo "configure: error: Building crypto support requires a valid version of the standalone assembler (ml.exe for MSVC)." 1>&2; exit 1; }
+---
+>             { echo "configure: error: Building crypto support requires a valid version of the standalone assembler $target (ml.exe for MSVC)." 1>&2; exit 1; }
+Index: configure.in
+===================================================================
+RCS file: /cvsroot/mozilla/configure.in,v
+retrieving revision 1.1503.2.112
+diff -r1.1503.2.112 configure.in
+427a428,429
+>         elif test "$_CC_MAJOR_VERSION" = "15"; then
+>             _CC_SUITE=9
+4872c4874
+<             AC_MSG_ERROR([Building crypto support requires a valid version of the standalone assembler (ml.exe for MSVC).])
+---
+>             AC_MSG_ERROR([Building crypto support requires a valid version of the standalone assembler $target $AS_BIN (ml.exe for MSVC).])
+Index: gfx/src/windows/nsRenderingContextWin.cpp
+===================================================================
+RCS file: /cvsroot/mozilla/gfx/src/windows/Attic/nsRenderingContextWin.cpp,v
+retrieving revision 3.177.4.3
+diff -r3.177.4.3 nsRenderingContextWin.cpp
+53c53
+<   #define BREAK_TO_DEBUGGER           DebugBreak()
+---
+>   #define BREAK_TO_DEBUGGER           
+Index: js/src/jsutil.c
+===================================================================
+RCS file: /cvsroot/mozilla/js/src/jsutil.c,v
+retrieving revision 3.21.4.4
+diff -r3.21.4.4 jsutil.c
+58c58
+<     DebugBreak();
+---
+>     //    DebugBreak();
+Index: layout/generic/nsObjectFrame.cpp
+===================================================================
+RCS file: /cvsroot/mozilla/layout/generic/nsObjectFrame.cpp,v
+retrieving revision 1.510.2.17
+diff -r1.510.2.17 nsObjectFrame.cpp
+1787,1817c1787,1797
+< NS_IMETHODIMP
+< nsObjectFrame::Paint(nsPresContext*       aPresContext,
+<                      nsIRenderingContext& aRenderingContext,
+<                      const nsRect&        aDirtyRect,
+<                      nsFramePaintLayer    aWhichLayer,
+<                      PRUint32             aFlags)
+< {
+<   if (!GetStyleVisibility()->IsVisibleOrCollapsed())
+<     return NS_OK;
+<   
+<   nsIFrame * child = mFrames.FirstChild();
+<   if (child) {    // if we have children, we are probably not really a plugin
+<     nsObjectFrameSuper::Paint(aPresContext, aRenderingContext, aDirtyRect, aWhichLayer);
+<     return NS_OK;
+<   }
+< 
+<   // If we are painting in Print Preview do nothing....
+<   if (aPresContext->Type() == nsPresContext::eContext_PrintPreview) {
+<     return NS_OK;
+<   }
+< 
+<   // determine if we are printing
+<   if (aPresContext->Type() == nsPresContext::eContext_Print) {
+<     // UNIX Plugins can't PP at this time, so draw an empty box
+<     // we only want to print on the content layer pass
+<     if (eFramePaintLayer_Content != aWhichLayer)
+<       return NS_OK;
+< 
+<     // if we are printing, we need to get the correct nsIPluginInstance
+<     // for THIS content node in order to call ->Print() on the right plugin
+< 
+---
+> // set values for aPlugWin, aPlugPrint and aPlugInstance
+> nsresult
+> nsObjectFrame::SetupPrinting(nsIRenderingContext& aRenderingContext,
+>                              nsPresContext *aPresContext,
+>                              nsPluginWindow &aPlugWin,
+>                              nsPluginPrint  &aPlugPrint,
+>                              nsIPluginInstance *&aPlugInstance) {
+>   // We need to make sure we have the right frame for the plugin. This
+>   //   seems silly, but it is actually necessary on some pages. We 
+>   //   will actually get a null mPluginInstanceOwner sometimes if we
+>   //   don't do this.
+1840,1842c1820,1823
+<     // finally we can get our plugin instance
+<     nsCOMPtr<nsIPluginInstance> pi;
+<     if (NS_FAILED(objectFrame->GetPluginInstance(*getter_AddRefs(pi))) || !pi)
+---
+>   // finally, get our plugin instance
+>   nsCOMPtr<nsIPluginInstance> tempPluginInstance;
+>   if (NS_FAILED(objectFrame->GetPluginInstance(*getter_AddRefs(tempPluginInstance))) ||
+>       !tempPluginInstance)
+1843a1825
+>   NS_IF_ADDREF(aPlugInstance = tempPluginInstance);
+1846,1847d1827
+<     nsresult rv;
+<     nsPluginWindow    window;
+1850c1830
+<     window.window =   nsnull;
+---
+>   aPlugWin.window = nsnull;
+1853,1854c1833
+<     nsPluginPrint npprint;
+<     npprint.mode = nsPluginMode_Embedded;
+---
+>   aPlugPrint.mode = nsPluginMode_Embedded;
+1858,1859c1837,1838
+<     pi->GetValue(nsPluginInstanceVariable_WindowlessBool, (void *)&windowless);
+<     window.type  =  windowless ? nsPluginWindowType_Drawable : nsPluginWindowType_Window;
+---
+>   aPlugInstance->GetValue(nsPluginInstanceVariable_WindowlessBool, (void *)&windowless);
+>   aPlugWin.type  =  windowless ? nsPluginWindowType_Drawable : nsPluginWindowType_Window;
+1871,1876c1850,1897
+<     window.x = origin.x;
+<     window.y = origin.y;
+<     window.width = NSToCoordRound(mRect.width * t2p);
+<     window.height= NSToCoordRound(mRect.height * t2p);
+<     window.clipRect.bottom = 0; window.clipRect.top = 0;
+<     window.clipRect.left = 0; window.clipRect.right = 0;
+---
+>   aPlugWin.x = origin.x;
+>   aPlugWin.y = origin.y;
+>   aPlugWin.width = NSToCoordRound(mRect.width * t2p);
+>   aPlugWin.height= NSToCoordRound(mRect.height * t2p);
+>   aPlugWin.clipRect.bottom = 0; aPlugWin.clipRect.top = 0;
+>   aPlugWin.clipRect.left = 0; aPlugWin.clipRect.right = 0;
+>   aPlugPrint.print.embedPrint.window = aPlugWin;
+> 
+>   return NS_OK;
+> }
+> 
+> NS_IMETHODIMP
+> nsObjectFrame::Paint(nsPresContext*       aPresContext,
+>                      nsIRenderingContext& aRenderingContext,
+>                      const nsRect&        aDirtyRect,
+>                      nsFramePaintLayer    aWhichLayer,
+>                      PRUint32             aFlags)
+> {
+>   if (!GetStyleVisibility()->IsVisibleOrCollapsed())
+>     return NS_OK;
+>   
+>   nsIFrame * child = mFrames.FirstChild();
+>   if (child) {    // if we have children, we are probably not really a plugin
+>     nsObjectFrameSuper::Paint(aPresContext, aRenderingContext, aDirtyRect, aWhichLayer);
+>     return NS_OK;
+>   }
+> 
+>   // If we are painting in Print Preview do nothing....
+>   if (aPresContext->Type() == nsPresContext::eContext_PrintPreview) {
+>     return NS_OK;
+>   }
+> 
+>   if (aPresContext->Type() == nsPresContext::eContext_Print) {
+>     // UNIX Plugins can't PP at this time, so draw an empty box
+>     // we only want to print on the content layer pass
+>     if (eFramePaintLayer_Content != aWhichLayer)
+>       return NS_OK;
+> 
+>     // data to pass on to the plugin
+>     nsPluginPrint  npprint;
+>     nsPluginWindow window;
+>     nsCOMPtr<nsIPluginInstance> pi;
+>     nsresult rv;
+> 
+>     // sets fields in the plugin structs and gets the plugin instance
+>     rv = SetupPrinting(aRenderingContext, aPresContext, window, npprint, (*getter_AddRefs(pi)));
+>     if (NS_FAILED(rv))
+>       return rv;
+1899d1919
+<     npprint.print.embedPrint.window = window;
+1928d1947
+<     npprint.print.embedPrint.window        = window;
+1954d1972
+<     npprint.print.embedPrint.window = window;
+1967a1986,1988
+>     /* XXXjgaunt - commenting this out because we lost the frame in
+>                  - re-factoring. (setupPrinting())
+>                  - Is this really necessary???
+1970a1992
+>     */
+1981d2002
+<   if (NS_FRAME_PAINT_LAYER_FOREGROUND == aWhichLayer) {
+1984c2005,2006
+<     if (inst) {
+---
+>   if (!inst)
+>     return NS_ERROR_FAILURE;
+1989c2011,2012
+<       if (window->type == nsPluginWindowType_Drawable) {
+---
+>   if (window->type == nsPluginWindowType_Drawable &&
+>       NS_FRAME_PAINT_LAYER_FOREGROUND == aWhichLayer) {
+2061d2083
+<         }
+2065a2088,2138
+>   else if (window->type == nsPluginWindowType_Window &&
+>            eFramePaintLayer_Content == aWhichLayer) {
+>     // This section handles the case of being called from
+>     //   nsViewManager::RenderOffscreen(). That call is made
+>     //   from the nsCanvas impl as well as for some embedding
+>     //   applications.
+>     // We must set things up like we are printing and then
+>     //   have the plugin render to a DeviceContext created
+>     //   in RenderOffscreen()
+>     // We may also get here during regular operation. In that
+>     //   case the location we tell the plugin to print is
+>     //   merely it's own window.
+> 
+>     // data to pass on to the plugin
+>     nsPluginPrint  npprint;
+>     nsPluginWindow window;
+>     nsCOMPtr<nsIPluginInstance> pi;
+>     nsresult rv;
+> 
+>     // sets fields in the plugin structs and gets the plugin instance
+>     rv = SetupPrinting(aRenderingContext, aPresContext, window, npprint, (*getter_AddRefs(pi)));
+>     if (NS_FAILED(rv))
+>       return rv;
+> 
+> #ifdef XP_WIN
+>     // This will be the plugin's window's DC or one provided by RenderOffscreen
+>     PRUint32 pDC = 0;
+>     aRenderingContext.RetrieveCurrentNativeGraphicData((void**)&pDC);
+>     if (!pDC)
+>       return NS_OK;  // no dc implemented so quit
+> 
+>     // set the context to print to
+>     npprint.print.embedPrint.platformPrint = (void*) pDC;
+> 
+>     // tell the plugin to render to the DC - works for Flash, not for quicktime
+>     rv = pi->Print(&npprint);
+> 
+>  // XXXjgaunt - try sending a WM_PRINTCLIENT w/ PRF_CLIENT in lparam and DC in wparam
+> /*
+>     nsPluginWindowHelper helper;
+> 
+>     nsPluginEvent pPluginEvent;
+>     pPluginEvent.event  = WM_PRINTCLIENT;
+>     pPluginEvent.wParam = (PRUint32) pDC;
+>     pPluginEvent.lParam = PRF_CLIENT;
+> 
+>     // call the WinProc with the HWND and the event (message,wparam,lparam)
+>     helper.LLSendEventToWindow((void*) &window, (void*) mInstanceOwner->GetPluginPort(), (void*) &pPluginEvent);
+> */
+> 
+> #endif /* XP_WIN */
+2092a2166,2175
+>   // XXXjgaunt - added the windowless check
+>   PRBool windowless = PR_FALSE;
+>   nsCOMPtr<nsIPluginInstance> pluginInstance;
+>   GetPluginInstance(*getter_AddRefs(pluginInstance));
+> 
+>   if(pluginInstance)
+>     pluginInstance->GetValue(nsPluginInstanceVariable_WindowlessBool,
+>                              (void *)&windowless);
+> 
+>   if (windowless) {
+2093a2177,2181
+>   }
+>   else {
+>     *anEventStatus = mInstanceOwner->ProcessEvent(*anEvent);
+>     rv = *anEventStatus;
+>   }
+3896d3983
+<   // this code supports windowless plugins
+3901d3987
+<   if (pPluginEvent) {
+3902a3989,3996
+>   if (pPluginEvent) {
+>     // XXXjgaunt
+>     // Are we windowed? If so, pass the event on to the window
+>     PRBool windowless = PR_FALSE;
+>     mInstance->GetValue(nsPluginInstanceVariable_WindowlessBool,
+>                         (void *)&windowless);
+> 
+>     if (windowless) {
+3906a4001,4019
+>     else {
+>       // set this here, but it could happen earlier. Right now the only
+>       //   case we need to set this is for certain types of embedding 
+>       //   that need to translate mouse click locations from screen to
+>       //   client coordinates.
+>       // Default behavior would be to capture (PR_TRUE)
+>       nsPluginWindowHelper helper;
+>       if (anEvent.flags & NS_EVENT_FLAG_NO_MOUSE_CAPTURE) {
+>         helper.SetMouseCapture(mPluginWindow, PR_FALSE);
+>       }
+>       else {
+>         helper.SetMouseCapture(mPluginWindow, PR_TRUE);
+>       }
+>       // call the WinProc with the HWND and the event (message,wparam,lparam)
+>       helper.LLSendEventToWindow(mPluginWindow, (void*) GetPluginPort(), (void*) pPluginEvent);
+>       // XXXjgaunt - not sure if this is right, just following what was above
+>       rv = nsEventStatus_eConsumeNoDefault;
+>     }
+>   }
+Index: layout/generic/nsObjectFrame.h
+===================================================================
+RCS file: /cvsroot/mozilla/layout/generic/nsObjectFrame.h,v
+retrieving revision 1.44.12.1
+diff -r1.44.12.1 nsObjectFrame.h
+205a206,215
+>   // called from Paint() to collect functionality that is used in
+>   //   mulitple places for drastically different purposes: Printing;
+>   //   and painting to a different DC than associated with a 
+>   //   windowed plugin.
+>   nsresult SetupPrinting(nsIRenderingContext& aRenderingContext,
+>                          nsPresContext *aPresContext,
+>                          nsPluginWindow &aPlugWin,
+>                          nsPluginPrint  &aPlugPrint,
+>                          nsIPluginInstance *&aPlugInstance);
+> 
+Index: modules/plugin/base/public/nsPluginNativeWindow.h
+===================================================================
+RCS file: /cvsroot/mozilla/modules/plugin/base/public/nsPluginNativeWindow.h,v
+retrieving revision 1.3
+diff -r1.3 nsPluginNativeWindow.h
+108a109,157
+> /**
+>  * Allows access to platform specific window implementations.
+>  *
+>  * Because the platform specific definitions are in the implementation files
+>  *   it isn't possible to call them directly (and probably a good thing at that).
+>  *   This class allows access to those classes without revealing the details of
+>  *   implementation underneath.
+>  */
+> class nsPluginWindowHelper {
+> public:
+>   nsPluginWindowHelper() {}
+>   virtual ~nsPluginWindowHelper() {}
+>   /**
+>    * The default behavior for mozilla's winowed plugins is to capture
+>    *   the mouse input on a mouse down message and to release it on a mouse up.
+>    *   this works fine if the input coordinates are in the right coordinate
+>    *   system. But in some embedding cases it is necessary to translate the
+>    *   actual screen coordinates that get passed in by the sytsem. This method
+>    *   allows the embedding application to receive the mouse events first so as
+>    *   to perform any coordinate translation that needs to happen.
+>    *
+>    * See the use of this in nsObjectFrame to see an example of it's use.
+>    *
+>    * @arg aNativeWindow - a pointer to the nsPluginNativeWindow(Win|Mac|Unix..)
+>    *      for the plugin. If aMouseCapture is PR_FALSE, this window
+>    *      will receive the mouse events.
+>    *
+>    * @arg aMouseCapture - PR_TRUE means mozilla will capture mouse events
+>    *                      PR_FALSE means it won't.
+>    */
+>   nsresult SetMouseCapture(void *aNativeWindow, PRBool aMouseCapture);
+> 
+>   /**
+>    * This allows a message to be sent directly to the plugin's window. 
+>    *
+>    * @arg aNativeWindow - a pointer to the nsPluginNativeWindow(Win|Mac|Unix..)
+>    *      for the plugin.
+>    *
+>    * @arg aPluginPort - a pointer to the platform dependant impl of the
+>    *      nsPluginPort struct. On Windows this is a HWND. This is the handle
+>    *      to the plugin's window that will recieve the message.
+>    *
+>    * @arg aNativeMessage - The native message for the platform. On windows
+>    *      this is a nsPluginEvent pointer (event, wParam, lParam). This is
+>    *      the message that will be sent to the plugin's window
+>    */
+>   nsresult LLSendEventToWindow(void *aNativeWindow, void *aPluginPort, void *aNativeMsg);
+> };
+> 
+Index: modules/plugin/base/src/nsPluginNativeWindowWin.cpp
+===================================================================
+RCS file: /cvsroot/mozilla/modules/plugin/base/src/nsPluginNativeWindowWin.cpp,v
+retrieving revision 1.15
+diff -r1.15 nsPluginNativeWindowWin.cpp
+142a143,149
+>   // XXXjgaunt
+>   void SetMouseCapture(PRBool aCapture) { mCanCaptureMouse = aCapture; }
+>   PRBool CanCaptureMouse() { return mCanCaptureMouse; }
+>   PRBool CanReleaseMouse() { return mMouseCaptured; }
+>   void MouseCaptured() { mMouseCaptured = PR_TRUE; }
+>   void MouseReleased() { mMouseCaptured = PR_FALSE; }
+> 
+146a154,155
+>   PRBool mCanCaptureMouse;
+>   PRBool mMouseCaptured;
+151a161,195
+> // XXXjgaunt
+> // class nsPluginWindowHelper
+> nsresult nsPluginWindowHelper::SetMouseCapture(void *aNativeWindow, PRBool aMouseCapture) {
+>   nsPluginNativeWindowWin *nativeWin = (nsPluginNativeWindowWin *) aNativeWindow;
+>   if (nativeWin) {
+>     nativeWin->SetMouseCapture(aMouseCapture);
+>     return NS_OK;
+>   }
+>   return NS_ERROR_FAILURE;
+> }
+> 
+> // on windows the incomimg pluginport is an HWND, nativemsg is (msg, wparam, lparam)
+> nsresult nsPluginWindowHelper::LLSendEventToWindow(void *aNativeWindow, void *aPluginPort, void *aNativeMsg)
+> {
+>   nsresult rv = NS_ERROR_FAILURE;
+>   nsPluginNativeWindowWin *nativeWin = (nsPluginNativeWindowWin *) aNativeWindow;
+>   if (nativeWin) {
+>     nsPluginEvent *plugEvent = (nsPluginEvent *) aNativeMsg;
+>     if (plugEvent) {
+>       if (((nsPluginEvent *) aNativeMsg)->event == 0x0020) {  // the code for WM_SETCURSOR
+>         // the wParam for SETCURSOR messages may be set to the parent window, not the plugin's window
+> //        rv = PluginWndProc((HWND) aPluginPort, plugEvent->event, (PRUint32)aPluginPort, plugEvent->lParam);
+> //        rv = SendMessage((HWND) aPluginPort, plugEvent->event, (PRUint32)aPluginPort, plugEvent->lParam);
+>         rv = PostMessage((HWND) aPluginPort, plugEvent->event, (PRUint32)aPluginPort, plugEvent->lParam);
+>       }
+>       else {
+> //        rv = PluginWndProc((HWND) aPluginPort, plugEvent->event, plugEvent->wParam, plugEvent->lParam);
+> //        rv = SendMessage((HWND) aPluginPort, plugEvent->event, plugEvent->wParam, plugEvent->lParam);
+>         rv = PostMessage((HWND) aPluginPort, plugEvent->event, plugEvent->wParam, plugEvent->lParam);
+>       }
+>     }
+>   }
+>   return rv;
+> }
+> 
+211c255,259
+<   // check plugin myme type and cache whether it is Flash or not
+---
+>   // XXXjgaunt - so SendMessage() doesn't block
+>   if (InSendMessage()) 
+>     ReplyMessage(TRUE);
+> 
+>   // check plugin mime-type and cache whether it is Flash or not
+262c310
+<       if (widget)
+---
+>       if (widget && win->CanCaptureMouse()) {
+263a312,313
+>         win->MouseCaptured();
+>       }
+274c324
+<       if (widget)
+---
+>       if (widget && win->CanReleaseMouse()) {
+275a326,327
+>         win->MouseReleased();
+>       }
+379a432,433
+>   mCanCaptureMouse = PR_TRUE;
+>   mMouseCaptured = PR_FALSE;
+Index: modules/plugin/base/src/nsPluginsDirDarwin.cpp
+===================================================================
+RCS file: /cvsroot/mozilla/modules/plugin/base/src/nsPluginsDirDarwin.cpp,v
+retrieving revision 1.8.2.2
+diff -r1.8.2.2 nsPluginsDirDarwin.cpp
+273c273
+<     char* cstr = new char[len + 1];
+---
+>     char* cstr = (char*)PR_Malloc((len + 1) * sizeof(char));
+386,387c386,387
+<       info.fMimeTypeArray      = new char*[variantCount];
+<       info.fExtensionArray     = new char*[variantCount];
+---
+>       info.fMimeTypeArray      = (char **)PR_Malloc(variantCount * sizeof(char *));
+>       info.fExtensionArray     = (char **)PR_Malloc(variantCount * sizeof(char *));
+389c389
+<         info.fMimeDescriptionArray = new char*[variantCount];
+---
+>         info.fMimeDescriptionArray = (char **)PR_Malloc(variantCount * sizeof(char *));
+416,417c416,418
+<             delete[] info.fName;
+<             delete[] info.fDescription;
+---
+> 
+>             PR_Free(info.fName);
+>             PR_Free(info.fDescription);
+421,423c422,424
+<                     delete[] info.fMimeTypeArray[i];
+<                     delete[] info.fExtensionArray[i];
+<                     delete[] info.fMimeDescriptionArray[i];
+---
+>                     PR_Free(info.fMimeTypeArray[i]);
+>                     PR_Free(info.fExtensionArray[i]);
+>                     PR_Free(info.fMimeDescriptionArray[i]);
+425,429c426,430
+<             delete[] info.fMimeTypeArray;
+<             delete[] info.fMimeDescriptionArray;
+<             delete[] info.fExtensionArray;
+<             delete[] info.fFileName;
+<             delete[] info.fFullPath;
+---
+>             PR_Free(info.fMimeTypeArray);
+>             PR_Free(info.fMimeDescriptionArray);
+>             PR_Free(info.fExtensionArray);
+>             PR_Free(info.fFileName);
+>             PL_strfree(info.fFullPath);
+Index: modules/zlib/src/zutil.h
+===================================================================
+RCS file: /cvsroot/mozilla/modules/zlib/src/zutil.h,v
+retrieving revision 3.10
+diff -r3.10 zutil.h
+200c200
+< #      define vsnprintf _vsnprintf
+---
+> //#      define vsnprintf _vsnprintf
+Index: netwerk/system/win32/nsNotifyAddrListener.cpp
+===================================================================
+RCS file: /cvsroot/mozilla/netwerk/system/win32/nsNotifyAddrListener.cpp,v
+retrieving revision 1.4.2.3
+diff -r1.4.2.3 nsNotifyAddrListener.cpp
+69a70
+> /*
+76a78
+> */
+77a80
+> /*
+85a89
+> */
+86a91
+> /*
+93a99
+> */
+106,108c112,114
+<     IP_PREFIX_ORIGIN PrefixOrigin;
+<     IP_SUFFIX_ORIGIN SuffixOrigin;
+<     IP_DAD_STATE DadState;
+---
+>     int PrefixOrigin;
+>     int SuffixOrigin;
+>     int DadState;
+150a157
+> #if _MSC_VER < 1500  
+159a167
+> #endif
+Index: view/src/nsViewManager.cpp
+===================================================================
+RCS file: /cvsroot/mozilla/view/src/nsViewManager.cpp,v
+retrieving revision 3.411.2.5
+diff -r3.411.2.5 nsViewManager.cpp
+1877a1878
+> 
+2014a2016
+> 
+2432,2438c2434,2435
+<   // Create the Z-ordered view tree
+<   PRBool paintFloats;
+<   if (aEventProcessing) {
+<     paintFloats = PR_TRUE;
+<   } else {
+<     paintFloats = displayRoot->GetFloating();
+<   }
+---
+>   // XXXjgaunt - Linden - Always paint floats
+>   PRBool paintFloats = PR_TRUE;
+3573a3571
+>   // XXXjgaunt - Linden - fixes scrollbars, popups, iframes, framesets
+3575c3573
+<                             PR_TRUE, PR_TRUE, suppressScrolling);
+---
+>                             PR_TRUE, PR_FALSE, suppressScrolling);
+3712a3711,3712
+>   // XXXjgaunt - Linden - always paint floats
+>   aPaintFloats = PR_TRUE;
+Index: webshell/tests/viewer/windows/nsdefs.h
+===================================================================
+RCS file: /cvsroot/mozilla/webshell/tests/viewer/windows/Attic/nsdefs.h,v
+retrieving revision 1.4
+diff -r1.4 nsdefs.h
+44c44
+<   #define BREAK_TO_DEBUGGER           DebugBreak()
+---
+>   #define BREAK_TO_DEBUGGER           
+Index: widget/public/nsGUIEvent.h
+===================================================================
+RCS file: /cvsroot/mozilla/widget/public/nsGUIEvent.h,v
+retrieving revision 3.121.4.4
+diff -r3.121.4.4 nsGUIEvent.h
+120a121
+> #define NS_EVENT_FLAG_NO_MOUSE_CAPTURE    0x1000       // XXXjgaunt
+Index: widget/public/nsIToolkit.idl
+===================================================================
+RCS file: /cvsroot/mozilla/widget/public/nsIToolkit.idl,v
+retrieving revision 1.3
+diff -r1.3 nsIToolkit.idl
+45a46,47
+> interface nsIWidget;
+> 
+47a50,61
+> [uuid(792dc3f5-adc0-4ef7-a07d-e0fd9be8cc9f)]
+> interface nsIToolkitObserver : nsISupports
+> {
+>   /**
+>    * Called after a native widget has been invalidated, either manually
+>    * via nsIWidget::Invalidate or due to a widget being moved, shown or
+>    * resized. We pass the coordinates of the rectangle that bounds the
+>    * area that has been invalidated, relative to the origin of nsIWidget
+>    * in pixels.
+>    */
+>   void notifyInvalidated(in nsIWidget aWidget, in long x, in long y, in long width, in long height);
+> };
+60a75,76
+>   void addObserver(in nsIToolkitObserver aObserver);
+>   void removeObserver(in nsIToolkitObserver aObserver);
+Index: widget/src/beos/nsdefs.h
+===================================================================
+RCS file: /cvsroot/mozilla/widget/src/beos/nsdefs.h,v
+retrieving revision 1.4
+diff -r1.4 nsdefs.h
+42c42
+<   #define BREAK_TO_DEBUGGER           DebugBreak()
+---
+>   #define BREAK_TO_DEBUGGER 
+Index: widget/src/gtk2/nsAppShell.h
+===================================================================
+RCS file: /cvsroot/mozilla/widget/src/gtk2/nsAppShell.h,v
+retrieving revision 1.6
+diff -r1.6 nsAppShell.h
+45a46,47
+> class nsIToolkit;
+> 
+Index: widget/src/gtk2/nsToolkit.cpp
+===================================================================
+RCS file: /cvsroot/mozilla/widget/src/gtk2/nsToolkit.cpp,v
+retrieving revision 1.5
+diff -r1.5 nsToolkit.cpp
+109a110,146
+> //-------------------------------------------------------------------------
+> //
+> //
+> //-------------------------------------------------------------------------
+> NS_IMETHODIMP
+> nsToolkit::AddObserver(nsIToolkitObserver* aObserver)
+> {
+>     if (! aObserver)
+>         return NS_ERROR_NULL_POINTER;
+> 
+>     if (! mObservers.AppendObject(aObserver)) {
+>         return NS_ERROR_FAILURE;
+>     }
+> 
+>     return NS_OK;
+> }
+> 
+> NS_IMETHODIMP
+> nsToolkit::RemoveObserver(nsIToolkitObserver* aObserver)
+> {
+>     if (! aObserver)
+>         return NS_ERROR_NULL_POINTER;
+> 
+>     mObservers.RemoveObject(aObserver);
+> 
+>     return NS_OK;
+> 
+> }
+> 
+> void nsToolkit::NotifyInvalidated(nsIWidget* aWidget, int x, int y, int width, int height)
+> {
+>     PRInt32 count = mObservers.Count();
+>     for (PRInt32 i = 0; i < count; ++i)
+>         {
+>             (void) mObservers[i]->NotifyInvalidated(aWidget, x, y, width, height);
+>         }
+> }
+Index: widget/src/gtk2/nsToolkit.h
+===================================================================
+RCS file: /cvsroot/mozilla/widget/src/gtk2/Attic/nsToolkit.h,v
+retrieving revision 1.4
+diff -r1.4 nsToolkit.h
+43a44
+> #include "nsCOMArray.h"
+64a66,71
+>     NS_IMETHOD      AddObserver(nsIToolkitObserver* aObserver);
+>     NS_IMETHOD      RemoveObserver(nsIToolkitObserver* aObserver);
+> 
+>     void            NotifyInvalidated(nsIWidget* aWidget, int x, int y,
+>                                       int width, int height);
+> 
+66a74
+>     nsCOMArray<nsIToolkitObserver> mObservers;
+Index: widget/src/gtk2/nsWindow.cpp
+===================================================================
+RCS file: /cvsroot/mozilla/widget/src/gtk2/nsWindow.cpp,v
+retrieving revision 1.145.2.14
+diff -r1.145.2.14 nsWindow.cpp
+324a325,326
+>     NotifyInvalidated(nsRect(nsPoint(0, 0), mBounds.Size()));
+> 
+469a472
+>         NotifyInvalidated(nsRect(nsPoint(0, 0), mBounds.Size()));
+577a581,582
+>     NotifyInvalidated(nsRect(nsPoint(0, 0), mBounds.Size()));
+> 
+616a622,624
+> 
+>     NotifyInvalidated(nsRect(nsPoint(0, 0), mBounds.Size()));
+> 
+653a662,663
+>     NotifyInvalidated(nsRect(nsPoint(0, 0), mBounds.Size()));
+> 
+1005a1016,1017
+>     NotifyInvalidated(nsRect(nsPoint(0, 0), mBounds.Size()));
+> 
+1008,1009c1020,1021
+<     if (!mDrawingarea)
+<         return NS_OK;
+---
+>     if (!mDrawingarea) 
+>        return NS_OK;
+1023a1036,1037
+>     NotifyInvalidated(nsRect(nsPoint(0, 0), mBounds.Size()));
+> 
+1056a1071,1072
+>     NotifyInvalidated(aRect);
+> 
+1064a1081,1082
+>     NotifyInvalidated(aRect);
+> 
+1084a1103,1104
+> 
+>         NotifyInvalidated(nsRect(rect.x, rect.y, rect.width, rect.height));
+1096a1117,1118
+>     NotifyInvalidated(nsRect(nsPoint(0, 0), mBounds.Size()));
+> 
+1100a1123
+>     NotifyInvalidated(nsRect(nsPoint(0, 0), mBounds.Size()));
+1114a1138,1139
+>     NotifyInvalidated(nsRect(nsPoint(0, 0), mBounds.Size()));
+> 
+1130a1156,1158
+> 
+>     NotifyInvalidated(nsRect(nsPoint(0, 0), mBounds.Size()));
+> 
+1137a1166,1167
+>     NotifyInvalidated(nsRect(nsPoint(0, 0), mBounds.Size()));
+> 
+1141a1172,1174
+> 
+>     NotifyInvalidated(nsRect(nsPoint(0, 0), mBounds.Size()));
+> 
+1467a1501,1502
+>  
+>     NotifyInvalidated(nsRect(nsPoint(0, 0), mBounds.Size()));
+1515a1551,1552
+>     NotifyInvalidated(nsRect(nsPoint(0, 0), mBounds.Size()));
+> 
+1530a1568,1569
+>  
+>     NotifyInvalidated(nsRect(nsPoint(0, 0), mBounds.Size()));
+2396a2436,2437
+>     //    mToolkit = aToolkit;
+> 
+2728a2770,2771
+>     NotifyInvalidated(nsRect(nsPoint(0, 0), mBounds.Size()));
+> 
+2753a2797,2798
+>     NotifyInvalidated(nsRect(nsPoint(0, 0), mBounds.Size()));
+> 
+2795a2841,2842
+> 
+>     NotifyInvalidated(nsRect(nsPoint(0, 0), mBounds.Size()));
+2842a2890,2891
+> 
+>     NotifyInvalidated(nsRect(nsPoint(0, 0), mBounds.Size()));
+3017a3067,3068
+> 
+>     NotifyInvalidated(nsRect(nsPoint(0, 0), mBounds.Size()));
+Index: widget/src/gtk2/nsWindow.h
+===================================================================
+RCS file: /cvsroot/mozilla/widget/src/gtk2/nsWindow.h,v
+retrieving revision 1.55.2.2
+diff -r1.55.2.2 nsWindow.h
+41a42
+> #include "nsToolkit.h"
+288a290,298
+> protected:
+>     void NotifyInvalidated(const nsRect& aRect) {
+>         nsToolkit* tk = NS_STATIC_CAST(nsToolkit*, mToolkit);
+>         if (tk) {
+>             tk->NotifyInvalidated(this, aRect.x, aRect.y, aRect.width, aRect.height);
+>         }
+>     }
+> 
+>    
+Index: widget/src/mac/nsMacTSMMessagePump.cpp
+===================================================================
+RCS file: /cvsroot/mozilla/widget/src/mac/Attic/nsMacTSMMessagePump.cpp,v
+retrieving revision 1.18.12.4
+diff -r1.18.12.4 nsMacTSMMessagePump.cpp
+174a175,177
+> 
+> 	if(NULL==eventHandler)
+> 		return errAEEventNotHandled;
+222a226,228
+> 
+> 	if(NULL==eventHandler)
+> 		return errAEEventNotHandled;
+266a273,275
+> 
+>   if(NULL==*outEventHandler)
+>     return errAEEventNotHandled;
+440a450,452
+> 
+>   if(NULL==eventHandler)
+>     return errAEEventNotHandled;
+Index: widget/src/mac/nsToolkitBase.cpp
+===================================================================
+RCS file: /cvsroot/mozilla/widget/src/mac/Attic/nsToolkitBase.cpp,v
+retrieving revision 1.7
+diff -r1.7 nsToolkitBase.cpp
+245a246,285
+> NS_IMETHODIMP
+> nsToolkitBase::AddObserver(nsIToolkitObserver* aObserver)
+> {
+>     if (! aObserver)
+>         return NS_ERROR_NULL_POINTER;
+> 
+>     if (! mObservers.AppendObject(aObserver)) {
+>         return NS_ERROR_FAILURE;
+>     }
+> 
+>     return NS_OK;
+> }
+> 
+> NS_IMETHODIMP
+> nsToolkitBase::RemoveObserver(nsIToolkitObserver* aObserver)
+> {
+>     if (! aObserver)
+>         return NS_ERROR_NULL_POINTER;
+> 
+>     mObservers.RemoveObject(aObserver);
+> 
+>     return NS_OK;
+> 
+> }
+> 
+> void nsToolkitBase::NotifyInvalidated(nsIWidget* aWidget, int x, int y, int width, int height)
+> {
+> 	PRInt32 count = mObservers.Count();
+> 	for (PRInt32 i = 0; i < count; ++i)
+> 	{
+> 		(void) mObservers[i]->NotifyInvalidated(aWidget, x, y, width, height);
+> 	}
+> 
+> 	//if (mObserver)
+> 	//	mObserver->NotifyInvalidated(aWidget, x, y, width, height);
+> 
+>    
+> }
+> 
+> 
+Index: widget/src/mac/nsToolkitBase.h
+===================================================================
+RCS file: /cvsroot/mozilla/widget/src/mac/Attic/nsToolkitBase.h,v
+retrieving revision 1.2
+diff -r1.2 nsToolkitBase.h
+45a46
+> #include "nsCOMArray.h"
+59a61,62
+>          void       NotifyInvalidated(nsIWidget* aWidget, int x, int y, int width, int height);
+> 
+78a82,83
+>     //nsCOMPtr<nsIToolkitObserver> mObserver;
+>     nsCOMArray<nsIToolkitObserver> mObservers;
+Index: widget/src/mac/nsWindow.cpp
+===================================================================
+RCS file: /cvsroot/mozilla/widget/src/mac/Attic/nsWindow.cpp,v
+retrieving revision 1.232.2.9
+diff -r1.232.2.9 nsWindow.cpp
+294a295,296
+>     NotifyInvalidated(nsRect(nsPoint(0, 0), mBounds.Size()));
+> 
+425a428,429
+>     NotifyInvalidated(nsRect(nsPoint(0, 0), mBounds.Size()));
+> 
+535a540
+>   NotifyInvalidated(nsRect(nsPoint(0, 0), mBounds.Size()));
+880a886,887
+> 		NotifyInvalidated(nsRect(nsPoint(0, 0), mBounds.Size()));
+> 
+893a901,902
+> 
+> 		NotifyInvalidated(nsRect(nsPoint(0, 0), mBounds.Size()));
+904a914,915
+>   NotifyInvalidated(nsRect(nsPoint(0, 0), mBounds.Size()));
+> 
+906a918
+> 
+919a932,933
+> 
+> 	NotifyInvalidated(nsRect(nsPoint(0, 0), mBounds.Size()));
+929a944,945
+>   NotifyInvalidated(nsRect(nsPoint(0, 0), mBounds.Size()));
+> 
+1053a1070,1071
+> 	NotifyInvalidated(aRect);
+> 
+1093a1112,1115
+>     PRInt32 x, y, width, height;
+>     NS_CONST_CAST(nsIRegion*, aRegion)->GetBoundingBox(&x, &y, &width, &height);
+>     NotifyInvalidated(nsRect(x, y, width, height));
+> 
+1471a1494,1495
+>   NotifyInvalidated(nsRect(nsPoint(0, 0), mBounds.Size()));
+> 
+1704a1729,1730
+> 	  
+> 	  NotifyInvalidated(scrollRect);
+Index: widget/src/mac/nsWindow.h
+===================================================================
+RCS file: /cvsroot/mozilla/widget/src/mac/Attic/nsWindow.h,v
+retrieving revision 1.106.2.4
+diff -r1.106.2.4 nsWindow.h
+43a44
+> #include "nsToolkit.h"
+240a242,248
+>   void NotifyInvalidated(const nsRect& aRect) {
+> 	nsToolkit* tk = NS_STATIC_CAST(nsToolkit*, mToolkit);
+> 	if (tk) {
+> 	  tk->NotifyInvalidated(this, aRect.x, aRect.y, aRect.width, aRect.height);
+>     }
+>   }
+> 
+Index: widget/src/windows/nsToolkit.cpp
+===================================================================
+RCS file: /cvsroot/mozilla/widget/src/windows/nsToolkit.cpp,v
+retrieving revision 3.48.4.8
+diff -r3.48.4.8 nsToolkit.cpp
+736a737,775
+> NS_IMETHODIMP
+> nsToolkit::AddObserver(nsIToolkitObserver* aObserver)
+> {
+>     if (! aObserver)
+>         return NS_ERROR_NULL_POINTER;
+> 
+>     if (! mObservers.AppendObject(aObserver)) {
+>         return NS_ERROR_FAILURE;
+>     }
+> 
+>     return NS_OK;
+> }
+> 
+> NS_IMETHODIMP
+> nsToolkit::RemoveObserver(nsIToolkitObserver* aObserver)
+> {
+>     if (! aObserver)
+>         return NS_ERROR_NULL_POINTER;
+> 
+>     mObservers.RemoveObject(aObserver);
+> 
+>     return NS_OK;
+> 
+> }
+> 
+> void nsToolkit::NotifyInvalidated(nsIWidget* aWidget, int x, int y, int width, int height)
+> {
+> 	PRInt32 count = mObservers.Count();
+> 	for (PRInt32 i = 0; i < count; ++i)
+> 	{
+> 		(void) mObservers[i]->NotifyInvalidated(aWidget, x, y, width, height);
+> 	}
+> 
+> 	//if (mObserver)
+> 	//	mObserver->NotifyInvalidated(aWidget, x, y, width, height);
+> 
+>    
+> }
+> 
+822,825c861,864
+<     if (nsMsgFilterHook == NULL) {
+<       nsMsgFilterHook = SetWindowsHookEx(WH_CALLWNDPROC, DetectWindowMove, 
+<                                                 NULL, GetCurrentThreadId());
+<     }
+---
+>     //    if (nsMsgFilterHook == NULL) {
+>     //      nsMsgFilterHook = SetWindowsHookEx(WH_CALLWNDPROC, DetectWindowMove, 
+>     //                                                NULL, GetCurrentThreadId());
+>     //    }
+Index: widget/src/windows/nsToolkit.h
+===================================================================
+RCS file: /cvsroot/mozilla/widget/src/windows/nsToolkit.h,v
+retrieving revision 3.31.4.1
+diff -r3.31.4.1 nsToolkit.h
+48a49,51
+> #include "nsCOMArray.h"
+> 
+> #include <stdio.h>
+86a90,92
+>             NS_IMETHOD      AddObserver(nsIToolkitObserver* aObserver);
+>             NS_IMETHOD      RemoveObserver(nsIToolkitObserver* aObserver);
+> 
+91a98,99
+>             void            NotifyInvalidated(nsIWidget* aWidget, int x, int y, int width, int height);
+> 
+102a111,112
+>     //nsCOMPtr<nsIToolkitObserver> mObserver;
+>     nsCOMArray<nsIToolkitObserver> mObservers;
+Index: widget/src/windows/nsWindow.cpp
+===================================================================
+RCS file: /cvsroot/mozilla/widget/src/windows/nsWindow.cpp,v
+retrieving revision 3.569.2.47
+diff -r3.569.2.47 nsWindow.cpp
+1834a1835,1836
+>     NotifyInvalidated(nsRect(nsPoint(0, 0), mBounds.Size()));
+> 
+1851a1854
+>   NotifyInvalidated(nsRect(nsPoint(0, 0), mBounds.Size()));
+1855a1859
+>     NotifyInvalidated(nsRect(nsPoint(0, 0), mBounds.Size()));
+2011a2016
+>     NotifyInvalidated(nsRect(nsPoint(0, 0), mBounds.Size()));
+2058a2064
+>   NotifyInvalidated(nsRect(nsPoint(0, 0), mBounds.Size()));
+2270a2277,2278
+>   NotifyInvalidated(nsRect(nsPoint(0, 0), mBounds.Size()));
+> 
+2312a2321
+>   NotifyInvalidated(nsRect(nsPoint(0, 0), mBounds.Size()));
+2330a2340
+>   NotifyInvalidated(nsRect(nsPoint(0, 0), mBounds.Size()));
+2360a2371,2372
+>   NotifyInvalidated(nsRect(nsPoint(0, 0), mBounds.Size()));
+> 
+2382a2395,2396
+>   NotifyInvalidated(nsRect(nsPoint(0, 0), mBounds.Size()));
+> 
+2413a2428,2429
+>   NotifyInvalidated(nsRect(nsPoint(0, 0), mBounds.Size()));
+> 
+3236a3253,3254
+> 
+>     NotifyInvalidated(nsRect(nsPoint(0,0), mBounds.Size()));
+3276a3295,3296
+> 
+>     NotifyInvalidated(aRect);
+3305a3326,3329
+> 
+>     PRInt32 x, y, width, height;
+>     NS_CONST_CAST(nsIRegion*, aRegion)->GetBoundingBox(&x, &y, &width, &height);
+>     NotifyInvalidated(nsRect(x, y, width, height));
+3446a3471
+>   NotifyInvalidated(nsRect(nsPoint(0, 0), mBounds.Size()));
+3455a3481
+>   NotifyInvalidated(nsRect(nsPoint(0, 0), mBounds.Size()));
+3472a3499
+>   NotifyInvalidated(nsRect(nsPoint(0, 0), mBounds.Size()));
+8146c8173
+<   if (!gMsgFilterHook) {
+---
+>   /*  if (!gMsgFilterHook) {
+8154a8182
+>   */
+8157c8185,8186
+<   if (!gCallProcHook) {
+---
+>   /*  
+> if (!gCallProcHook) {
+8165a8195
+>   */
+8167a8198
+>   /*
+8176a8208
+>   */
+8272a8305,8307
+>       // XXXjgaunt - Linden - to get events to the popup
+>       rollup = PR_FALSE;
+> 
+Index: widget/src/windows/nsWindow.h
+===================================================================
+RCS file: /cvsroot/mozilla/widget/src/windows/nsWindow.h,v
+retrieving revision 3.204.2.13
+diff -r3.204.2.13 nsWindow.h
+528a529,535
+>   void NotifyInvalidated(const nsRect& aRect) {
+> 	nsToolkit* tk = NS_STATIC_CAST(nsToolkit*, mToolkit);
+> 	if (tk) {
+> 	  tk->NotifyInvalidated(this, aRect.x, aRect.y, aRect.width, aRect.height);
+>     }
+>   }
+> 
+Index: widget/src/windows/nsdefs.h
+===================================================================
+RCS file: /cvsroot/mozilla/widget/src/windows/nsdefs.h,v
+retrieving revision 3.5
+diff -r3.5 nsdefs.h
+44c44
+<   #define BREAK_TO_DEBUGGER           DebugBreak()
+---
+>   #define BREAK_TO_DEBUGGER           
+Index: xpcom/base/nsDebugImpl.cpp
+===================================================================
+RCS file: /cvsroot/mozilla/xpcom/base/nsDebugImpl.cpp,v
+retrieving revision 3.10.4.4
+diff -r3.10.4.4 nsDebugImpl.cpp
+71c71
+< #define DebugBreak() { asm("int $3"); }
+---
+> #define DebugBreak() {  }
+88c88
+<     #define DebugBreak() { asm("int $3"); }
+---
+>     #define DebugBreak() {  }
+174,266d173
+< #if defined(_WIN32)
+<    char* assertBehavior = getenv("XPCOM_DEBUG_BREAK");
+<    if (assertBehavior && strcmp(assertBehavior, "warn") == 0)
+<      return NS_OK;
+< 
+< #ifndef WINCE // we really just want to crash for now
+<   static int ignoreDebugger;
+<   if (!ignoreDebugger) {
+<     const char *shouldIgnoreDebugger = getenv("XPCOM_DEBUG_DLG");
+<     ignoreDebugger = 1 + !(shouldIgnoreDebugger && strcmp(shouldIgnoreDebugger, "1"));
+<   }
+<    if((ignoreDebugger == 2) || !InDebugger())
+<       {
+<       DWORD code = IDRETRY;
+< 
+<       /* Create the debug dialog out of process to avoid the crashes caused by 
+<        * Windows events leaking into our event loop from an in process dialog.
+<        * We do this by launching windbgdlg.exe (built in xpcom/windbgdlg).
+<        * See http://bugzilla.mozilla.org/show_bug.cgi?id=54792
+<        */
+<       PROCESS_INFORMATION pi;
+<       STARTUPINFO si;
+<       char executable[MAX_PATH];
+<       char* pName;
+< 
+<       memset(&pi, 0, sizeof(pi));
+< 
+<       memset(&si, 0, sizeof(si));
+<       si.cb          = sizeof(si);
+<       si.wShowWindow = SW_SHOW;
+< 
+<       if(GetModuleFileName(GetModuleHandle("xpcom.dll"), executable, MAX_PATH) &&
+<          NULL != (pName = strrchr(executable, '\\')) &&
+<          NULL != strcpy(pName+1, "windbgdlg.exe") &&
+< #ifdef DEBUG_jband
+<          (printf("Launching %s\n", executable), PR_TRUE) &&
+< #endif         
+<          CreateProcess(executable, buf, NULL, NULL, PR_FALSE,
+<                        DETACHED_PROCESS | NORMAL_PRIORITY_CLASS,
+<                        NULL, NULL, &si, &pi))
+<       {
+<         WaitForSingleObject(pi.hProcess, INFINITE);
+<         GetExitCodeProcess(pi.hProcess, &code);
+<         CloseHandle(pi.hProcess);
+<       }                         
+< 
+<       switch(code)
+<          {
+<          case IDABORT:
+<             //This should exit us
+<             raise(SIGABRT);
+<             //If we are ignored exit this way..
+<             _exit(3);
+<             break;
+<          
+<          case IDIGNORE:
+<             return NS_OK;
+<             // Fall Through
+<          }
+<       }
+< #endif // WINCE
+< #endif
+< 
+< #if defined(XP_OS2)
+<    char* assertBehavior = getenv("XPCOM_DEBUG_BREAK");
+<    if (assertBehavior && strcmp(assertBehavior, "warn") == 0)
+<      return NS_OK;
+< 
+<       char msg[1200];
+<       PR_snprintf(msg, sizeof(msg),
+<                 "%s\n\nClick Cancel to Debug Application.\n"
+<                 "Click Enter to continue running the Application.", buf);
+<       ULONG code = MBID_ERROR;
+<       code = WinMessageBox(HWND_DESKTOP, HWND_DESKTOP, msg, 
+<                            "NSGlue_Assertion", 0,
+<                            MB_ERROR | MB_ENTERCANCEL);
+< 
+<       /* It is possible that we are executing on a thread that doesn't have a
+<        * message queue.  In that case, the message won't appear, and code will
+<        * be 0xFFFF.  We'll give the user a chance to debug it by calling
+<        * Break()
+<        * Actually, that's a really bad idea since this happens a lot with threadsafe
+<        * assertions and since it means that you can't actually run the debug build
+<        * outside a debugger without it crashing constantly.
+<        */
+<       if(( code == MBID_ENTER ) || (code == MBID_ERROR))
+<       {
+<          return NS_OK;
+<          // If Retry, Fall Through
+<       }
+< #endif
+< 
+<       Break(aFile, aLine);
+273,350d179
+< #ifndef TEMP_MAC_HACK
+<   // Write out the assertion message to the debug log
+<    InitLog();
+< 
+<    PR_LOG(gDebugLog, PR_LOG_ERROR, 
+<          ("###!!! Break: at file %s, line %d", aFile, aLine));
+<    PR_LogFlush();
+< 
+<   fprintf(stderr, "Break: at file %s, line %d\n",aFile, aLine);  fflush(stderr);
+<   fflush(stderr);
+< 
+< #if defined(_WIN32)
+< #ifdef _M_IX86
+<    ::DebugBreak();
+< #endif
+< #elif defined(XP_UNIX) && !defined(UNIX_CRASH_ON_ASSERT)
+<     fprintf(stderr, "\07");
+< 
+<     char *assertBehavior = getenv("XPCOM_DEBUG_BREAK");
+< 
+<     if (!assertBehavior) {
+< 
+<       // the default; nothing else to do
+<       ;
+< 
+<     } else if ( strcmp(assertBehavior, "suspend")== 0 ) {
+< 
+<       // the suspend case is first because we wanna send the signal before 
+<       // other threads have had a chance to get too far from the state that
+<       // caused this assertion (in case they happen to have been involved).
+<       //
+<       fprintf(stderr, "Suspending process; attach with the debugger.\n");
+<       kill(0, SIGSTOP);
+< 
+<     } else if ( strcmp(assertBehavior, "warn")==0 ) {
+<       
+<       // same as default; nothing else to do (see "suspend" case comment for
+<       // why this compare isn't done as part of the default case)
+<       //
+<       ;
+< 
+<     } 
+<     else if ( strcmp(assertBehavior,"stack")==0 ) {
+< 
+<       // walk the stack
+<       //
+<       nsTraceRefcntImpl::WalkTheStack(stderr);
+<     } 
+<     else if ( strcmp(assertBehavior,"abort")==0 ) {
+< 
+<       // same as UNIX_CRASH_ON_ASSERT
+<       //
+<       Abort(aFile, aLine);
+< 
+<     } else if ( strcmp(assertBehavior,"trap")==0 ) {
+< 
+<       DebugBreak();
+< 
+<     } else {
+< 
+<       fprintf(stderr, "unrecognized value of XPCOM_DEBUG_BREAK env var!\n");
+< 
+<     }    
+<     fflush(stderr); // this shouldn't really be necessary, i don't think,
+<                     // but maybe there's some lame stdio that buffers stderr
+< 
+< #elif defined(XP_BEOS)
+<   {
+< #ifdef UNIX_CRASH_ON_ASSERT
+< 	char buf[2000];
+< 	sprintf(buf, "Break: at file %s, line %d", aFile, aLine);
+< 	DEBUGGER(buf);
+< #endif
+<   }
+< #else
+<   Abort(aFile, aLine);
+< #endif
+< #endif // TEMP_MAC_HACK
+365,385d193
+< #if defined(_WIN32)
+< #ifdef _M_IX86
+<   long* __p = (long*) 0x7;
+<   *__p = 0x7;
+< #else /* _M_ALPHA */
+<   PR_Abort();
+< #endif
+< #elif defined(XP_UNIX)
+<   PR_Abort();
+< #elif defined(XP_OS2)
+<   DebugBreak();
+<   return NS_OK;
+< #elif defined(XP_BEOS)
+<   {
+< #ifndef DEBUG_cls
+< 	char buf[2000];
+< 	sprintf(buf, "Abort: at file %s, line %d", aFile, aLine);
+< 	DEBUGGER(buf);
+< #endif
+<   } 
+< #endif
+Index: xpcom/base/nsStackFrameWin.cpp
+===================================================================
+RCS file: /cvsroot/mozilla/xpcom/base/Attic/nsStackFrameWin.cpp,v
+retrieving revision 1.8
+diff -r1.8 nsStackFrameWin.cpp
+232,233c232,238
+< 
+< 
+---
+> #if _MSC_VER > 1400  
+> static BOOL CALLBACK callbackEspecial(
+>   PCSTR aModuleName,
+>   DWORD aModuleBase,
+>   ULONG aModuleSize,
+>   PVOID aUserContext)
+> #else
+235c240
+<   LPSTR aModuleName,
+---
+>   PSTR aModuleName,
+238a244
+> #endif
+257c263
+<         retval = _SymLoadModule(GetCurrentProcess(), NULL, aModuleName, NULL, aModuleBase, aModuleSize);
+---
+>         retval = _SymLoadModule(GetCurrentProcess(), (HANDLE)NULL, (PSTR)aModuleName, NULL, aModuleBase, aModuleSize);
+262a269
+> #if _MSC_VER > 1400  
+264c271
+<   PTSTR aModuleName,
+---
+>   PCSTR aModuleName,
+267a275,281
+> #else
+> static BOOL CALLBACK callbackEspecial64(
+>   PSTR aModuleName,
+>   DWORD64 aModuleBase,
+>   ULONG aModuleSize,
+>   PVOID aUserContext)
+> #endif
+Index: xpcom/glue/nsHashKeys.h
+===================================================================
+RCS file: /cvsroot/mozilla/xpcom/glue/nsHashKeys.h,v
+retrieving revision 3.11.2.2
+diff -r3.11.2.2 nsHashKeys.h
+305,306c305,306
+<   nsCharPtrHashKey(const char* aKey) : mKey(strdup(aKey)) { }
+<   nsCharPtrHashKey(const nsCharPtrHashKey& toCopy) : mKey(strdup(toCopy.mKey)) { }
+---
+>   nsCharPtrHashKey(const char* aKey) : mKey(_strdup(aKey)) { }
+>   nsCharPtrHashKey(const nsCharPtrHashKey& toCopy) : mKey(_strdup(toCopy.mKey)) { }
+Index: xpcom/string/public/nsCharTraits.h
+===================================================================
+RCS file: /cvsroot/mozilla/xpcom/string/public/nsCharTraits.h,v
+retrieving revision 1.32.26.1
+diff -r1.32.26.1 nsCharTraits.h
+77a78,79
+> 
+> #ifndef INCLUDED_FROM_BW
+83a86
+> #endif
+Index: xpcom/threads/plevent.c
+===================================================================
+RCS file: /cvsroot/mozilla/xpcom/threads/Attic/plevent.c,v
+retrieving revision 1.54.2.1
+diff -r1.54.2.1 plevent.c
+594a595,600
+>     SYSTEMTIME st;
+>     FILETIME ftCurr;
+>     FILETIME ftPrev;
+>     ULARGE_INTEGER ulargePrev;
+>     ULARGE_INTEGER ulargeCurr;
+>     __int64 temp = 0;
+615a622,625
+>     GetSystemTime(&st);
+>     SystemTimeToFileTime (&st, &ftPrev);
+>     ulargePrev.HighPart = ftPrev.dwHighDateTime;
+>     ulargePrev.LowPart = ftPrev.dwLowDateTime; 
+624a635,644
+> 
+>         GetSystemTime(&st);
+>         SystemTimeToFileTime (&st, &ftCurr);
+>         ulargeCurr.HighPart = ftPrev.dwHighDateTime;
+>         ulargeCurr.LowPart = ftPrev.dwLowDateTime; 
+>         temp = ulargeCurr.QuadPart - ulargePrev.QuadPart;
+>         if (temp > 100000)
+>           {
+>             count = 0;
+>           }
+Index: xulrunner/installer/mac/Makefile.in
+===================================================================
+RCS file: /cvsroot/mozilla/xulrunner/installer/mac/Makefile.in,v
+retrieving revision 1.2.2.4
+diff -r1.2.2.4 Makefile.in
+82c82,83
+< CHOWN_ROOT ?= $(error CHOWN_ROOT must be set to a setuid script.)
+---
+> # MBW -- XXX -- turning this off, since it breaks us.
+> #CHOWN_ROOT ?= $(error CHOWN_ROOT must be set to a setuid script.)
+86c87,88
+< CHOWN_REVERT ?= $(error CHOWN_REVERT must be set to a setuid script.)
+---
+> # MBW -- XXX -- turning this off, since it breaks us.
+> #CHOWN_REVERT ?= $(error CHOWN_REVERT must be set to a setuid script.)
+96a99,101
+> # MBW -- XXX -- turning this off, since it breaks us.
+> # create the package directory at least, so rsync doesn't die.
+> 	mkdir -p $(_ABS_DIST)/$(STAGEPATH)xulrunner-pkg/$(PKG_BASENAME).pkg/Contents/MacOS
+98,112c103,117
+< 	unset NEXT_ROOT; \
+< 	$(CHOWN_ROOT) $(DIST)/$(STAGEPATH)$(MOZ_PKG_APPNAME) && \
+< 	  /Developer/Applications/Utilities/PackageMaker.app/Contents/MacOS/PackageMaker -build -v \
+< 	    -p $(_ABS_DIST)/$(STAGEPATH)xulrunner-pkg/$(PKG_BASENAME).pkg \
+< 	    -f $(_ABS_DIST)/$(STAGEPATH)$(MOZ_PKG_APPNAME) \
+< 	    -r $(_ABS_OBJDIR)/resource-stage \
+< 	    -i $(_ABS_OBJDIR)/Info.plist \
+< 	    -d $(_ABS_OBJDIR)/Description.plist > packagemaker.log; \
+< 	SAVED=$$?; \
+< 	if [ "$$SAVED" == "1" -a \
+< 	     `grep -c 'was completed with the following non-fatal errors' < packagemaker.log` -gt 0 ]; then \
+< 	  SAVED=0; \
+< 	fi; \
+< 	$(CHOWN_REVERT) $(DIST)/$(STAGEPATH)$(MOZ_PKG_APPNAME); \
+< 	exit $$SAVED
+---
+> #	unset NEXT_ROOT; \
+> #	$(CHOWN_ROOT) $(DIST)/$(STAGEPATH)$(MOZ_PKG_APPNAME) && \
+> #	  /Developer/Applications/Utilities/PackageMaker.app/Contents/MacOS/PackageMaker -build -v \
+> #	    -p $(_ABS_DIST)/$(STAGEPATH)xulrunner-pkg/$(PKG_BASENAME).pkg \
+> #	    -f $(_ABS_DIST)/$(STAGEPATH)$(MOZ_PKG_APPNAME) \
+> #	    -r $(_ABS_OBJDIR)/resource-stage \
+> #	    -i $(_ABS_OBJDIR)/Info.plist \
+> #	    -d $(_ABS_OBJDIR)/Description.plist > packagemaker.log; \
+> #	SAVED=$$?; \
+> #	if [ "$$SAVED" == "1" -a \
+> #	     `grep -c 'was completed with the following non-fatal errors' < packagemaker.log` -gt 0 ]; then \
+> #	  SAVED=0; \
+> #	fi; \
+> #	$(CHOWN_REVERT) $(DIST)/$(STAGEPATH)$(MOZ_PKG_APPNAME); \
+> #	exit $$SAVED

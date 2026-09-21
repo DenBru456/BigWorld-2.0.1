@@ -1,0 +1,41 @@
+# 
+# File list for server binaries and base resources.
+# 
+# If editing this, note that more specific file paths should come before
+# shorter file paths.
+# 
+# For example, if you are including bigworld/tools/server/space_viewer with
+# mode of 644, but you want space_viewer.py within that directory to be mode
+# 0755, add it before the space_viewer directory.
+#
+
+excludePathPatterns \.svn
+excludePathPatterns \.nfs
+excludePathPatterns /\.
+
+excludePathPatterns bigworld/bin/.*/(assert|core).*
+excludePathPatterns bigworld/bin/Hybrid64/commands
+excludePathPatterns bigworld/res/(materials|shaders|helpers)
+excludePathPatterns bigworld/res/system/(animation|fonts|maps|materials|post_processing)
+excludePathPatterns bigworld/res/scripts/common/lib-dynload/
+excludePathPatterns bigworld/res/server/bigworld.key
+
+add bigworld/tools/server/install/profile.server.sh,%{_sysconfdir}/profile.d/bw-server.sh,0755
+
+add bigworld/tools/server/rpm/server/bigworld_indie.key,%{bigworld_server_dir}/res/server/bigworld.key,0444,bwserver,bwserver
+add bigworld/bin/%{mf_config},%{bigworld_server_dir}/bigworld/bin/%{mf_config},0555,bwserver,bwserver
+add bigworld/res,%{bigworld_server_dir}/res,0444,bwserver,bwserver
+add bigworld/tools/server/bw_configure,%{bigworld_server_dir}/bin/bw_configure,0555,bwserver,bwserver
+add bigworld/tools/server/install/setup_win_dev.py,%{bigworld_server_dir}/bin/setup_win_dev,0555,bwserver,bwserver
+
+link %{bigworld_server_dir},%{bigworld_current_dir}/server,0555,bwserver,bwserver
+
+dir %{bigworld_dir},555
+dir %{bigworld_current_dir},555
+dir /opt/bigworld,555
+
+dir %{bigworld_server_dir},555,bwserver,bwserver
+dir %{bigworld_server_dir}/bigworld,555,bwserver,bwserver
+dir %{bigworld_server_dir}/bigworld/bin,555,bwserver,bwserver
+dir %{bigworld_server_dir}/bigworld/bin/%{mf_config},555,bwserver,bwserver
+dir %{bigworld_server_dir}/bin,555,bwserver,bwserver

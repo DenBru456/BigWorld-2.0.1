@@ -1,0 +1,101 @@
+<html>
+<body>
+
+<h2>Colour Menu</h2>
+
+Most items within the Colour menu provide a selection of numerous colours
+that can be used to alter the colour being drawn on the GUI for different
+elements.
+
+<p>
+For example the following image illustrates selecting the <i>Blue Violet</i>
+colour underneath the Space Boundary menu item.
+
+<p>
+<img src="menu_colour.png">
+
+<p>
+The following list describes how a colour selection will effect the GUI rather
+than reiterate the choices available.
+
+<h3>Menu items</h3>
+
+<b>CellApp ID</b>
+
+<p>
+The ID of the CellApp the cell exists on.
+
+<p>
+<b>IP Address</b>
+
+<p>
+The IP Address of the CellApp the cell exists on.
+
+
+<p>
+<b>Cell Load</b>
+
+<p>
+The load of the cell. 0 being not loaded at all, 1 representing 100% load.
+
+<p>
+<b>Partition Load</b>
+
+<p>
+The average load of the child nodes of the partition boundary.
+
+
+<p>
+<b>Entity Bounds</b>
+
+<p>
+An internal cell boundary representing the real entities on the cell that
+will not be offloaded in the next tick. This indicates the location that
+a partition boundary can move to in order to accept load on the cell.
+
+<p>
+This boundary is effected by the <code>bw.xml</code> option
+<code>balance/maxCPUOffload</code>.
+
+
+<p>
+<b>Space Boundary</b>
+
+<p>
+The outer boundary of the space geometry mapping.
+
+
+<p>
+<b>Grid</b>
+
+<p>
+The background grid representing the chunks that are loaded in a cell.
+
+
+
+<p>
+<b>Ghost Entity</b>
+
+<p>
+The colour of entities being ghosted (<i>i.e.</i>, non-real) on the currently
+selected cell.
+
+
+<p>
+<b>Cell Boundary</b>
+
+<p>
+The parition lines for all cells within the space.
+
+
+
+<p>
+<b>Relative Colouring (Ctrl R)</b>
+
+<p>
+This option toggles whether to display the load of cells within the space
+coloured relatively to each other with the most loaded cell being bright red
+and the least loaded being light blue.
+
+</body>
+</html>

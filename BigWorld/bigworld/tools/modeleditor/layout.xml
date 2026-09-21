@@ -1,0 +1,83 @@
+<root>
+	<Dock>
+		<visible>	true	</visible>
+		<Panel>
+			<lastX>	300	</lastX>
+			<lastY>	200	</lastY>
+			<lastWidth>	303	</lastWidth>
+			<lastHeight>	763	</lastHeight>
+			<expanded>	true	</expanded>
+			<expandedSize>	100	</expandedSize>
+			<floating>	false	</floating>
+			<Tab>
+				<visible>	true	</visible>
+				<contentID>	UAL	</contentID>
+				<ContentData>
+					<lastLanguage>	en_	</lastLanguage>
+					<shortCaption>	Assets	</shortCaption>
+					<longCaption>	Asset Browser	</longCaption>
+					<initialTreeSize>	164	</initialTreeSize>
+					<layoutVertical>	true	</layoutVertical>
+					<filtersVisible>	false	</filtersVisible>
+					<vfolderOrder>	Favourites;History;All;Models;Shells;Textures;Effects;MFMs;Lights;Animations	</vfolderOrder>
+					<lastVFolder>	Models	</lastVFolder>
+				</ContentData>
+			</Tab>
+			<Tab>
+				<visible>	true	</visible>
+				<contentID>	PageObjectID	</contentID>
+				<ContentData>	</ContentData>
+			</Tab>
+			<Tab>
+				<visible>	true	</visible>
+				<contentID>	PageDisplayID	</contentID>
+				<ContentData>	</ContentData>
+			</Tab>
+			<Tab>
+				<visible>	true	</visible>
+				<contentID>	PageAnimationsID	</contentID>
+				<ContentData>	</ContentData>
+			</Tab>
+			<Tab>
+				<visible>	true	</visible>
+				<contentID>	PageActionsID	</contentID>
+				<ContentData>	</ContentData>
+			</Tab>
+			<Tab>
+				<visible>	true	</visible>
+				<contentID>	PageLodID	</contentID>
+				<ContentData>	</ContentData>
+			</Tab>
+			<Tab>
+				<visible>	true	</visible>
+				<contentID>	PageLightsID	</contentID>
+				<ContentData>	</ContentData>
+			</Tab>
+			<Tab>
+				<visible>	true	</visible>
+				<contentID>	PageMaterialsID	</contentID>
+				<ContentData>	</ContentData>
+			</Tab>
+			<Tab>
+				<visible>	true	</visible>
+				<contentID>	PageMessagesID	</contentID>
+				<ContentData>	</ContentData>
+			</Tab>
+		</Panel>
+		<Tree>
+			<Splitter>
+				<layoutVertical>	false	</layoutVertical>
+				<Left>
+					<size>	1286	</size>
+					<MainView>	Main Application View Window	</MainView>
+				</Left>
+				<Right>
+					<size>	303	</size>
+					<DockedPanel>
+						<index>	0	</index>
+					</DockedPanel>
+				</Right>
+			</Splitter>
+		</Tree>
+	</Dock>
+</root>
