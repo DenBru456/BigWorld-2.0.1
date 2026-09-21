@@ -1,0 +1,9 @@
+<root>
+	<Avatar/>
+	<!-- {+CLIENT_SERVER -->
+	<Space/>
+	<!-- +CLIENT_SERVER} -->
+	<!-- {+BASIC_NPC -->
+	<Greeter/>
+	<!-- +BASIC_NPC} -->
+</root>

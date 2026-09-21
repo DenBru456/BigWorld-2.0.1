@@ -1,0 +1,112 @@
+<root>
+	<graphicsPreferences>
+		<deviceGUID>	D7B71EE2.11CF2A79.32F4743E.35D7C24A	</deviceGUID>
+		<entry>
+			<label>	SKY_LIGHT_MAP	</label>
+			<activeOption>	0	</activeOption>
+		</entry>
+		<entry>
+			<label>	MRT_DEPTH	</label>
+			<activeOption>	0	</activeOption>
+		</entry>
+		<entry>
+			<label>	SHADER_VERSION_CAP	</label>
+			<activeOption>	0	</activeOption>
+		</entry>
+		<entry>
+			<label>	TEXTURE_QUALITY	</label>
+			<activeOption>	1	</activeOption>
+		</entry>
+		<entry>
+			<label>	TEXTURE_COMPRESSION	</label>
+			<activeOption>	0	</activeOption>
+		</entry>
+		<entry>
+			<label>	TEXTURE_FILTERING	</label>
+			<activeOption>	1	</activeOption>
+		</entry>
+		<entry>
+			<label>	MORPH_VERTICES	</label>
+			<activeOption>	0	</activeOption>
+		</entry>
+		<entry>
+			<label>	SHADOWS_QUALITY	</label>
+			<activeOption>	3	</activeOption>
+		</entry>
+		<entry>
+			<label>	SHADOWS_COUNT	</label>
+			<activeOption>	5	</activeOption>
+		</entry>
+		<entry>
+			<label>	WEB_SETTINGS	</label>
+			<activeOption>	0	</activeOption>
+		</entry>
+		<entry>
+			<label>	TERRAIN_LOD	</label>
+			<activeOption>	1	</activeOption>
+		</entry>
+		<entry>
+			<label>	TERRAIN_MESH_RESOLUTION	</label>
+			<activeOption>	0	</activeOption>
+		</entry>
+		<entry>
+			<label>	SPEEDTREE_QUALITY	</label>
+			<activeOption>	0	</activeOption>
+		</entry>
+		<entry>
+			<label>	WATER_QUALITY	</label>
+			<activeOption>	0	</activeOption>
+		</entry>
+		<entry>
+			<label>	WATER_SIMULATION	</label>
+			<activeOption>	1	</activeOption>
+		</entry>
+		<entry>
+			<label>	FOOT_PRINTS	</label>
+			<activeOption>	0	</activeOption>
+		</entry>
+		<entry>
+			<label>	CLASSIC_TERRAIN_QUALITY	</label>
+			<activeOption>	0	</activeOption>
+		</entry>
+		<entry>
+			<label>	FAR_PLANE	</label>
+			<activeOption>	0	</activeOption>
+		</entry>
+		<entry>
+			<label>	FLORA_DENSITY	</label>
+			<activeOption>	0	</activeOption>
+		</entry>
+		<entry>
+			<label>	OBJECT_LOD	</label>
+			<activeOption>	0	</activeOption>
+		</entry>
+	</graphicsPreferences>
+	<devicePreferences>
+		<windowed>	true	</windowed>
+		<waitVSync>	false	</waitVSync>
+		<tripleBuffering>	false	</tripleBuffering>
+		<aspectRatio>	1.777778	</aspectRatio>
+		<windowedWidth>	1600	</windowedWidth>
+		<windowedHeight>	838	</windowedHeight>
+		<fullscreenWidth>	1600	</fullscreenWidth>
+		<fullscreenHeight>	900	</fullscreenHeight>
+	</devicePreferences>
+	<scriptsPreferences>
+		<music>	true	</music>
+		<mouseSensitivity>	0.005000	</mouseSensitivity>
+		<userPreferences>	Bl8=	</userPreferences>
+		<videomode>	20	</videomode>
+		<preset>	0	</preset>
+		<sfxVolume>	1.000000	</sfxVolume>
+		<musicVolume>	1.000000	</musicVolume>
+		<fullscreen>	false	</fullscreen>
+	</scriptsPreferences>
+	<consoleHistory>
+		<line>	import\sBigWorld	</line>
+		<line>	BigWorld.disconnect()	</line>
+		<line>	BigWorld.quit()	</line>
+		<line>	&#209;&#145;	</line>
+		<line>	</line>
+	</consoleHistory>
+</root>

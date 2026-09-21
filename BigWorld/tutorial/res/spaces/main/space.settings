@@ -1,0 +1,13 @@
+<root>
+	<timeOfDay>	system/data/sky.xml	</timeOfDay>
+	<skyGradientDome>	system/data/sky.xml	</skyGradientDome>
+	<bounds>
+		<minX>	-2	</minX>
+		<maxX>	1	</maxX>
+		<minY>	-2	</minY>
+		<maxY>	1	</maxY>
+	</bounds>
+	<terrain>
+		<version>	100	</version>
+	</terrain>
+</root>
